@@ -1,0 +1,12 @@
+# REA Atlas
+
+> Curated atlas of projects reverse-engineered with morluto/rea (Reverse Engineer Anything, https://github.com/morluto/rea), plus comparable game decompilation / re-implementation projects. Each entry is labelled "Uses rea: Yes / No / Unverified". No ROMs, cracks or copyrighted assets.
+
+## Docs
+- [README (English)](README.md)
+- [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
+- [Machine-readable entries](data.json): [section, subsection, name, url, uses_rea, note]
+- [Contributing](CONTRIBUTING.md)
+
+## Sections
+- Official REA showcases; Games by platform (PC/DOS/PC-98, N64, Mega Drive, SNES, NES, GBA, Game Boy, PlayStation) split into Decompilation/Recomp, Remake/Port, Asset tools; Apps/Electron; Protocols; Firmware; Security; Tooling.
