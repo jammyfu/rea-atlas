@@ -240,7 +240,7 @@
   "Pokémon Gold/Silver disassembly."
  ],
  [
-  "ps",
+  "ps1",
   "decomp",
   "Xeeynamo/sotn-decomp",
   "https://github.com/Xeeynamo/sotn-decomp",
@@ -366,5 +366,661 @@
   "https://github.com/skylot/jadx",
   "No",
   "Android DEX decompiler REA can drive. Apache-2.0."
+ ],
+ [
+  "ps2",
+  "decomp",
+  "ran-j/PS2Recomp",
+  "https://github.com/ran-j/PS2Recomp",
+  "No",
+  "PS2 static recompiler. GPL-3.0."
+ ],
+ [
+  "snes",
+  "remake",
+  "snesrev/smw",
+  "https://github.com/snesrev/smw",
+  "No",
+  "Super Mario World C reimplementation; needs your own ROM."
+ ],
+ [
+  "tooling",
+  "",
+  "LaurieWired/GhidraMCP",
+  "https://github.com/LaurieWired/GhidraMCP",
+  "No",
+  "MCP server for Ghidra. Apache-2.0."
+ ],
+ [
+  "tooling",
+  "",
+  "x64dbg/x64dbg",
+  "https://github.com/x64dbg/x64dbg",
+  "No",
+  "Windows debugger."
+ ],
+ [
+  "gc",
+  "tools",
+  "encounter/decomp-toolkit",
+  "https://github.com/encounter/decomp-toolkit",
+  "No",
+  "Toolkit for GameCube/Wii decompilation. Apache-2.0."
+ ],
+ [
+  "n64",
+  "decomp",
+  "HarbourMasters/Starship",
+  "https://github.com/HarbourMasters/Starship",
+  "No",
+  "Star Fox 64 PC port based on the sf64 decomp. CC0-1.0."
+ ],
+ [
+  "tooling",
+  "",
+  "iBotPeaches/Apktool",
+  "https://github.com/iBotPeaches/Apktool",
+  "No",
+  "Android APK reverse-engineering tool. Apache-2.0."
+ ],
+ [
+  "gc",
+  "decomp",
+  "zeldaret/tww",
+  "https://github.com/zeldaret/tww",
+  "No",
+  "The Wind Waker decompilation. CC0-1.0."
+ ],
+ [
+  "gba",
+  "decomp",
+  "pret/pokeruby",
+  "https://github.com/pret/pokeruby",
+  "No",
+  "Pokémon Ruby/Sapphire decompilation."
+ ],
+ [
+  "tooling",
+  "",
+  "angr/angr",
+  "https://github.com/angr/angr",
+  "No",
+  "Binary analysis platform. BSD-2-Clause."
+ ],
+ [
+  "wii",
+  "decomp",
+  "zeldaret/ss",
+  "https://github.com/zeldaret/ss",
+  "No",
+  "Skyward Sword decompilation. CC0-1.0."
+ ],
+ [
+  "xbox",
+  "decomp",
+  "hedge-dev/XenonRecomp",
+  "https://github.com/hedge-dev/XenonRecomp",
+  "No",
+  "Xbox 360 PPC to C++ static recompiler. MIT."
+ ],
+ [
+  "ds",
+  "decomp",
+  "pret/pokeplatinum",
+  "https://github.com/pret/pokeplatinum",
+  "No",
+  "Pokémon Platinum decompilation."
+ ],
+ [
+  "n64",
+  "decomp",
+  "n64decomp/mk64",
+  "https://github.com/n64decomp/mk64",
+  "No",
+  "Mario Kart 64 decompilation."
+ ],
+ [
+  "tooling",
+  "",
+  "avast/retdec",
+  "https://github.com/avast/retdec",
+  "No",
+  "Retargetable machine-code decompiler. MIT."
+ ],
+ [
+  "gc",
+  "tools",
+  "encounter/objdiff",
+  "https://github.com/encounter/objdiff",
+  "No",
+  "Object-file diffing tool used across decomp projects. Apache-2.0."
+ ],
+ [
+  "tooling",
+  "",
+  "rizinorg/cutter",
+  "https://github.com/rizinorg/cutter",
+  "No",
+  "Qt GUI for Rizin. GPL-3.0."
+ ],
+ [
+  "pc",
+  "tools",
+  "ata4/disunity",
+  "https://github.com/ata4/disunity",
+  "No",
+  "Unity asset tools (archived). Unlicense."
+ ],
+ [
+  "3ds",
+  "tools",
+  "3DSGuy/Project_CTR",
+  "https://github.com/3DSGuy/Project_CTR",
+  "No",
+  "3DS file tools (ctrtool / makerom)."
+ ],
+ [
+  "pc",
+  "remake",
+  "julianxhokaxhiu/FFNx",
+  "https://github.com/julianxhokaxhiu/FFNx",
+  "No",
+  "FF7/FF8 PC driver. GPL-3.0."
+ ],
+ [
+  "wii",
+  "decomp",
+  "DarkRTA/rb3",
+  "https://github.com/DarkRTA/rb3",
+  "No",
+  "Rock Band 3 (Wii) decompilation."
+ ],
+ [
+  "gb",
+  "decomp",
+  "pret/pokeyellow",
+  "https://github.com/pret/pokeyellow",
+  "No",
+  "Pokémon Yellow disassembly."
+ ],
+ [
+  "nes",
+  "decomp",
+  "aldonunez/zelda1-disassembly",
+  "https://github.com/aldonunez/zelda1-disassembly",
+  "No",
+  "The Legend of Zelda (NES) disassembly."
+ ],
+ [
+  "protocol",
+  "",
+  "mitmproxy/mitmproxy",
+  "https://github.com/mitmproxy/mitmproxy",
+  "No",
+  "Interactive HTTPS proxy for protocol analysis. MIT."
+ ],
+ [
+  "n64",
+  "remake",
+  "Zelda64Recomp/Zelda64Recomp",
+  "https://github.com/Zelda64Recomp/Zelda64Recomp",
+  "No",
+  "Majora's Mask static recompilation PC port; needs your own ROM. GPL-3.0."
+ ],
+ [
+  "gb",
+  "decomp",
+  "pret/pokecrystal",
+  "https://github.com/pret/pokecrystal",
+  "No",
+  "Pokémon Crystal disassembly."
+ ],
+ [
+  "tooling",
+  "",
+  "ghidraninja/ghidra_scripts",
+  "https://github.com/ghidraninja/ghidra_scripts",
+  "No",
+  "Ghidra scripts. GPL-3.0."
+ ],
+ [
+  "pc",
+  "remake",
+  "Interkarma/daggerfall-unity",
+  "https://github.com/Interkarma/daggerfall-unity",
+  "No",
+  "Daggerfall in Unity; needs your own data. MIT."
+ ],
+ [
+  "tooling",
+  "",
+  "radareorg/radare2",
+  "https://github.com/radareorg/radare2",
+  "No",
+  "Reverse-engineering framework."
+ ],
+ [
+  "tooling",
+  "",
+  "mandiant/flare-floss",
+  "https://github.com/mandiant/flare-floss",
+  "No",
+  "Obfuscated string extraction. Apache-2.0."
+ ],
+ [
+  "n64",
+  "decomp",
+  "zeldaret/mm",
+  "https://github.com/zeldaret/mm",
+  "No",
+  "Majora's Mask decompilation."
+ ],
+ [
+  "pc",
+  "remake",
+  "OpenXcom/OpenXcom",
+  "https://github.com/OpenXcom/OpenXcom",
+  "No",
+  "UFO / X-COM re-implementation. GPL-3.0."
+ ],
+ [
+  "tooling",
+  "",
+  "WerWolv/ImHex",
+  "https://github.com/WerWolv/ImHex",
+  "No",
+  "Hex editor for reverse engineers. GPL-2.0."
+ ],
+ [
+  "pc",
+  "tools",
+  "Perfare/AssetStudio",
+  "https://github.com/Perfare/AssetStudio",
+  "No",
+  "Unity asset explorer (archived). MIT."
+ ],
+ [
+  "ps2",
+  "decomp",
+  "open-goal/jak-project",
+  "https://github.com/open-goal/jak-project",
+  "No",
+  "Jak and Daxter / Jak II PC port via GOAL decompiler; needs your own disc. ISC."
+ ],
+ [
+  "ds",
+  "decomp",
+  "zeldaret/ph",
+  "https://github.com/zeldaret/ph",
+  "No",
+  "Phantom Hourglass decompilation. CC0-1.0."
+ ],
+ [
+  "tooling",
+  "",
+  "mandiant/capa",
+  "https://github.com/mandiant/capa",
+  "No",
+  "Capability detection in executables. Apache-2.0."
+ ],
+ [
+  "tooling",
+  "",
+  "frida/frida",
+  "https://github.com/frida/frida",
+  "No",
+  "Dynamic instrumentation toolkit."
+ ],
+ [
+  "firmware",
+  "",
+  "qilingframework/qiling",
+  "https://github.com/qilingframework/qiling",
+  "No",
+  "Binary emulation framework. GPL-2.0."
+ ],
+ [
+  "nes",
+  "tools",
+  "SourMesen/Mesen2",
+  "https://github.com/SourMesen/Mesen2",
+  "No",
+  "Multi-system emulator with strong debugging tools (NES/SNES/GB/GBA/PCE) (archived). GPL-3.0."
+ ],
+ [
+  "tooling",
+  "",
+  "dnSpyEx/dnSpy",
+  "https://github.com/dnSpyEx/dnSpy",
+  "No",
+  ".NET debugger and assembly editor. GPL-3.0."
+ ],
+ [
+  "tooling",
+  "",
+  "decompme/decomp.me",
+  "https://github.com/decompme/decomp.me",
+  "No",
+  "Collaborative decompilation website. MIT."
+ ],
+ [
+  "tooling",
+  "",
+  "mrexodia/ida-pro-mcp",
+  "https://github.com/mrexodia/ida-pro-mcp",
+  "No",
+  "MCP server for IDA Pro. MIT."
+ ],
+ [
+  "gc",
+  "decomp",
+  "doldecomp/sms",
+  "https://github.com/doldecomp/sms",
+  "No",
+  "Super Mario Sunshine decompilation. CC0-1.0."
+ ],
+ [
+  "pc",
+  "tools",
+  "AssetRipper/AssetRipper",
+  "https://github.com/AssetRipper/AssetRipper",
+  "No",
+  "Unity asset ripping tool for your own projects. GPL-3.0."
+ ],
+ [
+  "pc",
+  "tools",
+  "ladislav-zezula/CascLib",
+  "https://github.com/ladislav-zezula/CascLib",
+  "No",
+  "CASC storage library. MIT."
+ ],
+ [
+  "pc",
+  "decomp",
+  "isledecomp/isle",
+  "https://github.com/isledecomp/isle",
+  "No",
+  "LEGO Island decompilation. LGPL-3.0."
+ ],
+ [
+  "n64",
+  "decomp",
+  "pmret/papermario",
+  "https://github.com/pmret/papermario",
+  "No",
+  "Paper Mario decompilation."
+ ],
+ [
+  "protocol",
+  "",
+  "postlund/pyatv",
+  "https://github.com/postlund/pyatv",
+  "No",
+  "Apple TV protocol library. MIT."
+ ],
+ [
+  "xbox",
+  "remake",
+  "hedge-dev/UnleashedRecomp",
+  "https://github.com/hedge-dev/UnleashedRecomp",
+  "No",
+  "Sonic Unleashed (X360) recompilation PC port; needs your own copy. GPL-3.0."
+ ],
+ [
+  "firmware",
+  "",
+  "ghidraninja/game-and-watch-backup",
+  "https://github.com/ghidraninja/game-and-watch-backup",
+  "No",
+  "Game & Watch backup tool for your own device."
+ ],
+ [
+  "gba",
+  "decomp",
+  "jiangzhengwenjz/katam",
+  "https://github.com/jiangzhengwenjz/katam",
+  "No",
+  "Kirby & the Amazing Mirror decompilation."
+ ],
+ [
+  "pc",
+  "remake",
+  "scummvm/scummvm",
+  "https://github.com/scummvm/scummvm",
+  "No",
+  "Engine re-implementations for classic adventure games. GPL-3.0."
+ ],
+ [
+  "protocol",
+  "",
+  "wireshark/wireshark",
+  "https://github.com/wireshark/wireshark",
+  "No",
+  "Network protocol analyzer. GPL-2.0."
+ ],
+ [
+  "md",
+  "remake",
+  "RSDKModding/RSDKv5-Decompilation",
+  "https://github.com/RSDKModding/RSDKv5-Decompilation",
+  "No",
+  "Retro Engine v5 decompilation (Sonic Mania); needs your own data files."
+ ],
+ [
+  "gba",
+  "decomp",
+  "pret/pmd-red",
+  "https://github.com/pret/pmd-red",
+  "No",
+  "Pokémon Mystery Dungeon: Red Rescue Team decompilation."
+ ],
+ [
+  "firmware",
+  "",
+  "attify/firmware-analysis-toolkit",
+  "https://github.com/attify/firmware-analysis-toolkit",
+  "No",
+  "Firmware emulation toolkit for security research."
+ ],
+ [
+  "md",
+  "remake",
+  "RSDKModding/RSDKv4-Decompilation",
+  "https://github.com/RSDKModding/RSDKv4-Decompilation",
+  "No",
+  "Retro Engine v4 decompilation (Sonic 1/2 mobile remasters)."
+ ],
+ [
+  "firmware",
+  "",
+  "onekey-sec/unblob",
+  "https://github.com/onekey-sec/unblob",
+  "No",
+  "Extraction suite for firmware blobs. MIT."
+ ],
+ [
+  "gc",
+  "decomp",
+  "doldecomp/melee",
+  "https://github.com/doldecomp/melee",
+  "No",
+  "Super Smash Bros. Melee decompilation."
+ ],
+ [
+  "gc",
+  "decomp",
+  "zeldaret/tp",
+  "https://github.com/zeldaret/tp",
+  "No",
+  "Twilight Princess decompilation. CC0-1.0."
+ ],
+ [
+  "saturn",
+  "decomp",
+  "yaz0r/Azel",
+  "https://github.com/yaz0r/Azel",
+  "No",
+  "Panzer Dragoon Saga reimplementation. MIT."
+ ],
+ [
+  "app",
+  "",
+  "electron/asar",
+  "https://github.com/electron/asar",
+  "No",
+  "Electron ASAR archive tool. MIT."
+ ],
+ [
+  "tooling",
+  "",
+  "rizinorg/jsdec",
+  "https://github.com/rizinorg/jsdec",
+  "No",
+  "Simple decompiler for Rizin. It's capable of generating readable pseudo code even on handmade assembly."
+ ],
+ [
+  "pc",
+  "decomp",
+  "diasurgical/DevilutionX",
+  "https://github.com/diasurgical/DevilutionX",
+  "No",
+  "Diablo engine reconstruction; needs your own DIABDAT.MPQ."
+ ],
+ [
+  "pc",
+  "remake",
+  "fallout2-ce/fallout2-ce",
+  "https://github.com/fallout2-ce/fallout2-ce",
+  "No",
+  "Fallout 2 re-implementation; needs your own data."
+ ],
+ [
+  "tooling",
+  "",
+  "rizinorg/rizin",
+  "https://github.com/rizinorg/rizin",
+  "No",
+  "radare2 fork / RE framework. LGPL-3.0."
+ ],
+ [
+  "pc",
+  "remake",
+  "OpenTTD/OpenTTD",
+  "https://github.com/OpenTTD/OpenTTD",
+  "No",
+  "Transport Tycoon Deluxe open re-implementation."
+ ],
+ [
+  "gc",
+  "decomp",
+  "projectPiki/pikmin2",
+  "https://github.com/projectPiki/pikmin2",
+  "No",
+  "Pikmin 2 decompilation. CC0-1.0."
+ ],
+ [
+  "n64",
+  "decomp",
+  "N64Recomp/N64Recomp",
+  "https://github.com/N64Recomp/N64Recomp",
+  "No",
+  "Static recompiler from N64 binaries to C. MIT."
+ ],
+ [
+  "ds",
+  "decomp",
+  "pret/pokeheartgold",
+  "https://github.com/pret/pokeheartgold",
+  "No",
+  "Pokémon HeartGold/SoulSilver decompilation."
+ ],
+ [
+  "gb",
+  "decomp",
+  "zladx/LADX-Disassembly",
+  "https://github.com/zladx/LADX-Disassembly",
+  "No",
+  "Link's Awakening DX disassembly."
+ ],
+ [
+  "tooling",
+  "",
+  "icsharpcode/ILSpy",
+  "https://github.com/icsharpcode/ILSpy",
+  "No",
+  ".NET decompiler. MIT."
+ ],
+ [
+  "xbox",
+  "tools",
+  "xemu-project/xemu",
+  "https://github.com/xemu-project/xemu",
+  "No",
+  "Original Xbox emulator."
+ ],
+ [
+  "md",
+  "decomp",
+  "sonicretro/skdisasm",
+  "https://github.com/sonicretro/skdisasm",
+  "No",
+  "Sonic 3 & Knuckles disassembly."
+ ],
+ [
+  "pc",
+  "remake",
+  "OpenRA/OpenRA",
+  "https://github.com/OpenRA/OpenRA",
+  "No",
+  "Red Alert / C&C engine re-implementation. GPL-3.0."
+ ],
+ [
+  "n64",
+  "decomp",
+  "n64decomp/perfect_dark",
+  "https://github.com/n64decomp/perfect_dark",
+  "No",
+  "Perfect Dark decompilation. MIT."
+ ],
+ [
+  "firmware",
+  "",
+  "travisgoodspeed/md380tools",
+  "https://github.com/travisgoodspeed/md380tools",
+  "No",
+  "MD380 radio firmware patches."
+ ],
+ [
+  "tooling",
+  "",
+  "google/bindiff",
+  "https://github.com/google/bindiff",
+  "No",
+  "Binary diffing. Apache-2.0."
+ ],
+ [
+  "n64",
+  "remake",
+  "2ship2harkinian/2ship2harkinian",
+  "https://github.com/2ship2harkinian/2ship2harkinian",
+  "No",
+  "Majora's Mask PC port. CC0-1.0."
+ ],
+ [
+  "pc",
+  "remake",
+  "perfect-dark-pc-port/perfect_dark",
+  "https://github.com/perfect-dark-pc-port/perfect_dark",
+  "No",
+  "Perfect Dark PC port from decomp. MIT."
+ ],
+ [
+  "ps1",
+  "decomp",
+  "shdecompilations/silent-hill-decomp",
+  "https://github.com/shdecompilations/silent-hill-decomp",
+  "No",
+  "Silent Hill decompilation."
  ]
 ]

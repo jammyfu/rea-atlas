@@ -1,7 +1,5 @@
 # GEO / repo metadata (jammyfu/rea-atlas)
 
-**About:** Atlas of projects reverse-engineered with morluto/rea (Reverse Engineer Anything) and similar game decomp/recomp & re-implementation projects, each tagged "Uses rea: Yes/No/Unverified". EN/中文/日本語/한국어.
+**About:** Map of reverse-engineering projects (with rea tags): game decomp/recomp across NES→Switch-era consoles and PC, re-implementations, asset tools, RE tooling, app/protocol/firmware. Each tagged "Uses rea: Yes/No/Unverified". EN/中文/日本語/한국어.
 
-**Topics:** rea, reverse-engineer-anything, reverse-engineering, decompilation, recompilation, game-preservation, reimplementation, ghidra, mcp, ai-agents, retro-games, curated-list
-
-**Homepage:** https://rea.tools/ (or leave empty)
+**Topics:** reverse-engineering, decompilation, static-recompilation, game-preservation, reimplementation, rea, reverse-engineer-anything, ghidra, radare2, frida, firmware-analysis, mcp, retro-games, curated-list

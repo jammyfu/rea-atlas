@@ -72,8 +72,8 @@
   "https://opengraph.githubassets.com/1/n64decomp/sm64"
  ],
  "HarbourMasters/Shipwright": [
-  "readme",
-  "https://raw.githubusercontent.com/HarbourMasters/Shipwright/develop/docs/shiptitle.darkmode.png"
+  "card",
+  "https://opengraph.githubassets.com/1/HarbourMasters/Shipwright"
  ],
  "ethteck/splat": [
   "card",
@@ -179,5 +179,333 @@
  "skylot/jadx": [
   "readme",
   "https://user-images.githubusercontent.com/118523/142730720-839f017e-38db-423e-b53f-39f5f0a0316f.png"
+ ],
+ "ran-j/PS2Recomp": [
+  "card",
+  "https://opengraph.githubassets.com/1/ran-j/PS2Recomp"
+ ],
+ "snesrev/smw": [
+  "card",
+  "https://opengraph.githubassets.com/1/snesrev/smw"
+ ],
+ "LaurieWired/GhidraMCP": [
+  "readme",
+  "https://github.com/user-attachments/assets/4986d702-be3f-4697-acce-aea55cd79ad3"
+ ],
+ "x64dbg/x64dbg": [
+  "readme",
+  "https://raw.githubusercontent.com/x64dbg/x64dbg/development/.github/screenshots/cpu-light.png"
+ ],
+ "encounter/decomp-toolkit": [
+  "card",
+  "https://opengraph.githubassets.com/1/encounter/decomp-toolkit"
+ ],
+ "HarbourMasters/Starship": [
+  "card",
+  "https://opengraph.githubassets.com/1/HarbourMasters/Starship"
+ ],
+ "iBotPeaches/Apktool": [
+  "card",
+  "https://opengraph.githubassets.com/1/iBotPeaches/Apktool"
+ ],
+ "zeldaret/tww": [
+  "card",
+  "https://opengraph.githubassets.com/1/zeldaret/tww"
+ ],
+ "pret/pokeruby": [
+  "card",
+  "https://opengraph.githubassets.com/1/pret/pokeruby"
+ ],
+ "angr/angr": [
+  "card",
+  "https://opengraph.githubassets.com/1/angr/angr"
+ ],
+ "zeldaret/ss": [
+  "card",
+  "https://opengraph.githubassets.com/1/zeldaret/ss"
+ ],
+ "hedge-dev/XenonRecomp": [
+  "card",
+  "https://opengraph.githubassets.com/1/hedge-dev/XenonRecomp"
+ ],
+ "pret/pokeplatinum": [
+  "card",
+  "https://opengraph.githubassets.com/1/pret/pokeplatinum"
+ ],
+ "n64decomp/mk64": [
+  "card",
+  "https://opengraph.githubassets.com/1/n64decomp/mk64"
+ ],
+ "avast/retdec": [
+  "card",
+  "https://opengraph.githubassets.com/1/avast/retdec"
+ ],
+ "encounter/objdiff": [
+  "readme",
+  "https://raw.githubusercontent.com/encounter/objdiff/main/assets/screen-symbols.png"
+ ],
+ "rizinorg/cutter": [
+  "readme",
+  "https://raw.githubusercontent.com/rizinorg/cutter/dev/docs/source/images/screenshot.png"
+ ],
+ "ata4/disunity": [
+  "card",
+  "https://opengraph.githubassets.com/1/ata4/disunity"
+ ],
+ "3DSGuy/Project_CTR": [
+  "card",
+  "https://opengraph.githubassets.com/1/3DSGuy/Project_CTR"
+ ],
+ "julianxhokaxhiu/FFNx": [
+  "readme",
+  "https://raw.githubusercontent.com/julianxhokaxhiu/FFNx/master/.screens/ff7.png"
+ ],
+ "DarkRTA/rb3": [
+  "card",
+  "https://opengraph.githubassets.com/1/DarkRTA/rb3"
+ ],
+ "pret/pokeyellow": [
+  "card",
+  "https://opengraph.githubassets.com/1/pret/pokeyellow"
+ ],
+ "aldonunez/zelda1-disassembly": [
+  "card",
+  "https://opengraph.githubassets.com/1/aldonunez/zelda1-disassembly"
+ ],
+ "mitmproxy/mitmproxy": [
+  "card",
+  "https://opengraph.githubassets.com/1/mitmproxy/mitmproxy"
+ ],
+ "Zelda64Recomp/Zelda64Recomp": [
+  "readme",
+  "https://raw.githubusercontent.com/Zelda64Recomp/Zelda64Recomp/dev/docs/deck_gyro_1.jpg"
+ ],
+ "pret/pokecrystal": [
+  "card",
+  "https://opengraph.githubassets.com/1/pret/pokecrystal"
+ ],
+ "ghidraninja/ghidra_scripts": [
+  "readme",
+  "https://raw.githubusercontent.com/ghidraninja/ghidra_scripts/master/images/binwalk.png"
+ ],
+ "Interkarma/daggerfall-unity": [
+  "readme",
+  "https://github.com/Interkarma/daggerfall-unity/assets/10426244/4f176f9d-6332-47b3-a4d7-317ed8d6b38b"
+ ],
+ "radareorg/radare2": [
+  "card",
+  "https://opengraph.githubassets.com/1/radareorg/radare2"
+ ],
+ "mandiant/flare-floss": [
+  "readme",
+  "https://github.com/mandiant/flare-floss/assets/156560/f2d471a3-2624-498c-aaa9-928e2909c338"
+ ],
+ "zeldaret/mm": [
+  "card",
+  "https://opengraph.githubassets.com/1/zeldaret/mm"
+ ],
+ "OpenXcom/OpenXcom": [
+  "card",
+  "https://opengraph.githubassets.com/1/OpenXcom/OpenXcom"
+ ],
+ "WerWolv/ImHex": [
+  "card",
+  "https://opengraph.githubassets.com/1/WerWolv/ImHex"
+ ],
+ "Perfare/AssetStudio": [
+  "card",
+  "https://opengraph.githubassets.com/1/Perfare/AssetStudio"
+ ],
+ "open-goal/jak-project": [
+  "readme",
+  "https://raw.githubusercontent.com/open-goal/jak-project/master/docs/img/promosmall1.png"
+ ],
+ "zeldaret/ph": [
+  "card",
+  "https://opengraph.githubassets.com/1/zeldaret/ph"
+ ],
+ "mandiant/capa": [
+  "readme",
+  "https://raw.githubusercontent.com/mandiant/capa/master/doc/img/capa_web_explorer.png"
+ ],
+ "frida/frida": [
+  "card",
+  "https://opengraph.githubassets.com/1/frida/frida"
+ ],
+ "qilingframework/qiling": [
+  "readme",
+  "https://raw.githubusercontent.com/qilingframework/theme.qiling.io/master/source/img/fuzzer.jpg?raw=true"
+ ],
+ "SourMesen/Mesen2": [
+  "card",
+  "https://opengraph.githubassets.com/1/SourMesen/Mesen2"
+ ],
+ "dnSpyEx/dnSpy": [
+  "readme",
+  "https://raw.githubusercontent.com/dnSpyEx/dnSpy/master/images/debug-animated.gif"
+ ],
+ "decompme/decomp.me": [
+  "card",
+  "https://opengraph.githubassets.com/1/decompme/decomp.me"
+ ],
+ "mrexodia/ida-pro-mcp": [
+  "readme",
+  "https://img.youtube.com/vi/iFxNuk3kxhk/0.jpg"
+ ],
+ "doldecomp/sms": [
+  "card",
+  "https://opengraph.githubassets.com/1/doldecomp/sms"
+ ],
+ "AssetRipper/AssetRipper": [
+  "card",
+  "https://opengraph.githubassets.com/1/AssetRipper/AssetRipper"
+ ],
+ "ladislav-zezula/CascLib": [
+  "card",
+  "https://opengraph.githubassets.com/1/ladislav-zezula/CascLib"
+ ],
+ "isledecomp/isle": [
+  "card",
+  "https://opengraph.githubassets.com/1/isledecomp/isle"
+ ],
+ "pmret/papermario": [
+  "card",
+  "https://opengraph.githubassets.com/1/pmret/papermario"
+ ],
+ "postlund/pyatv": [
+  "card",
+  "https://opengraph.githubassets.com/1/postlund/pyatv"
+ ],
+ "hedge-dev/UnleashedRecomp": [
+  "card",
+  "https://opengraph.githubassets.com/1/hedge-dev/UnleashedRecomp"
+ ],
+ "ghidraninja/game-and-watch-backup": [
+  "card",
+  "https://opengraph.githubassets.com/1/ghidraninja/game-and-watch-backup"
+ ],
+ "jiangzhengwenjz/katam": [
+  "card",
+  "https://opengraph.githubassets.com/1/jiangzhengwenjz/katam"
+ ],
+ "scummvm/scummvm": [
+  "card",
+  "https://opengraph.githubassets.com/1/scummvm/scummvm"
+ ],
+ "wireshark/wireshark": [
+  "card",
+  "https://opengraph.githubassets.com/1/wireshark/wireshark"
+ ],
+ "RSDKModding/RSDKv5-Decompilation": [
+  "readme",
+  "https://raw.githubusercontent.com/RSDKModding/RSDKv5-Decompilation/master/header.png?raw=true"
+ ],
+ "pret/pmd-red": [
+  "card",
+  "https://opengraph.githubassets.com/1/pret/pmd-red"
+ ],
+ "attify/firmware-analysis-toolkit": [
+  "card",
+  "https://opengraph.githubassets.com/1/attify/firmware-analysis-toolkit"
+ ],
+ "RSDKModding/RSDKv4-Decompilation": [
+  "readme",
+  "https://raw.githubusercontent.com/RSDKModding/RSDKv4-Decompilation/main/header.png?raw=true"
+ ],
+ "onekey-sec/unblob": [
+  "card",
+  "https://opengraph.githubassets.com/1/onekey-sec/unblob"
+ ],
+ "doldecomp/melee": [
+  "card",
+  "https://opengraph.githubassets.com/1/doldecomp/melee"
+ ],
+ "zeldaret/tp": [
+  "card",
+  "https://opengraph.githubassets.com/1/zeldaret/tp"
+ ],
+ "yaz0r/Azel": [
+  "readme",
+  "https://github.com/user-attachments/assets/71f6a246-24cc-4d64-9673-53b9e4c3e4df"
+ ],
+ "electron/asar": [
+  "card",
+  "https://opengraph.githubassets.com/1/electron/asar"
+ ],
+ "rizinorg/jsdec": [
+  "card",
+  "https://opengraph.githubassets.com/1/rizinorg/jsdec"
+ ],
+ "diasurgical/DevilutionX": [
+  "readme",
+  "https://github.com/user-attachments/assets/7ac73801-ef7b-4cc1-8442-a191a2a0a1ce"
+ ],
+ "fallout2-ce/fallout2-ce": [
+  "readme",
+  "https://raw.githubusercontent.com/fallout2-ce/fallout2-ce/main/docs/images/two-column-inventory.jpg"
+ ],
+ "rizinorg/rizin": [
+  "card",
+  "https://opengraph.githubassets.com/1/rizinorg/rizin"
+ ],
+ "OpenTTD/OpenTTD": [
+  "card",
+  "https://opengraph.githubassets.com/1/OpenTTD/OpenTTD"
+ ],
+ "projectPiki/pikmin2": [
+  "card",
+  "https://opengraph.githubassets.com/1/projectPiki/pikmin2"
+ ],
+ "N64Recomp/N64Recomp": [
+  "card",
+  "https://opengraph.githubassets.com/1/N64Recomp/N64Recomp"
+ ],
+ "pret/pokeheartgold": [
+  "card",
+  "https://opengraph.githubassets.com/1/pret/pokeheartgold"
+ ],
+ "zladx/LADX-Disassembly": [
+  "card",
+  "https://opengraph.githubassets.com/1/zladx/LADX-Disassembly"
+ ],
+ "icsharpcode/ILSpy": [
+  "card",
+  "https://opengraph.githubassets.com/1/icsharpcode/ILSpy"
+ ],
+ "xemu-project/xemu": [
+  "card",
+  "https://opengraph.githubassets.com/1/xemu-project/xemu"
+ ],
+ "sonicretro/skdisasm": [
+  "card",
+  "https://opengraph.githubassets.com/1/sonicretro/skdisasm"
+ ],
+ "OpenRA/OpenRA": [
+  "card",
+  "https://opengraph.githubassets.com/1/OpenRA/OpenRA"
+ ],
+ "n64decomp/perfect_dark": [
+  "card",
+  "https://opengraph.githubassets.com/1/n64decomp/perfect_dark"
+ ],
+ "travisgoodspeed/md380tools": [
+  "card",
+  "https://opengraph.githubassets.com/1/travisgoodspeed/md380tools"
+ ],
+ "google/bindiff": [
+  "card",
+  "https://opengraph.githubassets.com/1/google/bindiff"
+ ],
+ "2ship2harkinian/2ship2harkinian": [
+  "card",
+  "https://opengraph.githubassets.com/1/2ship2harkinian/2ship2harkinian"
+ ],
+ "perfect-dark-pc-port/perfect_dark": [
+  "card",
+  "https://opengraph.githubassets.com/1/perfect-dark-pc-port/perfect_dark"
+ ],
+ "shdecompilations/silent-hill-decomp": [
+  "card",
+  "https://opengraph.githubassets.com/1/shdecompilations/silent-hill-decomp"
  ]
 }
