@@ -64,8 +64,8 @@
   "https://opengraph.githubassets.com/1/OpenMW/openmw"
  ],
  "zeldaret/oot": [
-  "card",
-  "https://opengraph.githubassets.com/1/zeldaret/oot"
+  "issue",
+  "https://github.com/user-attachments/assets/70b4a529-9a5e-4b9c-ac45-48f9f2183eed"
  ],
  "n64decomp/sm64": [
   "card",
@@ -100,8 +100,8 @@
   "https://opengraph.githubassets.com/1/snesrev/sm"
  ],
  "pret/pokeemerald": [
-  "card",
-  "https://opengraph.githubassets.com/1/pret/pokeemerald"
+  "issue",
+  "https://user-images.githubusercontent.com/35422415/226195894-bd8307ea-f6be-46cc-85ec-dd28b4f2d144.gif"
  ],
  "pret/pokefirered": [
   "card",
@@ -120,8 +120,8 @@
   "https://opengraph.githubassets.com/1/pret/pokegold"
  ],
  "Xeeynamo/sotn-decomp": [
-  "card",
-  "https://opengraph.githubassets.com/1/Xeeynamo/sotn-decomp"
+  "issue",
+  "https://github.com/user-attachments/assets/fff7ddb2-736f-4e7d-b0ee-3c1151649773"
  ],
  "michaelshimeles/sketch": [
   "readme",
@@ -229,16 +229,16 @@
   "https://opengraph.githubassets.com/1/hedge-dev/XenonRecomp"
  ],
  "pret/pokeplatinum": [
-  "card",
-  "https://opengraph.githubassets.com/1/pret/pokeplatinum"
+  "issue",
+  "https://github.com/user-attachments/assets/157f7c15-4684-48e9-aacb-eefefbcffcec"
  ],
  "n64decomp/mk64": [
   "card",
   "https://opengraph.githubassets.com/1/n64decomp/mk64"
  ],
  "avast/retdec": [
-  "card",
-  "https://opengraph.githubassets.com/1/avast/retdec"
+  "issue",
+  "https://user-images.githubusercontent.com/20342097/35865940-2288d66a-0b56-11e8-9a92-d154b7111053.png"
  ],
  "encounter/objdiff": [
   "readme",
@@ -281,8 +281,8 @@
   "https://raw.githubusercontent.com/Zelda64Recomp/Zelda64Recomp/dev/docs/deck_gyro_1.jpg"
  ],
  "pret/pokecrystal": [
-  "card",
-  "https://opengraph.githubassets.com/1/pret/pokecrystal"
+  "issue",
+  "https://github.com/user-attachments/assets/c39cb860-bb9c-4204-9184-b2761ead0a74"
  ],
  "ghidraninja/ghidra_scripts": [
   "readme",
@@ -297,12 +297,12 @@
   "https://raw.githubusercontent.com/radareorg/radare2/master/doc/images/shot.png"
  ],
  "mandiant/flare-floss": [
-  "readme",
-  "https://github.com/mandiant/flare-floss/assets/156560/f2d471a3-2624-498c-aaa9-928e2909c338"
+  "shot",
+  "images/floss-terminal.png"
  ],
  "zeldaret/mm": [
-  "card",
-  "https://opengraph.githubassets.com/1/zeldaret/mm"
+  "issue",
+  "https://user-images.githubusercontent.com/12245827/191111633-e72abfd3-b53c-4d13-82d1-44e6718f1fb0.png"
  ],
  "OpenXcom/OpenXcom": [
   "card",
@@ -473,8 +473,8 @@
   "https://opengraph.githubassets.com/1/icsharpcode/ILSpy"
  ],
  "xemu-project/xemu": [
-  "card",
-  "https://opengraph.githubassets.com/1/xemu-project/xemu"
+  "issue",
+  "https://user-images.githubusercontent.com/71127352/144098855-dbc7b12a-d715-4102-b45c-faeb46deabde.png"
  ],
  "sonicretro/skdisasm": [
   "card",

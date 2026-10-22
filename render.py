@@ -33,7 +33,7 @@ for k,d in L.items():
     im=IM.get(e[2])
     if not im: return t+"<br><sub>No image.</sub>"
     k,u=im
-    cap={'readme':f"Image: {e[2]} ([source]({e[3]}))",'site':f"Site social card from [rea.tools]({e[3]}), not a screenshot",'shot':f"Local headless screenshot of {e[2]}",'card':f"GitHub repo card for [{e[2]}]({e[3]}), not a screenshot"}[k]
+    cap={'readme':f"Image: {e[2]} ([source]({e[3]}))",'site':f"Site social card from [rea.tools]({e[3]}), not a screenshot",'shot':f"Our own screenshot: real {e[2].split('/')[-1]} output on /usr/bin/ls (CC0)",'issue':f"Image posted by {e[2]} maintainers in the project's GitHub issues ([repo]({e[3]}))",'wiki':f"Image from the {e[2]} wiki ([repo]({e[3]}))",'card':f"GitHub repo card for [{e[2]}]({e[3]}), not a screenshot"}[k]
     return t+f'<br><img src="{u}" width="240" alt="{e[2]}"><br><sub>{cap}</sub>'
 
   o+=[f"## {d['sec']['official']}",""]+[line(e) for e in E if e[0]=='official']+["",f"## {d['sec']['games']}",""]
