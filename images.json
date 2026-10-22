@@ -273,8 +273,8 @@
   "https://opengraph.githubassets.com/1/aldonunez/zelda1-disassembly"
  ],
  "mitmproxy/mitmproxy": [
-  "card",
-  "https://opengraph.githubassets.com/1/mitmproxy/mitmproxy"
+  "readme",
+  "https://mitmproxy.org/screenshot.png"
  ],
  "Zelda64Recomp/Zelda64Recomp": [
   "readme",
@@ -293,8 +293,8 @@
   "https://github.com/Interkarma/daggerfall-unity/assets/10426244/4f176f9d-6332-47b3-a4d7-317ed8d6b38b"
  ],
  "radareorg/radare2": [
-  "card",
-  "https://opengraph.githubassets.com/1/radareorg/radare2"
+  "readme",
+  "https://raw.githubusercontent.com/radareorg/radare2/master/doc/images/shot.png"
  ],
  "mandiant/flare-floss": [
   "readme",
@@ -357,8 +357,8 @@
   "https://opengraph.githubassets.com/1/doldecomp/sms"
  ],
  "AssetRipper/AssetRipper": [
-  "card",
-  "https://opengraph.githubassets.com/1/AssetRipper/AssetRipper"
+  "readme",
+  "https://raw.githubusercontent.com/AssetRipper/AssetRipper/master/docs/articles/images/RunningOnMac/004.png"
  ],
  "ladislav-zezula/CascLib": [
   "card",
@@ -389,8 +389,8 @@
   "https://opengraph.githubassets.com/1/jiangzhengwenjz/katam"
  ],
  "scummvm/scummvm": [
-  "card",
-  "https://opengraph.githubassets.com/1/scummvm/scummvm"
+  "readme",
+  "https://www.scummvm.org/data/screenshots/prince/prince/prince_win_en_1_3_full.png"
  ],
  "wireshark/wireshark": [
   "card",
@@ -445,8 +445,8 @@
   "https://raw.githubusercontent.com/fallout2-ce/fallout2-ce/main/docs/images/two-column-inventory.jpg"
  ],
  "rizinorg/rizin": [
-  "card",
-  "https://opengraph.githubassets.com/1/rizinorg/rizin"
+  "readme",
+  "https://rizin.re/images/rizin_preview.png"
  ],
  "OpenTTD/OpenTTD": [
   "card",
@@ -465,8 +465,8 @@
   "https://opengraph.githubassets.com/1/pret/pokeheartgold"
  ],
  "zladx/LADX-Disassembly": [
-  "card",
-  "https://opengraph.githubassets.com/1/zladx/LADX-Disassembly"
+  "readme",
+  "https://raw.githubusercontent.com/zladx/LADX-Disassembly/main/docs/entities.png"
  ],
  "icsharpcode/ILSpy": [
   "card",
@@ -481,8 +481,8 @@
   "https://opengraph.githubassets.com/1/sonicretro/skdisasm"
  ],
  "OpenRA/OpenRA": [
-  "card",
-  "https://opengraph.githubassets.com/1/OpenRA/OpenRA"
+  "readme",
+  "https://www.openra.net/images/news/20260222-generators.gif"
  ],
  "n64decomp/perfect_dark": [
   "card",
@@ -493,8 +493,8 @@
   "https://opengraph.githubassets.com/1/travisgoodspeed/md380tools"
  ],
  "google/bindiff": [
-  "card",
-  "https://opengraph.githubassets.com/1/google/bindiff"
+  "readme",
+  "https://zynamics.com/images/bindiff_scr1_s.gif"
  ],
  "2ship2harkinian/2ship2harkinian": [
   "card",
