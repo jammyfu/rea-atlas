@@ -65,20 +65,23 @@
   "https://github.com/user-attachments/assets/fa893cc8-1484-4751-94be-4ead00a6c8f9"
  ],
  "OpenMW/openmw": [
-  "card",
-  "https://opengraph.githubassets.com/1/OpenMW/openmw"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/commons/9/9e/OpenMW_with_example_suit_2.png",
+  "Screenshot of OpenMW via Wikipedia ([file page](https://en.wikipedia.org/wiki/OpenMW)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "zeldaret/oot": [
   "issue",
   "https://github.com/user-attachments/assets/70b4a529-9a5e-4b9c-ac45-48f9f2183eed"
  ],
  "n64decomp/sm64": [
-  "card",
-  "https://opengraph.githubassets.com/1/n64decomp/sm64"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/e/e9/Super_Mario_64.png",
+  "Cover art of Super Mario 64 via Wikipedia ([file page](https://en.wikipedia.org/wiki/Super_Mario_64)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "HarbourMasters/Shipwright": [
-  "card",
-  "https://opengraph.githubassets.com/1/HarbourMasters/Shipwright"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg",
+  "Cover art of The Legend of Zelda: Ocarina of Time via Wikipedia ([file page](https://en.wikipedia.org/wiki/The_Legend_of_Zelda%3A_Ocarina_of_Time)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "ethteck/splat": [
   "card",
@@ -89,40 +92,48 @@
   "https://raw.githubusercontent.com/NEstelami/ZAPD/master/docs/zapd_warning_example.png?raw=true"
  ],
  "sonicretro/s1disasm": [
-  "card",
-  "https://opengraph.githubassets.com/1/sonicretro/s1disasm"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/b/ba/Sonic_the_Hedgehog_1_Genesis_box_art.jpg",
+  "Cover art of Sonic the Hedgehog (1991 video game) via Wikipedia ([file page](https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_%281991_video_game%29)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "sonicretro/s2disasm": [
-  "card",
-  "https://opengraph.githubassets.com/1/sonicretro/s2disasm"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_2_US_Cover.jpg",
+  "Cover art of Sonic the Hedgehog 2 via Wikipedia ([file page](https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_2)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "snesrev/zelda3": [
-  "card",
-  "https://opengraph.githubassets.com/1/snesrev/zelda3"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/2/21/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg",
+  "Cover art of The Legend of Zelda: A Link to the Past via Wikipedia ([file page](https://en.wikipedia.org/wiki/The_Legend_of_Zelda%3A_A_Link_to_the_Past)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "snesrev/sm": [
-  "card",
-  "https://opengraph.githubassets.com/1/snesrev/sm"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg",
+  "Cover art of Super Metroid via Wikipedia ([file page](https://en.wikipedia.org/wiki/Super_Metroid)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "pret/pokeemerald": [
   "issue",
   "https://user-images.githubusercontent.com/35422415/226195894-bd8307ea-f6be-46cc-85ec-dd28b4f2d144.gif"
  ],
  "pret/pokefirered": [
-  "card",
-  "https://opengraph.githubassets.com/1/pret/pokefirered"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/a/a7/Pokemon_LeafGreen_box.jpg",
+  "Cover art of Pok\u00e9mon FireRed and LeafGreen via Wikipedia ([file page](https://en.wikipedia.org/wiki/Pok%C3%A9mon_FireRed_and_LeafGreen)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "zeldaret/tmc": [
-  "card",
-  "https://opengraph.githubassets.com/1/zeldaret/tmc"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/0/0a/TLOZ-_Minish_Cap_NA_Box_art.png",
+  "Cover art of The Legend of Zelda: The Minish Cap via Wikipedia ([file page](https://en.wikipedia.org/wiki/The_Legend_of_Zelda%3A_The_Minish_Cap)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "pret/pokered": [
-  "card",
-  "https://opengraph.githubassets.com/1/pret/pokered"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/a/af/Pok%C3%A9mon_Red_and_Blue_cover_art.webp",
+  "Cover art of Pok\u00e9mon Red, Blue, and Yellow via Wikipedia ([file page](https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red%2C_Blue%2C_and_Yellow)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "pret/pokegold": [
-  "card",
-  "https://opengraph.githubassets.com/1/pret/pokegold"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/4/4c/Pok%C3%A9mon_box_art_-_Gold_Version.png",
+  "Cover art of Pok\u00e9mon Gold and Silver via Wikipedia ([file page](https://en.wikipedia.org/wiki/Pok%C3%A9mon_Gold_and_Silver)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "Xeeynamo/sotn-decomp": [
   "issue",
@@ -196,8 +207,9 @@
   "https://opengraph.githubassets.com/1/ran-j/PS2Recomp"
  ],
  "snesrev/smw": [
-  "card",
-  "https://opengraph.githubassets.com/1/snesrev/smw"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/3/32/Super_Mario_World_Coverart.png",
+  "Cover art of Super Mario World via Wikipedia ([file page](https://en.wikipedia.org/wiki/Super_Mario_World)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "LaurieWired/GhidraMCP": [
   "readme",
@@ -212,8 +224,9 @@
   "https://opengraph.githubassets.com/1/encounter/decomp-toolkit"
  ],
  "HarbourMasters/Starship": [
-  "card",
-  "https://opengraph.githubassets.com/1/HarbourMasters/Starship"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/6/63/StarFox64_N64_Game_Box.jpg",
+  "Cover art of Star Fox 64 via Wikipedia ([file page](https://en.wikipedia.org/wiki/Star_Fox_64)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "iBotPeaches/Apktool": [
   "shot",
@@ -221,20 +234,23 @@
   "Our own screenshot: real apktool 3.0.3 decode of the open-source Aegis 3.4.3 APK"
  ],
  "zeldaret/tww": [
-  "card",
-  "https://opengraph.githubassets.com/1/zeldaret/tww"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg",
+  "Cover art of The Legend of Zelda: The Wind Waker via Wikipedia ([file page](https://en.wikipedia.org/wiki/The_Legend_of_Zelda%3A_The_Wind_Waker)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "pret/pokeruby": [
-  "card",
-  "https://opengraph.githubassets.com/1/pret/pokeruby"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/b/be/PokemonRubySapphireBox.jpg",
+  "Cover art of Pok\u00e9mon Ruby and Sapphire via Wikipedia ([file page](https://en.wikipedia.org/wiki/Pok%C3%A9mon_Ruby_and_Sapphire)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "angr/angr": [
   "card",
   "https://opengraph.githubassets.com/1/angr/angr"
  ],
  "zeldaret/ss": [
-  "card",
-  "https://opengraph.githubassets.com/1/zeldaret/ss"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/9/99/Legend_of_Zelda_Skyward_Sword_boxart.png",
+  "Cover art of The Legend of Zelda: Skyward Sword via Wikipedia ([file page](https://en.wikipedia.org/wiki/The_Legend_of_Zelda%3A_Skyward_Sword)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "hedge-dev/XenonRecomp": [
   "card",
@@ -245,8 +261,9 @@
   "https://github.com/user-attachments/assets/157f7c15-4684-48e9-aacb-eefefbcffcec"
  ],
  "n64decomp/mk64": [
-  "card",
-  "https://opengraph.githubassets.com/1/n64decomp/mk64"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/a/a1/Mario_Kart_64.jpg",
+  "Cover art of Mario Kart 64 via Wikipedia ([file page](https://en.wikipedia.org/wiki/Mario_Kart_64)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "avast/retdec": [
   "issue",
@@ -273,16 +290,19 @@
   "https://raw.githubusercontent.com/julianxhokaxhiu/FFNx/master/.screens/ff7.png"
  ],
  "DarkRTA/rb3": [
-  "card",
-  "https://opengraph.githubassets.com/1/DarkRTA/rb3"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/3/3b/Rock_Band_3_Game_Cover.jpg",
+  "Cover art of Rock Band 3 via Wikipedia ([file page](https://en.wikipedia.org/wiki/Rock_Band_3)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "pret/pokeyellow": [
-  "card",
-  "https://opengraph.githubassets.com/1/pret/pokeyellow"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/a/af/Pok%C3%A9mon_Red_and_Blue_cover_art.webp",
+  "Cover art of Pok\u00e9mon Red, Blue, and Yellow via Wikipedia ([file page](https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red%2C_Blue%2C_and_Yellow)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "aldonunez/zelda1-disassembly": [
-  "card",
-  "https://opengraph.githubassets.com/1/aldonunez/zelda1-disassembly"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/4/41/Legend_of_zelda_cover_%28with_cartridge%29_gold.png",
+  "Cover art of The Legend of Zelda (video game) via Wikipedia ([file page](https://en.wikipedia.org/wiki/The_Legend_of_Zelda_%28video_game%29)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "mitmproxy/mitmproxy": [
   "readme",
@@ -324,7 +344,7 @@
  "WerWolv/ImHex": [
   "shot",
   "images/imhex-gui.png",
-  "Our own screenshot: ImHex 1.38.1 hex editor on /usr/bin/ls (ELF pattern prompt)"
+  "Our own screenshot: ImHex 1.38.1 with the ELF pattern applied to /usr/bin/ls"
  ],
  "Perfare/AssetStudio": [
   "card",
@@ -335,8 +355,9 @@
   "https://raw.githubusercontent.com/open-goal/jak-project/master/docs/img/promosmall1.png"
  ],
  "zeldaret/ph": [
-  "card",
-  "https://opengraph.githubassets.com/1/zeldaret/ph"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/5/5e/The_Legend_of_Zelda_Phantom_Hourglass_Game_Cover.jpg",
+  "Cover art of The Legend of Zelda: Phantom Hourglass via Wikipedia ([file page](https://en.wikipedia.org/wiki/The_Legend_of_Zelda%3A_Phantom_Hourglass)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "mandiant/capa": [
   "readme",
@@ -368,8 +389,9 @@
   "https://img.youtube.com/vi/iFxNuk3kxhk/0.jpg"
  ],
  "doldecomp/sms": [
-  "card",
-  "https://opengraph.githubassets.com/1/doldecomp/sms"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/0/05/Super_Mario_Sunshine_Box_Art.png",
+  "Cover art of Super Mario Sunshine via Wikipedia ([file page](https://en.wikipedia.org/wiki/Super_Mario_Sunshine)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "AssetRipper/AssetRipper": [
   "readme",
@@ -380,20 +402,23 @@
   "https://opengraph.githubassets.com/1/ladislav-zezula/CascLib"
  ],
  "isledecomp/isle": [
-  "card",
-  "https://opengraph.githubassets.com/1/isledecomp/isle"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/a/a1/Lego-island.jpg",
+  "Cover art of Lego Island via Wikipedia ([file page](https://en.wikipedia.org/wiki/Lego_Island)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "pmret/papermario": [
-  "card",
-  "https://opengraph.githubassets.com/1/pmret/papermario"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/6/61/Papermario.jpg",
+  "Cover art of Paper Mario (video game) via Wikipedia ([file page](https://en.wikipedia.org/wiki/Paper_Mario_%28video_game%29)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "postlund/pyatv": [
   "card",
   "https://opengraph.githubassets.com/1/postlund/pyatv"
  ],
  "hedge-dev/UnleashedRecomp": [
-  "card",
-  "https://opengraph.githubassets.com/1/hedge-dev/UnleashedRecomp"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/a/a0/Sonic_unleashed_boxart.jpg",
+  "Cover art of Sonic Unleashed via Wikipedia ([file page](https://en.wikipedia.org/wiki/Sonic_Unleashed)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "ghidraninja/game-and-watch-backup": [
   "video",
@@ -401,8 +426,9 @@
   "Video thumbnail of the demo linked in the README (youtube.com/watch?v=-MzmoEFs0bQ)"
  ],
  "jiangzhengwenjz/katam": [
-  "card",
-  "https://opengraph.githubassets.com/1/jiangzhengwenjz/katam"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/0/0b/Kirby_%26_the_Amazing_Mirror.jpg",
+  "Cover art of Kirby & the Amazing Mirror via Wikipedia ([file page](https://en.wikipedia.org/wiki/Kirby_%26_the_Amazing_Mirror)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "scummvm/scummvm": [
   "readme",
@@ -418,8 +444,9 @@
   "https://raw.githubusercontent.com/RSDKModding/RSDKv5-Decompilation/master/header.png?raw=true"
  ],
  "pret/pmd-red": [
-  "card",
-  "https://opengraph.githubassets.com/1/pret/pmd-red"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/d/d3/Pok%C3%A9mon_Mystery_Dungeon_Blue_and_Red_Rescue_Team_cover_arts.jpg",
+  "Cover art of Pok\u00e9mon Mystery Dungeon: Blue Rescue Team and Red Rescue Team via Wikipedia ([file page](https://en.wikipedia.org/wiki/Pok%C3%A9mon_Mystery_Dungeon%3A_Blue_Rescue_Team_and_Red_Rescue_Team)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "attify/firmware-analysis-toolkit": [
   "card",
@@ -435,12 +462,14 @@
   "Our own screenshot: real unblob run on a synthetic blob (random pad + tar.gz)"
  ],
  "doldecomp/melee": [
-  "card",
-  "https://opengraph.githubassets.com/1/doldecomp/melee"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/7/75/Super_Smash_Bros_Melee_box_art.png",
+  "Cover art of Super Smash Bros. Melee via Wikipedia ([file page](https://en.wikipedia.org/wiki/Super_Smash_Bros._Melee)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "zeldaret/tp": [
-  "card",
-  "https://opengraph.githubassets.com/1/zeldaret/tp"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/0/0e/The_Legend_of_Zelda_Twilight_Princess_Game_Cover.jpg",
+  "Cover art of The Legend of Zelda: Twilight Princess via Wikipedia ([file page](https://en.wikipedia.org/wiki/The_Legend_of_Zelda%3A_Twilight_Princess)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "yaz0r/Azel": [
   "readme",
@@ -468,20 +497,23 @@
   "https://rizin.re/images/rizin_preview.png"
  ],
  "OpenTTD/OpenTTD": [
-  "card",
-  "https://opengraph.githubassets.com/1/OpenTTD/OpenTTD"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/commons/b/ba/OpenTTD-15.3-en.png",
+  "Screenshot of OpenTTD via Wikipedia ([file page](https://en.wikipedia.org/wiki/OpenTTD)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "projectPiki/pikmin2": [
-  "card",
-  "https://opengraph.githubassets.com/1/projectPiki/pikmin2"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/3/38/Pikmin_2_Case.jpg",
+  "Cover art of Pikmin 2 via Wikipedia ([file page](https://en.wikipedia.org/wiki/Pikmin_2)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "N64Recomp/N64Recomp": [
   "card",
   "https://opengraph.githubassets.com/1/N64Recomp/N64Recomp"
  ],
  "pret/pokeheartgold": [
-  "card",
-  "https://opengraph.githubassets.com/1/pret/pokeheartgold"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/c/cb/PokemonHGSSBox.jpg",
+  "Cover art of Pok\u00e9mon HeartGold and SoulSilver via Wikipedia ([file page](https://en.wikipedia.org/wiki/Pok%C3%A9mon_HeartGold_and_SoulSilver)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "zladx/LADX-Disassembly": [
   "readme",
@@ -496,16 +528,18 @@
   "https://user-images.githubusercontent.com/71127352/144098855-dbc7b12a-d715-4102-b45c-faeb46deabde.png"
  ],
  "sonicretro/skdisasm": [
-  "card",
-  "https://opengraph.githubassets.com/1/sonicretro/skdisasm"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/d/d3/Sonic_%26_Knuckles_cover.jpg",
+  "Cover art of Sonic & Knuckles via Wikipedia ([file page](https://en.wikipedia.org/wiki/Sonic_%26_Knuckles)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "OpenRA/OpenRA": [
   "readme",
   "https://www.openra.net/images/news/20260222-generators.gif"
  ],
  "n64decomp/perfect_dark": [
-  "card",
-  "https://opengraph.githubassets.com/1/n64decomp/perfect_dark"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/3/32/Perfect_dark_box.jpg",
+  "Cover art of Perfect Dark via Wikipedia ([file page](https://en.wikipedia.org/wiki/Perfect_Dark)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "travisgoodspeed/md380tools": [
   "card",
@@ -516,15 +550,18 @@
   "https://zynamics.com/images/bindiff_scr1_s.gif"
  ],
  "2ship2harkinian/2ship2harkinian": [
-  "card",
-  "https://opengraph.githubassets.com/1/2ship2harkinian/2ship2harkinian"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/6/60/The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg",
+  "Cover art of The Legend of Zelda: Majora's Mask via Wikipedia ([file page](https://en.wikipedia.org/wiki/The_Legend_of_Zelda%3A_Majora%27s_Mask)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "perfect-dark-pc-port/perfect_dark": [
-  "card",
-  "https://opengraph.githubassets.com/1/perfect-dark-pc-port/perfect_dark"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/3/32/Perfect_dark_box.jpg",
+  "Cover art of Perfect Dark via Wikipedia ([file page](https://en.wikipedia.org/wiki/Perfect_Dark)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ],
  "shdecompilations/silent-hill-decomp": [
-  "card",
-  "https://opengraph.githubassets.com/1/shdecompilations/silent-hill-decomp"
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/9/96/Silent_Hill_video_game_cover.png",
+  "Cover art of Silent Hill (video game) via Wikipedia ([file page](https://en.wikipedia.org/wiki/Silent_Hill_%28video_game%29)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
  ]
 }
