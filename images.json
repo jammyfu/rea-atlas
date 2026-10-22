@@ -1,23 +1,28 @@
 {
  "DX-Ball: sound-pan function": [
-  "site",
-  "https://rea.tools/assets/social-card.png"
+  "shot",
+  "images/showcase-dx-ball.png",
+  "Our own screenshot of the rea.tools/showcase/dx-ball/ page"
  ],
  "Notion: Electron clipboard bridge": [
-  "site",
-  "https://rea.tools/assets/social-card.png"
+  "shot",
+  "images/showcase-notion.png",
+  "Our own screenshot of the rea.tools/showcase/notion/ page"
  ],
  "TH04: PC-98 bullet-ring maths": [
-  "site",
-  "https://rea.tools/assets/social-card.png"
+  "shot",
+  "images/showcase-th04.png",
+  "Our own screenshot of the rea.tools/showcase/th04/ page"
  ],
  "Aegis: TOTP code generation": [
-  "site",
-  "https://rea.tools/assets/social-card.png"
+  "shot",
+  "images/showcase-aegis.png",
+  "Our own screenshot of the rea.tools/showcase/aegis/ page"
  ],
  "CTF: flag checker": [
-  "site",
-  "https://rea.tools/assets/social-card.png"
+  "shot",
+  "images/showcase-ctf.png",
+  "Our own screenshot of the rea.tools/showcase/ctf/ page"
  ],
  "N0zoM1z0/dx-ball": [
   "readme",
@@ -140,8 +145,9 @@
   "https://raw.githubusercontent.com/AdamLinCodes/AdamTerm/main/docs/adamterm.png"
  ],
  "az9713/wispr-flow-rea-teardown": [
-  "card",
-  "https://opengraph.githubassets.com/1/az9713/wispr-flow-rea-teardown"
+  "video",
+  "https://img.youtube.com/vi/FnB9tHKBJXQ/maxresdefault.jpg",
+  "Video thumbnail of the tutorial linked in the README (youtube.com/watch?v=FnB9tHKBJXQ)"
  ],
  "cudanexus/vd-streamer-linux": [
   "card",
@@ -167,14 +173,19 @@
   "readme",
   "https://raw.githubusercontent.com/NullLabTests/OpenBSD_netcat_REA/main/assets/rea-pipeline.png"
  ],
- "REA discussion #2254": null,
+ "REA discussion #2254": [
+  "shot",
+  "images/rea-discussion-2254.png",
+  "Our own screenshot of the GitHub discussion page"
+ ],
  "ShadowSwaps/REA-Reconstruction-Companion": [
   "card",
   "https://opengraph.githubassets.com/1/ShadowSwaps/REA-Reconstruction-Companion"
  ],
  "NationalSecurityAgency/ghidra": [
-  "card",
-  "https://opengraph.githubassets.com/1/NationalSecurityAgency/ghidra"
+  "shot",
+  "images/ghidra-gui.png",
+  "Our own screenshot: Ghidra 12.2 CodeBrowser + decompiler on /usr/bin/ls"
  ],
  "skylot/jadx": [
   "readme",
@@ -205,8 +216,9 @@
   "https://opengraph.githubassets.com/1/HarbourMasters/Starship"
  ],
  "iBotPeaches/Apktool": [
-  "card",
-  "https://opengraph.githubassets.com/1/iBotPeaches/Apktool"
+  "shot",
+  "images/apktool-terminal.png",
+  "Our own screenshot: real apktool 3.0.3 decode of the open-source Aegis 3.4.3 APK"
  ],
  "zeldaret/tww": [
   "card",
@@ -298,7 +310,8 @@
  ],
  "mandiant/flare-floss": [
   "shot",
-  "images/floss-terminal.png"
+  "images/floss-terminal.png",
+  "Our own screenshot: real FLOSS 3.2.0 output on /usr/bin/ls"
  ],
  "zeldaret/mm": [
   "issue",
@@ -309,8 +322,9 @@
   "https://opengraph.githubassets.com/1/OpenXcom/OpenXcom"
  ],
  "WerWolv/ImHex": [
-  "card",
-  "https://opengraph.githubassets.com/1/WerWolv/ImHex"
+  "shot",
+  "images/imhex-gui.png",
+  "Our own screenshot: ImHex 1.38.1 hex editor on /usr/bin/ls (ELF pattern prompt)"
  ],
  "Perfare/AssetStudio": [
   "card",
@@ -329,8 +343,9 @@
   "https://raw.githubusercontent.com/mandiant/capa/master/doc/img/capa_web_explorer.png"
  ],
  "frida/frida": [
-  "card",
-  "https://opengraph.githubassets.com/1/frida/frida"
+  "shot",
+  "images/frida-terminal.png",
+  "Our own screenshot: real frida-ps output on a Linux box"
  ],
  "qilingframework/qiling": [
   "readme",
@@ -381,8 +396,9 @@
   "https://opengraph.githubassets.com/1/hedge-dev/UnleashedRecomp"
  ],
  "ghidraninja/game-and-watch-backup": [
-  "card",
-  "https://opengraph.githubassets.com/1/ghidraninja/game-and-watch-backup"
+  "video",
+  "https://img.youtube.com/vi/-MzmoEFs0bQ/maxresdefault.jpg",
+  "Video thumbnail of the demo linked in the README (youtube.com/watch?v=-MzmoEFs0bQ)"
  ],
  "jiangzhengwenjz/katam": [
   "card",
@@ -393,8 +409,9 @@
   "https://www.scummvm.org/data/screenshots/prince/prince/prince_win_en_1_3_full.png"
  ],
  "wireshark/wireshark": [
-  "card",
-  "https://opengraph.githubassets.com/1/wireshark/wireshark"
+  "shot",
+  "images/wireshark-gui.png",
+  "Our own screenshot: Wireshark opening Wireshark's dhcp.pcap test capture"
  ],
  "RSDKModding/RSDKv5-Decompilation": [
   "readme",
@@ -413,8 +430,9 @@
   "https://raw.githubusercontent.com/RSDKModding/RSDKv4-Decompilation/main/header.png?raw=true"
  ],
  "onekey-sec/unblob": [
-  "card",
-  "https://opengraph.githubassets.com/1/onekey-sec/unblob"
+  "shot",
+  "images/unblob-terminal.png",
+  "Our own screenshot: real unblob run on a synthetic blob (random pad + tar.gz)"
  ],
  "doldecomp/melee": [
   "card",
@@ -429,8 +447,9 @@
   "https://github.com/user-attachments/assets/71f6a246-24cc-4d64-9673-53b9e4c3e4df"
  ],
  "electron/asar": [
-  "card",
-  "https://opengraph.githubassets.com/1/electron/asar"
+  "shot",
+  "images/asar-terminal.png",
+  "Our own screenshot: real @electron/asar pack + list on a demo app"
  ],
  "rizinorg/jsdec": [
   "card",

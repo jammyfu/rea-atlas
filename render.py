@@ -32,7 +32,8 @@ for k,d in L.items():
     t=f"- [{e[2]}]({e[3]}) — **{d['u']}: {e[4]}**. {e[5]}"
     im=IM.get(e[2])
     if not im: return t+"<br><sub>No image.</sub>"
-    k,u=im
+    k,u=im[0],im[1]
+    if len(im)>2: return t+f'<br><img src="{u}" width="240" alt="{e[2]}"><br><sub>{im[2]} (CC0 for our own screenshots)</sub>' if k=='shot' else t+f'<br><img src="{u}" width="240" alt="{e[2]}"><br><sub>{im[2]}</sub>'
     cap={'readme':f"Image: {e[2]} ([source]({e[3]}))",'site':f"Site social card from [rea.tools]({e[3]}), not a screenshot",'shot':f"Our own screenshot: real {e[2].split('/')[-1]} output on /usr/bin/ls (CC0)",'issue':f"Image posted by {e[2]} maintainers in the project's GitHub issues ([repo]({e[3]}))",'wiki':f"Image from the {e[2]} wiki ([repo]({e[3]}))",'card':f"GitHub repo card for [{e[2]}]({e[3]}), not a screenshot"}[k]
     return t+f'<br><img src="{u}" width="240" alt="{e[2]}"><br><sub>{cap}</sub>'
 
