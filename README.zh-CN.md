@@ -4,7 +4,7 @@
 
 开源逆向工程项目地图：游戏反编译、静态重编译、重实现、资源提取工具、通用逆向工具，以及应用/协议/固件逆向。每条标注是否使用 [morluto/rea](https://github.com/morluto/rea)（Reverse Engineer Anything）：**Uses rea: Yes / No / Unverified**，只有公开证据（README、官方 showcase 或仓库文档）才标 Yes。
 
-> 非官方，与 morluto/rea 无关联。不收录、不托管破解、盗版、ROM 或版权素材。
+> 非官方，与 morluto/rea 无关联。
 
 ## 目录
 

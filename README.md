@@ -4,7 +4,7 @@
 
 A map of open reverse-engineering projects — game decompilations, static recompilations, re-implementations, asset tools, general RE tooling, app/protocol/firmware work — each tagged **Uses rea: Yes / No / Unverified** for [morluto/rea](https://github.com/morluto/rea) (Reverse Engineer Anything). Yes only with public evidence (README, official showcase or repo docs).
 
-> Unofficial; not affiliated with morluto/rea. No cracks, piracy, ROMs or copyrighted assets are listed or hosted.
+> Unofficial; not affiliated with morluto/rea.
 
 ## Contents
 
