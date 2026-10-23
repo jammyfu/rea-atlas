@@ -563,5 +563,130 @@
   "wiki",
   "https://upload.wikimedia.org/wikipedia/en/9/96/Silent_Hill_video_game_cover.png",
   "Cover art of Silent Hill (video game) via Wikipedia ([file page](https://en.wikipedia.org/wiki/Silent_Hill_%28video_game%29)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
+ ],
+ "N0zoM1z0/th09": [
+  "readme",
+  "https://raw.githubusercontent.com/N0zoM1z0/th09/main/resources/title-screen.png"
+ ],
+ "N0zoM1z0/th095": [
+  "readme",
+  "https://raw.githubusercontent.com/N0zoM1z0/th095/main/resources/title-screen.jpg"
+ ],
+ "N0zoM1z0/th105": [
+  "readme",
+  "https://raw.githubusercontent.com/N0zoM1z0/th105/main/resources/title-screen.jpg"
+ ],
+ "N0zoM1z0/th08-web": [
+  "readme",
+  "https://raw.githubusercontent.com/N0zoM1z0/th08-web/main/resources/th08-web-social-preview.jpg"
+ ],
+ "N0zoM1z0/touhou-reconstruction-factory": [
+  "card",
+  "https://opengraph.githubassets.com/1/N0zoM1z0/touhou-reconstruction-factory"
+ ],
+ "N0zoM1z0/touhou-reverse-engineering": [
+  "card",
+  "https://opengraph.githubassets.com/1/N0zoM1z0/touhou-reverse-engineering"
+ ],
+ "AsyncFinn/rook": [
+  "card",
+  "https://opengraph.githubassets.com/1/AsyncFinn/rook"
+ ],
+ "tallowmere/free-heroes4": [
+  "wiki",
+  "https://upload.wikimedia.org/wikipedia/en/c/cc/Heroes_of_Might_and_Magic_IV_box.jpg",
+  "Cover art of Heroes of Might and Magic IV via Wikipedia ([file page](https://en.wikipedia.org/wiki/Heroes_of_Might_and_Magic_IV)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
+ ],
+ "KarlssonChristoffer/DiskLens": [
+  "card",
+  "https://opengraph.githubassets.com/1/KarlssonChristoffer/DiskLens"
+ ],
+ "LilZeeCN/zee-rp": [
+  "readme",
+  "https://raw.githubusercontent.com/LilZeeCN/zee-rp/main/examples/screenshot/source.png"
+ ],
+ "lxistired/ledger-reborn": [
+  "readme",
+  "https://raw.githubusercontent.com/lxistired/ledger-reborn/main/docs/screenshots/accounting.png"
+ ],
+ "michaelshimeles/terminal-rs": [
+  "readme",
+  "https://raw.githubusercontent.com/michaelshimeles/terminal-rs/master/docs/img/overview.png"
+ ],
+ "GLinnik21/plx-native": [
+  "readme",
+  "https://raw.githubusercontent.com/GLinnik21/plx-native/main/docs/screenshots/home.jpg"
+ ],
+ "storytold/photocraft": [
+  "readme",
+  "https://raw.githubusercontent.com/storytold/photocraft/main/docs/images/photocraft-demo.jpg"
+ ],
+ "sickpyramid/ReaFuse": [
+  "card",
+  "https://opengraph.githubassets.com/1/sickpyramid/ReaFuse"
+ ],
+ "laaielichter/Reverseport": [
+  "readme",
+  "https://raw.githubusercontent.com/laaielichter/Reverseport/main/docs/assets/demo.gif"
+ ],
+ "0xshlomil/ida-free-mcp": [
+  "card",
+  "https://opengraph.githubassets.com/1/0xshlomil/ida-free-mcp"
+ ],
+ "HexRaysSA/ida-mcp": [
+  "card",
+  "https://opengraph.githubassets.com/1/HexRaysSA/ida-mcp"
+ ],
+ "Nowng/rea-mcp": [
+  "card",
+  "https://opengraph.githubassets.com/1/Nowng/rea-mcp"
+ ],
+ "alexmi256/rea-agent-docker": [
+  "card",
+  "https://opengraph.githubassets.com/1/alexmi256/rea-agent-docker"
+ ],
+ "cognixws/picode-rea": [
+  "card",
+  "https://opengraph.githubassets.com/1/cognixws/picode-rea"
+ ],
+ "czcdr/dsh-plugin-rea": [
+  "readme",
+  "https://raw.githubusercontent.com/czcdr/dsh-plugin-rea/main/assets/screenshot-1.png"
+ ],
+ "sheilacraig/dsh-rea-mcp": [
+  "card",
+  "https://opengraph.githubassets.com/1/sheilacraig/dsh-rea-mcp"
+ ],
+ "ya123-4/rea-dsh-plugin": [
+  "card",
+  "https://opengraph.githubassets.com/1/ya123-4/rea-dsh-plugin"
+ ],
+ "zhaofeng130/dsh-rea": [
+  "card",
+  "https://opengraph.githubassets.com/1/zhaofeng130/dsh-rea"
+ ],
+ "pablodiazjorge/rea-casebook": [
+  "readme",
+  "https://raw.githubusercontent.com/pablodiazjorge/rea-casebook/main/media/session-dark.png"
+ ],
+ "jinshi666888/rea-playbook": [
+  "readme",
+  "https://raw.githubusercontent.com/jinshi666888/rea-playbook/main/docs/assets/demo.gif"
+ ],
+ "dav1dngy/era-agent": [
+  "readme",
+  "https://raw.githubusercontent.com/dav1dngy/era-agent/main/docs/assets/screenshots/01-main-workspace.png"
+ ],
+ "UnknownHacker1/rea-groundtruth": [
+  "card",
+  "https://opengraph.githubassets.com/1/UnknownHacker1/rea-groundtruth"
+ ],
+ "az9713/REA-demo": [
+  "card",
+  "https://opengraph.githubassets.com/1/az9713/REA-demo"
+ ],
+ "pablodiazjorge/rea-lab": [
+  "card",
+  "https://opengraph.githubassets.com/1/pablodiazjorge/rea-lab"
  ]
 }

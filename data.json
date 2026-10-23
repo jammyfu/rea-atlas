@@ -1022,5 +1022,253 @@
   "https://github.com/shdecompilations/silent-hill-decomp",
   "No",
   "Silent Hill decompilation."
+ ],
+ [
+  "pc",
+  "decomp",
+  "N0zoM1z0/th09",
+  "https://github.com/N0zoM1z0/th09",
+  "Unverified",
+  "Touhou 9 source reconstruction (agent + IDA/Ghidra); README does not name REA. MIT."
+ ],
+ [
+  "pc",
+  "decomp",
+  "N0zoM1z0/th095",
+  "https://github.com/N0zoM1z0/th095",
+  "Unverified",
+  "Touhou 9.5 source reconstruction; README does not name REA. MIT."
+ ],
+ [
+  "pc",
+  "decomp",
+  "N0zoM1z0/th105",
+  "https://github.com/N0zoM1z0/th105",
+  "Unverified",
+  "Touhou 10.5 source reconstruction; README does not name REA. MIT."
+ ],
+ [
+  "pc",
+  "remake",
+  "N0zoM1z0/th08-web",
+  "https://github.com/N0zoM1z0/th08-web",
+  "Unverified",
+  "Browser port built on the th08 reconstruction. MIT."
+ ],
+ [
+  "pc",
+  "tools",
+  "N0zoM1z0/touhou-reconstruction-factory",
+  "https://github.com/N0zoM1z0/touhou-reconstruction-factory",
+  "Unverified",
+  "Agent pipeline used for the Touhou reconstructions."
+ ],
+ [
+  "pc",
+  "decomp",
+  "N0zoM1z0/touhou-reverse-engineering",
+  "https://github.com/N0zoM1z0/touhou-reverse-engineering",
+  "No",
+  "Evidence-first IDA + Codex notes incl. runtime patch experiments; no REA mention. MIT."
+ ],
+ [
+  "pc",
+  "remake",
+  "AsyncFinn/rook",
+  "https://github.com/AsyncFinn/rook",
+  "No",
+  "Rust re-implementation of the Roblox engine, tested against Studio recordings; early. Apache-2.0."
+ ],
+ [
+  "pc",
+  "remake",
+  "tallowmere/free-heroes4",
+  "https://github.com/tallowmere/free-heroes4",
+  "No",
+  "C++23 re-implementation of the Heroes of Might and Magic IV engine; needs your own GOG files. GPL-3.0."
+ ],
+ [
+  "app",
+  "",
+  "KarlssonChristoffer/DiskLens",
+  "https://github.com/KarlssonChristoffer/DiskLens",
+  "Yes",
+  "WinDirStat-style disk analyzer for Windows 11; REA used to study WinDirStat 2.5.0. GPL-3.0."
+ ],
+ [
+  "app",
+  "",
+  "LilZeeCN/zee-rp",
+  "https://github.com/LilZeeCN/zee-rp",
+  "Unverified",
+  "CLI + MCP for reading/writing Axure RP .rp files (author says REA was used; not in README). MIT."
+ ],
+ [
+  "app",
+  "",
+  "lxistired/ledger-reborn",
+  "https://github.com/lxistired/ledger-reborn",
+  "Yes",
+  "Local accounting app built after studying QuickBooks Desktop for Mac with REA. MIT."
+ ],
+ [
+  "app",
+  "",
+  "michaelshimeles/terminal-rs",
+  "https://github.com/michaelshimeles/terminal-rs",
+  "Yes",
+  "Bloomberg-style trading terminal in Rust; README mentions REA."
+ ],
+ [
+  "app",
+  "",
+  "GLinnik21/plx-native",
+  "https://github.com/GLinnik21/plx-native",
+  "No",
+  "Native Plex client for LG TVs (AI-assisted RE, no REA claim). GPL-3.0."
+ ],
+ [
+  "app",
+  "",
+  "storytold/photocraft",
+  "https://github.com/storytold/photocraft",
+  "No",
+  "Clean-room Photoshop-style editor (black-box rebuild). Apache-2.0."
+ ],
+ [
+  "app",
+  "",
+  "sickpyramid/ReaFuse",
+  "https://github.com/sickpyramid/ReaFuse",
+  "Yes",
+  "Builds on REA to fuse two JS/TS source projects; alpha. MIT."
+ ],
+ [
+  "app",
+  "",
+  "laaielichter/Reverseport",
+  "https://github.com/laaielichter/Reverseport",
+  "Unverified",
+  "CLI + MCP that ports RE results to Godot/Unity/Unreal/three.js; says \"based on REA\". MIT."
+ ],
+ [
+  "tooling",
+  "",
+  "0xshlomil/ida-free-mcp",
+  "https://github.com/0xshlomil/ida-free-mcp",
+  "Yes",
+  "Native IDA Free bridge referenced by REA's IDA provider. MIT."
+ ],
+ [
+  "tooling",
+  "",
+  "HexRaysSA/ida-mcp",
+  "https://github.com/HexRaysSA/ida-mcp",
+  "No",
+  "Official Hex-Rays MCP server for IDA. MIT."
+ ],
+ [
+  "tooling",
+  "",
+  "Nowng/rea-mcp",
+  "https://github.com/Nowng/rea-mcp",
+  "Yes",
+  "LM Studio plugin wrapping the REA MCP server for local models. MIT."
+ ],
+ [
+  "tooling",
+  "",
+  "alexmi256/rea-agent-docker",
+  "https://github.com/alexmi256/rea-agent-docker",
+  "Yes",
+  "Docker images for REA (Ghidra/Hopper/IDA variants; IDA not shipped). MIT."
+ ],
+ [
+  "tooling",
+  "",
+  "cognixws/picode-rea",
+  "https://github.com/cognixws/picode-rea",
+  "Yes",
+  "PiCode extension exposing REA static-analysis tools. Apache-2.0."
+ ],
+ [
+  "tooling",
+  "",
+  "czcdr/dsh-plugin-rea",
+  "https://github.com/czcdr/dsh-plugin-rea",
+  "Yes",
+  "DeepSeek Harness adapter for the REA MCP server. MIT."
+ ],
+ [
+  "tooling",
+  "",
+  "sheilacraig/dsh-rea-mcp",
+  "https://github.com/sheilacraig/dsh-rea-mcp",
+  "Yes",
+  "Config-only DeepSeek Harness bundle that mounts REA. MIT."
+ ],
+ [
+  "tooling",
+  "",
+  "ya123-4/rea-dsh-plugin",
+  "https://github.com/ya123-4/rea-dsh-plugin",
+  "Yes",
+  "DeepSeek Harness plugin registering REA MCP tools."
+ ],
+ [
+  "tooling",
+  "",
+  "zhaofeng130/dsh-rea",
+  "https://github.com/zhaofeng130/dsh-rea",
+  "Yes",
+  "DeepSeek Harness adapter registering the REA Skill and tools."
+ ],
+ [
+  "tooling",
+  "",
+  "pablodiazjorge/rea-casebook",
+  "https://github.com/pablodiazjorge/rea-casebook",
+  "Yes",
+  "Claude Code mod logging REA evidence and requiring cited evidence_ids. MIT."
+ ],
+ [
+  "tooling",
+  "",
+  "jinshi666888/rea-playbook",
+  "https://github.com/jinshi666888/rea-playbook",
+  "Yes",
+  "Hands-on lab: minimal Electron target, evidence extraction, MCP probe. MIT."
+ ],
+ [
+  "tooling",
+  "",
+  "dav1dngy/era-agent",
+  "https://github.com/dav1dngy/era-agent",
+  "Unverified",
+  "Evidence-driven RE agent with a self-improvement lab; experimental. MIT."
+ ],
+ [
+  "security",
+  "",
+  "UnknownHacker1/rea-groundtruth",
+  "https://github.com/UnknownHacker1/rea-groundtruth",
+  "Yes",
+  "Compares REA reports with the actual code; one-command repros. MIT."
+ ],
+ [
+  "security",
+  "",
+  "az9713/REA-demo",
+  "https://github.com/az9713/REA-demo",
+  "Yes",
+  "REA analysing its own installed package with falsifiable predictions."
+ ],
+ [
+  "security",
+  "",
+  "pablodiazjorge/rea-lab",
+  "https://github.com/pablodiazjorge/rea-lab",
+  "Yes",
+  "Windows + Ghidra exercises and a pre-registered REA evaluation. MIT."
  ]
 ]
