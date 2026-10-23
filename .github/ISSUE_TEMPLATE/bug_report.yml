@@ -1,0 +1,15 @@
+name: Bug / wrong entry
+description: Broken link, wrong category, or wrong "Uses rea" tag
+labels: [bug]
+body:
+  - type: input
+    id: entry
+    attributes: {label: Entry / project, description: Name or URL of the affected entry}
+    validations: {required: true}
+  - type: textarea
+    id: problem
+    attributes: {label: What is wrong?}
+    validations: {required: true}
+  - type: textarea
+    id: evidence
+    attributes: {label: Evidence, description: "Public link (README, repo docs, official showcase) supporting the fix"}

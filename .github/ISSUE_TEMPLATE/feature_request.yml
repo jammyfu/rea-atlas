@@ -1,0 +1,14 @@
+name: Suggest a project / improvement
+description: Propose a new entry or an improvement to the atlas
+labels: [enhancement]
+body:
+  - type: input
+    id: url
+    attributes: {label: Project URL}
+  - type: dropdown
+    id: rea
+    attributes: {label: Uses rea?, options: ["Yes (link public evidence)", "No", "Unverified"]}
+  - type: textarea
+    id: details
+    attributes: {label: Details, description: Category, short description, evidence links}
+    validations: {required: true}
