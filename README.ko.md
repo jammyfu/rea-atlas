@@ -299,6 +299,7 @@
 <tr><td><a href="https://github.com/AssetRipper/AssetRipper"><img src="https://raw.githubusercontent.com/AssetRipper/AssetRipper/master/docs/articles/images/RunningOnMac/004.png" width="160" alt="AssetRipper/AssetRipper"></a></td><td><a href="https://github.com/AssetRipper/AssetRipper"><b>AssetRipper</b></a><br><sub>AssetRipper</sub></td><td>Unity 빌드를 편집 가능한 프로젝트로 복원</td><td>아니요</td><td><sub>프로젝트 README</sub></td></tr>
 <tr><td><a href="https://github.com/ladislav-zezula/CascLib"><img src="https://opengraph.githubassets.com/1/ladislav-zezula/CascLib" width="160" alt="ladislav-zezula/CascLib"></a></td><td><a href="https://github.com/ladislav-zezula/CascLib"><b>CascLib</b></a><br><sub>ladislav-zezula</sub></td><td>블리자드 CASC 아카이브 읽기</td><td>아니요</td><td><sub>저장소 카드</sub></td></tr>
 <tr><td><a href="https://github.com/N0zoM1z0/touhou-reconstruction-factory"><img src="https://opengraph.githubassets.com/1/N0zoM1z0/touhou-reconstruction-factory" width="160" alt="N0zoM1z0/touhou-reconstruction-factory"></a></td><td><a href="https://github.com/N0zoM1z0/touhou-reconstruction-factory"><b>touhou-reconstruction-factory</b></a><br><sub>N0zoM1z0</sub></td><td>동방 시리즈 재구성을 뒷받침하는 에이전트 파이프라인</td><td>❔ 미확인</td><td><sub>저장소 카드</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/rodneypantonial/sims3-modernization"><b>sims3-modernization</b></a><br><sub>rodneypantonial</sub></td><td>최신 PC에서 심즈 3 끊김과 크래시 줄이기</td><td>✅ 예</td><td><sub>—</sub></td></tr>
 </table>
 
 ## 앱 / Electron / 데스크톱
@@ -320,6 +321,8 @@
 <tr><td><a href="https://github.com/storytold/photocraft"><img src="https://raw.githubusercontent.com/storytold/photocraft/main/docs/images/photocraft-demo.jpg" width="160" alt="storytold/photocraft"></a></td><td><a href="https://github.com/storytold/photocraft"><b>photocraft</b></a><br><sub>storytold</sub></td><td>처음부터 오픈소스로 만든 포토샵 스타일 편집기</td><td>아니요</td><td><sub>프로젝트 README</sub></td></tr>
 <tr><td><a href="https://github.com/sickpyramid/ReaFuse"><img src="https://opengraph.githubassets.com/1/sickpyramid/ReaFuse" width="160" alt="sickpyramid/ReaFuse"></a></td><td><a href="https://github.com/sickpyramid/ReaFuse"><b>ReaFuse</b></a><br><sub>sickpyramid</sub></td><td>REA로 두 JS/TS 프로젝트를 하나로 합치기</td><td>✅ 예</td><td><sub>저장소 카드</sub></td></tr>
 <tr><td><a href="https://github.com/laaielichter/Reverseport"><img src="https://raw.githubusercontent.com/laaielichter/Reverseport/main/docs/assets/demo.gif" width="160" alt="laaielichter/Reverseport"></a></td><td><a href="https://github.com/laaielichter/Reverseport"><b>Reverseport</b></a><br><sub>laaielichter</sub></td><td>리버싱 결과를 Godot·Unity·Unreal·three.js로 이식</td><td>❔ 미확인</td><td><sub>프로젝트 README</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Xiangyu-CAS/rea-capcut"><b>rea-capcut</b></a><br><sub>Xiangyu-CAS</sub></td><td>REA로 CapCut을 분석해 다시 만든 오픈소스 오프라인 영상 편집기</td><td>✅ 예</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/chilliesdev/fmseasonhub-re"><b>fmseasonhub-re</b></a><br><sub>chilliesdev</sub></td><td>REA로 FM Season Hub 앱을 분석한 노트</td><td>✅ 예</td><td><sub>—</sub></td></tr>
 </table>
 
 ## 프로토콜 / 하드웨어
@@ -331,6 +334,8 @@
 <tr><td><a href="https://github.com/mitmproxy/mitmproxy"><img src="https://mitmproxy.org/screenshot.png" width="160" alt="mitmproxy/mitmproxy"></a></td><td><a href="https://github.com/mitmproxy/mitmproxy"><b>mitmproxy</b></a><br><sub>mitmproxy</sub></td><td>HTTPS 트래픽을 실시간으로 보고 수정</td><td>아니요</td><td><sub>프로젝트 README</sub></td></tr>
 <tr><td><a href="https://github.com/postlund/pyatv"><img src="https://opengraph.githubassets.com/1/postlund/pyatv" width="160" alt="postlund/pyatv"></a></td><td><a href="https://github.com/postlund/pyatv"><b>pyatv</b></a><br><sub>postlund</sub></td><td>Python으로 Apple TV·AirPlay 기기 제어</td><td>아니요</td><td><sub>저장소 카드</sub></td></tr>
 <tr><td><a href="https://github.com/wireshark/wireshark"><img src="images/wireshark-gui.png" width="160" alt="wireshark/wireshark"></a></td><td><a href="https://github.com/wireshark/wireshark"><b>wireshark</b></a><br><sub>wireshark</sub></td><td>네트워크의 모든 패킷을 디코딩해 확인</td><td>아니요</td><td><sub>자체 스크린샷</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/EndLess728/MiTV-Remote"><b>MiTV-Remote</b></a><br><sub>EndLess728</sub></td><td>Mac·안드로이드·아이폰에서 Wi-Fi로 샤오미 TV 조작</td><td>✅ 예</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/B-Howell/soundconnect-desktop"><b>soundconnect-desktop</b></a><br><sub>B-Howell</sub></td><td>Windows 데스크톱에서 소니 블루투스 헤드폰 제어</td><td>✅ 예</td><td><sub>—</sub></td></tr>
 </table>
 
 ## 펌웨어 / 드라이버
@@ -344,6 +349,7 @@
 <tr><td><a href="https://github.com/attify/firmware-analysis-toolkit"><img src="https://opengraph.githubassets.com/1/attify/firmware-analysis-toolkit" width="160" alt="attify/firmware-analysis-toolkit"></a></td><td><a href="https://github.com/attify/firmware-analysis-toolkit"><b>firmware-analysis-toolkit</b></a><br><sub>attify</sub></td><td>IoT 펌웨어를 에뮬레이션해 안전하게 분석</td><td>아니요</td><td><sub>저장소 카드</sub></td></tr>
 <tr><td><a href="https://github.com/onekey-sec/unblob"><img src="images/unblob-terminal.png" width="160" alt="onekey-sec/unblob"></a></td><td><a href="https://github.com/onekey-sec/unblob"><b>unblob</b></a><br><sub>onekey-sec</sub></td><td>거의 모든 펌웨어·컨테이너 형식을 재귀적으로 추출</td><td>아니요</td><td><sub>자체 스크린샷</sub></td></tr>
 <tr><td><a href="https://github.com/travisgoodspeed/md380tools"><img src="https://opengraph.githubassets.com/1/travisgoodspeed/md380tools" width="160" alt="travisgoodspeed/md380tools"></a></td><td><a href="https://github.com/travisgoodspeed/md380tools"><b>md380tools</b></a><br><sub>travisgoodspeed</sub></td><td>TYT MD-380 무전기용 커스텀 펌웨어 패치</td><td>아니요</td><td><sub>저장소 카드</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/nicolvus/a6000-fw-decomp"><b>a6000-fw-decomp</b></a><br><sub>nicolvus</sub></td><td>REA와 Ghidra로 소니 A6000 펌웨어 분석</td><td>✅ 예</td><td><sub>—</sub></td></tr>
 </table>
 
 ## 보안 / 평가
@@ -395,6 +401,8 @@
 <tr><td><a href="https://github.com/pablodiazjorge/rea-casebook"><img src="https://raw.githubusercontent.com/pablodiazjorge/rea-casebook/main/media/session-dark.png" width="160" alt="pablodiazjorge/rea-casebook"></a></td><td><a href="https://github.com/pablodiazjorge/rea-casebook"><b>rea-casebook</b></a><br><sub>pablodiazjorge</sub></td><td>Claude Code의 모든 결론에 실제 REA 증거를 인용하게</td><td>✅ 예</td><td><sub>프로젝트 README</sub></td></tr>
 <tr><td><a href="https://github.com/jinshi666888/rea-playbook"><img src="https://raw.githubusercontent.com/jinshi666888/rea-playbook/main/docs/assets/demo.gif" width="160" alt="jinshi666888/rea-playbook"></a></td><td><a href="https://github.com/jinshi666888/rea-playbook"><b>rea-playbook</b></a><br><sub>jinshi666888</sub></td><td>작은 Electron 타깃이 있는 REA 실습</td><td>✅ 예</td><td><sub>프로젝트 README</sub></td></tr>
 <tr><td><a href="https://github.com/dav1dngy/era-agent"><img src="https://raw.githubusercontent.com/dav1dngy/era-agent/main/docs/assets/screenshots/01-main-workspace.png" width="160" alt="dav1dngy/era-agent"></a></td><td><a href="https://github.com/dav1dngy/era-agent"><b>era-agent</b></a><br><sub>dav1dngy</sub></td><td>증거 기반으로 스스로 개선을 시도하는 리버싱 에이전트</td><td>❔ 미확인</td><td><sub>프로젝트 README</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/tanepiper/game-frame"><b>game-frame</b></a><br><sub>tanepiper</sub></td><td>배포 파일로 에이전트가 게임을 역공학하는 프레임워크</td><td>✅ 예</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/agioracle/rea-unity-game"><b>rea-unity-game</b></a><br><sub>agioracle</sub></td><td>에이전트로 Unity 게임을 역공학하는 워크플로</td><td>❔ 미확인</td><td><sub>—</sub></td></tr>
 </table>
 
 ## REA 공식 쇼케이스

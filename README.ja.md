@@ -299,6 +299,7 @@
 <tr><td><a href="https://github.com/AssetRipper/AssetRipper"><img src="https://raw.githubusercontent.com/AssetRipper/AssetRipper/master/docs/articles/images/RunningOnMac/004.png" width="160" alt="AssetRipper/AssetRipper"></a></td><td><a href="https://github.com/AssetRipper/AssetRipper"><b>AssetRipper</b></a><br><sub>AssetRipper</sub></td><td>Unity のビルドを編集可能なプロジェクトに戻す</td><td>いいえ</td><td><sub>プロジェクト README</sub></td></tr>
 <tr><td><a href="https://github.com/ladislav-zezula/CascLib"><img src="https://opengraph.githubassets.com/1/ladislav-zezula/CascLib" width="160" alt="ladislav-zezula/CascLib"></a></td><td><a href="https://github.com/ladislav-zezula/CascLib"><b>CascLib</b></a><br><sub>ladislav-zezula</sub></td><td>Blizzard の CASC アーカイブを読み込む</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
 <tr><td><a href="https://github.com/N0zoM1z0/touhou-reconstruction-factory"><img src="https://opengraph.githubassets.com/1/N0zoM1z0/touhou-reconstruction-factory" width="160" alt="N0zoM1z0/touhou-reconstruction-factory"></a></td><td><a href="https://github.com/N0zoM1z0/touhou-reconstruction-factory"><b>touhou-reconstruction-factory</b></a><br><sub>N0zoM1z0</sub></td><td>東方シリーズ再構築を支えるエージェントパイプライン</td><td>❔ 未確認</td><td><sub>リポジトリカード</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/rodneypantonial/sims3-modernization"><b>sims3-modernization</b></a><br><sub>rodneypantonial</sub></td><td>最新 PC でシムズ3 のカクつきとクラッシュを減らす</td><td>✅ はい</td><td><sub>—</sub></td></tr>
 </table>
 
 ## アプリ / Electron / デスクトップ
@@ -320,6 +321,8 @@
 <tr><td><a href="https://github.com/storytold/photocraft"><img src="https://raw.githubusercontent.com/storytold/photocraft/main/docs/images/photocraft-demo.jpg" width="160" alt="storytold/photocraft"></a></td><td><a href="https://github.com/storytold/photocraft"><b>photocraft</b></a><br><sub>storytold</sub></td><td>ゼロから作ったオープンソースの Photoshop 風エディタ</td><td>いいえ</td><td><sub>プロジェクト README</sub></td></tr>
 <tr><td><a href="https://github.com/sickpyramid/ReaFuse"><img src="https://opengraph.githubassets.com/1/sickpyramid/ReaFuse" width="160" alt="sickpyramid/ReaFuse"></a></td><td><a href="https://github.com/sickpyramid/ReaFuse"><b>ReaFuse</b></a><br><sub>sickpyramid</sub></td><td>REA を使って 2 つの JS/TS プロジェクトを融合</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
 <tr><td><a href="https://github.com/laaielichter/Reverseport"><img src="https://raw.githubusercontent.com/laaielichter/Reverseport/main/docs/assets/demo.gif" width="160" alt="laaielichter/Reverseport"></a></td><td><a href="https://github.com/laaielichter/Reverseport"><b>Reverseport</b></a><br><sub>laaielichter</sub></td><td>解析結果を Godot・Unity・Unreal・three.js へ移植</td><td>❔ 未確認</td><td><sub>プロジェクト README</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Xiangyu-CAS/rea-capcut"><b>rea-capcut</b></a><br><sub>Xiangyu-CAS</sub></td><td>REA で CapCut を調べて作り直したオープンソースのオフライン動画編集</td><td>✅ はい</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/chilliesdev/fmseasonhub-re"><b>fmseasonhub-re</b></a><br><sub>chilliesdev</sub></td><td>REA で FM Season Hub アプリを解析したノート</td><td>✅ はい</td><td><sub>—</sub></td></tr>
 </table>
 
 ## プロトコル / ハードウェア
@@ -331,6 +334,8 @@
 <tr><td><a href="https://github.com/mitmproxy/mitmproxy"><img src="https://mitmproxy.org/screenshot.png" width="160" alt="mitmproxy/mitmproxy"></a></td><td><a href="https://github.com/mitmproxy/mitmproxy"><b>mitmproxy</b></a><br><sub>mitmproxy</sub></td><td>HTTPS 通信をその場で見て書き換える</td><td>いいえ</td><td><sub>プロジェクト README</sub></td></tr>
 <tr><td><a href="https://github.com/postlund/pyatv"><img src="https://opengraph.githubassets.com/1/postlund/pyatv" width="160" alt="postlund/pyatv"></a></td><td><a href="https://github.com/postlund/pyatv"><b>pyatv</b></a><br><sub>postlund</sub></td><td>Python から Apple TV や AirPlay 機器を操作</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
 <tr><td><a href="https://github.com/wireshark/wireshark"><img src="images/wireshark-gui.png" width="160" alt="wireshark/wireshark"></a></td><td><a href="https://github.com/wireshark/wireshark"><b>wireshark</b></a><br><sub>wireshark</sub></td><td>ネットワーク上のパケットをすべてデコードして見る</td><td>いいえ</td><td><sub>当リポジトリの撮影</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/EndLess728/MiTV-Remote"><b>MiTV-Remote</b></a><br><sub>EndLess728</sub></td><td>Mac・Android・iPhone から Wi-Fi で Xiaomi テレビを操作</td><td>✅ はい</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/B-Howell/soundconnect-desktop"><b>soundconnect-desktop</b></a><br><sub>B-Howell</sub></td><td>Windows デスクトップから Sony の Bluetooth ヘッドホンを操作</td><td>✅ はい</td><td><sub>—</sub></td></tr>
 </table>
 
 ## ファームウェア / ドライバ
@@ -344,6 +349,7 @@
 <tr><td><a href="https://github.com/attify/firmware-analysis-toolkit"><img src="https://opengraph.githubassets.com/1/attify/firmware-analysis-toolkit" width="160" alt="attify/firmware-analysis-toolkit"></a></td><td><a href="https://github.com/attify/firmware-analysis-toolkit"><b>firmware-analysis-toolkit</b></a><br><sub>attify</sub></td><td>IoT ファームをエミュレートして安全に調べる</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
 <tr><td><a href="https://github.com/onekey-sec/unblob"><img src="images/unblob-terminal.png" width="160" alt="onekey-sec/unblob"></a></td><td><a href="https://github.com/onekey-sec/unblob"><b>unblob</b></a><br><sub>onekey-sec</sub></td><td>ほぼあらゆるファームやコンテナ形式を再帰的に展開</td><td>いいえ</td><td><sub>当リポジトリの撮影</sub></td></tr>
 <tr><td><a href="https://github.com/travisgoodspeed/md380tools"><img src="https://opengraph.githubassets.com/1/travisgoodspeed/md380tools" width="160" alt="travisgoodspeed/md380tools"></a></td><td><a href="https://github.com/travisgoodspeed/md380tools"><b>md380tools</b></a><br><sub>travisgoodspeed</sub></td><td>TYT MD-380 無線機用のカスタムファームパッチ</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/nicolvus/a6000-fw-decomp"><b>a6000-fw-decomp</b></a><br><sub>nicolvus</sub></td><td>REA と Ghidra で Sony A6000 のファームウェアを解析</td><td>✅ はい</td><td><sub>—</sub></td></tr>
 </table>
 
 ## セキュリティ / 評価
@@ -395,6 +401,8 @@
 <tr><td><a href="https://github.com/pablodiazjorge/rea-casebook"><img src="https://raw.githubusercontent.com/pablodiazjorge/rea-casebook/main/media/session-dark.png" width="160" alt="pablodiazjorge/rea-casebook"></a></td><td><a href="https://github.com/pablodiazjorge/rea-casebook"><b>rea-casebook</b></a><br><sub>pablodiazjorge</sub></td><td>Claude Code の結論すべてに実際の REA 証拠を引用させる</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
 <tr><td><a href="https://github.com/jinshi666888/rea-playbook"><img src="https://raw.githubusercontent.com/jinshi666888/rea-playbook/main/docs/assets/demo.gif" width="160" alt="jinshi666888/rea-playbook"></a></td><td><a href="https://github.com/jinshi666888/rea-playbook"><b>rea-playbook</b></a><br><sub>jinshi666888</sub></td><td>小さな Electron ターゲット付きの REA ハンズオン</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
 <tr><td><a href="https://github.com/dav1dngy/era-agent"><img src="https://raw.githubusercontent.com/dav1dngy/era-agent/main/docs/assets/screenshots/01-main-workspace.png" width="160" alt="dav1dngy/era-agent"></a></td><td><a href="https://github.com/dav1dngy/era-agent"><b>era-agent</b></a><br><sub>dav1dngy</sub></td><td>証拠駆動で自己改善を試みるリバースエンジニアリング用エージェント</td><td>❔ 未確認</td><td><sub>プロジェクト README</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/tanepiper/game-frame"><b>game-frame</b></a><br><sub>tanepiper</sub></td><td>配布ファイルからエージェントがゲームを解析するフレームワーク</td><td>✅ はい</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/agioracle/rea-unity-game"><b>rea-unity-game</b></a><br><sub>agioracle</sub></td><td>エージェントで Unity ゲームを解析するワークフロー</td><td>❔ 未確認</td><td><sub>—</sub></td></tr>
 </table>
 
 ## REA 公式ショーケース

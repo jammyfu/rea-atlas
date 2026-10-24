@@ -1270,5 +1270,69 @@
   "https://github.com/pablodiazjorge/rea-lab",
   "Yes",
   "Windows + Ghidra exercises and a pre-registered REA evaluation. MIT."
+ ],
+ [
+  "protocol",
+  "",
+  "EndLess728/MiTV-Remote",
+  "https://github.com/EndLess728/MiTV-Remote",
+  "Yes",
+  "README: MiLink protocol reverse engineered with REA from TV firmware."
+ ],
+ [
+  "protocol",
+  "",
+  "B-Howell/soundconnect-desktop",
+  "https://github.com/B-Howell/soundconnect-desktop",
+  "Yes",
+  "Repo description: built as a test drive of REA."
+ ],
+ [
+  "app",
+  "",
+  "Xiangyu-CAS/rea-capcut",
+  "https://github.com/Xiangyu-CAS/rea-capcut",
+  "Yes",
+  "README: video editor informed by REA-assisted research into CapCut/Jianying."
+ ],
+ [
+  "app",
+  "",
+  "chilliesdev/fmseasonhub-re",
+  "https://github.com/chilliesdev/fmseasonhub-re",
+  "Yes",
+  "README: analysis executed with rea-agents v6.7.0 (morluto/rea)."
+ ],
+ [
+  "pc",
+  "tools",
+  "rodneypantonial/sims3-modernization",
+  "https://github.com/rodneypantonial/sims3-modernization",
+  "Yes",
+  "README tool table lists REA (morluto/rea)."
+ ],
+ [
+  "firmware",
+  "",
+  "nicolvus/a6000-fw-decomp",
+  "https://github.com/nicolvus/a6000-fw-decomp",
+  "Yes",
+  "README: findings confirmed with REA/Ghidra traces."
+ ],
+ [
+  "tooling",
+  "",
+  "tanepiper/game-frame",
+  "https://github.com/tanepiper/game-frame",
+  "Yes",
+  "README: toolchain setup registers REA for the agent."
+ ],
+ [
+  "tooling",
+  "",
+  "agioracle/rea-unity-game",
+  "https://github.com/agioracle/rea-unity-game",
+  "Unverified",
+  "Description: \"Inspired by REA\"; no evidence it runs rea."
  ]
 ]
