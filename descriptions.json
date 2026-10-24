@@ -1111,5 +1111,61 @@
   "zh-TW": "Windows + Ghidra 練習題與預先登記的 REA 評測",
   "ja": "Windows + Ghidra の演習と事前登録した REA 評価",
   "ko": "Windows + Ghidra 실습과 사전 등록된 REA 평가"
+ },
+ "EndLess728/MiTV-Remote": {
+  "en": "Control Xiaomi TVs over Wi-Fi from Mac, Android or iPhone",
+  "zh-CN": "在 Mac、安卓、iPhone 上用 Wi-Fi 遥控小米电视",
+  "zh-TW": "在 Mac、Android、iPhone 上用 Wi-Fi 遙控小米電視",
+  "ja": "Mac・Android・iPhone から Wi-Fi で Xiaomi テレビを操作",
+  "ko": "Mac·안드로이드·아이폰에서 Wi-Fi로 샤오미 TV 조작"
+ },
+ "B-Howell/soundconnect-desktop": {
+  "en": "Control Sony Bluetooth headphones from a Windows desktop app",
+  "zh-CN": "在 Windows 桌面上控制索尼蓝牙耳机",
+  "zh-TW": "在 Windows 桌面上控制 Sony 藍牙耳機",
+  "ja": "Windows デスクトップから Sony の Bluetooth ヘッドホンを操作",
+  "ko": "Windows 데스크톱에서 소니 블루투스 헤드폰 제어"
+ },
+ "Xiangyu-CAS/rea-capcut": {
+  "en": "An open-source offline video editor rebuilt from REA research on CapCut",
+  "zh-CN": "用 REA 研究剪映后重做的开源离线剪辑软件",
+  "zh-TW": "用 REA 研究剪映後重做的開源離線剪輯軟體",
+  "ja": "REA で CapCut を調べて作り直したオープンソースのオフライン動画編集",
+  "ko": "REA로 CapCut을 분석해 다시 만든 오픈소스 오프라인 영상 편집기"
+ },
+ "chilliesdev/fmseasonhub-re": {
+  "en": "REA teardown notes of the FM Season Hub app",
+  "zh-CN": "用 REA 拆解 FM Season Hub 应用的分析笔记",
+  "zh-TW": "用 REA 拆解 FM Season Hub 應用程式的分析筆記",
+  "ja": "REA で FM Season Hub アプリを解析したノート",
+  "ko": "REA로 FM Season Hub 앱을 분석한 노트"
+ },
+ "rodneypantonial/sims3-modernization": {
+  "en": "Make The Sims 3 stutter and crash less on modern PCs",
+  "zh-CN": "让模拟人生 3 在新电脑上少卡顿、少崩溃",
+  "zh-TW": "讓模擬市民 3 在新電腦上少卡頓、少當機",
+  "ja": "最新 PC でシムズ3 のカクつきとクラッシュを減らす",
+  "ko": "최신 PC에서 심즈 3 끊김과 크래시 줄이기"
+ },
+ "nicolvus/a6000-fw-decomp": {
+  "en": "Dig into Sony A6000 camera firmware with REA and Ghidra",
+  "zh-CN": "用 REA 和 Ghidra 拆索尼 A6000 相机固件",
+  "zh-TW": "用 REA 和 Ghidra 拆 Sony A6000 相機韌體",
+  "ja": "REA と Ghidra で Sony A6000 のファームウェアを解析",
+  "ko": "REA와 Ghidra로 소니 A6000 펌웨어 분석"
+ },
+ "tanepiper/game-frame": {
+  "en": "A framework for agents to reverse engineer games from shipped files",
+  "zh-CN": "让 AI agent 从发行文件逆向游戏的框架",
+  "zh-TW": "讓 AI agent 從發行檔案逆向遊戲的框架",
+  "ja": "配布ファイルからエージェントがゲームを解析するフレームワーク",
+  "ko": "배포 파일로 에이전트가 게임을 역공학하는 프레임워크"
+ },
+ "agioracle/rea-unity-game": {
+  "en": "Agent workflow for reverse engineering Unity games",
+  "zh-CN": "用 agent 逆向 Unity 游戏的工作流",
+  "zh-TW": "用 agent 逆向 Unity 遊戲的工作流程",
+  "ja": "エージェントで Unity ゲームを解析するワークフロー",
+  "ko": "에이전트로 Unity 게임을 역공학하는 워크플로"
  }
 }
