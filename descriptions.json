@@ -1,1171 +1,1220 @@
 {
- "DX-Ball: sound-pan function": {
-  "en": "Watch REA turn one DX-Ball sound helper into byte-exact C",
-  "zh-CN": "看 REA 把 DX-Ball 的一个音效函数还原成逐字节一致的 C",
-  "zh-TW": "看 REA 把 DX-Ball 的一個音效函式還原成逐位元組一致的 C",
-  "ja": "REA が DX-Ball の音響関数をバイト単位で一致する C に戻す過程",
-  "ko": "REA가 DX-Ball 사운드 함수를 바이트 단위로 같은 C로 복원하는 과정"
- },
- "Notion: Electron clipboard bridge": {
-  "en": "Follow a Notion copy from the page, through IPC, into the main process",
-  "zh-CN": "跟着一次 Notion 复制操作，从页面一路追到 IPC 和主进程",
-  "zh-TW": "跟著一次 Notion 複製操作，從頁面一路追進 IPC 和主行程",
-  "ja": "Notion のコピー操作をページから IPC、メインプロセスまで追跡",
-  "ko": "Notion 복사 동작을 페이지에서 IPC, 메인 프로세스까지 추적"
- },
- "TH04: PC-98 bullet-ring maths": {
-  "en": "Recover Touhou 4's bullet-ring angle maths from 16-bit DOS code",
-  "zh-CN": "从 16 位 DOS 代码里找回东方幻想乡的弹幕角度算法",
-  "zh-TW": "從 16 位元 DOS 程式碼裡找回東方幻想鄉的彈幕角度演算法",
-  "ja": "16 ビット DOS コードから東方幻想郷の弾幕角度計算を復元",
-  "ko": "16비트 DOS 코드에서 동방환상향 탄막 각도 계산을 복원"
- },
- "Aegis: TOTP code generation": {
-  "en": "See exactly how the Aegis Android app generates your 2FA codes",
-  "zh-CN": "看清 Aegis 安卓应用是怎样生成两步验证码的",
-  "zh-TW": "看清 Aegis Android App 究竟如何產生兩步驟驗證碼",
-  "ja": "Aegis（Android）が二段階認証コードを生成する仕組みを解明",
-  "ko": "Aegis 안드로이드 앱이 2단계 인증 코드를 만드는 방식을 해부"
- },
- "CTF: flag checker": {
-  "en": "Solve a DownUnderCTF 2023 reversing challenge step by step",
-  "zh-CN": "一步步解开 DownUnderCTF 2023 的逆向题",
-  "zh-TW": "一步步解開 DownUnderCTF 2023 的逆向題",
-  "ja": "DownUnderCTF 2023 のリバーシング問題を順に解く",
-  "ko": "DownUnderCTF 2023 리버싱 문제를 단계별로 풀이"
- },
- "N0zoM1z0/dx-ball": {
-  "en": "DX-Ball 1.07 rebuilt in C/C++, tested against the original x86",
-  "zh-CN": "用 C/C++ 重建 DX-Ball 1.07，并对照原版 x86 测试",
-  "zh-TW": "用 C/C++ 重建 DX-Ball 1.07，並對照原版 x86 測試",
-  "ja": "DX-Ball 1.07 を C/C++ で再構築、元の x86 と照合テスト",
-  "ko": "DX-Ball 1.07을 C/C++로 재구성하고 원본 x86과 대조 테스트"
- },
- "N0zoM1z0/th04": {
-  "en": "Touhou 4 (PC-98) as readable source, checked against the original compiler",
-  "zh-CN": "东方幻想乡（PC-98）的可读源码，对照原编译器校验",
-  "zh-TW": "東方幻想鄉（PC-98）的可讀原始碼，並以原版編譯器驗證",
-  "ja": "東方幻想郷（PC-98）を読めるソースに、当時のコンパイラで検証",
-  "ko": "동방환상향(PC-98)을 읽을 수 있는 소스로, 원래 컴파일러로 검증"
- },
- "N0zoM1z0/th08": {
-  "en": "Touhou 8: Imperishable Night reconstructed as source",
-  "zh-CN": "东方永夜抄，重建为源码",
-  "zh-TW": "東方永夜抄，重建成原始碼",
-  "ja": "東方永夜抄をソースコードとして再構築",
-  "ko": "동방영야초를 소스 코드로 재구성"
- },
- "N0zoM1z0/th10": {
-  "en": "Touhou 10: Mountain of Faith reconstructed as source",
-  "zh-CN": "东方风神录，重建为源码",
-  "zh-TW": "東方風神錄，重建成原始碼",
-  "ja": "東方風神録をソースコードとして再構築",
-  "ko": "동방풍신록을 소스 코드로 재구성"
- },
- "ucodia/desktop-games-nostalgia": {
-  "en": "Smash your desktop again: Gemtree's 2000 toy on macOS and the web",
-  "zh-CN": "再砸一次桌面：Gemtree 2000 年的小玩具登上 macOS 和网页",
-  "zh-TW": "再砸一次桌面：Gemtree 2000 年的小玩具登上 macOS 和網頁",
-  "ja": "デスクトップをまた壊そう：Gemtree の 2000 年作を macOS とブラウザへ",
-  "ko": "다시 데스크톱 부수기: Gemtree의 2000년작을 macOS와 웹으로"
- },
- "tuunanet/rea-ski-or-die-reconstruction": {
-  "en": "Ski or Die's Snowball War, rebuilt in Rust + SDL2 (bring your own assets)",
-  "zh-CN": "Ski or Die 的雪球大战，用 Rust + SDL2 重做（素材自备）",
-  "zh-TW": "Ski or Die 的雪球大戰，以 Rust + SDL2 重製（素材需自備）",
-  "ja": "Ski or Die の雪合戦を Rust + SDL2 で再現（素材は各自用意）",
-  "ko": "Ski or Die 눈싸움을 Rust + SDL2로 재구현(에셋은 직접 준비)"
- },
- "Moxnatiy/OpenBattlefield2": {
-  "en": "Battlefield 2's engine, rewritten clean-room in C++20 (uses your own copy)",
-  "zh-CN": "战地 2 引擎的 C++20 净室重写（读取你自己的游戏）",
-  "zh-TW": "戰地風雲 2 引擎的 C++20 淨室重寫（讀取你自己的遊戲檔案）",
-  "ja": "バトルフィールド 2 のエンジンを C++20 でクリーンルーム再実装（手持ちの製品版を使用）",
-  "ko": "배틀필드 2 엔진을 C++20으로 클린룸 재구현(보유한 게임 사용)"
- },
- "OpenRsG/GunZRs": {
-  "en": "GunZ: The Duel, reborn in Rust + Bevy",
-  "zh-CN": "GunZ：The Duel 用 Rust + Bevy 重生",
-  "zh-TW": "GunZ: The Duel 以 Rust + Bevy 重生",
-  "ja": "GunZ: The Duel を Rust + Bevy で復活",
-  "ko": "GunZ: The Duel을 Rust + Bevy로 부활"
- },
- "a-barzanti/ai-rebuilds": {
-  "en": "Abandoned games brought back to the browser, no original files included",
-  "zh-CN": "被遗弃的老游戏重回浏览器，不含任何原版文件",
-  "zh-TW": "被遺棄的老遊戲重回瀏覽器，不含任何原版檔案",
-  "ja": "見捨てられたゲームをブラウザで復活、元ファイルは含まない",
-  "ko": "버려진 게임을 브라우저로 되살림, 원본 파일 미포함"
- },
- "OpenRCT2/OpenRCT2": {
-  "en": "RollerCoaster Tycoon 2, open-source and alive on modern systems",
-  "zh-CN": "开源版过山车大亨 2，在现代系统上继续运行",
-  "zh-TW": "開源版 RollerCoaster Tycoon 2，在現代系統上繼續執行",
-  "ja": "ローラーコースタータイクーン 2 をオープンソースで現行 OS に",
-  "ko": "롤러코스터 타이쿤 2를 오픈소스로 최신 OS에서"
- },
- "OpenMW/openmw": {
-  "en": "Play Morrowind on a modern open-source engine",
-  "zh-CN": "在现代开源引擎上玩晨风",
-  "zh-TW": "在現代開源引擎上玩 Morrowind",
-  "ja": "モロウウィンドを最新のオープンソースエンジンで",
-  "ko": "모로윈드를 현대적인 오픈소스 엔진으로 플레이"
- },
- "zeldaret/oot": {
-  "en": "Ocarina of Time, fully decompiled to C (ROM not included)",
-  "zh-CN": "时之笛完整反编译为 C（不含 ROM）",
-  "zh-TW": "薩爾達傳說 時之笛完整反編譯為 C（不含 ROM）",
-  "ja": "時のオカリナを C へ完全逆コンパイル（ROM は含まない）",
-  "ko": "시간의 오카리나를 C로 완전 디컴파일(ROM 미포함)"
- },
- "n64decomp/sm64": {
-  "en": "Super Mario 64 as buildable C source (ROM not included)",
-  "zh-CN": "可构建的超级马里奥 64 C 源码（不含 ROM）",
-  "zh-TW": "可建置的超級瑪利歐 64 C 原始碼（不含 ROM）",
-  "ja": "ビルド可能なスーパーマリオ 64 の C ソース（ROM は含まない）",
-  "ko": "빌드 가능한 슈퍼 마리오 64 C 소스(ROM 미포함)"
- },
- "HarbourMasters/Shipwright": {
-  "en": "Play Zelda: Ocarina of Time natively on PC (bring your own ROM)",
-  "zh-CN": "在 PC 上原生运行塞尔达：时之笛（ROM 自备）",
-  "zh-TW": "在 PC 上原生執行薩爾達傳說 時之笛（ROM 需自備）",
-  "ja": "ゼルダの伝説 時のオカリナを PC でネイティブに（ROM は各自）",
-  "ko": "젤다의 전설 시간의 오카리나를 PC에서 네이티브로(ROM 직접 준비)"
- },
- "ethteck/splat": {
-  "en": "Slice N64 and PS1 binaries into a decomp-ready project",
-  "zh-CN": "把 N64、PS1 二进制切分成可反编译的工程",
-  "zh-TW": "把 N64、PS1 二進位檔切分成可反編譯的專案",
-  "ja": "N64・PS1 のバイナリを逆コンパイル用プロジェクトに分割",
-  "ko": "N64·PS1 바이너리를 디컴파일용 프로젝트로 분할"
- },
- "NEstelami/ZAPD": {
-  "en": "Turn Zelda 64 assets into editable source files",
-  "zh-CN": "把 Zelda 64 的资源转成可编辑的源文件",
-  "zh-TW": "把 Zelda 64 的資源轉成可編輯的原始檔",
-  "ja": "ゼルダ 64 のアセットを編集可能なソースへ変換",
-  "ko": "젤다 64 에셋을 편집 가능한 소스로 변환"
- },
- "sonicretro/s1disasm": {
-  "en": "Sonic the Hedgehog (Mega Drive), fully disassembled",
-  "zh-CN": "刺猬索尼克（MD）完整反汇编",
-  "zh-TW": "音速小子（MD）完整反組譯",
-  "ja": "ソニック・ザ・ヘッジホッグ（メガドライブ）を完全逆アセンブル",
-  "ko": "소닉 더 헤지혹(메가 드라이브) 완전 디스어셈블"
- },
- "sonicretro/s2disasm": {
-  "en": "Sonic 2 (Mega Drive), fully disassembled",
-  "zh-CN": "索尼克 2（MD）完整反汇编",
-  "zh-TW": "音速小子 2（MD）完整反組譯",
-  "ja": "ソニック 2（メガドライブ）を完全逆アセンブル",
-  "ko": "소닉 2(메가 드라이브) 완전 디스어셈블"
- },
- "snesrev/zelda3": {
-  "en": "A Link to the Past rewritten in C, with widescreen (bring your own ROM)",
-  "zh-CN": "用 C 重写的众神的三角力量，支持宽屏（ROM 自备）",
-  "zh-TW": "以 C 重寫的薩爾達傳說 眾神的三角力量，支援寬螢幕（ROM 需自備）",
-  "ja": "神々のトライフォースを C で再実装、ワイド対応（ROM は各自）",
-  "ko": "신들의 트라이포스를 C로 재구현, 와이드 지원(ROM 직접 준비)"
- },
- "snesrev/sm": {
-  "en": "Super Metroid rewritten in C (bring your own ROM)",
-  "zh-CN": "用 C 重写的超级银河战士（ROM 自备）",
-  "zh-TW": "以 C 重寫的超級銀河戰士（ROM 需自備）",
-  "ja": "スーパーメトロイドを C で再実装（ROM は各自）",
-  "ko": "슈퍼 메트로이드를 C로 재구현(ROM 직접 준비)"
- },
- "pret/pokeemerald": {
-  "en": "Pokémon Emerald as C source, the base of countless ROM hacks",
-  "zh-CN": "宝可梦绿宝石的 C 源码，无数改版的起点",
-  "zh-TW": "寶可夢 綠寶石的 C 原始碼，無數改版的起點",
-  "ja": "ポケモン エメラルドの C ソース、数多の改造の土台",
-  "ko": "포켓몬스터 에메랄드 C 소스, 수많은 개조의 기반"
- },
- "pret/pokefirered": {
-  "en": "Pokémon FireRed/LeafGreen as C source",
-  "zh-CN": "宝可梦火红/叶绿的 C 源码",
-  "zh-TW": "寶可夢 火紅/葉綠的 C 原始碼",
-  "ja": "ポケモン ファイアレッド・リーフグリーンの C ソース",
-  "ko": "포켓몬스터 파이어레드·리프그린 C 소스"
- },
- "zeldaret/tmc": {
-  "en": "Zelda: The Minish Cap, decompiled to C",
-  "zh-CN": "塞尔达：缩小帽，反编译为 C",
-  "zh-TW": "薩爾達傳說 縮小帽，反編譯為 C",
-  "ja": "ゼルダの伝説 ふしぎのぼうしを C へ逆コンパイル",
-  "ko": "젤다의 전설 이상한 모자를 C로 디컴파일"
- },
- "pret/pokered": {
-  "en": "Pokémon Red/Blue, fully disassembled",
-  "zh-CN": "宝可梦红/蓝完整反汇编",
-  "zh-TW": "寶可夢 紅/藍完整反組譯",
-  "ja": "ポケモン 赤・緑（Red/Blue）を完全逆アセンブル",
-  "ko": "포켓몬스터 레드·블루 완전 디스어셈블"
- },
- "pret/pokegold": {
-  "en": "Pokémon Gold/Silver, fully disassembled",
-  "zh-CN": "宝可梦金/银完整反汇编",
-  "zh-TW": "寶可夢 金/銀完整反組譯",
-  "ja": "ポケモン 金・銀を完全逆アセンブル",
-  "ko": "포켓몬스터 금·은 완전 디스어셈블"
- },
- "Xeeynamo/sotn-decomp": {
-  "en": "Castlevania: Symphony of the Night, decompiled to C",
-  "zh-CN": "恶魔城：月下夜想曲，反编译为 C",
-  "zh-TW": "惡魔城：月下夜想曲，反編譯為 C",
-  "ja": "悪魔城ドラキュラX 月下の夜想曲を C へ逆コンパイル",
-  "ko": "악마성 드라큘라 X 월하의 야상곡을 C로 디컴파일"
- },
- "michaelshimeles/sketch": {
-  "en": "An infinite design canvas in Rust, rebuilt by studying Paper",
-  "zh-CN": "Rust 写的无限设计画布，研究 Paper 后重建",
-  "zh-TW": "以 Rust 寫成的無限設計畫布，研究 Paper 後重建",
-  "ja": "Paper を研究して作った Rust 製の無限デザインキャンバス",
-  "ko": "Paper를 연구해 만든 Rust 무한 디자인 캔버스"
- },
- "michaelshimeles/rec-rs": {
-  "en": "A fast macOS screen recorder in Rust, modelled on OBS",
-  "zh-CN": "Rust 写的 macOS 快速录屏工具，参照 OBS 设计",
-  "zh-TW": "以 Rust 寫成的 macOS 快速螢幕錄影工具，參考 OBS 設計",
-  "ja": "OBS を参考にした Rust 製の高速 macOS 録画ツール",
-  "ko": "OBS를 참고한 Rust 기반 빠른 macOS 녹화 도구"
- },
- "iammukeshm/hexgrab": {
-  "en": "A tiny Windows colour picker, rebuilt from PowerToys' binaries",
-  "zh-CN": "迷你 Windows 取色器，从 PowerToys 二进制研究而来",
-  "zh-TW": "迷你 Windows 取色工具，從 PowerToys 二進位檔研究而來",
-  "ja": "PowerToys のバイナリを調べて作った小さな Windows カラーピッカー",
-  "ko": "PowerToys 바이너리를 분석해 만든 작은 Windows 색상 선택기"
- },
- "AdamLinCodes/AdamTerm": {
-  "en": "A minimal macOS terminal, built by poking at Ghostty",
-  "zh-CN": "研究 Ghostty 后做出的极简 macOS 终端",
-  "zh-TW": "研究 Ghostty 後做出的極簡 macOS 終端機",
-  "ja": "Ghostty を調べて作ったミニマルな macOS ターミナル",
-  "ko": "Ghostty를 살펴보고 만든 미니멀 macOS 터미널"
- },
- "az9713/wispr-flow-rea-teardown": {
-  "en": "Wispr Flow's voice pipeline, taken apart, plus a 64-line rebuild",
-  "zh-CN": "拆解 Wispr Flow 语音管线，附 64 行重写版",
-  "zh-TW": "拆解 Wispr Flow 的語音管線，附 64 行重寫版",
-  "ja": "Wispr Flow の音声パイプラインを分解、64 行の再実装付き",
-  "ko": "Wispr Flow 음성 파이프라인 해부와 64줄 재구현"
- },
- "cudanexus/vd-streamer-linux": {
-  "en": "Stream your Linux desktop to Quest and Pico headsets",
-  "zh-CN": "把 Linux 桌面串流到 Quest、Pico 头显",
-  "zh-TW": "把 Linux 桌面串流到 Quest、Pico 頭戴裝置",
-  "ja": "Linux デスクトップを Quest・Pico へストリーミング",
-  "ko": "Linux 데스크톱을 Quest·Pico 헤드셋으로 스트리밍"
- },
- "a-funk/open-appleremote": {
-  "en": "Use Apple's first-gen Siri Remote on Linux, gestures included",
-  "zh-CN": "在 Linux 上用第一代 Siri 遥控器，连手势也支持",
-  "zh-TW": "在 Linux 上使用第一代 Siri 遙控器，連手勢都支援",
-  "ja": "初代 Siri Remote を Linux で、ジェスチャーまで対応",
-  "ko": "1세대 Siri 리모컨을 Linux에서, 제스처까지 지원"
- },
- "Slyvan25/OpenGHub": {
-  "en": "Control Logitech gear on Linux without G HUB",
-  "zh-CN": "在 Linux 上不用 G HUB 也能控制罗技外设",
-  "zh-TW": "在 Linux 上不用 G HUB 也能控制羅技周邊",
-  "ja": "G HUB なしで Linux から Logitech 機器を操作",
-  "ko": "G HUB 없이 Linux에서 로지텍 장치 제어"
- },
- "grisuno/VSL-DSP": {
-  "en": "A Linux kernel module for PreSonus AudioBox VSL interfaces",
-  "zh-CN": "PreSonus AudioBox VSL 声卡的 Linux 内核模块",
-  "zh-TW": "PreSonus AudioBox VSL 音效卡的 Linux 核心模組",
-  "ja": "PreSonus AudioBox VSL 用の Linux カーネルモジュール",
-  "ko": "PreSonus AudioBox VSL용 Linux 커널 모듈"
- },
- "ReFirmLabs/binwalk": {
-  "en": "Find and extract what's hidden inside firmware images",
-  "zh-CN": "找出并提取固件镜像里藏着的东西",
-  "zh-TW": "找出並擷取韌體映像檔裡藏著的東西",
-  "ja": "ファームウェアイメージの中身を見つけて取り出す",
-  "ko": "펌웨어 이미지 속 내용을 찾아 추출"
- },
- "NullLabTests/OpenBSD_netcat_REA": {
-  "en": "netcat-openbsd, statically analysed with REA and Ghidra",
-  "zh-CN": "用 REA + Ghidra 静态分析 netcat-openbsd",
-  "zh-TW": "以 REA + Ghidra 靜態分析 netcat-openbsd",
-  "ja": "REA と Ghidra で netcat-openbsd を静的解析",
-  "ko": "REA와 Ghidra로 netcat-openbsd 정적 분석"
- },
- "REA discussion #2254": {
-  "en": "A stripped bzip2, analysed and checked against the real build",
-  "zh-CN": "分析去符号的 bzip2，并对照真实构建验证",
-  "zh-TW": "分析去除符號的 bzip2，並與實際建置結果比對驗證",
-  "ja": "シンボルなし bzip2 を解析し、元のビルドと照合",
-  "ko": "심볼 없는 bzip2를 분석하고 실제 빌드와 대조"
- },
- "ShadowSwaps/REA-Reconstruction-Companion": {
-  "en": "An agent skill that keeps reconstructions tied to evidence",
-  "zh-CN": "让重建过程始终有证据可查的智能体技能",
-  "zh-TW": "讓重建過程隨時有證據可查的 AI 代理技能",
-  "ja": "再構築を常に証拠と結びつけるエージェントスキル",
-  "ko": "재구성을 항상 증거와 연결하는 에이전트 스킬"
- },
- "NationalSecurityAgency/ghidra": {
-  "en": "The NSA's free decompiler and disassembler suite",
-  "zh-CN": "NSA 开源的免费反编译/反汇编套件",
-  "zh-TW": "NSA 開源的免費反編譯/反組譯套件",
-  "ja": "NSA が公開する無料の逆コンパイラ・逆アセンブラ",
-  "ko": "NSA가 공개한 무료 디컴파일러·디스어셈블러"
- },
- "skylot/jadx": {
-  "en": "Turn Android APKs back into readable Java",
-  "zh-CN": "把安卓 APK 还原成可读的 Java",
-  "zh-TW": "把 Android APK 還原成可讀的 Java",
-  "ja": "Android APK を読める Java に戻す",
-  "ko": "안드로이드 APK를 읽을 수 있는 Java로 복원"
- },
- "ran-j/PS2Recomp": {
-  "en": "Recompile PS2 games into native PC executables",
-  "zh-CN": "把 PS2 游戏重编译成原生 PC 程序",
-  "zh-TW": "把 PS2 遊戲重新編譯成原生 PC 程式",
-  "ja": "PS2 ゲームをネイティブ PC 実行ファイルへ再コンパイル",
-  "ko": "PS2 게임을 네이티브 PC 실행 파일로 리컴파일"
- },
- "snesrev/smw": {
-  "en": "Super Mario World rewritten in C (bring your own ROM)",
-  "zh-CN": "用 C 重写的超级马里奥世界（ROM 自备）",
-  "zh-TW": "以 C 重寫的超級瑪利歐世界（ROM 需自備）",
-  "ja": "スーパーマリオワールドを C で再実装（ROM は各自）",
-  "ko": "슈퍼 마리오 월드를 C로 재구현(ROM 직접 준비)"
- },
- "LaurieWired/GhidraMCP": {
-  "en": "Let an AI agent drive Ghidra over MCP",
-  "zh-CN": "让 AI 智能体通过 MCP 操作 Ghidra",
-  "zh-TW": "讓 AI 代理透過 MCP 操作 Ghidra",
-  "ja": "MCP 経由で AI エージェントに Ghidra を操作させる",
-  "ko": "MCP로 AI 에이전트가 Ghidra를 조작"
- },
- "x64dbg/x64dbg": {
-  "en": "The go-to open-source debugger for Windows binaries",
-  "zh-CN": "Windows 程序首选的开源调试器",
-  "zh-TW": "Windows 程式首選的開源除錯器",
-  "ja": "Windows バイナリ定番のオープンソースデバッガ",
-  "ko": "Windows 바이너리용 대표 오픈소스 디버거"
- },
- "encounter/decomp-toolkit": {
-  "en": "The toolkit behind many GameCube and Wii decomps",
-  "zh-CN": "众多 GameCube、Wii 反编译项目背后的工具链",
-  "zh-TW": "眾多 GameCube、Wii 反編譯專案背後的工具鏈",
-  "ja": "多くの GameCube・Wii 逆コンパイルを支えるツールキット",
-  "ko": "수많은 GameCube·Wii 디컴파일을 받치는 툴킷"
- },
- "HarbourMasters/Starship": {
-  "en": "Play Star Fox 64 natively on PC (bring your own ROM)",
-  "zh-CN": "在 PC 上原生运行星际火狐 64（ROM 自备）",
-  "zh-TW": "在 PC 上原生執行星際火狐 64（ROM 需自備）",
-  "ja": "スターフォックス 64 を PC でネイティブに（ROM は各自）",
-  "ko": "스타폭스 64를 PC에서 네이티브로(ROM 직접 준비)"
- },
- "iBotPeaches/Apktool": {
-  "en": "Unpack, read and rebuild Android APKs",
-  "zh-CN": "解包、阅读并重新打包安卓 APK",
-  "zh-TW": "解包、閱讀並重新封裝 Android APK",
-  "ja": "Android APK を展開・解析・再ビルド",
-  "ko": "안드로이드 APK 해체·분석·재빌드"
- },
- "zeldaret/tww": {
-  "en": "Zelda: The Wind Waker, decompiled to C",
-  "zh-CN": "塞尔达：风之杖，反编译为 C",
-  "zh-TW": "薩爾達傳說 風之律動，反編譯為 C",
-  "ja": "ゼルダの伝説 風のタクトを C へ逆コンパイル",
-  "ko": "젤다의 전설 바람의 지휘봉을 C로 디컴파일"
- },
- "pret/pokeruby": {
-  "en": "Pokémon Ruby/Sapphire as C source",
-  "zh-CN": "宝可梦红宝石/蓝宝石的 C 源码",
-  "zh-TW": "寶可夢 紅寶石/藍寶石的 C 原始碼",
-  "ja": "ポケモン ルビー・サファイアの C ソース",
-  "ko": "포켓몬스터 루비·사파이어 C 소스"
- },
- "angr/angr": {
-  "en": "Symbolic execution and binary analysis from Python",
-  "zh-CN": "在 Python 里做符号执行和二进制分析",
-  "zh-TW": "在 Python 裡進行符號執行與二進位分析",
-  "ja": "Python でシンボリック実行とバイナリ解析",
-  "ko": "Python으로 심볼릭 실행과 바이너리 분석"
- },
- "zeldaret/ss": {
-  "en": "Zelda: Skyward Sword, decompiled to C",
-  "zh-CN": "塞尔达：天空之剑，反编译为 C",
-  "zh-TW": "薩爾達傳說 禦天之劍，反編譯為 C",
-  "ja": "ゼルダの伝説 スカイウォードソードを C へ逆コンパイル",
-  "ko": "젤다의 전설 스카이워드 소드를 C로 디컴파일"
- },
- "hedge-dev/XenonRecomp": {
-  "en": "Recompile Xbox 360 games into native C++",
-  "zh-CN": "把 Xbox 360 游戏重编译为原生 C++",
-  "zh-TW": "把 Xbox 360 遊戲重新編譯為原生 C++",
-  "ja": "Xbox 360 ゲームをネイティブ C++ へ再コンパイル",
-  "ko": "Xbox 360 게임을 네이티브 C++로 리컴파일"
- },
- "pret/pokeplatinum": {
-  "en": "Pokémon Platinum as C source",
-  "zh-CN": "宝可梦白金的 C 源码",
-  "zh-TW": "寶可夢 白金的 C 原始碼",
-  "ja": "ポケモン プラチナの C ソース",
-  "ko": "포켓몬스터 Pt C 소스"
- },
- "n64decomp/mk64": {
-  "en": "Mario Kart 64, decompiled to C",
-  "zh-CN": "马里奥赛车 64，反编译为 C",
-  "zh-TW": "瑪利歐賽車 64，反編譯為 C",
-  "ja": "マリオカート 64 を C へ逆コンパイル",
-  "ko": "마리오 카트 64를 C로 디컴파일"
- },
- "avast/retdec": {
-  "en": "Decompile machine code from many architectures to C",
-  "zh-CN": "把多种架构的机器码反编译成 C",
-  "zh-TW": "把多種架構的機器碼反編譯成 C",
-  "ja": "多様なアーキテクチャの機械語を C へ逆コンパイル",
-  "ko": "다양한 아키텍처의 기계어를 C로 디컴파일"
- },
- "encounter/objdiff": {
-  "en": "See exactly where your decompiled function still differs",
-  "zh-CN": "一眼看出你的反编译函数还差在哪",
-  "zh-TW": "一眼看出你反編譯的函式還差在哪裡",
-  "ja": "逆コンパイルした関数のどこが違うか一目で分かる",
-  "ko": "디컴파일한 함수가 어디서 다른지 한눈에"
- },
- "rizinorg/cutter": {
-  "en": "A friendly GUI for reverse engineering, powered by Rizin",
-  "zh-CN": "基于 Rizin 的友好逆向图形界面",
-  "zh-TW": "基於 Rizin、容易上手的逆向工程圖形介面",
-  "ja": "Rizin ベースの使いやすいリバースエンジニアリング GUI",
-  "ko": "Rizin 기반의 친숙한 리버싱 GUI"
- },
- "ata4/disunity": {
-  "en": "Early toolset for poking at Unity asset files",
-  "zh-CN": "早期的 Unity 资源文件探查工具",
-  "zh-TW": "早期的 Unity 資源檔檢視工具",
-  "ja": "Unity アセットファイルを調べる初期のツール群",
-  "ko": "Unity 에셋 파일을 살펴보는 초기 도구 모음"
- },
- "3DSGuy/Project_CTR": {
-  "en": "Build and inspect 3DS file formats (ctrtool / makerom)",
-  "zh-CN": "构建和查看 3DS 文件格式（ctrtool / makerom）",
-  "zh-TW": "建置與檢視 3DS 檔案格式（ctrtool / makerom）",
-  "ja": "3DS のファイル形式を作成・解析（ctrtool / makerom）",
-  "ko": "3DS 파일 형식 생성·분석(ctrtool / makerom)"
- },
- "julianxhokaxhiu/FFNx": {
-  "en": "A modern driver and mod platform for FF7/FF8 on PC",
-  "zh-CN": "PC 版 FF7/FF8 的现代驱动与 Mod 平台",
-  "zh-TW": "PC 版 FF7/FF8 的現代驅動程式與 Mod 平台",
-  "ja": "PC 版 FF7/FF8 向けの最新ドライバー兼 Mod 基盤",
-  "ko": "PC판 FF7/FF8용 최신 드라이버 겸 모드 플랫폼"
- },
- "DarkRTA/rb3": {
-  "en": "Rock Band 3 (Wii), decompiled to C++",
-  "zh-CN": "摇滚乐队 3（Wii），反编译为 C++",
-  "zh-TW": "Rock Band 3（Wii），反編譯為 C++",
-  "ja": "ロックバンド 3（Wii）を C++ へ逆コンパイル",
-  "ko": "록 밴드 3(Wii)를 C++로 디컴파일"
- },
- "pret/pokeyellow": {
-  "en": "Pokémon Yellow, fully disassembled",
-  "zh-CN": "宝可梦皮卡丘版完整反汇编",
-  "zh-TW": "寶可夢 皮卡丘完整反組譯",
-  "ja": "ポケモン ピカチュウ（Yellow）を完全逆アセンブル",
-  "ko": "포켓몬스터 피카츄 버전 완전 디스어셈블"
- },
- "aldonunez/zelda1-disassembly": {
-  "en": "The original Legend of Zelda (NES), fully disassembled",
-  "zh-CN": "初代塞尔达传说（FC）完整反汇编",
-  "zh-TW": "初代薩爾達傳說（FC）完整反組譯",
-  "ja": "初代ゼルダの伝説（FC）を完全逆アセンブル",
-  "ko": "초대 젤다의 전설(NES) 완전 디스어셈블"
- },
- "mitmproxy/mitmproxy": {
-  "en": "Watch and edit HTTPS traffic as it happens",
-  "zh-CN": "实时查看和修改 HTTPS 流量",
-  "zh-TW": "即時檢視和修改 HTTPS 流量",
-  "ja": "HTTPS 通信をその場で見て書き換える",
-  "ko": "HTTPS 트래픽을 실시간으로 보고 수정"
- },
- "Zelda64Recomp/Zelda64Recomp": {
-  "en": "Majora's Mask, recompiled for PC with modern controls (bring your own ROM)",
-  "zh-CN": "重编译到 PC 的姆吉拉的假面，支持现代操作（ROM 自备）",
-  "zh-TW": "重新編譯到 PC 的薩爾達傳說 穆修拉的假面，支援現代操作（ROM 需自備）",
-  "ja": "ムジュラの仮面を PC 向けに再コンパイル、現代的な操作に（ROM は各自）",
-  "ko": "무쥬라의 가면을 PC로 리컴파일, 현대식 조작 지원(ROM 직접 준비)"
- },
- "pret/pokecrystal": {
-  "en": "Pokémon Crystal, fully disassembled",
-  "zh-CN": "宝可梦水晶完整反汇编",
-  "zh-TW": "寶可夢 水晶完整反組譯",
-  "ja": "ポケモン クリスタルを完全逆アセンブル",
-  "ko": "포켓몬스터 크리스탈 완전 디스어셈블"
- },
- "ghidraninja/ghidra_scripts": {
-  "en": "Handy Ghidra scripts, from binwalk import to YARA",
-  "zh-CN": "实用 Ghidra 脚本合集，从 binwalk 到 YARA",
-  "zh-TW": "實用 Ghidra 腳本合集，從 binwalk 到 YARA",
-  "ja": "binwalk 連携から YARA まで、便利な Ghidra スクリプト集",
-  "ko": "binwalk 연동부터 YARA까지 유용한 Ghidra 스크립트"
- },
- "Interkarma/daggerfall-unity": {
-  "en": "Daggerfall recreated in Unity (uses your own game data)",
-  "zh-CN": "用 Unity 重现的匕首雨（读取你自己的游戏数据）",
-  "zh-TW": "以 Unity 重現的 Daggerfall（讀取你自己的遊戲資料）",
-  "ja": "ダガーフォールを Unity で再現（手持ちのゲームデータを使用）",
-  "ko": "대거폴을 Unity로 재현(보유한 게임 데이터 사용)"
- },
- "radareorg/radare2": {
-  "en": "A scriptable command-line reverse-engineering framework",
-  "zh-CN": "可脚本化的命令行逆向框架",
-  "zh-TW": "可用腳本操控的命令列逆向工程框架",
-  "ja": "スクリプト可能なコマンドラインのリバースエンジニアリング基盤",
-  "ko": "스크립트 가능한 커맨드라인 리버싱 프레임워크"
- },
- "mandiant/flare-floss": {
-  "en": "Pull hidden and obfuscated strings out of malware",
-  "zh-CN": "把恶意软件里隐藏、混淆的字符串挖出来",
-  "zh-TW": "把惡意軟體裡隱藏、混淆過的字串挖出來",
-  "ja": "マルウェアに隠された難読化文字列を取り出す",
-  "ko": "악성코드 속 숨겨진 난독화 문자열을 추출"
- },
- "zeldaret/mm": {
-  "en": "Zelda: Majora's Mask, decompiled to C",
-  "zh-CN": "塞尔达：姆吉拉的假面，反编译为 C",
-  "zh-TW": "薩爾達傳說 穆修拉的假面，反編譯為 C",
-  "ja": "ゼルダの伝説 ムジュラの仮面を C へ逆コンパイル",
-  "ko": "젤다의 전설 무쥬라의 가면을 C로 디컴파일"
- },
- "OpenXcom/OpenXcom": {
-  "en": "Play the original UFO / X-COM on a modern open-source engine",
-  "zh-CN": "在现代开源引擎上玩初代 UFO / X-COM",
-  "zh-TW": "在現代開源引擎上玩初代 UFO / X-COM",
-  "ja": "初代 UFO / X-COM を最新のオープンソースエンジンで",
-  "ko": "초대 UFO / X-COM을 현대 오픈소스 엔진으로"
- },
- "WerWolv/ImHex": {
-  "en": "A hex editor with a pattern language that decodes structures for you",
-  "zh-CN": "带模式语言、能帮你解析结构的十六进制编辑器",
-  "zh-TW": "內建模式語言、能幫你解析結構的十六進位編輯器",
-  "ja": "構造を自動で読み解くパターン言語付きの HEX エディタ",
-  "ko": "구조를 해석해 주는 패턴 언어가 있는 헥스 에디터"
- },
- "Perfare/AssetStudio": {
-  "en": "Browse and export assets from Unity games",
-  "zh-CN": "浏览并导出 Unity 游戏资源",
-  "zh-TW": "瀏覽並匯出 Unity 遊戲資源",
-  "ja": "Unity ゲームのアセットを閲覧・書き出し",
-  "ko": "Unity 게임 에셋 탐색·내보내기"
- },
- "open-goal/jak-project": {
-  "en": "Play Jak and Daxter natively on PC (bring your own disc)",
-  "zh-CN": "在 PC 上原生运行杰克与达斯特（光盘自备）",
-  "zh-TW": "在 PC 上原生執行 Jak and Daxter（光碟需自備）",
-  "ja": "ジャック×ダクスターを PC でネイティブに（ディスクは各自）",
-  "ko": "잭 앤 덱스터를 PC에서 네이티브로(디스크 직접 준비)"
- },
- "zeldaret/ph": {
-  "en": "Zelda: Phantom Hourglass, decompiled to C",
-  "zh-CN": "塞尔达：幻影沙漏，反编译为 C",
-  "zh-TW": "薩爾達傳說 夢幻的砂時計，反編譯為 C",
-  "ja": "ゼルダの伝説 夢幻の砂時計を C へ逆コンパイル",
-  "ko": "젤다의 전설 몽환의 모래시계를 C로 디컴파일"
- },
- "mandiant/capa": {
-  "en": "Ask an executable what it can do, and get ATT&CK-mapped answers",
-  "zh-CN": "问一个程序“你能干什么”，得到映射到 ATT&CK 的答案",
-  "zh-TW": "問程式一句「你能做什麼」，得到對應 ATT&CK 的答案",
-  "ja": "実行ファイルに「何ができるか」を聞き、ATT&CK 付きで答えを得る",
-  "ko": "실행 파일이 무엇을 할 수 있는지 ATT&CK 매핑으로 확인"
- },
- "frida/frida": {
-  "en": "Hook into running apps on any platform and rewrite them live",
-  "zh-CN": "注入任意平台上运行中的程序，实时改写行为",
-  "zh-TW": "注入任何平台上執行中的程式，即時改寫其行為",
-  "ja": "実行中のアプリにフックし、その場で挙動を書き換える",
-  "ko": "실행 중인 앱에 훅을 걸어 실시간으로 동작 변경"
- },
- "qilingframework/qiling": {
-  "en": "Emulate and instrument binaries across OSes and CPUs",
-  "zh-CN": "跨系统、跨 CPU 模拟并插桩二进制",
-  "zh-TW": "跨作業系統、跨 CPU 模擬並插樁二進位檔",
-  "ja": "OS や CPU をまたいでバイナリをエミュレート・計測",
-  "ko": "여러 OS·CPU의 바이너리를 에뮬레이션·계측"
- },
- "SourMesen/Mesen2": {
-  "en": "A multi-system emulator with deep debugging tools",
-  "zh-CN": "带强大调试工具的多机种模拟器",
-  "zh-TW": "內建強大除錯工具的多機種模擬器",
-  "ja": "強力なデバッグ機能付きのマルチシステムエミュレータ",
-  "ko": "강력한 디버깅 도구를 갖춘 멀티 시스템 에뮬레이터"
- },
- "dnSpyEx/dnSpy": {
-  "en": "Debug and edit .NET assemblies without source",
-  "zh-CN": "无需源码即可调试和修改 .NET 程序集",
-  "zh-TW": "不需原始碼即可除錯和修改 .NET 組件",
-  "ja": "ソースなしで .NET アセンブリをデバッグ・編集",
-  "ko": "소스 없이 .NET 어셈블리 디버그·편집"
- },
- "decompme/decomp.me": {
-  "en": "Decompile together in the browser and race for a matching build",
-  "zh-CN": "在浏览器里协作反编译，一起冲击完全匹配",
-  "zh-TW": "在瀏覽器裡協作反編譯，一起挑戰完全匹配",
-  "ja": "ブラウザで共同逆コンパイル、一致ビルドを目指す",
-  "ko": "브라우저에서 함께 디컴파일하며 일치 빌드에 도전"
- },
- "mrexodia/ida-pro-mcp": {
-  "en": "Let an AI agent drive IDA Pro over MCP",
-  "zh-CN": "让 AI 智能体通过 MCP 操作 IDA Pro",
-  "zh-TW": "讓 AI 代理透過 MCP 操作 IDA Pro",
-  "ja": "MCP 経由で AI エージェントに IDA Pro を操作させる",
-  "ko": "MCP로 AI 에이전트가 IDA Pro를 조작"
- },
- "doldecomp/sms": {
-  "en": "Super Mario Sunshine, decompiled to C++",
-  "zh-CN": "超级马里奥阳光，反编译为 C++",
-  "zh-TW": "超級瑪利歐陽光，反編譯為 C++",
-  "ja": "スーパーマリオサンシャインを C++ へ逆コンパイル",
-  "ko": "슈퍼 마리오 선샤인을 C++로 디컴파일"
- },
- "AssetRipper/AssetRipper": {
-  "en": "Turn Unity builds back into an editable project",
-  "zh-CN": "把 Unity 构建产物还原成可编辑的工程",
-  "zh-TW": "把 Unity 建置產物還原成可編輯的專案",
-  "ja": "Unity のビルドを編集可能なプロジェクトに戻す",
-  "ko": "Unity 빌드를 편집 가능한 프로젝트로 복원"
- },
- "ladislav-zezula/CascLib": {
-  "en": "Read Blizzard's CASC game archives",
-  "zh-CN": "读取暴雪 CASC 游戏存档格式",
-  "zh-TW": "讀取暴雪 CASC 遊戲儲存格式",
-  "ja": "Blizzard の CASC アーカイブを読み込む",
-  "ko": "블리자드 CASC 아카이브 읽기"
- },
- "isledecomp/isle": {
-  "en": "LEGO Island (1997), decompiled to C++",
-  "zh-CN": "乐高岛（1997），反编译为 C++",
-  "zh-TW": "LEGO Island（1997），反編譯為 C++",
-  "ja": "レゴアイランド（1997）を C++ へ逆コンパイル",
-  "ko": "레고 아일랜드(1997)를 C++로 디컴파일"
- },
- "pmret/papermario": {
-  "en": "Paper Mario (N64), decompiled to C",
-  "zh-CN": "纸片马里奥（N64），反编译为 C",
-  "zh-TW": "紙片瑪利歐（N64），反編譯為 C",
-  "ja": "マリオストーリー（N64）を C へ逆コンパイル",
-  "ko": "페이퍼 마리오(N64)를 C로 디컴파일"
- },
- "postlund/pyatv": {
-  "en": "Control Apple TVs and AirPlay devices from Python",
-  "zh-CN": "用 Python 控制 Apple TV 和 AirPlay 设备",
-  "zh-TW": "以 Python 控制 Apple TV 和 AirPlay 裝置",
-  "ja": "Python から Apple TV や AirPlay 機器を操作",
-  "ko": "Python으로 Apple TV·AirPlay 기기 제어"
- },
- "hedge-dev/UnleashedRecomp": {
-  "en": "Play Sonic Unleashed natively on PC (bring your own copy)",
-  "zh-CN": "在 PC 上原生运行索尼克：释放（游戏自备）",
-  "zh-TW": "在 PC 上原生執行 Sonic Unleashed（遊戲需自備）",
-  "ja": "ソニック ワールドアドベンチャーを PC でネイティブに（製品は各自）",
-  "ko": "소닉 언리시드를 PC에서 네이티브로(게임 직접 준비)"
- },
- "ghidraninja/game-and-watch-backup": {
-  "en": "Back up and restore your own Game & Watch's firmware",
-  "zh-CN": "备份并恢复你自己的 Game & Watch 固件",
-  "zh-TW": "備份並還原你自己的 Game & Watch 韌體",
-  "ja": "手持ちの Game & Watch のファームをバックアップ・復元",
-  "ko": "내 Game & Watch 펌웨어 백업·복원"
- },
- "jiangzhengwenjz/katam": {
-  "en": "Kirby & the Amazing Mirror, decompiled to C",
-  "zh-CN": "星之卡比：镜之大迷宫，反编译为 C",
-  "zh-TW": "星之卡比 鏡之大迷宮，反編譯為 C",
-  "ja": "星のカービィ 鏡の大迷宮を C へ逆コンパイル",
-  "ko": "별의 커비 거울의 대미궁을 C로 디컴파일"
- },
- "scummvm/scummvm": {
-  "en": "Play classic point-and-click adventures on almost anything",
-  "zh-CN": "在几乎任何设备上玩经典点击冒险游戏",
-  "zh-TW": "在幾乎任何裝置上玩經典點擊式冒險遊戲",
-  "ja": "名作ポイント＆クリック ADV をほぼ何でも動かす",
-  "ko": "고전 포인트 앤 클릭 어드벤처를 거의 모든 기기에서"
- },
- "wireshark/wireshark": {
-  "en": "See every packet on the wire, decoded",
-  "zh-CN": "看清网络上的每一个数据包",
-  "zh-TW": "看清網路上的每一個封包",
-  "ja": "ネットワーク上のパケットをすべてデコードして見る",
-  "ko": "네트워크의 모든 패킷을 디코딩해 확인"
- },
- "RSDKModding/RSDKv5-Decompilation": {
-  "en": "Sonic Mania's engine, decompiled (uses your own data files)",
-  "zh-CN": "索尼克狂热的引擎反编译（读取你自己的数据文件）",
-  "zh-TW": "Sonic Mania 的引擎反編譯（讀取你自己的資料檔）",
-  "ja": "ソニックマニアのエンジンを逆コンパイル（手持ちのデータを使用）",
-  "ko": "소닉 매니아 엔진 디컴파일(보유한 데이터 사용)"
- },
- "pret/pmd-red": {
-  "en": "Pokémon Mystery Dungeon: Red Rescue Team, decompiled to C",
-  "zh-CN": "宝可梦不可思议的迷宫 赤之救助队，反编译为 C",
-  "zh-TW": "寶可夢不可思議的迷宮 紅之救助隊，反編譯為 C",
-  "ja": "ポケモン不思議のダンジョン 赤の救助隊を C へ逆コンパイル",
-  "ko": "포켓몬 불가사의 던전 레드 구조대를 C로 디컴파일"
- },
- "attify/firmware-analysis-toolkit": {
-  "en": "Emulate IoT firmware to poke at it safely",
-  "zh-CN": "模拟运行物联网固件，安全地研究它",
-  "zh-TW": "模擬執行物聯網韌體，安全地進行研究",
-  "ja": "IoT ファームをエミュレートして安全に調べる",
-  "ko": "IoT 펌웨어를 에뮬레이션해 안전하게 분석"
- },
- "RSDKModding/RSDKv4-Decompilation": {
-  "en": "The engine behind Sonic 1 & 2 (2013), decompiled",
-  "zh-CN": "索尼克 1、2（2013）引擎的反编译",
-  "zh-TW": "音速小子 1、2（2013）引擎的反編譯",
-  "ja": "ソニック 1・2（2013）のエンジンを逆コンパイル",
-  "ko": "소닉 1·2(2013) 엔진 디컴파일"
- },
- "onekey-sec/unblob": {
-  "en": "Unpack almost any firmware or container format, recursively",
-  "zh-CN": "递归解包几乎所有固件和容器格式",
-  "zh-TW": "遞迴解包幾乎所有韌體與容器格式",
-  "ja": "ほぼあらゆるファームやコンテナ形式を再帰的に展開",
-  "ko": "거의 모든 펌웨어·컨테이너 형식을 재귀적으로 추출"
- },
- "doldecomp/melee": {
-  "en": "Super Smash Bros. Melee, decompiled to C",
-  "zh-CN": "任天堂明星大乱斗 DX，反编译为 C",
-  "zh-TW": "任天堂明星大亂鬥 DX，反編譯為 C",
-  "ja": "大乱闘スマッシュブラザーズ DX を C へ逆コンパイル",
-  "ko": "대난투 스매시브라더스 DX를 C로 디컴파일"
- },
- "zeldaret/tp": {
-  "en": "Zelda: Twilight Princess, decompiled to C++",
-  "zh-CN": "塞尔达：黄昏公主，反编译为 C++",
-  "zh-TW": "薩爾達傳說 曙光公主，反編譯為 C++",
-  "ja": "ゼルダの伝説 トワイライトプリンセスを C++ へ逆コンパイル",
-  "ko": "젤다의 전설 황혼의 공주를 C++로 디컴파일"
- },
- "yaz0r/Azel": {
-  "en": "Panzer Dragoon Saga, reverse-engineered and reimplemented",
-  "zh-CN": "逆向并重新实现的铁甲飞龙 Saga",
-  "zh-TW": "經逆向後重新實作的 Panzer Dragoon Saga",
-  "ja": "アゼル -パンツァードラグーン RPG- を解析・再実装",
-  "ko": "판처 드라군 사가를 분석·재구현"
- },
- "electron/asar": {
-  "en": "Pack and unpack the archives inside Electron apps",
-  "zh-CN": "打包、解包 Electron 应用里的归档",
-  "zh-TW": "封裝、解包 Electron 應用程式裡的封存檔",
-  "ja": "Electron アプリ内のアーカイブを作成・展開",
-  "ko": "Electron 앱 내부 아카이브 패킹·언패킹"
- },
- "rizinorg/jsdec": {
-  "en": "Readable pseudo-C for Rizin, even from hand-written assembly",
-  "zh-CN": "为 Rizin 生成可读伪 C，手写汇编也行",
-  "zh-TW": "為 Rizin 產生可讀的虛擬 C 碼，手寫組合語言也行",
-  "ja": "手書きアセンブリからも読みやすい疑似 C を出す Rizin 用デコンパイラ",
-  "ko": "손으로 쓴 어셈블리도 읽기 쉬운 의사 C로 바꾸는 Rizin용 디컴파일러"
- },
- "diasurgical/DevilutionX": {
-  "en": "Play Diablo on modern systems (uses your own DIABDAT.MPQ)",
-  "zh-CN": "在现代系统上玩暗黑破坏神（需你自己的 DIABDAT.MPQ）",
-  "zh-TW": "在現代系統上玩暗黑破壞神（需自備 DIABDAT.MPQ）",
-  "ja": "ディアブロを現行 OS で（手持ちの DIABDAT.MPQ を使用）",
-  "ko": "디아블로를 최신 OS에서(보유한 DIABDAT.MPQ 사용)"
- },
- "fallout2-ce/fallout2-ce": {
-  "en": "Play Fallout 2 on modern systems (uses your own game data)",
-  "zh-CN": "在现代系统上玩辐射 2（读取你自己的游戏数据）",
-  "zh-TW": "在現代系統上玩異塵餘生 2（讀取你自己的遊戲資料）",
-  "ja": "Fallout 2 を現行 OS で（手持ちのゲームデータを使用）",
-  "ko": "폴아웃 2를 최신 OS에서(보유한 게임 데이터 사용)"
- },
- "rizinorg/rizin": {
-  "en": "A UNIX-style reverse-engineering framework, forked from radare2",
-  "zh-CN": "源自 radare2 的 UNIX 风格逆向框架",
-  "zh-TW": "源自 radare2 的 UNIX 風格逆向工程框架",
-  "ja": "radare2 から派生した UNIX 流のリバースエンジニアリング基盤",
-  "ko": "radare2에서 갈라져 나온 UNIX식 리버싱 프레임워크"
- },
- "OpenTTD/OpenTTD": {
-  "en": "Transport Tycoon Deluxe, open-source and still growing",
-  "zh-CN": "开源的运输大亨，至今仍在更新",
-  "zh-TW": "開源版 Transport Tycoon，至今仍持續更新",
-  "ja": "トランスポートタイクーン デラックスをオープンソースで、今も進化中",
-  "ko": "트랜스포트 타이쿤 디럭스를 오픈소스로, 지금도 발전 중"
- },
- "projectPiki/pikmin2": {
-  "en": "Pikmin 2, decompiled to C++",
-  "zh-CN": "皮克敏 2，反编译为 C++",
-  "zh-TW": "皮克敏 2，反編譯為 C++",
-  "ja": "ピクミン 2 を C++ へ逆コンパイル",
-  "ko": "피크민 2를 C++로 디컴파일"
- },
- "N64Recomp/N64Recomp": {
-  "en": "Recompile N64 games straight into native code",
-  "zh-CN": "把 N64 游戏直接重编译成原生代码",
-  "zh-TW": "把 N64 遊戲直接重新編譯成原生程式碼",
-  "ja": "N64 ゲームをそのままネイティブコードへ再コンパイル",
-  "ko": "N64 게임을 바로 네이티브 코드로 리컴파일"
- },
- "pret/pokeheartgold": {
-  "en": "Pokémon HeartGold/SoulSilver, decompiled to C",
-  "zh-CN": "宝可梦心金/魂银，反编译为 C",
-  "zh-TW": "寶可夢 心金/魂銀，反編譯為 C",
-  "ja": "ポケモン ハートゴールド・ソウルシルバーを C へ逆コンパイル",
-  "ko": "포켓몬스터 하트골드·소울실버를 C로 디컴파일"
- },
- "zladx/LADX-Disassembly": {
-  "en": "Zelda: Link's Awakening DX, fully disassembled",
-  "zh-CN": "塞尔达：织梦岛 DX 完整反汇编",
-  "zh-TW": "薩爾達傳說 織夢島 DX 完整反組譯",
-  "ja": "ゼルダの伝説 夢をみる島 DX を完全逆アセンブル",
-  "ko": "젤다의 전설 꿈꾸는 섬 DX 완전 디스어셈블"
- },
- "icsharpcode/ILSpy": {
-  "en": "Turn any .NET assembly back into C#",
-  "zh-CN": "把任意 .NET 程序集还原成 C#",
-  "zh-TW": "把任何 .NET 組件還原成 C#",
-  "ja": "どんな .NET アセンブリも C# に戻す",
-  "ko": "어떤 .NET 어셈블리든 C#으로 복원"
- },
- "xemu-project/xemu": {
-  "en": "Play original Xbox games on Windows, macOS and Linux",
-  "zh-CN": "在 Windows、macOS、Linux 上玩初代 Xbox 游戏",
-  "zh-TW": "在 Windows、macOS、Linux 上玩初代 Xbox 遊戲",
-  "ja": "初代 Xbox のゲームを Windows・macOS・Linux で",
-  "ko": "초대 Xbox 게임을 Windows·macOS·Linux에서"
- },
- "sonicretro/skdisasm": {
-  "en": "Sonic 3 & Knuckles, fully disassembled",
-  "zh-CN": "索尼克 3 & 纳克鲁斯完整反汇编",
-  "zh-TW": "Sonic 3 & Knuckles 完整反組譯",
-  "ja": "ソニック 3 & ナックルズを完全逆アセンブル",
-  "ko": "소닉 3 & 너클즈 완전 디스어셈블"
- },
- "OpenRA/OpenRA": {
-  "en": "Classic Command & Conquer, rebuilt for modern online play",
-  "zh-CN": "为现代联机重建的经典命令与征服",
-  "zh-TW": "為現代連線對戰重建的經典終極動員令",
-  "ja": "名作コマンド＆コンカーを現代のオンライン対戦向けに再構築",
-  "ko": "고전 커맨드 앤 컨커를 현대 온라인 대전용으로 재구축"
- },
- "n64decomp/perfect_dark": {
-  "en": "Perfect Dark (N64), decompiled to C",
-  "zh-CN": "完美黑暗（N64），反编译为 C",
-  "zh-TW": "Perfect Dark（N64），反編譯為 C",
-  "ja": "パーフェクトダーク（N64）を C へ逆コンパイル",
-  "ko": "퍼펙트 다크(N64)를 C로 디컴파일"
- },
- "travisgoodspeed/md380tools": {
-  "en": "Custom firmware patches for the TYT MD-380 radio",
-  "zh-CN": "TYT MD-380 对讲机的自制固件补丁",
-  "zh-TW": "TYT MD-380 對講機的自製韌體修補",
-  "ja": "TYT MD-380 無線機用のカスタムファームパッチ",
-  "ko": "TYT MD-380 무전기용 커스텀 펌웨어 패치"
- },
- "google/bindiff": {
-  "en": "Spot what changed between two versions of a binary",
-  "zh-CN": "找出两个版本二进制之间改了什么",
-  "zh-TW": "找出兩個版本的二進位檔之間改了什麼",
-  "ja": "2 つのバイナリ間の違いを見つける",
-  "ko": "두 바이너리 버전 사이의 변경점 찾기"
- },
- "2ship2harkinian/2ship2harkinian": {
-  "en": "Play Zelda: Majora's Mask natively on PC (bring your own ROM)",
-  "zh-CN": "在 PC 上原生运行塞尔达：姆吉拉的假面（ROM 自备）",
-  "zh-TW": "在 PC 上原生執行薩爾達傳說 穆修拉的假面（ROM 需自備）",
-  "ja": "ムジュラの仮面を PC でネイティブに（ROM は各自）",
-  "ko": "무쥬라의 가면을 PC에서 네이티브로(ROM 직접 준비)"
- },
- "perfect-dark-pc-port/perfect_dark": {
-  "en": "Play Perfect Dark natively on PC (bring your own ROM)",
-  "zh-CN": "在 PC 上原生运行完美黑暗（ROM 自备）",
-  "zh-TW": "在 PC 上原生執行 Perfect Dark（ROM 需自備）",
-  "ja": "パーフェクトダークを PC でネイティブに（ROM は各自）",
-  "ko": "퍼펙트 다크를 PC에서 네이티브로(ROM 직접 준비)"
- },
- "shdecompilations/silent-hill-decomp": {
-  "en": "Silent Hill (PS1), being decompiled to C",
-  "zh-CN": "寂静岭（PS1）反编译进行中",
-  "zh-TW": "沉默之丘（PS1）反編譯進行中",
-  "ja": "サイレントヒル（PS1）を C へ逆コンパイル中",
-  "ko": "사일런트 힐(PS1) C 디컴파일 진행 중"
- },
- "N0zoM1z0/th09": {
-  "en": "Touhou 9: Phantasmagoria of Flower View, reconstructed as source",
-  "zh-CN": "东方花映冢，重建为源码",
-  "zh-TW": "東方花映塚，重建成原始碼",
-  "ja": "東方花映塚をソースコードとして再構築",
-  "ko": "동방화영총을 소스 코드로 재구성"
- },
- "N0zoM1z0/th095": {
-  "en": "Touhou 9.5: Shoot the Bullet, reconstructed as source",
-  "zh-CN": "东方文花帖，重建为源码",
-  "zh-TW": "東方文花帖，重建成原始碼",
-  "ja": "東方文花帖をソースコードとして再構築",
-  "ko": "동방문화첩을 소스 코드로 재구성"
- },
- "N0zoM1z0/th105": {
-  "en": "Touhou 10.5: Scarlet Weather Rhapsody, reconstructed as source",
-  "zh-CN": "东方绯想天，重建为源码",
-  "zh-TW": "東方緋想天，重建成原始碼",
-  "ja": "東方緋想天をソースコードとして再構築",
-  "ko": "동방비상천을 소스 코드로 재구성"
- },
- "N0zoM1z0/th08-web": {
-  "en": "Imperishable Night in your browser, from the th08 reconstruction",
-  "zh-CN": "在浏览器里玩永夜抄，基于 th08 重建",
-  "zh-TW": "在瀏覽器裡玩永夜抄，以 th08 重建版為基礎",
-  "ja": "th08 の再構築をもとにブラウザで遊べる永夜抄",
-  "ko": "th08 재구성을 바탕으로 브라우저에서 즐기는 영야초"
- },
- "N0zoM1z0/touhou-reconstruction-factory": {
-  "en": "The agent pipeline behind the Touhou reconstructions",
-  "zh-CN": "东方系列重建背后的智能体流水线",
-  "zh-TW": "東方系列重建背後的 AI 代理流水線",
-  "ja": "東方シリーズ再構築を支えるエージェントパイプライン",
-  "ko": "동방 시리즈 재구성을 뒷받침하는 에이전트 파이프라인"
- },
- "N0zoM1z0/touhou-reverse-engineering": {
-  "en": "Evidence-first IDA notes on Touhou, with live patch experiments",
-  "zh-CN": "以证据为先的东方 IDA 笔记，附运行时补丁实验",
-  "zh-TW": "證據優先的東方 IDA 筆記，附執行期修補實驗",
-  "ja": "証拠重視の東方 IDA ノート、実行時パッチ実験付き",
-  "ko": "증거 중심 동방 IDA 노트, 런타임 패치 실험 포함"
- },
- "AsyncFinn/rook": {
-  "en": "A Roblox-compatible engine in Rust, tested against Studio",
-  "zh-CN": "Rust 写的 Roblox 兼容引擎，对照 Studio 测试",
-  "zh-TW": "以 Rust 寫成的 Roblox 相容引擎，對照 Studio 測試",
-  "ja": "Studio と照合してテストする Rust 製 Roblox 互換エンジン",
-  "ko": "Studio와 대조해 테스트하는 Rust 기반 Roblox 호환 엔진"
- },
- "tallowmere/free-heroes4": {
-  "en": "Heroes of Might and Magic IV on a new C++23 engine (uses your GOG files)",
-  "zh-CN": "英雄无敌 IV 的 C++23 新引擎（读取你的 GOG 文件）",
-  "zh-TW": "魔法門之英雄無敵 IV 的 C++23 新引擎（讀取你的 GOG 檔案）",
-  "ja": "マイト・アンド・マジック ヒーローズ IV を C++23 の新エンジンで（GOG 版を使用）",
-  "ko": "히어로즈 오브 마이트 앤 매직 IV를 C++23 새 엔진으로(GOG 파일 사용)"
- },
- "KarlssonChristoffer/DiskLens": {
-  "en": "See what fills your Windows 11 disk, WinDirStat-style",
-  "zh-CN": "像 WinDirStat 一样看清 Windows 11 磁盘被什么占满",
-  "zh-TW": "像 WinDirStat 一樣看清 Windows 11 磁碟被什麼佔滿",
-  "ja": "WinDirStat 風に Windows 11 のディスク使用量を可視化",
-  "ko": "WinDirStat처럼 Windows 11 디스크 사용량을 시각화"
- },
- "LilZeeCN/zee-rp": {
-  "en": "Read and write Axure RP prototype files from the CLI or MCP",
-  "zh-CN": "用命令行或 MCP 读写 Axure RP 原型文件",
-  "zh-TW": "以命令列或 MCP 讀寫 Axure RP 原型檔",
-  "ja": "CLI や MCP から Axure RP のプロトタイプを読み書き",
-  "ko": "CLI나 MCP로 Axure RP 프로토타입 파일 읽기·쓰기"
- },
- "lxistired/ledger-reborn": {
-  "en": "A local-first accounting app, modelled on QuickBooks for Mac",
-  "zh-CN": "本地优先的记账应用，参照 QuickBooks Mac 版",
-  "zh-TW": "本機優先的記帳 App，參考 QuickBooks Mac 版",
-  "ja": "QuickBooks for Mac を参考にしたローカル優先の会計アプリ",
-  "ko": "QuickBooks for Mac을 참고한 로컬 우선 회계 앱"
- },
- "michaelshimeles/terminal-rs": {
-  "en": "A Bloomberg-style trading terminal in Rust",
-  "zh-CN": "Rust 写的彭博风格交易终端",
-  "zh-TW": "以 Rust 寫成的彭博風格交易終端機",
-  "ja": "Rust 製の Bloomberg 風トレーディング端末",
-  "ko": "Rust로 만든 블룸버그 스타일 트레이딩 터미널"
- },
- "GLinnik21/plx-native": {
-  "en": "A faster native Plex client for LG TVs",
-  "zh-CN": "LG 电视上更快的原生 Plex 客户端",
-  "zh-TW": "LG 電視上更快的原生 Plex 用戶端",
-  "ja": "LG テレビ向けの高速なネイティブ Plex クライアント",
-  "ko": "LG TV용 더 빠른 네이티브 Plex 클라이언트"
- },
- "storytold/photocraft": {
-  "en": "A Photoshop-style editor, rebuilt from scratch as open source",
-  "zh-CN": "从零开源重写的 Photoshop 风格编辑器",
-  "zh-TW": "從零開始開源重寫的 Photoshop 風格編輯器",
-  "ja": "ゼロから作ったオープンソースの Photoshop 風エディタ",
-  "ko": "처음부터 오픈소스로 만든 포토샵 스타일 편집기"
- },
- "sickpyramid/ReaFuse": {
-  "en": "Merge two JS/TS projects into one, guided by REA",
-  "zh-CN": "借助 REA 把两个 JS/TS 项目融合成一个",
-  "zh-TW": "藉助 REA 把兩個 JS/TS 專案合併成一個",
-  "ja": "REA を使って 2 つの JS/TS プロジェクトを融合",
-  "ko": "REA로 두 JS/TS 프로젝트를 하나로 합치기"
- },
- "laaielichter/Reverseport": {
-  "en": "Port reverse-engineering findings into Godot, Unity, Unreal or three.js",
-  "zh-CN": "把逆向成果移植到 Godot、Unity、Unreal 或 three.js",
-  "zh-TW": "把逆向成果移植到 Godot、Unity、Unreal 或 three.js",
-  "ja": "解析結果を Godot・Unity・Unreal・three.js へ移植",
-  "ko": "리버싱 결과를 Godot·Unity·Unreal·three.js로 이식"
- },
- "0xshlomil/ida-free-mcp": {
-  "en": "Use free IDA from an AI agent over MCP",
-  "zh-CN": "通过 MCP 让 AI 智能体使用免费版 IDA",
-  "zh-TW": "透過 MCP 讓 AI 代理使用免費版 IDA",
-  "ja": "MCP 経由で AI エージェントから IDA Free を使う",
-  "ko": "MCP로 AI 에이전트가 IDA Free 사용"
- },
- "HexRaysSA/ida-mcp": {
-  "en": "Hex-Rays' official MCP server for IDA",
-  "zh-CN": "Hex-Rays 官方的 IDA MCP 服务",
-  "zh-TW": "Hex-Rays 官方的 IDA MCP 服務",
-  "ja": "Hex-Rays 公式の IDA 用 MCP サーバー",
-  "ko": "Hex-Rays 공식 IDA용 MCP 서버"
- },
- "Nowng/rea-mcp": {
-  "en": "Run REA with local models in LM Studio",
-  "zh-CN": "在 LM Studio 里配合本地模型用 REA",
-  "zh-TW": "在 LM Studio 裡搭配本機模型使用 REA",
-  "ja": "LM Studio のローカルモデルで REA を使う",
-  "ko": "LM Studio 로컬 모델로 REA 사용"
- },
- "alexmi256/rea-agent-docker": {
-  "en": "REA in Docker, with Ghidra, Hopper or IDA variants",
-  "zh-CN": "REA 的 Docker 镜像，含 Ghidra/Hopper/IDA 版本",
-  "zh-TW": "REA 的 Docker 映像檔，含 Ghidra/Hopper/IDA 版本",
-  "ja": "Ghidra・Hopper・IDA 版がある REA の Docker イメージ",
-  "ko": "Ghidra·Hopper·IDA 변형이 있는 REA Docker 이미지"
- },
- "cognixws/picode-rea": {
-  "en": "REA's static-analysis tools inside PiCode",
-  "zh-CN": "在 PiCode 里使用 REA 的静态分析工具",
-  "zh-TW": "在 PiCode 裡使用 REA 的靜態分析工具",
-  "ja": "PiCode から REA の静的解析ツールを使う",
-  "ko": "PiCode에서 REA 정적 분석 도구 사용"
- },
- "czcdr/dsh-plugin-rea": {
-  "en": "REA tools in DeepSeek Harness, with Ghidra auto-installed",
-  "zh-CN": "在 DeepSeek Harness 里用 REA，自动装好 Ghidra",
-  "zh-TW": "在 DeepSeek Harness 裡使用 REA，自動裝好 Ghidra",
-  "ja": "DeepSeek Harness で REA を、Ghidra も自動導入",
-  "ko": "DeepSeek Harness에서 REA 사용, Ghidra 자동 설치"
- },
- "sheilacraig/dsh-rea-mcp": {
-  "en": "A config-only way to mount REA in DeepSeek Harness",
-  "zh-CN": "只靠配置就把 REA 挂进 DeepSeek Harness",
-  "zh-TW": "只靠設定就把 REA 接進 DeepSeek Harness",
-  "ja": "設定だけで DeepSeek Harness に REA を組み込む",
-  "ko": "설정만으로 DeepSeek Harness에 REA 연결"
- },
- "ya123-4/rea-dsh-plugin": {
-  "en": "Register REA's MCP tools in DeepSeek Harness",
-  "zh-CN": "在 DeepSeek Harness 中注册 REA 的 MCP 工具",
-  "zh-TW": "在 DeepSeek Harness 中註冊 REA 的 MCP 工具",
-  "ja": "DeepSeek Harness に REA の MCP ツールを登録",
-  "ko": "DeepSeek Harness에 REA MCP 도구 등록"
- },
- "zhaofeng130/dsh-rea": {
-  "en": "Add the REA Skill and tools to DeepSeek Harness",
-  "zh-CN": "给 DeepSeek Harness 加上 REA 技能和工具",
-  "zh-TW": "給 DeepSeek Harness 加上 REA 技能和工具",
-  "ja": "DeepSeek Harness に REA のスキルとツールを追加",
-  "ko": "DeepSeek Harness에 REA 스킬과 도구 추가"
- },
- "pablodiazjorge/rea-casebook": {
-  "en": "Make Claude Code cite real REA evidence for every conclusion",
-  "zh-CN": "让 Claude Code 的每条结论都引用真实 REA 证据",
-  "zh-TW": "讓 Claude Code 的每項結論都引用真實的 REA 證據",
-  "ja": "Claude Code の結論すべてに実際の REA 証拠を引用させる",
-  "ko": "Claude Code의 모든 결론에 실제 REA 증거를 인용하게"
- },
- "jinshi666888/rea-playbook": {
-  "en": "A hands-on REA lab with a tiny Electron target",
-  "zh-CN": "带迷你 Electron 靶子的 REA 动手实验",
-  "zh-TW": "附迷你 Electron 靶機的 REA 實作練習",
-  "ja": "小さな Electron ターゲット付きの REA ハンズオン",
-  "ko": "작은 Electron 타깃이 있는 REA 실습"
- },
- "dav1dngy/era-agent": {
-  "en": "An evidence-driven RE agent that tries to improve itself",
-  "zh-CN": "以证据驱动、会尝试自我改进的逆向智能体",
-  "zh-TW": "證據驅動、會嘗試自我改進的逆向工程 AI 代理",
-  "ja": "証拠駆動で自己改善を試みるリバースエンジニアリング用エージェント",
-  "ko": "증거 기반으로 스스로 개선을 시도하는 리버싱 에이전트"
- },
- "UnknownHacker1/rea-groundtruth": {
-  "en": "Check REA's reports against the real source code",
-  "zh-CN": "拿真实源码检验 REA 的分析报告",
-  "zh-TW": "以真實原始碼檢驗 REA 的分析報告",
-  "ja": "REA のレポートを実際のソースと突き合わせる",
-  "ko": "REA 보고서를 실제 소스와 대조"
- },
- "az9713/REA-demo": {
-  "en": "REA analyses itself, with predictions you can falsify",
-  "zh-CN": "让 REA 分析它自己，附可证伪的预测",
-  "zh-TW": "讓 REA 分析它自己，附可證偽的預測",
-  "ja": "REA が自分自身を解析、反証可能な予測付き",
-  "ko": "REA가 스스로를 분석, 반증 가능한 예측 포함"
- },
- "pablodiazjorge/rea-lab": {
-  "en": "Windows + Ghidra exercises and a pre-registered REA study",
-  "zh-CN": "Windows + Ghidra 练习题和预注册的 REA 评测",
-  "zh-TW": "Windows + Ghidra 練習題與預先登記的 REA 評測",
-  "ja": "Windows + Ghidra の演習と事前登録した REA 評価",
-  "ko": "Windows + Ghidra 실습과 사전 등록된 REA 평가"
- },
- "EndLess728/MiTV-Remote": {
-  "en": "Control Xiaomi TVs over Wi-Fi from Mac, Android or iPhone",
-  "zh-CN": "在 Mac、安卓、iPhone 上用 Wi-Fi 遥控小米电视",
-  "zh-TW": "在 Mac、Android、iPhone 上用 Wi-Fi 遙控小米電視",
-  "ja": "Mac・Android・iPhone から Wi-Fi で Xiaomi テレビを操作",
-  "ko": "Mac·안드로이드·아이폰에서 Wi-Fi로 샤오미 TV 조작"
- },
- "B-Howell/soundconnect-desktop": {
-  "en": "Control Sony Bluetooth headphones from a Windows desktop app",
-  "zh-CN": "在 Windows 桌面上控制索尼蓝牙耳机",
-  "zh-TW": "在 Windows 桌面上控制 Sony 藍牙耳機",
-  "ja": "Windows デスクトップから Sony の Bluetooth ヘッドホンを操作",
-  "ko": "Windows 데스크톱에서 소니 블루투스 헤드폰 제어"
- },
- "Xiangyu-CAS/rea-capcut": {
-  "en": "An open-source offline video editor rebuilt from REA research on CapCut",
-  "zh-CN": "用 REA 研究剪映后重做的开源离线剪辑软件",
-  "zh-TW": "用 REA 研究剪映後重做的開源離線剪輯軟體",
-  "ja": "REA で CapCut を調べて作り直したオープンソースのオフライン動画編集",
-  "ko": "REA로 CapCut을 분석해 다시 만든 오픈소스 오프라인 영상 편집기"
- },
- "chilliesdev/fmseasonhub-re": {
-  "en": "REA teardown notes of the FM Season Hub app",
-  "zh-CN": "用 REA 拆解 FM Season Hub 应用的分析笔记",
-  "zh-TW": "用 REA 拆解 FM Season Hub 應用程式的分析筆記",
-  "ja": "REA で FM Season Hub アプリを解析したノート",
-  "ko": "REA로 FM Season Hub 앱을 분석한 노트"
- },
- "rodneypantonial/sims3-modernization": {
-  "en": "Make The Sims 3 stutter and crash less on modern PCs",
-  "zh-CN": "让模拟人生 3 在新电脑上少卡顿、少崩溃",
-  "zh-TW": "讓模擬市民 3 在新電腦上少卡頓、少當機",
-  "ja": "最新 PC でシムズ3 のカクつきとクラッシュを減らす",
-  "ko": "최신 PC에서 심즈 3 끊김과 크래시 줄이기"
- },
- "nicolvus/a6000-fw-decomp": {
-  "en": "Dig into Sony A6000 camera firmware with REA and Ghidra",
-  "zh-CN": "用 REA 和 Ghidra 拆索尼 A6000 相机固件",
-  "zh-TW": "用 REA 和 Ghidra 拆 Sony A6000 相機韌體",
-  "ja": "REA と Ghidra で Sony A6000 のファームウェアを解析",
-  "ko": "REA와 Ghidra로 소니 A6000 펌웨어 분석"
- },
- "tanepiper/game-frame": {
-  "en": "A framework for agents to reverse engineer games from shipped files",
-  "zh-CN": "让 AI agent 从发行文件逆向游戏的框架",
-  "zh-TW": "讓 AI agent 從發行檔案逆向遊戲的框架",
-  "ja": "配布ファイルからエージェントがゲームを解析するフレームワーク",
-  "ko": "배포 파일로 에이전트가 게임을 역공학하는 프레임워크"
- },
- "agioracle/rea-unity-game": {
-  "en": "Agent workflow for reverse engineering Unity games",
-  "zh-CN": "用 agent 逆向 Unity 游戏的工作流",
-  "zh-TW": "用 agent 逆向 Unity 遊戲的工作流程",
-  "ja": "エージェントで Unity ゲームを解析するワークフロー",
-  "ko": "에이전트로 Unity 게임을 역공학하는 워크플로"
- }
+  "DX-Ball: sound-pan function": {
+    "en": "Watch REA turn one DX-Ball sound helper into byte-exact C",
+    "zh-CN": "看 REA 把 DX-Ball 的一个音效函数还原成逐字节一致的 C",
+    "zh-TW": "看 REA 把 DX-Ball 的一個音效函式還原成逐位元組一致的 C",
+    "ja": "REA が DX-Ball の音響関数をバイト単位で一致する C に戻す過程",
+    "ko": "REA가 DX-Ball 사운드 함수를 바이트 단위로 같은 C로 복원하는 과정"
+  },
+  "Notion: Electron clipboard bridge": {
+    "en": "Follow a Notion copy from the page, through IPC, into the main process",
+    "zh-CN": "跟着一次 Notion 复制操作，从页面一路追到 IPC 和主进程",
+    "zh-TW": "跟著一次 Notion 複製操作，從頁面一路追進 IPC 和主行程",
+    "ja": "Notion のコピー操作をページから IPC、メインプロセスまで追跡",
+    "ko": "Notion 복사 동작을 페이지에서 IPC, 메인 프로세스까지 추적"
+  },
+  "TH04: PC-98 bullet-ring maths": {
+    "en": "Recover Touhou 4's bullet-ring angle maths from 16-bit DOS code",
+    "zh-CN": "从 16 位 DOS 代码里找回东方幻想乡的弹幕角度算法",
+    "zh-TW": "從 16 位元 DOS 程式碼裡找回東方幻想鄉的彈幕角度演算法",
+    "ja": "16 ビット DOS コードから東方幻想郷の弾幕角度計算を復元",
+    "ko": "16비트 DOS 코드에서 동방환상향 탄막 각도 계산을 복원"
+  },
+  "Aegis: TOTP code generation": {
+    "en": "See exactly how the Aegis Android app generates your 2FA codes",
+    "zh-CN": "看清 Aegis 安卓应用是怎样生成两步验证码的",
+    "zh-TW": "看清 Aegis Android App 究竟如何產生兩步驟驗證碼",
+    "ja": "Aegis（Android）が二段階認証コードを生成する仕組みを解明",
+    "ko": "Aegis 안드로이드 앱이 2단계 인증 코드를 만드는 방식을 해부"
+  },
+  "CTF: flag checker": {
+    "en": "Solve a DownUnderCTF 2023 reversing challenge step by step",
+    "zh-CN": "一步步解开 DownUnderCTF 2023 的逆向题",
+    "zh-TW": "一步步解開 DownUnderCTF 2023 的逆向題",
+    "ja": "DownUnderCTF 2023 のリバーシング問題を順に解く",
+    "ko": "DownUnderCTF 2023 리버싱 문제를 단계별로 풀이"
+  },
+  "N0zoM1z0/dx-ball": {
+    "en": "DX-Ball 1.07 rebuilt in C/C++, tested against the original x86",
+    "zh-CN": "用 C/C++ 重建 DX-Ball 1.07，并对照原版 x86 测试",
+    "zh-TW": "用 C/C++ 重建 DX-Ball 1.07，並對照原版 x86 測試",
+    "ja": "DX-Ball 1.07 を C/C++ で再構築、元の x86 と照合テスト",
+    "ko": "DX-Ball 1.07을 C/C++로 재구성하고 원본 x86과 대조 테스트"
+  },
+  "N0zoM1z0/th04": {
+    "en": "Touhou 4 (PC-98) as readable source, checked against the original compiler",
+    "zh-CN": "东方幻想乡（PC-98）的可读源码，对照原编译器校验",
+    "zh-TW": "東方幻想鄉（PC-98）的可讀原始碼，並以原版編譯器驗證",
+    "ja": "東方幻想郷（PC-98）を読めるソースに、当時のコンパイラで検証",
+    "ko": "동방환상향(PC-98)을 읽을 수 있는 소스로, 원래 컴파일러로 검증"
+  },
+  "N0zoM1z0/th08": {
+    "en": "Touhou 8: Imperishable Night reconstructed as source",
+    "zh-CN": "东方永夜抄，重建为源码",
+    "zh-TW": "東方永夜抄，重建成原始碼",
+    "ja": "東方永夜抄をソースコードとして再構築",
+    "ko": "동방영야초를 소스 코드로 재구성"
+  },
+  "N0zoM1z0/th10": {
+    "en": "Touhou 10: Mountain of Faith reconstructed as source",
+    "zh-CN": "东方风神录，重建为源码",
+    "zh-TW": "東方風神錄，重建成原始碼",
+    "ja": "東方風神録をソースコードとして再構築",
+    "ko": "동방풍신록을 소스 코드로 재구성"
+  },
+  "ucodia/desktop-games-nostalgia": {
+    "en": "Smash your desktop again: Gemtree's 2000 toy on macOS and the web",
+    "zh-CN": "再砸一次桌面：Gemtree 2000 年的小玩具登上 macOS 和网页",
+    "zh-TW": "再砸一次桌面：Gemtree 2000 年的小玩具登上 macOS 和網頁",
+    "ja": "デスクトップをまた壊そう：Gemtree の 2000 年作を macOS とブラウザへ",
+    "ko": "다시 데스크톱 부수기: Gemtree의 2000년작을 macOS와 웹으로"
+  },
+  "tuunanet/rea-ski-or-die-reconstruction": {
+    "en": "Ski or Die's Snowball War, rebuilt in Rust + SDL2 (bring your own assets)",
+    "zh-CN": "Ski or Die 的雪球大战，用 Rust + SDL2 重做（素材自备）",
+    "zh-TW": "Ski or Die 的雪球大戰，以 Rust + SDL2 重製（素材需自備）",
+    "ja": "Ski or Die の雪合戦を Rust + SDL2 で再現（素材は各自用意）",
+    "ko": "Ski or Die 눈싸움을 Rust + SDL2로 재구현(에셋은 직접 준비)"
+  },
+  "Moxnatiy/OpenBattlefield2": {
+    "en": "Battlefield 2's engine, rewritten clean-room in C++20 (uses your own copy)",
+    "zh-CN": "战地 2 引擎的 C++20 净室重写（读取你自己的游戏）",
+    "zh-TW": "戰地風雲 2 引擎的 C++20 淨室重寫（讀取你自己的遊戲檔案）",
+    "ja": "バトルフィールド 2 のエンジンを C++20 でクリーンルーム再実装（手持ちの製品版を使用）",
+    "ko": "배틀필드 2 엔진을 C++20으로 클린룸 재구현(보유한 게임 사용)"
+  },
+  "OpenRsG/GunZRs": {
+    "en": "GunZ: The Duel, reborn in Rust + Bevy",
+    "zh-CN": "GunZ：The Duel 用 Rust + Bevy 重生",
+    "zh-TW": "GunZ: The Duel 以 Rust + Bevy 重生",
+    "ja": "GunZ: The Duel を Rust + Bevy で復活",
+    "ko": "GunZ: The Duel을 Rust + Bevy로 부활"
+  },
+  "a-barzanti/ai-rebuilds": {
+    "en": "Abandoned games brought back to the browser, no original files included",
+    "zh-CN": "被遗弃的老游戏重回浏览器，不含任何原版文件",
+    "zh-TW": "被遺棄的老遊戲重回瀏覽器，不含任何原版檔案",
+    "ja": "見捨てられたゲームをブラウザで復活、元ファイルは含まない",
+    "ko": "버려진 게임을 브라우저로 되살림, 원본 파일 미포함"
+  },
+  "OpenRCT2/OpenRCT2": {
+    "en": "RollerCoaster Tycoon 2, open-source and alive on modern systems",
+    "zh-CN": "开源版过山车大亨 2，在现代系统上继续运行",
+    "zh-TW": "開源版 RollerCoaster Tycoon 2，在現代系統上繼續執行",
+    "ja": "ローラーコースタータイクーン 2 をオープンソースで現行 OS に",
+    "ko": "롤러코스터 타이쿤 2를 오픈소스로 최신 OS에서"
+  },
+  "OpenMW/openmw": {
+    "en": "Play Morrowind on a modern open-source engine",
+    "zh-CN": "在现代开源引擎上玩晨风",
+    "zh-TW": "在現代開源引擎上玩 Morrowind",
+    "ja": "モロウウィンドを最新のオープンソースエンジンで",
+    "ko": "모로윈드를 현대적인 오픈소스 엔진으로 플레이"
+  },
+  "zeldaret/oot": {
+    "en": "Ocarina of Time, fully decompiled to C (ROM not included)",
+    "zh-CN": "时之笛完整反编译为 C（不含 ROM）",
+    "zh-TW": "薩爾達傳說 時之笛完整反編譯為 C（不含 ROM）",
+    "ja": "時のオカリナを C へ完全逆コンパイル（ROM は含まない）",
+    "ko": "시간의 오카리나를 C로 완전 디컴파일(ROM 미포함)"
+  },
+  "n64decomp/sm64": {
+    "en": "Super Mario 64 as buildable C source (ROM not included)",
+    "zh-CN": "可构建的超级马里奥 64 C 源码（不含 ROM）",
+    "zh-TW": "可建置的超級瑪利歐 64 C 原始碼（不含 ROM）",
+    "ja": "ビルド可能なスーパーマリオ 64 の C ソース（ROM は含まない）",
+    "ko": "빌드 가능한 슈퍼 마리오 64 C 소스(ROM 미포함)"
+  },
+  "HarbourMasters/Shipwright": {
+    "en": "Play Zelda: Ocarina of Time natively on PC (bring your own ROM)",
+    "zh-CN": "在 PC 上原生运行塞尔达：时之笛（ROM 自备）",
+    "zh-TW": "在 PC 上原生執行薩爾達傳說 時之笛（ROM 需自備）",
+    "ja": "ゼルダの伝説 時のオカリナを PC でネイティブに（ROM は各自）",
+    "ko": "젤다의 전설 시간의 오카리나를 PC에서 네이티브로(ROM 직접 준비)"
+  },
+  "ethteck/splat": {
+    "en": "Slice N64 and PS1 binaries into a decomp-ready project",
+    "zh-CN": "把 N64、PS1 二进制切分成可反编译的工程",
+    "zh-TW": "把 N64、PS1 二進位檔切分成可反編譯的專案",
+    "ja": "N64・PS1 のバイナリを逆コンパイル用プロジェクトに分割",
+    "ko": "N64·PS1 바이너리를 디컴파일용 프로젝트로 분할"
+  },
+  "NEstelami/ZAPD": {
+    "en": "Turn Zelda 64 assets into editable source files",
+    "zh-CN": "把 Zelda 64 的资源转成可编辑的源文件",
+    "zh-TW": "把 Zelda 64 的資源轉成可編輯的原始檔",
+    "ja": "ゼルダ 64 のアセットを編集可能なソースへ変換",
+    "ko": "젤다 64 에셋을 편집 가능한 소스로 변환"
+  },
+  "sonicretro/s1disasm": {
+    "en": "Sonic the Hedgehog (Mega Drive), fully disassembled",
+    "zh-CN": "刺猬索尼克（MD）完整反汇编",
+    "zh-TW": "音速小子（MD）完整反組譯",
+    "ja": "ソニック・ザ・ヘッジホッグ（メガドライブ）を完全逆アセンブル",
+    "ko": "소닉 더 헤지혹(메가 드라이브) 완전 디스어셈블"
+  },
+  "sonicretro/s2disasm": {
+    "en": "Sonic 2 (Mega Drive), fully disassembled",
+    "zh-CN": "索尼克 2（MD）完整反汇编",
+    "zh-TW": "音速小子 2（MD）完整反組譯",
+    "ja": "ソニック 2（メガドライブ）を完全逆アセンブル",
+    "ko": "소닉 2(메가 드라이브) 완전 디스어셈블"
+  },
+  "snesrev/zelda3": {
+    "en": "A Link to the Past rewritten in C, with widescreen (bring your own ROM)",
+    "zh-CN": "用 C 重写的众神的三角力量，支持宽屏（ROM 自备）",
+    "zh-TW": "以 C 重寫的薩爾達傳說 眾神的三角力量，支援寬螢幕（ROM 需自備）",
+    "ja": "神々のトライフォースを C で再実装、ワイド対応（ROM は各自）",
+    "ko": "신들의 트라이포스를 C로 재구현, 와이드 지원(ROM 직접 준비)"
+  },
+  "snesrev/sm": {
+    "en": "Super Metroid rewritten in C (bring your own ROM)",
+    "zh-CN": "用 C 重写的超级银河战士（ROM 自备）",
+    "zh-TW": "以 C 重寫的超級銀河戰士（ROM 需自備）",
+    "ja": "スーパーメトロイドを C で再実装（ROM は各自）",
+    "ko": "슈퍼 메트로이드를 C로 재구현(ROM 직접 준비)"
+  },
+  "pret/pokeemerald": {
+    "en": "Pokémon Emerald as C source, the base of countless ROM hacks",
+    "zh-CN": "宝可梦绿宝石的 C 源码，无数改版的起点",
+    "zh-TW": "寶可夢 綠寶石的 C 原始碼，無數改版的起點",
+    "ja": "ポケモン エメラルドの C ソース、数多の改造の土台",
+    "ko": "포켓몬스터 에메랄드 C 소스, 수많은 개조의 기반"
+  },
+  "pret/pokefirered": {
+    "en": "Pokémon FireRed/LeafGreen as C source",
+    "zh-CN": "宝可梦火红/叶绿的 C 源码",
+    "zh-TW": "寶可夢 火紅/葉綠的 C 原始碼",
+    "ja": "ポケモン ファイアレッド・リーフグリーンの C ソース",
+    "ko": "포켓몬스터 파이어레드·리프그린 C 소스"
+  },
+  "zeldaret/tmc": {
+    "en": "Zelda: The Minish Cap, decompiled to C",
+    "zh-CN": "塞尔达：缩小帽，反编译为 C",
+    "zh-TW": "薩爾達傳說 縮小帽，反編譯為 C",
+    "ja": "ゼルダの伝説 ふしぎのぼうしを C へ逆コンパイル",
+    "ko": "젤다의 전설 이상한 모자를 C로 디컴파일"
+  },
+  "pret/pokered": {
+    "en": "Pokémon Red/Blue, fully disassembled",
+    "zh-CN": "宝可梦红/蓝完整反汇编",
+    "zh-TW": "寶可夢 紅/藍完整反組譯",
+    "ja": "ポケモン 赤・緑（Red/Blue）を完全逆アセンブル",
+    "ko": "포켓몬스터 레드·블루 완전 디스어셈블"
+  },
+  "pret/pokegold": {
+    "en": "Pokémon Gold/Silver, fully disassembled",
+    "zh-CN": "宝可梦金/银完整反汇编",
+    "zh-TW": "寶可夢 金/銀完整反組譯",
+    "ja": "ポケモン 金・銀を完全逆アセンブル",
+    "ko": "포켓몬스터 금·은 완전 디스어셈블"
+  },
+  "Xeeynamo/sotn-decomp": {
+    "en": "Castlevania: Symphony of the Night, decompiled to C",
+    "zh-CN": "恶魔城：月下夜想曲，反编译为 C",
+    "zh-TW": "惡魔城：月下夜想曲，反編譯為 C",
+    "ja": "悪魔城ドラキュラX 月下の夜想曲を C へ逆コンパイル",
+    "ko": "악마성 드라큘라 X 월하의 야상곡을 C로 디컴파일"
+  },
+  "michaelshimeles/sketch": {
+    "en": "An infinite design canvas in Rust, rebuilt by studying Paper",
+    "zh-CN": "Rust 写的无限设计画布，研究 Paper 后重建",
+    "zh-TW": "以 Rust 寫成的無限設計畫布，研究 Paper 後重建",
+    "ja": "Paper を研究して作った Rust 製の無限デザインキャンバス",
+    "ko": "Paper를 연구해 만든 Rust 무한 디자인 캔버스"
+  },
+  "michaelshimeles/rec-rs": {
+    "en": "A fast macOS screen recorder in Rust, modelled on OBS",
+    "zh-CN": "Rust 写的 macOS 快速录屏工具，参照 OBS 设计",
+    "zh-TW": "以 Rust 寫成的 macOS 快速螢幕錄影工具，參考 OBS 設計",
+    "ja": "OBS を参考にした Rust 製の高速 macOS 録画ツール",
+    "ko": "OBS를 참고한 Rust 기반 빠른 macOS 녹화 도구"
+  },
+  "iammukeshm/hexgrab": {
+    "en": "A tiny Windows colour picker, rebuilt from PowerToys' binaries",
+    "zh-CN": "迷你 Windows 取色器，从 PowerToys 二进制研究而来",
+    "zh-TW": "迷你 Windows 取色工具，從 PowerToys 二進位檔研究而來",
+    "ja": "PowerToys のバイナリを調べて作った小さな Windows カラーピッカー",
+    "ko": "PowerToys 바이너리를 분석해 만든 작은 Windows 색상 선택기"
+  },
+  "AdamLinCodes/AdamTerm": {
+    "en": "A minimal macOS terminal, built by poking at Ghostty",
+    "zh-CN": "研究 Ghostty 后做出的极简 macOS 终端",
+    "zh-TW": "研究 Ghostty 後做出的極簡 macOS 終端機",
+    "ja": "Ghostty を調べて作ったミニマルな macOS ターミナル",
+    "ko": "Ghostty를 살펴보고 만든 미니멀 macOS 터미널"
+  },
+  "az9713/wispr-flow-rea-teardown": {
+    "en": "Wispr Flow's voice pipeline, taken apart, plus a 64-line rebuild",
+    "zh-CN": "拆解 Wispr Flow 语音管线，附 64 行重写版",
+    "zh-TW": "拆解 Wispr Flow 的語音管線，附 64 行重寫版",
+    "ja": "Wispr Flow の音声パイプラインを分解、64 行の再実装付き",
+    "ko": "Wispr Flow 음성 파이프라인 해부와 64줄 재구현"
+  },
+  "cudanexus/vd-streamer-linux": {
+    "en": "Stream your Linux desktop to Quest and Pico headsets",
+    "zh-CN": "把 Linux 桌面串流到 Quest、Pico 头显",
+    "zh-TW": "把 Linux 桌面串流到 Quest、Pico 頭戴裝置",
+    "ja": "Linux デスクトップを Quest・Pico へストリーミング",
+    "ko": "Linux 데스크톱을 Quest·Pico 헤드셋으로 스트리밍"
+  },
+  "a-funk/open-appleremote": {
+    "en": "Use Apple's first-gen Siri Remote on Linux, gestures included",
+    "zh-CN": "在 Linux 上用第一代 Siri 遥控器，连手势也支持",
+    "zh-TW": "在 Linux 上使用第一代 Siri 遙控器，連手勢都支援",
+    "ja": "初代 Siri Remote を Linux で、ジェスチャーまで対応",
+    "ko": "1세대 Siri 리모컨을 Linux에서, 제스처까지 지원"
+  },
+  "Slyvan25/OpenGHub": {
+    "en": "Control Logitech gear on Linux without G HUB",
+    "zh-CN": "在 Linux 上不用 G HUB 也能控制罗技外设",
+    "zh-TW": "在 Linux 上不用 G HUB 也能控制羅技周邊",
+    "ja": "G HUB なしで Linux から Logitech 機器を操作",
+    "ko": "G HUB 없이 Linux에서 로지텍 장치 제어"
+  },
+  "grisuno/VSL-DSP": {
+    "en": "A Linux kernel module for PreSonus AudioBox VSL interfaces",
+    "zh-CN": "PreSonus AudioBox VSL 声卡的 Linux 内核模块",
+    "zh-TW": "PreSonus AudioBox VSL 音效卡的 Linux 核心模組",
+    "ja": "PreSonus AudioBox VSL 用の Linux カーネルモジュール",
+    "ko": "PreSonus AudioBox VSL용 Linux 커널 모듈"
+  },
+  "ReFirmLabs/binwalk": {
+    "en": "Find and extract what's hidden inside firmware images",
+    "zh-CN": "找出并提取固件镜像里藏着的东西",
+    "zh-TW": "找出並擷取韌體映像檔裡藏著的東西",
+    "ja": "ファームウェアイメージの中身を見つけて取り出す",
+    "ko": "펌웨어 이미지 속 내용을 찾아 추출"
+  },
+  "NullLabTests/OpenBSD_netcat_REA": {
+    "en": "netcat-openbsd, statically analysed with REA and Ghidra",
+    "zh-CN": "用 REA + Ghidra 静态分析 netcat-openbsd",
+    "zh-TW": "以 REA + Ghidra 靜態分析 netcat-openbsd",
+    "ja": "REA と Ghidra で netcat-openbsd を静的解析",
+    "ko": "REA와 Ghidra로 netcat-openbsd 정적 분석"
+  },
+  "REA discussion #2254": {
+    "en": "A stripped bzip2, analysed and checked against the real build",
+    "zh-CN": "分析去符号的 bzip2，并对照真实构建验证",
+    "zh-TW": "分析去除符號的 bzip2，並與實際建置結果比對驗證",
+    "ja": "シンボルなし bzip2 を解析し、元のビルドと照合",
+    "ko": "심볼 없는 bzip2를 분석하고 실제 빌드와 대조"
+  },
+  "ShadowSwaps/REA-Reconstruction-Companion": {
+    "en": "An agent skill that keeps reconstructions tied to evidence",
+    "zh-CN": "让重建过程始终有证据可查的智能体技能",
+    "zh-TW": "讓重建過程隨時有證據可查的 AI 代理技能",
+    "ja": "再構築を常に証拠と結びつけるエージェントスキル",
+    "ko": "재구성을 항상 증거와 연결하는 에이전트 스킬"
+  },
+  "NationalSecurityAgency/ghidra": {
+    "en": "The NSA's free decompiler and disassembler suite",
+    "zh-CN": "NSA 开源的免费反编译/反汇编套件",
+    "zh-TW": "NSA 開源的免費反編譯/反組譯套件",
+    "ja": "NSA が公開する無料の逆コンパイラ・逆アセンブラ",
+    "ko": "NSA가 공개한 무료 디컴파일러·디스어셈블러"
+  },
+  "skylot/jadx": {
+    "en": "Turn Android APKs back into readable Java",
+    "zh-CN": "把安卓 APK 还原成可读的 Java",
+    "zh-TW": "把 Android APK 還原成可讀的 Java",
+    "ja": "Android APK を読める Java に戻す",
+    "ko": "안드로이드 APK를 읽을 수 있는 Java로 복원"
+  },
+  "ran-j/PS2Recomp": {
+    "en": "Recompile PS2 games into native PC executables",
+    "zh-CN": "把 PS2 游戏重编译成原生 PC 程序",
+    "zh-TW": "把 PS2 遊戲重新編譯成原生 PC 程式",
+    "ja": "PS2 ゲームをネイティブ PC 実行ファイルへ再コンパイル",
+    "ko": "PS2 게임을 네이티브 PC 실행 파일로 리컴파일"
+  },
+  "snesrev/smw": {
+    "en": "Super Mario World rewritten in C (bring your own ROM)",
+    "zh-CN": "用 C 重写的超级马里奥世界（ROM 自备）",
+    "zh-TW": "以 C 重寫的超級瑪利歐世界（ROM 需自備）",
+    "ja": "スーパーマリオワールドを C で再実装（ROM は各自）",
+    "ko": "슈퍼 마리오 월드를 C로 재구현(ROM 직접 준비)"
+  },
+  "LaurieWired/GhidraMCP": {
+    "en": "Let an AI agent drive Ghidra over MCP",
+    "zh-CN": "让 AI 智能体通过 MCP 操作 Ghidra",
+    "zh-TW": "讓 AI 代理透過 MCP 操作 Ghidra",
+    "ja": "MCP 経由で AI エージェントに Ghidra を操作させる",
+    "ko": "MCP로 AI 에이전트가 Ghidra를 조작"
+  },
+  "x64dbg/x64dbg": {
+    "en": "The go-to open-source debugger for Windows binaries",
+    "zh-CN": "Windows 程序首选的开源调试器",
+    "zh-TW": "Windows 程式首選的開源除錯器",
+    "ja": "Windows バイナリ定番のオープンソースデバッガ",
+    "ko": "Windows 바이너리용 대표 오픈소스 디버거"
+  },
+  "encounter/decomp-toolkit": {
+    "en": "The toolkit behind many GameCube and Wii decomps",
+    "zh-CN": "众多 GameCube、Wii 反编译项目背后的工具链",
+    "zh-TW": "眾多 GameCube、Wii 反編譯專案背後的工具鏈",
+    "ja": "多くの GameCube・Wii 逆コンパイルを支えるツールキット",
+    "ko": "수많은 GameCube·Wii 디컴파일을 받치는 툴킷"
+  },
+  "HarbourMasters/Starship": {
+    "en": "Play Star Fox 64 natively on PC (bring your own ROM)",
+    "zh-CN": "在 PC 上原生运行星际火狐 64（ROM 自备）",
+    "zh-TW": "在 PC 上原生執行星際火狐 64（ROM 需自備）",
+    "ja": "スターフォックス 64 を PC でネイティブに（ROM は各自）",
+    "ko": "스타폭스 64를 PC에서 네이티브로(ROM 직접 준비)"
+  },
+  "iBotPeaches/Apktool": {
+    "en": "Unpack, read and rebuild Android APKs",
+    "zh-CN": "解包、阅读并重新打包安卓 APK",
+    "zh-TW": "解包、閱讀並重新封裝 Android APK",
+    "ja": "Android APK を展開・解析・再ビルド",
+    "ko": "안드로이드 APK 해체·분석·재빌드"
+  },
+  "zeldaret/tww": {
+    "en": "Zelda: The Wind Waker, decompiled to C",
+    "zh-CN": "塞尔达：风之杖，反编译为 C",
+    "zh-TW": "薩爾達傳說 風之律動，反編譯為 C",
+    "ja": "ゼルダの伝説 風のタクトを C へ逆コンパイル",
+    "ko": "젤다의 전설 바람의 지휘봉을 C로 디컴파일"
+  },
+  "pret/pokeruby": {
+    "en": "Pokémon Ruby/Sapphire as C source",
+    "zh-CN": "宝可梦红宝石/蓝宝石的 C 源码",
+    "zh-TW": "寶可夢 紅寶石/藍寶石的 C 原始碼",
+    "ja": "ポケモン ルビー・サファイアの C ソース",
+    "ko": "포켓몬스터 루비·사파이어 C 소스"
+  },
+  "angr/angr": {
+    "en": "Symbolic execution and binary analysis from Python",
+    "zh-CN": "在 Python 里做符号执行和二进制分析",
+    "zh-TW": "在 Python 裡進行符號執行與二進位分析",
+    "ja": "Python でシンボリック実行とバイナリ解析",
+    "ko": "Python으로 심볼릭 실행과 바이너리 분석"
+  },
+  "zeldaret/ss": {
+    "en": "Zelda: Skyward Sword, decompiled to C",
+    "zh-CN": "塞尔达：天空之剑，反编译为 C",
+    "zh-TW": "薩爾達傳說 禦天之劍，反編譯為 C",
+    "ja": "ゼルダの伝説 スカイウォードソードを C へ逆コンパイル",
+    "ko": "젤다의 전설 스카이워드 소드를 C로 디컴파일"
+  },
+  "hedge-dev/XenonRecomp": {
+    "en": "Recompile Xbox 360 games into native C++",
+    "zh-CN": "把 Xbox 360 游戏重编译为原生 C++",
+    "zh-TW": "把 Xbox 360 遊戲重新編譯為原生 C++",
+    "ja": "Xbox 360 ゲームをネイティブ C++ へ再コンパイル",
+    "ko": "Xbox 360 게임을 네이티브 C++로 리컴파일"
+  },
+  "pret/pokeplatinum": {
+    "en": "Pokémon Platinum as C source",
+    "zh-CN": "宝可梦白金的 C 源码",
+    "zh-TW": "寶可夢 白金的 C 原始碼",
+    "ja": "ポケモン プラチナの C ソース",
+    "ko": "포켓몬스터 Pt C 소스"
+  },
+  "n64decomp/mk64": {
+    "en": "Mario Kart 64, decompiled to C",
+    "zh-CN": "马里奥赛车 64，反编译为 C",
+    "zh-TW": "瑪利歐賽車 64，反編譯為 C",
+    "ja": "マリオカート 64 を C へ逆コンパイル",
+    "ko": "마리오 카트 64를 C로 디컴파일"
+  },
+  "avast/retdec": {
+    "en": "Decompile machine code from many architectures to C",
+    "zh-CN": "把多种架构的机器码反编译成 C",
+    "zh-TW": "把多種架構的機器碼反編譯成 C",
+    "ja": "多様なアーキテクチャの機械語を C へ逆コンパイル",
+    "ko": "다양한 아키텍처의 기계어를 C로 디컴파일"
+  },
+  "encounter/objdiff": {
+    "en": "See exactly where your decompiled function still differs",
+    "zh-CN": "一眼看出你的反编译函数还差在哪",
+    "zh-TW": "一眼看出你反編譯的函式還差在哪裡",
+    "ja": "逆コンパイルした関数のどこが違うか一目で分かる",
+    "ko": "디컴파일한 함수가 어디서 다른지 한눈에"
+  },
+  "rizinorg/cutter": {
+    "en": "A friendly GUI for reverse engineering, powered by Rizin",
+    "zh-CN": "基于 Rizin 的友好逆向图形界面",
+    "zh-TW": "基於 Rizin、容易上手的逆向工程圖形介面",
+    "ja": "Rizin ベースの使いやすいリバースエンジニアリング GUI",
+    "ko": "Rizin 기반의 친숙한 리버싱 GUI"
+  },
+  "ata4/disunity": {
+    "en": "Early toolset for poking at Unity asset files",
+    "zh-CN": "早期的 Unity 资源文件探查工具",
+    "zh-TW": "早期的 Unity 資源檔檢視工具",
+    "ja": "Unity アセットファイルを調べる初期のツール群",
+    "ko": "Unity 에셋 파일을 살펴보는 초기 도구 모음"
+  },
+  "3DSGuy/Project_CTR": {
+    "en": "Build and inspect 3DS file formats (ctrtool / makerom)",
+    "zh-CN": "构建和查看 3DS 文件格式（ctrtool / makerom）",
+    "zh-TW": "建置與檢視 3DS 檔案格式（ctrtool / makerom）",
+    "ja": "3DS のファイル形式を作成・解析（ctrtool / makerom）",
+    "ko": "3DS 파일 형식 생성·분석(ctrtool / makerom)"
+  },
+  "julianxhokaxhiu/FFNx": {
+    "en": "A modern driver and mod platform for FF7/FF8 on PC",
+    "zh-CN": "PC 版 FF7/FF8 的现代驱动与 Mod 平台",
+    "zh-TW": "PC 版 FF7/FF8 的現代驅動程式與 Mod 平台",
+    "ja": "PC 版 FF7/FF8 向けの最新ドライバー兼 Mod 基盤",
+    "ko": "PC판 FF7/FF8용 최신 드라이버 겸 모드 플랫폼"
+  },
+  "DarkRTA/rb3": {
+    "en": "Rock Band 3 (Wii), decompiled to C++",
+    "zh-CN": "摇滚乐队 3（Wii），反编译为 C++",
+    "zh-TW": "Rock Band 3（Wii），反編譯為 C++",
+    "ja": "ロックバンド 3（Wii）を C++ へ逆コンパイル",
+    "ko": "록 밴드 3(Wii)를 C++로 디컴파일"
+  },
+  "pret/pokeyellow": {
+    "en": "Pokémon Yellow, fully disassembled",
+    "zh-CN": "宝可梦皮卡丘版完整反汇编",
+    "zh-TW": "寶可夢 皮卡丘完整反組譯",
+    "ja": "ポケモン ピカチュウ（Yellow）を完全逆アセンブル",
+    "ko": "포켓몬스터 피카츄 버전 완전 디스어셈블"
+  },
+  "aldonunez/zelda1-disassembly": {
+    "en": "The original Legend of Zelda (NES), fully disassembled",
+    "zh-CN": "初代塞尔达传说（FC）完整反汇编",
+    "zh-TW": "初代薩爾達傳說（FC）完整反組譯",
+    "ja": "初代ゼルダの伝説（FC）を完全逆アセンブル",
+    "ko": "초대 젤다의 전설(NES) 완전 디스어셈블"
+  },
+  "mitmproxy/mitmproxy": {
+    "en": "Watch and edit HTTPS traffic as it happens",
+    "zh-CN": "实时查看和修改 HTTPS 流量",
+    "zh-TW": "即時檢視和修改 HTTPS 流量",
+    "ja": "HTTPS 通信をその場で見て書き換える",
+    "ko": "HTTPS 트래픽을 실시간으로 보고 수정"
+  },
+  "Zelda64Recomp/Zelda64Recomp": {
+    "en": "Majora's Mask, recompiled for PC with modern controls (bring your own ROM)",
+    "zh-CN": "重编译到 PC 的姆吉拉的假面，支持现代操作（ROM 自备）",
+    "zh-TW": "重新編譯到 PC 的薩爾達傳說 穆修拉的假面，支援現代操作（ROM 需自備）",
+    "ja": "ムジュラの仮面を PC 向けに再コンパイル、現代的な操作に（ROM は各自）",
+    "ko": "무쥬라의 가면을 PC로 리컴파일, 현대식 조작 지원(ROM 직접 준비)"
+  },
+  "pret/pokecrystal": {
+    "en": "Pokémon Crystal, fully disassembled",
+    "zh-CN": "宝可梦水晶完整反汇编",
+    "zh-TW": "寶可夢 水晶完整反組譯",
+    "ja": "ポケモン クリスタルを完全逆アセンブル",
+    "ko": "포켓몬스터 크리스탈 완전 디스어셈블"
+  },
+  "ghidraninja/ghidra_scripts": {
+    "en": "Handy Ghidra scripts, from binwalk import to YARA",
+    "zh-CN": "实用 Ghidra 脚本合集，从 binwalk 到 YARA",
+    "zh-TW": "實用 Ghidra 腳本合集，從 binwalk 到 YARA",
+    "ja": "binwalk 連携から YARA まで、便利な Ghidra スクリプト集",
+    "ko": "binwalk 연동부터 YARA까지 유용한 Ghidra 스크립트"
+  },
+  "Interkarma/daggerfall-unity": {
+    "en": "Daggerfall recreated in Unity (uses your own game data)",
+    "zh-CN": "用 Unity 重现的匕首雨（读取你自己的游戏数据）",
+    "zh-TW": "以 Unity 重現的 Daggerfall（讀取你自己的遊戲資料）",
+    "ja": "ダガーフォールを Unity で再現（手持ちのゲームデータを使用）",
+    "ko": "대거폴을 Unity로 재현(보유한 게임 데이터 사용)"
+  },
+  "radareorg/radare2": {
+    "en": "A scriptable command-line reverse-engineering framework",
+    "zh-CN": "可脚本化的命令行逆向框架",
+    "zh-TW": "可用腳本操控的命令列逆向工程框架",
+    "ja": "スクリプト可能なコマンドラインのリバースエンジニアリング基盤",
+    "ko": "스크립트 가능한 커맨드라인 리버싱 프레임워크"
+  },
+  "mandiant/flare-floss": {
+    "en": "Pull hidden and obfuscated strings out of malware",
+    "zh-CN": "把恶意软件里隐藏、混淆的字符串挖出来",
+    "zh-TW": "把惡意軟體裡隱藏、混淆過的字串挖出來",
+    "ja": "マルウェアに隠された難読化文字列を取り出す",
+    "ko": "악성코드 속 숨겨진 난독화 문자열을 추출"
+  },
+  "zeldaret/mm": {
+    "en": "Zelda: Majora's Mask, decompiled to C",
+    "zh-CN": "塞尔达：姆吉拉的假面，反编译为 C",
+    "zh-TW": "薩爾達傳說 穆修拉的假面，反編譯為 C",
+    "ja": "ゼルダの伝説 ムジュラの仮面を C へ逆コンパイル",
+    "ko": "젤다의 전설 무쥬라의 가면을 C로 디컴파일"
+  },
+  "OpenXcom/OpenXcom": {
+    "en": "Play the original UFO / X-COM on a modern open-source engine",
+    "zh-CN": "在现代开源引擎上玩初代 UFO / X-COM",
+    "zh-TW": "在現代開源引擎上玩初代 UFO / X-COM",
+    "ja": "初代 UFO / X-COM を最新のオープンソースエンジンで",
+    "ko": "초대 UFO / X-COM을 현대 오픈소스 엔진으로"
+  },
+  "WerWolv/ImHex": {
+    "en": "A hex editor with a pattern language that decodes structures for you",
+    "zh-CN": "带模式语言、能帮你解析结构的十六进制编辑器",
+    "zh-TW": "內建模式語言、能幫你解析結構的十六進位編輯器",
+    "ja": "構造を自動で読み解くパターン言語付きの HEX エディタ",
+    "ko": "구조를 해석해 주는 패턴 언어가 있는 헥스 에디터"
+  },
+  "Perfare/AssetStudio": {
+    "en": "Browse and export assets from Unity games",
+    "zh-CN": "浏览并导出 Unity 游戏资源",
+    "zh-TW": "瀏覽並匯出 Unity 遊戲資源",
+    "ja": "Unity ゲームのアセットを閲覧・書き出し",
+    "ko": "Unity 게임 에셋 탐색·내보내기"
+  },
+  "open-goal/jak-project": {
+    "en": "Play Jak and Daxter natively on PC (bring your own disc)",
+    "zh-CN": "在 PC 上原生运行杰克与达斯特（光盘自备）",
+    "zh-TW": "在 PC 上原生執行 Jak and Daxter（光碟需自備）",
+    "ja": "ジャック×ダクスターを PC でネイティブに（ディスクは各自）",
+    "ko": "잭 앤 덱스터를 PC에서 네이티브로(디스크 직접 준비)"
+  },
+  "zeldaret/ph": {
+    "en": "Zelda: Phantom Hourglass, decompiled to C",
+    "zh-CN": "塞尔达：幻影沙漏，反编译为 C",
+    "zh-TW": "薩爾達傳說 夢幻的砂時計，反編譯為 C",
+    "ja": "ゼルダの伝説 夢幻の砂時計を C へ逆コンパイル",
+    "ko": "젤다의 전설 몽환의 모래시계를 C로 디컴파일"
+  },
+  "mandiant/capa": {
+    "en": "Ask an executable what it can do, and get ATT&CK-mapped answers",
+    "zh-CN": "问一个程序“你能干什么”，得到映射到 ATT&CK 的答案",
+    "zh-TW": "問程式一句「你能做什麼」，得到對應 ATT&CK 的答案",
+    "ja": "実行ファイルに「何ができるか」を聞き、ATT&CK 付きで答えを得る",
+    "ko": "실행 파일이 무엇을 할 수 있는지 ATT&CK 매핑으로 확인"
+  },
+  "frida/frida": {
+    "en": "Hook into running apps on any platform and rewrite them live",
+    "zh-CN": "注入任意平台上运行中的程序，实时改写行为",
+    "zh-TW": "注入任何平台上執行中的程式，即時改寫其行為",
+    "ja": "実行中のアプリにフックし、その場で挙動を書き換える",
+    "ko": "실행 중인 앱에 훅을 걸어 실시간으로 동작 변경"
+  },
+  "qilingframework/qiling": {
+    "en": "Emulate and instrument binaries across OSes and CPUs",
+    "zh-CN": "跨系统、跨 CPU 模拟并插桩二进制",
+    "zh-TW": "跨作業系統、跨 CPU 模擬並插樁二進位檔",
+    "ja": "OS や CPU をまたいでバイナリをエミュレート・計測",
+    "ko": "여러 OS·CPU의 바이너리를 에뮬레이션·계측"
+  },
+  "SourMesen/Mesen2": {
+    "en": "A multi-system emulator with deep debugging tools",
+    "zh-CN": "带强大调试工具的多机种模拟器",
+    "zh-TW": "內建強大除錯工具的多機種模擬器",
+    "ja": "強力なデバッグ機能付きのマルチシステムエミュレータ",
+    "ko": "강력한 디버깅 도구를 갖춘 멀티 시스템 에뮬레이터"
+  },
+  "dnSpyEx/dnSpy": {
+    "en": "Debug and edit .NET assemblies without source",
+    "zh-CN": "无需源码即可调试和修改 .NET 程序集",
+    "zh-TW": "不需原始碼即可除錯和修改 .NET 組件",
+    "ja": "ソースなしで .NET アセンブリをデバッグ・編集",
+    "ko": "소스 없이 .NET 어셈블리 디버그·편집"
+  },
+  "decompme/decomp.me": {
+    "en": "Decompile together in the browser and race for a matching build",
+    "zh-CN": "在浏览器里协作反编译，一起冲击完全匹配",
+    "zh-TW": "在瀏覽器裡協作反編譯，一起挑戰完全匹配",
+    "ja": "ブラウザで共同逆コンパイル、一致ビルドを目指す",
+    "ko": "브라우저에서 함께 디컴파일하며 일치 빌드에 도전"
+  },
+  "mrexodia/ida-pro-mcp": {
+    "en": "Let an AI agent drive IDA Pro over MCP",
+    "zh-CN": "让 AI 智能体通过 MCP 操作 IDA Pro",
+    "zh-TW": "讓 AI 代理透過 MCP 操作 IDA Pro",
+    "ja": "MCP 経由で AI エージェントに IDA Pro を操作させる",
+    "ko": "MCP로 AI 에이전트가 IDA Pro를 조작"
+  },
+  "doldecomp/sms": {
+    "en": "Super Mario Sunshine, decompiled to C++",
+    "zh-CN": "超级马里奥阳光，反编译为 C++",
+    "zh-TW": "超級瑪利歐陽光，反編譯為 C++",
+    "ja": "スーパーマリオサンシャインを C++ へ逆コンパイル",
+    "ko": "슈퍼 마리오 선샤인을 C++로 디컴파일"
+  },
+  "AssetRipper/AssetRipper": {
+    "en": "Turn Unity builds back into an editable project",
+    "zh-CN": "把 Unity 构建产物还原成可编辑的工程",
+    "zh-TW": "把 Unity 建置產物還原成可編輯的專案",
+    "ja": "Unity のビルドを編集可能なプロジェクトに戻す",
+    "ko": "Unity 빌드를 편집 가능한 프로젝트로 복원"
+  },
+  "ladislav-zezula/CascLib": {
+    "en": "Read Blizzard's CASC game archives",
+    "zh-CN": "读取暴雪 CASC 游戏存档格式",
+    "zh-TW": "讀取暴雪 CASC 遊戲儲存格式",
+    "ja": "Blizzard の CASC アーカイブを読み込む",
+    "ko": "블리자드 CASC 아카이브 읽기"
+  },
+  "isledecomp/isle": {
+    "en": "LEGO Island (1997), decompiled to C++",
+    "zh-CN": "乐高岛（1997），反编译为 C++",
+    "zh-TW": "LEGO Island（1997），反編譯為 C++",
+    "ja": "レゴアイランド（1997）を C++ へ逆コンパイル",
+    "ko": "레고 아일랜드(1997)를 C++로 디컴파일"
+  },
+  "pmret/papermario": {
+    "en": "Paper Mario (N64), decompiled to C",
+    "zh-CN": "纸片马里奥（N64），反编译为 C",
+    "zh-TW": "紙片瑪利歐（N64），反編譯為 C",
+    "ja": "マリオストーリー（N64）を C へ逆コンパイル",
+    "ko": "페이퍼 마리오(N64)를 C로 디컴파일"
+  },
+  "postlund/pyatv": {
+    "en": "Control Apple TVs and AirPlay devices from Python",
+    "zh-CN": "用 Python 控制 Apple TV 和 AirPlay 设备",
+    "zh-TW": "以 Python 控制 Apple TV 和 AirPlay 裝置",
+    "ja": "Python から Apple TV や AirPlay 機器を操作",
+    "ko": "Python으로 Apple TV·AirPlay 기기 제어"
+  },
+  "hedge-dev/UnleashedRecomp": {
+    "en": "Play Sonic Unleashed natively on PC (bring your own copy)",
+    "zh-CN": "在 PC 上原生运行索尼克：释放（游戏自备）",
+    "zh-TW": "在 PC 上原生執行 Sonic Unleashed（遊戲需自備）",
+    "ja": "ソニック ワールドアドベンチャーを PC でネイティブに（製品は各自）",
+    "ko": "소닉 언리시드를 PC에서 네이티브로(게임 직접 준비)"
+  },
+  "ghidraninja/game-and-watch-backup": {
+    "en": "Back up and restore your own Game & Watch's firmware",
+    "zh-CN": "备份并恢复你自己的 Game & Watch 固件",
+    "zh-TW": "備份並還原你自己的 Game & Watch 韌體",
+    "ja": "手持ちの Game & Watch のファームをバックアップ・復元",
+    "ko": "내 Game & Watch 펌웨어 백업·복원"
+  },
+  "jiangzhengwenjz/katam": {
+    "en": "Kirby & the Amazing Mirror, decompiled to C",
+    "zh-CN": "星之卡比：镜之大迷宫，反编译为 C",
+    "zh-TW": "星之卡比 鏡之大迷宮，反編譯為 C",
+    "ja": "星のカービィ 鏡の大迷宮を C へ逆コンパイル",
+    "ko": "별의 커비 거울의 대미궁을 C로 디컴파일"
+  },
+  "scummvm/scummvm": {
+    "en": "Play classic point-and-click adventures on almost anything",
+    "zh-CN": "在几乎任何设备上玩经典点击冒险游戏",
+    "zh-TW": "在幾乎任何裝置上玩經典點擊式冒險遊戲",
+    "ja": "名作ポイント＆クリック ADV をほぼ何でも動かす",
+    "ko": "고전 포인트 앤 클릭 어드벤처를 거의 모든 기기에서"
+  },
+  "wireshark/wireshark": {
+    "en": "See every packet on the wire, decoded",
+    "zh-CN": "看清网络上的每一个数据包",
+    "zh-TW": "看清網路上的每一個封包",
+    "ja": "ネットワーク上のパケットをすべてデコードして見る",
+    "ko": "네트워크의 모든 패킷을 디코딩해 확인"
+  },
+  "RSDKModding/RSDKv5-Decompilation": {
+    "en": "Sonic Mania's engine, decompiled (uses your own data files)",
+    "zh-CN": "索尼克狂热的引擎反编译（读取你自己的数据文件）",
+    "zh-TW": "Sonic Mania 的引擎反編譯（讀取你自己的資料檔）",
+    "ja": "ソニックマニアのエンジンを逆コンパイル（手持ちのデータを使用）",
+    "ko": "소닉 매니아 엔진 디컴파일(보유한 데이터 사용)"
+  },
+  "pret/pmd-red": {
+    "en": "Pokémon Mystery Dungeon: Red Rescue Team, decompiled to C",
+    "zh-CN": "宝可梦不可思议的迷宫 赤之救助队，反编译为 C",
+    "zh-TW": "寶可夢不可思議的迷宮 紅之救助隊，反編譯為 C",
+    "ja": "ポケモン不思議のダンジョン 赤の救助隊を C へ逆コンパイル",
+    "ko": "포켓몬 불가사의 던전 레드 구조대를 C로 디컴파일"
+  },
+  "attify/firmware-analysis-toolkit": {
+    "en": "Emulate IoT firmware to poke at it safely",
+    "zh-CN": "模拟运行物联网固件，安全地研究它",
+    "zh-TW": "模擬執行物聯網韌體，安全地進行研究",
+    "ja": "IoT ファームをエミュレートして安全に調べる",
+    "ko": "IoT 펌웨어를 에뮬레이션해 안전하게 분석"
+  },
+  "RSDKModding/RSDKv4-Decompilation": {
+    "en": "The engine behind Sonic 1 & 2 (2013), decompiled",
+    "zh-CN": "索尼克 1、2（2013）引擎的反编译",
+    "zh-TW": "音速小子 1、2（2013）引擎的反編譯",
+    "ja": "ソニック 1・2（2013）のエンジンを逆コンパイル",
+    "ko": "소닉 1·2(2013) 엔진 디컴파일"
+  },
+  "onekey-sec/unblob": {
+    "en": "Unpack almost any firmware or container format, recursively",
+    "zh-CN": "递归解包几乎所有固件和容器格式",
+    "zh-TW": "遞迴解包幾乎所有韌體與容器格式",
+    "ja": "ほぼあらゆるファームやコンテナ形式を再帰的に展開",
+    "ko": "거의 모든 펌웨어·컨테이너 형식을 재귀적으로 추출"
+  },
+  "doldecomp/melee": {
+    "en": "Super Smash Bros. Melee, decompiled to C",
+    "zh-CN": "任天堂明星大乱斗 DX，反编译为 C",
+    "zh-TW": "任天堂明星大亂鬥 DX，反編譯為 C",
+    "ja": "大乱闘スマッシュブラザーズ DX を C へ逆コンパイル",
+    "ko": "대난투 스매시브라더스 DX를 C로 디컴파일"
+  },
+  "zeldaret/tp": {
+    "en": "Zelda: Twilight Princess, decompiled to C++",
+    "zh-CN": "塞尔达：黄昏公主，反编译为 C++",
+    "zh-TW": "薩爾達傳說 曙光公主，反編譯為 C++",
+    "ja": "ゼルダの伝説 トワイライトプリンセスを C++ へ逆コンパイル",
+    "ko": "젤다의 전설 황혼의 공주를 C++로 디컴파일"
+  },
+  "yaz0r/Azel": {
+    "en": "Panzer Dragoon Saga, reverse-engineered and reimplemented",
+    "zh-CN": "逆向并重新实现的铁甲飞龙 Saga",
+    "zh-TW": "經逆向後重新實作的 Panzer Dragoon Saga",
+    "ja": "アゼル -パンツァードラグーン RPG- を解析・再実装",
+    "ko": "판처 드라군 사가를 분석·재구현"
+  },
+  "electron/asar": {
+    "en": "Pack and unpack the archives inside Electron apps",
+    "zh-CN": "打包、解包 Electron 应用里的归档",
+    "zh-TW": "封裝、解包 Electron 應用程式裡的封存檔",
+    "ja": "Electron アプリ内のアーカイブを作成・展開",
+    "ko": "Electron 앱 내부 아카이브 패킹·언패킹"
+  },
+  "rizinorg/jsdec": {
+    "en": "Readable pseudo-C for Rizin, even from hand-written assembly",
+    "zh-CN": "为 Rizin 生成可读伪 C，手写汇编也行",
+    "zh-TW": "為 Rizin 產生可讀的虛擬 C 碼，手寫組合語言也行",
+    "ja": "手書きアセンブリからも読みやすい疑似 C を出す Rizin 用デコンパイラ",
+    "ko": "손으로 쓴 어셈블리도 읽기 쉬운 의사 C로 바꾸는 Rizin용 디컴파일러"
+  },
+  "diasurgical/DevilutionX": {
+    "en": "Play Diablo on modern systems (uses your own DIABDAT.MPQ)",
+    "zh-CN": "在现代系统上玩暗黑破坏神（需你自己的 DIABDAT.MPQ）",
+    "zh-TW": "在現代系統上玩暗黑破壞神（需自備 DIABDAT.MPQ）",
+    "ja": "ディアブロを現行 OS で（手持ちの DIABDAT.MPQ を使用）",
+    "ko": "디아블로를 최신 OS에서(보유한 DIABDAT.MPQ 사용)"
+  },
+  "fallout2-ce/fallout2-ce": {
+    "en": "Play Fallout 2 on modern systems (uses your own game data)",
+    "zh-CN": "在现代系统上玩辐射 2（读取你自己的游戏数据）",
+    "zh-TW": "在現代系統上玩異塵餘生 2（讀取你自己的遊戲資料）",
+    "ja": "Fallout 2 を現行 OS で（手持ちのゲームデータを使用）",
+    "ko": "폴아웃 2를 최신 OS에서(보유한 게임 데이터 사용)"
+  },
+  "rizinorg/rizin": {
+    "en": "A UNIX-style reverse-engineering framework, forked from radare2",
+    "zh-CN": "源自 radare2 的 UNIX 风格逆向框架",
+    "zh-TW": "源自 radare2 的 UNIX 風格逆向工程框架",
+    "ja": "radare2 から派生した UNIX 流のリバースエンジニアリング基盤",
+    "ko": "radare2에서 갈라져 나온 UNIX식 리버싱 프레임워크"
+  },
+  "OpenTTD/OpenTTD": {
+    "en": "Transport Tycoon Deluxe, open-source and still growing",
+    "zh-CN": "开源的运输大亨，至今仍在更新",
+    "zh-TW": "開源版 Transport Tycoon，至今仍持續更新",
+    "ja": "トランスポートタイクーン デラックスをオープンソースで、今も進化中",
+    "ko": "트랜스포트 타이쿤 디럭스를 오픈소스로, 지금도 발전 중"
+  },
+  "projectPiki/pikmin2": {
+    "en": "Pikmin 2, decompiled to C++",
+    "zh-CN": "皮克敏 2，反编译为 C++",
+    "zh-TW": "皮克敏 2，反編譯為 C++",
+    "ja": "ピクミン 2 を C++ へ逆コンパイル",
+    "ko": "피크민 2를 C++로 디컴파일"
+  },
+  "N64Recomp/N64Recomp": {
+    "en": "Recompile N64 games straight into native code",
+    "zh-CN": "把 N64 游戏直接重编译成原生代码",
+    "zh-TW": "把 N64 遊戲直接重新編譯成原生程式碼",
+    "ja": "N64 ゲームをそのままネイティブコードへ再コンパイル",
+    "ko": "N64 게임을 바로 네이티브 코드로 리컴파일"
+  },
+  "pret/pokeheartgold": {
+    "en": "Pokémon HeartGold/SoulSilver, decompiled to C",
+    "zh-CN": "宝可梦心金/魂银，反编译为 C",
+    "zh-TW": "寶可夢 心金/魂銀，反編譯為 C",
+    "ja": "ポケモン ハートゴールド・ソウルシルバーを C へ逆コンパイル",
+    "ko": "포켓몬스터 하트골드·소울실버를 C로 디컴파일"
+  },
+  "zladx/LADX-Disassembly": {
+    "en": "Zelda: Link's Awakening DX, fully disassembled",
+    "zh-CN": "塞尔达：织梦岛 DX 完整反汇编",
+    "zh-TW": "薩爾達傳說 織夢島 DX 完整反組譯",
+    "ja": "ゼルダの伝説 夢をみる島 DX を完全逆アセンブル",
+    "ko": "젤다의 전설 꿈꾸는 섬 DX 완전 디스어셈블"
+  },
+  "icsharpcode/ILSpy": {
+    "en": "Turn any .NET assembly back into C#",
+    "zh-CN": "把任意 .NET 程序集还原成 C#",
+    "zh-TW": "把任何 .NET 組件還原成 C#",
+    "ja": "どんな .NET アセンブリも C# に戻す",
+    "ko": "어떤 .NET 어셈블리든 C#으로 복원"
+  },
+  "xemu-project/xemu": {
+    "en": "Play original Xbox games on Windows, macOS and Linux",
+    "zh-CN": "在 Windows、macOS、Linux 上玩初代 Xbox 游戏",
+    "zh-TW": "在 Windows、macOS、Linux 上玩初代 Xbox 遊戲",
+    "ja": "初代 Xbox のゲームを Windows・macOS・Linux で",
+    "ko": "초대 Xbox 게임을 Windows·macOS·Linux에서"
+  },
+  "sonicretro/skdisasm": {
+    "en": "Sonic 3 & Knuckles, fully disassembled",
+    "zh-CN": "索尼克 3 & 纳克鲁斯完整反汇编",
+    "zh-TW": "Sonic 3 & Knuckles 完整反組譯",
+    "ja": "ソニック 3 & ナックルズを完全逆アセンブル",
+    "ko": "소닉 3 & 너클즈 완전 디스어셈블"
+  },
+  "OpenRA/OpenRA": {
+    "en": "Classic Command & Conquer, rebuilt for modern online play",
+    "zh-CN": "为现代联机重建的经典命令与征服",
+    "zh-TW": "為現代連線對戰重建的經典終極動員令",
+    "ja": "名作コマンド＆コンカーを現代のオンライン対戦向けに再構築",
+    "ko": "고전 커맨드 앤 컨커를 현대 온라인 대전용으로 재구축"
+  },
+  "n64decomp/perfect_dark": {
+    "en": "Perfect Dark (N64), decompiled to C",
+    "zh-CN": "完美黑暗（N64），反编译为 C",
+    "zh-TW": "Perfect Dark（N64），反編譯為 C",
+    "ja": "パーフェクトダーク（N64）を C へ逆コンパイル",
+    "ko": "퍼펙트 다크(N64)를 C로 디컴파일"
+  },
+  "travisgoodspeed/md380tools": {
+    "en": "Custom firmware patches for the TYT MD-380 radio",
+    "zh-CN": "TYT MD-380 对讲机的自制固件补丁",
+    "zh-TW": "TYT MD-380 對講機的自製韌體修補",
+    "ja": "TYT MD-380 無線機用のカスタムファームパッチ",
+    "ko": "TYT MD-380 무전기용 커스텀 펌웨어 패치"
+  },
+  "google/bindiff": {
+    "en": "Spot what changed between two versions of a binary",
+    "zh-CN": "找出两个版本二进制之间改了什么",
+    "zh-TW": "找出兩個版本的二進位檔之間改了什麼",
+    "ja": "2 つのバイナリ間の違いを見つける",
+    "ko": "두 바이너리 버전 사이의 변경점 찾기"
+  },
+  "2ship2harkinian/2ship2harkinian": {
+    "en": "Play Zelda: Majora's Mask natively on PC (bring your own ROM)",
+    "zh-CN": "在 PC 上原生运行塞尔达：姆吉拉的假面（ROM 自备）",
+    "zh-TW": "在 PC 上原生執行薩爾達傳說 穆修拉的假面（ROM 需自備）",
+    "ja": "ムジュラの仮面を PC でネイティブに（ROM は各自）",
+    "ko": "무쥬라의 가면을 PC에서 네이티브로(ROM 직접 준비)"
+  },
+  "perfect-dark-pc-port/perfect_dark": {
+    "en": "Play Perfect Dark natively on PC (bring your own ROM)",
+    "zh-CN": "在 PC 上原生运行完美黑暗（ROM 自备）",
+    "zh-TW": "在 PC 上原生執行 Perfect Dark（ROM 需自備）",
+    "ja": "パーフェクトダークを PC でネイティブに（ROM は各自）",
+    "ko": "퍼펙트 다크를 PC에서 네이티브로(ROM 직접 준비)"
+  },
+  "shdecompilations/silent-hill-decomp": {
+    "en": "Silent Hill (PS1), being decompiled to C",
+    "zh-CN": "寂静岭（PS1）反编译进行中",
+    "zh-TW": "沉默之丘（PS1）反編譯進行中",
+    "ja": "サイレントヒル（PS1）を C へ逆コンパイル中",
+    "ko": "사일런트 힐(PS1) C 디컴파일 진행 중"
+  },
+  "N0zoM1z0/th09": {
+    "en": "Touhou 9: Phantasmagoria of Flower View, reconstructed as source",
+    "zh-CN": "东方花映冢，重建为源码",
+    "zh-TW": "東方花映塚，重建成原始碼",
+    "ja": "東方花映塚をソースコードとして再構築",
+    "ko": "동방화영총을 소스 코드로 재구성"
+  },
+  "N0zoM1z0/th095": {
+    "en": "Touhou 9.5: Shoot the Bullet, reconstructed as source",
+    "zh-CN": "东方文花帖，重建为源码",
+    "zh-TW": "東方文花帖，重建成原始碼",
+    "ja": "東方文花帖をソースコードとして再構築",
+    "ko": "동방문화첩을 소스 코드로 재구성"
+  },
+  "N0zoM1z0/th105": {
+    "en": "Touhou 10.5: Scarlet Weather Rhapsody, reconstructed as source",
+    "zh-CN": "东方绯想天，重建为源码",
+    "zh-TW": "東方緋想天，重建成原始碼",
+    "ja": "東方緋想天をソースコードとして再構築",
+    "ko": "동방비상천을 소스 코드로 재구성"
+  },
+  "N0zoM1z0/th08-web": {
+    "en": "Imperishable Night in your browser, from the th08 reconstruction",
+    "zh-CN": "在浏览器里玩永夜抄，基于 th08 重建",
+    "zh-TW": "在瀏覽器裡玩永夜抄，以 th08 重建版為基礎",
+    "ja": "th08 の再構築をもとにブラウザで遊べる永夜抄",
+    "ko": "th08 재구성을 바탕으로 브라우저에서 즐기는 영야초"
+  },
+  "N0zoM1z0/touhou-reconstruction-factory": {
+    "en": "The agent pipeline behind the Touhou reconstructions",
+    "zh-CN": "东方系列重建背后的智能体流水线",
+    "zh-TW": "東方系列重建背後的 AI 代理流水線",
+    "ja": "東方シリーズ再構築を支えるエージェントパイプライン",
+    "ko": "동방 시리즈 재구성을 뒷받침하는 에이전트 파이프라인"
+  },
+  "N0zoM1z0/touhou-reverse-engineering": {
+    "en": "Evidence-first IDA notes on Touhou, with live patch experiments",
+    "zh-CN": "以证据为先的东方 IDA 笔记，附运行时补丁实验",
+    "zh-TW": "證據優先的東方 IDA 筆記，附執行期修補實驗",
+    "ja": "証拠重視の東方 IDA ノート、実行時パッチ実験付き",
+    "ko": "증거 중심 동방 IDA 노트, 런타임 패치 실험 포함"
+  },
+  "AsyncFinn/rook": {
+    "en": "A Roblox-compatible engine in Rust, tested against Studio",
+    "zh-CN": "Rust 写的 Roblox 兼容引擎，对照 Studio 测试",
+    "zh-TW": "以 Rust 寫成的 Roblox 相容引擎，對照 Studio 測試",
+    "ja": "Studio と照合してテストする Rust 製 Roblox 互換エンジン",
+    "ko": "Studio와 대조해 테스트하는 Rust 기반 Roblox 호환 엔진"
+  },
+  "tallowmere/free-heroes4": {
+    "en": "Heroes of Might and Magic IV on a new C++23 engine (uses your GOG files)",
+    "zh-CN": "英雄无敌 IV 的 C++23 新引擎（读取你的 GOG 文件）",
+    "zh-TW": "魔法門之英雄無敵 IV 的 C++23 新引擎（讀取你的 GOG 檔案）",
+    "ja": "マイト・アンド・マジック ヒーローズ IV を C++23 の新エンジンで（GOG 版を使用）",
+    "ko": "히어로즈 오브 마이트 앤 매직 IV를 C++23 새 엔진으로(GOG 파일 사용)"
+  },
+  "KarlssonChristoffer/DiskLens": {
+    "en": "See what fills your Windows 11 disk, WinDirStat-style",
+    "zh-CN": "像 WinDirStat 一样看清 Windows 11 磁盘被什么占满",
+    "zh-TW": "像 WinDirStat 一樣看清 Windows 11 磁碟被什麼佔滿",
+    "ja": "WinDirStat 風に Windows 11 のディスク使用量を可視化",
+    "ko": "WinDirStat처럼 Windows 11 디스크 사용량을 시각화"
+  },
+  "LilZeeCN/zee-rp": {
+    "en": "Read and write Axure RP prototype files from the CLI or MCP",
+    "zh-CN": "用命令行或 MCP 读写 Axure RP 原型文件",
+    "zh-TW": "以命令列或 MCP 讀寫 Axure RP 原型檔",
+    "ja": "CLI や MCP から Axure RP のプロトタイプを読み書き",
+    "ko": "CLI나 MCP로 Axure RP 프로토타입 파일 읽기·쓰기"
+  },
+  "lxistired/ledger-reborn": {
+    "en": "A local-first accounting app, modelled on QuickBooks for Mac",
+    "zh-CN": "本地优先的记账应用，参照 QuickBooks Mac 版",
+    "zh-TW": "本機優先的記帳 App，參考 QuickBooks Mac 版",
+    "ja": "QuickBooks for Mac を参考にしたローカル優先の会計アプリ",
+    "ko": "QuickBooks for Mac을 참고한 로컬 우선 회계 앱"
+  },
+  "michaelshimeles/terminal-rs": {
+    "en": "A Bloomberg-style trading terminal in Rust",
+    "zh-CN": "Rust 写的彭博风格交易终端",
+    "zh-TW": "以 Rust 寫成的彭博風格交易終端機",
+    "ja": "Rust 製の Bloomberg 風トレーディング端末",
+    "ko": "Rust로 만든 블룸버그 스타일 트레이딩 터미널"
+  },
+  "GLinnik21/plx-native": {
+    "en": "A faster native Plex client for LG TVs",
+    "zh-CN": "LG 电视上更快的原生 Plex 客户端",
+    "zh-TW": "LG 電視上更快的原生 Plex 用戶端",
+    "ja": "LG テレビ向けの高速なネイティブ Plex クライアント",
+    "ko": "LG TV용 더 빠른 네이티브 Plex 클라이언트"
+  },
+  "storytold/photocraft": {
+    "en": "A Photoshop-style editor, rebuilt from scratch as open source",
+    "zh-CN": "从零开源重写的 Photoshop 风格编辑器",
+    "zh-TW": "從零開始開源重寫的 Photoshop 風格編輯器",
+    "ja": "ゼロから作ったオープンソースの Photoshop 風エディタ",
+    "ko": "처음부터 오픈소스로 만든 포토샵 스타일 편집기"
+  },
+  "sickpyramid/ReaFuse": {
+    "en": "Merge two JS/TS projects into one, guided by REA",
+    "zh-CN": "借助 REA 把两个 JS/TS 项目融合成一个",
+    "zh-TW": "藉助 REA 把兩個 JS/TS 專案合併成一個",
+    "ja": "REA を使って 2 つの JS/TS プロジェクトを融合",
+    "ko": "REA로 두 JS/TS 프로젝트를 하나로 합치기"
+  },
+  "laaielichter/Reverseport": {
+    "en": "Port reverse-engineering findings into Godot, Unity, Unreal or three.js",
+    "zh-CN": "把逆向成果移植到 Godot、Unity、Unreal 或 three.js",
+    "zh-TW": "把逆向成果移植到 Godot、Unity、Unreal 或 three.js",
+    "ja": "解析結果を Godot・Unity・Unreal・three.js へ移植",
+    "ko": "리버싱 결과를 Godot·Unity·Unreal·three.js로 이식"
+  },
+  "0xshlomil/ida-free-mcp": {
+    "en": "Use free IDA from an AI agent over MCP",
+    "zh-CN": "通过 MCP 让 AI 智能体使用免费版 IDA",
+    "zh-TW": "透過 MCP 讓 AI 代理使用免費版 IDA",
+    "ja": "MCP 経由で AI エージェントから IDA Free を使う",
+    "ko": "MCP로 AI 에이전트가 IDA Free 사용"
+  },
+  "HexRaysSA/ida-mcp": {
+    "en": "Hex-Rays' official MCP server for IDA",
+    "zh-CN": "Hex-Rays 官方的 IDA MCP 服务",
+    "zh-TW": "Hex-Rays 官方的 IDA MCP 服務",
+    "ja": "Hex-Rays 公式の IDA 用 MCP サーバー",
+    "ko": "Hex-Rays 공식 IDA용 MCP 서버"
+  },
+  "Nowng/rea-mcp": {
+    "en": "Run REA with local models in LM Studio",
+    "zh-CN": "在 LM Studio 里配合本地模型用 REA",
+    "zh-TW": "在 LM Studio 裡搭配本機模型使用 REA",
+    "ja": "LM Studio のローカルモデルで REA を使う",
+    "ko": "LM Studio 로컬 모델로 REA 사용"
+  },
+  "alexmi256/rea-agent-docker": {
+    "en": "REA in Docker, with Ghidra, Hopper or IDA variants",
+    "zh-CN": "REA 的 Docker 镜像，含 Ghidra/Hopper/IDA 版本",
+    "zh-TW": "REA 的 Docker 映像檔，含 Ghidra/Hopper/IDA 版本",
+    "ja": "Ghidra・Hopper・IDA 版がある REA の Docker イメージ",
+    "ko": "Ghidra·Hopper·IDA 변형이 있는 REA Docker 이미지"
+  },
+  "cognixws/picode-rea": {
+    "en": "REA's static-analysis tools inside PiCode",
+    "zh-CN": "在 PiCode 里使用 REA 的静态分析工具",
+    "zh-TW": "在 PiCode 裡使用 REA 的靜態分析工具",
+    "ja": "PiCode から REA の静的解析ツールを使う",
+    "ko": "PiCode에서 REA 정적 분석 도구 사용"
+  },
+  "czcdr/dsh-plugin-rea": {
+    "en": "REA tools in DeepSeek Harness, with Ghidra auto-installed",
+    "zh-CN": "在 DeepSeek Harness 里用 REA，自动装好 Ghidra",
+    "zh-TW": "在 DeepSeek Harness 裡使用 REA，自動裝好 Ghidra",
+    "ja": "DeepSeek Harness で REA を、Ghidra も自動導入",
+    "ko": "DeepSeek Harness에서 REA 사용, Ghidra 자동 설치"
+  },
+  "sheilacraig/dsh-rea-mcp": {
+    "en": "A config-only way to mount REA in DeepSeek Harness",
+    "zh-CN": "只靠配置就把 REA 挂进 DeepSeek Harness",
+    "zh-TW": "只靠設定就把 REA 接進 DeepSeek Harness",
+    "ja": "設定だけで DeepSeek Harness に REA を組み込む",
+    "ko": "설정만으로 DeepSeek Harness에 REA 연결"
+  },
+  "ya123-4/rea-dsh-plugin": {
+    "en": "Register REA's MCP tools in DeepSeek Harness",
+    "zh-CN": "在 DeepSeek Harness 中注册 REA 的 MCP 工具",
+    "zh-TW": "在 DeepSeek Harness 中註冊 REA 的 MCP 工具",
+    "ja": "DeepSeek Harness に REA の MCP ツールを登録",
+    "ko": "DeepSeek Harness에 REA MCP 도구 등록"
+  },
+  "zhaofeng130/dsh-rea": {
+    "en": "Add the REA Skill and tools to DeepSeek Harness",
+    "zh-CN": "给 DeepSeek Harness 加上 REA 技能和工具",
+    "zh-TW": "給 DeepSeek Harness 加上 REA 技能和工具",
+    "ja": "DeepSeek Harness に REA のスキルとツールを追加",
+    "ko": "DeepSeek Harness에 REA 스킬과 도구 추가"
+  },
+  "pablodiazjorge/rea-casebook": {
+    "en": "Make Claude Code cite real REA evidence for every conclusion",
+    "zh-CN": "让 Claude Code 的每条结论都引用真实 REA 证据",
+    "zh-TW": "讓 Claude Code 的每項結論都引用真實的 REA 證據",
+    "ja": "Claude Code の結論すべてに実際の REA 証拠を引用させる",
+    "ko": "Claude Code의 모든 결론에 실제 REA 증거를 인용하게"
+  },
+  "jinshi666888/rea-playbook": {
+    "en": "A hands-on REA lab with a tiny Electron target",
+    "zh-CN": "带迷你 Electron 靶子的 REA 动手实验",
+    "zh-TW": "附迷你 Electron 靶機的 REA 實作練習",
+    "ja": "小さな Electron ターゲット付きの REA ハンズオン",
+    "ko": "작은 Electron 타깃이 있는 REA 실습"
+  },
+  "dav1dngy/era-agent": {
+    "en": "An evidence-driven RE agent that tries to improve itself",
+    "zh-CN": "以证据驱动、会尝试自我改进的逆向智能体",
+    "zh-TW": "證據驅動、會嘗試自我改進的逆向工程 AI 代理",
+    "ja": "証拠駆動で自己改善を試みるリバースエンジニアリング用エージェント",
+    "ko": "증거 기반으로 스스로 개선을 시도하는 리버싱 에이전트"
+  },
+  "UnknownHacker1/rea-groundtruth": {
+    "en": "Check REA's reports against the real source code",
+    "zh-CN": "拿真实源码检验 REA 的分析报告",
+    "zh-TW": "以真實原始碼檢驗 REA 的分析報告",
+    "ja": "REA のレポートを実際のソースと突き合わせる",
+    "ko": "REA 보고서를 실제 소스와 대조"
+  },
+  "az9713/REA-demo": {
+    "en": "REA analyses itself, with predictions you can falsify",
+    "zh-CN": "让 REA 分析它自己，附可证伪的预测",
+    "zh-TW": "讓 REA 分析它自己，附可證偽的預測",
+    "ja": "REA が自分自身を解析、反証可能な予測付き",
+    "ko": "REA가 스스로를 분석, 반증 가능한 예측 포함"
+  },
+  "pablodiazjorge/rea-lab": {
+    "en": "Windows + Ghidra exercises and a pre-registered REA study",
+    "zh-CN": "Windows + Ghidra 练习题和预注册的 REA 评测",
+    "zh-TW": "Windows + Ghidra 練習題與預先登記的 REA 評測",
+    "ja": "Windows + Ghidra の演習と事前登録した REA 評価",
+    "ko": "Windows + Ghidra 실습과 사전 등록된 REA 평가"
+  },
+  "EndLess728/MiTV-Remote": {
+    "en": "Control Xiaomi TVs over Wi-Fi from Mac, Android or iPhone",
+    "zh-CN": "在 Mac、安卓、iPhone 上用 Wi-Fi 遥控小米电视",
+    "zh-TW": "在 Mac、Android、iPhone 上用 Wi-Fi 遙控小米電視",
+    "ja": "Mac・Android・iPhone から Wi-Fi で Xiaomi テレビを操作",
+    "ko": "Mac·안드로이드·아이폰에서 Wi-Fi로 샤오미 TV 조작"
+  },
+  "B-Howell/soundconnect-desktop": {
+    "en": "Control Sony Bluetooth headphones from a Windows desktop app",
+    "zh-CN": "在 Windows 桌面上控制索尼蓝牙耳机",
+    "zh-TW": "在 Windows 桌面上控制 Sony 藍牙耳機",
+    "ja": "Windows デスクトップから Sony の Bluetooth ヘッドホンを操作",
+    "ko": "Windows 데스크톱에서 소니 블루투스 헤드폰 제어"
+  },
+  "Xiangyu-CAS/rea-capcut": {
+    "en": "An open-source offline video editor rebuilt from REA research on CapCut",
+    "zh-CN": "用 REA 研究剪映后重做的开源离线剪辑软件",
+    "zh-TW": "用 REA 研究剪映後重做的開源離線剪輯軟體",
+    "ja": "REA で CapCut を調べて作り直したオープンソースのオフライン動画編集",
+    "ko": "REA로 CapCut을 분석해 다시 만든 오픈소스 오프라인 영상 편집기"
+  },
+  "chilliesdev/fmseasonhub-re": {
+    "en": "REA teardown notes of the FM Season Hub app",
+    "zh-CN": "用 REA 拆解 FM Season Hub 应用的分析笔记",
+    "zh-TW": "用 REA 拆解 FM Season Hub 應用程式的分析筆記",
+    "ja": "REA で FM Season Hub アプリを解析したノート",
+    "ko": "REA로 FM Season Hub 앱을 분석한 노트"
+  },
+  "rodneypantonial/sims3-modernization": {
+    "en": "Make The Sims 3 stutter and crash less on modern PCs",
+    "zh-CN": "让模拟人生 3 在新电脑上少卡顿、少崩溃",
+    "zh-TW": "讓模擬市民 3 在新電腦上少卡頓、少當機",
+    "ja": "最新 PC でシムズ3 のカクつきとクラッシュを減らす",
+    "ko": "최신 PC에서 심즈 3 끊김과 크래시 줄이기"
+  },
+  "nicolvus/a6000-fw-decomp": {
+    "en": "Dig into Sony A6000 camera firmware with REA and Ghidra",
+    "zh-CN": "用 REA 和 Ghidra 拆索尼 A6000 相机固件",
+    "zh-TW": "用 REA 和 Ghidra 拆 Sony A6000 相機韌體",
+    "ja": "REA と Ghidra で Sony A6000 のファームウェアを解析",
+    "ko": "REA와 Ghidra로 소니 A6000 펌웨어 분석"
+  },
+  "tanepiper/game-frame": {
+    "en": "A framework for agents to reverse engineer games from shipped files",
+    "zh-CN": "让 AI agent 从发行文件逆向游戏的框架",
+    "zh-TW": "讓 AI agent 從發行檔案逆向遊戲的框架",
+    "ja": "配布ファイルからエージェントがゲームを解析するフレームワーク",
+    "ko": "배포 파일로 에이전트가 게임을 역공학하는 프레임워크"
+  },
+  "agioracle/rea-unity-game": {
+    "en": "Agent workflow for reverse engineering Unity games",
+    "zh-CN": "用 agent 逆向 Unity 游戏的工作流",
+    "zh-TW": "用 agent 逆向 Unity 遊戲的工作流程",
+    "ja": "エージェントで Unity ゲームを解析するワークフロー",
+    "ko": "에이전트로 Unity 게임을 역공학하는 워크플로"
+  },
+  "Caho1/open-claude-ui": {
+    "en": "High-fidelity rebuild of Claude Desktop UI components and interaction physics, extracted via REA",
+    "zh-CN": "用 REA 深度拆解并高保真还原 Claude 桌面端 UI 组件与交互物理",
+    "zh-TW": "用 REA 深度拆解並高保真還原 Claude 桌面端 UI 元件與互動物理",
+    "ja": "REA で Claude Desktop の UI とインタラクション物理を抽出した高忠実度リビルド",
+    "ko": "REA로 Claude Desktop UI와 상호작용 물리를 추출한 고충실도 재구현"
+  },
+  "glauberlima/open-scrantic": {
+    "en": "Rust reimplementation of the 1992 Johnny Castaway screensaver, reverse-engineered with REA",
+    "zh-CN": "用 REA 逆向并重写的 1992 年 Johnny Castaway 屏保（Rust）",
+    "zh-TW": "用 REA 逆向並重寫的 1992 年 Johnny Castaway 螢幕保護程式（Rust）",
+    "ja": "REA で逆解析した 1992 年 Johnny Castaway スクリーンセーバーの Rust 再実装",
+    "ko": "REA로 역공학한 1992년 Johnny Castaway 화면 보호기의 Rust 재구현"
+  },
+  "aicodeking/leanrea": {
+    "en": "Lightweight skill that replaces the REA MCP layer; agent drives CLI tools directly",
+    "zh-CN": "轻量 skill，替代 REA 的 MCP 层，让 agent 直接调用 CLI 工具",
+    "zh-TW": "輕量 skill，替代 REA 的 MCP 層，讓 agent 直接呼叫 CLI 工具",
+    "ja": "REA の MCP 層を置き換える軽量スキル。エージェントが CLI ツールを直接駆動",
+    "ko": "REA MCP 계층을 대체하는 경량 스킬. 에이전트가 CLI 도구를 직접 구동"
+  },
+  "cranebeaker/coop-anything": {
+    "en": "MCP server and skills to add co-op to single-player games by investigating entry points with REA",
+    "zh-CN": "用 REA 调查入口，为单机游戏添加合作模式的 MCP 服务器与技能",
+    "zh-TW": "用 REA 調查入口，為單機遊戲添加合作模式的 MCP 伺服器與技能",
+    "ja": "REA でエントリポイントを調査し、シングルプレイゲームに協力モードを追加する MCP サーバー",
+    "ko": "REA로 진입점을 조사해 싱글 플레이 게임에 협동 모드를 추가하는 MCP 서버"
+  },
+  "MiaAI-Lab/sparkDash": {
+    "en": "Multi-device dashboard that integrates long-running REA analysis jobs and loads results on demand",
+    "zh-CN": "集成 REA 长时分析任务、按需加载结果的多设备仪表盘",
+    "zh-TW": "整合 REA 長時分析任務、按需載入結果的多裝置儀表板",
+    "ja": "長時間の REA 分析ジョブを統合し、結果をオンデマンドで読み込むマルチデバイスダッシュボード",
+    "ko": "장시간 REA 분석 작업을 통합하고 결과를 온디맨드로 로드하는 멀티 디바이스 대시보드"
+  },
+  "carlhako/keen-clone": {
+    "en": "Native Linux/SDL2 reimplementation of Commander Keen 1, recovered function-by-function with REA + Ghidra",
+    "zh-CN": "用 REA + Ghidra 函数级还原的 Commander Keen 1 原生 Linux/SDL2 重实现",
+    "zh-TW": "用 REA + Ghidra 函式級還原的 Commander Keen 1 原生 Linux/SDL2 重實現",
+    "ja": "REA + Ghidra で関数単位に復元した Commander Keen 1 のネイティブ Linux/SDL2 再実装",
+    "ko": "REA + Ghidra로 함수 단위 복원한 Commander Keen 1의 네이티브 Linux/SDL2 재구현"
+  },
+  "NathanKanaeru/samp-client-re": {
+    "en": "Clean-room SA-MP 0.3.DL-R1 client reimplementation; architecture recovered with REA/Ghidra",
+    "zh-CN": "用 REA/Ghidra 恢复架构的 SA-MP 0.3.DL-R1 clean-room 客户端重实现",
+    "zh-TW": "用 REA/Ghidra 恢復架構的 SA-MP 0.3.DL-R1 clean-room 客戶端重實現",
+    "ja": "REA/Ghidra でアーキテクチャを復元した SA-MP 0.3.DL-R1 のクリーンルームクライアント再実装",
+    "ko": "REA/Ghidra로 아키텍처를 복원한 SA-MP 0.3.DL-R1 클린룸 클라이언트 재구현"
+  }
 }

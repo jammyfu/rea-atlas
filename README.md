@@ -288,6 +288,8 @@ A map of open reverse-engineering projects — game decompilations, static recom
 <tr><td><a href="https://github.com/N0zoM1z0/th08-web"><img src="https://raw.githubusercontent.com/N0zoM1z0/th08-web/main/resources/th08-web-social-preview.jpg" width="160" alt="N0zoM1z0/th08-web"></a></td><td><a href="https://github.com/N0zoM1z0/th08-web"><b>th08-web</b></a><br><sub>N0zoM1z0</sub></td><td>Imperishable Night in your browser, from the th08 reconstruction</td><td>❔ Unverified</td><td><sub>Project README</sub></td></tr>
 <tr><td><a href="https://github.com/AsyncFinn/rook"><img src="https://opengraph.githubassets.com/1/AsyncFinn/rook" width="160" alt="AsyncFinn/rook"></a></td><td><a href="https://github.com/AsyncFinn/rook"><b>rook</b></a><br><sub>AsyncFinn</sub></td><td>A Roblox-compatible engine in Rust, tested against Studio</td><td>No</td><td><sub>Repo card</sub></td></tr>
 <tr><td><a href="https://github.com/tallowmere/free-heroes4"><img src="https://upload.wikimedia.org/wikipedia/en/c/cc/Heroes_of_Might_and_Magic_IV_box.jpg" width="160" alt="tallowmere/free-heroes4"></a></td><td><a href="https://github.com/tallowmere/free-heroes4"><b>free-heroes4</b></a><br><sub>tallowmere</sub></td><td>Heroes of Might and Magic IV on a new C++23 engine (uses your GOG files)</td><td>No</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/c/cc/Heroes_of_Might_and_Magic_IV_box.jpg">Wikipedia (© owner)</a></sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/carlhako/keen-clone"><b>keen-clone</b></a><br><sub>carlhako</sub></td><td>Native Linux/SDL2 reimplementation of Commander Keen 1, recovered function-by-function with REA + Ghidra</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/NathanKanaeru/samp-client-re"><b>samp-client-re</b></a><br><sub>NathanKanaeru</sub></td><td>Clean-room SA-MP 0.3.DL-R1 client reimplementation; architecture recovered with REA/Ghidra</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
 </table>
 
 #### Asset extraction & tools
@@ -323,6 +325,8 @@ A map of open reverse-engineering projects — game decompilations, static recom
 <tr><td><a href="https://github.com/laaielichter/Reverseport"><img src="https://raw.githubusercontent.com/laaielichter/Reverseport/main/docs/assets/demo.gif" width="160" alt="laaielichter/Reverseport"></a></td><td><a href="https://github.com/laaielichter/Reverseport"><b>Reverseport</b></a><br><sub>laaielichter</sub></td><td>Port reverse-engineering findings into Godot, Unity, Unreal or three.js</td><td>❔ Unverified</td><td><sub>Project README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Xiangyu-CAS/rea-capcut"><b>rea-capcut</b></a><br><sub>Xiangyu-CAS</sub></td><td>An open-source offline video editor rebuilt from REA research on CapCut</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/chilliesdev/fmseasonhub-re"><b>fmseasonhub-re</b></a><br><sub>chilliesdev</sub></td><td>REA teardown notes of the FM Season Hub app</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Caho1/open-claude-ui"><b>open-claude-ui</b></a><br><sub>Caho1</sub></td><td>High-fidelity rebuild of Claude Desktop UI components and interaction physics, extracted via REA</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/glauberlima/open-scrantic"><b>open-scrantic</b></a><br><sub>glauberlima</sub></td><td>Rust reimplementation of the 1992 Johnny Castaway screensaver, reverse-engineered with REA</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
 </table>
 
 ## Protocols / Hardware
@@ -403,6 +407,9 @@ A map of open reverse-engineering projects — game decompilations, static recom
 <tr><td><a href="https://github.com/dav1dngy/era-agent"><img src="https://raw.githubusercontent.com/dav1dngy/era-agent/main/docs/assets/screenshots/01-main-workspace.png" width="160" alt="dav1dngy/era-agent"></a></td><td><a href="https://github.com/dav1dngy/era-agent"><b>era-agent</b></a><br><sub>dav1dngy</sub></td><td>An evidence-driven RE agent that tries to improve itself</td><td>❔ Unverified</td><td><sub>Project README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/tanepiper/game-frame"><b>game-frame</b></a><br><sub>tanepiper</sub></td><td>A framework for agents to reverse engineer games from shipped files</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/agioracle/rea-unity-game"><b>rea-unity-game</b></a><br><sub>agioracle</sub></td><td>Agent workflow for reverse engineering Unity games</td><td>❔ Unverified</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/aicodeking/leanrea"><b>leanrea</b></a><br><sub>aicodeking</sub></td><td>Lightweight skill that replaces the REA MCP layer; agent drives CLI tools directly</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/cranebeaker/coop-anything"><b>coop-anything</b></a><br><sub>cranebeaker</sub></td><td>MCP server and skills to add co-op to single-player games by investigating entry points with REA</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/MiaAI-Lab/sparkDash"><b>sparkDash</b></a><br><sub>MiaAI-Lab</sub></td><td>Multi-device dashboard that integrates long-running REA analysis jobs and loads results on demand</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
 </table>
 
 ## Official REA showcases

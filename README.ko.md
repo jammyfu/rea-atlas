@@ -288,6 +288,8 @@
 <tr><td><a href="https://github.com/N0zoM1z0/th08-web"><img src="https://raw.githubusercontent.com/N0zoM1z0/th08-web/main/resources/th08-web-social-preview.jpg" width="160" alt="N0zoM1z0/th08-web"></a></td><td><a href="https://github.com/N0zoM1z0/th08-web"><b>th08-web</b></a><br><sub>N0zoM1z0</sub></td><td>th08 재구성을 바탕으로 브라우저에서 즐기는 영야초</td><td>❔ 미확인</td><td><sub>프로젝트 README</sub></td></tr>
 <tr><td><a href="https://github.com/AsyncFinn/rook"><img src="https://opengraph.githubassets.com/1/AsyncFinn/rook" width="160" alt="AsyncFinn/rook"></a></td><td><a href="https://github.com/AsyncFinn/rook"><b>rook</b></a><br><sub>AsyncFinn</sub></td><td>Studio와 대조해 테스트하는 Rust 기반 Roblox 호환 엔진</td><td>아니요</td><td><sub>저장소 카드</sub></td></tr>
 <tr><td><a href="https://github.com/tallowmere/free-heroes4"><img src="https://upload.wikimedia.org/wikipedia/en/c/cc/Heroes_of_Might_and_Magic_IV_box.jpg" width="160" alt="tallowmere/free-heroes4"></a></td><td><a href="https://github.com/tallowmere/free-heroes4"><b>free-heroes4</b></a><br><sub>tallowmere</sub></td><td>히어로즈 오브 마이트 앤 매직 IV를 C++23 새 엔진으로(GOG 파일 사용)</td><td>아니요</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/c/cc/Heroes_of_Might_and_Magic_IV_box.jpg">위키백과(© 권리자)</a></sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/carlhako/keen-clone"><b>keen-clone</b></a><br><sub>carlhako</sub></td><td>REA + Ghidra로 함수 단위 복원한 Commander Keen 1의 네이티브 Linux/SDL2 재구현</td><td>✅ 예</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/NathanKanaeru/samp-client-re"><b>samp-client-re</b></a><br><sub>NathanKanaeru</sub></td><td>REA/Ghidra로 아키텍처를 복원한 SA-MP 0.3.DL-R1 클린룸 클라이언트 재구현</td><td>✅ 예</td><td><sub>—</sub></td></tr>
 </table>
 
 #### 에셋 추출 및 도구
@@ -323,6 +325,8 @@
 <tr><td><a href="https://github.com/laaielichter/Reverseport"><img src="https://raw.githubusercontent.com/laaielichter/Reverseport/main/docs/assets/demo.gif" width="160" alt="laaielichter/Reverseport"></a></td><td><a href="https://github.com/laaielichter/Reverseport"><b>Reverseport</b></a><br><sub>laaielichter</sub></td><td>리버싱 결과를 Godot·Unity·Unreal·three.js로 이식</td><td>❔ 미확인</td><td><sub>프로젝트 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Xiangyu-CAS/rea-capcut"><b>rea-capcut</b></a><br><sub>Xiangyu-CAS</sub></td><td>REA로 CapCut을 분석해 다시 만든 오픈소스 오프라인 영상 편집기</td><td>✅ 예</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/chilliesdev/fmseasonhub-re"><b>fmseasonhub-re</b></a><br><sub>chilliesdev</sub></td><td>REA로 FM Season Hub 앱을 분석한 노트</td><td>✅ 예</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Caho1/open-claude-ui"><b>open-claude-ui</b></a><br><sub>Caho1</sub></td><td>REA로 Claude Desktop UI와 상호작용 물리를 추출한 고충실도 재구현</td><td>✅ 예</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/glauberlima/open-scrantic"><b>open-scrantic</b></a><br><sub>glauberlima</sub></td><td>REA로 역공학한 1992년 Johnny Castaway 화면 보호기의 Rust 재구현</td><td>✅ 예</td><td><sub>—</sub></td></tr>
 </table>
 
 ## 프로토콜 / 하드웨어
@@ -403,6 +407,9 @@
 <tr><td><a href="https://github.com/dav1dngy/era-agent"><img src="https://raw.githubusercontent.com/dav1dngy/era-agent/main/docs/assets/screenshots/01-main-workspace.png" width="160" alt="dav1dngy/era-agent"></a></td><td><a href="https://github.com/dav1dngy/era-agent"><b>era-agent</b></a><br><sub>dav1dngy</sub></td><td>증거 기반으로 스스로 개선을 시도하는 리버싱 에이전트</td><td>❔ 미확인</td><td><sub>프로젝트 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/tanepiper/game-frame"><b>game-frame</b></a><br><sub>tanepiper</sub></td><td>배포 파일로 에이전트가 게임을 역공학하는 프레임워크</td><td>✅ 예</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/agioracle/rea-unity-game"><b>rea-unity-game</b></a><br><sub>agioracle</sub></td><td>에이전트로 Unity 게임을 역공학하는 워크플로</td><td>❔ 미확인</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/aicodeking/leanrea"><b>leanrea</b></a><br><sub>aicodeking</sub></td><td>REA MCP 계층을 대체하는 경량 스킬. 에이전트가 CLI 도구를 직접 구동</td><td>✅ 예</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/cranebeaker/coop-anything"><b>coop-anything</b></a><br><sub>cranebeaker</sub></td><td>REA로 진입점을 조사해 싱글 플레이 게임에 협동 모드를 추가하는 MCP 서버</td><td>✅ 예</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/MiaAI-Lab/sparkDash"><b>sparkDash</b></a><br><sub>MiaAI-Lab</sub></td><td>장시간 REA 분석 작업을 통합하고 결과를 온디맨드로 로드하는 멀티 디바이스 대시보드</td><td>✅ 예</td><td><sub>—</sub></td></tr>
 </table>
 
 ## REA 공식 쇼케이스

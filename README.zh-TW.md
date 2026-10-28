@@ -288,6 +288,8 @@
 <tr><td><a href="https://github.com/N0zoM1z0/th08-web"><img src="https://raw.githubusercontent.com/N0zoM1z0/th08-web/main/resources/th08-web-social-preview.jpg" width="160" alt="N0zoM1z0/th08-web"></a></td><td><a href="https://github.com/N0zoM1z0/th08-web"><b>th08-web</b></a><br><sub>N0zoM1z0</sub></td><td>在瀏覽器裡玩永夜抄，以 th08 重建版為基礎</td><td>❔ 待驗證</td><td><sub>專案 README</sub></td></tr>
 <tr><td><a href="https://github.com/AsyncFinn/rook"><img src="https://opengraph.githubassets.com/1/AsyncFinn/rook" width="160" alt="AsyncFinn/rook"></a></td><td><a href="https://github.com/AsyncFinn/rook"><b>rook</b></a><br><sub>AsyncFinn</sub></td><td>以 Rust 寫成的 Roblox 相容引擎，對照 Studio 測試</td><td>否</td><td><sub>儲存庫卡片</sub></td></tr>
 <tr><td><a href="https://github.com/tallowmere/free-heroes4"><img src="https://upload.wikimedia.org/wikipedia/en/c/cc/Heroes_of_Might_and_Magic_IV_box.jpg" width="160" alt="tallowmere/free-heroes4"></a></td><td><a href="https://github.com/tallowmere/free-heroes4"><b>free-heroes4</b></a><br><sub>tallowmere</sub></td><td>魔法門之英雄無敵 IV 的 C++23 新引擎（讀取你的 GOG 檔案）</td><td>否</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/c/cc/Heroes_of_Might_and_Magic_IV_box.jpg">維基百科（© 版權方）</a></sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/carlhako/keen-clone"><b>keen-clone</b></a><br><sub>carlhako</sub></td><td>用 REA + Ghidra 函式級還原的 Commander Keen 1 原生 Linux/SDL2 重實現</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/NathanKanaeru/samp-client-re"><b>samp-client-re</b></a><br><sub>NathanKanaeru</sub></td><td>用 REA/Ghidra 恢復架構的 SA-MP 0.3.DL-R1 clean-room 客戶端重實現</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 </table>
 
 #### 資源擷取與工具
@@ -323,6 +325,8 @@
 <tr><td><a href="https://github.com/laaielichter/Reverseport"><img src="https://raw.githubusercontent.com/laaielichter/Reverseport/main/docs/assets/demo.gif" width="160" alt="laaielichter/Reverseport"></a></td><td><a href="https://github.com/laaielichter/Reverseport"><b>Reverseport</b></a><br><sub>laaielichter</sub></td><td>把逆向成果移植到 Godot、Unity、Unreal 或 three.js</td><td>❔ 待驗證</td><td><sub>專案 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Xiangyu-CAS/rea-capcut"><b>rea-capcut</b></a><br><sub>Xiangyu-CAS</sub></td><td>用 REA 研究剪映後重做的開源離線剪輯軟體</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/chilliesdev/fmseasonhub-re"><b>fmseasonhub-re</b></a><br><sub>chilliesdev</sub></td><td>用 REA 拆解 FM Season Hub 應用程式的分析筆記</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Caho1/open-claude-ui"><b>open-claude-ui</b></a><br><sub>Caho1</sub></td><td>用 REA 深度拆解並高保真還原 Claude 桌面端 UI 元件與互動物理</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/glauberlima/open-scrantic"><b>open-scrantic</b></a><br><sub>glauberlima</sub></td><td>用 REA 逆向並重寫的 1992 年 Johnny Castaway 螢幕保護程式（Rust）</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 </table>
 
 ## 協定 / 硬體
@@ -403,6 +407,9 @@
 <tr><td><a href="https://github.com/dav1dngy/era-agent"><img src="https://raw.githubusercontent.com/dav1dngy/era-agent/main/docs/assets/screenshots/01-main-workspace.png" width="160" alt="dav1dngy/era-agent"></a></td><td><a href="https://github.com/dav1dngy/era-agent"><b>era-agent</b></a><br><sub>dav1dngy</sub></td><td>證據驅動、會嘗試自我改進的逆向工程 AI 代理</td><td>❔ 待驗證</td><td><sub>專案 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/tanepiper/game-frame"><b>game-frame</b></a><br><sub>tanepiper</sub></td><td>讓 AI agent 從發行檔案逆向遊戲的框架</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/agioracle/rea-unity-game"><b>rea-unity-game</b></a><br><sub>agioracle</sub></td><td>用 agent 逆向 Unity 遊戲的工作流程</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/aicodeking/leanrea"><b>leanrea</b></a><br><sub>aicodeking</sub></td><td>輕量 skill，替代 REA 的 MCP 層，讓 agent 直接呼叫 CLI 工具</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/cranebeaker/coop-anything"><b>coop-anything</b></a><br><sub>cranebeaker</sub></td><td>用 REA 調查入口，為單機遊戲添加合作模式的 MCP 伺服器與技能</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/MiaAI-Lab/sparkDash"><b>sparkDash</b></a><br><sub>MiaAI-Lab</sub></td><td>整合 REA 長時分析任務、按需載入結果的多裝置儀表板</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 </table>
 
 ## REA 官方 Showcase

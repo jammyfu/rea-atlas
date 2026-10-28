@@ -1,1338 +1,1394 @@
 [
- [
-  "official",
-  "",
-  "DX-Ball: sound-pan function",
-  "https://rea.tools/showcase/dx-ball/",
-  "Yes",
-  "Official showcase; C reconstruction matching 3,205 x86 cases."
- ],
- [
-  "official",
-  "",
-  "Notion: Electron clipboard bridge",
-  "https://rea.tools/showcase/notion/",
-  "Yes",
-  "Official showcase; renderer → preload → IPC trace."
- ],
- [
-  "official",
-  "",
-  "TH04: PC-98 bullet-ring maths",
-  "https://rea.tools/showcase/th04/",
-  "Yes",
-  "Official showcase; 16-bit angle helpers."
- ],
- [
-  "official",
-  "",
-  "Aegis: TOTP code generation",
-  "https://rea.tools/showcase/aegis/",
-  "Yes",
-  "Official showcase; Android app."
- ],
- [
-  "official",
-  "",
-  "CTF: flag checker",
-  "https://rea.tools/showcase/ctf/",
-  "Yes",
-  "Official showcase; DownUnderCTF 2023 challenge."
- ],
- [
-  "pc",
-  "decomp",
-  "N0zoM1z0/dx-ball",
-  "https://github.com/N0zoM1z0/dx-ball",
-  "Yes",
-  "DX-Ball 1.07 reconstruction; README states REA. MIT."
- ],
- [
-  "pc",
-  "decomp",
-  "N0zoM1z0/th04",
-  "https://github.com/N0zoM1z0/th04",
-  "Yes",
-  "Touhou 4 (PC-98) source reconstruction; REA via official showcase. MIT."
- ],
- [
-  "pc",
-  "decomp",
-  "N0zoM1z0/th08",
-  "https://github.com/N0zoM1z0/th08",
-  "Unverified",
-  "Touhou 8 reconstruction (agent + IDA/Ghidra); README does not mention REA. MIT."
- ],
- [
-  "pc",
-  "decomp",
-  "N0zoM1z0/th10",
-  "https://github.com/N0zoM1z0/th10",
-  "Unverified",
-  "Touhou 10 reconstruction; README does not mention REA. MIT."
- ],
- [
-  "pc",
-  "remake",
-  "ucodia/desktop-games-nostalgia",
-  "https://github.com/ucodia/desktop-games-nostalgia",
-  "Yes",
-  "Gemtree Desktop Games (2000) ported to macOS/browser; README cites REA + Ghidra."
- ],
- [
-  "pc",
-  "remake",
-  "tuunanet/rea-ski-or-die-reconstruction",
-  "https://github.com/tuunanet/rea-ski-or-die-reconstruction",
-  "Yes",
-  "Ski or Die (DOS) minigame rebuilt in Rust + SDL2; uses your own assets."
- ],
- [
-  "pc",
-  "remake",
-  "Moxnatiy/OpenBattlefield2",
-  "https://github.com/Moxnatiy/OpenBattlefield2",
-  "Yes",
-  "Clean-room Refractor 2 engine; REA documented in CLAUDE.md / tools/rea.sh. Needs your own copy."
- ],
- [
-  "pc",
-  "remake",
-  "OpenRsG/GunZRs",
-  "https://github.com/OpenRsG/GunZRs",
-  "Yes",
-  "GunZ: The Duel in Rust + Bevy; README mentions REA. Apache-2.0."
- ],
- [
-  "pc",
-  "remake",
-  "a-barzanti/ai-rebuilds",
-  "https://github.com/a-barzanti/ai-rebuilds",
-  "Yes",
-  "Abandoned games rebuilt for the web from REA-written specs; no original files committed."
- ],
- [
-  "pc",
-  "remake",
-  "OpenRCT2/OpenRCT2",
-  "https://github.com/OpenRCT2/OpenRCT2",
-  "No",
-  "RollerCoaster Tycoon 2 re-implementation (pre-REA). GPL-3.0."
- ],
- [
-  "pc",
-  "remake",
-  "OpenMW/openmw",
-  "https://github.com/OpenMW/openmw",
-  "No",
-  "Morrowind engine re-implementation. GPL-3.0."
- ],
- [
-  "n64",
-  "decomp",
-  "zeldaret/oot",
-  "https://github.com/zeldaret/oot",
-  "No",
-  "Ocarina of Time decompilation; ROM not included."
- ],
- [
-  "n64",
-  "decomp",
-  "n64decomp/sm64",
-  "https://github.com/n64decomp/sm64",
-  "No",
-  "Super Mario 64 decompilation; ROM not included. CC0-1.0."
- ],
- [
-  "n64",
-  "remake",
-  "HarbourMasters/Shipwright",
-  "https://github.com/HarbourMasters/Shipwright",
-  "No",
-  "Ship of Harkinian PC port of OoT; requires your own ROM."
- ],
- [
-  "n64",
-  "tools",
-  "ethteck/splat",
-  "https://github.com/ethteck/splat",
-  "No",
-  "Binary splitting tool for N64/PSX decomp projects. MIT."
- ],
- [
-  "n64",
-  "tools",
-  "NEstelami/ZAPD",
-  "https://github.com/NEstelami/ZAPD",
-  "No",
-  "Zelda asset processor used by decomp projects. MIT."
- ],
- [
-  "md",
-  "decomp",
-  "sonicretro/s1disasm",
-  "https://github.com/sonicretro/s1disasm",
-  "No",
-  "Sonic the Hedgehog (Mega Drive) disassembly."
- ],
- [
-  "md",
-  "decomp",
-  "sonicretro/s2disasm",
-  "https://github.com/sonicretro/s2disasm",
-  "No",
-  "Sonic 2 (Mega Drive) disassembly."
- ],
- [
-  "snes",
-  "decomp",
-  "snesrev/zelda3",
-  "https://github.com/snesrev/zelda3",
-  "No",
-  "A Link to the Past C reimplementation; asset extraction from your own ROM."
- ],
- [
-  "snes",
-  "decomp",
-  "snesrev/sm",
-  "https://github.com/snesrev/sm",
-  "No",
-  "Super Metroid C reimplementation; needs your own ROM."
- ],
- [
-  "gba",
-  "decomp",
-  "pret/pokeemerald",
-  "https://github.com/pret/pokeemerald",
-  "No",
-  "Pokémon Emerald decompilation."
- ],
- [
-  "gba",
-  "decomp",
-  "pret/pokefirered",
-  "https://github.com/pret/pokefirered",
-  "No",
-  "Pokémon FireRed/LeafGreen decompilation."
- ],
- [
-  "gba",
-  "decomp",
-  "zeldaret/tmc",
-  "https://github.com/zeldaret/tmc",
-  "No",
-  "The Minish Cap decompilation."
- ],
- [
-  "gb",
-  "decomp",
-  "pret/pokered",
-  "https://github.com/pret/pokered",
-  "No",
-  "Pokémon Red/Blue disassembly."
- ],
- [
-  "gb",
-  "decomp",
-  "pret/pokegold",
-  "https://github.com/pret/pokegold",
-  "No",
-  "Pokémon Gold/Silver disassembly."
- ],
- [
-  "ps1",
-  "decomp",
-  "Xeeynamo/sotn-decomp",
-  "https://github.com/Xeeynamo/sotn-decomp",
-  "No",
-  "Castlevania: Symphony of the Night decompilation. AGPL-3.0."
- ],
- [
-  "app",
-  "",
-  "michaelshimeles/sketch",
-  "https://github.com/michaelshimeles/sketch",
-  "Yes",
-  "Rust infinite-canvas design app, clean-room from Paper; README mentions REA (formerly paper-rs)."
- ],
- [
-  "app",
-  "",
-  "michaelshimeles/rec-rs",
-  "https://github.com/michaelshimeles/rec-rs",
-  "Yes",
-  "Rust macOS recorder modelled on OBS Studio; README mentions REA."
- ],
- [
-  "app",
-  "",
-  "iammukeshm/hexgrab",
-  "https://github.com/iammukeshm/hexgrab",
-  "Yes",
-  ".NET 10 colour picker from a REA study of PowerToys. MIT."
- ],
- [
-  "app",
-  "",
-  "AdamLinCodes/AdamTerm",
-  "https://github.com/AdamLinCodes/AdamTerm",
-  "Yes",
-  "Minimal macOS terminal after studying Ghostty with REA."
- ],
- [
-  "app",
-  "",
-  "az9713/wispr-flow-rea-teardown",
-  "https://github.com/az9713/wispr-flow-rea-teardown",
-  "Yes",
-  "Wispr Flow static teardown + 64-line local rebuild."
- ],
- [
-  "app",
-  "",
-  "cudanexus/vd-streamer-linux",
-  "https://github.com/cudanexus/vd-streamer-linux",
-  "Yes",
-  "Unofficial Linux port of Virtual Desktop Streamer; Claude Code + REA."
- ],
- [
-  "protocol",
-  "",
-  "a-funk/open-appleremote",
-  "https://github.com/a-funk/open-appleremote",
-  "Unverified",
-  "First-gen Siri Remote on Linux (Bluetooth protocol). MIT."
- ],
- [
-  "protocol",
-  "",
-  "Slyvan25/OpenGHub",
-  "https://github.com/Slyvan25/OpenGHub",
-  "No",
-  "Linux Logitech G HUB replacement over HID++ 2.0. MIT."
- ],
- [
-  "firmware",
-  "",
-  "grisuno/VSL-DSP",
-  "https://github.com/grisuno/VSL-DSP",
-  "Yes",
-  "PreSonus AudioBox VSL kernel module; REA used for part of the vendor-library findings. GPL-3.0."
- ],
- [
-  "firmware",
-  "",
-  "ReFirmLabs/binwalk",
-  "https://github.com/ReFirmLabs/binwalk",
-  "No",
-  "Firmware analysis/extraction tool. MIT."
- ],
- [
-  "security",
-  "",
-  "NullLabTests/OpenBSD_netcat_REA",
-  "https://github.com/NullLabTests/OpenBSD_netcat_REA",
-  "Yes",
-  "Static analysis of netcat-openbsd with REA + Ghidra. MIT."
- ],
- [
-  "security",
-  "",
-  "REA discussion #2254",
-  "https://github.com/morluto/rea/discussions/2254",
-  "Yes",
-  "Stripped bzip2 analysed and checked against an unstripped build."
- ],
- [
-  "tooling",
-  "",
-  "ShadowSwaps/REA-Reconstruction-Companion",
-  "https://github.com/ShadowSwaps/REA-Reconstruction-Companion",
-  "Yes",
-  "Agent skill for evidence-based reconstruction with REA. MIT."
- ],
- [
-  "tooling",
-  "",
-  "NationalSecurityAgency/ghidra",
-  "https://github.com/NationalSecurityAgency/ghidra",
-  "No",
-  "Decompiler REA can drive. Apache-2.0."
- ],
- [
-  "tooling",
-  "",
-  "skylot/jadx",
-  "https://github.com/skylot/jadx",
-  "No",
-  "Android DEX decompiler REA can drive. Apache-2.0."
- ],
- [
-  "ps2",
-  "decomp",
-  "ran-j/PS2Recomp",
-  "https://github.com/ran-j/PS2Recomp",
-  "No",
-  "PS2 static recompiler. GPL-3.0."
- ],
- [
-  "snes",
-  "remake",
-  "snesrev/smw",
-  "https://github.com/snesrev/smw",
-  "No",
-  "Super Mario World C reimplementation; needs your own ROM."
- ],
- [
-  "tooling",
-  "",
-  "LaurieWired/GhidraMCP",
-  "https://github.com/LaurieWired/GhidraMCP",
-  "No",
-  "MCP server for Ghidra. Apache-2.0."
- ],
- [
-  "tooling",
-  "",
-  "x64dbg/x64dbg",
-  "https://github.com/x64dbg/x64dbg",
-  "No",
-  "Windows debugger."
- ],
- [
-  "gc",
-  "tools",
-  "encounter/decomp-toolkit",
-  "https://github.com/encounter/decomp-toolkit",
-  "No",
-  "Toolkit for GameCube/Wii decompilation. Apache-2.0."
- ],
- [
-  "n64",
-  "decomp",
-  "HarbourMasters/Starship",
-  "https://github.com/HarbourMasters/Starship",
-  "No",
-  "Star Fox 64 PC port based on the sf64 decomp. CC0-1.0."
- ],
- [
-  "tooling",
-  "",
-  "iBotPeaches/Apktool",
-  "https://github.com/iBotPeaches/Apktool",
-  "No",
-  "Android APK reverse-engineering tool. Apache-2.0."
- ],
- [
-  "gc",
-  "decomp",
-  "zeldaret/tww",
-  "https://github.com/zeldaret/tww",
-  "No",
-  "The Wind Waker decompilation. CC0-1.0."
- ],
- [
-  "gba",
-  "decomp",
-  "pret/pokeruby",
-  "https://github.com/pret/pokeruby",
-  "No",
-  "Pokémon Ruby/Sapphire decompilation."
- ],
- [
-  "tooling",
-  "",
-  "angr/angr",
-  "https://github.com/angr/angr",
-  "No",
-  "Binary analysis platform. BSD-2-Clause."
- ],
- [
-  "wii",
-  "decomp",
-  "zeldaret/ss",
-  "https://github.com/zeldaret/ss",
-  "No",
-  "Skyward Sword decompilation. CC0-1.0."
- ],
- [
-  "xbox",
-  "decomp",
-  "hedge-dev/XenonRecomp",
-  "https://github.com/hedge-dev/XenonRecomp",
-  "No",
-  "Xbox 360 PPC to C++ static recompiler. MIT."
- ],
- [
-  "ds",
-  "decomp",
-  "pret/pokeplatinum",
-  "https://github.com/pret/pokeplatinum",
-  "No",
-  "Pokémon Platinum decompilation."
- ],
- [
-  "n64",
-  "decomp",
-  "n64decomp/mk64",
-  "https://github.com/n64decomp/mk64",
-  "No",
-  "Mario Kart 64 decompilation."
- ],
- [
-  "tooling",
-  "",
-  "avast/retdec",
-  "https://github.com/avast/retdec",
-  "No",
-  "Retargetable machine-code decompiler. MIT."
- ],
- [
-  "gc",
-  "tools",
-  "encounter/objdiff",
-  "https://github.com/encounter/objdiff",
-  "No",
-  "Object-file diffing tool used across decomp projects. Apache-2.0."
- ],
- [
-  "tooling",
-  "",
-  "rizinorg/cutter",
-  "https://github.com/rizinorg/cutter",
-  "No",
-  "Qt GUI for Rizin. GPL-3.0."
- ],
- [
-  "pc",
-  "tools",
-  "ata4/disunity",
-  "https://github.com/ata4/disunity",
-  "No",
-  "Unity asset tools (archived). Unlicense."
- ],
- [
-  "3ds",
-  "tools",
-  "3DSGuy/Project_CTR",
-  "https://github.com/3DSGuy/Project_CTR",
-  "No",
-  "3DS file tools (ctrtool / makerom)."
- ],
- [
-  "pc",
-  "remake",
-  "julianxhokaxhiu/FFNx",
-  "https://github.com/julianxhokaxhiu/FFNx",
-  "No",
-  "FF7/FF8 PC driver. GPL-3.0."
- ],
- [
-  "wii",
-  "decomp",
-  "DarkRTA/rb3",
-  "https://github.com/DarkRTA/rb3",
-  "No",
-  "Rock Band 3 (Wii) decompilation."
- ],
- [
-  "gb",
-  "decomp",
-  "pret/pokeyellow",
-  "https://github.com/pret/pokeyellow",
-  "No",
-  "Pokémon Yellow disassembly."
- ],
- [
-  "nes",
-  "decomp",
-  "aldonunez/zelda1-disassembly",
-  "https://github.com/aldonunez/zelda1-disassembly",
-  "No",
-  "The Legend of Zelda (NES) disassembly."
- ],
- [
-  "protocol",
-  "",
-  "mitmproxy/mitmproxy",
-  "https://github.com/mitmproxy/mitmproxy",
-  "No",
-  "Interactive HTTPS proxy for protocol analysis. MIT."
- ],
- [
-  "n64",
-  "remake",
-  "Zelda64Recomp/Zelda64Recomp",
-  "https://github.com/Zelda64Recomp/Zelda64Recomp",
-  "No",
-  "Majora's Mask static recompilation PC port; needs your own ROM. GPL-3.0."
- ],
- [
-  "gb",
-  "decomp",
-  "pret/pokecrystal",
-  "https://github.com/pret/pokecrystal",
-  "No",
-  "Pokémon Crystal disassembly."
- ],
- [
-  "tooling",
-  "",
-  "ghidraninja/ghidra_scripts",
-  "https://github.com/ghidraninja/ghidra_scripts",
-  "No",
-  "Ghidra scripts. GPL-3.0."
- ],
- [
-  "pc",
-  "remake",
-  "Interkarma/daggerfall-unity",
-  "https://github.com/Interkarma/daggerfall-unity",
-  "No",
-  "Daggerfall in Unity; needs your own data. MIT."
- ],
- [
-  "tooling",
-  "",
-  "radareorg/radare2",
-  "https://github.com/radareorg/radare2",
-  "No",
-  "Reverse-engineering framework."
- ],
- [
-  "tooling",
-  "",
-  "mandiant/flare-floss",
-  "https://github.com/mandiant/flare-floss",
-  "No",
-  "Obfuscated string extraction. Apache-2.0."
- ],
- [
-  "n64",
-  "decomp",
-  "zeldaret/mm",
-  "https://github.com/zeldaret/mm",
-  "No",
-  "Majora's Mask decompilation."
- ],
- [
-  "pc",
-  "remake",
-  "OpenXcom/OpenXcom",
-  "https://github.com/OpenXcom/OpenXcom",
-  "No",
-  "UFO / X-COM re-implementation. GPL-3.0."
- ],
- [
-  "tooling",
-  "",
-  "WerWolv/ImHex",
-  "https://github.com/WerWolv/ImHex",
-  "No",
-  "Hex editor for reverse engineers. GPL-2.0."
- ],
- [
-  "pc",
-  "tools",
-  "Perfare/AssetStudio",
-  "https://github.com/Perfare/AssetStudio",
-  "No",
-  "Unity asset explorer (archived). MIT."
- ],
- [
-  "ps2",
-  "decomp",
-  "open-goal/jak-project",
-  "https://github.com/open-goal/jak-project",
-  "No",
-  "Jak and Daxter / Jak II PC port via GOAL decompiler; needs your own disc. ISC."
- ],
- [
-  "ds",
-  "decomp",
-  "zeldaret/ph",
-  "https://github.com/zeldaret/ph",
-  "No",
-  "Phantom Hourglass decompilation. CC0-1.0."
- ],
- [
-  "tooling",
-  "",
-  "mandiant/capa",
-  "https://github.com/mandiant/capa",
-  "No",
-  "Capability detection in executables. Apache-2.0."
- ],
- [
-  "tooling",
-  "",
-  "frida/frida",
-  "https://github.com/frida/frida",
-  "No",
-  "Dynamic instrumentation toolkit."
- ],
- [
-  "firmware",
-  "",
-  "qilingframework/qiling",
-  "https://github.com/qilingframework/qiling",
-  "No",
-  "Binary emulation framework. GPL-2.0."
- ],
- [
-  "nes",
-  "tools",
-  "SourMesen/Mesen2",
-  "https://github.com/SourMesen/Mesen2",
-  "No",
-  "Multi-system emulator with strong debugging tools (NES/SNES/GB/GBA/PCE) (archived). GPL-3.0."
- ],
- [
-  "tooling",
-  "",
-  "dnSpyEx/dnSpy",
-  "https://github.com/dnSpyEx/dnSpy",
-  "No",
-  ".NET debugger and assembly editor. GPL-3.0."
- ],
- [
-  "tooling",
-  "",
-  "decompme/decomp.me",
-  "https://github.com/decompme/decomp.me",
-  "No",
-  "Collaborative decompilation website. MIT."
- ],
- [
-  "tooling",
-  "",
-  "mrexodia/ida-pro-mcp",
-  "https://github.com/mrexodia/ida-pro-mcp",
-  "No",
-  "MCP server for IDA Pro. MIT."
- ],
- [
-  "gc",
-  "decomp",
-  "doldecomp/sms",
-  "https://github.com/doldecomp/sms",
-  "No",
-  "Super Mario Sunshine decompilation. CC0-1.0."
- ],
- [
-  "pc",
-  "tools",
-  "AssetRipper/AssetRipper",
-  "https://github.com/AssetRipper/AssetRipper",
-  "No",
-  "Unity asset ripping tool for your own projects. GPL-3.0."
- ],
- [
-  "pc",
-  "tools",
-  "ladislav-zezula/CascLib",
-  "https://github.com/ladislav-zezula/CascLib",
-  "No",
-  "CASC storage library. MIT."
- ],
- [
-  "pc",
-  "decomp",
-  "isledecomp/isle",
-  "https://github.com/isledecomp/isle",
-  "No",
-  "LEGO Island decompilation. LGPL-3.0."
- ],
- [
-  "n64",
-  "decomp",
-  "pmret/papermario",
-  "https://github.com/pmret/papermario",
-  "No",
-  "Paper Mario decompilation."
- ],
- [
-  "protocol",
-  "",
-  "postlund/pyatv",
-  "https://github.com/postlund/pyatv",
-  "No",
-  "Apple TV protocol library. MIT."
- ],
- [
-  "xbox",
-  "remake",
-  "hedge-dev/UnleashedRecomp",
-  "https://github.com/hedge-dev/UnleashedRecomp",
-  "No",
-  "Sonic Unleashed (X360) recompilation PC port; needs your own copy. GPL-3.0."
- ],
- [
-  "firmware",
-  "",
-  "ghidraninja/game-and-watch-backup",
-  "https://github.com/ghidraninja/game-and-watch-backup",
-  "No",
-  "Game & Watch backup tool for your own device."
- ],
- [
-  "gba",
-  "decomp",
-  "jiangzhengwenjz/katam",
-  "https://github.com/jiangzhengwenjz/katam",
-  "No",
-  "Kirby & the Amazing Mirror decompilation."
- ],
- [
-  "pc",
-  "remake",
-  "scummvm/scummvm",
-  "https://github.com/scummvm/scummvm",
-  "No",
-  "Engine re-implementations for classic adventure games. GPL-3.0."
- ],
- [
-  "protocol",
-  "",
-  "wireshark/wireshark",
-  "https://github.com/wireshark/wireshark",
-  "No",
-  "Network protocol analyzer. GPL-2.0."
- ],
- [
-  "md",
-  "remake",
-  "RSDKModding/RSDKv5-Decompilation",
-  "https://github.com/RSDKModding/RSDKv5-Decompilation",
-  "No",
-  "Retro Engine v5 decompilation (Sonic Mania); needs your own data files."
- ],
- [
-  "gba",
-  "decomp",
-  "pret/pmd-red",
-  "https://github.com/pret/pmd-red",
-  "No",
-  "Pokémon Mystery Dungeon: Red Rescue Team decompilation."
- ],
- [
-  "firmware",
-  "",
-  "attify/firmware-analysis-toolkit",
-  "https://github.com/attify/firmware-analysis-toolkit",
-  "No",
-  "Firmware emulation toolkit for security research."
- ],
- [
-  "md",
-  "remake",
-  "RSDKModding/RSDKv4-Decompilation",
-  "https://github.com/RSDKModding/RSDKv4-Decompilation",
-  "No",
-  "Retro Engine v4 decompilation (Sonic 1/2 mobile remasters)."
- ],
- [
-  "firmware",
-  "",
-  "onekey-sec/unblob",
-  "https://github.com/onekey-sec/unblob",
-  "No",
-  "Extraction suite for firmware blobs. MIT."
- ],
- [
-  "gc",
-  "decomp",
-  "doldecomp/melee",
-  "https://github.com/doldecomp/melee",
-  "No",
-  "Super Smash Bros. Melee decompilation."
- ],
- [
-  "gc",
-  "decomp",
-  "zeldaret/tp",
-  "https://github.com/zeldaret/tp",
-  "No",
-  "Twilight Princess decompilation. CC0-1.0."
- ],
- [
-  "saturn",
-  "decomp",
-  "yaz0r/Azel",
-  "https://github.com/yaz0r/Azel",
-  "No",
-  "Panzer Dragoon Saga reimplementation. MIT."
- ],
- [
-  "app",
-  "",
-  "electron/asar",
-  "https://github.com/electron/asar",
-  "No",
-  "Electron ASAR archive tool. MIT."
- ],
- [
-  "tooling",
-  "",
-  "rizinorg/jsdec",
-  "https://github.com/rizinorg/jsdec",
-  "No",
-  "Simple decompiler for Rizin. It's capable of generating readable pseudo code even on handmade assembly."
- ],
- [
-  "pc",
-  "decomp",
-  "diasurgical/DevilutionX",
-  "https://github.com/diasurgical/DevilutionX",
-  "No",
-  "Diablo engine reconstruction; needs your own DIABDAT.MPQ."
- ],
- [
-  "pc",
-  "remake",
-  "fallout2-ce/fallout2-ce",
-  "https://github.com/fallout2-ce/fallout2-ce",
-  "No",
-  "Fallout 2 re-implementation; needs your own data."
- ],
- [
-  "tooling",
-  "",
-  "rizinorg/rizin",
-  "https://github.com/rizinorg/rizin",
-  "No",
-  "radare2 fork / RE framework. LGPL-3.0."
- ],
- [
-  "pc",
-  "remake",
-  "OpenTTD/OpenTTD",
-  "https://github.com/OpenTTD/OpenTTD",
-  "No",
-  "Transport Tycoon Deluxe open re-implementation."
- ],
- [
-  "gc",
-  "decomp",
-  "projectPiki/pikmin2",
-  "https://github.com/projectPiki/pikmin2",
-  "No",
-  "Pikmin 2 decompilation. CC0-1.0."
- ],
- [
-  "n64",
-  "decomp",
-  "N64Recomp/N64Recomp",
-  "https://github.com/N64Recomp/N64Recomp",
-  "No",
-  "Static recompiler from N64 binaries to C. MIT."
- ],
- [
-  "ds",
-  "decomp",
-  "pret/pokeheartgold",
-  "https://github.com/pret/pokeheartgold",
-  "No",
-  "Pokémon HeartGold/SoulSilver decompilation."
- ],
- [
-  "gb",
-  "decomp",
-  "zladx/LADX-Disassembly",
-  "https://github.com/zladx/LADX-Disassembly",
-  "No",
-  "Link's Awakening DX disassembly."
- ],
- [
-  "tooling",
-  "",
-  "icsharpcode/ILSpy",
-  "https://github.com/icsharpcode/ILSpy",
-  "No",
-  ".NET decompiler. MIT."
- ],
- [
-  "xbox",
-  "tools",
-  "xemu-project/xemu",
-  "https://github.com/xemu-project/xemu",
-  "No",
-  "Original Xbox emulator."
- ],
- [
-  "md",
-  "decomp",
-  "sonicretro/skdisasm",
-  "https://github.com/sonicretro/skdisasm",
-  "No",
-  "Sonic 3 & Knuckles disassembly."
- ],
- [
-  "pc",
-  "remake",
-  "OpenRA/OpenRA",
-  "https://github.com/OpenRA/OpenRA",
-  "No",
-  "Red Alert / C&C engine re-implementation. GPL-3.0."
- ],
- [
-  "n64",
-  "decomp",
-  "n64decomp/perfect_dark",
-  "https://github.com/n64decomp/perfect_dark",
-  "No",
-  "Perfect Dark decompilation. MIT."
- ],
- [
-  "firmware",
-  "",
-  "travisgoodspeed/md380tools",
-  "https://github.com/travisgoodspeed/md380tools",
-  "No",
-  "MD380 radio firmware patches."
- ],
- [
-  "tooling",
-  "",
-  "google/bindiff",
-  "https://github.com/google/bindiff",
-  "No",
-  "Binary diffing. Apache-2.0."
- ],
- [
-  "n64",
-  "remake",
-  "2ship2harkinian/2ship2harkinian",
-  "https://github.com/2ship2harkinian/2ship2harkinian",
-  "No",
-  "Majora's Mask PC port. CC0-1.0."
- ],
- [
-  "pc",
-  "remake",
-  "perfect-dark-pc-port/perfect_dark",
-  "https://github.com/perfect-dark-pc-port/perfect_dark",
-  "No",
-  "Perfect Dark PC port from decomp. MIT."
- ],
- [
-  "ps1",
-  "decomp",
-  "shdecompilations/silent-hill-decomp",
-  "https://github.com/shdecompilations/silent-hill-decomp",
-  "No",
-  "Silent Hill decompilation."
- ],
- [
-  "pc",
-  "decomp",
-  "N0zoM1z0/th09",
-  "https://github.com/N0zoM1z0/th09",
-  "Unverified",
-  "Touhou 9 source reconstruction (agent + IDA/Ghidra); README does not name REA. MIT."
- ],
- [
-  "pc",
-  "decomp",
-  "N0zoM1z0/th095",
-  "https://github.com/N0zoM1z0/th095",
-  "Unverified",
-  "Touhou 9.5 source reconstruction; README does not name REA. MIT."
- ],
- [
-  "pc",
-  "decomp",
-  "N0zoM1z0/th105",
-  "https://github.com/N0zoM1z0/th105",
-  "Unverified",
-  "Touhou 10.5 source reconstruction; README does not name REA. MIT."
- ],
- [
-  "pc",
-  "remake",
-  "N0zoM1z0/th08-web",
-  "https://github.com/N0zoM1z0/th08-web",
-  "Unverified",
-  "Browser port built on the th08 reconstruction. MIT."
- ],
- [
-  "pc",
-  "tools",
-  "N0zoM1z0/touhou-reconstruction-factory",
-  "https://github.com/N0zoM1z0/touhou-reconstruction-factory",
-  "Unverified",
-  "Agent pipeline used for the Touhou reconstructions."
- ],
- [
-  "pc",
-  "decomp",
-  "N0zoM1z0/touhou-reverse-engineering",
-  "https://github.com/N0zoM1z0/touhou-reverse-engineering",
-  "No",
-  "Evidence-first IDA + Codex notes incl. runtime patch experiments; no REA mention. MIT."
- ],
- [
-  "pc",
-  "remake",
-  "AsyncFinn/rook",
-  "https://github.com/AsyncFinn/rook",
-  "No",
-  "Rust re-implementation of the Roblox engine, tested against Studio recordings; early. Apache-2.0."
- ],
- [
-  "pc",
-  "remake",
-  "tallowmere/free-heroes4",
-  "https://github.com/tallowmere/free-heroes4",
-  "No",
-  "C++23 re-implementation of the Heroes of Might and Magic IV engine; needs your own GOG files. GPL-3.0."
- ],
- [
-  "app",
-  "",
-  "KarlssonChristoffer/DiskLens",
-  "https://github.com/KarlssonChristoffer/DiskLens",
-  "Yes",
-  "WinDirStat-style disk analyzer for Windows 11; REA used to study WinDirStat 2.5.0. GPL-3.0."
- ],
- [
-  "app",
-  "",
-  "LilZeeCN/zee-rp",
-  "https://github.com/LilZeeCN/zee-rp",
-  "Unverified",
-  "CLI + MCP for reading/writing Axure RP .rp files (author says REA was used; not in README). MIT."
- ],
- [
-  "app",
-  "",
-  "lxistired/ledger-reborn",
-  "https://github.com/lxistired/ledger-reborn",
-  "Yes",
-  "Local accounting app built after studying QuickBooks Desktop for Mac with REA. MIT."
- ],
- [
-  "app",
-  "",
-  "michaelshimeles/terminal-rs",
-  "https://github.com/michaelshimeles/terminal-rs",
-  "Yes",
-  "Bloomberg-style trading terminal in Rust; README mentions REA."
- ],
- [
-  "app",
-  "",
-  "GLinnik21/plx-native",
-  "https://github.com/GLinnik21/plx-native",
-  "No",
-  "Native Plex client for LG TVs (AI-assisted RE, no REA claim). GPL-3.0."
- ],
- [
-  "app",
-  "",
-  "storytold/photocraft",
-  "https://github.com/storytold/photocraft",
-  "No",
-  "Clean-room Photoshop-style editor (black-box rebuild). Apache-2.0."
- ],
- [
-  "app",
-  "",
-  "sickpyramid/ReaFuse",
-  "https://github.com/sickpyramid/ReaFuse",
-  "Yes",
-  "Builds on REA to fuse two JS/TS source projects; alpha. MIT."
- ],
- [
-  "app",
-  "",
-  "laaielichter/Reverseport",
-  "https://github.com/laaielichter/Reverseport",
-  "Unverified",
-  "CLI + MCP that ports RE results to Godot/Unity/Unreal/three.js; says \"based on REA\". MIT."
- ],
- [
-  "tooling",
-  "",
-  "0xshlomil/ida-free-mcp",
-  "https://github.com/0xshlomil/ida-free-mcp",
-  "Yes",
-  "Native IDA Free bridge referenced by REA's IDA provider. MIT."
- ],
- [
-  "tooling",
-  "",
-  "HexRaysSA/ida-mcp",
-  "https://github.com/HexRaysSA/ida-mcp",
-  "No",
-  "Official Hex-Rays MCP server for IDA. MIT."
- ],
- [
-  "tooling",
-  "",
-  "Nowng/rea-mcp",
-  "https://github.com/Nowng/rea-mcp",
-  "Yes",
-  "LM Studio plugin wrapping the REA MCP server for local models. MIT."
- ],
- [
-  "tooling",
-  "",
-  "alexmi256/rea-agent-docker",
-  "https://github.com/alexmi256/rea-agent-docker",
-  "Yes",
-  "Docker images for REA (Ghidra/Hopper/IDA variants; IDA not shipped). MIT."
- ],
- [
-  "tooling",
-  "",
-  "cognixws/picode-rea",
-  "https://github.com/cognixws/picode-rea",
-  "Yes",
-  "PiCode extension exposing REA static-analysis tools. Apache-2.0."
- ],
- [
-  "tooling",
-  "",
-  "czcdr/dsh-plugin-rea",
-  "https://github.com/czcdr/dsh-plugin-rea",
-  "Yes",
-  "DeepSeek Harness adapter for the REA MCP server. MIT."
- ],
- [
-  "tooling",
-  "",
-  "sheilacraig/dsh-rea-mcp",
-  "https://github.com/sheilacraig/dsh-rea-mcp",
-  "Yes",
-  "Config-only DeepSeek Harness bundle that mounts REA. MIT."
- ],
- [
-  "tooling",
-  "",
-  "ya123-4/rea-dsh-plugin",
-  "https://github.com/ya123-4/rea-dsh-plugin",
-  "Yes",
-  "DeepSeek Harness plugin registering REA MCP tools."
- ],
- [
-  "tooling",
-  "",
-  "zhaofeng130/dsh-rea",
-  "https://github.com/zhaofeng130/dsh-rea",
-  "Yes",
-  "DeepSeek Harness adapter registering the REA Skill and tools."
- ],
- [
-  "tooling",
-  "",
-  "pablodiazjorge/rea-casebook",
-  "https://github.com/pablodiazjorge/rea-casebook",
-  "Yes",
-  "Claude Code mod logging REA evidence and requiring cited evidence_ids. MIT."
- ],
- [
-  "tooling",
-  "",
-  "jinshi666888/rea-playbook",
-  "https://github.com/jinshi666888/rea-playbook",
-  "Yes",
-  "Hands-on lab: minimal Electron target, evidence extraction, MCP probe. MIT."
- ],
- [
-  "tooling",
-  "",
-  "dav1dngy/era-agent",
-  "https://github.com/dav1dngy/era-agent",
-  "Unverified",
-  "Evidence-driven RE agent with a self-improvement lab; experimental. MIT."
- ],
- [
-  "security",
-  "",
-  "UnknownHacker1/rea-groundtruth",
-  "https://github.com/UnknownHacker1/rea-groundtruth",
-  "Yes",
-  "Compares REA reports with the actual code; one-command repros. MIT."
- ],
- [
-  "security",
-  "",
-  "az9713/REA-demo",
-  "https://github.com/az9713/REA-demo",
-  "Yes",
-  "REA analysing its own installed package with falsifiable predictions."
- ],
- [
-  "security",
-  "",
-  "pablodiazjorge/rea-lab",
-  "https://github.com/pablodiazjorge/rea-lab",
-  "Yes",
-  "Windows + Ghidra exercises and a pre-registered REA evaluation. MIT."
- ],
- [
-  "protocol",
-  "",
-  "EndLess728/MiTV-Remote",
-  "https://github.com/EndLess728/MiTV-Remote",
-  "Yes",
-  "README: MiLink protocol reverse engineered with REA from TV firmware."
- ],
- [
-  "protocol",
-  "",
-  "B-Howell/soundconnect-desktop",
-  "https://github.com/B-Howell/soundconnect-desktop",
-  "Yes",
-  "Repo description: built as a test drive of REA."
- ],
- [
-  "app",
-  "",
-  "Xiangyu-CAS/rea-capcut",
-  "https://github.com/Xiangyu-CAS/rea-capcut",
-  "Yes",
-  "README: video editor informed by REA-assisted research into CapCut/Jianying."
- ],
- [
-  "app",
-  "",
-  "chilliesdev/fmseasonhub-re",
-  "https://github.com/chilliesdev/fmseasonhub-re",
-  "Yes",
-  "README: analysis executed with rea-agents v6.7.0 (morluto/rea)."
- ],
- [
-  "pc",
-  "tools",
-  "rodneypantonial/sims3-modernization",
-  "https://github.com/rodneypantonial/sims3-modernization",
-  "Yes",
-  "README tool table lists REA (morluto/rea)."
- ],
- [
-  "firmware",
-  "",
-  "nicolvus/a6000-fw-decomp",
-  "https://github.com/nicolvus/a6000-fw-decomp",
-  "Yes",
-  "README: findings confirmed with REA/Ghidra traces."
- ],
- [
-  "tooling",
-  "",
-  "tanepiper/game-frame",
-  "https://github.com/tanepiper/game-frame",
-  "Yes",
-  "README: toolchain setup registers REA for the agent."
- ],
- [
-  "tooling",
-  "",
-  "agioracle/rea-unity-game",
-  "https://github.com/agioracle/rea-unity-game",
-  "Unverified",
-  "Description: \"Inspired by REA\"; no evidence it runs rea."
- ]
+  [
+    "official",
+    "",
+    "DX-Ball: sound-pan function",
+    "https://rea.tools/showcase/dx-ball/",
+    "Yes",
+    "Official showcase; C reconstruction matching 3,205 x86 cases."
+  ],
+  [
+    "official",
+    "",
+    "Notion: Electron clipboard bridge",
+    "https://rea.tools/showcase/notion/",
+    "Yes",
+    "Official showcase; renderer → preload → IPC trace."
+  ],
+  [
+    "official",
+    "",
+    "TH04: PC-98 bullet-ring maths",
+    "https://rea.tools/showcase/th04/",
+    "Yes",
+    "Official showcase; 16-bit angle helpers."
+  ],
+  [
+    "official",
+    "",
+    "Aegis: TOTP code generation",
+    "https://rea.tools/showcase/aegis/",
+    "Yes",
+    "Official showcase; Android app."
+  ],
+  [
+    "official",
+    "",
+    "CTF: flag checker",
+    "https://rea.tools/showcase/ctf/",
+    "Yes",
+    "Official showcase; DownUnderCTF 2023 challenge."
+  ],
+  [
+    "pc",
+    "decomp",
+    "N0zoM1z0/dx-ball",
+    "https://github.com/N0zoM1z0/dx-ball",
+    "Yes",
+    "DX-Ball 1.07 reconstruction; README states REA. MIT."
+  ],
+  [
+    "pc",
+    "decomp",
+    "N0zoM1z0/th04",
+    "https://github.com/N0zoM1z0/th04",
+    "Yes",
+    "Touhou 4 (PC-98) source reconstruction; REA via official showcase. MIT."
+  ],
+  [
+    "pc",
+    "decomp",
+    "N0zoM1z0/th08",
+    "https://github.com/N0zoM1z0/th08",
+    "Unverified",
+    "Touhou 8 reconstruction (agent + IDA/Ghidra); README does not mention REA. MIT."
+  ],
+  [
+    "pc",
+    "decomp",
+    "N0zoM1z0/th10",
+    "https://github.com/N0zoM1z0/th10",
+    "Unverified",
+    "Touhou 10 reconstruction; README does not mention REA. MIT."
+  ],
+  [
+    "pc",
+    "remake",
+    "ucodia/desktop-games-nostalgia",
+    "https://github.com/ucodia/desktop-games-nostalgia",
+    "Yes",
+    "Gemtree Desktop Games (2000) ported to macOS/browser; README cites REA + Ghidra."
+  ],
+  [
+    "pc",
+    "remake",
+    "tuunanet/rea-ski-or-die-reconstruction",
+    "https://github.com/tuunanet/rea-ski-or-die-reconstruction",
+    "Yes",
+    "Ski or Die (DOS) minigame rebuilt in Rust + SDL2; uses your own assets."
+  ],
+  [
+    "pc",
+    "remake",
+    "Moxnatiy/OpenBattlefield2",
+    "https://github.com/Moxnatiy/OpenBattlefield2",
+    "Yes",
+    "Clean-room Refractor 2 engine; REA documented in CLAUDE.md / tools/rea.sh. Needs your own copy."
+  ],
+  [
+    "pc",
+    "remake",
+    "OpenRsG/GunZRs",
+    "https://github.com/OpenRsG/GunZRs",
+    "Yes",
+    "GunZ: The Duel in Rust + Bevy; README mentions REA. Apache-2.0."
+  ],
+  [
+    "pc",
+    "remake",
+    "a-barzanti/ai-rebuilds",
+    "https://github.com/a-barzanti/ai-rebuilds",
+    "Yes",
+    "Abandoned games rebuilt for the web from REA-written specs; no original files committed."
+  ],
+  [
+    "pc",
+    "remake",
+    "OpenRCT2/OpenRCT2",
+    "https://github.com/OpenRCT2/OpenRCT2",
+    "No",
+    "RollerCoaster Tycoon 2 re-implementation (pre-REA). GPL-3.0."
+  ],
+  [
+    "pc",
+    "remake",
+    "OpenMW/openmw",
+    "https://github.com/OpenMW/openmw",
+    "No",
+    "Morrowind engine re-implementation. GPL-3.0."
+  ],
+  [
+    "n64",
+    "decomp",
+    "zeldaret/oot",
+    "https://github.com/zeldaret/oot",
+    "No",
+    "Ocarina of Time decompilation; ROM not included."
+  ],
+  [
+    "n64",
+    "decomp",
+    "n64decomp/sm64",
+    "https://github.com/n64decomp/sm64",
+    "No",
+    "Super Mario 64 decompilation; ROM not included. CC0-1.0."
+  ],
+  [
+    "n64",
+    "remake",
+    "HarbourMasters/Shipwright",
+    "https://github.com/HarbourMasters/Shipwright",
+    "No",
+    "Ship of Harkinian PC port of OoT; requires your own ROM."
+  ],
+  [
+    "n64",
+    "tools",
+    "ethteck/splat",
+    "https://github.com/ethteck/splat",
+    "No",
+    "Binary splitting tool for N64/PSX decomp projects. MIT."
+  ],
+  [
+    "n64",
+    "tools",
+    "NEstelami/ZAPD",
+    "https://github.com/NEstelami/ZAPD",
+    "No",
+    "Zelda asset processor used by decomp projects. MIT."
+  ],
+  [
+    "md",
+    "decomp",
+    "sonicretro/s1disasm",
+    "https://github.com/sonicretro/s1disasm",
+    "No",
+    "Sonic the Hedgehog (Mega Drive) disassembly."
+  ],
+  [
+    "md",
+    "decomp",
+    "sonicretro/s2disasm",
+    "https://github.com/sonicretro/s2disasm",
+    "No",
+    "Sonic 2 (Mega Drive) disassembly."
+  ],
+  [
+    "snes",
+    "decomp",
+    "snesrev/zelda3",
+    "https://github.com/snesrev/zelda3",
+    "No",
+    "A Link to the Past C reimplementation; asset extraction from your own ROM."
+  ],
+  [
+    "snes",
+    "decomp",
+    "snesrev/sm",
+    "https://github.com/snesrev/sm",
+    "No",
+    "Super Metroid C reimplementation; needs your own ROM."
+  ],
+  [
+    "gba",
+    "decomp",
+    "pret/pokeemerald",
+    "https://github.com/pret/pokeemerald",
+    "No",
+    "Pokémon Emerald decompilation."
+  ],
+  [
+    "gba",
+    "decomp",
+    "pret/pokefirered",
+    "https://github.com/pret/pokefirered",
+    "No",
+    "Pokémon FireRed/LeafGreen decompilation."
+  ],
+  [
+    "gba",
+    "decomp",
+    "zeldaret/tmc",
+    "https://github.com/zeldaret/tmc",
+    "No",
+    "The Minish Cap decompilation."
+  ],
+  [
+    "gb",
+    "decomp",
+    "pret/pokered",
+    "https://github.com/pret/pokered",
+    "No",
+    "Pokémon Red/Blue disassembly."
+  ],
+  [
+    "gb",
+    "decomp",
+    "pret/pokegold",
+    "https://github.com/pret/pokegold",
+    "No",
+    "Pokémon Gold/Silver disassembly."
+  ],
+  [
+    "ps1",
+    "decomp",
+    "Xeeynamo/sotn-decomp",
+    "https://github.com/Xeeynamo/sotn-decomp",
+    "No",
+    "Castlevania: Symphony of the Night decompilation. AGPL-3.0."
+  ],
+  [
+    "app",
+    "",
+    "michaelshimeles/sketch",
+    "https://github.com/michaelshimeles/sketch",
+    "Yes",
+    "Rust infinite-canvas design app, clean-room from Paper; README mentions REA (formerly paper-rs)."
+  ],
+  [
+    "app",
+    "",
+    "michaelshimeles/rec-rs",
+    "https://github.com/michaelshimeles/rec-rs",
+    "Yes",
+    "Rust macOS recorder modelled on OBS Studio; README mentions REA."
+  ],
+  [
+    "app",
+    "",
+    "iammukeshm/hexgrab",
+    "https://github.com/iammukeshm/hexgrab",
+    "Yes",
+    ".NET 10 colour picker from a REA study of PowerToys. MIT."
+  ],
+  [
+    "app",
+    "",
+    "AdamLinCodes/AdamTerm",
+    "https://github.com/AdamLinCodes/AdamTerm",
+    "Yes",
+    "Minimal macOS terminal after studying Ghostty with REA."
+  ],
+  [
+    "app",
+    "",
+    "az9713/wispr-flow-rea-teardown",
+    "https://github.com/az9713/wispr-flow-rea-teardown",
+    "Yes",
+    "Wispr Flow static teardown + 64-line local rebuild."
+  ],
+  [
+    "app",
+    "",
+    "cudanexus/vd-streamer-linux",
+    "https://github.com/cudanexus/vd-streamer-linux",
+    "Yes",
+    "Unofficial Linux port of Virtual Desktop Streamer; Claude Code + REA."
+  ],
+  [
+    "protocol",
+    "",
+    "a-funk/open-appleremote",
+    "https://github.com/a-funk/open-appleremote",
+    "Unverified",
+    "First-gen Siri Remote on Linux (Bluetooth protocol). MIT."
+  ],
+  [
+    "protocol",
+    "",
+    "Slyvan25/OpenGHub",
+    "https://github.com/Slyvan25/OpenGHub",
+    "No",
+    "Linux Logitech G HUB replacement over HID++ 2.0. MIT."
+  ],
+  [
+    "firmware",
+    "",
+    "grisuno/VSL-DSP",
+    "https://github.com/grisuno/VSL-DSP",
+    "Yes",
+    "PreSonus AudioBox VSL kernel module; REA used for part of the vendor-library findings. GPL-3.0."
+  ],
+  [
+    "firmware",
+    "",
+    "ReFirmLabs/binwalk",
+    "https://github.com/ReFirmLabs/binwalk",
+    "No",
+    "Firmware analysis/extraction tool. MIT."
+  ],
+  [
+    "security",
+    "",
+    "NullLabTests/OpenBSD_netcat_REA",
+    "https://github.com/NullLabTests/OpenBSD_netcat_REA",
+    "Yes",
+    "Static analysis of netcat-openbsd with REA + Ghidra. MIT."
+  ],
+  [
+    "security",
+    "",
+    "REA discussion #2254",
+    "https://github.com/morluto/rea/discussions/2254",
+    "Yes",
+    "Stripped bzip2 analysed and checked against an unstripped build."
+  ],
+  [
+    "tooling",
+    "",
+    "ShadowSwaps/REA-Reconstruction-Companion",
+    "https://github.com/ShadowSwaps/REA-Reconstruction-Companion",
+    "Yes",
+    "Agent skill for evidence-based reconstruction with REA. MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "NationalSecurityAgency/ghidra",
+    "https://github.com/NationalSecurityAgency/ghidra",
+    "No",
+    "Decompiler REA can drive. Apache-2.0."
+  ],
+  [
+    "tooling",
+    "",
+    "skylot/jadx",
+    "https://github.com/skylot/jadx",
+    "No",
+    "Android DEX decompiler REA can drive. Apache-2.0."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "ran-j/PS2Recomp",
+    "https://github.com/ran-j/PS2Recomp",
+    "No",
+    "PS2 static recompiler. GPL-3.0."
+  ],
+  [
+    "snes",
+    "remake",
+    "snesrev/smw",
+    "https://github.com/snesrev/smw",
+    "No",
+    "Super Mario World C reimplementation; needs your own ROM."
+  ],
+  [
+    "tooling",
+    "",
+    "LaurieWired/GhidraMCP",
+    "https://github.com/LaurieWired/GhidraMCP",
+    "No",
+    "MCP server for Ghidra. Apache-2.0."
+  ],
+  [
+    "tooling",
+    "",
+    "x64dbg/x64dbg",
+    "https://github.com/x64dbg/x64dbg",
+    "No",
+    "Windows debugger."
+  ],
+  [
+    "gc",
+    "tools",
+    "encounter/decomp-toolkit",
+    "https://github.com/encounter/decomp-toolkit",
+    "No",
+    "Toolkit for GameCube/Wii decompilation. Apache-2.0."
+  ],
+  [
+    "n64",
+    "decomp",
+    "HarbourMasters/Starship",
+    "https://github.com/HarbourMasters/Starship",
+    "No",
+    "Star Fox 64 PC port based on the sf64 decomp. CC0-1.0."
+  ],
+  [
+    "tooling",
+    "",
+    "iBotPeaches/Apktool",
+    "https://github.com/iBotPeaches/Apktool",
+    "No",
+    "Android APK reverse-engineering tool. Apache-2.0."
+  ],
+  [
+    "gc",
+    "decomp",
+    "zeldaret/tww",
+    "https://github.com/zeldaret/tww",
+    "No",
+    "The Wind Waker decompilation. CC0-1.0."
+  ],
+  [
+    "gba",
+    "decomp",
+    "pret/pokeruby",
+    "https://github.com/pret/pokeruby",
+    "No",
+    "Pokémon Ruby/Sapphire decompilation."
+  ],
+  [
+    "tooling",
+    "",
+    "angr/angr",
+    "https://github.com/angr/angr",
+    "No",
+    "Binary analysis platform. BSD-2-Clause."
+  ],
+  [
+    "wii",
+    "decomp",
+    "zeldaret/ss",
+    "https://github.com/zeldaret/ss",
+    "No",
+    "Skyward Sword decompilation. CC0-1.0."
+  ],
+  [
+    "xbox",
+    "decomp",
+    "hedge-dev/XenonRecomp",
+    "https://github.com/hedge-dev/XenonRecomp",
+    "No",
+    "Xbox 360 PPC to C++ static recompiler. MIT."
+  ],
+  [
+    "ds",
+    "decomp",
+    "pret/pokeplatinum",
+    "https://github.com/pret/pokeplatinum",
+    "No",
+    "Pokémon Platinum decompilation."
+  ],
+  [
+    "n64",
+    "decomp",
+    "n64decomp/mk64",
+    "https://github.com/n64decomp/mk64",
+    "No",
+    "Mario Kart 64 decompilation."
+  ],
+  [
+    "tooling",
+    "",
+    "avast/retdec",
+    "https://github.com/avast/retdec",
+    "No",
+    "Retargetable machine-code decompiler. MIT."
+  ],
+  [
+    "gc",
+    "tools",
+    "encounter/objdiff",
+    "https://github.com/encounter/objdiff",
+    "No",
+    "Object-file diffing tool used across decomp projects. Apache-2.0."
+  ],
+  [
+    "tooling",
+    "",
+    "rizinorg/cutter",
+    "https://github.com/rizinorg/cutter",
+    "No",
+    "Qt GUI for Rizin. GPL-3.0."
+  ],
+  [
+    "pc",
+    "tools",
+    "ata4/disunity",
+    "https://github.com/ata4/disunity",
+    "No",
+    "Unity asset tools (archived). Unlicense."
+  ],
+  [
+    "3ds",
+    "tools",
+    "3DSGuy/Project_CTR",
+    "https://github.com/3DSGuy/Project_CTR",
+    "No",
+    "3DS file tools (ctrtool / makerom)."
+  ],
+  [
+    "pc",
+    "remake",
+    "julianxhokaxhiu/FFNx",
+    "https://github.com/julianxhokaxhiu/FFNx",
+    "No",
+    "FF7/FF8 PC driver. GPL-3.0."
+  ],
+  [
+    "wii",
+    "decomp",
+    "DarkRTA/rb3",
+    "https://github.com/DarkRTA/rb3",
+    "No",
+    "Rock Band 3 (Wii) decompilation."
+  ],
+  [
+    "gb",
+    "decomp",
+    "pret/pokeyellow",
+    "https://github.com/pret/pokeyellow",
+    "No",
+    "Pokémon Yellow disassembly."
+  ],
+  [
+    "nes",
+    "decomp",
+    "aldonunez/zelda1-disassembly",
+    "https://github.com/aldonunez/zelda1-disassembly",
+    "No",
+    "The Legend of Zelda (NES) disassembly."
+  ],
+  [
+    "protocol",
+    "",
+    "mitmproxy/mitmproxy",
+    "https://github.com/mitmproxy/mitmproxy",
+    "No",
+    "Interactive HTTPS proxy for protocol analysis. MIT."
+  ],
+  [
+    "n64",
+    "remake",
+    "Zelda64Recomp/Zelda64Recomp",
+    "https://github.com/Zelda64Recomp/Zelda64Recomp",
+    "No",
+    "Majora's Mask static recompilation PC port; needs your own ROM. GPL-3.0."
+  ],
+  [
+    "gb",
+    "decomp",
+    "pret/pokecrystal",
+    "https://github.com/pret/pokecrystal",
+    "No",
+    "Pokémon Crystal disassembly."
+  ],
+  [
+    "tooling",
+    "",
+    "ghidraninja/ghidra_scripts",
+    "https://github.com/ghidraninja/ghidra_scripts",
+    "No",
+    "Ghidra scripts. GPL-3.0."
+  ],
+  [
+    "pc",
+    "remake",
+    "Interkarma/daggerfall-unity",
+    "https://github.com/Interkarma/daggerfall-unity",
+    "No",
+    "Daggerfall in Unity; needs your own data. MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "radareorg/radare2",
+    "https://github.com/radareorg/radare2",
+    "No",
+    "Reverse-engineering framework."
+  ],
+  [
+    "tooling",
+    "",
+    "mandiant/flare-floss",
+    "https://github.com/mandiant/flare-floss",
+    "No",
+    "Obfuscated string extraction. Apache-2.0."
+  ],
+  [
+    "n64",
+    "decomp",
+    "zeldaret/mm",
+    "https://github.com/zeldaret/mm",
+    "No",
+    "Majora's Mask decompilation."
+  ],
+  [
+    "pc",
+    "remake",
+    "OpenXcom/OpenXcom",
+    "https://github.com/OpenXcom/OpenXcom",
+    "No",
+    "UFO / X-COM re-implementation. GPL-3.0."
+  ],
+  [
+    "tooling",
+    "",
+    "WerWolv/ImHex",
+    "https://github.com/WerWolv/ImHex",
+    "No",
+    "Hex editor for reverse engineers. GPL-2.0."
+  ],
+  [
+    "pc",
+    "tools",
+    "Perfare/AssetStudio",
+    "https://github.com/Perfare/AssetStudio",
+    "No",
+    "Unity asset explorer (archived). MIT."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "open-goal/jak-project",
+    "https://github.com/open-goal/jak-project",
+    "No",
+    "Jak and Daxter / Jak II PC port via GOAL decompiler; needs your own disc. ISC."
+  ],
+  [
+    "ds",
+    "decomp",
+    "zeldaret/ph",
+    "https://github.com/zeldaret/ph",
+    "No",
+    "Phantom Hourglass decompilation. CC0-1.0."
+  ],
+  [
+    "tooling",
+    "",
+    "mandiant/capa",
+    "https://github.com/mandiant/capa",
+    "No",
+    "Capability detection in executables. Apache-2.0."
+  ],
+  [
+    "tooling",
+    "",
+    "frida/frida",
+    "https://github.com/frida/frida",
+    "No",
+    "Dynamic instrumentation toolkit."
+  ],
+  [
+    "firmware",
+    "",
+    "qilingframework/qiling",
+    "https://github.com/qilingframework/qiling",
+    "No",
+    "Binary emulation framework. GPL-2.0."
+  ],
+  [
+    "nes",
+    "tools",
+    "SourMesen/Mesen2",
+    "https://github.com/SourMesen/Mesen2",
+    "No",
+    "Multi-system emulator with strong debugging tools (NES/SNES/GB/GBA/PCE) (archived). GPL-3.0."
+  ],
+  [
+    "tooling",
+    "",
+    "dnSpyEx/dnSpy",
+    "https://github.com/dnSpyEx/dnSpy",
+    "No",
+    ".NET debugger and assembly editor. GPL-3.0."
+  ],
+  [
+    "tooling",
+    "",
+    "decompme/decomp.me",
+    "https://github.com/decompme/decomp.me",
+    "No",
+    "Collaborative decompilation website. MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "mrexodia/ida-pro-mcp",
+    "https://github.com/mrexodia/ida-pro-mcp",
+    "No",
+    "MCP server for IDA Pro. MIT."
+  ],
+  [
+    "gc",
+    "decomp",
+    "doldecomp/sms",
+    "https://github.com/doldecomp/sms",
+    "No",
+    "Super Mario Sunshine decompilation. CC0-1.0."
+  ],
+  [
+    "pc",
+    "tools",
+    "AssetRipper/AssetRipper",
+    "https://github.com/AssetRipper/AssetRipper",
+    "No",
+    "Unity asset ripping tool for your own projects. GPL-3.0."
+  ],
+  [
+    "pc",
+    "tools",
+    "ladislav-zezula/CascLib",
+    "https://github.com/ladislav-zezula/CascLib",
+    "No",
+    "CASC storage library. MIT."
+  ],
+  [
+    "pc",
+    "decomp",
+    "isledecomp/isle",
+    "https://github.com/isledecomp/isle",
+    "No",
+    "LEGO Island decompilation. LGPL-3.0."
+  ],
+  [
+    "n64",
+    "decomp",
+    "pmret/papermario",
+    "https://github.com/pmret/papermario",
+    "No",
+    "Paper Mario decompilation."
+  ],
+  [
+    "protocol",
+    "",
+    "postlund/pyatv",
+    "https://github.com/postlund/pyatv",
+    "No",
+    "Apple TV protocol library. MIT."
+  ],
+  [
+    "xbox",
+    "remake",
+    "hedge-dev/UnleashedRecomp",
+    "https://github.com/hedge-dev/UnleashedRecomp",
+    "No",
+    "Sonic Unleashed (X360) recompilation PC port; needs your own copy. GPL-3.0."
+  ],
+  [
+    "firmware",
+    "",
+    "ghidraninja/game-and-watch-backup",
+    "https://github.com/ghidraninja/game-and-watch-backup",
+    "No",
+    "Game & Watch backup tool for your own device."
+  ],
+  [
+    "gba",
+    "decomp",
+    "jiangzhengwenjz/katam",
+    "https://github.com/jiangzhengwenjz/katam",
+    "No",
+    "Kirby & the Amazing Mirror decompilation."
+  ],
+  [
+    "pc",
+    "remake",
+    "scummvm/scummvm",
+    "https://github.com/scummvm/scummvm",
+    "No",
+    "Engine re-implementations for classic adventure games. GPL-3.0."
+  ],
+  [
+    "protocol",
+    "",
+    "wireshark/wireshark",
+    "https://github.com/wireshark/wireshark",
+    "No",
+    "Network protocol analyzer. GPL-2.0."
+  ],
+  [
+    "md",
+    "remake",
+    "RSDKModding/RSDKv5-Decompilation",
+    "https://github.com/RSDKModding/RSDKv5-Decompilation",
+    "No",
+    "Retro Engine v5 decompilation (Sonic Mania); needs your own data files."
+  ],
+  [
+    "gba",
+    "decomp",
+    "pret/pmd-red",
+    "https://github.com/pret/pmd-red",
+    "No",
+    "Pokémon Mystery Dungeon: Red Rescue Team decompilation."
+  ],
+  [
+    "firmware",
+    "",
+    "attify/firmware-analysis-toolkit",
+    "https://github.com/attify/firmware-analysis-toolkit",
+    "No",
+    "Firmware emulation toolkit for security research."
+  ],
+  [
+    "md",
+    "remake",
+    "RSDKModding/RSDKv4-Decompilation",
+    "https://github.com/RSDKModding/RSDKv4-Decompilation",
+    "No",
+    "Retro Engine v4 decompilation (Sonic 1/2 mobile remasters)."
+  ],
+  [
+    "firmware",
+    "",
+    "onekey-sec/unblob",
+    "https://github.com/onekey-sec/unblob",
+    "No",
+    "Extraction suite for firmware blobs. MIT."
+  ],
+  [
+    "gc",
+    "decomp",
+    "doldecomp/melee",
+    "https://github.com/doldecomp/melee",
+    "No",
+    "Super Smash Bros. Melee decompilation."
+  ],
+  [
+    "gc",
+    "decomp",
+    "zeldaret/tp",
+    "https://github.com/zeldaret/tp",
+    "No",
+    "Twilight Princess decompilation. CC0-1.0."
+  ],
+  [
+    "saturn",
+    "decomp",
+    "yaz0r/Azel",
+    "https://github.com/yaz0r/Azel",
+    "No",
+    "Panzer Dragoon Saga reimplementation. MIT."
+  ],
+  [
+    "app",
+    "",
+    "electron/asar",
+    "https://github.com/electron/asar",
+    "No",
+    "Electron ASAR archive tool. MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "rizinorg/jsdec",
+    "https://github.com/rizinorg/jsdec",
+    "No",
+    "Simple decompiler for Rizin. It's capable of generating readable pseudo code even on handmade assembly."
+  ],
+  [
+    "pc",
+    "decomp",
+    "diasurgical/DevilutionX",
+    "https://github.com/diasurgical/DevilutionX",
+    "No",
+    "Diablo engine reconstruction; needs your own DIABDAT.MPQ."
+  ],
+  [
+    "pc",
+    "remake",
+    "fallout2-ce/fallout2-ce",
+    "https://github.com/fallout2-ce/fallout2-ce",
+    "No",
+    "Fallout 2 re-implementation; needs your own data."
+  ],
+  [
+    "tooling",
+    "",
+    "rizinorg/rizin",
+    "https://github.com/rizinorg/rizin",
+    "No",
+    "radare2 fork / RE framework. LGPL-3.0."
+  ],
+  [
+    "pc",
+    "remake",
+    "OpenTTD/OpenTTD",
+    "https://github.com/OpenTTD/OpenTTD",
+    "No",
+    "Transport Tycoon Deluxe open re-implementation."
+  ],
+  [
+    "gc",
+    "decomp",
+    "projectPiki/pikmin2",
+    "https://github.com/projectPiki/pikmin2",
+    "No",
+    "Pikmin 2 decompilation. CC0-1.0."
+  ],
+  [
+    "n64",
+    "decomp",
+    "N64Recomp/N64Recomp",
+    "https://github.com/N64Recomp/N64Recomp",
+    "No",
+    "Static recompiler from N64 binaries to C. MIT."
+  ],
+  [
+    "ds",
+    "decomp",
+    "pret/pokeheartgold",
+    "https://github.com/pret/pokeheartgold",
+    "No",
+    "Pokémon HeartGold/SoulSilver decompilation."
+  ],
+  [
+    "gb",
+    "decomp",
+    "zladx/LADX-Disassembly",
+    "https://github.com/zladx/LADX-Disassembly",
+    "No",
+    "Link's Awakening DX disassembly."
+  ],
+  [
+    "tooling",
+    "",
+    "icsharpcode/ILSpy",
+    "https://github.com/icsharpcode/ILSpy",
+    "No",
+    ".NET decompiler. MIT."
+  ],
+  [
+    "xbox",
+    "tools",
+    "xemu-project/xemu",
+    "https://github.com/xemu-project/xemu",
+    "No",
+    "Original Xbox emulator."
+  ],
+  [
+    "md",
+    "decomp",
+    "sonicretro/skdisasm",
+    "https://github.com/sonicretro/skdisasm",
+    "No",
+    "Sonic 3 & Knuckles disassembly."
+  ],
+  [
+    "pc",
+    "remake",
+    "OpenRA/OpenRA",
+    "https://github.com/OpenRA/OpenRA",
+    "No",
+    "Red Alert / C&C engine re-implementation. GPL-3.0."
+  ],
+  [
+    "n64",
+    "decomp",
+    "n64decomp/perfect_dark",
+    "https://github.com/n64decomp/perfect_dark",
+    "No",
+    "Perfect Dark decompilation. MIT."
+  ],
+  [
+    "firmware",
+    "",
+    "travisgoodspeed/md380tools",
+    "https://github.com/travisgoodspeed/md380tools",
+    "No",
+    "MD380 radio firmware patches."
+  ],
+  [
+    "tooling",
+    "",
+    "google/bindiff",
+    "https://github.com/google/bindiff",
+    "No",
+    "Binary diffing. Apache-2.0."
+  ],
+  [
+    "n64",
+    "remake",
+    "2ship2harkinian/2ship2harkinian",
+    "https://github.com/2ship2harkinian/2ship2harkinian",
+    "No",
+    "Majora's Mask PC port. CC0-1.0."
+  ],
+  [
+    "pc",
+    "remake",
+    "perfect-dark-pc-port/perfect_dark",
+    "https://github.com/perfect-dark-pc-port/perfect_dark",
+    "No",
+    "Perfect Dark PC port from decomp. MIT."
+  ],
+  [
+    "ps1",
+    "decomp",
+    "shdecompilations/silent-hill-decomp",
+    "https://github.com/shdecompilations/silent-hill-decomp",
+    "No",
+    "Silent Hill decompilation."
+  ],
+  [
+    "pc",
+    "decomp",
+    "N0zoM1z0/th09",
+    "https://github.com/N0zoM1z0/th09",
+    "Unverified",
+    "Touhou 9 source reconstruction (agent + IDA/Ghidra); README does not name REA. MIT."
+  ],
+  [
+    "pc",
+    "decomp",
+    "N0zoM1z0/th095",
+    "https://github.com/N0zoM1z0/th095",
+    "Unverified",
+    "Touhou 9.5 source reconstruction; README does not name REA. MIT."
+  ],
+  [
+    "pc",
+    "decomp",
+    "N0zoM1z0/th105",
+    "https://github.com/N0zoM1z0/th105",
+    "Unverified",
+    "Touhou 10.5 source reconstruction; README does not name REA. MIT."
+  ],
+  [
+    "pc",
+    "remake",
+    "N0zoM1z0/th08-web",
+    "https://github.com/N0zoM1z0/th08-web",
+    "Unverified",
+    "Browser port built on the th08 reconstruction. MIT."
+  ],
+  [
+    "pc",
+    "tools",
+    "N0zoM1z0/touhou-reconstruction-factory",
+    "https://github.com/N0zoM1z0/touhou-reconstruction-factory",
+    "Unverified",
+    "Agent pipeline used for the Touhou reconstructions."
+  ],
+  [
+    "pc",
+    "decomp",
+    "N0zoM1z0/touhou-reverse-engineering",
+    "https://github.com/N0zoM1z0/touhou-reverse-engineering",
+    "No",
+    "Evidence-first IDA + Codex notes incl. runtime patch experiments; no REA mention. MIT."
+  ],
+  [
+    "pc",
+    "remake",
+    "AsyncFinn/rook",
+    "https://github.com/AsyncFinn/rook",
+    "No",
+    "Rust re-implementation of the Roblox engine, tested against Studio recordings; early. Apache-2.0."
+  ],
+  [
+    "pc",
+    "remake",
+    "tallowmere/free-heroes4",
+    "https://github.com/tallowmere/free-heroes4",
+    "No",
+    "C++23 re-implementation of the Heroes of Might and Magic IV engine; needs your own GOG files. GPL-3.0."
+  ],
+  [
+    "app",
+    "",
+    "KarlssonChristoffer/DiskLens",
+    "https://github.com/KarlssonChristoffer/DiskLens",
+    "Yes",
+    "WinDirStat-style disk analyzer for Windows 11; REA used to study WinDirStat 2.5.0. GPL-3.0."
+  ],
+  [
+    "app",
+    "",
+    "LilZeeCN/zee-rp",
+    "https://github.com/LilZeeCN/zee-rp",
+    "Unverified",
+    "CLI + MCP for reading/writing Axure RP .rp files (author says REA was used; not in README). MIT."
+  ],
+  [
+    "app",
+    "",
+    "lxistired/ledger-reborn",
+    "https://github.com/lxistired/ledger-reborn",
+    "Yes",
+    "Local accounting app built after studying QuickBooks Desktop for Mac with REA. MIT."
+  ],
+  [
+    "app",
+    "",
+    "michaelshimeles/terminal-rs",
+    "https://github.com/michaelshimeles/terminal-rs",
+    "Yes",
+    "Bloomberg-style trading terminal in Rust; README mentions REA."
+  ],
+  [
+    "app",
+    "",
+    "GLinnik21/plx-native",
+    "https://github.com/GLinnik21/plx-native",
+    "No",
+    "Native Plex client for LG TVs (AI-assisted RE, no REA claim). GPL-3.0."
+  ],
+  [
+    "app",
+    "",
+    "storytold/photocraft",
+    "https://github.com/storytold/photocraft",
+    "No",
+    "Clean-room Photoshop-style editor (black-box rebuild). Apache-2.0."
+  ],
+  [
+    "app",
+    "",
+    "sickpyramid/ReaFuse",
+    "https://github.com/sickpyramid/ReaFuse",
+    "Yes",
+    "Builds on REA to fuse two JS/TS source projects; alpha. MIT."
+  ],
+  [
+    "app",
+    "",
+    "laaielichter/Reverseport",
+    "https://github.com/laaielichter/Reverseport",
+    "Unverified",
+    "CLI + MCP that ports RE results to Godot/Unity/Unreal/three.js; says \"based on REA\". MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "0xshlomil/ida-free-mcp",
+    "https://github.com/0xshlomil/ida-free-mcp",
+    "Yes",
+    "Native IDA Free bridge referenced by REA's IDA provider. MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "HexRaysSA/ida-mcp",
+    "https://github.com/HexRaysSA/ida-mcp",
+    "No",
+    "Official Hex-Rays MCP server for IDA. MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "Nowng/rea-mcp",
+    "https://github.com/Nowng/rea-mcp",
+    "Yes",
+    "LM Studio plugin wrapping the REA MCP server for local models. MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "alexmi256/rea-agent-docker",
+    "https://github.com/alexmi256/rea-agent-docker",
+    "Yes",
+    "Docker images for REA (Ghidra/Hopper/IDA variants; IDA not shipped). MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "cognixws/picode-rea",
+    "https://github.com/cognixws/picode-rea",
+    "Yes",
+    "PiCode extension exposing REA static-analysis tools. Apache-2.0."
+  ],
+  [
+    "tooling",
+    "",
+    "czcdr/dsh-plugin-rea",
+    "https://github.com/czcdr/dsh-plugin-rea",
+    "Yes",
+    "DeepSeek Harness adapter for the REA MCP server. MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "sheilacraig/dsh-rea-mcp",
+    "https://github.com/sheilacraig/dsh-rea-mcp",
+    "Yes",
+    "Config-only DeepSeek Harness bundle that mounts REA. MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "ya123-4/rea-dsh-plugin",
+    "https://github.com/ya123-4/rea-dsh-plugin",
+    "Yes",
+    "DeepSeek Harness plugin registering REA MCP tools."
+  ],
+  [
+    "tooling",
+    "",
+    "zhaofeng130/dsh-rea",
+    "https://github.com/zhaofeng130/dsh-rea",
+    "Yes",
+    "DeepSeek Harness adapter registering the REA Skill and tools."
+  ],
+  [
+    "tooling",
+    "",
+    "pablodiazjorge/rea-casebook",
+    "https://github.com/pablodiazjorge/rea-casebook",
+    "Yes",
+    "Claude Code mod logging REA evidence and requiring cited evidence_ids. MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "jinshi666888/rea-playbook",
+    "https://github.com/jinshi666888/rea-playbook",
+    "Yes",
+    "Hands-on lab: minimal Electron target, evidence extraction, MCP probe. MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "dav1dngy/era-agent",
+    "https://github.com/dav1dngy/era-agent",
+    "Unverified",
+    "Evidence-driven RE agent with a self-improvement lab; experimental. MIT."
+  ],
+  [
+    "security",
+    "",
+    "UnknownHacker1/rea-groundtruth",
+    "https://github.com/UnknownHacker1/rea-groundtruth",
+    "Yes",
+    "Compares REA reports with the actual code; one-command repros. MIT."
+  ],
+  [
+    "security",
+    "",
+    "az9713/REA-demo",
+    "https://github.com/az9713/REA-demo",
+    "Yes",
+    "REA analysing its own installed package with falsifiable predictions."
+  ],
+  [
+    "security",
+    "",
+    "pablodiazjorge/rea-lab",
+    "https://github.com/pablodiazjorge/rea-lab",
+    "Yes",
+    "Windows + Ghidra exercises and a pre-registered REA evaluation. MIT."
+  ],
+  [
+    "protocol",
+    "",
+    "EndLess728/MiTV-Remote",
+    "https://github.com/EndLess728/MiTV-Remote",
+    "Yes",
+    "README: MiLink protocol reverse engineered with REA from TV firmware."
+  ],
+  [
+    "protocol",
+    "",
+    "B-Howell/soundconnect-desktop",
+    "https://github.com/B-Howell/soundconnect-desktop",
+    "Yes",
+    "Repo description: built as a test drive of REA."
+  ],
+  [
+    "app",
+    "",
+    "Xiangyu-CAS/rea-capcut",
+    "https://github.com/Xiangyu-CAS/rea-capcut",
+    "Yes",
+    "README: video editor informed by REA-assisted research into CapCut/Jianying."
+  ],
+  [
+    "app",
+    "",
+    "chilliesdev/fmseasonhub-re",
+    "https://github.com/chilliesdev/fmseasonhub-re",
+    "Yes",
+    "README: analysis executed with rea-agents v6.7.0 (morluto/rea)."
+  ],
+  [
+    "pc",
+    "tools",
+    "rodneypantonial/sims3-modernization",
+    "https://github.com/rodneypantonial/sims3-modernization",
+    "Yes",
+    "README tool table lists REA (morluto/rea)."
+  ],
+  [
+    "firmware",
+    "",
+    "nicolvus/a6000-fw-decomp",
+    "https://github.com/nicolvus/a6000-fw-decomp",
+    "Yes",
+    "README: findings confirmed with REA/Ghidra traces."
+  ],
+  [
+    "tooling",
+    "",
+    "tanepiper/game-frame",
+    "https://github.com/tanepiper/game-frame",
+    "Yes",
+    "README: toolchain setup registers REA for the agent."
+  ],
+  [
+    "tooling",
+    "",
+    "agioracle/rea-unity-game",
+    "https://github.com/agioracle/rea-unity-game",
+    "Unverified",
+    "Description: \"Inspired by REA\"; no evidence it runs rea."
+  ],
+  [
+    "app",
+    "",
+    "Caho1/open-claude-ui",
+    "https://github.com/Caho1/open-claude-ui",
+    "Yes",
+    "High-fidelity Claude Desktop UI rebuild (30+ React components + interaction physics) via REA ASAR/AST analysis."
+  ],
+  [
+    "app",
+    "",
+    "glauberlima/open-scrantic",
+    "https://github.com/glauberlima/open-scrantic",
+    "Yes",
+    "Rust reimplementation of 1992 Johnny Castaway screensaver, reverse-engineered with REA + Claude Code."
+  ],
+  [
+    "tooling",
+    "",
+    "aicodeking/leanrea",
+    "https://github.com/aicodeking/leanrea",
+    "Yes",
+    "Lightweight 8 KB skill that replaces REA's MCP layer; agent calls CLI tools directly. Faster/cheaper in benchmarks."
+  ],
+  [
+    "tooling",
+    "",
+    "cranebeaker/coop-anything",
+    "https://github.com/cranebeaker/coop-anything",
+    "Yes",
+    "MCP server and skills to add co-op to single-player games by investigating entry points with REA."
+  ],
+  [
+    "tooling",
+    "",
+    "MiaAI-Lab/sparkDash",
+    "https://github.com/MiaAI-Lab/sparkDash",
+    "Yes",
+    "Multi-device dashboard that integrates REA analysis jobs and on-demand result loading."
+  ],
+  [
+    "pc",
+    "remake",
+    "carlhako/keen-clone",
+    "https://github.com/carlhako/keen-clone",
+    "Yes",
+    "Native Linux/SDL2 reimplementation of Commander Keen 1, function-level from KEEN1.EXE via REA + Ghidra."
+  ],
+  [
+    "pc",
+    "remake",
+    "NathanKanaeru/samp-client-re",
+    "https://github.com/NathanKanaeru/samp-client-re",
+    "Yes",
+    "Clean-room SA-MP 0.3.DL-R1 client reimplementation, architecture recovered with REA/Ghidra."
+  ]
 ]
