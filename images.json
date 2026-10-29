@@ -693,5 +693,20 @@
     "card",
     "images/gea-card.png",
     "GitHub repository opengraph card for orikami048/gea"
+  ],
+  "cyberkaida/reverse-engineering-assistant": [
+    "card",
+    "images/reva-card.jpg",
+    "GitHub social preview card for ReVa (reverse-engineering-assistant)"
+  ],
+  "storytold/vectorcraft": [
+    "card",
+    "images/vectorcraft-card.jpg",
+    "GitHub social preview card for VectorCraft"
+  ],
+  "storytold/lightcraft": [
+    "card",
+    "images/lightcraft-card.jpg",
+    "GitHub social preview card for LightCraft"
   ]
 }

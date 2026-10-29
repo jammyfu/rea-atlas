@@ -336,11 +336,11 @@
     "ko": "슈퍼 마리오 월드를 C로 재구현(ROM 직접 준비)"
   },
   "LaurieWired/GhidraMCP": {
-    "en": "Let an AI agent drive Ghidra over MCP",
-    "zh-CN": "让 AI 智能体通过 MCP 操作 Ghidra",
-    "zh-TW": "讓 AI 代理透過 MCP 操作 Ghidra",
-    "ja": "MCP 経由で AI エージェントに Ghidra を操作させる",
-    "ko": "MCP로 AI 에이전트가 Ghidra를 조작"
+    "en": "A bridge that lets AI assistants (like Claude) control the free reverse-engineering tool Ghidra. The AI can decompile programs, rename functions and analyze binaries for you.",
+    "zh-CN": "一个桥接工具，让 AI 助手（比如 Claude）能直接控制免费的逆向工具 Ghidra。AI 可以帮你反编译程序、给函数改名、分析二进制文件。",
+    "zh-TW": "一個橋接工具，讓 AI 助手（比如 Claude）能直接控制免費的逆向工具 Ghidra。AI 可以幫你反編譯程式、給函式改名、分析二進位檔案。",
+    "ja": "AI アシスタント（Claude など）が無料のリバースエンジニアリングツール Ghidra を直接操作できるようにする橋。AI がデコンパイルや関数リネームを代行できる。",
+    "ko": "AI 도우미(Claude 등)가 무료 리버스 엔지니어링 도구 Ghidra를 직접 제어할 수 있게 해주는 브리지. AI가 디컴파일과 함수 이름 변경을 대신 수행."
   },
   "x64dbg/x64dbg": {
     "en": "The go-to open-source debugger for Windows binaries",
@@ -987,11 +987,11 @@
     "ko": "LG TV용 더 빠른 네이티브 Plex 클라이언트"
   },
   "storytold/photocraft": {
-    "en": "A Photoshop-style editor, rebuilt from scratch as open source",
-    "zh-CN": "从零开源重写的 Photoshop 风格编辑器",
-    "zh-TW": "從零開始開源重寫的 Photoshop 風格編輯器",
-    "ja": "ゼロから作ったオープンソースの Photoshop 風エディタ",
-    "ko": "처음부터 오픈소스로 만든 포토샵 스타일 편집기"
+    "en": "People rebuilt Adobe Photoshop from scratch as free open-source software. It is a photo editor written in Rust that tries to work like Photoshop (layers, masks, PSD files) without using any of Adobe’s code.",
+    "zh-CN": "有人从零重写了一个类似 Adobe Photoshop 的免费开源修图软件。用 Rust 写的，支持图层、蒙版、PSD 文件，但完全没用 Adobe 的代码。",
+    "zh-TW": "有人從零重寫了一個類似 Adobe Photoshop 的免費開源修圖軟體。用 Rust 寫的，支援圖層、遮色片、PSD 檔案，但完全沒用 Adobe 的程式碼。",
+    "ja": "Adobe Photoshop のような写真編集ソフトをゼロから書き直した無料のオープンソース版。Rust 製でレイヤー・マスク・PSD に対応するが、Adobe のコードは一切使っていない。",
+    "ko": "Adobe Photoshop 같은 사진 편집기를 처음부터 다시 만든 무료 오픈소스 버전. Rust로 작성했으며 레이어, 마스크, PSD를 지원하지만 Adobe 코드는 전혀 사용하지 않음."
   },
   "sickpyramid/ReaFuse": {
     "en": "Merge two JS/TS projects into one, guided by REA",
@@ -1239,25 +1239,25 @@
     "ko": "DSH /rea 슬래시 명령. 요청을 REA 스킬과 MCP 도구로 라우팅."
   },
   "storytold/vectorcraft": {
-    "en": "Clean-room vector illustration app in pure Rust targeting Illustrator parity",
-    "zh-CN": "纯 Rust 洁净室矢量插画工具，目标是 Illustrator 级功能",
-    "zh-TW": "純 Rust 潔淨室向量插畫工具，目標是 Illustrator 級功能",
-    "ja": "純 Rust のクリーンルームベクトルイラストツール（Illustrator 相当を目標）",
-    "ko": "순수 Rust 클린룸 벡터 일러스트 도구 (Illustrator 수준 목표)"
+    "en": "An open-source vector drawing tool rebuilt from scratch to be like Adobe Illustrator. Made in pure Rust; you can make posters, logos and illustrations without using Adobe’s code.",
+    "zh-CN": "从零重写的类似 Adobe Illustrator 的矢量绘图工具。纯 Rust 实现，可以画海报、Logo、插画，完全没用 Adobe 的代码。",
+    "zh-TW": "從零重寫的類似 Adobe Illustrator 的向量繪圖工具。純 Rust 實作，可以畫海報、Logo、插畫，完全沒用 Adobe 的程式碼。",
+    "ja": "Adobe Illustrator のようなベクター描画ツールをゼロから書き直したオープンソース版。純 Rust 製で、Adobe のコードは使っていない。",
+    "ko": "Adobe Illustrator 같은 벡터 그리기 도구를 처음부터 다시 만든 오픈소스 버전. 순수 Rust로 작성했으며 Adobe 코드는 사용하지 않음."
   },
   "storytold/filmcraft": {
-    "en": "Clean-room nonlinear video editor in pure Rust",
-    "zh-CN": "纯 Rust 洁净室非线性视频编辑器",
-    "zh-TW": "純 Rust 潔淨室非線性影片編輯器",
-    "ja": "純 Rust のクリーンルーム非線形動画エディタ",
-    "ko": "순수 Rust 클린룸 비선형 비디오 편집기"
+    "en": "People made a free video editor that works like Adobe Premiere Pro, written from scratch in Rust. You can cut video, add effects and color grade without using Adobe’s code.",
+    "zh-CN": "有人从零做了一个类似 Adobe Premiere Pro 的免费视频剪辑软件。用 Rust 写的，可以剪片子、加特效、调色，完全没用 Adobe 的代码。",
+    "zh-TW": "有人從零做了一個類似 Adobe Premiere Pro 的免費影片剪輯軟體。用 Rust 寫的，可以剪片子、加特效、調色，完全沒用 Adobe 的程式碼。",
+    "ja": "Adobe Premiere Pro のような動画編集ソフトをゼロから作った無料のオープンソース版。Rust 製で、Adobe のコードは使っていない。",
+    "ko": "Adobe Premiere Pro 같은 영상 편집기를 처음부터 만든 무료 오픈소스 버전. Rust로 작성했으며 Adobe 코드는 사용하지 않음."
   },
   "storytold/lightcraft": {
-    "en": "Clean-room non-destructive photo editor in pure Rust",
-    "zh-CN": "纯 Rust 洁净室非破坏性照片编辑器",
-    "zh-TW": "純 Rust 潔淨室非破壞性照片編輯器",
-    "ja": "純 Rust のクリーンルーム非破壊写真エディタ",
-    "ko": "순수 Rust 클린룸 비파괴 사진 편집기"
+    "en": "An open-source photo manager and RAW developer rebuilt to be like Adobe Lightroom. Written from scratch in Rust; helps organize and edit photos without Adobe’s code.",
+    "zh-CN": "从零重写的类似 Adobe Lightroom 的照片管理和 RAW 冲印工具。纯 Rust 实现，用来整理和编辑照片，完全没用 Adobe 的代码。",
+    "zh-TW": "從零重寫的類似 Adobe Lightroom 的照片管理與 RAW 沖印工具。純 Rust 實作，用來整理和編輯照片，完全沒用 Adobe 的程式碼。",
+    "ja": "Adobe Lightroom のような写真管理・RAW 現像ツールをゼロから書き直したオープンソース版。純 Rust 製。",
+    "ko": "Adobe Lightroom 같은 사진 관리 및 RAW 현상 도구를 처음부터 다시 만든 오픈소스 버전. 순수 Rust로 작성."
   },
   "storytold/wordcraft": {
     "en": "Clean-room word processor in pure Rust",
@@ -1274,11 +1274,11 @@
     "ko": "순수 Rust 클린룸 PDF 리더/에디터"
   },
   "alexgaoth/awesome-reverse-engineered": {
-    "en": "Searchable index of 17k+ open-source tools built by reverse-engineering closed systems, with nightly refresh and MCP",
-    "zh-CN": "可搜索的索引：17000+ 个由逆向闭源系统产生的开源工具，夜间刷新并提供 MCP",
-    "zh-TW": "可搜尋的索引：17000+ 個由逆向閉源系統產生的開源工具，夜間刷新並提供 MCP",
-    "ja": "クローズドシステムをリバースして作られた 17k+ のオープンソースツールの検索可能な索引（毎晩更新、MCP 付き）",
-    "ko": "폐쇄 시스템을 리버스해 만든 17k+ 오픈소스 도구의 검색 가능한 인덱스 (매일 갱신, MCP 포함)"
+    "en": "A big searchable catalog of more than 17,000 open-source projects that exist because someone reverse-engineered a closed app, game, API or device. It also has its own search website and an MCP server so AI can look things up.",
+    "zh-CN": "一个很大的可搜索目录，收录了超过 1.7 万个开源项目。这些项目存在是因为有人把闭源的应用、游戏、API 或设备逆向了。它还有自己的搜索网站和 MCP，方便 AI 查询。",
+    "zh-TW": "一個很大的可搜尋目錄，收錄了超過 1.7 萬個開源專案。這些專案存在是因為有人把閉源的應用、遊戲、API 或裝置逆向了。它還有自己的搜尋網站和 MCP，方便 AI 查詢。",
+    "ja": "誰かがクローズドなアプリ・ゲーム・API・デバイスをリバースエンジニアリングした結果生まれたオープンソースプロジェクトを 1.7 万以上集めた検索可能なカタログ。検索サイトと MCP サーバー付き。",
+    "ko": "누군가 클로즈드 앱, 게임, API 또는 장치를 리버스 엔지니어링해서 만든 오픈소스 프로젝트 1.7만 개 이상을 모아 둔 검색 가능한 카탈로그. 자체 검색 사이트와 MCP 서버 포함."
   },
   "SubmitGame/awesome-decomp-games": {
     "en": "Rated, auto-refreshed list of game decomps, static recomps, source ports and engine remakes",
@@ -1295,11 +1295,11 @@
     "ko": "클래식한 리버스 엔지니어링 자료/도구/학습 목록"
   },
   "cyberkaida/reverse-engineering-assistant": {
-    "en": "ReVa: MCP server for reverse engineering tasks inside Ghidra",
-    "zh-CN": "ReVa：Ghidra 内逆向任务的 MCP 服务器",
-    "zh-TW": "ReVa：Ghidra 內逆向任務的 MCP 伺服器",
-    "ja": "ReVa：Ghidra 内のリバースエンジニアリングタスク用 MCP サーバー",
-    "ko": "ReVa: Ghidra 내부 리버스 엔지니어링 작업용 MCP 서버"
+    "en": "Another way to let AI control Ghidra (the free reverse-engineering tool from the NSA). It gives the AI small, focused tools so it can analyze big programs without getting confused.",
+    "zh-CN": "另一种让 AI 控制 Ghidra（NSA 出的免费逆向工具）的方法。它给 AI 很多小而专注的工具，这样分析大程序时不容易晕。",
+    "zh-TW": "另一種讓 AI 控制 Ghidra（NSA 出的免費逆向工具）的方法。它給 AI 很多小而專注的工具，這樣分析大程式時不容易暈。",
+    "ja": "AI が Ghidra（NSA の無料リバースエンジニアリングツール）を操作するもう一つの方法。AI に小さく集中したツールを与え、大きなプログラムでも混乱しにくくする。",
+    "ko": "AI가 Ghidra(NSA의 무료 리버스 엔지니어링 도구)를 제어하는 또 다른 방법. AI에게 작고 집중된 도구를 주어 큰 프로그램도 혼란 없이 분석 가능."
   },
   "radareorg/radare2-mcp": {
     "en": "Official MCP stdio server for radare2",
@@ -1323,53 +1323,53 @@
     "ko": "Age of Empires II 등 RTS의 오픈소스 엔진 재구현"
   },
   "storytold/effectcraft": {
-    "en": "Clean-room After Effects-style motion graphics and compositing tool, written from scratch in pure Rust.",
-    "zh-CN": "洁净室重写的 After Effects 风格动效与合成工具，纯 Rust 从零实现。",
-    "zh-TW": "潔淨室重寫的 After Effects 風格動效與合成工具，純 Rust 從零實作。",
-    "ja": "クリーンルームでゼロから書いた After Effects スタイルのモーション/コンポジットツール（純 Rust）。",
-    "ko": "클린룸으로 처음부터 작성한 After Effects 스타일 모션 그래픽/합성 도구 (순수 Rust)."
+    "en": "People rebuilt Adobe After Effects style motion graphics and visual effects software from scratch in Rust. You can make animated titles and compositing without using Adobe’s code.",
+    "zh-CN": "从零重写的类似 Adobe After Effects 的动效和视觉特效软件。用 Rust 写的，可以做动画标题和合成，完全没用 Adobe 的代码。",
+    "zh-TW": "從零重寫的類似 Adobe After Effects 的動效與視覺特效軟體。用 Rust 寫的，可以做動畫標題和合成，完全沒用 Adobe 的程式碼。",
+    "ja": "Adobe After Effects のようなモーショングラフィックスと VFX ソフトをゼロから書き直したオープンソース版。Rust 製。",
+    "ko": "Adobe After Effects 같은 모션 그래픽 및 시각 효과 소프트웨어를 처음부터 다시 만든 오픈소스 버전. Rust로 작성."
   },
   "storytold/cadcraft": {
-    "en": "Clean-room AutoCAD-style CAD and drafting application, written from scratch in pure Rust.",
-    "zh-CN": "洁净室重写的 AutoCAD 风格 CAD / 制图工具，纯 Rust 从零实现。",
-    "zh-TW": "潔淨室重寫的 AutoCAD 風格 CAD / 製圖工具，純 Rust 從零實作。",
-    "ja": "クリーンルームでゼロから書いた AutoCAD スタイルの CAD/製図アプリ（純 Rust）。",
-    "ko": "클린룸으로 처음부터 작성한 AutoCAD 스타일 CAD/제도 앱 (순수 Rust)."
+    "en": "An open-source CAD and drafting program rebuilt from scratch to be like AutoCAD. Written in pure Rust.",
+    "zh-CN": "从零重写的类似 AutoCAD 的 CAD 制图软件。纯 Rust 实现。",
+    "zh-TW": "從零重寫的類似 AutoCAD 的 CAD 製圖軟體。純 Rust 實作。",
+    "ja": "AutoCAD のような CAD・製図ソフトをゼロから書き直したオープンソース版。純 Rust 製。",
+    "ko": "AutoCAD 같은 CAD 및 제도 프로그램을 처음부터 다시 만든 오픈소스 버전. 순수 Rust로 작성."
   },
   "storytold/figcraft": {
-    "en": "Clean-room Figma-style interface design and collaborative prototyping tool, written from scratch in pure Rust.",
-    "zh-CN": "洁净室重写的 Figma 风格界面设计与协作原型工具，纯 Rust 从零实现。",
-    "zh-TW": "潔淨室重寫的 Figma 風格介面設計與協作原型工具，純 Rust 從零實作。",
-    "ja": "クリーンルームでゼロから書いた Figma スタイルの UI デザイン/プロトタイピングツール（純 Rust）。",
-    "ko": "클린룸으로 처음부터 작성한 Figma 스타일 인터페이스 디자인/프로토타이핑 도구 (순수 Rust)."
+    "en": "People made a free interface design and prototyping tool that works like Figma, written from scratch in Rust.",
+    "zh-CN": "有人从零做了一个类似 Figma 的免费界面设计和原型工具。用 Rust 写的。",
+    "zh-TW": "有人從零做了一個類似 Figma 的免費介面設計與原型工具。用 Rust 寫的。",
+    "ja": "Figma のような UI デザインとプロトタイピングツールをゼロから作った無料のオープンソース版。Rust 製。",
+    "ko": "Figma 같은 인터페이스 디자인 및 프로토타이핑 도구를 처음부터 만든 무료 오픈소스 버전. Rust로 작성."
   },
   "storytold/designcraft": {
-    "en": "Clean-room InDesign-style page layout and publishing editor, written from scratch in pure Rust.",
-    "zh-CN": "洁净室重写的 InDesign 风格排版与出版工具，纯 Rust 从零实现。",
-    "zh-TW": "潔淨室重寫的 InDesign 風格排版與出版工具，純 Rust 從零實作。",
-    "ja": "クリーンルームでゼロから書いた InDesign スタイルのページレイアウト/出版エディタ（純 Rust）。",
-    "ko": "클린룸으로 처음부터 작성한 InDesign 스타일 페이지 레이아웃/출판 에디터 (순수 Rust)."
+    "en": "An open-source page layout and publishing editor rebuilt to be like Adobe InDesign. Written from scratch in Rust.",
+    "zh-CN": "从零重写的类似 Adobe InDesign 的排版出版工具。纯 Rust 实现。",
+    "zh-TW": "從零重寫的類似 Adobe InDesign 的排版出版工具。純 Rust 實作。",
+    "ja": "Adobe InDesign のようなページレイアウト・出版エディタをゼロから書き直したオープンソース版。Rust 製。",
+    "ko": "Adobe InDesign 같은 페이지 레이아웃 및 출판 에디터를 처음부터 다시 만든 오픈소스 버전. Rust로 작성."
   },
   "storytold/deckcraft": {
-    "en": "Clean-room PowerPoint-style presentation and slide tool, written from scratch in pure Rust.",
-    "zh-CN": "洁净室重写的 PowerPoint 风格演示文稿工具，纯 Rust 从零实现。",
-    "zh-TW": "潔淨室重寫的 PowerPoint 風格簡報工具，純 Rust 從零實作。",
-    "ja": "クリーンルームでゼロから書いた PowerPoint スタイルのプレゼン/スライドツール（純 Rust）。",
-    "ko": "클린룸으로 처음부터 작성한 PowerPoint 스타일 프레젠테이션/슬라이드 도구 (순수 Rust)."
+    "en": "People rebuilt PowerPoint-style presentation software from scratch in Rust. You can make slides without Microsoft’s code.",
+    "zh-CN": "从零重写的类似 PowerPoint 的演示文稿软件。用 Rust 写的，做幻灯片不用微软的代码。",
+    "zh-TW": "從零重寫的類似 PowerPoint 的簡報軟體。用 Rust 寫的，做投影片不用微軟的程式碼。",
+    "ja": "PowerPoint のようなプレゼンソフトをゼロから書き直したオープンソース版。Rust 製。",
+    "ko": "PowerPoint 같은 프레젠테이션 소프트웨어를 처음부터 다시 만든 오픈소스 버전. Rust로 작성."
   },
   "storytold/soundcraft": {
-    "en": "Clean-room Pro Tools-style digital audio workstation, written from scratch in pure Rust.",
-    "zh-CN": "洁净室重写的 Pro Tools 风格数字音频工作站，纯 Rust 从零实现。",
-    "zh-TW": "潔淨室重寫的 Pro Tools 風格數位音訊工作站，純 Rust 從零實作。",
-    "ja": "クリーンルームでゼロから書いた Pro Tools スタイルの DAW（純 Rust）。",
-    "ko": "클린룸으로 처음부터 작성한 Pro Tools 스타일 DAW (순수 Rust)."
+    "en": "An open-source digital audio workstation rebuilt to be like Pro Tools. Written from scratch in Rust.",
+    "zh-CN": "从零重写的类似 Pro Tools 的数字音频工作站。纯 Rust 实现。",
+    "zh-TW": "從零重寫的類似 Pro Tools 的數位音訊工作站。純 Rust 實作。",
+    "ja": "Pro Tools のような DAW をゼロから書き直したオープンソース版。Rust 製。",
+    "ko": "Pro Tools 같은 디지털 오디오 워크스테이션을 처음부터 다시 만든 오픈소스 버전. Rust로 작성."
   },
   "storytold/gridcraft": {
-    "en": "Clean-room Excel-style spreadsheet, written from scratch in pure Rust.",
-    "zh-CN": "洁净室重写的 Excel 风格电子表格，纯 Rust 从零实现。",
-    "zh-TW": "潔淨室重寫的 Excel 風格試算表，純 Rust 從零實作。",
-    "ja": "クリーンルームでゼロから書いた Excel スタイルのスプレッドシート（純 Rust）。",
-    "ko": "클린룸으로 처음부터 작성한 Excel 스타일 스프레드시트 (순수 Rust)."
+    "en": "People made a free spreadsheet that works like Excel, written from scratch in Rust.",
+    "zh-CN": "有人从零做了一个类似 Excel 的免费电子表格软件。用 Rust 写的。",
+    "zh-TW": "有人從零做了一個類似 Excel 的免費試算表軟體。用 Rust 寫的。",
+    "ja": "Excel のようなスプレッドシートをゼロから作った無料のオープンソース版。Rust 製。",
+    "ko": "Excel 같은 스프레드시트를 처음부터 만든 무료 오픈소스 버전. Rust로 작성."
   },
   "fosdickio/binary_ninja_mcp": {
     "en": "MCP server that lets LLM agents drive Binary Ninja (decompile, xrefs, rename, annotate).",

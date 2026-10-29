@@ -389,7 +389,7 @@
     "LaurieWired/GhidraMCP",
     "https://github.com/LaurieWired/GhidraMCP",
     "No",
-    "MCP server for Ghidra. Apache-2.0."
+    "Bridge that lets AI assistants control the free reverse-engineering tool Ghidra so they can decompile and analyze programs."
   ],
   [
     "tooling",
@@ -1133,7 +1133,7 @@
     "storytold/photocraft",
     "https://github.com/storytold/photocraft",
     "No",
-    "Clean-room Photoshop-style editor (black-box rebuild). Apache-2.0."
+    "People rebuilt Adobe Photoshop from scratch as free open-source software. Rust photo editor that tries to work like Photoshop without using Adobe’s code."
   ],
   [
     "app",
@@ -1421,7 +1421,7 @@
     "storytold/vectorcraft",
     "https://github.com/storytold/vectorcraft",
     "No",
-    "Clean-room Illustrator-style vector editor in pure Rust. Apache-2.0."
+    "Open-source vector drawing tool rebuilt from scratch to be like Adobe Illustrator. Pure Rust, no Adobe code."
   ],
   [
     "app",
@@ -1429,7 +1429,7 @@
     "storytold/filmcraft",
     "https://github.com/storytold/filmcraft",
     "No",
-    "Clean-room Premiere-style nonlinear video editor in pure Rust. Apache-2.0."
+    "Free video editor rebuilt from scratch to work like Adobe Premiere Pro. Written in Rust, no Adobe code."
   ],
   [
     "app",
@@ -1437,7 +1437,7 @@
     "storytold/lightcraft",
     "https://github.com/storytold/lightcraft",
     "No",
-    "Clean-room Lightroom-style non-destructive photo editor in pure Rust. Apache-2.0."
+    "Open-source photo manager and RAW developer rebuilt to be like Adobe Lightroom. Pure Rust."
   ],
   [
     "app",
@@ -1461,7 +1461,7 @@
     "alexgaoth/awesome-reverse-engineered",
     "https://github.com/alexgaoth/awesome-reverse-engineered",
     "No",
-    "Searchable index of 17k+ open-source tools built by reverse-engineering closed apps, APIs, games, protocols and formats. Includes MCP server. MIT."
+    "Big searchable catalog of 17,000+ open-source projects that exist because someone reverse-engineered a closed app, game, API or device. Has search site + MCP."
   ],
   [
     "tooling",
@@ -1485,7 +1485,7 @@
     "cyberkaida/reverse-engineering-assistant",
     "https://github.com/cyberkaida/reverse-engineering-assistant",
     "No",
-    "ReVa: MCP server for reverse engineering tasks in Ghidra. Apache-2.0."
+    "Another way to let AI control Ghidra (the free NSA reverse-engineering tool). Gives the AI small focused tools."
   ],
   [
     "tooling",
@@ -1517,7 +1517,7 @@
     "storytold/effectcraft",
     "https://github.com/storytold/effectcraft",
     "No",
-    "Clean-room motion-graphics and compositing tool (After Effects style) written from scratch in pure Rust. Apache-2.0."
+    "Motion graphics and visual effects tool rebuilt from scratch in the style of Adobe After Effects. Pure Rust."
   ],
   [
     "app",
@@ -1525,7 +1525,7 @@
     "storytold/cadcraft",
     "https://github.com/storytold/cadcraft",
     "No",
-    "Clean-room CAD / drafting app (AutoCAD style) written from scratch in pure Rust. Apache-2.0."
+    "Open-source CAD and drafting program rebuilt from scratch to be like AutoCAD. Pure Rust."
   ],
   [
     "app",
@@ -1533,7 +1533,7 @@
     "storytold/figcraft",
     "https://github.com/storytold/figcraft",
     "No",
-    "Clean-room interface design and prototyping tool (Figma-style collaborative workflows) written from scratch in pure Rust. Apache-2.0."
+    "Free interface design and prototyping tool rebuilt from scratch to work like Figma. Pure Rust."
   ],
   [
     "app",
@@ -1541,7 +1541,7 @@
     "storytold/designcraft",
     "https://github.com/storytold/designcraft",
     "No",
-    "Clean-room page-layout and publishing editor (InDesign style) written from scratch in pure Rust. Apache-2.0."
+    "Page layout and publishing editor rebuilt from scratch to be like Adobe InDesign. Pure Rust."
   ],
   [
     "app",
@@ -1549,7 +1549,7 @@
     "storytold/deckcraft",
     "https://github.com/storytold/deckcraft",
     "No",
-    "Clean-room presentation / slide tool (PowerPoint style) written from scratch in pure Rust. Apache-2.0."
+    "Presentation software rebuilt from scratch to work like PowerPoint. Pure Rust."
   ],
   [
     "app",
@@ -1557,7 +1557,7 @@
     "storytold/soundcraft",
     "https://github.com/storytold/soundcraft",
     "No",
-    "Clean-room digital audio workstation (Pro Tools style) written from scratch in pure Rust. Apache-2.0."
+    "Digital audio workstation rebuilt from scratch to be like Pro Tools. Pure Rust."
   ],
   [
     "app",
@@ -1565,7 +1565,7 @@
     "storytold/gridcraft",
     "https://github.com/storytold/gridcraft",
     "No",
-    "Clean-room spreadsheet (Excel style) written from scratch in pure Rust. Apache-2.0."
+    "Spreadsheet rebuilt from scratch to work like Excel. Pure Rust."
   ],
   [
     "tooling",
