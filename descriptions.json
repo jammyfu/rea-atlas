@@ -1237,5 +1237,194 @@
     "zh-TW": "DSH /rea 斜線命令，將逆向分析請求路由到 REA 技能與 MCP 工具。",
     "ja": "DSH の /rea スラッシュコマンド。リクエストを REA スキルと MCP ツールにルーティング。",
     "ko": "DSH /rea 슬래시 명령. 요청을 REA 스킬과 MCP 도구로 라우팅."
+  },
+  "storytold/vectorcraft": {
+    "en": "Clean-room vector illustration app in pure Rust targeting Illustrator parity",
+    "zh-CN": "纯 Rust 洁净室矢量插画工具，目标是 Illustrator 级功能",
+    "zh-TW": "純 Rust 潔淨室向量插畫工具，目標是 Illustrator 級功能",
+    "ja": "純 Rust のクリーンルームベクトルイラストツール（Illustrator 相当を目標）",
+    "ko": "순수 Rust 클린룸 벡터 일러스트 도구 (Illustrator 수준 목표)"
+  },
+  "storytold/filmcraft": {
+    "en": "Clean-room nonlinear video editor in pure Rust",
+    "zh-CN": "纯 Rust 洁净室非线性视频编辑器",
+    "zh-TW": "純 Rust 潔淨室非線性影片編輯器",
+    "ja": "純 Rust のクリーンルーム非線形動画エディタ",
+    "ko": "순수 Rust 클린룸 비선형 비디오 편집기"
+  },
+  "storytold/lightcraft": {
+    "en": "Clean-room non-destructive photo editor in pure Rust",
+    "zh-CN": "纯 Rust 洁净室非破坏性照片编辑器",
+    "zh-TW": "純 Rust 潔淨室非破壞性照片編輯器",
+    "ja": "純 Rust のクリーンルーム非破壊写真エディタ",
+    "ko": "순수 Rust 클린룸 비파괴 사진 편집기"
+  },
+  "storytold/wordcraft": {
+    "en": "Clean-room word processor in pure Rust",
+    "zh-CN": "纯 Rust 洁净室文字处理器",
+    "zh-TW": "純 Rust 潔淨室文字處理器",
+    "ja": "純 Rust のクリーンルームワードプロセッサ",
+    "ko": "순수 Rust 클린룸 워드 프로세서"
+  },
+  "storytold/pdfcraft": {
+    "en": "Clean-room PDF reader and editor in pure Rust",
+    "zh-CN": "纯 Rust 洁净室 PDF 阅读与编辑器",
+    "zh-TW": "純 Rust 潔淨室 PDF 閱讀與編輯器",
+    "ja": "純 Rust のクリーンルーム PDF リーダー/エディタ",
+    "ko": "순수 Rust 클린룸 PDF 리더/에디터"
+  },
+  "alexgaoth/awesome-reverse-engineered": {
+    "en": "Searchable index of 17k+ open-source tools built by reverse-engineering closed systems, with nightly refresh and MCP",
+    "zh-CN": "可搜索的索引：17000+ 个由逆向闭源系统产生的开源工具，夜间刷新并提供 MCP",
+    "zh-TW": "可搜尋的索引：17000+ 個由逆向閉源系統產生的開源工具，夜間刷新並提供 MCP",
+    "ja": "クローズドシステムをリバースして作られた 17k+ のオープンソースツールの検索可能な索引（毎晩更新、MCP 付き）",
+    "ko": "폐쇄 시스템을 리버스해 만든 17k+ 오픈소스 도구의 검색 가능한 인덱스 (매일 갱신, MCP 포함)"
+  },
+  "SubmitGame/awesome-decomp-games": {
+    "en": "Rated, auto-refreshed list of game decomps, static recomps, source ports and engine remakes",
+    "zh-CN": "评级并自动刷新的游戏反编译、静态重编译、源码移植与引擎重制列表",
+    "zh-TW": "評級並自動刷新的遊戲反編譯、靜態重編譯、源碼移植與引擎重製列表",
+    "ja": "評価付き・自動更新のゲーム decomp / recomp / ソースポート / エンジンリメイク一覧",
+    "ko": "평점 및 자동 갱신되는 게임 decomp/recomp/소스 포트/엔진 리메이크 목록"
+  },
+  "wtsxDev/reverse-engineering": {
+    "en": "Classic curated list of reverse engineering resources, tools and learning materials",
+    "zh-CN": "经典的逆向工程资源、工具与学习资料精选列表",
+    "zh-TW": "經典的逆向工程資源、工具與學習資料精選列表",
+    "ja": "クラシックなリバースエンジニアリングのリソース・ツール・学習資料リスト",
+    "ko": "클래식한 리버스 엔지니어링 자료/도구/학습 목록"
+  },
+  "cyberkaida/reverse-engineering-assistant": {
+    "en": "ReVa: MCP server for reverse engineering tasks inside Ghidra",
+    "zh-CN": "ReVa：Ghidra 内逆向任务的 MCP 服务器",
+    "zh-TW": "ReVa：Ghidra 內逆向任務的 MCP 伺服器",
+    "ja": "ReVa：Ghidra 内のリバースエンジニアリングタスク用 MCP サーバー",
+    "ko": "ReVa: Ghidra 내부 리버스 엔지니어링 작업용 MCP 서버"
+  },
+  "radareorg/radare2-mcp": {
+    "en": "Official MCP stdio server for radare2",
+    "zh-CN": "radare2 官方 MCP stdio 服务器",
+    "zh-TW": "radare2 官方 MCP stdio 伺服器",
+    "ja": "radare2 公式 MCP stdio サーバー",
+    "ko": "radare2 공식 MCP stdio 서버"
+  },
+  "radareorg/r2ai": {
+    "en": "LLM-based reversing tools and plugins for radare2",
+    "zh-CN": "radare2 的基于 LLM 的逆向工具与插件",
+    "zh-TW": "radare2 的基於 LLM 的逆向工具與插件",
+    "ja": "radare2 用の LLM ベースのリバースツールとプラグイン",
+    "ko": "radare2용 LLM 기반 리버스 도구 및 플러그인"
+  },
+  "openage/openage": {
+    "en": "Open-source engine reimplementation for Age of Empires II and other RTS titles",
+    "zh-CN": "帝国时代 2 及其他 RTS 的开源引擎重实现",
+    "zh-TW": "帝國時代 2 及其他 RTS 的開源引擎重實現",
+    "ja": "Age of Empires II など RTS のオープンソースエンジン再実装",
+    "ko": "Age of Empires II 등 RTS의 오픈소스 엔진 재구현"
+  },
+  "storytold/effectcraft": {
+    "en": "Clean-room After Effects-style motion graphics and compositing tool, written from scratch in pure Rust.",
+    "zh-CN": "洁净室重写的 After Effects 风格动效与合成工具，纯 Rust 从零实现。",
+    "zh-TW": "潔淨室重寫的 After Effects 風格動效與合成工具，純 Rust 從零實作。",
+    "ja": "クリーンルームでゼロから書いた After Effects スタイルのモーション/コンポジットツール（純 Rust）。",
+    "ko": "클린룸으로 처음부터 작성한 After Effects 스타일 모션 그래픽/합성 도구 (순수 Rust)."
+  },
+  "storytold/cadcraft": {
+    "en": "Clean-room AutoCAD-style CAD and drafting application, written from scratch in pure Rust.",
+    "zh-CN": "洁净室重写的 AutoCAD 风格 CAD / 制图工具，纯 Rust 从零实现。",
+    "zh-TW": "潔淨室重寫的 AutoCAD 風格 CAD / 製圖工具，純 Rust 從零實作。",
+    "ja": "クリーンルームでゼロから書いた AutoCAD スタイルの CAD/製図アプリ（純 Rust）。",
+    "ko": "클린룸으로 처음부터 작성한 AutoCAD 스타일 CAD/제도 앱 (순수 Rust)."
+  },
+  "storytold/figcraft": {
+    "en": "Clean-room Figma-style interface design and collaborative prototyping tool, written from scratch in pure Rust.",
+    "zh-CN": "洁净室重写的 Figma 风格界面设计与协作原型工具，纯 Rust 从零实现。",
+    "zh-TW": "潔淨室重寫的 Figma 風格介面設計與協作原型工具，純 Rust 從零實作。",
+    "ja": "クリーンルームでゼロから書いた Figma スタイルの UI デザイン/プロトタイピングツール（純 Rust）。",
+    "ko": "클린룸으로 처음부터 작성한 Figma 스타일 인터페이스 디자인/프로토타이핑 도구 (순수 Rust)."
+  },
+  "storytold/designcraft": {
+    "en": "Clean-room InDesign-style page layout and publishing editor, written from scratch in pure Rust.",
+    "zh-CN": "洁净室重写的 InDesign 风格排版与出版工具，纯 Rust 从零实现。",
+    "zh-TW": "潔淨室重寫的 InDesign 風格排版與出版工具，純 Rust 從零實作。",
+    "ja": "クリーンルームでゼロから書いた InDesign スタイルのページレイアウト/出版エディタ（純 Rust）。",
+    "ko": "클린룸으로 처음부터 작성한 InDesign 스타일 페이지 레이아웃/출판 에디터 (순수 Rust)."
+  },
+  "storytold/deckcraft": {
+    "en": "Clean-room PowerPoint-style presentation and slide tool, written from scratch in pure Rust.",
+    "zh-CN": "洁净室重写的 PowerPoint 风格演示文稿工具，纯 Rust 从零实现。",
+    "zh-TW": "潔淨室重寫的 PowerPoint 風格簡報工具，純 Rust 從零實作。",
+    "ja": "クリーンルームでゼロから書いた PowerPoint スタイルのプレゼン/スライドツール（純 Rust）。",
+    "ko": "클린룸으로 처음부터 작성한 PowerPoint 스타일 프레젠테이션/슬라이드 도구 (순수 Rust)."
+  },
+  "storytold/soundcraft": {
+    "en": "Clean-room Pro Tools-style digital audio workstation, written from scratch in pure Rust.",
+    "zh-CN": "洁净室重写的 Pro Tools 风格数字音频工作站，纯 Rust 从零实现。",
+    "zh-TW": "潔淨室重寫的 Pro Tools 風格數位音訊工作站，純 Rust 從零實作。",
+    "ja": "クリーンルームでゼロから書いた Pro Tools スタイルの DAW（純 Rust）。",
+    "ko": "클린룸으로 처음부터 작성한 Pro Tools 스타일 DAW (순수 Rust)."
+  },
+  "storytold/gridcraft": {
+    "en": "Clean-room Excel-style spreadsheet, written from scratch in pure Rust.",
+    "zh-CN": "洁净室重写的 Excel 风格电子表格，纯 Rust 从零实现。",
+    "zh-TW": "潔淨室重寫的 Excel 風格試算表，純 Rust 從零實作。",
+    "ja": "クリーンルームでゼロから書いた Excel スタイルのスプレッドシート（純 Rust）。",
+    "ko": "클린룸으로 처음부터 작성한 Excel 스타일 스프레드시트 (순수 Rust)."
+  },
+  "fosdickio/binary_ninja_mcp": {
+    "en": "MCP server that lets LLM agents drive Binary Ninja (decompile, xrefs, rename, annotate).",
+    "zh-CN": "让 LLM Agent 驱动 Binary Ninja 的 MCP 服务器（反编译、交叉引用、重命名、注释）。",
+    "zh-TW": "讓 LLM Agent 驅動 Binary Ninja 的 MCP 伺服器（反編譯、交叉參照、重新命名、註解）。",
+    "ja": "LLM エージェントが Binary Ninja を操作できる MCP サーバー（デコンパイル、xref、リネームなど）。",
+    "ko": "LLM 에이전트가 Binary Ninja를 구동할 수 있는 MCP 서버 (디컴파일, xref, 이름 변경 등)."
+  },
+  "zinja-coder/jadx-ai-mcp": {
+    "en": "MCP plugin for JADX that enables AI agents to decompile and navigate Android APKs/DEX.",
+    "zh-CN": "JADX 的 MCP 插件，让 AI Agent 反编译并浏览 Android APK / DEX。",
+    "zh-TW": "JADX 的 MCP 外掛，讓 AI Agent 反編譯並瀏覽 Android APK / DEX。",
+    "ja": "JADX 用 MCP プラグイン。AI エージェントが Android APK/DEX をデコンパイル・ナビゲート可能。",
+    "ko": "JADX용 MCP 플러그인. AI 에이전트가 Android APK/DEX를 디컴파일하고 탐색 가능."
+  },
+  "JusticeRage/Gepetto": {
+    "en": "IDA Pro plugin that uses language models to explain, rename and comment functions during reverse engineering.",
+    "zh-CN": "IDA Pro 插件，用语言模型在逆向过程中解释、重命名和注释函数。",
+    "zh-TW": "IDA Pro 外掛，用語言模型在逆向過程中解釋、重新命名與註解函式。",
+    "ja": "IDA Pro プラグイン。言語モデルで関数の説明・リネーム・コメントを支援。",
+    "ko": "IDA Pro 플러그인. 언어 모델로 함수 설명, 이름 변경, 주석을 지원."
+  },
+  "symgraph/GhidrAssist": {
+    "en": "LLM extension for Ghidra that assists with renaming, explaining and analyzing decompiled code.",
+    "zh-CN": "Ghidra 的 LLM 扩展，辅助重命名、解释和分析反编译代码。",
+    "zh-TW": "Ghidra 的 LLM 擴充，輔助重新命名、解釋與分析反編譯程式碼。",
+    "ja": "Ghidra 用 LLM 拡張。デコンパイル結果のリネーム・説明・解析を支援。",
+    "ko": "Ghidra용 LLM 확장. 디컴파일된 코드의 이름 변경, 설명, 분석을 지원."
+  },
+  "albertan017/LLM4Decompile": {
+    "en": "Open research models and tooling for LLM-based binary decompilation.",
+    "zh-CN": "基于 LLM 的二进制反编译研究模型与工具（开源权重）。",
+    "zh-TW": "基於 LLM 的二進位反編譯研究模型與工具（開源權重）。",
+    "ja": "LLM ベースのバイナリデコンパイル向け研究モデルとツール（オープンウェイト）。",
+    "ko": "LLM 기반 바이너리 디컴파일을 위한 연구 모델과 도구 (오픈 웨이트)."
+  },
+  "alphaSeclab/awesome-reverse-engineering": {
+    "en": "Large curated list of reverse-engineering tools and resources across major platforms and domains.",
+    "zh-CN": "覆盖主流平台与领域的大型逆向工程工具与资源精选列表。",
+    "zh-TW": "涵蓋主流平台與領域的大型逆向工程工具與資源精選列表。",
+    "ja": "主要プラットフォームと領域をカバーする大規模なリバースエンジニアリングツール/リソース集。",
+    "ko": "주요 플랫폼과 영역을 아우르는 대규모 리버스 엔지니어링 도구/리소스 모음."
+  },
+  "morluto/awesome-reverse-engineering": {
+    "en": "Curated starting point for RE tools and learning (binaries, apps, firmware, formats, protocols). By REA authors.",
+    "zh-CN": "逆向工具与学习资源的精选入门列表（二进制、应用、固件、格式、协议）。由 REA 作者维护。",
+    "zh-TW": "逆向工具與學習資源的精選入門列表（二進位、應用、韌體、格式、協定）。由 REA 作者維護。",
+    "ja": "RE ツールと学習リソースの厳選入門リスト（バイナリ、アプリ、ファームウェア、フォーマット、プロトコル）。REA 作者による。",
+    "ko": "RE 도구와 학습 리소스의 엄선된 입문 목록 (바이너리, 앱, 펌웨어, 포맷, 프로토콜). REA 작성자 유지."
+  },
+  "nforest/awesome-decompilation": {
+    "en": "Curated list of decompilation resources, papers, intermediate representations and related projects.",
+    "zh-CN": "反编译相关资源、论文、中间表示与项目的精选列表。",
+    "zh-TW": "反編譯相關資源、論文、中間表示與專案的精選列表。",
+    "ja": "デコンパイル関連リソース、論文、中間表現、プロジェクトの厳選リスト。",
+    "ko": "디컴파일 관련 리소스, 논문, 중간 표현, 프로젝트의 엄선된 목록."
   }
 }

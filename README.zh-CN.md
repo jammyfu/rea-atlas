@@ -354,6 +354,7 @@ _可选过滤：以下有公开证据表明使用了 REA。地图里大部分项
 <tr><td><a href="https://github.com/tallowmere/free-heroes4"><img src="https://upload.wikimedia.org/wikipedia/en/c/cc/Heroes_of_Might_and_Magic_IV_box.jpg" width="160" alt="tallowmere/free-heroes4"></a></td><td><a href="https://github.com/tallowmere/free-heroes4"><b>free-heroes4</b></a><br><sub>tallowmere</sub></td><td>英雄无敌 IV 的 C++23 新引擎（读取你的 GOG 文件）</td><td>否</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/c/cc/Heroes_of_Might_and_Magic_IV_box.jpg">维基百科（© 版权方）</a></sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/carlhako/keen-clone"><b>keen-clone</b></a><br><sub>carlhako</sub></td><td>用 REA + Ghidra 函数级还原的 Commander Keen 1 原生 Linux/SDL2 重实现</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/NathanKanaeru/samp-client-re"><b>samp-client-re</b></a><br><sub>NathanKanaeru</sub></td><td>用 REA/Ghidra 恢复架构的 SA-MP 0.3.DL-R1 clean-room 客户端重实现</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/openage/openage"><b>openage</b></a><br><sub>openage</sub></td><td>帝国时代 2 及其他 RTS 的开源引擎重实现</td><td>否</td><td><sub>—</sub></td></tr>
 </table>
 
 #### 资源提取与工具
@@ -391,6 +392,18 @@ _可选过滤：以下有公开证据表明使用了 REA。地图里大部分项
 <tr><td>—</td><td><a href="https://github.com/chilliesdev/fmseasonhub-re"><b>fmseasonhub-re</b></a><br><sub>chilliesdev</sub></td><td>用 REA 拆解 FM Season Hub 应用的分析笔记</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Caho1/open-claude-ui"><b>open-claude-ui</b></a><br><sub>Caho1</sub></td><td>用 REA 深度拆解并高保真还原 Claude 桌面端 UI 组件与交互物理</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/glauberlima/open-scrantic"><b>open-scrantic</b></a><br><sub>glauberlima</sub></td><td>用 REA 逆向并重写的 1992 年 Johnny Castaway 屏保（Rust）</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/storytold/vectorcraft"><b>vectorcraft</b></a><br><sub>storytold</sub></td><td>纯 Rust 洁净室矢量插画工具，目标是 Illustrator 级功能</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/storytold/filmcraft"><b>filmcraft</b></a><br><sub>storytold</sub></td><td>纯 Rust 洁净室非线性视频编辑器</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/storytold/lightcraft"><b>lightcraft</b></a><br><sub>storytold</sub></td><td>纯 Rust 洁净室非破坏性照片编辑器</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/storytold/wordcraft"><b>wordcraft</b></a><br><sub>storytold</sub></td><td>纯 Rust 洁净室文字处理器</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/storytold/pdfcraft"><b>pdfcraft</b></a><br><sub>storytold</sub></td><td>纯 Rust 洁净室 PDF 阅读与编辑器</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/storytold/effectcraft"><b>effectcraft</b></a><br><sub>storytold</sub></td><td>洁净室重写的 After Effects 风格动效与合成工具，纯 Rust 从零实现。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/storytold/cadcraft"><b>cadcraft</b></a><br><sub>storytold</sub></td><td>洁净室重写的 AutoCAD 风格 CAD / 制图工具，纯 Rust 从零实现。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/storytold/figcraft"><b>figcraft</b></a><br><sub>storytold</sub></td><td>洁净室重写的 Figma 风格界面设计与协作原型工具，纯 Rust 从零实现。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/storytold/designcraft"><b>designcraft</b></a><br><sub>storytold</sub></td><td>洁净室重写的 InDesign 风格排版与出版工具，纯 Rust 从零实现。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/storytold/deckcraft"><b>deckcraft</b></a><br><sub>storytold</sub></td><td>洁净室重写的 PowerPoint 风格演示文稿工具，纯 Rust 从零实现。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/storytold/soundcraft"><b>soundcraft</b></a><br><sub>storytold</sub></td><td>洁净室重写的 Pro Tools 风格数字音频工作站，纯 Rust 从零实现。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/storytold/gridcraft"><b>gridcraft</b></a><br><sub>storytold</sub></td><td>洁净室重写的 Excel 风格电子表格，纯 Rust 从零实现。</td><td>否</td><td><sub>—</sub></td></tr>
 </table>
 
 ## 协议 / 硬件
@@ -477,6 +490,20 @@ _可选过滤：以下有公开证据表明使用了 REA。地图里大部分项
 <tr><td><a href="https://github.com/orikami048/gea"><img src="images/gea-card.png" width="160" alt="orikami048/gea"></a></td><td><a href="https://github.com/orikami048/gea"><b>gea</b></a><br><sub>orikami048</sub></td><td>游戏逆向、资源提取与 Cocos/Three.js 重现的 MCP 与 CLI；受 morluto/rea 启发。</td><td>否</td><td><sub>仓库卡片</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Stijnus/dsh-rev-eng"><b>dsh-rev-eng</b></a><br><sub>Stijnus</sub></td><td>将 REA 技能与可选 MCP 打包为 DSH 插件，用于逆向工程与 Mac 应用构建。</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/CurLeaf/dsh-command-rea"><b>dsh-command-rea</b></a><br><sub>CurLeaf</sub></td><td>DSH /rea 斜杠命令，将逆向分析请求路由到 REA 技能与 MCP 工具。</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/alexgaoth/awesome-reverse-engineered"><b>awesome-reverse-engineered</b></a><br><sub>alexgaoth</sub></td><td>可搜索的索引：17000+ 个由逆向闭源系统产生的开源工具，夜间刷新并提供 MCP</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/SubmitGame/awesome-decomp-games"><b>awesome-decomp-games</b></a><br><sub>SubmitGame</sub></td><td>评级并自动刷新的游戏反编译、静态重编译、源码移植与引擎重制列表</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/wtsxdev/reverse-engineering"><b>reverse-engineering</b></a><br><sub>wtsxDev</sub></td><td>经典的逆向工程资源、工具与学习资料精选列表</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/cyberkaida/reverse-engineering-assistant"><b>reverse-engineering-assistant</b></a><br><sub>cyberkaida</sub></td><td>ReVa：Ghidra 内逆向任务的 MCP 服务器</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/radareorg/radare2-mcp"><b>radare2-mcp</b></a><br><sub>radareorg</sub></td><td>radare2 官方 MCP stdio 服务器</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/radareorg/r2ai"><b>r2ai</b></a><br><sub>radareorg</sub></td><td>radare2 的基于 LLM 的逆向工具与插件</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/fosdickio/binary_ninja_mcp"><b>binary_ninja_mcp</b></a><br><sub>fosdickio</sub></td><td>让 LLM Agent 驱动 Binary Ninja 的 MCP 服务器（反编译、交叉引用、重命名、注释）。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/zinja-coder/jadx-ai-mcp"><b>jadx-ai-mcp</b></a><br><sub>zinja-coder</sub></td><td>JADX 的 MCP 插件，让 AI Agent 反编译并浏览 Android APK / DEX。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/JusticeRage/Gepetto"><b>Gepetto</b></a><br><sub>JusticeRage</sub></td><td>IDA Pro 插件，用语言模型在逆向过程中解释、重命名和注释函数。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/symgraph/GhidrAssist"><b>GhidrAssist</b></a><br><sub>symgraph</sub></td><td>Ghidra 的 LLM 扩展，辅助重命名、解释和分析反编译代码。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/albertan017/LLM4Decompile"><b>LLM4Decompile</b></a><br><sub>albertan017</sub></td><td>基于 LLM 的二进制反编译研究模型与工具（开源权重）。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/alphaSeclab/awesome-reverse-engineering"><b>awesome-reverse-engineering</b></a><br><sub>alphaSeclab</sub></td><td>覆盖主流平台与领域的大型逆向工程工具与资源精选列表。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/morluto/awesome-reverse-engineering"><b>awesome-reverse-engineering</b></a><br><sub>morluto</sub></td><td>逆向工具与学习资源的精选入门列表（二进制、应用、固件、格式、协议）。由 REA 作者维护。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/nforest/awesome-decompilation"><b>awesome-decompilation</b></a><br><sub>nforest</sub></td><td>反编译相关资源、论文、中间表示与项目的精选列表。</td><td>否</td><td><sub>—</sub></td></tr>
 </table>
 
 ## REA 官方 Showcase

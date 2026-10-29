@@ -354,6 +354,7 @@ _선택 필터: 다음은 REA를 사용했다는 공개 증거가 있는 프로�
 <tr><td><a href="https://github.com/tallowmere/free-heroes4"><img src="https://upload.wikimedia.org/wikipedia/en/c/cc/Heroes_of_Might_and_Magic_IV_box.jpg" width="160" alt="tallowmere/free-heroes4"></a></td><td><a href="https://github.com/tallowmere/free-heroes4"><b>free-heroes4</b></a><br><sub>tallowmere</sub></td><td>히어로즈 오브 마이트 앤 매직 IV를 C++23 새 엔진으로(GOG 파일 사용)</td><td>아니요</td><td><sub><a href="https://upload.wikimedia.org/wikipedia/en/c/cc/Heroes_of_Might_and_Magic_IV_box.jpg">위키백과(© 권리자)</a></sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/carlhako/keen-clone"><b>keen-clone</b></a><br><sub>carlhako</sub></td><td>REA + Ghidra로 함수 단위 복원한 Commander Keen 1의 네이티브 Linux/SDL2 재구현</td><td>✅ 예</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/NathanKanaeru/samp-client-re"><b>samp-client-re</b></a><br><sub>NathanKanaeru</sub></td><td>REA/Ghidra로 아키텍처를 복원한 SA-MP 0.3.DL-R1 클린룸 클라이언트 재구현</td><td>✅ 예</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/openage/openage"><b>openage</b></a><br><sub>openage</sub></td><td>Age of Empires II 등 RTS의 오픈소스 엔진 재구현</td><td>아니요</td><td><sub>—</sub></td></tr>
 </table>
 
 #### 에셋 추출 및 도구
@@ -391,6 +392,18 @@ _선택 필터: 다음은 REA를 사용했다는 공개 증거가 있는 프로�
 <tr><td>—</td><td><a href="https://github.com/chilliesdev/fmseasonhub-re"><b>fmseasonhub-re</b></a><br><sub>chilliesdev</sub></td><td>REA로 FM Season Hub 앱을 분석한 노트</td><td>✅ 예</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Caho1/open-claude-ui"><b>open-claude-ui</b></a><br><sub>Caho1</sub></td><td>REA로 Claude Desktop UI와 상호작용 물리를 추출한 고충실도 재구현</td><td>✅ 예</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/glauberlima/open-scrantic"><b>open-scrantic</b></a><br><sub>glauberlima</sub></td><td>REA로 역공학한 1992년 Johnny Castaway 화면 보호기의 Rust 재구현</td><td>✅ 예</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/storytold/vectorcraft"><b>vectorcraft</b></a><br><sub>storytold</sub></td><td>순수 Rust 클린룸 벡터 일러스트 도구 (Illustrator 수준 목표)</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/storytold/filmcraft"><b>filmcraft</b></a><br><sub>storytold</sub></td><td>순수 Rust 클린룸 비선형 비디오 편집기</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/storytold/lightcraft"><b>lightcraft</b></a><br><sub>storytold</sub></td><td>순수 Rust 클린룸 비파괴 사진 편집기</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/storytold/wordcraft"><b>wordcraft</b></a><br><sub>storytold</sub></td><td>순수 Rust 클린룸 워드 프로세서</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/storytold/pdfcraft"><b>pdfcraft</b></a><br><sub>storytold</sub></td><td>순수 Rust 클린룸 PDF 리더/에디터</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/storytold/effectcraft"><b>effectcraft</b></a><br><sub>storytold</sub></td><td>클린룸으로 처음부터 작성한 After Effects 스타일 모션 그래픽/합성 도구 (순수 Rust).</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/storytold/cadcraft"><b>cadcraft</b></a><br><sub>storytold</sub></td><td>클린룸으로 처음부터 작성한 AutoCAD 스타일 CAD/제도 앱 (순수 Rust).</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/storytold/figcraft"><b>figcraft</b></a><br><sub>storytold</sub></td><td>클린룸으로 처음부터 작성한 Figma 스타일 인터페이스 디자인/프로토타이핑 도구 (순수 Rust).</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/storytold/designcraft"><b>designcraft</b></a><br><sub>storytold</sub></td><td>클린룸으로 처음부터 작성한 InDesign 스타일 페이지 레이아웃/출판 에디터 (순수 Rust).</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/storytold/deckcraft"><b>deckcraft</b></a><br><sub>storytold</sub></td><td>클린룸으로 처음부터 작성한 PowerPoint 스타일 프레젠테이션/슬라이드 도구 (순수 Rust).</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/storytold/soundcraft"><b>soundcraft</b></a><br><sub>storytold</sub></td><td>클린룸으로 처음부터 작성한 Pro Tools 스타일 DAW (순수 Rust).</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/storytold/gridcraft"><b>gridcraft</b></a><br><sub>storytold</sub></td><td>클린룸으로 처음부터 작성한 Excel 스타일 스프레드시트 (순수 Rust).</td><td>아니요</td><td><sub>—</sub></td></tr>
 </table>
 
 ## 프로토콜 / 하드웨어
@@ -477,6 +490,20 @@ _선택 필터: 다음은 REA를 사용했다는 공개 증거가 있는 프로�
 <tr><td><a href="https://github.com/orikami048/gea"><img src="images/gea-card.png" width="160" alt="orikami048/gea"></a></td><td><a href="https://github.com/orikami048/gea"><b>gea</b></a><br><sub>orikami048</sub></td><td>게임 리버스 엔지니어링, 에셋 추출, Cocos/Three.js 재현을 위한 MCP 및 CLI. morluto/rea에서 영감.</td><td>아니요</td><td><sub>저장소 카드</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Stijnus/dsh-rev-eng"><b>dsh-rev-eng</b></a><br><sub>Stijnus</sub></td><td>REA 스킬과 선택적 MCP를 DSH 플러그인으로 패키징. 리버스 엔지니어링 및 Mac 앱 빌드용.</td><td>✅ 예</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/CurLeaf/dsh-command-rea"><b>dsh-command-rea</b></a><br><sub>CurLeaf</sub></td><td>DSH /rea 슬래시 명령. 요청을 REA 스킬과 MCP 도구로 라우팅.</td><td>✅ 예</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/alexgaoth/awesome-reverse-engineered"><b>awesome-reverse-engineered</b></a><br><sub>alexgaoth</sub></td><td>폐쇄 시스템을 리버스해 만든 17k+ 오픈소스 도구의 검색 가능한 인덱스 (매일 갱신, MCP 포함)</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/SubmitGame/awesome-decomp-games"><b>awesome-decomp-games</b></a><br><sub>SubmitGame</sub></td><td>평점 및 자동 갱신되는 게임 decomp/recomp/소스 포트/엔진 리메이크 목록</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/wtsxdev/reverse-engineering"><b>reverse-engineering</b></a><br><sub>wtsxDev</sub></td><td>클래식한 리버스 엔지니어링 자료/도구/학습 목록</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/cyberkaida/reverse-engineering-assistant"><b>reverse-engineering-assistant</b></a><br><sub>cyberkaida</sub></td><td>ReVa: Ghidra 내부 리버스 엔지니어링 작업용 MCP 서버</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/radareorg/radare2-mcp"><b>radare2-mcp</b></a><br><sub>radareorg</sub></td><td>radare2 공식 MCP stdio 서버</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/radareorg/r2ai"><b>r2ai</b></a><br><sub>radareorg</sub></td><td>radare2용 LLM 기반 리버스 도구 및 플러그인</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/fosdickio/binary_ninja_mcp"><b>binary_ninja_mcp</b></a><br><sub>fosdickio</sub></td><td>LLM 에이전트가 Binary Ninja를 구동할 수 있는 MCP 서버 (디컴파일, xref, 이름 변경 등).</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/zinja-coder/jadx-ai-mcp"><b>jadx-ai-mcp</b></a><br><sub>zinja-coder</sub></td><td>JADX용 MCP 플러그인. AI 에이전트가 Android APK/DEX를 디컴파일하고 탐색 가능.</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/JusticeRage/Gepetto"><b>Gepetto</b></a><br><sub>JusticeRage</sub></td><td>IDA Pro 플러그인. 언어 모델로 함수 설명, 이름 변경, 주석을 지원.</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/symgraph/GhidrAssist"><b>GhidrAssist</b></a><br><sub>symgraph</sub></td><td>Ghidra용 LLM 확장. 디컴파일된 코드의 이름 변경, 설명, 분석을 지원.</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/albertan017/LLM4Decompile"><b>LLM4Decompile</b></a><br><sub>albertan017</sub></td><td>LLM 기반 바이너리 디컴파일을 위한 연구 모델과 도구 (오픈 웨이트).</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/alphaSeclab/awesome-reverse-engineering"><b>awesome-reverse-engineering</b></a><br><sub>alphaSeclab</sub></td><td>주요 플랫폼과 영역을 아우르는 대규모 리버스 엔지니어링 도구/리소스 모음.</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/morluto/awesome-reverse-engineering"><b>awesome-reverse-engineering</b></a><br><sub>morluto</sub></td><td>RE 도구와 학습 리소스의 엄선된 입문 목록 (바이너리, 앱, 펌웨어, 포맷, 프로토콜). REA 작성자 유지.</td><td>아니요</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/nforest/awesome-decompilation"><b>awesome-decompilation</b></a><br><sub>nforest</sub></td><td>디컴파일 관련 리소스, 논문, 중간 표현, 프로젝트의 엄선된 목록.</td><td>아니요</td><td><sub>—</sub></td></tr>
 </table>
 
 ## REA 공식 쇼케이스

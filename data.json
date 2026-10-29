@@ -1414,5 +1414,221 @@
     "https://github.com/CurLeaf/dsh-command-rea",
     "Yes",
     "DSH slash command /rea that routes reverse-engineering requests to the REA skill and MCP tools."
+  ],
+  [
+    "app",
+    "",
+    "storytold/vectorcraft",
+    "https://github.com/storytold/vectorcraft",
+    "No",
+    "Clean-room Illustrator-style vector editor in pure Rust. Apache-2.0."
+  ],
+  [
+    "app",
+    "",
+    "storytold/filmcraft",
+    "https://github.com/storytold/filmcraft",
+    "No",
+    "Clean-room Premiere-style nonlinear video editor in pure Rust. Apache-2.0."
+  ],
+  [
+    "app",
+    "",
+    "storytold/lightcraft",
+    "https://github.com/storytold/lightcraft",
+    "No",
+    "Clean-room Lightroom-style non-destructive photo editor in pure Rust. Apache-2.0."
+  ],
+  [
+    "app",
+    "",
+    "storytold/wordcraft",
+    "https://github.com/storytold/wordcraft",
+    "No",
+    "Clean-room Microsoft Word-style word processor in pure Rust. Apache-2.0."
+  ],
+  [
+    "app",
+    "",
+    "storytold/pdfcraft",
+    "https://github.com/storytold/pdfcraft",
+    "No",
+    "Clean-room PDF reader and editor in pure Rust. Apache-2.0."
+  ],
+  [
+    "tooling",
+    "",
+    "alexgaoth/awesome-reverse-engineered",
+    "https://github.com/alexgaoth/awesome-reverse-engineered",
+    "No",
+    "Searchable index of 17k+ open-source tools built by reverse-engineering closed apps, APIs, games, protocols and formats. Includes MCP server. MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "SubmitGame/awesome-decomp-games",
+    "https://github.com/SubmitGame/awesome-decomp-games",
+    "No",
+    "Rated, auto-refreshed list of game decomps, static recomps, source ports and engine remakes. CC0/MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "wtsxDev/reverse-engineering",
+    "https://github.com/wtsxdev/reverse-engineering",
+    "No",
+    "Classic curated list of reverse engineering resources, tools and learning materials. ~10k stars."
+  ],
+  [
+    "tooling",
+    "",
+    "cyberkaida/reverse-engineering-assistant",
+    "https://github.com/cyberkaida/reverse-engineering-assistant",
+    "No",
+    "ReVa: MCP server for reverse engineering tasks in Ghidra. Apache-2.0."
+  ],
+  [
+    "tooling",
+    "",
+    "radareorg/radare2-mcp",
+    "https://github.com/radareorg/radare2-mcp",
+    "No",
+    "Official MCP stdio server for radare2. MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "radareorg/r2ai",
+    "https://github.com/radareorg/r2ai",
+    "No",
+    "LLM-based reversing plugin and tools for radare2. MIT."
+  ],
+  [
+    "pc",
+    "remake",
+    "openage/openage",
+    "https://github.com/openage/openage",
+    "No",
+    "Open-source engine reimplementation for Age of Empires II and other RTS. GPL-3.0."
+  ],
+  [
+    "app",
+    "",
+    "storytold/effectcraft",
+    "https://github.com/storytold/effectcraft",
+    "No",
+    "Clean-room motion-graphics and compositing tool (After Effects style) written from scratch in pure Rust. Apache-2.0."
+  ],
+  [
+    "app",
+    "",
+    "storytold/cadcraft",
+    "https://github.com/storytold/cadcraft",
+    "No",
+    "Clean-room CAD / drafting app (AutoCAD style) written from scratch in pure Rust. Apache-2.0."
+  ],
+  [
+    "app",
+    "",
+    "storytold/figcraft",
+    "https://github.com/storytold/figcraft",
+    "No",
+    "Clean-room interface design and prototyping tool (Figma-style collaborative workflows) written from scratch in pure Rust. Apache-2.0."
+  ],
+  [
+    "app",
+    "",
+    "storytold/designcraft",
+    "https://github.com/storytold/designcraft",
+    "No",
+    "Clean-room page-layout and publishing editor (InDesign style) written from scratch in pure Rust. Apache-2.0."
+  ],
+  [
+    "app",
+    "",
+    "storytold/deckcraft",
+    "https://github.com/storytold/deckcraft",
+    "No",
+    "Clean-room presentation / slide tool (PowerPoint style) written from scratch in pure Rust. Apache-2.0."
+  ],
+  [
+    "app",
+    "",
+    "storytold/soundcraft",
+    "https://github.com/storytold/soundcraft",
+    "No",
+    "Clean-room digital audio workstation (Pro Tools style) written from scratch in pure Rust. Apache-2.0."
+  ],
+  [
+    "app",
+    "",
+    "storytold/gridcraft",
+    "https://github.com/storytold/gridcraft",
+    "No",
+    "Clean-room spreadsheet (Excel style) written from scratch in pure Rust. Apache-2.0."
+  ],
+  [
+    "tooling",
+    "",
+    "fosdickio/binary_ninja_mcp",
+    "https://github.com/fosdickio/binary_ninja_mcp",
+    "No",
+    "MCP server plugin that exposes Binary Ninja analysis (decompile, xrefs, rename, etc.) to LLM agents. GPL-3.0."
+  ],
+  [
+    "tooling",
+    "",
+    "zinja-coder/jadx-ai-mcp",
+    "https://github.com/zinja-coder/jadx-ai-mcp",
+    "No",
+    "MCP plugin for JADX that lets AI agents decompile, navigate and annotate Android APKs / DEX. Apache-2.0."
+  ],
+  [
+    "tooling",
+    "",
+    "JusticeRage/Gepetto",
+    "https://github.com/JusticeRage/Gepetto",
+    "No",
+    "IDA Pro plugin that queries language models to explain, rename and comment functions during reverse engineering. GPL-3.0."
+  ],
+  [
+    "tooling",
+    "",
+    "symgraph/GhidrAssist",
+    "https://github.com/symgraph/GhidrAssist",
+    "No",
+    "LLM extension for Ghidra that assists with renaming, explaining and analyzing decompiled code. MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "albertan017/LLM4Decompile",
+    "https://github.com/albertan017/LLM4Decompile",
+    "No",
+    "Research models and tooling for LLM-based binary decompilation (open weights). MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "alphaSeclab/awesome-reverse-engineering",
+    "https://github.com/alphaSeclab/awesome-reverse-engineering",
+    "No",
+    "Large curated list of reverse-engineering resources and tools across Windows, Linux, macOS, Android, iOS and IoT (3500+ tools)."
+  ],
+  [
+    "tooling",
+    "",
+    "morluto/awesome-reverse-engineering",
+    "https://github.com/morluto/awesome-reverse-engineering",
+    "No",
+    "Curated starting point for RE tools and learning resources (binaries, apps, firmware, formats, protocols). Maintained by REA authors."
+  ],
+  [
+    "tooling",
+    "",
+    "nforest/awesome-decompilation",
+    "https://github.com/nforest/awesome-decompilation",
+    "No",
+    "Curated list of decompilation resources, papers, intermediate representations and related projects."
   ]
 ]
