@@ -708,5 +708,35 @@
     "card",
     "images/lightcraft-card.jpg",
     "GitHub social preview card for LightCraft"
+  ],
+  "SlickAmogus/silent-hill-decomp": [
+    "card",
+    "images/silent-hill-decomp-card.png",
+    "GitHub social preview card for silent-hill-decomp"
+  ],
+  "tangosdev/sm64ds-decomp": [
+    "card",
+    "images/sm64ds-decomp-card.png",
+    "GitHub social preview card for sm64ds-decomp"
+  ],
+  "openblack/bw1-decomp": [
+    "card",
+    "images/bw1-decomp-card.png",
+    "GitHub social preview card for bw1-decomp"
+  ],
+  "TheRealestNwah/sotc-decomp": [
+    "card",
+    "images/sotc-decomp-card.png",
+    "GitHub social preview card for sotc-decomp"
+  ],
+  "thiagordsfx/urban-reign-recomp": [
+    "card",
+    "images/urban-reign-recomp-card.png",
+    "GitHub social preview card for urban-reign-recomp"
+  ],
+  "tmcleroy/cps2recomp": [
+    "card",
+    "images/cps2recomp-card.png",
+    "GitHub social preview card for cps2recomp"
   ]
 }

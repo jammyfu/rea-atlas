@@ -1426,5 +1426,47 @@
     "zh-TW": "反編譯相關資源、論文、中間表示與專案的精選列表。",
     "ja": "デコンパイル関連リソース、論文、中間表現、プロジェクトの厳選リスト。",
     "ko": "디컴파일 관련 리소스, 논문, 중간 표현, 프로젝트의 엄선된 목록."
+  },
+  "SlickAmogus/silent-hill-decomp": {
+    "en": "An open-source multiplatform port of the original Silent Hill 1, built from a decompilation of the PS1 version so you can play the classic horror game on modern PCs.",
+    "zh-CN": "基于对原版《寂静岭1》PS1 版本的反编译，做成了可以在多平台玩的开源移植版。",
+    "zh-TW": "基於對原版《沉默之丘1》PS1 版本的反編譯，做成了可以在多平台玩的開源移植版。",
+    "ja": "オリジナルの『サイレントヒル1』（PS1版）を逆コンパイルして作った、現代のPCで遊べるオープンソース移植版。",
+    "ko": "원본 《사일런트 힐 1》 PS1 버전을 역컴파일해서 만든, 현대 PC에서 플레이할 수 있는 오픈소스 이식판."
+  },
+  "tangosdev/sm64ds-decomp": {
+    "en": "A from-scratch, byte-for-byte matching decompilation of Super Mario 64 DS, turning the original DS game into readable C/C++ source code.",
+    "zh-CN": "从零开始、逐字节匹配的《超级马力欧64 DS》反编译项目，把原版 DS 游戏还原成可读的 C/C++ 源码。",
+    "zh-TW": "從零開始、逐位元組匹配的《超級瑪利歐64 DS》反編譯專案，把原版 DS 遊戲還原成可讀的 C/C++ 原始碼。",
+    "ja": "『スーパーマリオ64 DS』をゼロからバイト単位で一致させる逆コンパイルプロジェクト。元のDS版を読みやすいC/C++ソースに復元。",
+    "ko": "《슈퍼 마리오 64 DS》를 처음부터 바이트 단위로 일치시키는 디컴파일 프로젝트. 원본 DS 게임을 읽을 수 있는 C/C++ 소스코드로 복원."
+  },
+  "openblack/bw1-decomp": {
+    "en": "Decompilation of the classic PC god game Black & White 1, reconstructing the original closed-source code into open source.",
+    "zh-CN": "经典 PC 神游戏《黑与白1》的反编译项目，把原版闭源代码重建成开源。",
+    "zh-TW": "經典 PC 神遊戲《黑與白1》的反編譯專案，把原版閉源程式碼重建成開源。",
+    "ja": "クラシックPC神ゲーム『Black & White 1』の逆コンパイル。元のクローズドソースをオープンソースに再構築。",
+    "ko": "클래식 PC 신 게임 《블랙 앤 화이트 1》의 디컴파일 프로젝트. 원본 클로즈드 소스 코드를 오픈소스로 재구성."
+  },
+  "TheRealestNwah/sotc-decomp": {
+    "en": "Matching decompilation of Shadow of the Colossus (PS2), aiming to reconstruct the original game code for a potential native PC port.",
+    "zh-CN": "《旺达与巨像》（PS2）的匹配反编译项目，目标是还原原版游戏代码，最终做成原生 PC 移植。",
+    "zh-TW": "《汪達與巨像》（PS2）的匹配反編譯專案，目標是還原原版遊戲程式碼，最終做成原生 PC 移植。",
+    "ja": "『ワンダと巨像』（PS2版）のマッチング逆コンパイル。オリジナルのゲームコードを復元し、ネイティブPC移植を目指す。",
+    "ko": "《왕다와 거상》(PS2) 매칭 디컴파일 프로젝트. 원본 게임 코드를 복원해 네이티브 PC 포트를 목표로 함."
+  },
+  "thiagordsfx/urban-reign-recomp": {
+    "en": "Static recompilation of the PS2 fighting game Urban Reign into a native PC port with 60 FPS, high resolution, and HD textures.",
+    "zh-CN": "把 PS2 格斗游戏《都市统治》通过静态重编译做成原生 PC 移植版，支持 60 帧、高分辨率和 HD 贴图。",
+    "zh-TW": "把 PS2 格鬥遊戲《都市統治》透過靜態重編譯做成原生 PC 移植版，支援 60 幀、高解析度和 HD 貼圖。",
+    "ja": "PS2の格闘ゲーム『Urban Reign』を静的リコンパイルしてネイティブPC移植版に。60FPS・高解像度・HDテクスチャ対応。",
+    "ko": "PS2 격투 게임 《어반 레인》을 정적 리컴파일로 네이티브 PC 포트로 제작. 60FPS, 고해상도, HD 텍스처 지원."
+  },
+  "tmcleroy/cps2recomp": {
+    "en": "Unofficial native PC ports of classic Capcom CPS-2 arcade games (Street Fighter Alpha 2, etc.) made via static recompilation. Bring your own ROMs.",
+    "zh-CN": "通过静态重编译做成的卡普空 CPS-2 街机游戏（街头霸王 Alpha 2 等）非官方原生 PC 移植版。需自备 ROM。",
+    "zh-TW": "透過靜態重編譯做成的卡普空 CPS-2 街機遊戲（街頭霸王 Alpha 2 等）非官方原生 PC 移植版。需自備 ROM。",
+    "ja": "カプコンCPS-2アーケードゲーム（ストリートファイターα2など）を静的リコンパイルで作った非公式ネイティブPC移植版。ROMは自分で用意。",
+    "ko": "캡콤 CPS-2 아케이드 게임(스트리트 파이터 알파 2 등)을 정적 리컴파일로 만든 비공식 네이티브 PC 포트. ROM은 직접 준비."
   }
 }

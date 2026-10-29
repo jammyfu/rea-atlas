@@ -1630,5 +1630,53 @@
     "https://github.com/nforest/awesome-decompilation",
     "No",
     "Curated list of decompilation resources, papers, intermediate representations and related projects."
+  ],
+  [
+    "ps1",
+    "decomp",
+    "SlickAmogus/silent-hill-decomp",
+    "https://github.com/SlickAmogus/silent-hill-decomp",
+    "No",
+    "Multiplatform port of Silent Hill 1 based on PSX decompilation."
+  ],
+  [
+    "ds",
+    "decomp",
+    "tangosdev/sm64ds-decomp",
+    "https://github.com/tangosdev/sm64ds-decomp",
+    "No",
+    "Byte-matching decompilation of Super Mario 64 DS."
+  ],
+  [
+    "pc",
+    "decomp",
+    "openblack/bw1-decomp",
+    "https://github.com/openblack/bw1-decomp",
+    "No",
+    "Decompilation of the PC game Black & White 1."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "TheRealestNwah/sotc-decomp",
+    "https://github.com/TheRealestNwah/sotc-decomp",
+    "No",
+    "Matching decompilation of Shadow of the Colossus (PS2 NTSC-U)."
+  ],
+  [
+    "ps2",
+    "remake",
+    "thiagordsfx/urban-reign-recomp",
+    "https://github.com/thiagordsfx/urban-reign-recomp",
+    "No",
+    "Static recompilation native PC port of Urban Reign (PS2) with 60 FPS and HD textures."
+  ],
+  [
+    "pc",
+    "remake",
+    "tmcleroy/cps2recomp",
+    "https://github.com/tmcleroy/cps2recomp",
+    "No",
+    "Native PC ports of Capcom CPS-2 arcade games via static recompilation."
   ]
 ]
