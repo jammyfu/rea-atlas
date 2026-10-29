@@ -1,6 +1,17 @@
 import json
 E=json.load(open('data.json'))
 IM=json.load(open('images.json'))
+try:
+  STARS=json.load(open('stars.json'))
+except:
+  STARS={}
+def star_count(e):
+  url=e[3]
+  if 'github.com/' in url:
+    path=url.split('github.com/')[-1].strip('/').split('/')
+    if len(path)>=2:
+      return STARS.get(f"{path[0]}/{path[1]}", 0)
+  return 0
 L={
 'en':dict(f='README.md',t="REA Atlas: map of reverse-engineering projects (REA tags optional)",tag="Map of open reverse-engineering projects: game decomps/recomps, re-implementations, asset tools, protocols, firmware, and RE tooling. Each entry is optionally tagged **Uses rea: Yes / No / Unverified** for [morluto/rea](https://github.com/morluto/rea) — the tag is just a signal, not a requirement. Search here to see if someone already reverse-engineered the target you care about.",
  disc="Unofficial; not affiliated with morluto/rea. No cracks, piracy, ROMs or copyrighted assets are listed or hosted.",
@@ -66,7 +77,7 @@ for k,d in L.items():
     toc.append((level,t,slug(t,seen)));body.extend(['#'*level+' '+t,''])
 
   # Top: projects with public evidence of using REA
-  yes_es = [e for e in E if e[4]=='Yes']
+  yes_es = sorted([e for e in E if e[4]=='Yes'], key=star_count, reverse=True)
   if yes_es:
     yes_title = {
       'en': 'Projects that used REA (evidence-tagged subset)',
@@ -89,15 +100,15 @@ for k,d in L.items():
 
   H(2,d['sec']['games'])
   for p in plats:
-    es=[e for e in E if e[0]==p]
+    es=sorted([e for e in E if e[0]==p], key=star_count, reverse=True)
     if not es:continue
     H(3,d['sec'].get(p,d['sec'].get('_'+p)))
     for s in ['decomp','remake','tools']:
-      ss=[e for e in es if e[1]==s]
+      ss=sorted([e for e in es if e[1]==s], key=star_count, reverse=True)
       if ss:
         t=d['sub'][s];slug(t,seen);body+=[f'#### {t}','']+table(d,x,ss,k)+['']
   for s in ['app','protocol','firmware','security','tooling','official']:
-    es=[e for e in E if e[0]==s]
+    es=sorted([e for e in E if e[0]==s], key=star_count, reverse=True)
     if es:H(2,d['sec'][s]);body+=table(d,x,es,k)+['']
   head=[bar,"",f"# {d['t']}","",d['tag'],"","> "+re.sub(r'(?<=[.。])[^.。]*[.。]$','',d['disc']).strip(),""]
   tl=[f"## {x['toc']}",""]+[("  "*(l-2))+f"- [{t}](#{s})" for l,t,s in toc]+[""]
