@@ -1,692 +1,697 @@
 {
- "DX-Ball: sound-pan function": [
-  "shot",
-  "images/showcase-dx-ball.png",
-  "Our own screenshot of the rea.tools/showcase/dx-ball/ page"
- ],
- "Notion: Electron clipboard bridge": [
-  "shot",
-  "images/showcase-notion.png",
-  "Our own screenshot of the rea.tools/showcase/notion/ page"
- ],
- "TH04: PC-98 bullet-ring maths": [
-  "shot",
-  "images/showcase-th04.png",
-  "Our own screenshot of the rea.tools/showcase/th04/ page"
- ],
- "Aegis: TOTP code generation": [
-  "shot",
-  "images/showcase-aegis.png",
-  "Our own screenshot of the rea.tools/showcase/aegis/ page"
- ],
- "CTF: flag checker": [
-  "shot",
-  "images/showcase-ctf.png",
-  "Our own screenshot of the rea.tools/showcase/ctf/ page"
- ],
- "N0zoM1z0/dx-ball": [
-  "readme",
-  "https://raw.githubusercontent.com/N0zoM1z0/dx-ball/main/resources/dxball-title.png"
- ],
- "N0zoM1z0/th04": [
-  "readme",
-  "https://raw.githubusercontent.com/N0zoM1z0/th04/main/resources/title-screen.png"
- ],
- "N0zoM1z0/th08": [
-  "readme",
-  "https://raw.githubusercontent.com/N0zoM1z0/th08/main/resources/title-screen.png"
- ],
- "N0zoM1z0/th10": [
-  "readme",
-  "https://raw.githubusercontent.com/N0zoM1z0/th10/main/resources/title-screen.png"
- ],
- "ucodia/desktop-games-nostalgia": [
-  "readme",
-  "https://raw.githubusercontent.com/ucodia/desktop-games-nostalgia/main/docs/demo.gif"
- ],
- "tuunanet/rea-ski-or-die-reconstruction": [
-  "readme",
-  "https://raw.githubusercontent.com/tuunanet/rea-ski-or-die-reconstruction/main/docs/snowball-war.gif"
- ],
- "Moxnatiy/OpenBattlefield2": [
-  "readme",
-  "https://raw.githubusercontent.com/Moxnatiy/OpenBattlefield2/master/docs/screenshots/menu-main.png"
- ],
- "OpenRsG/GunZRs": [
-  "readme",
-  "https://raw.githubusercontent.com/OpenRsG/GunZRs/main/docs/media/menu.jpg"
- ],
- "a-barzanti/ai-rebuilds": [
-  "card",
-  "https://opengraph.githubassets.com/1/a-barzanti/ai-rebuilds"
- ],
- "OpenRCT2/OpenRCT2": [
-  "readme",
-  "https://github.com/user-attachments/assets/fa893cc8-1484-4751-94be-4ead00a6c8f9"
- ],
- "OpenMW/openmw": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/commons/9/9e/OpenMW_with_example_suit_2.png",
-  "Screenshot of OpenMW via Wikipedia ([file page](https://en.wikipedia.org/wiki/OpenMW)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "zeldaret/oot": [
-  "issue",
-  "https://github.com/user-attachments/assets/70b4a529-9a5e-4b9c-ac45-48f9f2183eed"
- ],
- "n64decomp/sm64": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/e/e9/Super_Mario_64.png",
-  "Cover art of Super Mario 64 via Wikipedia ([file page](https://en.wikipedia.org/wiki/Super_Mario_64)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "HarbourMasters/Shipwright": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg",
-  "Cover art of The Legend of Zelda: Ocarina of Time via Wikipedia ([file page](https://en.wikipedia.org/wiki/The_Legend_of_Zelda%3A_Ocarina_of_Time)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "ethteck/splat": [
-  "card",
-  "https://opengraph.githubassets.com/1/ethteck/splat"
- ],
- "NEstelami/ZAPD": [
-  "readme",
-  "https://raw.githubusercontent.com/NEstelami/ZAPD/master/docs/zapd_warning_example.png?raw=true"
- ],
- "sonicretro/s1disasm": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/b/ba/Sonic_the_Hedgehog_1_Genesis_box_art.jpg",
-  "Cover art of Sonic the Hedgehog (1991 video game) via Wikipedia ([file page](https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_%281991_video_game%29)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "sonicretro/s2disasm": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_2_US_Cover.jpg",
-  "Cover art of Sonic the Hedgehog 2 via Wikipedia ([file page](https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_2)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "snesrev/zelda3": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/2/21/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg",
-  "Cover art of The Legend of Zelda: A Link to the Past via Wikipedia ([file page](https://en.wikipedia.org/wiki/The_Legend_of_Zelda%3A_A_Link_to_the_Past)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "snesrev/sm": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg",
-  "Cover art of Super Metroid via Wikipedia ([file page](https://en.wikipedia.org/wiki/Super_Metroid)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "pret/pokeemerald": [
-  "issue",
-  "https://user-images.githubusercontent.com/35422415/226195894-bd8307ea-f6be-46cc-85ec-dd28b4f2d144.gif"
- ],
- "pret/pokefirered": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/a/a7/Pokemon_LeafGreen_box.jpg",
-  "Cover art of Pok\u00e9mon FireRed and LeafGreen via Wikipedia ([file page](https://en.wikipedia.org/wiki/Pok%C3%A9mon_FireRed_and_LeafGreen)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "zeldaret/tmc": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/0/0a/TLOZ-_Minish_Cap_NA_Box_art.png",
-  "Cover art of The Legend of Zelda: The Minish Cap via Wikipedia ([file page](https://en.wikipedia.org/wiki/The_Legend_of_Zelda%3A_The_Minish_Cap)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "pret/pokered": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/a/af/Pok%C3%A9mon_Red_and_Blue_cover_art.webp",
-  "Cover art of Pok\u00e9mon Red, Blue, and Yellow via Wikipedia ([file page](https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red%2C_Blue%2C_and_Yellow)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "pret/pokegold": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/4/4c/Pok%C3%A9mon_box_art_-_Gold_Version.png",
-  "Cover art of Pok\u00e9mon Gold and Silver via Wikipedia ([file page](https://en.wikipedia.org/wiki/Pok%C3%A9mon_Gold_and_Silver)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "Xeeynamo/sotn-decomp": [
-  "issue",
-  "https://github.com/user-attachments/assets/fff7ddb2-736f-4e7d-b0ee-3c1151649773"
- ],
- "michaelshimeles/sketch": [
-  "readme",
-  "https://raw.githubusercontent.com/michaelshimeles/sketch/main/docs/screenshots/app_demo.png"
- ],
- "michaelshimeles/rec-rs": [
-  "readme",
-  "https://raw.githubusercontent.com/michaelshimeles/rec-rs/main/docs/screenshots/main.png"
- ],
- "iammukeshm/hexgrab": [
-  "card",
-  "https://opengraph.githubassets.com/1/iammukeshm/hexgrab"
- ],
- "AdamLinCodes/AdamTerm": [
-  "readme",
-  "https://raw.githubusercontent.com/AdamLinCodes/AdamTerm/main/docs/adamterm.png"
- ],
- "az9713/wispr-flow-rea-teardown": [
-  "video",
-  "https://img.youtube.com/vi/FnB9tHKBJXQ/maxresdefault.jpg",
-  "Video thumbnail of the tutorial linked in the README (youtube.com/watch?v=FnB9tHKBJXQ)"
- ],
- "cudanexus/vd-streamer-linux": [
-  "card",
-  "https://opengraph.githubassets.com/1/cudanexus/vd-streamer-linux"
- ],
- "a-funk/open-appleremote": [
-  "card",
-  "https://opengraph.githubassets.com/1/a-funk/open-appleremote"
- ],
- "Slyvan25/OpenGHub": [
-  "readme",
-  "https://raw.githubusercontent.com/Slyvan25/OpenGHub/master/docs/screenshots/devices.png"
- ],
- "grisuno/VSL-DSP": [
-  "card",
-  "https://opengraph.githubassets.com/1/grisuno/VSL-DSP"
- ],
- "ReFirmLabs/binwalk": [
-  "readme",
-  "https://raw.githubusercontent.com/ReFirmLabs/binwalk/master/images/output.png"
- ],
- "NullLabTests/OpenBSD_netcat_REA": [
-  "readme",
-  "https://raw.githubusercontent.com/NullLabTests/OpenBSD_netcat_REA/main/assets/rea-pipeline.png"
- ],
- "REA discussion #2254": [
-  "shot",
-  "images/rea-discussion-2254.png",
-  "Our own screenshot of the GitHub discussion page"
- ],
- "ShadowSwaps/REA-Reconstruction-Companion": [
-  "card",
-  "https://opengraph.githubassets.com/1/ShadowSwaps/REA-Reconstruction-Companion"
- ],
- "NationalSecurityAgency/ghidra": [
-  "shot",
-  "images/ghidra-gui.png",
-  "Our own screenshot: Ghidra 12.2 CodeBrowser + decompiler on /usr/bin/ls"
- ],
- "skylot/jadx": [
-  "readme",
-  "https://user-images.githubusercontent.com/118523/142730720-839f017e-38db-423e-b53f-39f5f0a0316f.png"
- ],
- "ran-j/PS2Recomp": [
-  "card",
-  "https://opengraph.githubassets.com/1/ran-j/PS2Recomp"
- ],
- "snesrev/smw": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/3/32/Super_Mario_World_Coverart.png",
-  "Cover art of Super Mario World via Wikipedia ([file page](https://en.wikipedia.org/wiki/Super_Mario_World)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "LaurieWired/GhidraMCP": [
-  "readme",
-  "https://github.com/user-attachments/assets/4986d702-be3f-4697-acce-aea55cd79ad3"
- ],
- "x64dbg/x64dbg": [
-  "readme",
-  "https://raw.githubusercontent.com/x64dbg/x64dbg/development/.github/screenshots/cpu-light.png"
- ],
- "encounter/decomp-toolkit": [
-  "card",
-  "https://opengraph.githubassets.com/1/encounter/decomp-toolkit"
- ],
- "HarbourMasters/Starship": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/6/63/StarFox64_N64_Game_Box.jpg",
-  "Cover art of Star Fox 64 via Wikipedia ([file page](https://en.wikipedia.org/wiki/Star_Fox_64)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "iBotPeaches/Apktool": [
-  "shot",
-  "images/apktool-terminal.png",
-  "Our own screenshot: real apktool 3.0.3 decode of the open-source Aegis 3.4.3 APK"
- ],
- "zeldaret/tww": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg",
-  "Cover art of The Legend of Zelda: The Wind Waker via Wikipedia ([file page](https://en.wikipedia.org/wiki/The_Legend_of_Zelda%3A_The_Wind_Waker)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "pret/pokeruby": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/b/be/PokemonRubySapphireBox.jpg",
-  "Cover art of Pok\u00e9mon Ruby and Sapphire via Wikipedia ([file page](https://en.wikipedia.org/wiki/Pok%C3%A9mon_Ruby_and_Sapphire)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "angr/angr": [
-  "card",
-  "https://opengraph.githubassets.com/1/angr/angr"
- ],
- "zeldaret/ss": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/9/99/Legend_of_Zelda_Skyward_Sword_boxart.png",
-  "Cover art of The Legend of Zelda: Skyward Sword via Wikipedia ([file page](https://en.wikipedia.org/wiki/The_Legend_of_Zelda%3A_Skyward_Sword)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "hedge-dev/XenonRecomp": [
-  "card",
-  "https://opengraph.githubassets.com/1/hedge-dev/XenonRecomp"
- ],
- "pret/pokeplatinum": [
-  "issue",
-  "https://github.com/user-attachments/assets/157f7c15-4684-48e9-aacb-eefefbcffcec"
- ],
- "n64decomp/mk64": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/a/a1/Mario_Kart_64.jpg",
-  "Cover art of Mario Kart 64 via Wikipedia ([file page](https://en.wikipedia.org/wiki/Mario_Kart_64)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "avast/retdec": [
-  "issue",
-  "https://user-images.githubusercontent.com/20342097/35865940-2288d66a-0b56-11e8-9a92-d154b7111053.png"
- ],
- "encounter/objdiff": [
-  "readme",
-  "https://raw.githubusercontent.com/encounter/objdiff/main/assets/screen-symbols.png"
- ],
- "rizinorg/cutter": [
-  "readme",
-  "https://raw.githubusercontent.com/rizinorg/cutter/dev/docs/source/images/screenshot.png"
- ],
- "ata4/disunity": [
-  "card",
-  "https://opengraph.githubassets.com/1/ata4/disunity"
- ],
- "3DSGuy/Project_CTR": [
-  "card",
-  "https://opengraph.githubassets.com/1/3DSGuy/Project_CTR"
- ],
- "julianxhokaxhiu/FFNx": [
-  "readme",
-  "https://raw.githubusercontent.com/julianxhokaxhiu/FFNx/master/.screens/ff7.png"
- ],
- "DarkRTA/rb3": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/3/3b/Rock_Band_3_Game_Cover.jpg",
-  "Cover art of Rock Band 3 via Wikipedia ([file page](https://en.wikipedia.org/wiki/Rock_Band_3)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "pret/pokeyellow": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/a/af/Pok%C3%A9mon_Red_and_Blue_cover_art.webp",
-  "Cover art of Pok\u00e9mon Red, Blue, and Yellow via Wikipedia ([file page](https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red%2C_Blue%2C_and_Yellow)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "aldonunez/zelda1-disassembly": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/4/41/Legend_of_zelda_cover_%28with_cartridge%29_gold.png",
-  "Cover art of The Legend of Zelda (video game) via Wikipedia ([file page](https://en.wikipedia.org/wiki/The_Legend_of_Zelda_%28video_game%29)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "mitmproxy/mitmproxy": [
-  "readme",
-  "https://mitmproxy.org/screenshot.png"
- ],
- "Zelda64Recomp/Zelda64Recomp": [
-  "readme",
-  "https://raw.githubusercontent.com/Zelda64Recomp/Zelda64Recomp/dev/docs/deck_gyro_1.jpg"
- ],
- "pret/pokecrystal": [
-  "issue",
-  "https://github.com/user-attachments/assets/c39cb860-bb9c-4204-9184-b2761ead0a74"
- ],
- "ghidraninja/ghidra_scripts": [
-  "readme",
-  "https://raw.githubusercontent.com/ghidraninja/ghidra_scripts/master/images/binwalk.png"
- ],
- "Interkarma/daggerfall-unity": [
-  "readme",
-  "https://github.com/Interkarma/daggerfall-unity/assets/10426244/4f176f9d-6332-47b3-a4d7-317ed8d6b38b"
- ],
- "radareorg/radare2": [
-  "readme",
-  "https://raw.githubusercontent.com/radareorg/radare2/master/doc/images/shot.png"
- ],
- "mandiant/flare-floss": [
-  "shot",
-  "images/floss-terminal.png",
-  "Our own screenshot: real FLOSS 3.2.0 output on /usr/bin/ls"
- ],
- "zeldaret/mm": [
-  "issue",
-  "https://user-images.githubusercontent.com/12245827/191111633-e72abfd3-b53c-4d13-82d1-44e6718f1fb0.png"
- ],
- "OpenXcom/OpenXcom": [
-  "card",
-  "https://opengraph.githubassets.com/1/OpenXcom/OpenXcom"
- ],
- "WerWolv/ImHex": [
-  "shot",
-  "images/imhex-gui.png",
-  "Our own screenshot: ImHex 1.38.1 with the ELF pattern applied to /usr/bin/ls"
- ],
- "Perfare/AssetStudio": [
-  "card",
-  "https://opengraph.githubassets.com/1/Perfare/AssetStudio"
- ],
- "open-goal/jak-project": [
-  "readme",
-  "https://raw.githubusercontent.com/open-goal/jak-project/master/docs/img/promosmall1.png"
- ],
- "zeldaret/ph": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/5/5e/The_Legend_of_Zelda_Phantom_Hourglass_Game_Cover.jpg",
-  "Cover art of The Legend of Zelda: Phantom Hourglass via Wikipedia ([file page](https://en.wikipedia.org/wiki/The_Legend_of_Zelda%3A_Phantom_Hourglass)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "mandiant/capa": [
-  "readme",
-  "https://raw.githubusercontent.com/mandiant/capa/master/doc/img/capa_web_explorer.png"
- ],
- "frida/frida": [
-  "shot",
-  "images/frida-terminal.png",
-  "Our own screenshot: real frida-ps output on a Linux box"
- ],
- "qilingframework/qiling": [
-  "readme",
-  "https://raw.githubusercontent.com/qilingframework/theme.qiling.io/master/source/img/fuzzer.jpg?raw=true"
- ],
- "SourMesen/Mesen2": [
-  "card",
-  "https://opengraph.githubassets.com/1/SourMesen/Mesen2"
- ],
- "dnSpyEx/dnSpy": [
-  "readme",
-  "https://raw.githubusercontent.com/dnSpyEx/dnSpy/master/images/debug-animated.gif"
- ],
- "decompme/decomp.me": [
-  "card",
-  "https://opengraph.githubassets.com/1/decompme/decomp.me"
- ],
- "mrexodia/ida-pro-mcp": [
-  "readme",
-  "https://img.youtube.com/vi/iFxNuk3kxhk/0.jpg"
- ],
- "doldecomp/sms": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/0/05/Super_Mario_Sunshine_Box_Art.png",
-  "Cover art of Super Mario Sunshine via Wikipedia ([file page](https://en.wikipedia.org/wiki/Super_Mario_Sunshine)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "AssetRipper/AssetRipper": [
-  "readme",
-  "https://raw.githubusercontent.com/AssetRipper/AssetRipper/master/docs/articles/images/RunningOnMac/004.png"
- ],
- "ladislav-zezula/CascLib": [
-  "card",
-  "https://opengraph.githubassets.com/1/ladislav-zezula/CascLib"
- ],
- "isledecomp/isle": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/a/a1/Lego-island.jpg",
-  "Cover art of Lego Island via Wikipedia ([file page](https://en.wikipedia.org/wiki/Lego_Island)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "pmret/papermario": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/6/61/Papermario.jpg",
-  "Cover art of Paper Mario (video game) via Wikipedia ([file page](https://en.wikipedia.org/wiki/Paper_Mario_%28video_game%29)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "postlund/pyatv": [
-  "card",
-  "https://opengraph.githubassets.com/1/postlund/pyatv"
- ],
- "hedge-dev/UnleashedRecomp": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/a/a0/Sonic_unleashed_boxart.jpg",
-  "Cover art of Sonic Unleashed via Wikipedia ([file page](https://en.wikipedia.org/wiki/Sonic_Unleashed)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "ghidraninja/game-and-watch-backup": [
-  "video",
-  "https://img.youtube.com/vi/-MzmoEFs0bQ/maxresdefault.jpg",
-  "Video thumbnail of the demo linked in the README (youtube.com/watch?v=-MzmoEFs0bQ)"
- ],
- "jiangzhengwenjz/katam": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/0/0b/Kirby_%26_the_Amazing_Mirror.jpg",
-  "Cover art of Kirby & the Amazing Mirror via Wikipedia ([file page](https://en.wikipedia.org/wiki/Kirby_%26_the_Amazing_Mirror)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "scummvm/scummvm": [
-  "readme",
-  "https://www.scummvm.org/data/screenshots/prince/prince/prince_win_en_1_3_full.png"
- ],
- "wireshark/wireshark": [
-  "shot",
-  "images/wireshark-gui.png",
-  "Our own screenshot: Wireshark opening Wireshark's dhcp.pcap test capture"
- ],
- "RSDKModding/RSDKv5-Decompilation": [
-  "readme",
-  "https://raw.githubusercontent.com/RSDKModding/RSDKv5-Decompilation/master/header.png?raw=true"
- ],
- "pret/pmd-red": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/d/d3/Pok%C3%A9mon_Mystery_Dungeon_Blue_and_Red_Rescue_Team_cover_arts.jpg",
-  "Cover art of Pok\u00e9mon Mystery Dungeon: Blue Rescue Team and Red Rescue Team via Wikipedia ([file page](https://en.wikipedia.org/wiki/Pok%C3%A9mon_Mystery_Dungeon%3A_Blue_Rescue_Team_and_Red_Rescue_Team)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "attify/firmware-analysis-toolkit": [
-  "card",
-  "https://opengraph.githubassets.com/1/attify/firmware-analysis-toolkit"
- ],
- "RSDKModding/RSDKv4-Decompilation": [
-  "readme",
-  "https://raw.githubusercontent.com/RSDKModding/RSDKv4-Decompilation/main/header.png?raw=true"
- ],
- "onekey-sec/unblob": [
-  "shot",
-  "images/unblob-terminal.png",
-  "Our own screenshot: real unblob run on a synthetic blob (random pad + tar.gz)"
- ],
- "doldecomp/melee": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/7/75/Super_Smash_Bros_Melee_box_art.png",
-  "Cover art of Super Smash Bros. Melee via Wikipedia ([file page](https://en.wikipedia.org/wiki/Super_Smash_Bros._Melee)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "zeldaret/tp": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/0/0e/The_Legend_of_Zelda_Twilight_Princess_Game_Cover.jpg",
-  "Cover art of The Legend of Zelda: Twilight Princess via Wikipedia ([file page](https://en.wikipedia.org/wiki/The_Legend_of_Zelda%3A_Twilight_Princess)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "yaz0r/Azel": [
-  "readme",
-  "https://github.com/user-attachments/assets/71f6a246-24cc-4d64-9673-53b9e4c3e4df"
- ],
- "electron/asar": [
-  "shot",
-  "images/asar-terminal.png",
-  "Our own screenshot: real @electron/asar pack + list on a demo app"
- ],
- "rizinorg/jsdec": [
-  "card",
-  "https://opengraph.githubassets.com/1/rizinorg/jsdec"
- ],
- "diasurgical/DevilutionX": [
-  "readme",
-  "https://github.com/user-attachments/assets/7ac73801-ef7b-4cc1-8442-a191a2a0a1ce"
- ],
- "fallout2-ce/fallout2-ce": [
-  "readme",
-  "https://raw.githubusercontent.com/fallout2-ce/fallout2-ce/main/docs/images/two-column-inventory.jpg"
- ],
- "rizinorg/rizin": [
-  "readme",
-  "https://rizin.re/images/rizin_preview.png"
- ],
- "OpenTTD/OpenTTD": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/commons/b/ba/OpenTTD-15.3-en.png",
-  "Screenshot of OpenTTD via Wikipedia ([file page](https://en.wikipedia.org/wiki/OpenTTD)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "projectPiki/pikmin2": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/3/38/Pikmin_2_Case.jpg",
-  "Cover art of Pikmin 2 via Wikipedia ([file page](https://en.wikipedia.org/wiki/Pikmin_2)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "N64Recomp/N64Recomp": [
-  "card",
-  "https://opengraph.githubassets.com/1/N64Recomp/N64Recomp"
- ],
- "pret/pokeheartgold": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/c/cb/PokemonHGSSBox.jpg",
-  "Cover art of Pok\u00e9mon HeartGold and SoulSilver via Wikipedia ([file page](https://en.wikipedia.org/wiki/Pok%C3%A9mon_HeartGold_and_SoulSilver)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "zladx/LADX-Disassembly": [
-  "readme",
-  "https://raw.githubusercontent.com/zladx/LADX-Disassembly/main/docs/entities.png"
- ],
- "icsharpcode/ILSpy": [
-  "card",
-  "https://opengraph.githubassets.com/1/icsharpcode/ILSpy"
- ],
- "xemu-project/xemu": [
-  "issue",
-  "https://user-images.githubusercontent.com/71127352/144098855-dbc7b12a-d715-4102-b45c-faeb46deabde.png"
- ],
- "sonicretro/skdisasm": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/d/d3/Sonic_%26_Knuckles_cover.jpg",
-  "Cover art of Sonic & Knuckles via Wikipedia ([file page](https://en.wikipedia.org/wiki/Sonic_%26_Knuckles)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "OpenRA/OpenRA": [
-  "readme",
-  "https://www.openra.net/images/news/20260222-generators.gif"
- ],
- "n64decomp/perfect_dark": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/3/32/Perfect_dark_box.jpg",
-  "Cover art of Perfect Dark via Wikipedia ([file page](https://en.wikipedia.org/wiki/Perfect_Dark)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "travisgoodspeed/md380tools": [
-  "card",
-  "https://opengraph.githubassets.com/1/travisgoodspeed/md380tools"
- ],
- "google/bindiff": [
-  "readme",
-  "https://zynamics.com/images/bindiff_scr1_s.gif"
- ],
- "2ship2harkinian/2ship2harkinian": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/6/60/The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg",
-  "Cover art of The Legend of Zelda: Majora's Mask via Wikipedia ([file page](https://en.wikipedia.org/wiki/The_Legend_of_Zelda%3A_Majora%27s_Mask)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "perfect-dark-pc-port/perfect_dark": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/3/32/Perfect_dark_box.jpg",
-  "Cover art of Perfect Dark via Wikipedia ([file page](https://en.wikipedia.org/wiki/Perfect_Dark)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "shdecompilations/silent-hill-decomp": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/9/96/Silent_Hill_video_game_cover.png",
-  "Cover art of Silent Hill (video game) via Wikipedia ([file page](https://en.wikipedia.org/wiki/Silent_Hill_%28video_game%29)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "N0zoM1z0/th09": [
-  "readme",
-  "https://raw.githubusercontent.com/N0zoM1z0/th09/main/resources/title-screen.png"
- ],
- "N0zoM1z0/th095": [
-  "readme",
-  "https://raw.githubusercontent.com/N0zoM1z0/th095/main/resources/title-screen.jpg"
- ],
- "N0zoM1z0/th105": [
-  "readme",
-  "https://raw.githubusercontent.com/N0zoM1z0/th105/main/resources/title-screen.jpg"
- ],
- "N0zoM1z0/th08-web": [
-  "readme",
-  "https://raw.githubusercontent.com/N0zoM1z0/th08-web/main/resources/th08-web-social-preview.jpg"
- ],
- "N0zoM1z0/touhou-reconstruction-factory": [
-  "card",
-  "https://opengraph.githubassets.com/1/N0zoM1z0/touhou-reconstruction-factory"
- ],
- "N0zoM1z0/touhou-reverse-engineering": [
-  "card",
-  "https://opengraph.githubassets.com/1/N0zoM1z0/touhou-reverse-engineering"
- ],
- "AsyncFinn/rook": [
-  "card",
-  "https://opengraph.githubassets.com/1/AsyncFinn/rook"
- ],
- "tallowmere/free-heroes4": [
-  "wiki",
-  "https://upload.wikimedia.org/wikipedia/en/c/cc/Heroes_of_Might_and_Magic_IV_box.jpg",
-  "Cover art of Heroes of Might and Magic IV via Wikipedia ([file page](https://en.wikipedia.org/wiki/Heroes_of_Might_and_Magic_IV)); \u00a9 respective publisher/owner, shown for identification \u2014 not project UI"
- ],
- "KarlssonChristoffer/DiskLens": [
-  "card",
-  "https://opengraph.githubassets.com/1/KarlssonChristoffer/DiskLens"
- ],
- "LilZeeCN/zee-rp": [
-  "readme",
-  "https://raw.githubusercontent.com/LilZeeCN/zee-rp/main/examples/screenshot/source.png"
- ],
- "lxistired/ledger-reborn": [
-  "readme",
-  "https://raw.githubusercontent.com/lxistired/ledger-reborn/main/docs/screenshots/accounting.png"
- ],
- "michaelshimeles/terminal-rs": [
-  "readme",
-  "https://raw.githubusercontent.com/michaelshimeles/terminal-rs/master/docs/img/overview.png"
- ],
- "GLinnik21/plx-native": [
-  "readme",
-  "https://raw.githubusercontent.com/GLinnik21/plx-native/main/docs/screenshots/home.jpg"
- ],
- "storytold/photocraft": [
-  "readme",
-  "https://raw.githubusercontent.com/storytold/photocraft/main/docs/images/photocraft-demo.jpg"
- ],
- "sickpyramid/ReaFuse": [
-  "card",
-  "https://opengraph.githubassets.com/1/sickpyramid/ReaFuse"
- ],
- "laaielichter/Reverseport": [
-  "readme",
-  "https://raw.githubusercontent.com/laaielichter/Reverseport/main/docs/assets/demo.gif"
- ],
- "0xshlomil/ida-free-mcp": [
-  "card",
-  "https://opengraph.githubassets.com/1/0xshlomil/ida-free-mcp"
- ],
- "HexRaysSA/ida-mcp": [
-  "card",
-  "https://opengraph.githubassets.com/1/HexRaysSA/ida-mcp"
- ],
- "Nowng/rea-mcp": [
-  "card",
-  "https://opengraph.githubassets.com/1/Nowng/rea-mcp"
- ],
- "alexmi256/rea-agent-docker": [
-  "card",
-  "https://opengraph.githubassets.com/1/alexmi256/rea-agent-docker"
- ],
- "cognixws/picode-rea": [
-  "card",
-  "https://opengraph.githubassets.com/1/cognixws/picode-rea"
- ],
- "czcdr/dsh-plugin-rea": [
-  "readme",
-  "https://raw.githubusercontent.com/czcdr/dsh-plugin-rea/main/assets/screenshot-1.png"
- ],
- "sheilacraig/dsh-rea-mcp": [
-  "card",
-  "https://opengraph.githubassets.com/1/sheilacraig/dsh-rea-mcp"
- ],
- "ya123-4/rea-dsh-plugin": [
-  "card",
-  "https://opengraph.githubassets.com/1/ya123-4/rea-dsh-plugin"
- ],
- "zhaofeng130/dsh-rea": [
-  "card",
-  "https://opengraph.githubassets.com/1/zhaofeng130/dsh-rea"
- ],
- "pablodiazjorge/rea-casebook": [
-  "readme",
-  "https://raw.githubusercontent.com/pablodiazjorge/rea-casebook/main/media/session-dark.png"
- ],
- "jinshi666888/rea-playbook": [
-  "readme",
-  "https://raw.githubusercontent.com/jinshi666888/rea-playbook/main/docs/assets/demo.gif"
- ],
- "dav1dngy/era-agent": [
-  "readme",
-  "https://raw.githubusercontent.com/dav1dngy/era-agent/main/docs/assets/screenshots/01-main-workspace.png"
- ],
- "UnknownHacker1/rea-groundtruth": [
-  "card",
-  "https://opengraph.githubassets.com/1/UnknownHacker1/rea-groundtruth"
- ],
- "az9713/REA-demo": [
-  "card",
-  "https://opengraph.githubassets.com/1/az9713/REA-demo"
- ],
- "pablodiazjorge/rea-lab": [
-  "card",
-  "https://opengraph.githubassets.com/1/pablodiazjorge/rea-lab"
- ]
+  "DX-Ball: sound-pan function": [
+    "shot",
+    "images/showcase-dx-ball.png",
+    "Our own screenshot of the rea.tools/showcase/dx-ball/ page"
+  ],
+  "Notion: Electron clipboard bridge": [
+    "shot",
+    "images/showcase-notion.png",
+    "Our own screenshot of the rea.tools/showcase/notion/ page"
+  ],
+  "TH04: PC-98 bullet-ring maths": [
+    "shot",
+    "images/showcase-th04.png",
+    "Our own screenshot of the rea.tools/showcase/th04/ page"
+  ],
+  "Aegis: TOTP code generation": [
+    "shot",
+    "images/showcase-aegis.png",
+    "Our own screenshot of the rea.tools/showcase/aegis/ page"
+  ],
+  "CTF: flag checker": [
+    "shot",
+    "images/showcase-ctf.png",
+    "Our own screenshot of the rea.tools/showcase/ctf/ page"
+  ],
+  "N0zoM1z0/dx-ball": [
+    "readme",
+    "https://raw.githubusercontent.com/N0zoM1z0/dx-ball/main/resources/dxball-title.png"
+  ],
+  "N0zoM1z0/th04": [
+    "readme",
+    "https://raw.githubusercontent.com/N0zoM1z0/th04/main/resources/title-screen.png"
+  ],
+  "N0zoM1z0/th08": [
+    "readme",
+    "https://raw.githubusercontent.com/N0zoM1z0/th08/main/resources/title-screen.png"
+  ],
+  "N0zoM1z0/th10": [
+    "readme",
+    "https://raw.githubusercontent.com/N0zoM1z0/th10/main/resources/title-screen.png"
+  ],
+  "ucodia/desktop-games-nostalgia": [
+    "readme",
+    "https://raw.githubusercontent.com/ucodia/desktop-games-nostalgia/main/docs/demo.gif"
+  ],
+  "tuunanet/rea-ski-or-die-reconstruction": [
+    "readme",
+    "https://raw.githubusercontent.com/tuunanet/rea-ski-or-die-reconstruction/main/docs/snowball-war.gif"
+  ],
+  "Moxnatiy/OpenBattlefield2": [
+    "readme",
+    "https://raw.githubusercontent.com/Moxnatiy/OpenBattlefield2/master/docs/screenshots/menu-main.png"
+  ],
+  "OpenRsG/GunZRs": [
+    "readme",
+    "https://raw.githubusercontent.com/OpenRsG/GunZRs/main/docs/media/menu.jpg"
+  ],
+  "a-barzanti/ai-rebuilds": [
+    "card",
+    "https://opengraph.githubassets.com/1/a-barzanti/ai-rebuilds"
+  ],
+  "OpenRCT2/OpenRCT2": [
+    "readme",
+    "https://github.com/user-attachments/assets/fa893cc8-1484-4751-94be-4ead00a6c8f9"
+  ],
+  "OpenMW/openmw": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/commons/9/9e/OpenMW_with_example_suit_2.png",
+    "Screenshot of OpenMW via Wikipedia ([file page](https://en.wikipedia.org/wiki/OpenMW)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "zeldaret/oot": [
+    "issue",
+    "https://github.com/user-attachments/assets/70b4a529-9a5e-4b9c-ac45-48f9f2183eed"
+  ],
+  "n64decomp/sm64": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/e/e9/Super_Mario_64.png",
+    "Cover art of Super Mario 64 via Wikipedia ([file page](https://en.wikipedia.org/wiki/Super_Mario_64)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "HarbourMasters/Shipwright": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg",
+    "Cover art of The Legend of Zelda: Ocarina of Time via Wikipedia ([file page](https://en.wikipedia.org/wiki/The_Legend_of_Zelda%3A_Ocarina_of_Time)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "ethteck/splat": [
+    "card",
+    "https://opengraph.githubassets.com/1/ethteck/splat"
+  ],
+  "NEstelami/ZAPD": [
+    "readme",
+    "https://raw.githubusercontent.com/NEstelami/ZAPD/master/docs/zapd_warning_example.png?raw=true"
+  ],
+  "sonicretro/s1disasm": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/b/ba/Sonic_the_Hedgehog_1_Genesis_box_art.jpg",
+    "Cover art of Sonic the Hedgehog (1991 video game) via Wikipedia ([file page](https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_%281991_video_game%29)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "sonicretro/s2disasm": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_2_US_Cover.jpg",
+    "Cover art of Sonic the Hedgehog 2 via Wikipedia ([file page](https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_2)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "snesrev/zelda3": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/2/21/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg",
+    "Cover art of The Legend of Zelda: A Link to the Past via Wikipedia ([file page](https://en.wikipedia.org/wiki/The_Legend_of_Zelda%3A_A_Link_to_the_Past)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "snesrev/sm": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg",
+    "Cover art of Super Metroid via Wikipedia ([file page](https://en.wikipedia.org/wiki/Super_Metroid)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "pret/pokeemerald": [
+    "issue",
+    "https://user-images.githubusercontent.com/35422415/226195894-bd8307ea-f6be-46cc-85ec-dd28b4f2d144.gif"
+  ],
+  "pret/pokefirered": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/a/a7/Pokemon_LeafGreen_box.jpg",
+    "Cover art of Pokémon FireRed and LeafGreen via Wikipedia ([file page](https://en.wikipedia.org/wiki/Pok%C3%A9mon_FireRed_and_LeafGreen)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "zeldaret/tmc": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/0/0a/TLOZ-_Minish_Cap_NA_Box_art.png",
+    "Cover art of The Legend of Zelda: The Minish Cap via Wikipedia ([file page](https://en.wikipedia.org/wiki/The_Legend_of_Zelda%3A_The_Minish_Cap)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "pret/pokered": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/a/af/Pok%C3%A9mon_Red_and_Blue_cover_art.webp",
+    "Cover art of Pokémon Red, Blue, and Yellow via Wikipedia ([file page](https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red%2C_Blue%2C_and_Yellow)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "pret/pokegold": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/4/4c/Pok%C3%A9mon_box_art_-_Gold_Version.png",
+    "Cover art of Pokémon Gold and Silver via Wikipedia ([file page](https://en.wikipedia.org/wiki/Pok%C3%A9mon_Gold_and_Silver)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "Xeeynamo/sotn-decomp": [
+    "issue",
+    "https://github.com/user-attachments/assets/fff7ddb2-736f-4e7d-b0ee-3c1151649773"
+  ],
+  "michaelshimeles/sketch": [
+    "readme",
+    "https://raw.githubusercontent.com/michaelshimeles/sketch/main/docs/screenshots/app_demo.png"
+  ],
+  "michaelshimeles/rec-rs": [
+    "readme",
+    "https://raw.githubusercontent.com/michaelshimeles/rec-rs/main/docs/screenshots/main.png"
+  ],
+  "iammukeshm/hexgrab": [
+    "card",
+    "https://opengraph.githubassets.com/1/iammukeshm/hexgrab"
+  ],
+  "AdamLinCodes/AdamTerm": [
+    "readme",
+    "https://raw.githubusercontent.com/AdamLinCodes/AdamTerm/main/docs/adamterm.png"
+  ],
+  "az9713/wispr-flow-rea-teardown": [
+    "video",
+    "https://img.youtube.com/vi/FnB9tHKBJXQ/maxresdefault.jpg",
+    "Video thumbnail of the tutorial linked in the README (youtube.com/watch?v=FnB9tHKBJXQ)"
+  ],
+  "cudanexus/vd-streamer-linux": [
+    "card",
+    "https://opengraph.githubassets.com/1/cudanexus/vd-streamer-linux"
+  ],
+  "a-funk/open-appleremote": [
+    "card",
+    "https://opengraph.githubassets.com/1/a-funk/open-appleremote"
+  ],
+  "Slyvan25/OpenGHub": [
+    "readme",
+    "https://raw.githubusercontent.com/Slyvan25/OpenGHub/master/docs/screenshots/devices.png"
+  ],
+  "grisuno/VSL-DSP": [
+    "card",
+    "https://opengraph.githubassets.com/1/grisuno/VSL-DSP"
+  ],
+  "ReFirmLabs/binwalk": [
+    "readme",
+    "https://raw.githubusercontent.com/ReFirmLabs/binwalk/master/images/output.png"
+  ],
+  "NullLabTests/OpenBSD_netcat_REA": [
+    "readme",
+    "https://raw.githubusercontent.com/NullLabTests/OpenBSD_netcat_REA/main/assets/rea-pipeline.png"
+  ],
+  "REA discussion #2254": [
+    "shot",
+    "images/rea-discussion-2254.png",
+    "Our own screenshot of the GitHub discussion page"
+  ],
+  "ShadowSwaps/REA-Reconstruction-Companion": [
+    "card",
+    "https://opengraph.githubassets.com/1/ShadowSwaps/REA-Reconstruction-Companion"
+  ],
+  "NationalSecurityAgency/ghidra": [
+    "shot",
+    "images/ghidra-gui.png",
+    "Our own screenshot: Ghidra 12.2 CodeBrowser + decompiler on /usr/bin/ls"
+  ],
+  "skylot/jadx": [
+    "readme",
+    "https://user-images.githubusercontent.com/118523/142730720-839f017e-38db-423e-b53f-39f5f0a0316f.png"
+  ],
+  "ran-j/PS2Recomp": [
+    "card",
+    "https://opengraph.githubassets.com/1/ran-j/PS2Recomp"
+  ],
+  "snesrev/smw": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/3/32/Super_Mario_World_Coverart.png",
+    "Cover art of Super Mario World via Wikipedia ([file page](https://en.wikipedia.org/wiki/Super_Mario_World)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "LaurieWired/GhidraMCP": [
+    "readme",
+    "https://github.com/user-attachments/assets/4986d702-be3f-4697-acce-aea55cd79ad3"
+  ],
+  "x64dbg/x64dbg": [
+    "readme",
+    "https://raw.githubusercontent.com/x64dbg/x64dbg/development/.github/screenshots/cpu-light.png"
+  ],
+  "encounter/decomp-toolkit": [
+    "card",
+    "https://opengraph.githubassets.com/1/encounter/decomp-toolkit"
+  ],
+  "HarbourMasters/Starship": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/6/63/StarFox64_N64_Game_Box.jpg",
+    "Cover art of Star Fox 64 via Wikipedia ([file page](https://en.wikipedia.org/wiki/Star_Fox_64)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "iBotPeaches/Apktool": [
+    "shot",
+    "images/apktool-terminal.png",
+    "Our own screenshot: real apktool 3.0.3 decode of the open-source Aegis 3.4.3 APK"
+  ],
+  "zeldaret/tww": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg",
+    "Cover art of The Legend of Zelda: The Wind Waker via Wikipedia ([file page](https://en.wikipedia.org/wiki/The_Legend_of_Zelda%3A_The_Wind_Waker)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "pret/pokeruby": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/b/be/PokemonRubySapphireBox.jpg",
+    "Cover art of Pokémon Ruby and Sapphire via Wikipedia ([file page](https://en.wikipedia.org/wiki/Pok%C3%A9mon_Ruby_and_Sapphire)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "angr/angr": [
+    "card",
+    "https://opengraph.githubassets.com/1/angr/angr"
+  ],
+  "zeldaret/ss": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/9/99/Legend_of_Zelda_Skyward_Sword_boxart.png",
+    "Cover art of The Legend of Zelda: Skyward Sword via Wikipedia ([file page](https://en.wikipedia.org/wiki/The_Legend_of_Zelda%3A_Skyward_Sword)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "hedge-dev/XenonRecomp": [
+    "card",
+    "https://opengraph.githubassets.com/1/hedge-dev/XenonRecomp"
+  ],
+  "pret/pokeplatinum": [
+    "issue",
+    "https://github.com/user-attachments/assets/157f7c15-4684-48e9-aacb-eefefbcffcec"
+  ],
+  "n64decomp/mk64": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/a/a1/Mario_Kart_64.jpg",
+    "Cover art of Mario Kart 64 via Wikipedia ([file page](https://en.wikipedia.org/wiki/Mario_Kart_64)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "avast/retdec": [
+    "issue",
+    "https://user-images.githubusercontent.com/20342097/35865940-2288d66a-0b56-11e8-9a92-d154b7111053.png"
+  ],
+  "encounter/objdiff": [
+    "readme",
+    "https://raw.githubusercontent.com/encounter/objdiff/main/assets/screen-symbols.png"
+  ],
+  "rizinorg/cutter": [
+    "readme",
+    "https://raw.githubusercontent.com/rizinorg/cutter/dev/docs/source/images/screenshot.png"
+  ],
+  "ata4/disunity": [
+    "card",
+    "https://opengraph.githubassets.com/1/ata4/disunity"
+  ],
+  "3DSGuy/Project_CTR": [
+    "card",
+    "https://opengraph.githubassets.com/1/3DSGuy/Project_CTR"
+  ],
+  "julianxhokaxhiu/FFNx": [
+    "readme",
+    "https://raw.githubusercontent.com/julianxhokaxhiu/FFNx/master/.screens/ff7.png"
+  ],
+  "DarkRTA/rb3": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/3/3b/Rock_Band_3_Game_Cover.jpg",
+    "Cover art of Rock Band 3 via Wikipedia ([file page](https://en.wikipedia.org/wiki/Rock_Band_3)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "pret/pokeyellow": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/a/af/Pok%C3%A9mon_Red_and_Blue_cover_art.webp",
+    "Cover art of Pokémon Red, Blue, and Yellow via Wikipedia ([file page](https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red%2C_Blue%2C_and_Yellow)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "aldonunez/zelda1-disassembly": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/4/41/Legend_of_zelda_cover_%28with_cartridge%29_gold.png",
+    "Cover art of The Legend of Zelda (video game) via Wikipedia ([file page](https://en.wikipedia.org/wiki/The_Legend_of_Zelda_%28video_game%29)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "mitmproxy/mitmproxy": [
+    "readme",
+    "https://mitmproxy.org/screenshot.png"
+  ],
+  "Zelda64Recomp/Zelda64Recomp": [
+    "readme",
+    "https://raw.githubusercontent.com/Zelda64Recomp/Zelda64Recomp/dev/docs/deck_gyro_1.jpg"
+  ],
+  "pret/pokecrystal": [
+    "issue",
+    "https://github.com/user-attachments/assets/c39cb860-bb9c-4204-9184-b2761ead0a74"
+  ],
+  "ghidraninja/ghidra_scripts": [
+    "readme",
+    "https://raw.githubusercontent.com/ghidraninja/ghidra_scripts/master/images/binwalk.png"
+  ],
+  "Interkarma/daggerfall-unity": [
+    "readme",
+    "https://github.com/Interkarma/daggerfall-unity/assets/10426244/4f176f9d-6332-47b3-a4d7-317ed8d6b38b"
+  ],
+  "radareorg/radare2": [
+    "readme",
+    "https://raw.githubusercontent.com/radareorg/radare2/master/doc/images/shot.png"
+  ],
+  "mandiant/flare-floss": [
+    "shot",
+    "images/floss-terminal.png",
+    "Our own screenshot: real FLOSS 3.2.0 output on /usr/bin/ls"
+  ],
+  "zeldaret/mm": [
+    "issue",
+    "https://user-images.githubusercontent.com/12245827/191111633-e72abfd3-b53c-4d13-82d1-44e6718f1fb0.png"
+  ],
+  "OpenXcom/OpenXcom": [
+    "card",
+    "https://opengraph.githubassets.com/1/OpenXcom/OpenXcom"
+  ],
+  "WerWolv/ImHex": [
+    "shot",
+    "images/imhex-gui.png",
+    "Our own screenshot: ImHex 1.38.1 with the ELF pattern applied to /usr/bin/ls"
+  ],
+  "Perfare/AssetStudio": [
+    "card",
+    "https://opengraph.githubassets.com/1/Perfare/AssetStudio"
+  ],
+  "open-goal/jak-project": [
+    "readme",
+    "https://raw.githubusercontent.com/open-goal/jak-project/master/docs/img/promosmall1.png"
+  ],
+  "zeldaret/ph": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/5/5e/The_Legend_of_Zelda_Phantom_Hourglass_Game_Cover.jpg",
+    "Cover art of The Legend of Zelda: Phantom Hourglass via Wikipedia ([file page](https://en.wikipedia.org/wiki/The_Legend_of_Zelda%3A_Phantom_Hourglass)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "mandiant/capa": [
+    "readme",
+    "https://raw.githubusercontent.com/mandiant/capa/master/doc/img/capa_web_explorer.png"
+  ],
+  "frida/frida": [
+    "shot",
+    "images/frida-terminal.png",
+    "Our own screenshot: real frida-ps output on a Linux box"
+  ],
+  "qilingframework/qiling": [
+    "readme",
+    "https://raw.githubusercontent.com/qilingframework/theme.qiling.io/master/source/img/fuzzer.jpg?raw=true"
+  ],
+  "SourMesen/Mesen2": [
+    "card",
+    "https://opengraph.githubassets.com/1/SourMesen/Mesen2"
+  ],
+  "dnSpyEx/dnSpy": [
+    "readme",
+    "https://raw.githubusercontent.com/dnSpyEx/dnSpy/master/images/debug-animated.gif"
+  ],
+  "decompme/decomp.me": [
+    "card",
+    "https://opengraph.githubassets.com/1/decompme/decomp.me"
+  ],
+  "mrexodia/ida-pro-mcp": [
+    "readme",
+    "https://img.youtube.com/vi/iFxNuk3kxhk/0.jpg"
+  ],
+  "doldecomp/sms": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/0/05/Super_Mario_Sunshine_Box_Art.png",
+    "Cover art of Super Mario Sunshine via Wikipedia ([file page](https://en.wikipedia.org/wiki/Super_Mario_Sunshine)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "AssetRipper/AssetRipper": [
+    "readme",
+    "https://raw.githubusercontent.com/AssetRipper/AssetRipper/master/docs/articles/images/RunningOnMac/004.png"
+  ],
+  "ladislav-zezula/CascLib": [
+    "card",
+    "https://opengraph.githubassets.com/1/ladislav-zezula/CascLib"
+  ],
+  "isledecomp/isle": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/a/a1/Lego-island.jpg",
+    "Cover art of Lego Island via Wikipedia ([file page](https://en.wikipedia.org/wiki/Lego_Island)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "pmret/papermario": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/6/61/Papermario.jpg",
+    "Cover art of Paper Mario (video game) via Wikipedia ([file page](https://en.wikipedia.org/wiki/Paper_Mario_%28video_game%29)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "postlund/pyatv": [
+    "card",
+    "https://opengraph.githubassets.com/1/postlund/pyatv"
+  ],
+  "hedge-dev/UnleashedRecomp": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/a/a0/Sonic_unleashed_boxart.jpg",
+    "Cover art of Sonic Unleashed via Wikipedia ([file page](https://en.wikipedia.org/wiki/Sonic_Unleashed)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "ghidraninja/game-and-watch-backup": [
+    "video",
+    "https://img.youtube.com/vi/-MzmoEFs0bQ/maxresdefault.jpg",
+    "Video thumbnail of the demo linked in the README (youtube.com/watch?v=-MzmoEFs0bQ)"
+  ],
+  "jiangzhengwenjz/katam": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/0/0b/Kirby_%26_the_Amazing_Mirror.jpg",
+    "Cover art of Kirby & the Amazing Mirror via Wikipedia ([file page](https://en.wikipedia.org/wiki/Kirby_%26_the_Amazing_Mirror)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "scummvm/scummvm": [
+    "readme",
+    "https://www.scummvm.org/data/screenshots/prince/prince/prince_win_en_1_3_full.png"
+  ],
+  "wireshark/wireshark": [
+    "shot",
+    "images/wireshark-gui.png",
+    "Our own screenshot: Wireshark opening Wireshark's dhcp.pcap test capture"
+  ],
+  "RSDKModding/RSDKv5-Decompilation": [
+    "readme",
+    "https://raw.githubusercontent.com/RSDKModding/RSDKv5-Decompilation/master/header.png?raw=true"
+  ],
+  "pret/pmd-red": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/d/d3/Pok%C3%A9mon_Mystery_Dungeon_Blue_and_Red_Rescue_Team_cover_arts.jpg",
+    "Cover art of Pokémon Mystery Dungeon: Blue Rescue Team and Red Rescue Team via Wikipedia ([file page](https://en.wikipedia.org/wiki/Pok%C3%A9mon_Mystery_Dungeon%3A_Blue_Rescue_Team_and_Red_Rescue_Team)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "attify/firmware-analysis-toolkit": [
+    "card",
+    "https://opengraph.githubassets.com/1/attify/firmware-analysis-toolkit"
+  ],
+  "RSDKModding/RSDKv4-Decompilation": [
+    "readme",
+    "https://raw.githubusercontent.com/RSDKModding/RSDKv4-Decompilation/main/header.png?raw=true"
+  ],
+  "onekey-sec/unblob": [
+    "shot",
+    "images/unblob-terminal.png",
+    "Our own screenshot: real unblob run on a synthetic blob (random pad + tar.gz)"
+  ],
+  "doldecomp/melee": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/7/75/Super_Smash_Bros_Melee_box_art.png",
+    "Cover art of Super Smash Bros. Melee via Wikipedia ([file page](https://en.wikipedia.org/wiki/Super_Smash_Bros._Melee)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "zeldaret/tp": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/0/0e/The_Legend_of_Zelda_Twilight_Princess_Game_Cover.jpg",
+    "Cover art of The Legend of Zelda: Twilight Princess via Wikipedia ([file page](https://en.wikipedia.org/wiki/The_Legend_of_Zelda%3A_Twilight_Princess)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "yaz0r/Azel": [
+    "readme",
+    "https://github.com/user-attachments/assets/71f6a246-24cc-4d64-9673-53b9e4c3e4df"
+  ],
+  "electron/asar": [
+    "shot",
+    "images/asar-terminal.png",
+    "Our own screenshot: real @electron/asar pack + list on a demo app"
+  ],
+  "rizinorg/jsdec": [
+    "card",
+    "https://opengraph.githubassets.com/1/rizinorg/jsdec"
+  ],
+  "diasurgical/DevilutionX": [
+    "readme",
+    "https://github.com/user-attachments/assets/7ac73801-ef7b-4cc1-8442-a191a2a0a1ce"
+  ],
+  "fallout2-ce/fallout2-ce": [
+    "readme",
+    "https://raw.githubusercontent.com/fallout2-ce/fallout2-ce/main/docs/images/two-column-inventory.jpg"
+  ],
+  "rizinorg/rizin": [
+    "readme",
+    "https://rizin.re/images/rizin_preview.png"
+  ],
+  "OpenTTD/OpenTTD": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/commons/b/ba/OpenTTD-15.3-en.png",
+    "Screenshot of OpenTTD via Wikipedia ([file page](https://en.wikipedia.org/wiki/OpenTTD)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "projectPiki/pikmin2": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/3/38/Pikmin_2_Case.jpg",
+    "Cover art of Pikmin 2 via Wikipedia ([file page](https://en.wikipedia.org/wiki/Pikmin_2)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "N64Recomp/N64Recomp": [
+    "card",
+    "https://opengraph.githubassets.com/1/N64Recomp/N64Recomp"
+  ],
+  "pret/pokeheartgold": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/c/cb/PokemonHGSSBox.jpg",
+    "Cover art of Pokémon HeartGold and SoulSilver via Wikipedia ([file page](https://en.wikipedia.org/wiki/Pok%C3%A9mon_HeartGold_and_SoulSilver)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "zladx/LADX-Disassembly": [
+    "readme",
+    "https://raw.githubusercontent.com/zladx/LADX-Disassembly/main/docs/entities.png"
+  ],
+  "icsharpcode/ILSpy": [
+    "card",
+    "https://opengraph.githubassets.com/1/icsharpcode/ILSpy"
+  ],
+  "xemu-project/xemu": [
+    "issue",
+    "https://user-images.githubusercontent.com/71127352/144098855-dbc7b12a-d715-4102-b45c-faeb46deabde.png"
+  ],
+  "sonicretro/skdisasm": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/d/d3/Sonic_%26_Knuckles_cover.jpg",
+    "Cover art of Sonic & Knuckles via Wikipedia ([file page](https://en.wikipedia.org/wiki/Sonic_%26_Knuckles)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "OpenRA/OpenRA": [
+    "readme",
+    "https://www.openra.net/images/news/20260222-generators.gif"
+  ],
+  "n64decomp/perfect_dark": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/3/32/Perfect_dark_box.jpg",
+    "Cover art of Perfect Dark via Wikipedia ([file page](https://en.wikipedia.org/wiki/Perfect_Dark)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "travisgoodspeed/md380tools": [
+    "card",
+    "https://opengraph.githubassets.com/1/travisgoodspeed/md380tools"
+  ],
+  "google/bindiff": [
+    "readme",
+    "https://zynamics.com/images/bindiff_scr1_s.gif"
+  ],
+  "2ship2harkinian/2ship2harkinian": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/6/60/The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg",
+    "Cover art of The Legend of Zelda: Majora's Mask via Wikipedia ([file page](https://en.wikipedia.org/wiki/The_Legend_of_Zelda%3A_Majora%27s_Mask)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "perfect-dark-pc-port/perfect_dark": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/3/32/Perfect_dark_box.jpg",
+    "Cover art of Perfect Dark via Wikipedia ([file page](https://en.wikipedia.org/wiki/Perfect_Dark)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "shdecompilations/silent-hill-decomp": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/9/96/Silent_Hill_video_game_cover.png",
+    "Cover art of Silent Hill (video game) via Wikipedia ([file page](https://en.wikipedia.org/wiki/Silent_Hill_%28video_game%29)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "N0zoM1z0/th09": [
+    "readme",
+    "https://raw.githubusercontent.com/N0zoM1z0/th09/main/resources/title-screen.png"
+  ],
+  "N0zoM1z0/th095": [
+    "readme",
+    "https://raw.githubusercontent.com/N0zoM1z0/th095/main/resources/title-screen.jpg"
+  ],
+  "N0zoM1z0/th105": [
+    "readme",
+    "https://raw.githubusercontent.com/N0zoM1z0/th105/main/resources/title-screen.jpg"
+  ],
+  "N0zoM1z0/th08-web": [
+    "readme",
+    "https://raw.githubusercontent.com/N0zoM1z0/th08-web/main/resources/th08-web-social-preview.jpg"
+  ],
+  "N0zoM1z0/touhou-reconstruction-factory": [
+    "card",
+    "https://opengraph.githubassets.com/1/N0zoM1z0/touhou-reconstruction-factory"
+  ],
+  "N0zoM1z0/touhou-reverse-engineering": [
+    "card",
+    "https://opengraph.githubassets.com/1/N0zoM1z0/touhou-reverse-engineering"
+  ],
+  "AsyncFinn/rook": [
+    "card",
+    "https://opengraph.githubassets.com/1/AsyncFinn/rook"
+  ],
+  "tallowmere/free-heroes4": [
+    "wiki",
+    "https://upload.wikimedia.org/wikipedia/en/c/cc/Heroes_of_Might_and_Magic_IV_box.jpg",
+    "Cover art of Heroes of Might and Magic IV via Wikipedia ([file page](https://en.wikipedia.org/wiki/Heroes_of_Might_and_Magic_IV)); © respective publisher/owner, shown for identification — not project UI"
+  ],
+  "KarlssonChristoffer/DiskLens": [
+    "card",
+    "https://opengraph.githubassets.com/1/KarlssonChristoffer/DiskLens"
+  ],
+  "LilZeeCN/zee-rp": [
+    "readme",
+    "https://raw.githubusercontent.com/LilZeeCN/zee-rp/main/examples/screenshot/source.png"
+  ],
+  "lxistired/ledger-reborn": [
+    "readme",
+    "https://raw.githubusercontent.com/lxistired/ledger-reborn/main/docs/screenshots/accounting.png"
+  ],
+  "michaelshimeles/terminal-rs": [
+    "readme",
+    "https://raw.githubusercontent.com/michaelshimeles/terminal-rs/master/docs/img/overview.png"
+  ],
+  "GLinnik21/plx-native": [
+    "readme",
+    "https://raw.githubusercontent.com/GLinnik21/plx-native/main/docs/screenshots/home.jpg"
+  ],
+  "storytold/photocraft": [
+    "readme",
+    "https://raw.githubusercontent.com/storytold/photocraft/main/docs/images/photocraft-demo.jpg"
+  ],
+  "sickpyramid/ReaFuse": [
+    "card",
+    "https://opengraph.githubassets.com/1/sickpyramid/ReaFuse"
+  ],
+  "laaielichter/Reverseport": [
+    "readme",
+    "https://raw.githubusercontent.com/laaielichter/Reverseport/main/docs/assets/demo.gif"
+  ],
+  "0xshlomil/ida-free-mcp": [
+    "card",
+    "https://opengraph.githubassets.com/1/0xshlomil/ida-free-mcp"
+  ],
+  "HexRaysSA/ida-mcp": [
+    "card",
+    "https://opengraph.githubassets.com/1/HexRaysSA/ida-mcp"
+  ],
+  "Nowng/rea-mcp": [
+    "card",
+    "https://opengraph.githubassets.com/1/Nowng/rea-mcp"
+  ],
+  "alexmi256/rea-agent-docker": [
+    "card",
+    "https://opengraph.githubassets.com/1/alexmi256/rea-agent-docker"
+  ],
+  "cognixws/picode-rea": [
+    "card",
+    "https://opengraph.githubassets.com/1/cognixws/picode-rea"
+  ],
+  "czcdr/dsh-plugin-rea": [
+    "readme",
+    "https://raw.githubusercontent.com/czcdr/dsh-plugin-rea/main/assets/screenshot-1.png"
+  ],
+  "sheilacraig/dsh-rea-mcp": [
+    "card",
+    "https://opengraph.githubassets.com/1/sheilacraig/dsh-rea-mcp"
+  ],
+  "ya123-4/rea-dsh-plugin": [
+    "card",
+    "https://opengraph.githubassets.com/1/ya123-4/rea-dsh-plugin"
+  ],
+  "zhaofeng130/dsh-rea": [
+    "card",
+    "https://opengraph.githubassets.com/1/zhaofeng130/dsh-rea"
+  ],
+  "pablodiazjorge/rea-casebook": [
+    "readme",
+    "https://raw.githubusercontent.com/pablodiazjorge/rea-casebook/main/media/session-dark.png"
+  ],
+  "jinshi666888/rea-playbook": [
+    "readme",
+    "https://raw.githubusercontent.com/jinshi666888/rea-playbook/main/docs/assets/demo.gif"
+  ],
+  "dav1dngy/era-agent": [
+    "readme",
+    "https://raw.githubusercontent.com/dav1dngy/era-agent/main/docs/assets/screenshots/01-main-workspace.png"
+  ],
+  "UnknownHacker1/rea-groundtruth": [
+    "card",
+    "https://opengraph.githubassets.com/1/UnknownHacker1/rea-groundtruth"
+  ],
+  "az9713/REA-demo": [
+    "card",
+    "https://opengraph.githubassets.com/1/az9713/REA-demo"
+  ],
+  "pablodiazjorge/rea-lab": [
+    "card",
+    "https://opengraph.githubassets.com/1/pablodiazjorge/rea-lab"
+  ],
+  "orikami048/gea": [
+    "card",
+    "images/gea-card.png",
+    "GitHub repository opengraph card for orikami048/gea"
+  ]
 }

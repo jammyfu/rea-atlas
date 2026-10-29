@@ -410,6 +410,9 @@
 <tr><td>—</td><td><a href="https://github.com/aicodeking/leanrea"><b>leanrea</b></a><br><sub>aicodeking</sub></td><td>輕量 skill，替代 REA 的 MCP 層，讓 agent 直接呼叫 CLI 工具</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/cranebeaker/coop-anything"><b>coop-anything</b></a><br><sub>cranebeaker</sub></td><td>用 REA 調查入口，為單機遊戲添加合作模式的 MCP 伺服器與技能</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/MiaAI-Lab/sparkDash"><b>sparkDash</b></a><br><sub>MiaAI-Lab</sub></td><td>整合 REA 長時分析任務、按需載入結果的多裝置儀表板</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/orikami048/gea"><img src="images/gea-card.png" width="160" alt="orikami048/gea"></a></td><td><a href="https://github.com/orikami048/gea"><b>gea</b></a><br><sub>orikami048</sub></td><td>遊戲逆向、資源提取與 Cocos/Three.js 重現的 MCP 與 CLI；受 morluto/rea 啟發。</td><td>否</td><td><sub>儲存庫卡片</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Stijnus/dsh-rev-eng"><b>dsh-rev-eng</b></a><br><sub>Stijnus</sub></td><td>將 REA 技能與可選 MCP 打包為 DSH 插件，用於逆向工程與 Mac 應用建構。</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/CurLeaf/dsh-command-rea"><b>dsh-command-rea</b></a><br><sub>CurLeaf</sub></td><td>DSH /rea 斜線命令，將逆向分析請求路由到 REA 技能與 MCP 工具。</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 </table>
 
 ## REA 官方 Showcase

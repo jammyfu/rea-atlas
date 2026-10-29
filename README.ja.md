@@ -410,6 +410,9 @@
 <tr><td>—</td><td><a href="https://github.com/aicodeking/leanrea"><b>leanrea</b></a><br><sub>aicodeking</sub></td><td>REA の MCP 層を置き換える軽量スキル。エージェントが CLI ツールを直接駆動</td><td>✅ はい</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/cranebeaker/coop-anything"><b>coop-anything</b></a><br><sub>cranebeaker</sub></td><td>REA でエントリポイントを調査し、シングルプレイゲームに協力モードを追加する MCP サーバー</td><td>✅ はい</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/MiaAI-Lab/sparkDash"><b>sparkDash</b></a><br><sub>MiaAI-Lab</sub></td><td>長時間の REA 分析ジョブを統合し、結果をオンデマンドで読み込むマルチデバイスダッシュボード</td><td>✅ はい</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/orikami048/gea"><img src="images/gea-card.png" width="160" alt="orikami048/gea"></a></td><td><a href="https://github.com/orikami048/gea"><b>gea</b></a><br><sub>orikami048</sub></td><td>ゲームのリバースエンジニアリング、アセット抽出、Cocos/Three.js 再現のための MCP と CLI。morluto/rea に着想。</td><td>いいえ</td><td><sub>リポジトリカード</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Stijnus/dsh-rev-eng"><b>dsh-rev-eng</b></a><br><sub>Stijnus</sub></td><td>REA スキルとオプションの MCP をパッケージした DSH プラグイン。リバースエンジニアリングと Mac アプリ構築用。</td><td>✅ はい</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/CurLeaf/dsh-command-rea"><b>dsh-command-rea</b></a><br><sub>CurLeaf</sub></td><td>DSH の /rea スラッシュコマンド。リクエストを REA スキルと MCP ツールにルーティング。</td><td>✅ はい</td><td><sub>—</sub></td></tr>
 </table>
 
 ## REA 公式ショーケース

@@ -1216,5 +1216,26 @@
     "zh-TW": "用 REA/Ghidra 恢復架構的 SA-MP 0.3.DL-R1 clean-room 客戶端重實現",
     "ja": "REA/Ghidra でアーキテクチャを復元した SA-MP 0.3.DL-R1 のクリーンルームクライアント再実装",
     "ko": "REA/Ghidra로 아키텍처를 복원한 SA-MP 0.3.DL-R1 클린룸 클라이언트 재구현"
+  },
+  "orikami048/gea": {
+    "en": "MCP & CLI for game RE, asset extraction and Cocos/Three.js recreation; inspired by morluto/rea.",
+    "zh-CN": "游戏逆向、资源提取与 Cocos/Three.js 重现的 MCP 与 CLI；受 morluto/rea 启发。",
+    "zh-TW": "遊戲逆向、資源提取與 Cocos/Three.js 重現的 MCP 與 CLI；受 morluto/rea 啟發。",
+    "ja": "ゲームのリバースエンジニアリング、アセット抽出、Cocos/Three.js 再現のための MCP と CLI。morluto/rea に着想。",
+    "ko": "게임 리버스 엔지니어링, 에셋 추출, Cocos/Three.js 재현을 위한 MCP 및 CLI. morluto/rea에서 영감."
+  },
+  "Stijnus/dsh-rev-eng": {
+    "en": "DSH plugin packaging REA skills + optional MCP for reverse engineering and Mac app building.",
+    "zh-CN": "将 REA 技能与可选 MCP 打包为 DSH 插件，用于逆向工程与 Mac 应用构建。",
+    "zh-TW": "將 REA 技能與可選 MCP 打包為 DSH 插件，用於逆向工程與 Mac 應用建構。",
+    "ja": "REA スキルとオプションの MCP をパッケージした DSH プラグイン。リバースエンジニアリングと Mac アプリ構築用。",
+    "ko": "REA 스킬과 선택적 MCP를 DSH 플러그인으로 패키징. 리버스 엔지니어링 및 Mac 앱 빌드용."
+  },
+  "CurLeaf/dsh-command-rea": {
+    "en": "DSH /rea slash command that routes requests to the REA skill and MCP tools.",
+    "zh-CN": "DSH /rea 斜杠命令，将逆向分析请求路由到 REA 技能与 MCP 工具。",
+    "zh-TW": "DSH /rea 斜線命令，將逆向分析請求路由到 REA 技能與 MCP 工具。",
+    "ja": "DSH の /rea スラッシュコマンド。リクエストを REA スキルと MCP ツールにルーティング。",
+    "ko": "DSH /rea 슬래시 명령. 요청을 REA 스킬과 MCP 도구로 라우팅."
   }
 }

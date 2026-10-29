@@ -1390,5 +1390,29 @@
     "https://github.com/NathanKanaeru/samp-client-re",
     "Yes",
     "Clean-room SA-MP 0.3.DL-R1 client reimplementation, architecture recovered with REA/Ghidra."
+  ],
+  [
+    "tooling",
+    "",
+    "orikami048/gea",
+    "https://github.com/orikami048/gea",
+    "No",
+    "MCP & CLI for game reverse engineering, asset extraction and Cocos/Three.js recreation; inspired by morluto/rea. MIT."
+  ],
+  [
+    "tooling",
+    "",
+    "Stijnus/dsh-rev-eng",
+    "https://github.com/Stijnus/dsh-rev-eng",
+    "Yes",
+    "DSH plugin packaging REA agent skills and optional MCP server for reverse engineering and Mac app building."
+  ],
+  [
+    "tooling",
+    "",
+    "CurLeaf/dsh-command-rea",
+    "https://github.com/CurLeaf/dsh-command-rea",
+    "Yes",
+    "DSH slash command /rea that routes reverse-engineering requests to the REA skill and MCP tools."
   ]
 ]

@@ -410,6 +410,9 @@ A map of open reverse-engineering projects — game decompilations, static recom
 <tr><td>—</td><td><a href="https://github.com/aicodeking/leanrea"><b>leanrea</b></a><br><sub>aicodeking</sub></td><td>Lightweight skill that replaces the REA MCP layer; agent drives CLI tools directly</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/cranebeaker/coop-anything"><b>coop-anything</b></a><br><sub>cranebeaker</sub></td><td>MCP server and skills to add co-op to single-player games by investigating entry points with REA</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/MiaAI-Lab/sparkDash"><b>sparkDash</b></a><br><sub>MiaAI-Lab</sub></td><td>Multi-device dashboard that integrates long-running REA analysis jobs and loads results on demand</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/orikami048/gea"><img src="images/gea-card.png" width="160" alt="orikami048/gea"></a></td><td><a href="https://github.com/orikami048/gea"><b>gea</b></a><br><sub>orikami048</sub></td><td>MCP &amp; CLI for game RE, asset extraction and Cocos/Three.js recreation; inspired by morluto/rea.</td><td>No</td><td><sub>Repo card</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Stijnus/dsh-rev-eng"><b>dsh-rev-eng</b></a><br><sub>Stijnus</sub></td><td>DSH plugin packaging REA skills + optional MCP for reverse engineering and Mac app building.</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/CurLeaf/dsh-command-rea"><b>dsh-command-rea</b></a><br><sub>CurLeaf</sub></td><td>DSH /rea slash command that routes requests to the REA skill and MCP tools.</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
 </table>
 
 ## Official REA showcases
