@@ -1,14 +1,14 @@
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
-# REA Atlas: search what has already been reverse-engineered (evidence-tagged)
+# REA Atlas: map of reverse-engineering projects (REA tags optional)
 
-Searchable map of reverse-engineering projects. Each entry is tagged **Uses rea: Yes / No / Unverified** for [morluto/rea](https://github.com/morluto/rea). Yes only with public evidence. Use it to check whether someone already rebuilt the app, game, protocol or firmware you are looking at.
+Map of open reverse-engineering projects: game decomps/recomps, re-implementations, asset tools, protocols, firmware, and RE tooling. Each entry is optionally tagged **Uses rea: Yes / No / Unverified** for [morluto/rea](https://github.com/morluto/rea) — the tag is just a signal, not a requirement. Search here to see if someone already reverse-engineered the target you care about.
 
 > Unofficial; not affiliated with morluto/rea.
 
 ## Contents
 
-- [Projects that used REA (with evidence)](#projects-that-used-rea-with-evidence)
+- [Projects that used REA (evidence-tagged subset)](#projects-that-used-rea-evidence-tagged-subset)
 - [Games](#games)
   - [NES / Famicom](#nes--famicom)
   - [Super Famicom / SNES](#super-famicom--snes)
@@ -32,9 +32,9 @@ Searchable map of reverse-engineering projects. Each entry is tagged **Uses rea:
 - [Reverse-engineering tools](#reverse-engineering-tools)
 - [Official REA showcases](#official-rea-showcases)
 
-## Projects that used REA (with evidence)
+## Projects that used REA (evidence-tagged subset)
 
-_These have public evidence (README, official showcase, or repo docs) that they used REA. Search by target (app, game, protocol) before starting your own reverse-engineering._
+_Optional filter: these have public evidence of using REA. Most projects in the map are ordinary reverse-engineering work and do not require REA._
 
 <table>
 <tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>

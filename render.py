@@ -2,12 +2,12 @@ import json
 E=json.load(open('data.json'))
 IM=json.load(open('images.json'))
 L={
-'en':dict(f='README.md',t="REA Atlas: search what has already been reverse-engineered (evidence-tagged)",tag="Searchable map of reverse-engineering projects. Each entry is tagged **Uses rea: Yes / No / Unverified** for [morluto/rea](https://github.com/morluto/rea). Yes only with public evidence. Use it to check whether someone already rebuilt the app, game, protocol or firmware you are looking at.",
+'en':dict(f='README.md',t="REA Atlas: map of reverse-engineering projects (REA tags optional)",tag="Map of open reverse-engineering projects: game decomps/recomps, re-implementations, asset tools, protocols, firmware, and RE tooling. Each entry is optionally tagged **Uses rea: Yes / No / Unverified** for [morluto/rea](https://github.com/morluto/rea) — the tag is just a signal, not a requirement. Search here to see if someone already reverse-engineered the target you care about.",
  disc="Unofficial; not affiliated with morluto/rea. No cracks, piracy, ROMs or copyrighted assets are listed or hosted.",
  img="Image: REA showcase illustration from [morluto/rea](https://github.com/morluto/rea/blob/main/docs/assets/rea-showcases.png) (MIT), hot-linked, not re-hosted.",
  sec=dict(gc="GameCube",wii="Wii",ds="Nintendo DS",_3ds="Nintendo 3DS",ps1="PlayStation",ps2="PlayStation 2",saturn="Sega Saturn",xbox="Xbox / Xbox 360",official="Official REA showcases",games="Games",pc="PC / DOS / PC-98",n64="Nintendo 64",md="Mega Drive / Genesis",snes="Super Famicom / SNES",nes="NES / Famicom",gba="Game Boy Advance",gb="Game Boy",app="Apps / Electron / Desktop",protocol="Protocols / Hardware",firmware="Firmware / Drivers",security="Security / Evaluations",tooling="Reverse-engineering tools"),
  sub=dict(decomp="Decompilation / Recomp",remake="Remake / Port",tools="Asset extraction & tools"),u="Uses rea",thx="See also / thanks: many REA community entries were cross-checked against [AIshihzong/awesome-reverse-engineer-anything](https://github.com/AIshihzong/awesome-reverse-engineer-anything).",nes_empty="_No verified entry yet — contributions welcome._",c="Contributing: see [CONTRIBUTING.md](CONTRIBUTING.md). License: [CC0-1.0](LICENSE)."),
-'zh-CN':dict(f='README.zh-CN.md',t="REA Atlas：已逆向项目可搜索地图（带证据标记）",tag="可搜索的逆向工程项目地图。每条标注是否使用 [morluto/rea](https://github.com/morluto/rea)：**Uses rea: Yes / No / Unverified**，只有公开证据才标 Yes。用来查「这个应用/游戏/协议/固件有没有人已经重实现过」。",
+'zh-CN':dict(f='README.zh-CN.md',t="REA Atlas：逆向工程项目地图（REA 标记可选）",tag="开源逆向工程项目地图：游戏反编译/重编译、重实现、资源工具、协议、固件及逆向工具。每条可选标注是否使用 [morluto/rea](https://github.com/morluto/rea)：**Uses rea: Yes / No / Unverified** —— 标记只是参考信号，不是收录条件。用来查「这个目标有没有人已经逆向过」。",
  disc="非官方，与 morluto/rea 无关联。不收录、不托管破解、盗版、ROM 或版权素材。",img="图片：REA showcase 插图，来自 [morluto/rea](https://github.com/morluto/rea/blob/main/docs/assets/rea-showcases.png)（MIT），直接引用，未转存。",
  sec=dict(gc="GameCube",wii="Wii",ds="NDS",_3ds="3DS",ps1="PS1",ps2="PS2",saturn="世嘉土星",xbox="Xbox / Xbox 360",official="REA 官方 Showcase",games="游戏",pc="PC / DOS / PC-98",n64="任天堂 64",md="MD / Genesis",snes="SFC / SNES",nes="NES / FC",gba="GBA",gb="Game Boy",app="应用 / Electron / 桌面",protocol="协议 / 硬件",firmware="固件 / 驱动",security="安全 / 评测",tooling="逆向工具"),
  sub=dict(decomp="反编译 / 重编译",remake="重制 / 移植",tools="资源提取与工具"),u="Uses rea",thx="另见 / 致谢：许多 REA 社区条目参考并核对了 [AIshihzong/awesome-reverse-engineer-anything](https://github.com/AIshihzong/awesome-reverse-engineer-anything)。",nes_empty="_暂无已验证条目，欢迎补充。_",c="贡献指南见 [CONTRIBUTING.md](CONTRIBUTING.md)。许可：[CC0-1.0](LICENSE)。"),
@@ -69,19 +69,19 @@ for k,d in L.items():
   yes_es = [e for e in E if e[4]=='Yes']
   if yes_es:
     yes_title = {
-      'en': 'Projects that used REA (with evidence)',
-      'zh-CN': '已使用 REA 的项目（有公开证据）',
-      'zh-TW': '已使用 REA 的專案（有公開證據）',
-      'ja': 'REA を使用したプロジェクト（公開証拠あり）',
-      'ko': 'REA를 사용한 프로젝트 (공개 증거 있음)'
+      'en': 'Projects that used REA (evidence-tagged subset)',
+      'zh-CN': '已使用 REA 的项目（证据标记子集）',
+      'zh-TW': '已使用 REA 的專案（證據標記子集）',
+      'ja': 'REA を使用したプロジェクト（証拠付きサブセット）',
+      'ko': 'REA를 사용한 프로젝트 (증거 표시 서브셋)'
     }.get(k, 'Projects that used REA (with evidence)')
     H(2, yes_title)
     note = {
-      'en': '_These have public evidence (README, official showcase, or repo docs) that they used REA. Search by target (app, game, protocol) before starting your own reverse-engineering._',
-      'zh-CN': '_以下项目有公开证据（README、官方 showcase 或仓库文档）表明使用了 REA。开始自己的逆向前，先按目标（应用/游戏/协议）搜一下有没有人已经做过。_',
-      'zh-TW': '_以下專案有公開證據（README、官方 showcase 或倉庫文件）表明使用了 REA。開始自己的逆向前，先按目標（應用/遊戲/協議）搜一下有沒有人已經做過。_',
-      'ja': '_以下は REA を使用した公開証拠（README、公式 showcase、リポジトリ文書）があるプロジェクトです。自分で逆解析を始める前に、対象（アプリ/ゲーム/プロトコル）で検索してください。_',
-      'ko': '_다음은 REA를 사용했다는 공개 증거(README, 공식 쇼케이스, 저장소 문서)가 있는 프로젝트입니다. 직접 역공학을 시작하기 전에 대상(앱/게임/프로토콜)으로 검색해 보세요._'
+      'en': '_Optional filter: these have public evidence of using REA. Most projects in the map are ordinary reverse-engineering work and do not require REA._',
+      'zh-CN': '_可选过滤：以下有公开证据表明使用了 REA。地图里大部分项目是普通逆向工作，并不要求用 REA。_',
+      'zh-TW': '_可選過濾：以下有公開證據表明使用了 REA。地圖裡大部分專案是普通逆向工作，並不要求用 REA。_',
+      'ja': '_任意のフィルタ：以下は REA を使用した公開証拠があるプロジェクトです。マップの大半は通常の逆解析プロジェクトで、REA は必須ではありません。_',
+      'ko': '_선택 필터: 다음은 REA를 사용했다는 공개 증거가 있는 프로젝트입니다. 지도의 대부분은 일반 역공학 프로젝트이며 REA는 필수가 아닙니다._'
     }.get(k, '')
     if note:
       body += [note, '']

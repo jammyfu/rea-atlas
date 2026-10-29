@@ -1,14 +1,14 @@
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
-# REA Atlas：已逆向项目可搜索地图（带证据标记）
+# REA Atlas：逆向工程项目地图（REA 标记可选）
 
-可搜索的逆向工程项目地图。每条标注是否使用 [morluto/rea](https://github.com/morluto/rea)：**Uses rea: Yes / No / Unverified**，只有公开证据才标 Yes。用来查「这个应用/游戏/协议/固件有没有人已经重实现过」。
+开源逆向工程项目地图：游戏反编译/重编译、重实现、资源工具、协议、固件及逆向工具。每条可选标注是否使用 [morluto/rea](https://github.com/morluto/rea)：**Uses rea: Yes / No / Unverified** —— 标记只是参考信号，不是收录条件。用来查「这个目标有没有人已经逆向过」。
 
 > 非官方，与 morluto/rea 无关联。
 
 ## 目录
 
-- [已使用 REA 的项目（有公开证据）](#已使用-rea-的项目有公开证据)
+- [已使用 REA 的项目（证据标记子集）](#已使用-rea-的项目证据标记子集)
 - [游戏](#游戏)
   - [NES / FC](#nes--fc)
   - [SFC / SNES](#sfc--snes)
@@ -32,9 +32,9 @@
 - [逆向工具](#逆向工具)
 - [REA 官方 Showcase](#rea-官方-showcase)
 
-## 已使用 REA 的项目（有公开证据）
+## 已使用 REA 的项目（证据标记子集）
 
-_以下项目有公开证据（README、官方 showcase 或仓库文档）表明使用了 REA。开始自己的逆向前，先按目标（应用/游戏/协议）搜一下有没有人已经做过。_
+_可选过滤：以下有公开证据表明使用了 REA。地图里大部分项目是普通逆向工作，并不要求用 REA。_
 
 <table>
 <tr><th width="170">图片</th><th>项目</th><th>简介</th><th>使用 rea</th><th>图片来源</th></tr>
