@@ -1678,5 +1678,29 @@
     "https://github.com/tmcleroy/cps2recomp",
     "No",
     "Native PC ports of Capcom CPS-2 arcade games via static recompilation."
+  ],
+  [
+    "xbox",
+    "remake",
+    "MysteriousAeon/rayman3-hd-recompiled",
+    "https://github.com/MysteriousAeon/rayman3-hd-recompiled",
+    "No",
+    "Native Windows static recompilation of Rayman 3 HD (Xbox 360); needs your own package."
+  ],
+  [
+    "pc",
+    "remake",
+    "smm2recomp/smm2recomp",
+    "https://github.com/smm2recomp/smm2recomp",
+    "No",
+    "Native multi-platform static recompilation of Super Mario Maker 2 (Switch v3.0.3); needs your own dump."
+  ],
+  [
+    "tooling",
+    "",
+    "giveen/decomp.anything",
+    "https://github.com/giveen/decomp.anything",
+    "Yes",
+    "Active fork of decomp.wtf with byte-matching decompiler and REA MCP bridge for PC binaries."
   ]
 ]

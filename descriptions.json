@@ -1468,5 +1468,26 @@
     "zh-TW": "透過靜態重編譯做成的卡普空 CPS-2 街機遊戲（街頭霸王 Alpha 2 等）非官方原生 PC 移植版。需自備 ROM。",
     "ja": "カプコンCPS-2アーケードゲーム（ストリートファイターα2など）を静的リコンパイルで作った非公式ネイティブPC移植版。ROMは自分で用意。",
     "ko": "캡콤 CPS-2 아케이드 게임(스트리트 파이터 알파 2 등)을 정적 리컴파일로 만든 비공식 네이티브 PC 포트. ROM은 직접 준비."
+  },
+  "MysteriousAeon/rayman3-hd-recompiled": {
+    "en": "Turns the closed-source Xbox 360 Rayman 3 HD into a native Windows program by statically recompiling its code; you supply your own game package.",
+    "zh-CN": "把闭源的 Xbox 360《雷曼3 HD》通过静态重编译做成能在 Windows 上原生运行的程序；需要你自己提供游戏包。",
+    "zh-TW": "把閉源的 Xbox 360《雷曼3 HD》透過靜態重編譯做成能在 Windows 上原生執行的程式；需要你自己提供遊戲包。",
+    "ja": "クローズドソースの Xbox 360『レイマン3 HD』を静的再コンパイルして Windows でネイティブに動くプログラムにしたもの。自分のゲームパッケージが必要。",
+    "ko": "폐쇄 소스 Xbox 360 『레이맨 3 HD』를 정적 재컴파일로 Windows에서 네이티브로 실행되게 만든 것. 자신의 게임 패키지가 필요함."
+  },
+  "smm2recomp/smm2recomp": {
+    "en": "Static recompilation that turns the closed-source Switch Super Mario Maker 2 into a native app for PC, Mac, Linux and more; you provide your own dump.",
+    "zh-CN": "用静态重编译把闭源的 Switch《超级马里奥制造2》做成能在电脑、Mac、Linux 等平台原生运行的程序；需要你自己提供游戏转储。",
+    "zh-TW": "用靜態重編譯把閉源的 Switch《超級瑪利歐製造2》做成能在電腦、Mac、Linux 等平台原生執行的程式；需要你自己提供遊戲轉儲。",
+    "ja": "クローズドソースの Switch『スーパーマリオメーカー2』を静的再コンパイルして PC・Mac・Linux などでネイティブに動くアプリにしたもの。自分のダンプが必要。",
+    "ko": "폐쇄 소스 Switch 『슈퍼 마리오 메이커 2』를 정적 재컴파일로 PC·Mac·Linux 등에서 네이티브로 실행되게 만든 것. 자신의 덤프가 필요함."
+  },
+  "giveen/decomp.anything": {
+    "en": "Continuation of the closed-source matching decompiler decomp.wtf; adds Windows/Linux PE/ELF support and an REA bridge so agents can reverse-engineer non-game binaries too.",
+    "zh-CN": "停更的匹配式反编译器 decomp.wtf 的活跃分支；增加了 Windows/Linux 二进制支持，并接入 REA，让 AI 也能逆向非游戏程序。",
+    "zh-TW": "停更的匹配式反編譯器 decomp.wtf 的活躍分支；增加了 Windows/Linux 二進位支援，並接入 REA，讓 AI 也能逆向非遊戲程式。",
+    "ja": "更新停止したマッチング型デコンパイラ decomp.wtf の継続フォーク。Windows/Linux バイナリ対応と REA 連携を追加し、ゲーム以外のプログラムもエージェントが解析できるようにした。",
+    "ko": "업데이트 중단된 매칭 디컴파일러 decomp.wtf의 활성 포크. Windows/Linux 바이너리 지원과 REA 브리지를 추가해 게임 외 프로그램도 AI가 역공학할 수 있게 함."
   }
 }
