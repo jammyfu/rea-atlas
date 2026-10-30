@@ -1489,5 +1489,47 @@
     "zh-TW": "停更的匹配式反編譯器 decomp.wtf 的活躍分支；增加了 Windows/Linux 二進位支援，並接入 REA，讓 AI 也能逆向非遊戲程式。",
     "ja": "更新停止したマッチング型デコンパイラ decomp.wtf の継続フォーク。Windows/Linux バイナリ対応と REA 連携を追加し、ゲーム以外のプログラムもエージェントが解析できるようにした。",
     "ko": "업데이트 중단된 매칭 디컴파일러 decomp.wtf의 활성 포크. Windows/Linux 바이너리 지원과 REA 브리지를 추가해 게임 외 프로그램도 AI가 역공학할 수 있게 함."
+  },
+  "monatis/okur": {
+    "en": "Open-source screen reader that acts like JAWS, rebuilt from scratch by watching what JAWS says.",
+    "zh-CN": "从零重写的开源屏幕阅读器，行为像 JAWS，通过观察 JAWS 的语音输出来实现。",
+    "zh-TW": "從零重寫的開源螢幕閱讀器，行為像 JAWS，透過觀察 JAWS 的語音輸出來實現。",
+    "ja": "JAWS のように動くオープンソースのスクリーンリーダー。JAWS の発話を観察してゼロから再実装。",
+    "ko": "JAWS처럼 동작하는 오픈소스 스크린 리더. JAWS의 음성을 관찰해 처음부터 다시 구현."
+  },
+  "bryantmh/rush2recompiled": {
+    "en": "Rush 2: Extreme Racing USA running natively on PC, translated from the N64 ROM ahead of time.",
+    "zh-CN": "把 N64 上的 Rush 2 赛车游戏静态重编译成原生 PC 版本，支持宽屏和高帧率。",
+    "zh-TW": "把 N64 上的 Rush 2 賽車遊戲靜態重編譯成原生 PC 版本，支援寬螢幕和高幀率。",
+    "ja": "N64 の Rush 2 を事前に翻訳して、ネイティブ PC で動かすプロジェクト。",
+    "ko": "N64의 Rush 2를 미리 번역해서 네이티브 PC에서 실행하는 프로젝트."
+  },
+  "Hero88go/melee-unlocked": {
+    "en": "Super Smash Bros. Melee compiled natively for Windows from its decompiled source, with unlocked frame rate.",
+    "zh-CN": "把 Super Smash Bros. Melee 的反编译源码编译成原生 Windows 版本，解锁帧率并支持 Slippi 联机。",
+    "zh-TW": "把 Super Smash Bros. Melee 的反編譯源碼編譯成原生 Windows 版本，解鎖幀率並支援 Slippi 連線。",
+    "ja": "Super Smash Bros. Melee のデコンパイルソースからネイティブ Windows ビルドを作り、フレームレートを解除。",
+    "ko": "Super Smash Bros. Melee의 디컴파일 소스로 네이티브 Windows 빌드를 만들고 프레임 레이트를 해제."
+  },
+  "DinosaurPlanetRecomp/dino-recomp": {
+    "en": "Dinosaur Planet (N64 prototype) turned into a native PC port via static recompilation with better graphics.",
+    "zh-CN": "把 N64 原型游戏 Dinosaur Planet 静态重编译成原生 PC 移植，带图形增强。",
+    "zh-TW": "把 N64 原型遊戲 Dinosaur Planet 靜態重編譯成原生 PC 移植，帶圖形增強。",
+    "ja": "N64 プロトタイプの Dinosaur Planet を静的再コンパイルでネイティブ PC ポートに。",
+    "ko": "N64 프로토타입 Dinosaur Planet을 정적 재컴파일로 네이티브 PC 포트로 만듦."
+  },
+  "DatanoiseTV/revenant": {
+    "en": "AI agent that reverse-engineers old firmware and binaries, then generates pin maps, device trees or reimplementations.",
+    "zh-CN": "用大模型自动逆向被厂商抛弃的固件和二进制程序，生成引脚图、设备树或开源重实现。",
+    "zh-TW": "用大模型自動逆向被廠商拋棄的韌體和二進位程式，生成腳位圖、設備樹或開源重實現。",
+    "ja": "放棄されたファームウェアやバイナリを LLM で自動解析し、ピンマップや再実装を生成。",
+    "ko": "버려진 펌웨어와 바이너리를 LLM으로 자동 역공학하고 핀맵이나 재구현을 생성."
+  },
+  "Sage-is/CleanRoom": {
+    "en": "A simpler local Python version of the REA reverse-engineering MCP server and CLI.",
+    "zh-CN": "用 Python 从零重写的本地 REA（逆向任何东西）MCP 服务器和命令行工具。",
+    "zh-TW": "用 Python 從零重寫的本地 REA（逆向任何東西）MCP 伺服器和命令列工具。",
+    "ja": "REA のローカル版を Python でシンプルに再実装した MCP サーバーと CLI。",
+    "ko": "REA의 로컬 버전을 Python으로 단순하게 재구현한 MCP 서버와 CLI."
   }
 }

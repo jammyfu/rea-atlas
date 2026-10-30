@@ -738,5 +738,35 @@
     "card",
     "images/cps2recomp-card.png",
     "GitHub social preview card for cps2recomp"
+  ],
+  "monatis/okur": [
+    "card",
+    "images/okur-card.png",
+    "GitHub social preview card for monatis/okur"
+  ],
+  "bryantmh/rush2recompiled": [
+    "card",
+    "images/rush2recompiled-card.png",
+    "GitHub social preview card for rush2recompiled"
+  ],
+  "Hero88go/melee-unlocked": [
+    "card",
+    "images/melee-unlocked-card.png",
+    "GitHub social preview card for melee-unlocked"
+  ],
+  "DinosaurPlanetRecomp/dino-recomp": [
+    "card",
+    "images/dino-recomp-card.png",
+    "GitHub social preview card for dino-recomp"
+  ],
+  "DatanoiseTV/revenant": [
+    "card",
+    "images/revenant-card.png",
+    "GitHub social preview card for revenant"
+  ],
+  "Sage-is/CleanRoom": [
+    "card",
+    "images/cleanroom-card.png",
+    "GitHub social preview card for CleanRoom"
   ]
 }

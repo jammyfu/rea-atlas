@@ -1702,5 +1702,53 @@
     "https://github.com/giveen/decomp.anything",
     "Yes",
     "Active fork of decomp.wtf with byte-matching decompiler and REA MCP bridge for PC binaries."
+  ],
+  [
+    "app",
+    "remake",
+    "monatis/okur",
+    "https://github.com/monatis/okur",
+    "No",
+    "Clean-room reimplementation of the JAWS screen reader, built by AI agents matching recorded speech."
+  ],
+  [
+    "n64",
+    "decomp",
+    "bryantmh/rush2recompiled",
+    "https://github.com/bryantmh/rush2recompiled",
+    "No",
+    "Static recompilation of Rush 2: Extreme Racing USA (N64) for native PC with widescreen and high FPS."
+  ],
+  [
+    "gc",
+    "remake",
+    "Hero88go/melee-unlocked",
+    "https://github.com/Hero88go/melee-unlocked",
+    "No",
+    "Native PC port of Super Smash Bros. Melee from its decompilation, with unlocked FPS and Slippi online."
+  ],
+  [
+    "n64",
+    "decomp",
+    "DinosaurPlanetRecomp/dino-recomp",
+    "https://github.com/DinosaurPlanetRecomp/dino-recomp",
+    "No",
+    "Static recompilation of the Dinosaur Planet N64 prototype into a native port with RT64 enhancements."
+  ],
+  [
+    "tooling",
+    "",
+    "DatanoiseTV/revenant",
+    "https://github.com/DatanoiseTV/revenant",
+    "No",
+    "LLM-powered automated reverse-engineering engine for abandoned firmware and software."
+  ],
+  [
+    "tooling",
+    "",
+    "Sage-is/CleanRoom",
+    "https://github.com/Sage-is/CleanRoom",
+    "No",
+    "Local Python reimplementation of REA: a DRY MCP server and CLI with pageable Evidence."
   ]
 ]
