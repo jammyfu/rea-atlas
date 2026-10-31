@@ -1531,5 +1531,40 @@
     "zh-TW": "用 Python 從零重寫的本地 REA（逆向任何東西）MCP 伺服器和命令列工具。",
     "ja": "REA のローカル版を Python でシンプルに再実装した MCP サーバーと CLI。",
     "ko": "REA의 로컬 버전을 Python으로 단순하게 재구현한 MCP 서버와 CLI."
+  },
+  "valentderah/totk-pc-recomp": {
+    "en": "Turns the Nintendo Switch version of The Legend of Zelda: Tears of the Kingdom into a native Windows program you can run without an emulator. You supply your own game files.",
+    "zh-CN": "把任天堂 Switch 上的《塞尔达传说：王国之泪》静态重编译成原生 Windows 程序，不用模拟器就能玩。需要自己提供游戏文件。",
+    "zh-TW": "把任天堂 Switch 上的《薩爾達傳說：王國之淚》靜態重編譯成原生 Windows 程式，不用模擬器就能玩。需要自己提供遊戲檔案。",
+    "ja": "Nintendo Switch 版『ゼルダの伝説 ティアーズ オブ ザ キングダム』を、エミュレータなしで動くネイティブ Windows プログラムに静的再コンパイルします。ゲームファイルは自分で用意。",
+    "ko": "닌텐도 스위치 버전의 젤다의 전설: 티어즈 오브 더 킹덤을 에뮬레이터 없이 실행되는 네이티브 Windows 프로그램으로 정적 재컴파일합니다. 게임 파일은 직접 준비해야 합니다."
+  },
+  "gothamor/gta-vcs-recomp": {
+    "en": "Makes a native Windows and Linux version of Grand Theft Auto: Vice City Stories (original PS2 game) by recompiling its executable. Bring your own disc image.",
+    "zh-CN": "把原版 PS2 游戏《GTA：罪恶都市传奇》的可执行文件重编译成原生 Windows 和 Linux 程序。需要自己提供光盘镜像。",
+    "zh-TW": "把原版 PS2 遊戲《GTA：罪惡都市傳奇》的可執行檔重編譯成原生 Windows 和 Linux 程式。需要自己提供光碟映像。",
+    "ja": "元の PS2 ゲーム『グランド・セフト・オート：バイスシティ・ストーリーズ』の実行ファイルを再コンパイルして、ネイティブの Windows / Linux 版を作ります。ディスクイメージは自分で用意。",
+    "ko": "원본 PS2 게임 그랜드 테프트 오토: 바이스 시티 스토리즈의 실행 파일을 재컴파일하여 네이티브 Windows 및 Linux 버전을 만듭니다. 디스크 이미지는 직접 준비하세요."
+  },
+  "yamahuser/mhfz-decomp": {
+    "en": "Reverse-engineering work on the Monster Hunter Frontier Z online client: function names, specifications and helper tools. Does not include Capcom's original code.",
+    "zh-CN": "针对《怪物猎人边境Z》在线客户端的逆向工程：整理函数名、规格和辅助工具。不包含卡普空的原始代码。",
+    "zh-TW": "針對《魔物獵人前線Z》線上客戶端的逆向工程：整理函式名稱、規格和輔助工具。不包含卡普空的原始程式碼。",
+    "ja": "『モンスターハンター フロンティアZ』オンラインクライアントのリバースエンジニアリング：関数名、仕様、補助ツール。カプコンのオリジナルコードは含みません。",
+    "ko": "몬스터 헌터 프론티어 Z 온라인 클라이언트의 리버스 엔지니어링: 함수 이름, 사양 및 보조 도구. 캡콤 원본 코드는 포함되지 않습니다."
+  },
+  "cheviman/outrunners-port": {
+    "en": "A native port of the 1992 Sega arcade game OutRunners for PC and consoles, built from a matching C decompilation. You need your own ROM.",
+    "zh-CN": "基于逐字节匹配的 C 反编译，把 1992 年世嘉街机游戏《OutRunners》移植成原生 PC 和主机版本。需要自己提供 ROM。",
+    "zh-TW": "基於逐位元組匹配的 C 反編譯，把 1992 年世嘉街機遊戲《OutRunners》移植成原生 PC 和主機版本。需要自己提供 ROM。",
+    "ja": "1992年セガアーケードゲーム『OutRunners』を、一致する C デコンパイルを基に PC とコンソール向けネイティブ移植。ROM は自分で用意。",
+    "ko": "1992년 세가 아케이드 게임 OutRunners를 일치하는 C 디컴파일을 기반으로 PC와 콘솔용 네이티브 포트로 만듭니다. ROM은 직접 준비하세요."
+  },
+  "LostArtefacts/decomp-tools": {
+    "en": "Tools that help people create matching decompilations of the Windows versions of Tomb Raider 2 through 5, using the original MSVC 5 and 6 compilers under Wine.",
+    "zh-CN": "帮助对 Windows 版《古墓丽影2》到《古墓丽影5》做逐字节匹配反编译的工具，使用 Wine 下的原版 MSVC 5/6 编译器。",
+    "zh-TW": "幫助對 Windows 版《古墓奇兵2》到《古墓奇兵5》做逐位元組匹配反編譯的工具，使用 Wine 下的原版 MSVC 5/6 編譯器。",
+    "ja": "Windows 版トゥームレイダー2～5の一致するデコンパイルを支援するツール。Wine 上でオリジナルの MSVC 5/6 コンパイラを使用。",
+    "ko": "Windows 버전 툼 레이더 2~5의 일치하는 디컴파일을 돕는 도구. Wine에서 원본 MSVC 5/6 컴파일러를 사용합니다."
   }
 }

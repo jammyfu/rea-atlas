@@ -1750,5 +1750,45 @@
     "https://github.com/Sage-is/CleanRoom",
     "No",
     "Local Python reimplementation of REA: a DRY MCP server and CLI with pageable Evidence."
+  ],
+  [
+    "pc",
+    "remake",
+    "valentderah/totk-pc-recomp",
+    "https://github.com/valentderah/totk-pc-recomp",
+    "No",
+    "Static recompilation of The Legend of Zelda: Tears of the Kingdom (Switch) to native Windows x86-64 with Vulkan. Bring your own dump."
+  ],
+  [
+    "ps2",
+    "remake",
+    "gothamor/gta-vcs-recomp",
+    "https://github.com/gothamor/gta-vcs-recomp",
+    "No",
+    "Native Windows/Linux port of Grand Theft Auto: Vice City Stories (PS2) via static recompilation of the executable. Bring your own disc."
+  ],
+  [
+    "pc",
+    "decomp",
+    "yamahuser/mhfz-decomp",
+    "https://github.com/yamahuser/mhfz-decomp",
+    "No",
+    "Monster Hunter Frontier Z client reverse-engineering: function names, specs and tools. No Capcom code."
+  ],
+  [
+    "pc",
+    "remake",
+    "cheviman/outrunners-port",
+    "https://github.com/cheviman/outrunners-port",
+    "No",
+    "Native port of OutRunners (Sega arcade 1992) for PC and consoles, built on the matching C decompilation. Bring your own ROM."
+  ],
+  [
+    "tooling",
+    "",
+    "LostArtefacts/decomp-tools",
+    "https://github.com/LostArtefacts/decomp-tools",
+    "No",
+    "Tooling for matching decompilations of the Windows Tomb Raider games (TR2–TR5) using MSVC 5/6 under Wine."
   ]
 ]

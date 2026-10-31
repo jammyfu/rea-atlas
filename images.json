@@ -768,5 +768,10 @@
     "card",
     "images/cleanroom-card.png",
     "GitHub social preview card for CleanRoom"
+  ],
+  "valentderah/totk-pc-recomp": [
+    "card",
+    "images/totk-pc-recomp-card.png",
+    "GitHub social preview card for the totk-pc-recomp repository"
   ]
 }
