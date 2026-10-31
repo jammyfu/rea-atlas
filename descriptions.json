@@ -1566,5 +1566,40 @@
     "zh-TW": "幫助對 Windows 版《古墓奇兵2》到《古墓奇兵5》做逐位元組匹配反編譯的工具，使用 Wine 下的原版 MSVC 5/6 編譯器。",
     "ja": "Windows 版トゥームレイダー2～5の一致するデコンパイルを支援するツール。Wine 上でオリジナルの MSVC 5/6 コンパイラを使用。",
     "ko": "Windows 버전 툼 레이더 2~5의 일치하는 디컴파일을 돕는 도구. Wine에서 원본 MSVC 5/6 컴파일러를 사용합니다."
+  },
+  "AsobiCodes/rac-rs": {
+    "en": "Turns the 2002 PS2 game Ratchet & Clank into a native PC program by translating its code ahead of time, so it runs without an emulator. You need your own disc.",
+    "zh-CN": "把 2002 年的 PS2 游戏《Ratchet & Clank》（拉切特与克拉克）静态重编译成原生 PC 程序，无需模拟器即可运行。需要自己的光盘。",
+    "zh-TW": "把 2002 年的 PS2 遊戲《Ratchet & Clank》（拉切特與克拉克）靜態重編譯成原生 PC 程式，無需模擬器即可運行。需要自己的光碟。",
+    "ja": "2002年のPS2ゲーム『ラチェット＆クランク』のコードを事前に翻訳して、エミュレーターなしで動くネイティブPC版にした。自分のディスクが必要。",
+    "ko": "2002년 PS2 게임 《래칫 앤 클랭크》의 코드를 미리 번역해서 에뮬레이터 없이 돌아가는 네이티브 PC 버전으로 만들었다. 자신의 디스크가 필요하다."
+  },
+  "josiahg2502-glitch/BrawlRecompiled": {
+    "en": "Makes Super Smash Bros. Brawl (the 2008 Wii game) run as a native Windows or Linux program by translating its PowerPC code, with 4K, high frame rates and mod support. Bring your own disc.",
+    "zh-CN": "把 2008 年 Wii 游戏《大乱斗 特别版》（Super Smash Bros. Brawl）的 PowerPC 代码静态重编译成原生 PC 程序，支持 4K、高帧率和模组。需要自己的光盘。",
+    "zh-TW": "把 2008 年 Wii 遊戲《大亂鬥 特別版》（Super Smash Bros. Brawl）的 PowerPC 程式碼靜態重編譯成原生 PC 程式，支援 4K、高幀率和模組。需要自己的光碟。",
+    "ja": "2008年のWiiゲーム『大乱闘スマッシュブラザーズX』のPowerPCコードを事前翻訳して、4K・高フレームレート・MOD対応のネイティブPC版にした。自分のディスクが必要。",
+    "ko": "2008년 Wii 게임 《슈퍼 스매시 브라더스 브롤》의 PowerPC 코드를 미리 번역해서 4K, 고프레임, 모드 지원 네이티브 PC 버전으로 만들었다. 자신의 디스크가 필요하다."
+  },
+  "crabsmack/xmen2-pc": {
+    "en": "Rebuilds the 1995 Genesis game X-Men 2: Clone Wars as a native PC game from a full decompilation, adding widescreen, high frame rates and up to 4-player local or online co-op. Bring your own ROM.",
+    "zh-CN": "把 1995 年 Genesis 游戏《X-Men 2: Clone Wars》从完整反编译重建成原生 PC 游戏，支持宽屏、高帧率和最多 4 人本地或在线合作。需要自己的 ROM。",
+    "zh-TW": "把 1995 年 Genesis 遊戲《X-Men 2: Clone Wars》從完整反編譯重建成原生 PC 遊戲，支援寬屏、高幀率和最多 4 人本地或線上合作。需要自己的 ROM。",
+    "ja": "1995年のジェネシスゲーム『X-Men 2: Clone Wars』を完全なデコンパイルからネイティブPCゲームに再構築。ワイドスクリーン、高フレームレート、最大4人ローカル/オンライン対応。自分のROMが必要。",
+    "ko": "1995년 제네시스 게임 《엑스맨 2: 클론 워즈》를 완전한 디컴파일로부터 네이티브 PC 게임으로 재구축. 와이드스크린, 고프레임, 최대 4인 로컬/온라인 지원. 자신의 ROM이 필요하다."
+  },
+  "i2kiselev/fm4-static-recomp": {
+    "en": "Turns the Xbox 360 racing game Forza Motorsport 4 into a native Windows program with high frame rates, DLSS/FSR upscaling and up to 4K resolution. You supply your own disc.",
+    "zh-CN": "把 Xbox 360 竞速游戏《极限竞速 4》（Forza Motorsport 4）静态重编译成原生 Windows 程序，支持高帧率、DLSS/FSR 和最高 4K。需要自己的光盘。",
+    "zh-TW": "把 Xbox 360 競速遊戲《極限競速 4》（Forza Motorsport 4）靜態重編譯成原生 Windows 程式，支援高幀率、DLSS/FSR 和最高 4K。需要自己的光碟。",
+    "ja": "Xbox 360のレーシングゲーム『Forza Motorsport 4』を高フレームレート・DLSS/FSR・最大4K対応のネイティブWindows版にした。自分のディスクが必要。",
+    "ko": "Xbox 360 레이싱 게임 《포르자 모터스포츠 4》를 고프레임, DLSS/FSR, 최대 4K 지원 네이티브 Windows 버전으로 만들었다. 자신의 디스크가 필요하다."
+  },
+  "YuutaTsubasa/ChaotixRecompiled": {
+    "en": "Makes the 1995 Sega 32X game Knuckles' Chaotix run natively on Windows, Linux, macOS and Android with true widescreen, by translating its code ahead of time. Bring your own ROM.",
+    "zh-CN": "把 1995 年 Sega 32X 游戏《Knuckles' Chaotix》静态重编译成原生多平台程序（Windows/Linux/macOS/Android），支持真正宽屏。需要自己的 ROM。",
+    "zh-TW": "把 1995 年 Sega 32X 遊戲《Knuckles' Chaotix》靜態重編譯成原生多平台程式（Windows/Linux/macOS/Android），支援真正寬屏。需要自己的 ROM。",
+    "ja": "1995年のセガ32Xゲーム『ナックルズ・カオティクス』のコードを事前翻訳して、真のワイドスクリーン対応のネイティブ多プラットフォーム版にした。自分のROMが必要。",
+    "ko": "1995년 세가 32X 게임 《너클즈 카오틱스》의 코드를 미리 번역해서 진짜 와이드스크린 지원 네이티브 멀티플랫폼 버전으로 만들었다. 자신의 ROM이 필요하다."
   }
 }

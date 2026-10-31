@@ -1790,5 +1790,45 @@
     "https://github.com/LostArtefacts/decomp-tools",
     "No",
     "Tooling for matching decompilations of the Windows Tomb Raider games (TR2–TR5) using MSVC 5/6 under Wine."
+  ],
+  [
+    "ps2",
+    "remake",
+    "AsobiCodes/rac-rs",
+    "https://github.com/AsobiCodes/rac-rs",
+    "No",
+    "Native Windows/Linux port of Ratchet & Clank (PS2 2002) via static recompilation of the executable into Rust. Bring your own disc."
+  ],
+  [
+    "wii",
+    "remake",
+    "josiahg2502-glitch/BrawlRecompiled",
+    "https://github.com/josiahg2502-glitch/BrawlRecompiled",
+    "No",
+    "Native PC port of Super Smash Bros. Brawl (Wii) via static recompilation of PowerPC code with WiiCompiled. 4K, high FPS, mods support. Bring your own disc."
+  ],
+  [
+    "md",
+    "decomp",
+    "crabsmack/xmen2-pc",
+    "https://github.com/crabsmack/xmen2-pc",
+    "No",
+    "Native Windows/Linux port of X-Men 2: Clone Wars (Genesis 1995) from a full decompilation. Widescreen, high frame rate, up to 4P local/online. Bring your own ROM."
+  ],
+  [
+    "xbox",
+    "remake",
+    "i2kiselev/fm4-static-recomp",
+    "https://github.com/i2kiselev/fm4-static-recomp",
+    "No",
+    "Native Windows static recompilation of Forza Motorsport 4 (Xbox 360) using ShiftGlue. High FPS, DLSS/FSR, up to 4K. Bring your own disc."
+  ],
+  [
+    "md",
+    "remake",
+    "YuutaTsubasa/ChaotixRecompiled",
+    "https://github.com/YuutaTsubasa/ChaotixRecompiled",
+    "No",
+    "Native multi-platform static recompilation of Knuckles' Chaotix (Sega 32X 1995). True widescreen. Bring your own ROM."
   ]
 ]
