@@ -1601,5 +1601,131 @@
     "zh-TW": "把 1995 年 Sega 32X 遊戲《Knuckles' Chaotix》靜態重編譯成原生多平台程式（Windows/Linux/macOS/Android），支援真正寬屏。需要自己的 ROM。",
     "ja": "1995年のセガ32Xゲーム『ナックルズ・カオティクス』のコードを事前翻訳して、真のワイドスクリーン対応のネイティブ多プラットフォーム版にした。自分のROMが必要。",
     "ko": "1995년 세가 32X 게임 《너클즈 카오틱스》의 코드를 미리 번역해서 진짜 와이드스크린 지원 네이티브 멀티플랫폼 버전으로 만들었다. 자신의 ROM이 필요하다."
+  },
+  "jmars125/xcx-recomp": {
+    "en": "Turns the closed-source Xenoblade Chronicles X: Definitive Edition (Switch) into a native Windows program by statically recompiling its code. You bring your own legally dumped files.",
+    "zh-CN": "把闭源的《异度神剑 X 终极版》（Switch）通过静态重编译做成了能在 Windows 上原生运行的程序。需要自己提供合法转储的游戏文件。",
+    "zh-TW": "把閉源的《異度神劍 X 終極版》（Switch）透過靜態重編譯做成能在 Windows 上原生執行的程式。需要自己提供合法轉儲的遊戲檔案。",
+    "ja": "クローズドソースの『ゼノブレイドクロス ディフィニティブエディション』（Switch）を静的再コンパイルして、Windows でネイティブに動くプログラムにしたもの。自分で合法的にダンプしたファイルが必要。",
+    "ko": "클로즈드 소스인 제노블레이드 크로닉스 X 디피니티브 에디션(Switch)을 정적 재컴파일해서 Windows에서 네이티브로 돌아가는 프로그램으로 만든 것. 합법적으로 덤프한 자신의 파일이 필요."
+  },
+  "Yaz-Myst/ZOE-Recompiled": {
+    "en": "A native Windows port of the closed-source Zone of the Enders (PlayStation 2), made by statically recompiling the game’s code. Bring your own disc.",
+    "zh-CN": "把闭源的《终极地带》（PS2）通过静态重编译做成了能在 Windows 上原生跑的版本。需要自己带原版光盘。",
+    "zh-TW": "把閉源的《終極地帶》（PS2）透過靜態重編譯做成能在 Windows 上原生跑的版本。需要自己帶原版光碟。",
+    "ja": "クローズドソースの『ゾーン・オブ・エンダーズ』（PS2）を静的再コンパイルして Windows でネイティブに動くようにしたもの。自分のディスクが必要。",
+    "ko": "클로즈드 소스인 존 오브 엔더스(PS2)를 정적 재컴파일해서 Windows에서 네이티브로 돌아가게 만든 것. 자신의 디스크가 필요."
+  },
+  "MistblastClear/UEBulkExport-rpocket": {
+    "en": "A command-line tool that dumps an entire Unreal Engine game container (.pak / .utoc / .ucas) into one folder of textures, meshes, animations, audio and levels.",
+    "zh-CN": "一个命令行工具，能把整个虚幻引擎游戏包（.pak / .utoc / .ucas）一次性导出成纹理、模型、动画、音频和关卡文件夹。",
+    "zh-TW": "一個命令列工具，能把整個虛幻引擎遊戲包（.pak / .utoc / .ucas）一次匯出成紋理、模型、動畫、音訊和關卡資料夾。",
+    "ja": "Unreal Engine のゲームコンテナ（.pak / .utoc / .ucas）を丸ごと、テクスチャ・メッシュ・アニメ・音声・レベルが入ったフォルダに一括書き出すコマンドラインツール。",
+    "ko": "언리얼 엔진 게임 컨테이너(.pak / .utoc / .ucas) 전체를 텍스처, 메시, 애니메이션, 오디오, 레벨이 든 폴더로 한 번에 추출하는 명령줄 도구."
+  },
+  "FurkanAnc/totk-launcher": {
+    "en": "A launcher for the existing Tears of the Kingdom PC recompilation: change settings, rebind keys, get achievements, back up saves and use cheats.",
+    "zh-CN": "给现有的《塞尔达传说 王国之泪》PC 重编译版做的启动器：改设置、改按键、成就、存档备份和作弊。",
+    "zh-TW": "給現有的《薩爾達傳說 王國之淚》PC 重編譯版做的啟動器：改設定、改按鍵、成就、存檔備份和作弊。",
+    "ja": "既存の『ゼルダの伝説 ティアーズ オブ ザ キングダム』PC 再コンパイル版用のランチャー。設定変更、キー割り当て、実績、セーブバックアップ、チートができる。",
+    "ko": "기존 젤다의 전설 왕국의 눈물 PC 재컴파일 버전용 런처. 설정 변경, 키 재바인딩, 업적, 세이브 백업, 치트를 지원."
+  },
+  "C-GBL/P3FES-Decompilation": {
+    "en": "Turns the closed-source Persona 3 FES (PlayStation 2) into a native Windows program by statically recompiling its code into C++. Bring your own copy.",
+    "zh-CN": "把闭源的《女神异闻录3 FES》（PS2）通过静态重编译成 C++，做成能在 Windows 上原生运行的版本。需要自己带游戏。",
+    "zh-TW": "把閉源的《女神異聞錄3 FES》（PS2）透過靜態重編譯成 C++，做成能在 Windows 上原生執行的版本。需要自己帶遊戲。",
+    "ja": "クローズドソースの『ペルソナ3 FES』（PS2）を静的再コンパイルして C++ にし、Windows でネイティブに動くようにしたもの。自分のコピーが必要。",
+    "ko": "클로즈드 소스인 페르소나 3 FES(PS2)를 정적 재컴파일해서 C++로 만들어 Windows에서 네이티브로 돌아가게 한 것. 자신의 복사본이 필요."
+  },
+  "TekRantGaming/cartoon-network-racing-recompiled": {
+    "en": "Native PC port of the closed-source Cartoon Network Racing (PlayStation 2), made by static recompilation. Widescreen and high frame rates. Bring your own disc.",
+    "zh-CN": "把闭源的《卡通频道赛车》（PS2）通过静态重编译做成了 PC 原生版。支持宽屏和高帧率。需要自己带光盘。",
+    "zh-TW": "把閉源的《卡通頻道賽車》（PS2）透過靜態重編譯做成了 PC 原生版。支援寬螢幕和高幀率。需要自己帶光碟。",
+    "ja": "クローズドソースの『Cartoon Network Racing』（PS2）を静的再コンパイルして作った PC ネイティブ版。ワイドスクリーンと高フレームレート対応。自分のディスクが必要。",
+    "ko": "클로즈드 소스인 Cartoon Network Racing(PS2)을 정적 재컴파일해서 만든 PC 네이티브 포트. 와이드스크린과 고프레임 지원. 자신의 디스크가 필요."
+  },
+  "cdetv/conker-live-recompiled": {
+    "en": "A native Windows PC version of the closed-source Conker: Live & Reloaded (original Xbox), created by statically recompiling the game’s code.",
+    "zh-CN": "把闭源的《康克：复活》（原版 Xbox）通过静态重编译做成了能在 Windows 上原生运行的版本。",
+    "zh-TW": "把閉源的《康克：復活》（原版 Xbox）透過靜態重編譯做成能在 Windows 上原生執行的版本。",
+    "ja": "クローズドソースの『コンカー：ライブ＆リローデッド』（初代 Xbox）を静的再コンパイルして、Windows でネイティブに動くようにしたもの。",
+    "ko": "클로즈드 소스인 콘커: 라이브 & 리로디드(원본 Xbox)를 정적 재컴파일해서 Windows에서 네이티브로 돌아가게 만든 것."
+  },
+  "0xd34db8/LF2-decomp": {
+    "en": "A true 1:1 decompilation of the closed-source Little Fighter 2 into modern C++20 source that matches the original x86 machine code.",
+    "zh-CN": "把闭源的《小小大乱斗2》完整反编译成了现代 C++20 源码，能和原版 x86 机器码逐字节对应。",
+    "zh-TW": "把閉源的《小小大亂鬥2》完整反編譯成了現代 C++20 原始碼，能和原版 x86 機器碼逐位元組對應。",
+    "ja": "クローズドソースの『Little Fighter 2』を現代の C++20 ソースに完全に逆コンパイルしたもの。元の x86 機械語とバイト単位で一致する。",
+    "ko": "클로즈드 소스인 리틀 파이터 2를 현대 C++20 소스로 완전히 디컴파일한 것. 원본 x86 기계어와 바이트 단위로 일치."
+  },
+  "TekRantGaming/muppet-racemania-recompiled": {
+    "en": "Native PC port of the closed-source Muppet RaceMania (PlayStation), made by static recompilation. Supports 16:9 and 60 FPS.",
+    "zh-CN": "把闭源的《布偶赛车》（PlayStation）通过静态重编译做成了 PC 原生版。支持 16:9 和 60 帧。",
+    "zh-TW": "把閉源的《布偶賽車》（PlayStation）透過靜態重編譯做成了 PC 原生版。支援 16:9 和 60 幀。",
+    "ja": "クローズドソースの『Muppet RaceMania』（PlayStation）を静的再コンパイルして作った PC ネイティブ版。16:9 と 60fps 対応。",
+    "ko": "클로즈드 소스인 머펫 레이스매니아(PlayStation)를 정적 재컴파일해서 만든 PC 네이티브 포트. 16:9와 60FPS 지원."
+  },
+  "kazuyette/senjin-recomped": {
+    "en": "Static recompilation of the closed-source arcade game Senjin Aleste (APM3) into a native Linux x86-64 binary, plus a Windows replacement DLL.",
+    "zh-CN": "把闭源的街机游戏《战刃》/Senjin Aleste（APM3）静态重编译成了能在 Linux x86-64 上原生运行的程序，还附带 Windows 用的 DLL 替换。",
+    "zh-TW": "把閉源的街機遊戲《戰刃》/Senjin Aleste（APM3）靜態重編譯成能在 Linux x86-64 上原生執行的程式，還附帶 Windows 用的 DLL 替換。",
+    "ja": "クローズドソースのアーケードゲーム『戦刃』/Senjin Aleste（APM3）を静的再コンパイルして Linux x86-64 ネイティブバイナリにしたもの。Windows 用の置換 DLL も付属。",
+    "ko": "클로즈드 소스 아케이드 게임 센진 알레스트(APM3)를 정적 재컴파일해서 Linux x86-64 네이티브 바이너리로 만든 것. Windows용 대체 DLL도 포함."
+  },
+  "timboat/demons-souls-recomp": {
+    "en": "Native Windows port of the closed-source Demon's Souls (PlayStation 3), made with ps3recomp static recompilation. Bring your own disc image.",
+    "zh-CN": "用 ps3recomp 静态重编译把闭源的《恶魔之魂》（PS3）做成了能在 Windows 上原生运行的版本。需要自己带光盘镜像。",
+    "zh-TW": "用 ps3recomp 靜態重編譯把閉源的《惡魔之魂》（PS3）做成能在 Windows 上原生執行的版本。需要自己帶光碟映像。",
+    "ja": "ps3recomp による静的再コンパイルで、クローズドソースの『Demon's Souls』（PS3）を Windows でネイティブに動くようにしたもの。自分のディスクイメージが必要。",
+    "ko": "ps3recomp 정적 재컴파일로 클로즈드 소스인 데몬즈 소울(PS3)을 Windows에서 네이티브로 돌아가게 만든 것. 자신의 디스크 이미지가 필요."
+  },
+  "jaenster/setup-msvc": {
+    "en": "A helper that installs exact historical Microsoft Visual C++ toolchains (from 6.0 to 2010) in CI, so decompilation and recompilation projects can match the original compiler byte-for-byte.",
+    "zh-CN": "一个 CI 助手，能安装精确的历史版本微软 Visual C++ 工具链（6.0 到 2010），方便反编译和重编译项目做到和原版编译器逐字节匹配。",
+    "zh-TW": "一個 CI 助手，能安裝精確的歷史版本微軟 Visual C++ 工具鏈（6.0 到 2010），方便反編譯和重編譯專案做到和原版編譯器逐位元組匹配。",
+    "ja": "CI で正確な歴史的 Microsoft Visual C++ ツールチェーン（6.0～2010）をセットアップするヘルパー。逆コンパイル／再コンパイルプロジェクトが元のコンパイラとバイト単位で一致できるようにする。",
+    "ko": "CI에서 정확한 역사적 Microsoft Visual C++ 툴체인(6.0~2010)을 설치해주는 도우미. 디컴파일/재컴파일 프로젝트가 원본 컴파일러와 바이트 단위로 일치할 수 있게 함."
+  },
+  "yefan911/automated-recompilers": {
+    "en": "An automated framework that takes console ROM executables and translates them into native PC applications through static recompilation.",
+    "zh-CN": "一个自动化框架，能把主机 ROM 可执行文件通过静态重编译翻译成能在 PC 上原生运行的程序。",
+    "zh-TW": "一個自動化框架，能把主機 ROM 可執行檔透過靜態重編譯翻譯成能在 PC 上原生執行的程式。",
+    "ja": "コンソール ROM の実行ファイルを静的再コンパイルでネイティブ PC アプリケーションに自動翻訳するフレームワーク。",
+    "ko": "콘솔 ROM 실행 파일을 정적 재컴파일을 통해 네이티브 PC 애플리케이션으로 자동 번역하는 프레임워크."
+  },
+  "phys-winner/pc_decomp_ut3": {
+    "en": "Statically recompiles the closed-source Unreal Tournament 3 (PC) into native Android ARM64 code, with a compatibility layer for its original Win32/Direct3D 9 calls.",
+    "zh-CN": "把闭源的《虚幻竞技场3》（PC 版）静态重编译成了能在 Android ARM64 上原生运行的代码，还做了原版 Win32/Direct3D 9 的兼容层。",
+    "zh-TW": "把閉源的《虛幻競技場3》（PC 版）靜態重編譯成能在 Android ARM64 上原生執行的程式碼，還做了原版 Win32/Direct3D 9 的相容層。",
+    "ja": "クローズドソースの『Unreal Tournament 3』（PC版）を静的再コンパイルして Android ARM64 ネイティブコードにしたもの。元の Win32/Direct3D 9 呼び出し用の互換レイヤー付き。",
+    "ko": "클로즈드 소스인 언리얼 토너먼트 3(PC)를 정적 재컴파일해서 Android ARM64 네이티브 코드로 만든 것. 원본 Win32/Direct3D 9 호출용 호환 레이어 포함."
+  },
+  "thepoprock/mudbrick": {
+    "en": "A clean-room, from-scratch open-source browser re-creation of the closed-source Sid Meier's Civilization II (1996), written in TypeScript. MIT licensed.",
+    "zh-CN": "从零开始、清洁室方式重写的免费开源浏览器版《文明2》（1996 年闭源经典）。用 TypeScript 写，MIT 协议。",
+    "zh-TW": "從零開始、清潔室方式重寫的免費開源瀏覽器版《文明2》（1996 年閉源經典）。用 TypeScript 寫，MIT 協議。",
+    "ja": "クローズドソースの『シド・マイヤーのシヴィライゼーション II』（1996年）を、クリーンルーム方式でゼロから TypeScript で書き直した無料オープンソースのブラウザ版。MIT ライセンス。",
+    "ko": "클로즈드 소스인 시드 마이어의 문명 II(1996)를 클린룸 방식으로 처음부터 TypeScript로 다시 쓴 무료 오픈소스 브라우저 재구현. MIT 라이선스."
+  },
+  "zarvox32/vb-native-decompiler": {
+    "en": "A tool that decompiles closed-source Visual Basic 5 and 6 native-code programs back into readable VB source, then checks every procedure against the original machine code.",
+    "zh-CN": "一个工具，能把闭源的 Visual Basic 5/6 原生代码程序反编译回可读的 VB 源码，并且逐个过程对照原版机器码做验证。",
+    "zh-TW": "一個工具，能把閉源的 Visual Basic 5/6 原生程式碼程式反編譯回可讀的 VB 原始碼，並且逐個過程對照原版機器碼做驗證。",
+    "ja": "クローズドソースの Visual Basic 5/6 ネイティブコードプログラムを読みやすい VB ソースに逆コンパイルし、すべてのプロシージャを元の機械語と照合して検証するツール。",
+    "ko": "클로즈드 소스 Visual Basic 5/6 네이티브 코드 프로그램을 읽기 쉬운 VB 소스로 디컴파일한 뒤, 모든 프로시저를 원본 기계어와 대조해 검증하는 도구."
+  },
+  "awkto/deadly-tide-decomp": {
+    "en": "Reverse engineering and a modern WebAssembly reimplementation of the closed-source 1996 game Deadly Tide. No original game data is included.",
+    "zh-CN": "对 1996 年闭源游戏《致命潮汐》做的逆向工程，以及用现代 WebAssembly 重写的实现。不包含任何原版游戏数据。",
+    "zh-TW": "對 1996 年閉源遊戲《致命潮汐》做的逆向工程，以及用現代 WebAssembly 重寫的實作。不包含任何原版遊戲資料。",
+    "ja": "1996年のクローズドソースゲーム『Deadly Tide』のリバースエンジニアリングと、現代の WebAssembly による再実装。元のゲームデータは含まれない。",
+    "ko": "1996년 클로즈드 소스 게임 Deadly Tide의 역공학과 현대 WebAssembly 재구현. 원본 게임 데이터는 포함되지 않음."
+  },
+  "NostalgiaRealm/A2-Racer-4": {
+    "en": "Browser and desktop port of the closed-source A2 Racer 4 (Davilex, 2000). The game’s x86 code was recompiled to WebAssembly and the menu was rewritten by hand.",
+    "zh-CN": "闭源游戏《A2 赛车 4》（Davilex，2000）的浏览器和桌面移植版。游戏的 x86 代码被重编译成了 WebAssembly，菜单是手写重做的。",
+    "zh-TW": "閉源遊戲《A2 賽車 4》（Davilex，2000）的瀏覽器和桌面移植版。遊戲的 x86 程式碼被重編譯成了 WebAssembly，選單是手寫重做的。",
+    "ja": "クローズドソースの『A2 Racer 4』（Davilex、2000年）のブラウザ／デスクトップ移植版。ゲームの x86 コードを WebAssembly に再コンパイルし、メニューは手書きで書き直したもの。",
+    "ko": "클로즈드 소스 게임 A2 레이서 4(Davilex, 2000)의 브라우저 및 데스크톱 포트. 게임의 x86 코드를 WebAssembly로 재컴파일하고 메뉴는 손으로 다시 작성."
   }
 }

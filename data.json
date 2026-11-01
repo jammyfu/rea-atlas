@@ -1830,5 +1830,149 @@
     "https://github.com/YuutaTsubasa/ChaotixRecompiled",
     "No",
     "Native multi-platform static recompilation of Knuckles' Chaotix (Sega 32X 1995). True widescreen. Bring your own ROM."
+  ],
+  [
+    "pc",
+    "decomp",
+    "jmars125/xcx-recomp",
+    "https://github.com/jmars125/xcx-recomp",
+    "No",
+    "Native Windows static recompilation of Xenoblade Chronicles X: Definitive Edition (Switch). Bring your own dump."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "Yaz-Myst/ZOE-Recompiled",
+    "https://github.com/Yaz-Myst/ZOE-Recompiled",
+    "No",
+    "Native Windows port of Zone of the Enders (PS2) via static recompilation. Bring your own disc."
+  ],
+  [
+    "tooling",
+    "tools",
+    "MistblastClear/UEBulkExport-rpocket",
+    "https://github.com/MistblastClear/UEBulkExport-rpocket",
+    "No",
+    "Command-line bulk exporter for entire Unreal Engine .pak/.utoc/.ucas containers into textures, meshes, audio, etc."
+  ],
+  [
+    "tooling",
+    "tools",
+    "FurkanAnc/totk-launcher",
+    "https://github.com/FurkanAnc/totk-launcher",
+    "No",
+    "Launcher for the Tears of the Kingdom PC recompilation: settings, rebinding, achievements, save backups."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "C-GBL/P3FES-Decompilation",
+    "https://github.com/C-GBL/P3FES-Decompilation",
+    "No",
+    "Native Windows port of Persona 3 FES (PS2) built by statically recompiling the executable into C++."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "TekRantGaming/cartoon-network-racing-recompiled",
+    "https://github.com/TekRantGaming/cartoon-network-racing-recompiled",
+    "No",
+    "Native PC port of Cartoon Network Racing (PS2) via static recompilation. Widescreen, high FPS. Bring your own disc."
+  ],
+  [
+    "xbox",
+    "decomp",
+    "cdetv/conker-live-recompiled",
+    "https://github.com/cdetv/conker-live-recompiled",
+    "No",
+    "Native Windows PC version of Conker: Live & Reloaded (Xbox) made by statically recompiling the original game."
+  ],
+  [
+    "pc",
+    "decomp",
+    "0xd34db8/LF2-decomp",
+    "https://github.com/0xd34db8/LF2-decomp",
+    "No",
+    "True 1:1 C++20 source decompilation and modernization of the original Little Fighter 2 (x86-32 MSVC)."
+  ],
+  [
+    "ps1",
+    "decomp",
+    "TekRantGaming/muppet-racemania-recompiled",
+    "https://github.com/TekRantGaming/muppet-racemania-recompiled",
+    "No",
+    "Native PC port of Muppet RaceMania (PlayStation) via static recompilation. 16:9, 60 FPS."
+  ],
+  [
+    "pc",
+    "decomp",
+    "kazuyette/senjin-recomped",
+    "https://github.com/kazuyette/senjin-recomped",
+    "No",
+    "Static recompilation of Senjin Aleste (arcade APM3) to native Linux x86-64, plus Windows DLL replacement."
+  ],
+  [
+    "pc",
+    "decomp",
+    "timboat/demons-souls-recomp",
+    "https://github.com/timboat/demons-souls-recomp",
+    "No",
+    "Native Windows port of Demon's Souls (PS3) via ps3recomp static recompilation. Bring your own disc image."
+  ],
+  [
+    "tooling",
+    "",
+    "jaenster/setup-msvc",
+    "https://github.com/jaenster/setup-msvc",
+    "No",
+    "GitHub Action / CI helper to set up historical MSVC toolchains (6.0–2010) for byte-matching decomp and recomp work."
+  ],
+  [
+    "tooling",
+    "",
+    "yefan911/automated-recompilers",
+    "https://github.com/yefan911/automated-recompilers",
+    "No",
+    "Automated framework that translates console ROM executables into native PC applications via static recompilation."
+  ],
+  [
+    "pc",
+    "decomp",
+    "phys-winner/pc_decomp_ut3",
+    "https://github.com/phys-winner/pc_decomp_ut3",
+    "No",
+    "Unreal Tournament 3 statically recompiled to native Android ARM64 with a Win32/Direct3D 9 host layer."
+  ],
+  [
+    "pc",
+    "remake",
+    "thepoprock/mudbrick",
+    "https://github.com/thepoprock/mudbrick",
+    "No",
+    "Clean-room, open-source browser re-creation of Sid Meier's Civilization II (1996). MIT, written from scratch in TypeScript."
+  ],
+  [
+    "tooling",
+    "",
+    "zarvox32/vb-native-decompiler",
+    "https://github.com/zarvox32/vb-native-decompiler",
+    "No",
+    "Decompiles Visual Basic 5 and 6 native-code programs into VB source and verifies every procedure against the machine code."
+  ],
+  [
+    "pc",
+    "decomp",
+    "awkto/deadly-tide-decomp",
+    "https://github.com/awkto/deadly-tide-decomp",
+    "No",
+    "Reverse engineering and modern/WASM reimplementation of Deadly Tide (1996). No game data included."
+  ],
+  [
+    "pc",
+    "remake",
+    "NostalgiaRealm/A2-Racer-4",
+    "https://github.com/NostalgiaRealm/A2-Racer-4",
+    "No",
+    "Browser and desktop port of A2 Racer 4 (Davilex, 2000) with x86 code recompiled to WebAssembly and hand-rewritten menu."
   ]
 ]

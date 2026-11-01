@@ -773,5 +773,20 @@
     "card",
     "images/totk-pc-recomp-card.png",
     "GitHub social preview card for the totk-pc-recomp repository"
+  ],
+  "C-GBL/P3FES-Decompilation": [
+    "readme",
+    "https://p3fmmo.com/p3fesdecompheader.png",
+    "Project header image from the repository"
+  ],
+  "TekRantGaming/cartoon-network-racing-recompiled": [
+    "readme",
+    "https://raw.githubusercontent.com/TekRantGaming/cartoon-network-racing-recompiled/main/docs/images/header.jpg",
+    "Header image from the project README"
+  ],
+  "cdetv/conker-live-recompiled": [
+    "readme",
+    "https://raw.githubusercontent.com/cdetv/conker-live-recompiled/main/images/logo.png",
+    "Logo image from the project README"
   ]
 }
