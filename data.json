@@ -1974,5 +1974,53 @@
     "https://github.com/NostalgiaRealm/A2-Racer-4",
     "No",
     "Browser and desktop port of A2 Racer 4 (Davilex, 2000) with x86 code recompiled to WebAssembly and hand-rewritten menu."
+  ],
+  [
+    "n64",
+    "decomp",
+    "alemigav/re2-64-decomp",
+    "https://github.com/alemigav/re2-64-decomp",
+    "Yes",
+    "Black-box decomp of Resident Evil 2 (N64) with REA/Ghidra; 3638 functions and verification suite. No ROM."
+  ],
+  [
+    "xbox",
+    "remake",
+    "hk21x/pgr2-recomp",
+    "https://github.com/hk21x/pgr2-recomp",
+    "No",
+    "Native PC port of Project Gotham Racing 2 (Xbox) via static recompilation. Bring your own disc."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "OpenRAC/rac1-decomp",
+    "https://github.com/OpenRAC/rac1-decomp",
+    "No",
+    "Matching decompilation of Ratchet & Clank (PS2). Byte-identical C/C++ reconstruction."
+  ],
+  [
+    "pc",
+    "decomp",
+    "KevinBonnoron/xc2-decomp",
+    "https://github.com/KevinBonnoron/xc2-decomp",
+    "No",
+    "Matching decompilation of Xenoblade Chronicles 2 (Switch)."
+  ],
+  [
+    "n64",
+    "remake",
+    "RetroPulse03/WinBackRecomp",
+    "https://github.com/RetroPulse03/WinBackRecomp",
+    "No",
+    "Native PC port of WinBack: Covert Operations (N64) via static recompilation. ROM not included."
+  ],
+  [
+    "tooling",
+    "tools",
+    "BurnoutDecomp/BP-Decomp_Workflow",
+    "https://github.com/BurnoutDecomp/BP-Decomp_Workflow",
+    "No",
+    "Orchestration tools and workflow for the Burnout Paradise decompilation."
   ]
 ]

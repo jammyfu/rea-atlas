@@ -788,5 +788,35 @@
     "readme",
     "https://raw.githubusercontent.com/cdetv/conker-live-recompiled/main/images/logo.png",
     "Logo image from the project README"
+  ],
+  "alemigav/re2-64-decomp": [
+    "card",
+    "https://opengraph.githubassets.com/1/alemigav/re2-64-decomp",
+    "GitHub repository card"
+  ],
+  "hk21x/pgr2-recomp": [
+    "readme",
+    "https://raw.githubusercontent.com/hk21x/pgr2-recomp/main/docs/images/pgr2-pc-port.webp",
+    "README screenshot of the native PC port"
+  ],
+  "OpenRAC/rac1-decomp": [
+    "card",
+    "https://opengraph.githubassets.com/1/OpenRAC/rac1-decomp",
+    "GitHub repository card"
+  ],
+  "KevinBonnoron/xc2-decomp": [
+    "card",
+    "https://opengraph.githubassets.com/1/KevinBonnoron/xc2-decomp",
+    "GitHub repository card"
+  ],
+  "RetroPulse03/WinBackRecomp": [
+    "card",
+    "https://opengraph.githubassets.com/1/RetroPulse03/WinBackRecomp",
+    "GitHub repository card"
+  ],
+  "BurnoutDecomp/BP-Decomp_Workflow": [
+    "card",
+    "https://opengraph.githubassets.com/1/BurnoutDecomp/BP-Decomp_Workflow",
+    "GitHub repository card"
   ]
 }

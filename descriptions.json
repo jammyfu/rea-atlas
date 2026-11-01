@@ -1727,5 +1727,47 @@
     "zh-TW": "閉源遊戲《A2 賽車 4》（Davilex，2000）的瀏覽器和桌面移植版。遊戲的 x86 程式碼被重編譯成了 WebAssembly，選單是手寫重做的。",
     "ja": "クローズドソースの『A2 Racer 4』（Davilex、2000年）のブラウザ／デスクトップ移植版。ゲームの x86 コードを WebAssembly に再コンパイルし、メニューは手書きで書き直したもの。",
     "ko": "클로즈드 소스 게임 A2 레이서 4(Davilex, 2000)의 브라우저 및 데스크톱 포트. 게임의 x86 코드를 WebAssembly로 재컴파일하고 메뉴는 손으로 다시 작성."
+  },
+  "alemigav/re2-64-decomp": {
+    "en": "Took apart Resident Evil 2 on the Nintendo 64 with AI tools (REA + Ghidra). Thousands of decompiled functions and a verification suite; no game ROM included.",
+    "zh-CN": "用 AI 工具（REA + Ghidra）拆解任天堂64版《生化危机2》。有数千个反编译函数和验证套件，不含游戏ROM。",
+    "zh-TW": "用 AI 工具（REA + Ghidra）拆解任天堂64版《惡靈古堡2》。有數千個反編譯函式和驗證套件，不含遊戲ROM。",
+    "ja": "AIツール（REA + Ghidra）でニンテンドー64版『バイオハザード2』を解析。数千のデコンパイル関数と検証スイートあり。ゲームROMは含まれません。",
+    "ko": "AI 도구(REA + Ghidra)로 닌텐도 64판 『바이오하자드 2』를 분석. 수천 개의 디컴파일 함수와 검증 스위트 포함. 게임 ROM은 포함되지 않음."
+  },
+  "hk21x/pgr2-recomp": {
+    "en": "From-scratch native PC version of the original Xbox game Project Gotham Racing 2, made by statically recompiling its code. You need your own disc.",
+    "zh-CN": "把原版Xbox游戏《哥谭赛车2》通过静态重编译做成的免费原生PC版。需要自备游戏光盘。",
+    "zh-TW": "把原版Xbox遊戲《哥譚賽車2》透過靜態重編譯做成的免費原生PC版。需要自備遊戲光碟。",
+    "ja": "オリジナルXboxの『プロジェクトゴッサムレーシング2』を静的リコンパイルして作ったネイティブPC版。自分のディスクが必要。",
+    "ko": "원본 Xbox 게임 『프로젝트 고담 레이싱 2』를 정적 재컴파일로 만든 네이티브 PC 버전. 자신의 디스크가 필요합니다."
+  },
+  "OpenRAC/rac1-decomp": {
+    "en": "Matching decompilation of the original PlayStation 2 Ratchet & Clank: C/C++ code that rebuilds the retail executable byte-for-byte.",
+    "zh-CN": "PS2原版《瑞奇与叮当》的匹配反编译：能逐字节重建原版可执行文件的C/C++源码。",
+    "zh-TW": "PS2原版《瑞奇與叮噹》的匹配反編譯：能逐位元組重建原版執行檔的C/C++原始碼。",
+    "ja": "オリジナルPS2『ラチェット＆クランク』のマッチングデコンパイル：小売版実行ファイルをバイト単位で再現するC/C++ソース。",
+    "ko": "오리지널 PS2 『라쳇 & 클랭크』의 매칭 디컴파일: 소매판 실행 파일을 바이트 단위로 재구성하는 C/C++ 소스."
+  },
+  "KevinBonnoron/xc2-decomp": {
+    "en": "Matching decompilation of Xenoblade Chronicles 2 on Nintendo Switch: source that rebuilds the original game binary.",
+    "zh-CN": "任天堂Switch版《异度神剑2》的匹配反编译：能重建原版游戏二进制的源码项目。",
+    "zh-TW": "任天堂Switch版《異度神劍2》的匹配反編譯：能重建原版遊戲二進位的原始碼專案。",
+    "ja": "Nintendo Switch版『ゼノブレイド2』のマッチングデコンパイル：オリジナルのゲームバイナリを再現するソース。",
+    "ko": "닌텐도 스위치판 『제노블레이드 2』의 매칭 디컴파일: 오리지널 게임 바이너리를 재구성하는 소스."
+  },
+  "RetroPulse03/WinBackRecomp": {
+    "en": "Native PC port of the N64 game WinBack: Covert Operations, made by static recompilation. ROM not included.",
+    "zh-CN": "N64游戏《WinBack：秘密行动》的原生PC移植版，通过静态重编译实现。不含ROM。",
+    "zh-TW": "N64遊戲《WinBack：秘密行動》的原生PC移植版，透過靜態重編譯實現。不含ROM。",
+    "ja": "N64の『WinBack: Covert Operations』を静的リコンパイルで作ったネイティブPCポート。ROMは含まれません。",
+    "ko": "N64 게임 『WinBack: Covert Operations』의 정적 재컴파일로 만든 네이티브 PC 포트. ROM은 포함되지 않음."
+  },
+  "BurnoutDecomp/BP-Decomp_Workflow": {
+    "en": "Tools and workflow repo that helps reverse-engineer and decompile Burnout Paradise. Includes scripts, IDA databases and agent orchestration.",
+    "zh-CN": "帮助逆向和反编译《横冲直撞：天堂》的工具与工作流仓库。包含脚本、IDA数据库和代理编排。",
+    "zh-TW": "幫助逆向和反編譯《橫衝直撞：天堂》的工具與工作流倉庫。包含腳本、IDA資料庫和代理編排。",
+    "ja": "『バーンアウトパラダイス』の逆解析・デコンパイルを助けるツールとワークフローのリポジトリ。スクリプト、IDAデータベース、エージェント調整を含む。",
+    "ko": "『번아웃 파라다이스』를 역공학하고 디컴파일하는 데 도움을 주는 도구 및 워크플로 저장소. 스크립트, IDA 데이터베이스, 에이전트 오케스트레이션 포함."
   }
 }
