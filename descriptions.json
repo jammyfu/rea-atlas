@@ -1825,5 +1825,26 @@
     "zh-TW": "把 PC 冒險遊戲《南希·德魯：布萊克摩爾莊園的詛咒》的可執行檔反編譯重建成匹配的原生 C 程式碼，並提供 macOS ARM64 移植。",
     "ja": "PC アドベンチャー『Nancy Drew: Curse of Blackmoor Manor』の実行ファイルをマッチングするネイティブ C コードに再構築し、macOS ARM64 移植も提供するプロジェクト。",
     "ko": "PC 어드벤처 게임 낸시 드류: 블랙무어 저택의 저주를 실행 파일에서 매칭되는 네이티브 C 코드로 재구성하고 macOS ARM64 포트도 제공하는 프로젝트."
+  },
+  "fabox-os/Pro-Wave": {
+    "en": "Free open-source music production software rewritten from scratch in pure Rust, with a workflow similar to Apple's Logic Pro.",
+    "zh-CN": "从零用纯 Rust 重写了一个类似 Apple Logic Pro 的免费开源音乐制作软件（DAW）。",
+    "zh-TW": "從零用純 Rust 重寫了一個類似 Apple Logic Pro 的免費開源音樂製作軟體（DAW）。",
+    "ja": "Apple の Logic Pro に似たワークフローを持つ、純粋な Rust でゼロから書き直した無料のオープンソース音楽制作ソフト。",
+    "ko": "Apple의 Logic Pro와 비슷한 워크플로를 가진, 순수 Rust로 처음부터 다시 작성한 무료 오픈소스 음악 제작 소프트웨어."
+  },
+  "crowdere/Awesome-RE-MCP": {
+    "en": "A curated list of reverse-engineering tools that have MCP servers, so AI assistants can drive tools like Ghidra and IDA.",
+    "zh-CN": "精选带 MCP 服务器的逆向工程工具列表，方便 AI 助手驱动 Ghidra、IDA 等工具进行分析。",
+    "zh-TW": "精選帶 MCP 伺服器的逆向工程工具列表，方便 AI 助手驅動 Ghidra、IDA 等工具進行分析。",
+    "ja": "MCP サーバーを持つリバースエンジニアリングツールの厳選リスト。AI アシスタントが Ghidra や IDA などを駆動できるようにする。",
+    "ko": "MCP 서버가 있는 리버스 엔지니어링 도구의 엄선된 목록으로, AI 어시스턴트가 Ghidra나 IDA 등을 구동할 수 있게 함."
+  },
+  "gryszzz/reverse-engineer-everything": {
+    "en": "A local workbench and investigation studio built on the REA engine for evidence-backed software analysis without uploading files.",
+    "zh-CN": "基于 REA 引擎的本地工作台和调查工作室，用于有证据支持的软件分析，文件不上云。",
+    "zh-TW": "基於 REA 引擎的本地工作台和調查工作室，用於有證據支持的軟體分析，檔案不上雲。",
+    "ja": "REA エンジン上に構築されたローカルワークベンチと調査スタジオ。ファイルをアップロードせずに証拠に基づくソフトウェア分析を行う。",
+    "ko": "REA 엔진 위에 구축된 로컬 워크벤치 및 조사 스튜디오로, 파일을 업로드하지 않고 증거 기반 소프트웨어 분석을 수행함."
   }
 }

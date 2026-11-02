@@ -2086,5 +2086,29 @@
     "https://github.com/albovsky/nd-blackmoor-decomp",
     "No",
     "Source reconstruction of Nancy Drew: Curse of Blackmoor Manor (PC GAME.EXE): matching native C, x86 validated, with ARM64 macOS port. Game files not included."
+  ],
+  [
+    "app",
+    "remake",
+    "fabox-os/Pro-Wave",
+    "https://github.com/fabox-os/Pro-Wave",
+    "No",
+    "Open-source Rust DAW modelled on Logic Pro workflow; pure Rust + egui, clean-room."
+  ],
+  [
+    "tooling",
+    "",
+    "crowdere/Awesome-RE-MCP",
+    "https://github.com/crowdere/Awesome-RE-MCP",
+    "No",
+    "Curated list of reverse-engineering tools with MCP servers for AI-assisted analysis."
+  ],
+  [
+    "tooling",
+    "",
+    "gryszzz/reverse-engineer-everything",
+    "https://github.com/gryszzz/reverse-engineer-everything",
+    "Yes",
+    "Local investigation studio built on the REA engine for evidence-backed software analysis."
   ]
 ]
