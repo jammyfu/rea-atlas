@@ -1769,5 +1769,61 @@
     "zh-TW": "幫助逆向和反編譯《橫衝直撞：天堂》的工具與工作流倉庫。包含腳本、IDA資料庫和代理編排。",
     "ja": "『バーンアウトパラダイス』の逆解析・デコンパイルを助けるツールとワークフローのリポジトリ。スクリプト、IDAデータベース、エージェント調整を含む。",
     "ko": "『번아웃 파라다이스』를 역공학하고 디컴파일하는 데 도움을 주는 도구 및 워크플로 저장소. 스크립트, IDA 데이터베이스, 에이전트 오케스트레이션 포함."
+  },
+  "Shagg88/COGBox": {
+    "en": "Free open-source project that turns the Xbox 360 versions of Gears of War 2, 3 and Judgment into native Windows PC games you can run yourself (you need your own legal copy).",
+    "zh-CN": "把 Xbox 360 上的《战争机器 2》《战争机器 3》和《战争机器：审判》静态重编译成可在 Windows PC 上原生运行的免费开源项目（需要自备合法拷贝）。",
+    "zh-TW": "把 Xbox 360 上的《戰爭機器 2》《戰爭機器 3》和《戰爭機器：審判》靜態重編譯成可在 Windows PC 上原生執行的免費開源專案（需要自備合法拷貝）。",
+    "ja": "Xbox 360 版『Gears of War 2』『3』『Judgment』を静的再コンパイルして Windows PC でネイティブに動かせる無料オープンソースプロジェクト（自分の正規版が必要）。",
+    "ko": "Xbox 360 버전의 Gears of War 2, 3, Judgment를 정적 재컴파일하여 Windows PC에서 네이티브로 실행할 수 있게 하는 무료 오픈소스 프로젝트 (자신의 정품 복사본 필요)."
+  },
+  "RussoPhone/tomodachi-ltd-recomp": {
+    "en": "Early free open-source port that recompiles the Nintendo Switch game Tomodachi Life: Living the Dream into a native PC program (you need your own dump).",
+    "zh-CN": "把任天堂 Switch 游戏《朋友收集：梦想生活》静态重编译成可在 PC 上原生运行的早期免费开源移植（需要自备 dump）。",
+    "zh-TW": "把任天堂 Switch 遊戲《朋友收集：夢想生活》靜態重編譯成可在 PC 上原生執行的早期免費開源移植（需要自備 dump）。",
+    "ja": "Nintendo Switch の『トモダチコレクション 夢の暮らし』を静的再コンパイルして PC でネイティブに動かせる初期の無料オープンソース移植（自分のダンプが必要）。",
+    "ko": "닌텐도 스위치 게임 토모다치 라이프: 리빙 더 드림을 정적 재컴파일하여 PC에서 네이티브로 실행할 수 있게 하는 초기 무료 오픈소스 포트 (자신의 덤프 필요)."
+  },
+  "OpenRAC/rac5-sm-decomp": {
+    "en": "Community matching decompilation of the PlayStation 2 game Ratchet & Clank: Size Matters, aiming to recover readable C code that builds the original binary.",
+    "zh-CN": "对 PS2 游戏《瑞奇与叮当：大小战争》进行匹配式反编译，目标是还原出能编译出原始二进制的可读 C 代码。",
+    "zh-TW": "對 PS2 遊戲《瑞奇與叮噹：大小戰爭》進行匹配式反編譯，目標是還原出能編譯出原始二進位的可讀 C 程式碼。",
+    "ja": "PS2 ゲーム『ラチェット＆クランク サイズ・マターズ』のマッチング逆コンパイル。元のバイナリを生成できる可読 C コードの復元を目指す。",
+    "ko": "PS2 게임 라쳇 & 클랭크: 사이즈 매터스의 매칭 디컴파일. 원본 바이너리를 빌드할 수 있는 읽기 쉬운 C 코드 복원을 목표로 함."
+  },
+  "Megami-Decomps/smt3-decomp": {
+    "en": "Matching decompilation project for the PlayStation 2 RPG Shin Megami Tensei III: Nocturne, recovering its original source-like C code.",
+    "zh-CN": "对 PS2 RPG《真·女神转生 III：夜曲》进行匹配式反编译，还原出接近原始的 C 代码。",
+    "zh-TW": "對 PS2 RPG《真·女神轉生 III：夜曲》進行匹配式反編譯，還原出接近原始的 C 程式碼。",
+    "ja": "PS2 RPG『真・女神転生III NOCTURNE』のマッチング逆コンパイルプロジェクト。元に近い C コードの復元を行う。",
+    "ko": "PS2 RPG 진·여신전생 III: 녹턴의 매칭 디컴파일 프로젝트. 원본에 가까운 C 코드 복원."
+  },
+  "NextrixVFX/Hydro-Recomp": {
+    "en": "Work-in-progress matching decompilation of the Xbox 360 boat racing game Hydro Thunder Hurricane, written in C++.",
+    "zh-CN": "对 Xbox 360 赛艇游戏《Hydro Thunder Hurricane》进行进行中的匹配式反编译（用 C++ 编写）。",
+    "zh-TW": "對 Xbox 360 賽艇遊戲《Hydro Thunder Hurricane》進行進行中的匹配式反編譯（用 C++ 撰寫）。",
+    "ja": "Xbox 360 のボートレースゲーム『Hydro Thunder Hurricane』の進行中マッチング逆コンパイル（C++ で記述）。",
+    "ko": "Xbox 360 보트 레이싱 게임 Hydro Thunder Hurricane의 진행 중인 매칭 디컴파일 (C++로 작성)."
+  },
+  "TheBozos/ChampionsOfNorrath_Recomp": {
+    "en": "Static recompilation that turns the PlayStation 2 action RPG Champions of Norrath into native PC code you can run (bring your own disc).",
+    "zh-CN": "把 PS2 动作 RPG《诺拉斯的勇士》静态重编译成可在 PC 上原生运行的代码（需要自备光盘）。",
+    "zh-TW": "把 PS2 動作 RPG《諾拉斯的勇士》靜態重編譯成可在 PC 上原生執行的程式碼（需要自備光碟）。",
+    "ja": "PS2 アクション RPG『Champions of Norrath』を静的再コンパイルして PC でネイティブに動かせるコードにする（自分のディスクが必要）。",
+    "ko": "PS2 액션 RPG 챔피언스 오브 노라스를 정적 재컴파일하여 PC에서 네이티브로 실행할 수 있는 코드로 만드는 프로젝트 (자신의 디스크 필요)."
+  },
+  "Ptraaah/godhand-recompiled-android": {
+    "en": "Free project that recompiles the PlayStation 2 beat-'em-up God Hand so it runs natively on Android phones (you need your own copy of the game).",
+    "zh-CN": "把 PS2 格斗游戏《神之手》静态重编译，使其能在 Android 手机上原生运行的免费项目（需要自备游戏拷贝）。",
+    "zh-TW": "把 PS2 格鬥遊戲《神之手》靜態重編譯，使其能在 Android 手機上原生執行的免費專案（需要自備遊戲拷貝）。",
+    "ja": "PS2 のベルトスクロールアクション『God Hand』を静的再コンパイルして Android スマホでネイティブに動かせる無料プロジェクト（自分のコピーが必要）。",
+    "ko": "PS2 벨트스크롤 액션 게임 갓 핸드를 정적 재컴파일하여 Android 폰에서 네이티브로 실행할 수 있게 하는 무료 프로젝트 (자신의 게임 복사본 필요)."
+  },
+  "albovsky/nd-blackmoor-decomp": {
+    "en": "Reverse-engineering project that reconstructs the PC adventure game Nancy Drew: Curse of Blackmoor Manor from its executable into matching native C code, plus a macOS ARM64 port.",
+    "zh-CN": "把 PC 冒险游戏《南希·德鲁：布莱克摩尔庄园的诅咒》的可执行文件反编译重建成匹配的原生 C 代码，并提供 macOS ARM64 移植。",
+    "zh-TW": "把 PC 冒險遊戲《南希·德魯：布萊克摩爾莊園的詛咒》的可執行檔反編譯重建成匹配的原生 C 程式碼，並提供 macOS ARM64 移植。",
+    "ja": "PC アドベンチャー『Nancy Drew: Curse of Blackmoor Manor』の実行ファイルをマッチングするネイティブ C コードに再構築し、macOS ARM64 移植も提供するプロジェクト。",
+    "ko": "PC 어드벤처 게임 낸시 드류: 블랙무어 저택의 저주를 실행 파일에서 매칭되는 네이티브 C 코드로 재구성하고 macOS ARM64 포트도 제공하는 프로젝트."
   }
 }

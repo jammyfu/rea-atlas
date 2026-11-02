@@ -2022,5 +2022,69 @@
     "https://github.com/BurnoutDecomp/BP-Decomp_Workflow",
     "No",
     "Orchestration tools and workflow for the Burnout Paradise decompilation."
+  ],
+  [
+    "xbox",
+    "remake",
+    "Shagg88/COGBox",
+    "https://github.com/Shagg88/COGBox",
+    "No",
+    "All-in-one static recompilation project for Xbox 360 Gears of War 2, 3 and Judgment to native Windows PC with custom renderer, high FPS, upscaling. Bring your own copy."
+  ],
+  [
+    "pc",
+    "remake",
+    "RussoPhone/tomodachi-ltd-recomp",
+    "https://github.com/RussoPhone/tomodachi-ltd-recomp",
+    "No",
+    "Unofficial alpha native PC port of Tomodachi Life: Living the Dream (Nintendo Switch) via static recompilation. Bring your own copy. Linux first."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "OpenRAC/rac5-sm-decomp",
+    "https://github.com/OpenRAC/rac5-sm-decomp",
+    "No",
+    "Matching decompilation workspace for Ratchet & Clank: Size Matters (PS2, USA SCUS-97615)."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "Megami-Decomps/smt3-decomp",
+    "https://github.com/Megami-Decomps/smt3-decomp",
+    "No",
+    "Matching decompilation of Shin Megami Tensei III: Nocturne (PS2)."
+  ],
+  [
+    "xbox",
+    "decomp",
+    "NextrixVFX/Hydro-Recomp",
+    "https://github.com/NextrixVFX/Hydro-Recomp",
+    "No",
+    "WIP matching decompilation of Hydro Thunder Hurricane (Xbox 360 / XBLA) written in C++."
+  ],
+  [
+    "ps2",
+    "remake",
+    "TheBozos/ChampionsOfNorrath_Recomp",
+    "https://github.com/TheBozos/ChampionsOfNorrath_Recomp",
+    "No",
+    "Static recompilation of Champions of Norrath (PS2, USA SLUS-20565) to native PC code. Bring your own disc."
+  ],
+  [
+    "ps2",
+    "remake",
+    "Ptraaah/godhand-recompiled-android",
+    "https://github.com/Ptraaah/godhand-recompiled-android",
+    "No",
+    "God Hand (PS2) rebuilt to run natively on Android via static recompilation of game code to ARM. Bring your own copy."
+  ],
+  [
+    "pc",
+    "decomp",
+    "albovsky/nd-blackmoor-decomp",
+    "https://github.com/albovsky/nd-blackmoor-decomp",
+    "No",
+    "Source reconstruction of Nancy Drew: Curse of Blackmoor Manor (PC GAME.EXE): matching native C, x86 validated, with ARM64 macOS port. Game files not included."
   ]
 ]
