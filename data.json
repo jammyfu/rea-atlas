@@ -2110,5 +2110,45 @@
     "https://github.com/gryszzz/reverse-engineer-everything",
     "Yes",
     "Local investigation studio built on the REA engine for evidence-backed software analysis."
+  ],
+  [
+    "pc",
+    "decomp",
+    "isledecomp/racers",
+    "https://github.com/isledecomp/racers",
+    "No",
+    "Matching decompilation of LEGO Racers (1999 PC); almost fully decompiled, playable recompile. LGPL-3.0."
+  ],
+  [
+    "xbox",
+    "remake",
+    "sp00nznet/saintsrow",
+    "https://github.com/sp00nznet/saintsrow",
+    "No",
+    "Static recompilation of Saints Row (Xbox 360, 2006) to native x86-64 C++ via ReXGlue; boots to city. MIT."
+  ],
+  [
+    "pc",
+    "remake",
+    "mr-finster/vf3-recomp",
+    "https://github.com/mr-finster/vf3-recomp",
+    "No",
+    "Static recompilation of Virtua Fighter 3 (Sega Model 3, 1996) PowerPC to native PC; up to 6x, 120fps. Bring your own ROM."
+  ],
+  [
+    "pc",
+    "remake",
+    "pablocpas/OpenCMR2",
+    "https://github.com/pablocpas/OpenCMR2",
+    "No",
+    "Native multi-platform port of Colin McRae Rally 2.0 (PC, 2000) built on matching decompilation; SDL3, no game data included."
+  ],
+  [
+    "ps1",
+    "remake",
+    "AndrewAltimit/legend-of-legaia-re",
+    "https://github.com/AndrewAltimit/legend-of-legaia-re",
+    "No",
+    "From-scratch Rust reimplementation of Legend of Legaia (PS1, 1999) with Ghidra-traced assets and format docs; BYO disc."
   ]
 ]

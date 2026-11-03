@@ -1846,5 +1846,40 @@
     "zh-TW": "基於 REA 引擎的本地工作台和調查工作室，用於有證據支持的軟體分析，檔案不上雲。",
     "ja": "REA エンジン上に構築されたローカルワークベンチと調査スタジオ。ファイルをアップロードせずに証拠に基づくソフトウェア分析を行う。",
     "ko": "REA 엔진 위에 구축된 로컬 워크벤치 및 조사 스튜디오로, 파일을 업로드하지 않고 증거 기반 소프트웨어 분석을 수행함."
+  },
+  "isledecomp/racers": {
+    "en": "Matching decompilation that turns the closed-source 1999 PC game LEGO Racers back into readable C++ source code, close enough that the recompiled game is already playable.",
+    "zh-CN": "把 1999 年的闭源 PC 游戏《乐高赛车》（LEGO Racers）反编译成可读的 C++ 源码，尽量与原版机器码逐字节匹配，重编译后已经可以玩。",
+    "zh-TW": "把 1999 年的閉源 PC 遊戲《樂高賽車》（LEGO Racers）反編譯成可讀的 C++ 原始碼，盡量與原版機器碼逐位元組匹配，重新編譯後已經可以玩。",
+    "ja": "1999年のクローズドソースPCゲーム『LEGO レーサーズ』を、元の機械語とほぼ一致する読みやすい C++ ソースコードに逆コンパイルしたプロジェクト。再コンパイルしたものはすでにプレイ可能。",
+    "ko": "1999년 클로즈드 소스 PC 게임 『레고 레이서』를 원본 기계어와 거의 일치하는 읽기 쉬운 C++ 소스 코드로 디컴파일한 프로젝트. 재컴파일한 버전은 이미 플레이 가능."
+  },
+  "sp00nznet/saintsrow": {
+    "en": "Static recompilation of the closed-source 2006 Xbox 360 game Saints Row into native x86-64 C++ so it runs on modern Windows without an emulator. You supply your own copy.",
+    "zh-CN": "把 2006 年闭源 Xbox 360 游戏《黑道圣徒》（Saints Row）的 PowerPC 代码静态重编译成原生 x86-64 C++，在现代 Windows 上直接运行，不需要模拟器。需要自备游戏文件。",
+    "zh-TW": "把 2006 年閉源 Xbox 360 遊戲《黑道聖徒》（Saints Row）的 PowerPC 程式碼靜態重編譯成原生 x86-64 C++，在現代 Windows 上直接執行，不需要模擬器。需要自備遊戲檔案。",
+    "ja": "2006年のクローズドソース Xbox 360 ゲーム『セインツロウ』の PowerPC コードをネイティブ x86-64 C++ に静的再コンパイルし、エミュレータなしで現代の Windows 上で動かすプロジェクト。自分のゲームファイルが必要。",
+    "ko": "2006년 클로즈드 소스 Xbox 360 게임 『세인츠 로우』의 PowerPC 코드를 네이티브 x86-64 C++로 정적 재컴파일하여 에뮬레이터 없이 현대 Windows에서 실행하는 프로젝트. 자신의 게임 파일이 필요."
+  },
+  "mr-finster/vf3-recomp": {
+    "en": "Static recompilation of the closed-source 1996 Sega Model 3 arcade game Virtua Fighter 3 into native PC code, with up to 6x resolution and 120 fps. Bring your own ROM.",
+    "zh-CN": "把 1996 年闭源的世嘉 Model 3 街机游戏《VR战士 3》（Virtua Fighter 3）的 PowerPC 程序静态重编译成原生 PC 代码，支持最高 6 倍分辨率和 120 帧。需要自备 ROM。",
+    "zh-TW": "把 1996 年閉源的世嘉 Model 3 街機遊戲《VR 戰士 3》（Virtua Fighter 3）的 PowerPC 程式靜態重編譯成原生 PC 程式碼，支援最高 6 倍解析度和 120 幀。需要自備 ROM。",
+    "ja": "1996年のクローズドソース Sega Model 3 アーケードゲーム『バーチャファイター3』の PowerPC プログラムをネイティブ PC コードに静的再コンパイルし、最大6倍解像度と120fpsに対応。自分の ROM が必要。",
+    "ko": "1996년 클로즈드 소스 세가 Model 3 아케이드 게임 『버추어 파이터 3』의 PowerPC 프로그램을 네이티브 PC 코드로 정적 재컴파일하여 최대 6배 해상도와 120fps를 지원. 자신의 ROM이 필요."
+  },
+  "pablocpas/OpenCMR2": {
+    "en": "Native multi-platform port of the closed-source 2000 PC game Colin McRae Rally 2.0, built on a matching decompilation and using modern SDL3 instead of old DirectX. You supply your own game files.",
+    "zh-CN": "基于匹配反编译，把 2000 年闭源 PC 游戏《柯林麦克雷拉力赛 2.0》（Colin McRae Rally 2.0）做成现代多平台原生移植，用 SDL3 替换了老的 DirectX。需要自备游戏文件。",
+    "zh-TW": "基於匹配反編譯，把 2000 年閉源 PC 遊戲《柯林麥克雷拉力賽 2.0》（Colin McRae Rally 2.0）做成現代多平台原生移植，用 SDL3 替換了老的 DirectX。需要自備遊戲檔案。",
+    "ja": "マッチング逆コンパイルを基に、2000年のクローズドソース PC ゲーム『Colin McRae Rally 2.0』を現代のマルチプラットフォーム向けネイティブ移植にしたもの。古い DirectX の代わりに SDL3 を使用。自分のゲームファイルが必要。",
+    "ko": "매칭 디컴파일을 기반으로 2000년 클로즈드 소스 PC 게임 『Colin McRae Rally 2.0』를 현대 멀티플랫폼 네이티브 포트로 만든 프로젝트. 오래된 DirectX 대신 SDL3를 사용. 자신의 게임 파일이 필요."
+  },
+  "AndrewAltimit/legend-of-legaia-re": {
+    "en": "From-scratch Rust reimplementation of the closed-source 1999 PlayStation game Legend of Legaia, based on Ghidra reverse-engineering of formats and logic. You supply your own disc image.",
+    "zh-CN": "用 Rust 从零重写 1999 年闭源 PS1 游戏《雷盖亚传说》（Legend of Legaia），基于 Ghidra 逆向出的格式和逻辑文档。需要自备光盘镜像。",
+    "zh-TW": "用 Rust 從零重寫 1999 年閉源 PS1 遊戲《雷蓋亞傳說》（Legend of Legaia），基於 Ghidra 逆向出的格式和邏輯文件。需要自備光碟映像。",
+    "ja": "Ghidra で逆解析したフォーマットとロジックに基づき、1999年のクローズドソース PS1 ゲーム『レジェンド・オブ・レガイア』を Rust でゼロから再実装したプロジェクト。自分のディスクイメージが必要。",
+    "ko": "Ghidra로 역공학한 포맷과 로직을 기반으로 1999년 클로즈드 소스 PS1 게임 『레가이아 전설』을 Rust로 처음부터 재구현한 프로젝트. 자신의 디스크 이미지가 필요."
   }
 }
