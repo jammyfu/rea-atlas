@@ -2150,5 +2150,53 @@
     "https://github.com/AndrewAltimit/legend-of-legaia-re",
     "No",
     "From-scratch Rust reimplementation of Legend of Legaia (PS1, 1999) with Ghidra-traced assets and format docs; BYO disc."
+  ],
+  [
+    "md",
+    "remake",
+    "RuiNelson/StreetsOfRageProject",
+    "https://github.com/RuiNelson/StreetsOfRageProject",
+    "No",
+    "Streets of Rage (Mega Drive) recompilation project; needs your own ROM."
+  ],
+  [
+    "tooling",
+    "",
+    "sp00nznet/pcrecomp",
+    "https://github.com/sp00nznet/pcrecomp",
+    "No",
+    "Unified toolbox for static recompilation of old PC software (DOS, Win16/32/64 etc.) to modern native code."
+  ],
+  [
+    "tooling",
+    "",
+    "veritr1x/recomp-kit",
+    "https://github.com/veritr1x/recomp-kit",
+    "No",
+    "Static recompilation kit that turns 32-bit x86 Windows games into native apps for macOS/iOS/Android/Linux/Windows without emulator."
+  ],
+  [
+    "pc",
+    "remake",
+    "ectrc/dishonoredrecompiled",
+    "https://github.com/ectrc/dishonoredrecompiled",
+    "No",
+    "Functional (non-matching) rebuild of Dishonored PC (2012) Win32 executable with Claude agents; needs your own game files."
+  ],
+  [
+    "n64",
+    "decomp",
+    "RetroReversing/v-rally-decomp",
+    "https://github.com/RetroReversing/v-rally-decomp",
+    "No",
+    "Matching decompilation of V-Rally Edition 99 (N64 Europe); AI-assisted and verified against the original ROM."
+  ],
+  [
+    "n64",
+    "decomp",
+    "RetroReversing/turok-decomp",
+    "https://github.com/RetroReversing/turok-decomp",
+    "No",
+    "Partial matching decompilation of Turok: Dinosaur Hunter (N64 Europe); AI-assisted. Bring your own ROM."
   ]
 ]

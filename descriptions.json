@@ -1881,5 +1881,47 @@
     "zh-TW": "用 Rust 從零重寫 1999 年閉源 PS1 遊戲《雷蓋亞傳說》（Legend of Legaia），基於 Ghidra 逆向出的格式和邏輯文件。需要自備光碟映像。",
     "ja": "Ghidra で逆解析したフォーマットとロジックに基づき、1999年のクローズドソース PS1 ゲーム『レジェンド・オブ・レガイア』を Rust でゼロから再実装したプロジェクト。自分のディスクイメージが必要。",
     "ko": "Ghidra로 역공학한 포맷과 로직을 기반으로 1999년 클로즈드 소스 PS1 게임 『레가이아 전설』을 Rust로 처음부터 재구현한 프로젝트. 자신의 디스크 이미지가 필요."
+  },
+  "RuiNelson/StreetsOfRageProject": {
+    "en": "A reverse-engineering and recompilation project for the classic Sega Mega Drive game Streets of Rage, letting you build and play it on modern computers using your own legally obtained ROM.",
+    "zh-CN": "从零重写并重编译了世嘉Mega Drive经典游戏《怒之铁拳》（Streets of Rage），让你可以在现代电脑上用自己合法拥有的ROM玩和研究它。",
+    "zh-TW": "從零重寫並重編譯了世嘉Mega Drive經典遊戲《怒之鐵拳》（Streets of Rage），讓你可以在現代電腦上用自己合法擁有的ROM玩和研究它。",
+    "ja": "セガのメガドライブ名作『ベア・ナックル』（Streets of Rage）をゼロから再コンパイルしたプロジェクト。自分の合法的なROMを使って現代のPCでプレイ・研究できます。",
+    "ko": "세가 메가드라이브 클래식 게임 『Streets of Rage』를 처음부터 다시 컴파일한 프로젝트. 자신의 합법적인 ROM으로 현대 PC에서 플레이하고 연구할 수 있습니다."
+  },
+  "sp00nznet/pcrecomp": {
+    "en": "A unified toolbox that tears apart old PC software (DOS, Windows 16/32/64-bit, etc.) and rebuilds it as modern native code that runs on Windows, Linux and more, without emulators.",
+    "zh-CN": "一套统一工具箱，用来拆解老旧PC软件（DOS、Windows 16/32/64位等），然后重新编译成现代原生代码，在Windows、Linux等系统上直接运行，不需要模拟器。",
+    "zh-TW": "一套統一工具箱，用來拆解老舊PC軟體（DOS、Windows 16/32/64位等），然後重新編譯成現代原生程式碼，在Windows、Linux等系統上直接執行，不需要模擬器。",
+    "ja": "古いPCソフト（DOS、Windows 16/32/64bitなど）を分解して、エミュレータなしで現代のネイティブコードとして再構築する統合ツールボックス。",
+    "ko": "오래된 PC 소프트웨어(DOS, Windows 16/32/64비트 등)를 분해하여 에뮬레이터 없이 현대 네이티브 코드로 재구축하는 통합 툴박스."
+  },
+  "veritr1x/recomp-kit": {
+    "en": "A static recompilation kit that turns old 32-bit x86 Windows games into native applications for macOS, iOS, Android, Linux and Windows, running without any emulator or JIT.",
+    "zh-CN": "一套静态重编译工具包，把老的32位x86 Windows游戏变成macOS、iOS、Android、Linux和Windows上的原生程序，完全不需要模拟器或JIT。",
+    "zh-TW": "一套靜態重編譯工具包，把老的32位x86 Windows遊戲變成macOS、iOS、Android、Linux和Windows上的原生程式，完全不需要模擬器或JIT。",
+    "ja": "古い32ビットx86 Windowsゲームを、エミュレータやJITなしでmacOS/iOS/Android/Linux/Windowsのネイティブアプリに変換する静的再コンパイルキット。",
+    "ko": "오래된 32비트 x86 Windows 게임을 에뮬레이터나 JIT 없이 macOS, iOS, Android, Linux, Windows용 네이티브 앱으로 바꾸는 정적 재컴파일 키트."
+  },
+  "ectrc/dishonoredrecompiled": {
+    "en": "A functional rebuild of the 2012 PC game Dishonored, reconstructed from the original Win32 executable using Claude AI agents so it boots to the menu and plays the opening mission; needs your own game files.",
+    "zh-CN": "用Claude AI代理从原版Win32可执行文件重建了2012年PC游戏《耻辱》（Dishonored），能进主菜单并玩开头任务；需要你自己拥有的游戏文件。",
+    "zh-TW": "用Claude AI代理從原版Win32可執行檔重建了2012年PC遊戲《恥辱》（Dishonored），能進主選單並玩開頭任務；需要你自己擁有的遊戲檔案。",
+    "ja": "Claude AIエージェントを使って2012年PCゲーム『Dishonored』のWin32実行ファイルから機能的に再構築。メニュー起動と序盤ミッションプレイ可能。自分のゲームファイルが必要。",
+    "ko": "Claude AI 에이전트를 사용해 2012년 PC 게임 『Dishonored』의 Win32 실행 파일에서 기능적으로 재구축. 메뉴 실행과 오프닝 미션 플레이 가능. 자신의 게임 파일 필요."
+  },
+  "RetroReversing/v-rally-decomp": {
+    "en": "A matching decompilation of the Nintendo 64 game V-Rally Edition 99 (Europe version), recovered with AI assistance and verified byte-for-byte against the original ROM.",
+    "zh-CN": "任天堂64游戏《V-Rally 99欧洲版》的匹配反编译项目，用AI辅助从ROM还原，并逐字节验证与原版一致。",
+    "zh-TW": "任天堂64遊戲《V-Rally 99歐洲版》的匹配反編譯專案，用AI輔助從ROM還原，並逐位元組驗證與原版一致。",
+    "ja": "N64ゲーム『V-Rally Edition 99』（欧州版）のマッチングデコンパイル。AI支援でROMから復元し、オリジナルROMとバイト単位で検証。",
+    "ko": "닌텐도 64 게임 『V-Rally Edition 99』(유럽판)의 매칭 디컴파일. AI 지원으로 ROM에서 복원하고 원본 ROM과 바이트 단위로 검증."
+  },
+  "RetroReversing/turok-decomp": {
+    "en": "A partial matching decompilation of the Nintendo 64 game Turok: Dinosaur Hunter (Europe version), recovered from the ROM with AI assistance. Bring your own ROM.",
+    "zh-CN": "任天堂64游戏《恐龙猎人》（Turok: Dinosaur Hunter，欧洲版）的部分匹配反编译，用AI辅助从ROM还原。需要你自己拥有的ROM。",
+    "zh-TW": "任天堂64遊戲《恐龍獵人》（Turok: Dinosaur Hunter，歐洲版）的部分匹配反編譯，用AI輔助從ROM還原。需要你自己擁有的ROM。",
+    "ja": "N64ゲーム『Turok: Dinosaur Hunter』（欧州版）の部分マッチングデコンパイル。AI支援でROMから復元。自分のROMが必要。",
+    "ko": "닌텐도 64 게임 『Turok: Dinosaur Hunter』(유럽판)의 부분 매칭 디컴파일. AI 지원으로 ROM에서 복원. 자신의 ROM 필요."
   }
 }
