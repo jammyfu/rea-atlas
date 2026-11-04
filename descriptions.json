@@ -1923,5 +1923,33 @@
     "zh-TW": "任天堂64遊戲《恐龍獵人》（Turok: Dinosaur Hunter，歐洲版）的部分匹配反編譯，用AI輔助從ROM還原。需要你自己擁有的ROM。",
     "ja": "N64ゲーム『Turok: Dinosaur Hunter』（欧州版）の部分マッチングデコンパイル。AI支援でROMから復元。自分のROMが必要。",
     "ko": "닌텐도 64 게임 『Turok: Dinosaur Hunter』(유럽판)의 부분 매칭 디컴파일. AI 지원으로 ROM에서 복원. 자신의 ROM 필요."
+  },
+  "linuxopt/mp4-recomp": {
+    "en": "A free native Linux version of the Nintendo Switch game Metroid Prime 4: Beyond. It recompiles your own game dump so the game runs without an emulator.",
+    "zh-CN": "从零重写的任天堂Switch游戏《密特罗德 究极4：超越》的免费开源Linux原生版。用你自己的游戏dump就能玩，不用模拟器。",
+    "zh-TW": "從零重寫的任天堂Switch遊戲《密特羅德 究極4：超越》的免費開源Linux原生版。用你自己的遊戲dump就能玩，不用模擬器。",
+    "ja": "任天堂Switchのゲーム『メトロイドプライム4 ビヨンド』の無料オープンソースLinuxネイティブ版。自分のゲームダンプを使ってエミュレータなしで遊べる。",
+    "ko": "닌텐도 스위치 게임 메트로이드 프라임 4: 비욘드의 무료 오픈소스 리눅스 네이티브 버전. 자신의 게임 덤프로 에뮬레이터 없이 플레이 가능."
+  },
+  "andrewnakas/thug-decomp": {
+    "en": "A matching decompilation of the PlayStation 2 game Tony Hawk's Underground. It rebuilds the original C++ source so it compiles to the exact same bytes as the retail disc.",
+    "zh-CN": "PlayStation 2游戏《托尼·霍克地下世界》的匹配反编译。把原始C++源码逐函数还原，编译后和零售版光盘字节完全一致。",
+    "zh-TW": "PlayStation 2遊戲《東尼·霍克地下世界》的匹配反編譯。把原始C++源碼逐函數還原，編譯後和零售版光碟位元組完全一致。",
+    "ja": "PlayStation 2のゲーム『トニー・ホークス アンダーグラウンド』のマッチングデコンパイル。元のC++ソースを関数ごとに復元し、小売版とバイト単位で一致する。",
+    "ko": "플레이스테이션 2 게임 토니 호크 언더그라운드의 매칭 디컴파일. 원본 C++ 소스를 함수별로 복원해 소매판과 바이트 단위로 일치하게 함."
+  },
+  "AksharDP/xc2-recomp": {
+    "en": "A free native Windows version of the Nintendo Switch game Xenoblade Chronicles 2. It statically recompiles your own game dump into a native executable with a Vulkan renderer.",
+    "zh-CN": "从零重写的任天堂Switch游戏《异度神剑2》的免费开源Windows原生版。用你自己的游戏dump静态重编译成原生程序，配Vulkan渲染器。",
+    "zh-TW": "從零重寫的任天堂Switch遊戲《異度神劍2》的免費開源Windows原生版。用你自己的遊戲dump靜態重編譯成原生程式，配Vulkan渲染器。",
+    "ja": "任天堂Switchのゲーム『ゼノブレイド2』の無料オープンソースWindowsネイティブ版。自分のゲームダンプを静的リコンパイルしてVulkanレンダラー付きのネイティブ実行ファイルにする。",
+    "ko": "닌텐도 스위치 게임 제노블레이드 2의 무료 오픈소스 윈도우 네이티브 버전. 자신의 게임 덤프를 정적으로 리컴파일해 Vulkan 렌더러가 있는 네이티브 실행 파일로 만듦."
+  },
+  "MarkMcCaskey/dolphin-decomp-mcp": {
+    "en": "An MCP server and command-line tool that lets AI agents live-debug GameCube and Wii games running in the Dolphin emulator. Useful for reverse-engineering and matching decompilations.",
+    "zh-CN": "一个MCP服务器和命令行工具，让AI代理可以实时调试在海豚模拟器里跑的GameCube和Wii游戏。适合做逆向工程和匹配反编译。",
+    "zh-TW": "一個MCP伺服器和命令列工具，讓AI代理可以即時除錯在海豚模擬器裡跑的GameCube和Wii遊戲。適合做逆向工程和匹配反編譯。",
+    "ja": "AIエージェントがDolphinエミュレータ上で動くGameCubeとWiiのゲームをライブデバッグできるMCPサーバーとコマンドラインツール。リバースエンジニアリングやマッチングデコンパイルに便利。",
+    "ko": "AI 에이전트가 돌핀 에뮬레이터에서 실행 중인 게임큐브와 위 게임을 실시간 디버깅할 수 있는 MCP 서버와 명령줄 도구. 리버스 엔지니어링과 매칭 디컴파일에 유용."
   }
 }

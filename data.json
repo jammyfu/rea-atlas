@@ -2198,5 +2198,37 @@
     "https://github.com/RetroReversing/turok-decomp",
     "No",
     "Partial matching decompilation of Turok: Dinosaur Hunter (N64 Europe); AI-assisted. Bring your own ROM."
+  ],
+  [
+    "pc",
+    "remake",
+    "linuxopt/mp4-recomp",
+    "https://github.com/linuxopt/mp4-recomp",
+    "No",
+    "Native Linux recompilation of Metroid Prime 4: Beyond from your own Switch dump."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "andrewnakas/thug-decomp",
+    "https://github.com/andrewnakas/thug-decomp",
+    "No",
+    "Matching decompilation of Tony Hawk's Underground (PS2)."
+  ],
+  [
+    "pc",
+    "remake",
+    "AksharDP/xc2-recomp",
+    "https://github.com/AksharDP/xc2-recomp",
+    "No",
+    "Static recompilation of Xenoblade Chronicles 2 to native Windows."
+  ],
+  [
+    "tooling",
+    "tools",
+    "MarkMcCaskey/dolphin-decomp-mcp",
+    "https://github.com/MarkMcCaskey/dolphin-decomp-mcp",
+    "No",
+    "MCP server and CLI for live debugging GameCube/Wii titles in Dolphin during decompilation."
   ]
 ]
