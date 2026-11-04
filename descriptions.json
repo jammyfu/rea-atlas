@@ -1951,5 +1951,54 @@
     "zh-TW": "一個MCP伺服器和命令列工具，讓AI代理可以即時除錯在海豚模擬器裡跑的GameCube和Wii遊戲。適合做逆向工程和匹配反編譯。",
     "ja": "AIエージェントがDolphinエミュレータ上で動くGameCubeとWiiのゲームをライブデバッグできるMCPサーバーとコマンドラインツール。リバースエンジニアリングやマッチングデコンパイルに便利。",
     "ko": "AI 에이전트가 돌핀 에뮬레이터에서 실행 중인 게임큐브와 위 게임을 실시간 디버깅할 수 있는 MCP 서버와 명령줄 도구. 리버스 엔지니어링과 매칭 디컴파일에 유용."
+  },
+  "WeAreTommyBruh/Legaia2-Decomp": {
+    "en": "Matching decompilation of the closed-source PlayStation 2 game Legaia 2: Duel Saga into readable C that aims to rebuild the original executable byte-for-byte.",
+    "zh-CN": "把闭源的 PlayStation 2 游戏《Legaia 2: Duel Saga》反编译成可读的 C 代码，目标是字节级一致地重建原版可执行文件。",
+    "zh-TW": "把閉源的 PlayStation 2 遊戲《Legaia 2: Duel Saga》反編譯成可讀的 C 程式碼，目標是位元組級一致地重建原版可執行檔。",
+    "ja": "クローズドソースの PlayStation 2 ゲーム『Legaia 2: Duel Saga』を可読な C にデコンパイルし、元の実行ファイルをバイト単位で一致させて再構築することを目指すプロジェクト。",
+    "ko": "클로즈드 소스 PlayStation 2 게임 Legaia 2: Duel Saga를 읽기 쉬운 C로 디컴파일하여 원본 실행 파일을 바이트 단위로 일치하게 재구축하는 프로젝트."
+  },
+  "YuutaTsubasa/MarbleKnightsRecompiled": {
+    "en": "Unofficial static recompilation that turns the closed-source Apple Arcade game Marble Knights (Unity IL2CPP, iOS ARM64) into a native Windows build. Bring your own copy; no game data included.",
+    "zh-CN": "把闭源的 Apple Arcade 游戏《Marble Knights》（Unity IL2CPP，iOS ARM64）静态重编译成原生 Windows 版本。需要自备游戏文件，不含任何游戏数据。",
+    "zh-TW": "把閉源的 Apple Arcade 遊戲《Marble Knights》（Unity IL2CPP，iOS ARM64）靜態重編譯成原生 Windows 版本。需要自備遊戲檔案，不含任何遊戲資料。",
+    "ja": "クローズドソースの Apple Arcade ゲーム『Marble Knights』（Unity IL2CPP、iOS ARM64）を静的再コンパイルしてネイティブ Windows ビルドにする非公式プロジェクト。ゲームデータは含まれず、自分で用意する必要あり。",
+    "ko": "클로즈드 소스 Apple Arcade 게임 Marble Knights(Unity IL2CPP, iOS ARM64)를 정적 재컴파일하여 네이티브 Windows 빌드로 만드는 비공식 프로젝트. 게임 데이터 없음, 직접 준비 필요."
+  },
+  "jkoehler11/stargate-alliance-decomp": {
+    "en": "Decompilation of the closed-source 2005 Xbox prototype Stargate SG-1: The Alliance, covering UnrealScript, native symbol map and a bootable rebuild. No game data included.",
+    "zh-CN": "反编译闭源的 2005 年 Xbox 原型游戏《星际之门 SG-1：联盟》，包含 UnrealScript、原生符号映射和可启动重建。不含游戏数据。",
+    "zh-TW": "反編譯閉源的 2005 年 Xbox 原型遊戲《星際之門 SG-1：聯盟》，包含 UnrealScript、原生符號映射和可啟動重建。不含遊戲資料。",
+    "ja": "クローズドソースの 2005 年 Xbox プロトタイプ『Stargate SG-1: The Alliance』のデコンパイル。UnrealScript、ネイティブシンボルマップ、起動可能な再構築を含む。ゲームデータなし。",
+    "ko": "클로즈드 소스 2005년 Xbox 프로토타입 Stargate SG-1: The Alliance 디컴파일. UnrealScript, 네이티브 심볼 맵, 부팅 가능한 재구축 포함. 게임 데이터 없음."
+  },
+  "OpenRAC/rac2-decomp": {
+    "en": "Byte-exact reconstruction tools and matching decompilation research for the closed-source PlayStation 2 game Ratchet & Clank: Going Commando (USA v1.01). No game assets included.",
+    "zh-CN": "针对闭源 PlayStation 2 游戏《Ratchet & Clank: Going Commando》（USA v1.01）的字节级精确重建工具和匹配反编译研究。不含游戏资源。",
+    "zh-TW": "針對閉源 PlayStation 2 遊戲《Ratchet & Clank: Going Commando》（USA v1.01）的位元組級精確重建工具和匹配反編譯研究。不含遊戲資源。",
+    "ja": "クローズドソースの PlayStation 2 ゲーム『Ratchet & Clank: Going Commando』（USA v1.01）のバイト単位一致再構築ツールとマッチングデコンパイル研究。ゲームアセットなし。",
+    "ko": "클로즈드 소스 PlayStation 2 게임 Ratchet & Clank: Going Commando(USA v1.01)의 바이트 정확 재구축 도구 및 매칭 디컴파일 연구. 게임 에셋 없음."
+  },
+  "MrPowerUp82/superman_returns_recomp": {
+    "en": "Experimental static recompilation of the closed-source Xbox 360 game Superman Returns to native PC using ReXGlue. Bring your own copy; no game files included.",
+    "zh-CN": "用 ReXGlue 把闭源的 Xbox 360 游戏《Superman Returns》实验性静态重编译到原生 PC。需要自备游戏副本，不含游戏文件。",
+    "zh-TW": "用 ReXGlue 把閉源的 Xbox 360 遊戲《Superman Returns》實驗性靜態重編譯到原生 PC。需要自備遊戲副本，不含遊戲檔案。",
+    "ja": "ReXGlue を使ってクローズドソースの Xbox 360 ゲーム『Superman Returns』をネイティブ PC に実験的に静的再コンパイル。ゲームファイルは含まれず自分で用意。",
+    "ko": "ReXGlue를 사용해 클로즈드 소스 Xbox 360 게임 Superman Returns를 네이티브 PC로 실험적 정적 재컴파일. 게임 파일 없음, 직접 준비 필요."
+  },
+  "fuddlesworth/pokebw2": {
+    "en": "Decompilation project for the closed-source Nintendo DS games Pokémon Black 2 and White 2, recovering source to better understand and preserve them.",
+    "zh-CN": "反编译闭源的任天堂 DS 游戏《宝可梦 黑2 / 白2》，恢复源码以便更好理解和保存。",
+    "zh-TW": "反編譯閉源的任天堂 DS 遊戲《寶可夢 黑2 / 白2》，恢復原始碼以便更好理解和保存。",
+    "ja": "クローズドソースのニンテンドーDSゲーム『ポケットモンスター ブラック2 / ホワイト2』のデコンパイルプロジェクト。ソースを復元して理解と保存を進める。",
+    "ko": "클로즈드 소스 닌텐도 DS 게임 포켓몬 블랙2 / 화이트2 디컴파일 프로젝트. 소스 복구로 이해와 보존을 돕는다."
+  },
+  "Karlos-fr/fun-tracks-recomp-releases": {
+    "en": "Multi-platform (Windows, Android) releases of the decompilation and recompilation of the closed-source 1997 game Fun Tracks. Original game files required.",
+    "zh-CN": "闭源 1997 年游戏《Fun Tracks》的反编译与重编译多平台（Windows、Android）发布。需要原版游戏文件。",
+    "zh-TW": "閉源 1997 年遊戲《Fun Tracks》的反編譯與重編譯多平台（Windows、Android）發布。需要原版遊戲檔案。",
+    "ja": "クローズドソースの 1997 年ゲーム『Fun Tracks』のデコンパイル／再コンパイルのマルチプラットフォーム（Windows、Android）リリース。オリジナルのゲームファイルが必要。",
+    "ko": "클로즈드 소스 1997년 게임 Fun Tracks의 디컴파일/재컴파일 멀티플랫폼(Windows, Android) 릴리스. 원본 게임 파일 필요."
   }
 }

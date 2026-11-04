@@ -2230,5 +2230,61 @@
     "https://github.com/MarkMcCaskey/dolphin-decomp-mcp",
     "No",
     "MCP server and CLI for live debugging GameCube/Wii titles in Dolphin during decompilation."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "WeAreTommyBruh/Legaia2-Decomp",
+    "https://github.com/WeAreTommyBruh/Legaia2-Decomp",
+    "No",
+    "Matching decompilation of the closed-source PS2 game Legaia 2: Duel Saga (PAL)."
+  ],
+  [
+    "pc",
+    "remake",
+    "YuutaTsubasa/MarbleKnightsRecompiled",
+    "https://github.com/YuutaTsubasa/MarbleKnightsRecompiled",
+    "No",
+    "Static recompilation of the closed-source Apple Arcade game Marble Knights to native Windows."
+  ],
+  [
+    "xbox",
+    "decomp",
+    "jkoehler11/stargate-alliance-decomp",
+    "https://github.com/jkoehler11/stargate-alliance-decomp",
+    "No",
+    "Decompilation of the closed-source Xbox prototype Stargate SG-1: The Alliance."
+  ],
+  [
+    "ps2",
+    "decomp",
+    "OpenRAC/rac2-decomp",
+    "https://github.com/OpenRAC/rac2-decomp",
+    "No",
+    "Byte-exact reconstruction of the closed-source PS2 game Ratchet & Clank: Going Commando."
+  ],
+  [
+    "xbox",
+    "remake",
+    "MrPowerUp82/superman_returns_recomp",
+    "https://github.com/MrPowerUp82/superman_returns_recomp",
+    "No",
+    "Experimental static recompilation of the closed-source Xbox 360 game Superman Returns to PC."
+  ],
+  [
+    "ds",
+    "decomp",
+    "fuddlesworth/pokebw2",
+    "https://github.com/fuddlesworth/pokebw2",
+    "No",
+    "Decompilation of the closed-source Nintendo DS games Pokémon Black 2 and White 2."
+  ],
+  [
+    "pc",
+    "remake",
+    "Karlos-fr/fun-tracks-recomp-releases",
+    "https://github.com/Karlos-fr/fun-tracks-recomp-releases",
+    "No",
+    "Multi-platform releases of the decompilation/recompilation of the closed-source 1997 game Fun Tracks."
   ]
 ]
