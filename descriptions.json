@@ -2000,5 +2000,54 @@
     "zh-TW": "閉源 1997 年遊戲《Fun Tracks》的反編譯與重編譯多平台（Windows、Android）發布。需要原版遊戲檔案。",
     "ja": "クローズドソースの 1997 年ゲーム『Fun Tracks』のデコンパイル／再コンパイルのマルチプラットフォーム（Windows、Android）リリース。オリジナルのゲームファイルが必要。",
     "ko": "클로즈드 소스 1997년 게임 Fun Tracks의 디컴파일/재컴파일 멀티플랫폼(Windows, Android) 릴리스. 원본 게임 파일 필요."
+  },
+  "storytold/craft-anything": {
+    "en": "An open-source Rust tool that looks at any closed-source website, app or game, studies how it works by watching it, then has AI build a free version that behaves the same.",
+    "zh-CN": "用最通俗的话说：一个开源的 Rust 工具，能观察任何闭源网站、应用或游戏怎么运行，然后让 AI 从零做一个功能一样的免费版本。",
+    "zh-TW": "用最通俗的話說：一個開源的 Rust 工具，能觀察任何閉源網站、應用或遊戲怎麼運行，然後讓 AI 從零做一個功能一樣的免費版本。",
+    "ja": "どんなクローズドソースのウェブサイト、アプリ、ゲームでも観察して動きを調べ、AIに同じように動く無料版を作らせるオープンソースのRustツール。",
+    "ko": "어떤 폐쇄 소스 웹사이트, 앱, 게임이든 관찰해서 작동 방식을 파악한 뒤 AI가 똑같이 동작하는 무료 버전을 만들게 하는 오픈소스 Rust 도구."
+  },
+  "BLSNCVS/Castlevania-Grimoire-of-Souls-Recomp": {
+    "en": "Turns the Apple Arcade / macOS version of Castlevania: Grimoire of Souls into a native Windows program you can run without an emulator, using your own game files.",
+    "zh-CN": "把 Apple Arcade / macOS 版的《恶魔城：灵魂魔典》做成原生 Windows 程序，不用模拟器就能玩，需要自己的游戏文件。",
+    "zh-TW": "把 Apple Arcade / macOS 版的《惡魔城：靈魂魔典》做成原生 Windows 程式，不用模擬器就能玩，需要自己的遊戲檔案。",
+    "ja": "Apple Arcade / macOS版『悪魔城ドラキュラ ソウル魔典』をエミュレーターなしで動くネイティブWindows版にしたもの。自分のゲームファイルが必要。",
+    "ko": "Apple Arcade / macOS 버전의 캐슬바니아: 영혼의 마법서를 에뮬레이터 없이 실행되는 네이티브 Windows 프로그램으로 만든 것. 자신의 게임 파일이 필요."
+  },
+  "ccbury/MGSPOStaticRecomp": {
+    "en": "Static recompilation of the PSP game Metal Gear Solid: Portable Ops so it runs natively on Windows without an emulator. Currently gets into the game.",
+    "zh-CN": "把 PSP 游戏《合金装备：掌上行动》静态重编译成原生 Windows 程序，不用模拟器就能跑。目前已经能进游戏。",
+    "zh-TW": "把 PSP 遊戲《合金裝備：掌上行動》靜態重編譯成原生 Windows 程式，不用模擬器就能跑。目前已經能進遊戲。",
+    "ja": "PSPゲーム『メタルギアソリッド ポータブル・オプス』をエミュレーターなしのネイティブWindows版に静的再コンパイル。現在ゲーム内まで到達。",
+    "ko": "PSP 게임 메탈 기어 솔리드: 포터블 옵스를 에뮬레이터 없이 실행되는 네이티브 Windows로 정적 재컴파일. 현재 게임 내 진입 가능."
+  },
+  "itsbybanshee/wwe2k14-pc": {
+    "en": "Brings the Xbox 360 wrestling game WWE 2K14 to PC as a native program, with a launcher, mod support, higher resolutions and modern controls. Needs your own game files.",
+    "zh-CN": "把 Xbox 360 的摔跤游戏《WWE 2K14》做成原生 PC 版，带启动器、模组支持、更高分辨率和现代操控。需要自己的游戏文件。",
+    "zh-TW": "把 Xbox 360 的摔跤遊戲《WWE 2K14》做成原生 PC 版，帶啟動器、模組支援、更高解析度和現代操控。需要自己的遊戲檔案。",
+    "ja": "Xbox 360のレスリングゲーム『WWE 2K14』をランチャー付きのネイティブPC版に。MOD対応、高解像度、現代的な操作。自分のゲームファイルが必要。",
+    "ko": "Xbox 360 레슬링 게임 WWE 2K14를 런처, 모드 지원, 고해상도, 현대적 조작이 있는 네이티브 PC 버전으로. 자신의 게임 파일 필요."
+  },
+  "lemonadesaltbagel/crab": {
+    "en": "An MCP tool that lets an AI study any software as a pure black box (what it does, not its code), then build a clean-room version that matches the behavior.",
+    "zh-CN": "一个 MCP 工具，让 AI 把任何软件当成纯黑盒来观察（只看它做什么，不看代码），然后做一个行为完全一样的干净室版本。",
+    "zh-TW": "一個 MCP 工具，讓 AI 把任何軟體當成純黑盒來觀察（只看它做什麼，不看程式碼），然後做一個行為完全一樣的乾淨室版本。",
+    "ja": "どんなソフトウェアでもコードを見ずに純粋なブラックボックスとして観察し、動作が一致するクリーンルーム版をAIに作らせるMCPツール。",
+    "ko": "어떤 소프트웨어든 코드를 보지 않고 순수 블랙박스로 관찰한 뒤, 동작이 일치하는 클린룸 버전을 AI가 만들게 하는 MCP 도구."
+  },
+  "ValveResourceFormat/Source2Mcp": {
+    "en": "An MCP server that lets an AI launch and control Source 2 games like CS2, Dota 2 or Deadlock: run console commands, move the camera and take screenshots.",
+    "zh-CN": "一个 MCP 服务器，让 AI 能启动并控制 CS2、Dota 2 或 Deadlock 这类 Source 2 游戏：跑控制台命令、移动镜头、截图。",
+    "zh-TW": "一個 MCP 伺服器，讓 AI 能啟動並控制 CS2、Dota 2 或 Deadlock 這類 Source 2 遊戲：跑控制台命令、移動鏡頭、截圖。",
+    "ja": "CS2やDota 2、DeadlockなどのSource 2ゲームをAIが起動・操作できるようにするMCPサーバー。コンソールコマンド、カメラ移動、スクリーンショット。",
+    "ko": "CS2, Dota 2, Deadlock 같은 Source 2 게임을 AI가 실행하고 제어할 수 있게 하는 MCP 서버. 콘솔 명령, 카메라 이동, 스크린샷."
+  },
+  "Dicklesworthstone/frankentorch": {
+    "en": "A from-scratch Rust rewrite of PyTorch that aims to behave exactly the same way, including gradients, but written in safe Rust with extra determinism and durability features.",
+    "zh-CN": "从零用安全的 Rust 重写了一个和 PyTorch 行为完全一样的机器学习库，包括梯度计算，还加了确定性与耐久性功能。",
+    "zh-TW": "從零用安全的 Rust 重寫了一個和 PyTorch 行為完全一樣的機器學習庫，包括梯度計算，還加了確定性與耐久性功能。",
+    "ja": "PyTorchと同じように動くことを目指した、安全なRustによるゼロからの再実装。勾配計算も含め、決定性と耐久性を追加。",
+    "ko": "PyTorch와 똑같이 동작하는 것을 목표로 안전한 Rust로 처음부터 다시 작성한 머신러닝 라이브러리. 그래디언트 포함, 결정성과 내구성 기능 추가."
   }
 }

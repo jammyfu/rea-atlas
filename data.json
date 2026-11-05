@@ -2286,5 +2286,61 @@
     "https://github.com/Karlos-fr/fun-tracks-recomp-releases",
     "No",
     "Multi-platform releases of the decompilation/recompilation of the closed-source 1997 game Fun Tracks."
+  ],
+  [
+    "tooling",
+    "tools",
+    "storytold/craft-anything",
+    "https://github.com/storytold/craft-anything",
+    "No",
+    "Open-source clean-room Rust engine that studies any website, app or game and has AI rebuild your own version from observed behavior."
+  ],
+  [
+    "pc",
+    "remake",
+    "BLSNCVS/Castlevania-Grimoire-of-Souls-Recomp",
+    "https://github.com/BLSNCVS/Castlevania-Grimoire-of-Souls-Recomp",
+    "No",
+    "Static recompilation of Castlevania: Grimoire of Souls (Apple Arcade / macOS) to run natively on Windows."
+  ],
+  [
+    "pc",
+    "remake",
+    "ccbury/MGSPOStaticRecomp",
+    "https://github.com/ccbury/MGSPOStaticRecomp",
+    "No",
+    "Static recompilation of Metal Gear Solid: Portable Ops (PSP) to native Windows, currently reaching in-game."
+  ],
+  [
+    "xbox",
+    "remake",
+    "itsbybanshee/wwe2k14-pc",
+    "https://github.com/itsbybanshee/wwe2k14-pc",
+    "No",
+    "Static recomp of WWE 2K14 (Xbox 360) for PC with launcher, mods, higher resolutions and modern controls."
+  ],
+  [
+    "tooling",
+    "tools",
+    "lemonadesaltbagel/crab",
+    "https://github.com/lemonadesaltbagel/crab",
+    "No",
+    "MCP-powered toolkit for black-box observation and clean-room reimplementation of software from behavior only, never from code."
+  ],
+  [
+    "tooling",
+    "tools",
+    "ValveResourceFormat/Source2Mcp",
+    "https://github.com/ValveResourceFormat/Source2Mcp",
+    "No",
+    "MCP server that drives Source 2 games (CS2, Deadlock, Dota 2) over VConsole2: launch, console commands, camera and screenshots."
+  ],
+  [
+    "app",
+    "remake",
+    "Dicklesworthstone/frankentorch",
+    "https://github.com/Dicklesworthstone/frankentorch",
+    "No",
+    "Memory-safe clean-room Rust reimplementation of PyTorch aiming for full behavioral parity with deterministic autograd."
   ]
 ]
