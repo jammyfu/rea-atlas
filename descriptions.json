@@ -2063,5 +2063,47 @@
     "zh-TW": "對 1996 年 DOS 版《古墓奇兵》做匹配反編譯，讓 C 和組合語言能編譯回原版 TOMB.EXE 的精確位元組",
     "ja": "1996 年の DOS 版『トゥームレイダー』のマッチング逆コンパイル。C とアセンブリが元の TOMB.EXE とバイト単位で一致する",
     "ko": "1996년 DOS 버전 『툼 레이더』의 매칭 디컴파일. C와 어셈블리가 원본 TOMB.EXE와 바이트 단위로 일치하게 복원"
+  },
+  "exoteric33/ps2-native-recomp": {
+    "en": "Turns a PS2 game disc you own into a native Windows or Linux program by static recompilation",
+    "zh-CN": "把你自己的 PS2 游戏光盘静态重编译成原生 Windows/Linux 程序",
+    "zh-TW": "把你自己的 PS2 遊戲光碟靜態重編譯成原生 Windows/Linux 程式",
+    "ja": "自分の持っている PS2 ディスクを静的再コンパイルでネイティブ Windows/Linux プログラムに",
+    "ko": "소유한 PS2 게임 디스크를 정적 재컴파일로 네이티브 Windows/Linux 프로그램으로 변환"
+  },
+  "Mava-b/folklore-decomp": {
+    "en": "Native Windows port of the 2007 PS3 game Folklore, made by static recompilation (60 FPS, ultrawide)",
+    "zh-CN": "把 2007 年 PS3 游戏《Folklore》静态重编译成可在 Windows 上原生运行的版本（支持 60 帧、超宽屏）",
+    "zh-TW": "把 2007 年 PS3 遊戲《Folklore》靜態重編譯成可在 Windows 上原生執行的版本（支援 60 幀、超寬螢幕）",
+    "ja": "2007 年の PS3 ゲーム『Folklore』を静的再コンパイルで Windows ネイティブポート（60FPS・ウルトラワイド対応）",
+    "ko": "2007년 PS3 게임 《Folklore》를 정적 재컴파일로 Windows 네이티브 포트 (60FPS, 울트라와이드)"
+  },
+  "karamzov123/fzero-gx-decomp": {
+    "en": "Matching decompilation of the GameCube racer F-Zero GX (NTSC-U) that rebuilds the original binary byte for byte",
+    "zh-CN": "GameCube 赛车《F-Zero GX》（美版）的匹配反编译，能逐字节还原原版二进制",
+    "zh-TW": "GameCube 賽車《F-Zero GX》（美版）的匹配反編譯，能逐位元組還原原版二進位",
+    "ja": "ゲームキューブのレーサー『F-Zero GX』（北米版）のマッチングデコンパイル。元のバイナリをバイト単位で再現",
+    "ko": "게임큐브 레이서 《F-Zero GX》(NTSC-U)의 매칭 디컴파일. 원본 바이너리를 바이트 단위로 재현"
+  },
+  "mattkuhnQAAI/sfiii-native": {
+    "en": "Experimental native PC port of Sega Saturn's Shining Force III (Scenarios 1–3) via static recompilation; widescreen preview",
+    "zh-CN": "世嘉土星《Shining Force III》（情景 1–3）的实验性原生 PC 静态重编译移植，支持宽屏预览",
+    "zh-TW": "世嘉土星《Shining Force III》（情景 1–3）的實驗性原生 PC 靜態重編譯移植，支援寬螢幕預覽",
+    "ja": "セガサターン『シャイニング・フォースIII』（シナリオ1～3）の実験的ネイティブ PC 静的再コンパイルポート。ワイドスクリーンプレビュー付き",
+    "ko": "세가 새턴 《Shining Force III》(시나리오 1–3)의 실험적 네이티브 PC 정적 재컴파일 포트. 와이드스크린 프리뷰"
+  },
+  "1llu50ry/mcp-reverse": {
+    "en": "MCP server that bundles many reverse-engineering tools and a large skill base so AI agents can analyze binaries and games",
+    "zh-CN": "一个 MCP 服务器，把多种逆向工具和大量技能库打包起来，让 AI 代理能分析二进制和游戏",
+    "zh-TW": "一個 MCP 伺服器，把多種逆向工具和大量技能庫打包起來，讓 AI 代理能分析二進位和遊戲",
+    "ja": "多数のリバースエンジニアリングツールとスキルベースをまとめた MCP サーバー。AI エージェントがバイナリやゲームを解析できる",
+    "ko": "여러 역공학 도구와 대규모 스킬 베이스를 묶은 MCP 서버. AI 에이전트가 바이너리와 게임을 분석할 수 있음"
+  },
+  "Trick230/DualizeRecomp": {
+    "en": "Native static recompilation of the Wii game NiGHTS: Journey of Dreams into a PC program",
+    "zh-CN": "把 Wii 游戏《NiGHTS: Journey of Dreams》静态重编译成原生 PC 程序",
+    "zh-TW": "把 Wii 遊戲《NiGHTS: Journey of Dreams》靜態重編譯成原生 PC 程式",
+    "ja": "Wii ゲーム『NiGHTS: Journey of Dreams』を静的再コンパイルでネイティブ PC プログラムに",
+    "ko": "Wii 게임 《NiGHTS: Journey of Dreams》를 정적 재컴파일로 네이티브 PC 프로그램으로"
   }
 }
