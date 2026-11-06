@@ -2342,5 +2342,21 @@
     "https://github.com/Dicklesworthstone/frankentorch",
     "No",
     "Memory-safe clean-room Rust reimplementation of PyTorch aiming for full behavioral parity with deterministic autograd."
+  ],
+  [
+    "pc",
+    "decomp",
+    "Open-BFME/Open-BFME-1",
+    "https://github.com/Open-BFME/Open-BFME-1",
+    "No",
+    "Matching decompilation of The Lord of the Rings: The Battle for Middle-earth 1 (PC, 2004); C++ that rebuilds the retail EXE byte-for-byte."
+  ],
+  [
+    "pc",
+    "decomp",
+    "LostArtefacts/tr01",
+    "https://github.com/LostArtefacts/tr01",
+    "No",
+    "Matching decompilation of Tomb Raider (1996) DOS version; C/assembly that compiles to the original TOMB.EXE bytes."
   ]
 ]

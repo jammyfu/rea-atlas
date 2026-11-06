@@ -2049,5 +2049,19 @@
     "zh-TW": "從零用安全的 Rust 重寫了一個和 PyTorch 行為完全一樣的機器學習庫，包括梯度計算，還加了確定性與耐久性功能。",
     "ja": "PyTorchと同じように動くことを目指した、安全なRustによるゼロからの再実装。勾配計算も含め、決定性と耐久性を追加。",
     "ko": "PyTorch와 똑같이 동작하는 것을 목표로 안전한 Rust로 처음부터 다시 작성한 머신러닝 라이브러리. 그래디언트 포함, 결정성과 내구성 기능 추가."
+  },
+  "Open-BFME/Open-BFME-1": {
+    "en": "From-scratch C++ rewrite of The Lord of the Rings: Battle for Middle-earth 1 so the code rebuilds the original game EXE byte-for-byte",
+    "zh-CN": "从零用 C++ 重写了《指环王：中土大战》第一部，让代码能逐字节还原原版游戏可执行文件",
+    "zh-TW": "從零用 C++ 重寫了《魔戒：中土大戰》第一部，讓程式碼能逐位元組還原原版遊戲執行檔",
+    "ja": "ゼロから C++ で『ロード・オブ・ザ・リング：バトル・フォー・ミドルアース』1 を書き直し、元のゲーム EXE とバイト単位で一致するコードに",
+    "ko": "처음부터 C++로 『반지의 제왕: 중간계 전투』 1을 다시 써서 원본 게임 EXE와 바이트 단위로 같은 코드로 복원"
+  },
+  "LostArtefacts/tr01": {
+    "en": "Matching decompilation of the original 1996 DOS Tomb Raider so C and assembly compile back to the exact retail TOMB.EXE bytes",
+    "zh-CN": "对 1996 年 DOS 版《古墓丽影》做匹配反编译，让 C 和汇编能编译回原版 TOMB.EXE 的精确字节",
+    "zh-TW": "對 1996 年 DOS 版《古墓奇兵》做匹配反編譯，讓 C 和組合語言能編譯回原版 TOMB.EXE 的精確位元組",
+    "ja": "1996 年の DOS 版『トゥームレイダー』のマッチング逆コンパイル。C とアセンブリが元の TOMB.EXE とバイト単位で一致する",
+    "ko": "1996년 DOS 버전 『툼 레이더』의 매칭 디컴파일. C와 어셈블리가 원본 TOMB.EXE와 바이트 단위로 일치하게 복원"
   }
 }
