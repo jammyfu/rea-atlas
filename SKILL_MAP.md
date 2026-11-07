@@ -341,4 +341,4 @@ The following records identify the basis for projects in this technology index. 
 - [zinja-coder/jadx-ai-mcp](https://github.com/zinja-coder/jadx-ai-mcp/blob/jadx-ai/README.md) (2026-11-07): Apache-2.0. JADX GUI plugin; requires its companion MCP server and is not a separate decompiler.
 - [zinja-coder/jadx-mcp-server](https://github.com/zinja-coder/jadx-mcp-server/blob/main/README.md) (2026-11-07): Apache-2.0. Requires the companion JADX plugin and compatible Java/Python; a bridge rather than a decompiler.
 
-[REA Atlas](README.md)
+[Reverse Engineering Atlas](README.md)

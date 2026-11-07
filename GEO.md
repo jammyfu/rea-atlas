@@ -1,4 +1,4 @@
-# GEO / repo metadata (jammyfu/rea-atlas)
+# GEO / repo metadata (jammyfu/reverse-engineering-atlas)
 
 **About:** Map of reverse-engineering projects (with rea tags): game decomp/recomp across NES→Switch-era consoles and PC, re-implementations, asset tools, RE tooling, app/protocol/firmware. Each tagged "Uses rea: Yes/No/Unverified". EN/中文/日本語/한국어.
 

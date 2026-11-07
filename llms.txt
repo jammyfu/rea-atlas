@@ -1,4 +1,4 @@
-# REA Atlas — a map of reverse-engineering projects (with rea tags)
+# Reverse Engineering Atlas — a map of reverse-engineering projects (with rea tags)
 
 > Map of open reverse-engineering projects: game decompilations and static recompilations across NES, SNES, Mega Drive, Saturn, GB, GBA, N64, GameCube, Wii, DS, 3DS, PS1, PS2, Xbox and PC; re-implementations; asset tools; general RE tooling (Ghidra, radare2, Rizin, x64dbg, Frida, angr, ImHex, IDA MCP); app, protocol and firmware work. Each entry is labelled "Uses rea: Yes / No / Unverified" for morluto/rea (https://github.com/morluto/rea). No ROMs, cracks or copyrighted assets.
 

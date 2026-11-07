@@ -1,4 +1,4 @@
-# Contributing to REA Atlas
+# Contributing to Reverse Engineering Atlas
 
 1. One entry per line: `- [owner/repo](url) — **Uses rea: Yes|No|Unverified**. One-sentence summary.`
 2. **Uses rea: Yes** needs public evidence (README, repo docs, official rea.tools showcase). Link it in the PR.

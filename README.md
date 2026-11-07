@@ -1,6 +1,6 @@
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
-# REA Atlas: map of reverse-engineering projects (REA tags optional)
+# Reverse Engineering Atlas: map of reverse-engineering projects (REA tags optional)
 
 Map of open reverse-engineering projects: game decomps/recomps, re-implementations, asset tools, protocols, firmware, and RE tooling. Each entry is optionally tagged **Uses rea: Yes / No / Unverified** for [morluto/rea](https://github.com/morluto/rea) — the tag is just a signal, not a requirement. Search here to see if someone already reverse-engineered the target you care about.
 

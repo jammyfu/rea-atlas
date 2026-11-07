@@ -1,6 +1,6 @@
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
-# REA Atlas：逆向工程项目地图（REA 标记可选）
+# Reverse Engineering Atlas：逆向工程项目地图（REA 标记可选）
 
 开源逆向工程项目地图：游戏反编译/重编译、重实现、资源工具、协议、固件及逆向工具。每条可选标注是否使用 [morluto/rea](https://github.com/morluto/rea)：**Uses rea: Yes / No / Unverified** —— 标记只是参考信号，不是收录条件。用来查「这个目标有没有人已经逆向过」。
 

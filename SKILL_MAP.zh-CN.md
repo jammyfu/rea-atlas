@@ -341,4 +341,4 @@
 - [zinja-coder/jadx-ai-mcp](https://github.com/zinja-coder/jadx-ai-mcp/blob/jadx-ai/README.md) (2026-11-07): 与同作者 jadx-mcp-server 配套，区分插件和服务器，避免把两个仓库算成两个独立分析引擎。
 - [zinja-coder/jadx-mcp-server](https://github.com/zinja-coder/jadx-mcp-server/blob/main/README.md) (2026-11-07): 需要配套 JADX 插件和合适的 Java/Python 环境；这是桥接层，不替代 JADX。
 
-[REA Atlas](README.zh-CN.md)
+[Reverse Engineering Atlas](README.zh-CN.md)

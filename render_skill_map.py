@@ -60,7 +60,7 @@ def render_details(skill_map, entries, descriptions):
             lines.append(f"- [{name}]({item['source']}) ({item['checked_on']}): {note}")
             if item.get("additional_sources"):
                 lines.append("  " + " · ".join(f"[{'补充依据' if chinese else 'Reference'} {index}]({url})" for index, url in enumerate(item["additional_sources"], 1)))
-        lines += ["", "[REA Atlas](README.zh-CN.md)" if chinese else "[REA Atlas](README.md)", ""]
+        lines += ["", "[Reverse Engineering Atlas](README.zh-CN.md)" if chinese else "[Reverse Engineering Atlas](README.md)", ""]
         Path(filename).write_text("\n".join(lines), encoding="utf-8")
 
 
