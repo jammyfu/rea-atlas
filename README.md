@@ -1,16 +1,19 @@
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
-# Reverse Engineering Atlas: map of reverse-engineering projects (REA tags optional)
+# Reverse Engineering Atlas
 
-Map of open reverse-engineering projects: game decomps/recomps, re-implementations, asset tools, protocols, firmware, and RE tooling. Each entry is optionally tagged **Uses rea: Yes / No / Unverified** for [morluto/rea](https://github.com/morluto/rea) — the tag is just a signal, not a requirement. Search here to see if someone already reverse-engineered the target you care about.
+A curated map of reverse-engineering projects, tools and agent workflows. Find existing work before starting your own: game decompilations and recompilations, application reimplementations, Android and JavaScript analysis, protocols, firmware and supporting tools.
 
-> Unofficial; not affiliated with morluto/rea.
+**341 catalog entries · 335 GitHub repositories · 10 skill workflows · 5 README languages**
+
+> Independent and tool-agnostic. This is not an official directory for REA or any other upstream project. Inclusion is not an endorsement or a claim that a project is complete, safe or licensed for your use.
 
 ## Contents
 
-- [Skill technology map](#skill-technology-map)
-- [Projects that used REA (evidence-tagged subset)](#projects-that-used-rea-evidence-tagged-subset)
-- [Games](#games)
+- [Start here](#atlas-start)
+- [Skill technology map](#atlas-skills)
+- [Scope, evidence and licenses](#atlas-policy)
+- [Games](#atlas-games)
   - [NES / Famicom](#nes--famicom)
   - [Super Famicom / SNES](#super-famicom--snes)
   - [Mega Drive / Genesis](#mega-drive--genesis)
@@ -26,12 +29,27 @@ Map of open reverse-engineering projects: game decomps/recomps, re-implementatio
   - [PlayStation 2](#playstation-2)
   - [Xbox / Xbox 360](#xbox--xbox-360)
   - [PC / DOS / PC-98](#pc--dos--pc-98)
-- [Apps / Electron / Desktop](#apps--electron--desktop)
-- [Protocols / Hardware](#protocols--hardware)
-- [Firmware / Drivers](#firmware--drivers)
-- [Security / Evaluations](#security--evaluations)
-- [Reverse-engineering tools](#reverse-engineering-tools)
-- [Official REA showcases](#official-rea-showcases)
+- [Apps / Electron / Desktop](#atlas-app)
+- [Protocols / Hardware](#atlas-protocol)
+- [Firmware / Drivers](#atlas-firmware)
+- [Security / Evaluations](#atlas-security)
+- [Reverse-engineering tools](#atlas-tooling)
+- [Official REA showcases](#atlas-official)
+- [Optional view: projects using REA](#atlas-rea)
+- [Data and contributions](#atlas-data)
+
+<a id="atlas-start"></a>
+
+## Start here
+
+- **Find an existing implementation:** Browse [games by platform](#atlas-games), [desktop apps / Electron](#atlas-app), [protocols / hardware](#atlas-protocol), or [firmware / drivers](#atlas-firmware).
+- **Choose an analysis workflow:** Use the [ten-skill map](#atlas-skills) for Android, JavaScript, native binaries, CTF and clean-room reconstruction.
+- **Choose tools:** Browse [reverse-engineering tools](#atlas-tooling) and [security / evaluations](#atlas-security). Tools, skills and reconstructed applications serve different purposes.
+- **Inspect evidence and limitations:** Read the [detailed technology map](SKILL_MAP.md) for primary sources, license caveats, maintenance status and capability boundaries.
+
+Use Ctrl+F / Cmd+F to search a target name, owner/repository, platform or format such as APK, DEX, Electron, WASM, PS2 or firmware. Then open the upstream README for prerequisites and current status. A missing entry does not mean no project exists.
+
+<a id="atlas-skills"></a>
 
 ## Skill technology map
 
@@ -52,70 +70,21 @@ Ten skill entry points and related projects, grouped by technique. A technical m
 | [Open-ReverseLab](https://github.com/LING71671/open-reverselab) | MCP workbench, native / Android, case reports | [7](SKILL_MAP.md#open-reverselab) |
 | [js-reverse-automation--skill](https://github.com/Fausto-404/js-reverse-automation--skill) | CDP, AST, browser runtime, WASM | [7](SKILL_MAP.md#js-reverse-automation-skill) |
 
-## Projects that used REA (evidence-tagged subset)
+<a id="atlas-policy"></a>
 
-_Optional filter: these have public evidence of using REA. Most projects in the map are ordinary reverse-engineering work and do not require REA._
+## Scope, evidence and licenses
 
-<table>
-<tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
-<tr><td><a href="https://github.com/morluto/rea/discussions/2254"><img src="images/rea-discussion-2254.png" width="160" alt="REA discussion #2254"></a></td><td><a href="https://github.com/morluto/rea/discussions/2254"><b>REA discussion #2254</b></a></td><td>A stripped bzip2, analysed and checked against the real build</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/cranebeaker/coop-anything"><b>coop-anything</b></a><br><sub>cranebeaker</sub></td><td>MCP server and skills to add co-op to single-player games by investigating entry points with REA</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/Caho1/open-claude-ui"><b>open-claude-ui</b></a><br><sub>Caho1</sub></td><td>High-fidelity rebuild of Claude Desktop UI components and interaction physics, extracted via REA</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/MiaAI-Lab/sparkDash"><b>sparkDash</b></a><br><sub>MiaAI-Lab</sub></td><td>Multi-device dashboard that integrates long-running REA analysis jobs and loads results on demand</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/michaelshimeles/terminal-rs"><img src="https://raw.githubusercontent.com/michaelshimeles/terminal-rs/master/docs/img/overview.png" width="160" alt="michaelshimeles/terminal-rs"></a></td><td><a href="https://github.com/michaelshimeles/terminal-rs"><b>terminal-rs</b></a><br><sub>michaelshimeles</sub></td><td>A Bloomberg-style trading terminal in Rust</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
-<tr><td><a href="https://github.com/ShadowSwaps/REA-Reconstruction-Companion"><img src="https://opengraph.githubassets.com/1/ShadowSwaps/REA-Reconstruction-Companion" width="160" alt="ShadowSwaps/REA-Reconstruction-Companion"></a></td><td><a href="https://github.com/ShadowSwaps/REA-Reconstruction-Companion"><b>REA-Reconstruction-Companion</b></a><br><sub>ShadowSwaps</sub></td><td>An agent skill that keeps reconstructions tied to evidence</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/Xiangyu-CAS/rea-capcut"><b>rea-capcut</b></a><br><sub>Xiangyu-CAS</sub></td><td>An open-source offline video editor rebuilt from REA research on CapCut</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/michaelshimeles/rec-rs"><img src="https://raw.githubusercontent.com/michaelshimeles/rec-rs/main/docs/screenshots/main.png" width="160" alt="michaelshimeles/rec-rs"></a></td><td><a href="https://github.com/michaelshimeles/rec-rs"><b>rec-rs</b></a><br><sub>michaelshimeles</sub></td><td>A fast macOS screen recorder in Rust, modelled on OBS</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/giveen/decomp.anything"><b>decomp.anything</b></a><br><sub>giveen</sub></td><td>Continuation of the closed-source matching decompiler decomp.wtf; adds Windows/Linux PE/ELF support and an REA bridge so agents can reverse-engineer non-game binaries too.</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/N0zoM1z0/dx-ball"><img src="https://raw.githubusercontent.com/N0zoM1z0/dx-ball/main/resources/dxball-title.png" width="160" alt="N0zoM1z0/dx-ball"></a></td><td><a href="https://github.com/N0zoM1z0/dx-ball"><b>dx-ball</b></a><br><sub>N0zoM1z0</sub></td><td>DX-Ball 1.07 rebuilt in C/C++, tested against the original x86</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
-<tr><td><a href="https://github.com/michaelshimeles/sketch"><img src="https://raw.githubusercontent.com/michaelshimeles/sketch/main/docs/screenshots/app_demo.png" width="160" alt="michaelshimeles/sketch"></a></td><td><a href="https://github.com/michaelshimeles/sketch"><b>sketch</b></a><br><sub>michaelshimeles</sub></td><td>An infinite design canvas in Rust, rebuilt by studying Paper</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
-<tr><td><a href="https://github.com/czcdr/dsh-plugin-rea"><img src="https://raw.githubusercontent.com/czcdr/dsh-plugin-rea/main/assets/screenshot-1.png" width="160" alt="czcdr/dsh-plugin-rea"></a></td><td><a href="https://github.com/czcdr/dsh-plugin-rea"><b>dsh-plugin-rea</b></a><br><sub>czcdr</sub></td><td>REA tools in DeepSeek Harness, with Ghidra auto-installed</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
-<tr><td><a href="https://github.com/Moxnatiy/OpenBattlefield2"><img src="https://raw.githubusercontent.com/Moxnatiy/OpenBattlefield2/master/docs/screenshots/menu-main.png" width="160" alt="Moxnatiy/OpenBattlefield2"></a></td><td><a href="https://github.com/Moxnatiy/OpenBattlefield2"><b>OpenBattlefield2</b></a><br><sub>Moxnatiy</sub></td><td>Battlefield 2&#x27;s engine, rewritten clean-room in C++20 (uses your own copy)</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
-<tr><td><a href="https://github.com/0xshlomil/ida-free-mcp"><img src="https://opengraph.githubassets.com/1/0xshlomil/ida-free-mcp" width="160" alt="0xshlomil/ida-free-mcp"></a></td><td><a href="https://github.com/0xshlomil/ida-free-mcp"><b>ida-free-mcp</b></a><br><sub>0xshlomil</sub></td><td>Use free IDA from an AI agent over MCP</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
-<tr><td><a href="https://github.com/lxistired/ledger-reborn"><img src="https://raw.githubusercontent.com/lxistired/ledger-reborn/main/docs/screenshots/accounting.png" width="160" alt="lxistired/ledger-reborn"></a></td><td><a href="https://github.com/lxistired/ledger-reborn"><b>ledger-reborn</b></a><br><sub>lxistired</sub></td><td>A local-first accounting app, modelled on QuickBooks for Mac</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/glauberlima/open-scrantic"><b>open-scrantic</b></a><br><sub>glauberlima</sub></td><td>Rust reimplementation of the 1992 Johnny Castaway screensaver, reverse-engineered with REA</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/N0zoM1z0/th04"><img src="https://raw.githubusercontent.com/N0zoM1z0/th04/main/resources/title-screen.png" width="160" alt="N0zoM1z0/th04"></a></td><td><a href="https://github.com/N0zoM1z0/th04"><b>th04</b></a><br><sub>N0zoM1z0</sub></td><td>Touhou 4 (PC-98) as readable source, checked against the original compiler</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/gryszzz/reverse-engineer-everything"><b>reverse-engineer-everything</b></a><br><sub>gryszzz</sub></td><td>A local workbench and investigation studio built on the REA engine for evidence-backed software analysis without uploading files.</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/tanepiper/game-frame"><b>game-frame</b></a><br><sub>tanepiper</sub></td><td>A framework for agents to reverse engineer games from shipped files</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/rodneypantonial/sims3-modernization"><b>sims3-modernization</b></a><br><sub>rodneypantonial</sub></td><td>Make The Sims 3 stutter and crash less on modern PCs</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/alexmi256/rea-agent-docker"><img src="https://opengraph.githubassets.com/1/alexmi256/rea-agent-docker" width="160" alt="alexmi256/rea-agent-docker"></a></td><td><a href="https://github.com/alexmi256/rea-agent-docker"><b>rea-agent-docker</b></a><br><sub>alexmi256</sub></td><td>REA in Docker, with Ghidra, Hopper or IDA variants</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/nicolvus/a6000-fw-decomp"><b>a6000-fw-decomp</b></a><br><sub>nicolvus</sub></td><td>Dig into Sony A6000 camera firmware with REA and Ghidra</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/EndLess728/MiTV-Remote"><b>MiTV-Remote</b></a><br><sub>EndLess728</sub></td><td>Control Xiaomi TVs over Wi-Fi from Mac, Android or iPhone</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/ucodia/desktop-games-nostalgia"><img src="https://raw.githubusercontent.com/ucodia/desktop-games-nostalgia/main/docs/demo.gif" width="160" alt="ucodia/desktop-games-nostalgia"></a></td><td><a href="https://github.com/ucodia/desktop-games-nostalgia"><b>desktop-games-nostalgia</b></a><br><sub>ucodia</sub></td><td>Smash your desktop again: Gemtree&#x27;s 2000 toy on macOS and the web</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
-<tr><td><a href="https://github.com/cudanexus/vd-streamer-linux"><img src="https://opengraph.githubassets.com/1/cudanexus/vd-streamer-linux" width="160" alt="cudanexus/vd-streamer-linux"></a></td><td><a href="https://github.com/cudanexus/vd-streamer-linux"><b>vd-streamer-linux</b></a><br><sub>cudanexus</sub></td><td>Stream your Linux desktop to Quest and Pico headsets</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
-<tr><td><a href="https://github.com/Nowng/rea-mcp"><img src="https://opengraph.githubassets.com/1/Nowng/rea-mcp" width="160" alt="Nowng/rea-mcp"></a></td><td><a href="https://github.com/Nowng/rea-mcp"><b>rea-mcp</b></a><br><sub>Nowng</sub></td><td>Run REA with local models in LM Studio</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
-<tr><td><a href="https://github.com/pablodiazjorge/rea-lab"><img src="https://opengraph.githubassets.com/1/pablodiazjorge/rea-lab" width="160" alt="pablodiazjorge/rea-lab"></a></td><td><a href="https://github.com/pablodiazjorge/rea-lab"><b>rea-lab</b></a><br><sub>pablodiazjorge</sub></td><td>Windows + Ghidra exercises and a pre-registered REA study</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
-<tr><td><a href="https://github.com/NullLabTests/OpenBSD_netcat_REA"><img src="https://raw.githubusercontent.com/NullLabTests/OpenBSD_netcat_REA/main/assets/rea-pipeline.png" width="160" alt="NullLabTests/OpenBSD_netcat_REA"></a></td><td><a href="https://github.com/NullLabTests/OpenBSD_netcat_REA"><b>OpenBSD_netcat_REA</b></a><br><sub>NullLabTests</sub></td><td>netcat-openbsd, statically analysed with REA and Ghidra</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
-<tr><td><a href="https://github.com/sickpyramid/ReaFuse"><img src="https://opengraph.githubassets.com/1/sickpyramid/ReaFuse" width="160" alt="sickpyramid/ReaFuse"></a></td><td><a href="https://github.com/sickpyramid/ReaFuse"><b>ReaFuse</b></a><br><sub>sickpyramid</sub></td><td>Merge two JS/TS projects into one, guided by REA</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
-<tr><td><a href="https://github.com/grisuno/VSL-DSP"><img src="https://opengraph.githubassets.com/1/grisuno/VSL-DSP" width="160" alt="grisuno/VSL-DSP"></a></td><td><a href="https://github.com/grisuno/VSL-DSP"><b>VSL-DSP</b></a><br><sub>grisuno</sub></td><td>A Linux kernel module for PreSonus AudioBox VSL interfaces</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
-<tr><td><a href="https://github.com/iammukeshm/hexgrab"><img src="https://opengraph.githubassets.com/1/iammukeshm/hexgrab" width="160" alt="iammukeshm/hexgrab"></a></td><td><a href="https://github.com/iammukeshm/hexgrab"><b>hexgrab</b></a><br><sub>iammukeshm</sub></td><td>A tiny Windows colour picker, rebuilt from PowerToys&#x27; binaries</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
-<tr><td><a href="https://github.com/zhaofeng130/dsh-rea"><img src="https://opengraph.githubassets.com/1/zhaofeng130/dsh-rea" width="160" alt="zhaofeng130/dsh-rea"></a></td><td><a href="https://github.com/zhaofeng130/dsh-rea"><b>dsh-rea</b></a><br><sub>zhaofeng130</sub></td><td>Add the REA Skill and tools to DeepSeek Harness</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
-<tr><td><a href="https://github.com/pablodiazjorge/rea-casebook"><img src="https://raw.githubusercontent.com/pablodiazjorge/rea-casebook/main/media/session-dark.png" width="160" alt="pablodiazjorge/rea-casebook"></a></td><td><a href="https://github.com/pablodiazjorge/rea-casebook"><b>rea-casebook</b></a><br><sub>pablodiazjorge</sub></td><td>Make Claude Code cite real REA evidence for every conclusion</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/B-Howell/soundconnect-desktop"><b>soundconnect-desktop</b></a><br><sub>B-Howell</sub></td><td>Control Sony Bluetooth headphones from a Windows desktop app</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/tuunanet/rea-ski-or-die-reconstruction"><img src="https://raw.githubusercontent.com/tuunanet/rea-ski-or-die-reconstruction/main/docs/snowball-war.gif" width="160" alt="tuunanet/rea-ski-or-die-reconstruction"></a></td><td><a href="https://github.com/tuunanet/rea-ski-or-die-reconstruction"><b>rea-ski-or-die-reconstruction</b></a><br><sub>tuunanet</sub></td><td>Ski or Die&#x27;s Snowball War, rebuilt in Rust + SDL2 (bring your own assets)</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
-<tr><td><a href="https://github.com/OpenRsG/GunZRs"><img src="https://raw.githubusercontent.com/OpenRsG/GunZRs/main/docs/media/menu.jpg" width="160" alt="OpenRsG/GunZRs"></a></td><td><a href="https://github.com/OpenRsG/GunZRs"><b>GunZRs</b></a><br><sub>OpenRsG</sub></td><td>GunZ: The Duel, reborn in Rust + Bevy</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
-<tr><td><a href="https://github.com/sheilacraig/dsh-rea-mcp"><img src="https://opengraph.githubassets.com/1/sheilacraig/dsh-rea-mcp" width="160" alt="sheilacraig/dsh-rea-mcp"></a></td><td><a href="https://github.com/sheilacraig/dsh-rea-mcp"><b>dsh-rea-mcp</b></a><br><sub>sheilacraig</sub></td><td>A config-only way to mount REA in DeepSeek Harness</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
-<tr><td><a href="https://github.com/az9713/wispr-flow-rea-teardown"><img src="https://img.youtube.com/vi/FnB9tHKBJXQ/maxresdefault.jpg" width="160" alt="az9713/wispr-flow-rea-teardown"></a></td><td><a href="https://github.com/az9713/wispr-flow-rea-teardown"><b>wispr-flow-rea-teardown</b></a><br><sub>az9713</sub></td><td>Wispr Flow&#x27;s voice pipeline, taken apart, plus a 64-line rebuild</td><td>✅ Yes</td><td><sub><a href="https://img.youtube.com/vi/FnB9tHKBJXQ/maxresdefault.jpg">Video thumbnail</a></sub></td></tr>
-<tr><td><a href="https://github.com/KarlssonChristoffer/DiskLens"><img src="https://opengraph.githubassets.com/1/KarlssonChristoffer/DiskLens" width="160" alt="KarlssonChristoffer/DiskLens"></a></td><td><a href="https://github.com/KarlssonChristoffer/DiskLens"><b>DiskLens</b></a><br><sub>KarlssonChristoffer</sub></td><td>See what fills your Windows 11 disk, WinDirStat-style</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
-<tr><td><a href="https://github.com/ya123-4/rea-dsh-plugin"><img src="https://opengraph.githubassets.com/1/ya123-4/rea-dsh-plugin" width="160" alt="ya123-4/rea-dsh-plugin"></a></td><td><a href="https://github.com/ya123-4/rea-dsh-plugin"><b>rea-dsh-plugin</b></a><br><sub>ya123-4</sub></td><td>Register REA&#x27;s MCP tools in DeepSeek Harness</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
-<tr><td><a href="https://github.com/az9713/REA-demo"><img src="https://opengraph.githubassets.com/1/az9713/REA-demo" width="160" alt="az9713/REA-demo"></a></td><td><a href="https://github.com/az9713/REA-demo"><b>REA-demo</b></a><br><sub>az9713</sub></td><td>REA analyses itself, with predictions you can falsify</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
-<tr><td><a href="https://github.com/cognixws/picode-rea"><img src="https://opengraph.githubassets.com/1/cognixws/picode-rea" width="160" alt="cognixws/picode-rea"></a></td><td><a href="https://github.com/cognixws/picode-rea"><b>picode-rea</b></a><br><sub>cognixws</sub></td><td>REA&#x27;s static-analysis tools inside PiCode</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
-<tr><td><a href="https://github.com/jinshi666888/rea-playbook"><img src="https://raw.githubusercontent.com/jinshi666888/rea-playbook/main/docs/assets/demo.gif" width="160" alt="jinshi666888/rea-playbook"></a></td><td><a href="https://github.com/jinshi666888/rea-playbook"><b>rea-playbook</b></a><br><sub>jinshi666888</sub></td><td>A hands-on REA lab with a tiny Electron target</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
-<tr><td><a href="https://github.com/UnknownHacker1/rea-groundtruth"><img src="https://opengraph.githubassets.com/1/UnknownHacker1/rea-groundtruth" width="160" alt="UnknownHacker1/rea-groundtruth"></a></td><td><a href="https://github.com/UnknownHacker1/rea-groundtruth"><b>rea-groundtruth</b></a><br><sub>UnknownHacker1</sub></td><td>Check REA&#x27;s reports against the real source code</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/Stijnus/dsh-rev-eng"><b>dsh-rev-eng</b></a><br><sub>Stijnus</sub></td><td>DSH plugin packaging REA skills + optional MCP for reverse engineering and Mac app building.</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/alemigav/re2-64-decomp"><img src="https://opengraph.githubassets.com/1/alemigav/re2-64-decomp" width="160" alt="alemigav/re2-64-decomp"></a></td><td><a href="https://github.com/alemigav/re2-64-decomp"><b>re2-64-decomp</b></a><br><sub>alemigav</sub></td><td>Took apart Resident Evil 2 on the Nintendo 64 with AI tools (REA + Ghidra). Thousands of decompiled functions and a verification suite; no game ROM included.</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
-<tr><td><a href="https://rea.tools/showcase/dx-ball/"><img src="images/showcase-dx-ball.png" width="160" alt="DX-Ball: sound-pan function"></a></td><td><a href="https://rea.tools/showcase/dx-ball/"><b>DX-Ball: sound-pan function</b></a></td><td>Watch REA turn one DX-Ball sound helper into byte-exact C</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
-<tr><td><a href="https://rea.tools/showcase/notion/"><img src="images/showcase-notion.png" width="160" alt="Notion: Electron clipboard bridge"></a></td><td><a href="https://rea.tools/showcase/notion/"><b>Notion: Electron clipboard bridge</b></a></td><td>Follow a Notion copy from the page, through IPC, into the main process</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
-<tr><td><a href="https://rea.tools/showcase/th04/"><img src="images/showcase-th04.png" width="160" alt="TH04: PC-98 bullet-ring maths"></a></td><td><a href="https://rea.tools/showcase/th04/"><b>TH04: PC-98 bullet-ring maths</b></a></td><td>Recover Touhou 4&#x27;s bullet-ring angle maths from 16-bit DOS code</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
-<tr><td><a href="https://rea.tools/showcase/aegis/"><img src="images/showcase-aegis.png" width="160" alt="Aegis: TOTP code generation"></a></td><td><a href="https://rea.tools/showcase/aegis/"><b>Aegis: TOTP code generation</b></a></td><td>See exactly how the Aegis Android app generates your 2FA codes</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
-<tr><td><a href="https://rea.tools/showcase/ctf/"><img src="images/showcase-ctf.png" width="160" alt="CTF: flag checker"></a></td><td><a href="https://rea.tools/showcase/ctf/"><b>CTF: flag checker</b></a></td><td>Solve a DownUnderCTF 2023 reversing challenge step by step</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
-<tr><td><a href="https://github.com/a-barzanti/ai-rebuilds"><img src="https://opengraph.githubassets.com/1/a-barzanti/ai-rebuilds" width="160" alt="a-barzanti/ai-rebuilds"></a></td><td><a href="https://github.com/a-barzanti/ai-rebuilds"><b>ai-rebuilds</b></a><br><sub>a-barzanti</sub></td><td>Abandoned games brought back to the browser, no original files included</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
-<tr><td><a href="https://github.com/AdamLinCodes/AdamTerm"><img src="https://raw.githubusercontent.com/AdamLinCodes/AdamTerm/main/docs/adamterm.png" width="160" alt="AdamLinCodes/AdamTerm"></a></td><td><a href="https://github.com/AdamLinCodes/AdamTerm"><b>AdamTerm</b></a><br><sub>AdamLinCodes</sub></td><td>A minimal macOS terminal, built by poking at Ghostty</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/chilliesdev/fmseasonhub-re"><b>fmseasonhub-re</b></a><br><sub>chilliesdev</sub></td><td>REA teardown notes of the FM Season Hub app</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/carlhako/keen-clone"><b>keen-clone</b></a><br><sub>carlhako</sub></td><td>Native Linux/SDL2 reimplementation of Commander Keen 1, recovered function-by-function with REA + Ghidra</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/NathanKanaeru/samp-client-re"><b>samp-client-re</b></a><br><sub>NathanKanaeru</sub></td><td>Clean-room SA-MP 0.3.DL-R1 client reimplementation; architecture recovered with REA/Ghidra</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/CurLeaf/dsh-command-rea"><b>dsh-command-rea</b></a><br><sub>CurLeaf</sub></td><td>DSH /rea slash command that routes requests to the REA skill and MCP tools.</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
-</table>
+**What is indexed:** public projects and resources spanning static/dynamic analysis, decompilation, recompilation, clean-room reimplementation and preservation. Skills orchestrate work; they are not necessarily analysis engines. Extractors unpack data; they do not recover original source or grant reuse rights.
+
+**What was checked:** the skill map records a focused documentation review of 45 projects on 2026-11-07. It is not a fresh audit of every older catalog entry. No listed project was installed or executed for this review; performance and safety claims were not independently reproduced.
+
+**REA is an optional relationship tag:** Yes requires public evidence of REA use; No records a non-REA workflow or independent alternative; Unverified means the relationship has not been established. These labels do not rate project quality or licensing. Benchmark comparison alone is not REA runtime use. The [REA subset](#atlas-rea) is an optional view, not the atlas scope.
+
+**Authorization and licensing:** analyze only targets and data you own or have explicit permission to use. We do not collect cracks, DRM-bypass projects, pirated binaries or unlicensed game assets. Public visibility is not an open-source license; unclear, scoped and commercial dependency licenses must be checked upstream. Some projects require your own legitimately obtained assets.
+
+**Catalog versus project rights:** this catalog's original contributions are [CC0-1.0](LICENSE). Upstream code, screenshots, brands and other third-party material retain their own rights. Archived and early-alpha projects are historical or experimental references, not default recommendations.
+
+<a id="atlas-games"></a>
 
 ## Games
 
@@ -505,6 +474,8 @@ _Optional filter: these have public evidence of using REA. Most projects in the 
 <tr><td><a href="https://github.com/N0zoM1z0/touhou-reconstruction-factory"><img src="https://opengraph.githubassets.com/1/N0zoM1z0/touhou-reconstruction-factory" width="160" alt="N0zoM1z0/touhou-reconstruction-factory"></a></td><td><a href="https://github.com/N0zoM1z0/touhou-reconstruction-factory"><b>touhou-reconstruction-factory</b></a><br><sub>N0zoM1z0</sub></td><td>The agent pipeline behind the Touhou reconstructions</td><td>❔ Unverified</td><td><sub>Repo card</sub></td></tr>
 </table>
 
+<a id="atlas-app"></a>
+
 ## Apps / Electron / Desktop
 
 <table>
@@ -545,6 +516,8 @@ _Optional filter: these have public evidence of using REA. Most projects in the 
 <tr><td>—</td><td><a href="https://github.com/chilliesdev/fmseasonhub-re"><b>fmseasonhub-re</b></a><br><sub>chilliesdev</sub></td><td>REA teardown notes of the FM Season Hub app</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
 </table>
 
+<a id="atlas-protocol"></a>
+
 ## Protocols / Hardware
 
 <table>
@@ -557,6 +530,8 @@ _Optional filter: these have public evidence of using REA. Most projects in the 
 <tr><td>—</td><td><a href="https://github.com/EndLess728/MiTV-Remote"><b>MiTV-Remote</b></a><br><sub>EndLess728</sub></td><td>Control Xiaomi TVs over Wi-Fi from Mac, Android or iPhone</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/B-Howell/soundconnect-desktop"><b>soundconnect-desktop</b></a><br><sub>B-Howell</sub></td><td>Control Sony Bluetooth headphones from a Windows desktop app</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
 </table>
+
+<a id="atlas-firmware"></a>
 
 ## Firmware / Drivers
 
@@ -571,6 +546,8 @@ _Optional filter: these have public evidence of using REA. Most projects in the 
 <tr><td>—</td><td><a href="https://github.com/nicolvus/a6000-fw-decomp"><b>a6000-fw-decomp</b></a><br><sub>nicolvus</sub></td><td>Dig into Sony A6000 camera firmware with REA and Ghidra</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/grisuno/VSL-DSP"><img src="https://opengraph.githubassets.com/1/grisuno/VSL-DSP" width="160" alt="grisuno/VSL-DSP"></a></td><td><a href="https://github.com/grisuno/VSL-DSP"><b>VSL-DSP</b></a><br><sub>grisuno</sub></td><td>A Linux kernel module for PreSonus AudioBox VSL interfaces</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
 </table>
+
+<a id="atlas-security"></a>
 
 ## Security / Evaluations
 
@@ -587,6 +564,8 @@ _Optional filter: these have public evidence of using REA. Most projects in the 
 <tr><td>—</td><td><a href="https://github.com/doyensec/electronegativity"><b>electronegativity</b></a><br><sub>doyensec</sub></td><td>Archived Electron static-analysis scanner for security misconfigurations and anti-patterns.</td><td>❔ Unverified</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/doyensec/ElectroNG"><b>ElectroNG</b></a><br><sub>doyensec</sub></td><td>Open-source successor to Electronegativity for auditing Electron security configurations and implementation patterns.</td><td>❔ Unverified</td><td><sub>—</sub></td></tr>
 </table>
+
+<a id="atlas-tooling"></a>
 
 ## Reverse-engineering tools
 
@@ -695,6 +674,8 @@ _Optional filter: these have public evidence of using REA. Most projects in the 
 <tr><td>—</td><td><a href="https://github.com/webrecorder/browsertrix-crawler"><b>browsertrix-crawler</b></a><br><sub>webrecorder</sub></td><td>High-fidelity browser-based crawler that captures web content through CDP inside a standalone container.</td><td>❔ Unverified</td><td><sub>—</sub></td></tr>
 </table>
 
+<a id="atlas-official"></a>
+
 ## Official REA showcases
 
 <table>
@@ -705,6 +686,86 @@ _Optional filter: these have public evidence of using REA. Most projects in the 
 <tr><td><a href="https://rea.tools/showcase/aegis/"><img src="images/showcase-aegis.png" width="160" alt="Aegis: TOTP code generation"></a></td><td><a href="https://rea.tools/showcase/aegis/"><b>Aegis: TOTP code generation</b></a></td><td>See exactly how the Aegis Android app generates your 2FA codes</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
 <tr><td><a href="https://rea.tools/showcase/ctf/"><img src="images/showcase-ctf.png" width="160" alt="CTF: flag checker"></a></td><td><a href="https://rea.tools/showcase/ctf/"><b>CTF: flag checker</b></a></td><td>Solve a DownUnderCTF 2023 reversing challenge step by step</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
 </table>
+
+<a id="atlas-rea"></a>
+
+## Optional view: projects using REA
+
+This evidence-tagged subset reuses entries from the platform and topic sections above. The atlas also covers independent tools and projects with no REA dependency.
+
+<details>
+<summary>Expand 57 REA-tagged entries</summary>
+
+<table>
+<tr><th width="170">Image</th><th>Project</th><th>What you get</th><th>Uses rea</th><th>Image source</th></tr>
+<tr><td><a href="https://github.com/morluto/rea/discussions/2254"><img src="images/rea-discussion-2254.png" width="160" alt="REA discussion #2254"></a></td><td><a href="https://github.com/morluto/rea/discussions/2254"><b>REA discussion #2254</b></a></td><td>A stripped bzip2, analysed and checked against the real build</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/cranebeaker/coop-anything"><b>coop-anything</b></a><br><sub>cranebeaker</sub></td><td>MCP server and skills to add co-op to single-player games by investigating entry points with REA</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Caho1/open-claude-ui"><b>open-claude-ui</b></a><br><sub>Caho1</sub></td><td>High-fidelity rebuild of Claude Desktop UI components and interaction physics, extracted via REA</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/MiaAI-Lab/sparkDash"><b>sparkDash</b></a><br><sub>MiaAI-Lab</sub></td><td>Multi-device dashboard that integrates long-running REA analysis jobs and loads results on demand</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/michaelshimeles/terminal-rs"><img src="https://raw.githubusercontent.com/michaelshimeles/terminal-rs/master/docs/img/overview.png" width="160" alt="michaelshimeles/terminal-rs"></a></td><td><a href="https://github.com/michaelshimeles/terminal-rs"><b>terminal-rs</b></a><br><sub>michaelshimeles</sub></td><td>A Bloomberg-style trading terminal in Rust</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
+<tr><td><a href="https://github.com/ShadowSwaps/REA-Reconstruction-Companion"><img src="https://opengraph.githubassets.com/1/ShadowSwaps/REA-Reconstruction-Companion" width="160" alt="ShadowSwaps/REA-Reconstruction-Companion"></a></td><td><a href="https://github.com/ShadowSwaps/REA-Reconstruction-Companion"><b>REA-Reconstruction-Companion</b></a><br><sub>ShadowSwaps</sub></td><td>An agent skill that keeps reconstructions tied to evidence</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Xiangyu-CAS/rea-capcut"><b>rea-capcut</b></a><br><sub>Xiangyu-CAS</sub></td><td>An open-source offline video editor rebuilt from REA research on CapCut</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/michaelshimeles/rec-rs"><img src="https://raw.githubusercontent.com/michaelshimeles/rec-rs/main/docs/screenshots/main.png" width="160" alt="michaelshimeles/rec-rs"></a></td><td><a href="https://github.com/michaelshimeles/rec-rs"><b>rec-rs</b></a><br><sub>michaelshimeles</sub></td><td>A fast macOS screen recorder in Rust, modelled on OBS</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/giveen/decomp.anything"><b>decomp.anything</b></a><br><sub>giveen</sub></td><td>Continuation of the closed-source matching decompiler decomp.wtf; adds Windows/Linux PE/ELF support and an REA bridge so agents can reverse-engineer non-game binaries too.</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/N0zoM1z0/dx-ball"><img src="https://raw.githubusercontent.com/N0zoM1z0/dx-ball/main/resources/dxball-title.png" width="160" alt="N0zoM1z0/dx-ball"></a></td><td><a href="https://github.com/N0zoM1z0/dx-ball"><b>dx-ball</b></a><br><sub>N0zoM1z0</sub></td><td>DX-Ball 1.07 rebuilt in C/C++, tested against the original x86</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
+<tr><td><a href="https://github.com/michaelshimeles/sketch"><img src="https://raw.githubusercontent.com/michaelshimeles/sketch/main/docs/screenshots/app_demo.png" width="160" alt="michaelshimeles/sketch"></a></td><td><a href="https://github.com/michaelshimeles/sketch"><b>sketch</b></a><br><sub>michaelshimeles</sub></td><td>An infinite design canvas in Rust, rebuilt by studying Paper</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
+<tr><td><a href="https://github.com/czcdr/dsh-plugin-rea"><img src="https://raw.githubusercontent.com/czcdr/dsh-plugin-rea/main/assets/screenshot-1.png" width="160" alt="czcdr/dsh-plugin-rea"></a></td><td><a href="https://github.com/czcdr/dsh-plugin-rea"><b>dsh-plugin-rea</b></a><br><sub>czcdr</sub></td><td>REA tools in DeepSeek Harness, with Ghidra auto-installed</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
+<tr><td><a href="https://github.com/Moxnatiy/OpenBattlefield2"><img src="https://raw.githubusercontent.com/Moxnatiy/OpenBattlefield2/master/docs/screenshots/menu-main.png" width="160" alt="Moxnatiy/OpenBattlefield2"></a></td><td><a href="https://github.com/Moxnatiy/OpenBattlefield2"><b>OpenBattlefield2</b></a><br><sub>Moxnatiy</sub></td><td>Battlefield 2&#x27;s engine, rewritten clean-room in C++20 (uses your own copy)</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
+<tr><td><a href="https://github.com/0xshlomil/ida-free-mcp"><img src="https://opengraph.githubassets.com/1/0xshlomil/ida-free-mcp" width="160" alt="0xshlomil/ida-free-mcp"></a></td><td><a href="https://github.com/0xshlomil/ida-free-mcp"><b>ida-free-mcp</b></a><br><sub>0xshlomil</sub></td><td>Use free IDA from an AI agent over MCP</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
+<tr><td><a href="https://github.com/lxistired/ledger-reborn"><img src="https://raw.githubusercontent.com/lxistired/ledger-reborn/main/docs/screenshots/accounting.png" width="160" alt="lxistired/ledger-reborn"></a></td><td><a href="https://github.com/lxistired/ledger-reborn"><b>ledger-reborn</b></a><br><sub>lxistired</sub></td><td>A local-first accounting app, modelled on QuickBooks for Mac</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/glauberlima/open-scrantic"><b>open-scrantic</b></a><br><sub>glauberlima</sub></td><td>Rust reimplementation of the 1992 Johnny Castaway screensaver, reverse-engineered with REA</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/N0zoM1z0/th04"><img src="https://raw.githubusercontent.com/N0zoM1z0/th04/main/resources/title-screen.png" width="160" alt="N0zoM1z0/th04"></a></td><td><a href="https://github.com/N0zoM1z0/th04"><b>th04</b></a><br><sub>N0zoM1z0</sub></td><td>Touhou 4 (PC-98) as readable source, checked against the original compiler</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/gryszzz/reverse-engineer-everything"><b>reverse-engineer-everything</b></a><br><sub>gryszzz</sub></td><td>A local workbench and investigation studio built on the REA engine for evidence-backed software analysis without uploading files.</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/tanepiper/game-frame"><b>game-frame</b></a><br><sub>tanepiper</sub></td><td>A framework for agents to reverse engineer games from shipped files</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/rodneypantonial/sims3-modernization"><b>sims3-modernization</b></a><br><sub>rodneypantonial</sub></td><td>Make The Sims 3 stutter and crash less on modern PCs</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/alexmi256/rea-agent-docker"><img src="https://opengraph.githubassets.com/1/alexmi256/rea-agent-docker" width="160" alt="alexmi256/rea-agent-docker"></a></td><td><a href="https://github.com/alexmi256/rea-agent-docker"><b>rea-agent-docker</b></a><br><sub>alexmi256</sub></td><td>REA in Docker, with Ghidra, Hopper or IDA variants</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/nicolvus/a6000-fw-decomp"><b>a6000-fw-decomp</b></a><br><sub>nicolvus</sub></td><td>Dig into Sony A6000 camera firmware with REA and Ghidra</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/EndLess728/MiTV-Remote"><b>MiTV-Remote</b></a><br><sub>EndLess728</sub></td><td>Control Xiaomi TVs over Wi-Fi from Mac, Android or iPhone</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/ucodia/desktop-games-nostalgia"><img src="https://raw.githubusercontent.com/ucodia/desktop-games-nostalgia/main/docs/demo.gif" width="160" alt="ucodia/desktop-games-nostalgia"></a></td><td><a href="https://github.com/ucodia/desktop-games-nostalgia"><b>desktop-games-nostalgia</b></a><br><sub>ucodia</sub></td><td>Smash your desktop again: Gemtree&#x27;s 2000 toy on macOS and the web</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
+<tr><td><a href="https://github.com/cudanexus/vd-streamer-linux"><img src="https://opengraph.githubassets.com/1/cudanexus/vd-streamer-linux" width="160" alt="cudanexus/vd-streamer-linux"></a></td><td><a href="https://github.com/cudanexus/vd-streamer-linux"><b>vd-streamer-linux</b></a><br><sub>cudanexus</sub></td><td>Stream your Linux desktop to Quest and Pico headsets</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
+<tr><td><a href="https://github.com/Nowng/rea-mcp"><img src="https://opengraph.githubassets.com/1/Nowng/rea-mcp" width="160" alt="Nowng/rea-mcp"></a></td><td><a href="https://github.com/Nowng/rea-mcp"><b>rea-mcp</b></a><br><sub>Nowng</sub></td><td>Run REA with local models in LM Studio</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
+<tr><td><a href="https://github.com/pablodiazjorge/rea-lab"><img src="https://opengraph.githubassets.com/1/pablodiazjorge/rea-lab" width="160" alt="pablodiazjorge/rea-lab"></a></td><td><a href="https://github.com/pablodiazjorge/rea-lab"><b>rea-lab</b></a><br><sub>pablodiazjorge</sub></td><td>Windows + Ghidra exercises and a pre-registered REA study</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
+<tr><td><a href="https://github.com/NullLabTests/OpenBSD_netcat_REA"><img src="https://raw.githubusercontent.com/NullLabTests/OpenBSD_netcat_REA/main/assets/rea-pipeline.png" width="160" alt="NullLabTests/OpenBSD_netcat_REA"></a></td><td><a href="https://github.com/NullLabTests/OpenBSD_netcat_REA"><b>OpenBSD_netcat_REA</b></a><br><sub>NullLabTests</sub></td><td>netcat-openbsd, statically analysed with REA and Ghidra</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
+<tr><td><a href="https://github.com/sickpyramid/ReaFuse"><img src="https://opengraph.githubassets.com/1/sickpyramid/ReaFuse" width="160" alt="sickpyramid/ReaFuse"></a></td><td><a href="https://github.com/sickpyramid/ReaFuse"><b>ReaFuse</b></a><br><sub>sickpyramid</sub></td><td>Merge two JS/TS projects into one, guided by REA</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
+<tr><td><a href="https://github.com/grisuno/VSL-DSP"><img src="https://opengraph.githubassets.com/1/grisuno/VSL-DSP" width="160" alt="grisuno/VSL-DSP"></a></td><td><a href="https://github.com/grisuno/VSL-DSP"><b>VSL-DSP</b></a><br><sub>grisuno</sub></td><td>A Linux kernel module for PreSonus AudioBox VSL interfaces</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
+<tr><td><a href="https://github.com/iammukeshm/hexgrab"><img src="https://opengraph.githubassets.com/1/iammukeshm/hexgrab" width="160" alt="iammukeshm/hexgrab"></a></td><td><a href="https://github.com/iammukeshm/hexgrab"><b>hexgrab</b></a><br><sub>iammukeshm</sub></td><td>A tiny Windows colour picker, rebuilt from PowerToys&#x27; binaries</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
+<tr><td><a href="https://github.com/zhaofeng130/dsh-rea"><img src="https://opengraph.githubassets.com/1/zhaofeng130/dsh-rea" width="160" alt="zhaofeng130/dsh-rea"></a></td><td><a href="https://github.com/zhaofeng130/dsh-rea"><b>dsh-rea</b></a><br><sub>zhaofeng130</sub></td><td>Add the REA Skill and tools to DeepSeek Harness</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
+<tr><td><a href="https://github.com/pablodiazjorge/rea-casebook"><img src="https://raw.githubusercontent.com/pablodiazjorge/rea-casebook/main/media/session-dark.png" width="160" alt="pablodiazjorge/rea-casebook"></a></td><td><a href="https://github.com/pablodiazjorge/rea-casebook"><b>rea-casebook</b></a><br><sub>pablodiazjorge</sub></td><td>Make Claude Code cite real REA evidence for every conclusion</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/B-Howell/soundconnect-desktop"><b>soundconnect-desktop</b></a><br><sub>B-Howell</sub></td><td>Control Sony Bluetooth headphones from a Windows desktop app</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/tuunanet/rea-ski-or-die-reconstruction"><img src="https://raw.githubusercontent.com/tuunanet/rea-ski-or-die-reconstruction/main/docs/snowball-war.gif" width="160" alt="tuunanet/rea-ski-or-die-reconstruction"></a></td><td><a href="https://github.com/tuunanet/rea-ski-or-die-reconstruction"><b>rea-ski-or-die-reconstruction</b></a><br><sub>tuunanet</sub></td><td>Ski or Die&#x27;s Snowball War, rebuilt in Rust + SDL2 (bring your own assets)</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
+<tr><td><a href="https://github.com/OpenRsG/GunZRs"><img src="https://raw.githubusercontent.com/OpenRsG/GunZRs/main/docs/media/menu.jpg" width="160" alt="OpenRsG/GunZRs"></a></td><td><a href="https://github.com/OpenRsG/GunZRs"><b>GunZRs</b></a><br><sub>OpenRsG</sub></td><td>GunZ: The Duel, reborn in Rust + Bevy</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
+<tr><td><a href="https://github.com/sheilacraig/dsh-rea-mcp"><img src="https://opengraph.githubassets.com/1/sheilacraig/dsh-rea-mcp" width="160" alt="sheilacraig/dsh-rea-mcp"></a></td><td><a href="https://github.com/sheilacraig/dsh-rea-mcp"><b>dsh-rea-mcp</b></a><br><sub>sheilacraig</sub></td><td>A config-only way to mount REA in DeepSeek Harness</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
+<tr><td><a href="https://github.com/az9713/wispr-flow-rea-teardown"><img src="https://img.youtube.com/vi/FnB9tHKBJXQ/maxresdefault.jpg" width="160" alt="az9713/wispr-flow-rea-teardown"></a></td><td><a href="https://github.com/az9713/wispr-flow-rea-teardown"><b>wispr-flow-rea-teardown</b></a><br><sub>az9713</sub></td><td>Wispr Flow&#x27;s voice pipeline, taken apart, plus a 64-line rebuild</td><td>✅ Yes</td><td><sub><a href="https://img.youtube.com/vi/FnB9tHKBJXQ/maxresdefault.jpg">Video thumbnail</a></sub></td></tr>
+<tr><td><a href="https://github.com/KarlssonChristoffer/DiskLens"><img src="https://opengraph.githubassets.com/1/KarlssonChristoffer/DiskLens" width="160" alt="KarlssonChristoffer/DiskLens"></a></td><td><a href="https://github.com/KarlssonChristoffer/DiskLens"><b>DiskLens</b></a><br><sub>KarlssonChristoffer</sub></td><td>See what fills your Windows 11 disk, WinDirStat-style</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
+<tr><td><a href="https://github.com/ya123-4/rea-dsh-plugin"><img src="https://opengraph.githubassets.com/1/ya123-4/rea-dsh-plugin" width="160" alt="ya123-4/rea-dsh-plugin"></a></td><td><a href="https://github.com/ya123-4/rea-dsh-plugin"><b>rea-dsh-plugin</b></a><br><sub>ya123-4</sub></td><td>Register REA&#x27;s MCP tools in DeepSeek Harness</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
+<tr><td><a href="https://github.com/az9713/REA-demo"><img src="https://opengraph.githubassets.com/1/az9713/REA-demo" width="160" alt="az9713/REA-demo"></a></td><td><a href="https://github.com/az9713/REA-demo"><b>REA-demo</b></a><br><sub>az9713</sub></td><td>REA analyses itself, with predictions you can falsify</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
+<tr><td><a href="https://github.com/cognixws/picode-rea"><img src="https://opengraph.githubassets.com/1/cognixws/picode-rea" width="160" alt="cognixws/picode-rea"></a></td><td><a href="https://github.com/cognixws/picode-rea"><b>picode-rea</b></a><br><sub>cognixws</sub></td><td>REA&#x27;s static-analysis tools inside PiCode</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
+<tr><td><a href="https://github.com/jinshi666888/rea-playbook"><img src="https://raw.githubusercontent.com/jinshi666888/rea-playbook/main/docs/assets/demo.gif" width="160" alt="jinshi666888/rea-playbook"></a></td><td><a href="https://github.com/jinshi666888/rea-playbook"><b>rea-playbook</b></a><br><sub>jinshi666888</sub></td><td>A hands-on REA lab with a tiny Electron target</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
+<tr><td><a href="https://github.com/UnknownHacker1/rea-groundtruth"><img src="https://opengraph.githubassets.com/1/UnknownHacker1/rea-groundtruth" width="160" alt="UnknownHacker1/rea-groundtruth"></a></td><td><a href="https://github.com/UnknownHacker1/rea-groundtruth"><b>rea-groundtruth</b></a><br><sub>UnknownHacker1</sub></td><td>Check REA&#x27;s reports against the real source code</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Stijnus/dsh-rev-eng"><b>dsh-rev-eng</b></a><br><sub>Stijnus</sub></td><td>DSH plugin packaging REA skills + optional MCP for reverse engineering and Mac app building.</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/alemigav/re2-64-decomp"><img src="https://opengraph.githubassets.com/1/alemigav/re2-64-decomp" width="160" alt="alemigav/re2-64-decomp"></a></td><td><a href="https://github.com/alemigav/re2-64-decomp"><b>re2-64-decomp</b></a><br><sub>alemigav</sub></td><td>Took apart Resident Evil 2 on the Nintendo 64 with AI tools (REA + Ghidra). Thousands of decompiled functions and a verification suite; no game ROM included.</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
+<tr><td><a href="https://rea.tools/showcase/dx-ball/"><img src="images/showcase-dx-ball.png" width="160" alt="DX-Ball: sound-pan function"></a></td><td><a href="https://rea.tools/showcase/dx-ball/"><b>DX-Ball: sound-pan function</b></a></td><td>Watch REA turn one DX-Ball sound helper into byte-exact C</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
+<tr><td><a href="https://rea.tools/showcase/notion/"><img src="images/showcase-notion.png" width="160" alt="Notion: Electron clipboard bridge"></a></td><td><a href="https://rea.tools/showcase/notion/"><b>Notion: Electron clipboard bridge</b></a></td><td>Follow a Notion copy from the page, through IPC, into the main process</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
+<tr><td><a href="https://rea.tools/showcase/th04/"><img src="images/showcase-th04.png" width="160" alt="TH04: PC-98 bullet-ring maths"></a></td><td><a href="https://rea.tools/showcase/th04/"><b>TH04: PC-98 bullet-ring maths</b></a></td><td>Recover Touhou 4&#x27;s bullet-ring angle maths from 16-bit DOS code</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
+<tr><td><a href="https://rea.tools/showcase/aegis/"><img src="images/showcase-aegis.png" width="160" alt="Aegis: TOTP code generation"></a></td><td><a href="https://rea.tools/showcase/aegis/"><b>Aegis: TOTP code generation</b></a></td><td>See exactly how the Aegis Android app generates your 2FA codes</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
+<tr><td><a href="https://rea.tools/showcase/ctf/"><img src="images/showcase-ctf.png" width="160" alt="CTF: flag checker"></a></td><td><a href="https://rea.tools/showcase/ctf/"><b>CTF: flag checker</b></a></td><td>Solve a DownUnderCTF 2023 reversing challenge step by step</td><td>✅ Yes</td><td><sub>Our screenshot</sub></td></tr>
+<tr><td><a href="https://github.com/a-barzanti/ai-rebuilds"><img src="https://opengraph.githubassets.com/1/a-barzanti/ai-rebuilds" width="160" alt="a-barzanti/ai-rebuilds"></a></td><td><a href="https://github.com/a-barzanti/ai-rebuilds"><b>ai-rebuilds</b></a><br><sub>a-barzanti</sub></td><td>Abandoned games brought back to the browser, no original files included</td><td>✅ Yes</td><td><sub>Repo card</sub></td></tr>
+<tr><td><a href="https://github.com/AdamLinCodes/AdamTerm"><img src="https://raw.githubusercontent.com/AdamLinCodes/AdamTerm/main/docs/adamterm.png" width="160" alt="AdamLinCodes/AdamTerm"></a></td><td><a href="https://github.com/AdamLinCodes/AdamTerm"><b>AdamTerm</b></a><br><sub>AdamLinCodes</sub></td><td>A minimal macOS terminal, built by poking at Ghostty</td><td>✅ Yes</td><td><sub>Project README</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/chilliesdev/fmseasonhub-re"><b>fmseasonhub-re</b></a><br><sub>chilliesdev</sub></td><td>REA teardown notes of the FM Season Hub app</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/carlhako/keen-clone"><b>keen-clone</b></a><br><sub>carlhako</sub></td><td>Native Linux/SDL2 reimplementation of Commander Keen 1, recovered function-by-function with REA + Ghidra</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/NathanKanaeru/samp-client-re"><b>samp-client-re</b></a><br><sub>NathanKanaeru</sub></td><td>Clean-room SA-MP 0.3.DL-R1 client reimplementation; architecture recovered with REA/Ghidra</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/CurLeaf/dsh-command-rea"><b>dsh-command-rea</b></a><br><sub>CurLeaf</sub></td><td>DSH /rea slash command that routes requests to the REA skill and MCP tools.</td><td>✅ Yes</td><td><sub>—</sub></td></tr>
+</table>
+
+</details>
+
+<a id="atlas-data"></a>
+
+## Data and contributions
+
+[data.json](data.json) contains catalog entries; [descriptions.json](descriptions.json) contains display summaries. [skill-map.json](skill-map.json) records technique mappings and source evidence. [llms.txt](llms.txt) provides a compact index for agents.
+
+To add or correct a project, follow [CONTRIBUTING.md](CONTRIBUTING.md), edit the source data and run `python render.py` followed by `python validate.py`. Do not edit generated READMEs directly. Some ordering uses the stored [star snapshot](stars.json), not live popularity or a quality ranking.
 
 ---
 

@@ -1,11 +1,11 @@
 # Contributing to Reverse Engineering Atlas
 
-1. One entry per line: `- [owner/repo](url) — **Uses rea: Yes|No|Unverified**. One-sentence summary.`
+1. Add one canonical entry per project to `data.json`: `[section, subsection, name, url, uses_rea, note]`, and matching five-language keys in `descriptions.json`. Use a factual one-sentence summary; do not add duplicate entries just to place a project in another workflow.
 2. **Uses rea: Yes** needs public evidence (README, repo docs, official rea.tools showcase). Link it in the PR.
 3. Put entries under the right platform and type (Decompilation / Recomp, Remake / Port, Asset extraction & tools) or the non-game sections.
 4. Not accepted: cracks, DRM bypass, piracy, projects that ship ROMs, game files or other copyrighted assets.
 5. Links must return HTTP 200 (or a valid redirect).
-6. Update `data.json` and all five READMEs (en, zh-CN, zh-TW, ja, ko) in the same PR; summaries stay in English.
+6. Update the source data and regenerate all five READMEs (en, zh-CN, zh-TW, ja, ko) in the same PR. Every description needs all five language keys; an English summary in each key is an acceptable fallback until reviewed translations are available. Shared navigation and guidance live in `readme_content.py` and are localized in all five languages.
 7. Images: only redistributable images, with source and license credited.
 
 ## Skill technology map

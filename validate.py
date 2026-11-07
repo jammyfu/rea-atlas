@@ -1,6 +1,7 @@
 """Offline integrity checks for the atlas and its skill technology map."""
 
 import json
+import re
 from collections import Counter
 from pathlib import Path
 from urllib.parse import urlparse
@@ -59,6 +60,22 @@ def main():
     for filename in ["README.md", "README.zh-CN.md", "README.zh-TW.md", "README.ja.md", "README.ko.md"]:
         rendered = Path(filename).read_text(encoding="utf-8")
         check("SKILL_MAP" in rendered, f"Missing skill map navigation: {filename}")
+        check("REA Atlas" not in rendered and "jammyfu/rea-atlas" not in rendered, f"Old atlas branding: {filename}")
+        check("Reverse Engineering Atlas" in rendered, f"Missing atlas brand: {filename}")
+        for entry in entries:
+            check(f'href="{entry[3]}"' in rendered, f"Catalog entry omitted from {filename}: {entry[2]}")
+        for anchor in ["atlas-start", "atlas-skills", "atlas-policy", "atlas-games", "atlas-app", "atlas-protocol", "atlas-firmware", "atlas-security", "atlas-tooling", "atlas-rea", "atlas-data"]:
+            check(f'<a id="{anchor}"></a>' in rendered, f"Missing navigation target in {filename}: {anchor}")
+        check(rendered.index('id="atlas-games"') < rendered.index('id="atlas-rea"'), f"REA subset dominates the catalog: {filename}")
+        check(rendered.count("<details>") == rendered.count("</details>") == 1, f"Invalid optional-view markup: {filename}")
+        heading_ids = set(re.findall(r'<a id="([^"]+)"></a>', rendered))
+        seen = Counter()
+        for heading in re.findall(r'^#{1,6} (.+)$', rendered, re.M):
+            slug = re.sub(r'[^\w\- ]', '', heading.strip().lower()).replace(' ', '-')
+            heading_ids.add(slug if seen[slug] == 0 else f'{slug}-{seen[slug]}')
+            seen[slug] += 1
+        for target in re.findall(r'\]\(#([^)]*)\)', rendered):
+            check(target in heading_ids, f"Broken in-page link in {filename}: #{target}")
         for skill in skills:
             check(skill["repo"] in rendered, f"Missing skill in {filename}: {skill['repo']}")
     print(f"OK: {len(entries)} catalog entries, 5 languages, 10 skill mappings, {len(mapped)} related projects")
