@@ -709,7 +709,7 @@
     "mrexodia/ida-pro-mcp",
     "https://github.com/mrexodia/ida-pro-mcp",
     "No",
-    "MCP server for IDA Pro. MIT."
+    "IDA Pro MCP bridge; upstream README recommends the official HexRaysSA/ida-mcp successor. IDA licensing is separate."
   ],
   [
     "gc",
@@ -1356,8 +1356,8 @@
     "",
     "aicodeking/leanrea",
     "https://github.com/aicodeking/leanrea",
-    "Yes",
-    "Lightweight 8 KB skill that replaces REA's MCP layer; agent calls CLI tools directly. Faster/cheaper in benchmarks."
+    "No",
+    "CLI-only alternative to REA; REA is used as a benchmark comparator, not as its analysis runtime."
   ],
   [
     "tooling",
@@ -2293,7 +2293,7 @@
     "storytold/craft-anything",
     "https://github.com/storytold/craft-anything",
     "No",
-    "Open-source clean-room Rust engine that studies any website, app or game and has AI rebuild your own version from observed behavior."
+    "Early-alpha Rust reverse-engineering and AI reconstruction workbench for websites, applications and games, with CLI/MCP and optional Ghidra/agent integration. MIT OR Apache-2.0; some runtime and agent integrations remain unvalidated."
   ],
   [
     "pc",
@@ -2494,5 +2494,237 @@
     "https://github.com/cdlewis/snowboardkidsplus-decomp",
     "No",
     "Matching decompilation of Snowboard Kids Plus (PSX)."
+  ],
+  [
+    "tooling",
+    "",
+    "morluto/rea",
+    "https://github.com/morluto/rea",
+    "Unverified",
+    "REA toolkit itself, not an independent project claiming to use REA. Evidence-oriented CLI/MCP; third-party engines and licenses are separate."
+  ],
+  [
+    "tooling",
+    "",
+    "zhaoxuya520/reverse-skill",
+    "https://github.com/zhaoxuya520/reverse-skill",
+    "Unverified",
+    "Agent skill router and playbooks for Android, native binaries, JavaScript, CTF and firmware, with evidence and reporting workflows."
+  ],
+  [
+    "tooling",
+    "",
+    "SimoneAvogadro/android-reverse-engineering-skill",
+    "https://github.com/SimoneAvogadro/android-reverse-engineering-skill",
+    "Unverified",
+    "Android static-analysis skill for APK/XAPK/JAR/AAR inspection, Kotlin metadata recovery and HTTP API documentation."
+  ],
+  [
+    "security",
+    "",
+    "ljagiello/ctf-skills",
+    "https://github.com/ljagiello/ctf-skills",
+    "Unverified",
+    "CTF agent skills for reversing and related challenge categories, with challenge routing and reproducible writeups."
+  ],
+  [
+    "tooling",
+    "",
+    "P4nda0s/reverse-skills",
+    "https://github.com/P4nda0s/reverse-skills",
+    "Unverified",
+    "Skills for interpreting IDA exports, recovering symbols and structures, and Frida/Unicorn-assisted analysis; MIT is claimed only in the README."
+  ],
+  [
+    "tooling",
+    "",
+    "LING71671/open-reverselab",
+    "https://github.com/LING71671/open-reverselab",
+    "Unverified",
+    "Agent-oriented reverse-engineering workbench combining MCP tools, a knowledge base and evidence workspaces; review the license and disclaimer."
+  ],
+  [
+    "tooling",
+    "",
+    "androguard/androguard",
+    "https://github.com/androguard/androguard",
+    "Unverified",
+    "Python framework for APK/DEX structure and cross-reference analysis; development-branch capabilities may differ from PyPI releases."
+  ],
+  [
+    "tooling",
+    "",
+    "sensepost/objection",
+    "https://github.com/sensepost/objection",
+    "Unverified",
+    "Frida-based runtime exploration and security assessment toolkit for authorized Android and iOS applications."
+  ],
+  [
+    "tooling",
+    "",
+    "unicorn-engine/unicorn",
+    "https://github.com/unicorn-engine/unicorn",
+    "Unverified",
+    "Multi-architecture CPU emulation framework for isolated code execution, instrumentation and reverse-engineering experiments."
+  ],
+  [
+    "tooling",
+    "",
+    "pwndbg/pwndbg",
+    "https://github.com/pwndbg/pwndbg",
+    "Unverified",
+    "GDB and LLDB extension for low-level debugging and reverse engineering; LLDB support is still early-stage."
+  ],
+  [
+    "tooling",
+    "",
+    "Gallopsled/pwntools",
+    "https://github.com/Gallopsled/pwntools",
+    "Unverified",
+    "Python framework for CTF experiments and binary-analysis automation; component licenses vary."
+  ],
+  [
+    "tooling",
+    "",
+    "zinja-coder/jadx-mcp-server",
+    "https://github.com/zinja-coder/jadx-mcp-server",
+    "Unverified",
+    "MCP server that exposes Android decompilation context through the companion JADX-AI-MCP plugin."
+  ],
+  [
+    "tooling",
+    "",
+    "dnakov/frida-mcp",
+    "https://github.com/dnakov/frida-mcp",
+    "Unverified",
+    "Community MCP bridge for Frida devices, processes and JavaScript sessions; check maintenance and version compatibility."
+  ],
+  [
+    "tooling",
+    "",
+    "P4nda0s/IDA-NO-MCP",
+    "https://github.com/P4nda0s/IDA-NO-MCP",
+    "Unverified",
+    "Exports IDA decompilation and call relationships into agent-readable files; no explicit root license file was found."
+  ],
+  [
+    "security",
+    "",
+    "MobSF/Mobile-Security-Framework-MobSF",
+    "https://github.com/MobSF/Mobile-Security-Framework-MobSF",
+    "Unverified",
+    "Automated mobile application security assessment workbench with static and dynamic analysis; not a source-reconstruction engine."
+  ],
+  [
+    "tooling",
+    "",
+    "Jakeschincariol/replica-skill",
+    "https://github.com/Jakeschincariol/replica-skill",
+    "Unverified",
+    "A clean-room product-reconstruction skill suite for researching public interfaces, planning original implementations and checking functional and visual parity."
+  ],
+  [
+    "tooling",
+    "",
+    "WhiteNightShadow/hello_js_reverse_skill",
+    "https://github.com/WhiteNightShadow/hello_js_reverse_skill",
+    "Unverified",
+    "A JavaScript-analysis skill that routes signature, obfuscation, cookie and WASM investigations through controlled experiments and browser evidence."
+  ],
+  [
+    "tooling",
+    "",
+    "Fausto-404/js-reverse-automation--skill",
+    "https://github.com/Fausto-404/js-reverse-automation--skill",
+    "Unverified",
+    "An evidence-driven JavaScript workflow that combines Chrome DevTools MCP with runtime probes and JSRPC, Flask and Burp artifact generation."
+  ],
+  [
+    "tooling",
+    "",
+    "ChromeDevTools/chrome-devtools-mcp",
+    "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+    "Unverified",
+    "Official Chrome DevTools integration for agent-driven browser inspection, network debugging, performance traces and automation."
+  ],
+  [
+    "tooling",
+    "",
+    "microsoft/playwright-mcp",
+    "https://github.com/microsoft/playwright-mcp",
+    "Unverified",
+    "Official Playwright MCP server for structured accessibility-based browser interaction and exploratory testing."
+  ],
+  [
+    "tooling",
+    "",
+    "microsoft/playwright-cli",
+    "https://github.com/microsoft/playwright-cli",
+    "Unverified",
+    "Playwright command-line browser actions and reusable agent skills for screenshots, selectors, recordings and testing."
+  ],
+  [
+    "tooling",
+    "",
+    "j4k0xb/webcrack",
+    "https://github.com/j4k0xb/webcrack",
+    "Unverified",
+    "JavaScript deobfuscation and bundle-unpacking tool for supported obfuscator.io, webpack and Browserify patterns."
+  ],
+  [
+    "tooling",
+    "",
+    "pionxzh/wakaru",
+    "https://github.com/pionxzh/wakaru",
+    "Unverified",
+    "JavaScript decompiler and bundle unpacker that recovers readable modules and modern syntax from minified or transpiled production builds."
+  ],
+  [
+    "tooling",
+    "",
+    "WhiteNightShadow/camoufox-reverse-mcp",
+    "https://github.com/WhiteNightShadow/camoufox-reverse-mcp",
+    "Unverified",
+    "Camoufox-based MCP server for JavaScript runtime inspection, script search, network capture, hooks and offline signer verification."
+  ],
+  [
+    "tooling",
+    "",
+    "WebAssembly/wabt",
+    "https://github.com/WebAssembly/wabt",
+    "Unverified",
+    "WebAssembly toolkit for binary/text conversion, validation, disassembly, interpretation and C translation."
+  ],
+  [
+    "tooling",
+    "",
+    "webrecorder/browsertrix-crawler",
+    "https://github.com/webrecorder/browsertrix-crawler",
+    "Unverified",
+    "High-fidelity browser-based crawler that captures web content through CDP inside a standalone container."
+  ],
+  [
+    "security",
+    "",
+    "RyanDFIR/hindsight",
+    "https://github.com/RyanDFIR/hindsight",
+    "Unverified",
+    "Browser-forensics parser that correlates Chromium and Firefox profile artifacts into timelines and exportable reports."
+  ],
+  [
+    "security",
+    "",
+    "doyensec/electronegativity",
+    "https://github.com/doyensec/electronegativity",
+    "Unverified",
+    "Archived Electron static-analysis scanner for security misconfigurations and anti-patterns."
+  ],
+  [
+    "security",
+    "",
+    "doyensec/ElectroNG",
+    "https://github.com/doyensec/ElectroNG",
+    "Unverified",
+    "Open-source successor to Electronegativity for auditing Electron security configurations and implementation patterns."
   ]
 ]

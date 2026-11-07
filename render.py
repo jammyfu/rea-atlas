@@ -1,4 +1,6 @@
 import json
+from render_skill_map import load_map, overview, render_details
+SKILLS=load_map()
 E=json.load(open('data.json'))
 IM=json.load(open('images.json'))
 try:
@@ -76,6 +78,10 @@ for k,d in L.items():
   def H(level,t):
     toc.append((level,t,slug(t,seen)));body.extend(['#'*level+' '+t,''])
 
+  skill_title, skill_lines = overview(k, SKILLS)
+  H(2, skill_title)
+  body += skill_lines
+
   # Top: projects with public evidence of using REA
   yes_es = sorted([e for e in E if e[4]=='Yes'], key=star_count, reverse=True)
   if yes_es:
@@ -115,4 +121,5 @@ for k,d in L.items():
   slug(x['toc'],seen)
   o=head+tl+body+["---","",d['thx'],"",d['c'],""]
   open(d['f'],'w').write("\n".join(o))
+render_details(SKILLS, E, DS)
 print('ok',len(E))

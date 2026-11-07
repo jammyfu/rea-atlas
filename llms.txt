@@ -6,6 +6,8 @@
 - [README (English)](README.md)
 - [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 - [Machine-readable entries](data.json), [images](images.json): [section, subsection, name, url, uses_rea, note]
+- [Skill technology map](SKILL_MAP.md) · [中文技术地图](SKILL_MAP.zh-CN.md): ten skill entry points, related projects, source evidence, licensing caveats and capability limits.
+- [Machine-readable skill mappings and evidence](skill-map.json)
 - [Contributing](CONTRIBUTING.md)
 
 ## Sections

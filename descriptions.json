@@ -616,11 +616,11 @@
     "ko": "브라우저에서 함께 디컴파일하며 일치 빌드에 도전"
   },
   "mrexodia/ida-pro-mcp": {
-    "en": "Let an AI agent drive IDA Pro over MCP",
-    "zh-CN": "让 AI 智能体通过 MCP 操作 IDA Pro",
-    "zh-TW": "讓 AI 代理透過 MCP 操作 IDA Pro",
-    "ja": "MCP 経由で AI エージェントに IDA Pro を操作させる",
-    "ko": "MCP로 AI 에이전트가 IDA Pro를 조작"
+    "en": "IDA Pro MCP bridge; upstream now recommends the official HexRaysSA/ida-mcp successor.",
+    "zh-CN": "IDA Pro MCP 桥接；上游现推荐使用 Hex-Rays 官方 HexRaysSA/ida-mcp。",
+    "zh-TW": "IDA Pro MCP 橋接；上游現建議使用 Hex-Rays 官方 HexRaysSA/ida-mcp。",
+    "ja": "IDA Pro 用 MCP ブリッジ。現在は公式 HexRaysSA/ida-mcp を推奨。",
+    "ko": "IDA Pro MCP 연결 도구. 현재 업스트림은 공식 HexRaysSA/ida-mcp를 권장합니다."
   },
   "doldecomp/sms": {
     "en": "Super Mario Sunshine, decompiled to C++",
@@ -2002,11 +2002,11 @@
     "ko": "클로즈드 소스 1997년 게임 Fun Tracks의 디컴파일/재컴파일 멀티플랫폼(Windows, Android) 릴리스. 원본 게임 파일 필요."
   },
   "storytold/craft-anything": {
-    "en": "An open-source Rust tool that looks at any closed-source website, app or game, studies how it works by watching it, then has AI build a free version that behaves the same.",
-    "zh-CN": "用最通俗的话说：一个开源的 Rust 工具，能观察任何闭源网站、应用或游戏怎么运行，然后让 AI 从零做一个功能一样的免费版本。",
-    "zh-TW": "用最通俗的話說：一個開源的 Rust 工具，能觀察任何閉源網站、應用或遊戲怎麼運行，然後讓 AI 從零做一個功能一樣的免費版本。",
-    "ja": "どんなクローズドソースのウェブサイト、アプリ、ゲームでも観察して動きを調べ、AIに同じように動く無料版を作らせるオープンソースのRustツール。",
-    "ko": "어떤 폐쇄 소스 웹사이트, 앱, 게임이든 관찰해서 작동 방식을 파악한 뒤 AI가 똑같이 동작하는 무료 버전을 만들게 하는 오픈소스 Rust 도구."
+    "en": "Early-alpha Rust reverse-engineering and AI reconstruction workbench for web, apps and games, with CLI/MCP; some runtime and agent integrations remain unvalidated.",
+    "zh-CN": "面向网站、应用与游戏的 Rust 逆向分析和 AI 重建工作台，提供 CLI/MCP；处于早期 Alpha，部分动态分析与代理集成尚未充分验证。",
+    "zh-TW": "面向網站、應用與遊戲的 Rust 逆向分析和 AI 重建工作台，提供 CLI/MCP；處於早期 Alpha，部分動態分析與代理整合尚未充分驗證。",
+    "ja": "Web・アプリ・ゲーム向けの Rust 製逆解析・AI 再構築基盤。CLI/MCP 対応の初期アルファ版で、一部の動的解析・エージェント連携は未検証。",
+    "ko": "웹·앱·게임용 Rust 역공학 및 AI 재구현 도구. CLI/MCP를 지원하는 초기 알파이며 일부 동적 분석과 에이전트 연동은 검증이 부족합니다."
   },
   "BLSNCVS/Castlevania-Grimoire-of-Souls-Recomp": {
     "en": "Turns the Apple Arcade / macOS version of Castlevania: Grimoire of Souls into a native Windows program you can run without an emulator, using your own game files.",
@@ -2182,5 +2182,208 @@
     "zh-TW": "對閉源的 PlayStation 遊戲《滑雪板小子 Plus》進行的匹配反編譯。",
     "ja": "クローズドソースのプレイステーションゲーム『スノーボードキッズプラス』のマッチング逆コンパイル。",
     "ko": "폐쇄 소스인 플레이스테이션 게임 스노보드 키즈 플러스의 매칭 디컴파일입니다."
+  },
+  "morluto/rea": {
+    "en": "Evidence-oriented CLI and MCP toolkit for native, Android, JavaScript/Electron and firmware analysis; third-party engines are separate.",
+    "zh-CN": "Evidence-oriented CLI and MCP toolkit for native, Android, JavaScript/Electron and firmware analysis; third-party engines are separate.",
+    "zh-TW": "Evidence-oriented CLI and MCP toolkit for native, Android, JavaScript/Electron and firmware analysis; third-party engines are separate.",
+    "ja": "Evidence-oriented CLI and MCP toolkit for native, Android, JavaScript/Electron and firmware analysis; third-party engines are separate.",
+    "ko": "Evidence-oriented CLI and MCP toolkit for native, Android, JavaScript/Electron and firmware analysis; third-party engines are separate."
+  },
+  "zhaoxuya520/reverse-skill": {
+    "en": "Agent skill router and playbooks for Android, native binaries, JavaScript, CTF and firmware, with evidence and reporting workflows.",
+    "zh-CN": "Agent skill router and playbooks for Android, native binaries, JavaScript, CTF and firmware, with evidence and reporting workflows.",
+    "zh-TW": "Agent skill router and playbooks for Android, native binaries, JavaScript, CTF and firmware, with evidence and reporting workflows.",
+    "ja": "Agent skill router and playbooks for Android, native binaries, JavaScript, CTF and firmware, with evidence and reporting workflows.",
+    "ko": "Agent skill router and playbooks for Android, native binaries, JavaScript, CTF and firmware, with evidence and reporting workflows."
+  },
+  "SimoneAvogadro/android-reverse-engineering-skill": {
+    "en": "Android static-analysis skill for APK/XAPK/JAR/AAR inspection, Kotlin metadata recovery and HTTP API documentation.",
+    "zh-CN": "Android static-analysis skill for APK/XAPK/JAR/AAR inspection, Kotlin metadata recovery and HTTP API documentation.",
+    "zh-TW": "Android static-analysis skill for APK/XAPK/JAR/AAR inspection, Kotlin metadata recovery and HTTP API documentation.",
+    "ja": "Android static-analysis skill for APK/XAPK/JAR/AAR inspection, Kotlin metadata recovery and HTTP API documentation.",
+    "ko": "Android static-analysis skill for APK/XAPK/JAR/AAR inspection, Kotlin metadata recovery and HTTP API documentation."
+  },
+  "ljagiello/ctf-skills": {
+    "en": "CTF agent skills for reversing and related challenge categories, with challenge routing and reproducible writeups.",
+    "zh-CN": "CTF agent skills for reversing and related challenge categories, with challenge routing and reproducible writeups.",
+    "zh-TW": "CTF agent skills for reversing and related challenge categories, with challenge routing and reproducible writeups.",
+    "ja": "CTF agent skills for reversing and related challenge categories, with challenge routing and reproducible writeups.",
+    "ko": "CTF agent skills for reversing and related challenge categories, with challenge routing and reproducible writeups."
+  },
+  "P4nda0s/reverse-skills": {
+    "en": "Skills for interpreting IDA exports, recovering symbols and structures, and Frida/Unicorn-assisted analysis; MIT is claimed only in the README.",
+    "zh-CN": "Skills for interpreting IDA exports, recovering symbols and structures, and Frida/Unicorn-assisted analysis; MIT is claimed only in the README.",
+    "zh-TW": "Skills for interpreting IDA exports, recovering symbols and structures, and Frida/Unicorn-assisted analysis; MIT is claimed only in the README.",
+    "ja": "Skills for interpreting IDA exports, recovering symbols and structures, and Frida/Unicorn-assisted analysis; MIT is claimed only in the README.",
+    "ko": "Skills for interpreting IDA exports, recovering symbols and structures, and Frida/Unicorn-assisted analysis; MIT is claimed only in the README."
+  },
+  "LING71671/open-reverselab": {
+    "en": "Agent-oriented reverse-engineering workbench combining MCP tools, a knowledge base and evidence workspaces; review the license and disclaimer.",
+    "zh-CN": "Agent-oriented reverse-engineering workbench combining MCP tools, a knowledge base and evidence workspaces; review the license and disclaimer.",
+    "zh-TW": "Agent-oriented reverse-engineering workbench combining MCP tools, a knowledge base and evidence workspaces; review the license and disclaimer.",
+    "ja": "Agent-oriented reverse-engineering workbench combining MCP tools, a knowledge base and evidence workspaces; review the license and disclaimer.",
+    "ko": "Agent-oriented reverse-engineering workbench combining MCP tools, a knowledge base and evidence workspaces; review the license and disclaimer."
+  },
+  "androguard/androguard": {
+    "en": "Python framework for APK/DEX structure and cross-reference analysis; development-branch capabilities may differ from PyPI releases.",
+    "zh-CN": "Python framework for APK/DEX structure and cross-reference analysis; development-branch capabilities may differ from PyPI releases.",
+    "zh-TW": "Python framework for APK/DEX structure and cross-reference analysis; development-branch capabilities may differ from PyPI releases.",
+    "ja": "Python framework for APK/DEX structure and cross-reference analysis; development-branch capabilities may differ from PyPI releases.",
+    "ko": "Python framework for APK/DEX structure and cross-reference analysis; development-branch capabilities may differ from PyPI releases."
+  },
+  "sensepost/objection": {
+    "en": "Frida-based runtime exploration and security assessment toolkit for authorized Android and iOS applications.",
+    "zh-CN": "Frida-based runtime exploration and security assessment toolkit for authorized Android and iOS applications.",
+    "zh-TW": "Frida-based runtime exploration and security assessment toolkit for authorized Android and iOS applications.",
+    "ja": "Frida-based runtime exploration and security assessment toolkit for authorized Android and iOS applications.",
+    "ko": "Frida-based runtime exploration and security assessment toolkit for authorized Android and iOS applications."
+  },
+  "unicorn-engine/unicorn": {
+    "en": "Multi-architecture CPU emulation framework for isolated code execution, instrumentation and reverse-engineering experiments.",
+    "zh-CN": "Multi-architecture CPU emulation framework for isolated code execution, instrumentation and reverse-engineering experiments.",
+    "zh-TW": "Multi-architecture CPU emulation framework for isolated code execution, instrumentation and reverse-engineering experiments.",
+    "ja": "Multi-architecture CPU emulation framework for isolated code execution, instrumentation and reverse-engineering experiments.",
+    "ko": "Multi-architecture CPU emulation framework for isolated code execution, instrumentation and reverse-engineering experiments."
+  },
+  "pwndbg/pwndbg": {
+    "en": "GDB and LLDB extension for low-level debugging and reverse engineering; LLDB support is still early-stage.",
+    "zh-CN": "GDB and LLDB extension for low-level debugging and reverse engineering; LLDB support is still early-stage.",
+    "zh-TW": "GDB and LLDB extension for low-level debugging and reverse engineering; LLDB support is still early-stage.",
+    "ja": "GDB and LLDB extension for low-level debugging and reverse engineering; LLDB support is still early-stage.",
+    "ko": "GDB and LLDB extension for low-level debugging and reverse engineering; LLDB support is still early-stage."
+  },
+  "Gallopsled/pwntools": {
+    "en": "Python framework for CTF experiments and binary-analysis automation; component licenses vary.",
+    "zh-CN": "Python framework for CTF experiments and binary-analysis automation; component licenses vary.",
+    "zh-TW": "Python framework for CTF experiments and binary-analysis automation; component licenses vary.",
+    "ja": "Python framework for CTF experiments and binary-analysis automation; component licenses vary.",
+    "ko": "Python framework for CTF experiments and binary-analysis automation; component licenses vary."
+  },
+  "zinja-coder/jadx-mcp-server": {
+    "en": "MCP server that exposes Android decompilation context through the companion JADX-AI-MCP plugin.",
+    "zh-CN": "MCP server that exposes Android decompilation context through the companion JADX-AI-MCP plugin.",
+    "zh-TW": "MCP server that exposes Android decompilation context through the companion JADX-AI-MCP plugin.",
+    "ja": "MCP server that exposes Android decompilation context through the companion JADX-AI-MCP plugin.",
+    "ko": "MCP server that exposes Android decompilation context through the companion JADX-AI-MCP plugin."
+  },
+  "dnakov/frida-mcp": {
+    "en": "Community MCP bridge for Frida devices, processes and JavaScript sessions; check maintenance and version compatibility.",
+    "zh-CN": "Community MCP bridge for Frida devices, processes and JavaScript sessions; check maintenance and version compatibility.",
+    "zh-TW": "Community MCP bridge for Frida devices, processes and JavaScript sessions; check maintenance and version compatibility.",
+    "ja": "Community MCP bridge for Frida devices, processes and JavaScript sessions; check maintenance and version compatibility.",
+    "ko": "Community MCP bridge for Frida devices, processes and JavaScript sessions; check maintenance and version compatibility."
+  },
+  "P4nda0s/IDA-NO-MCP": {
+    "en": "Exports IDA decompilation and call relationships into agent-readable files; no explicit root license file was found.",
+    "zh-CN": "Exports IDA decompilation and call relationships into agent-readable files; no explicit root license file was found.",
+    "zh-TW": "Exports IDA decompilation and call relationships into agent-readable files; no explicit root license file was found.",
+    "ja": "Exports IDA decompilation and call relationships into agent-readable files; no explicit root license file was found.",
+    "ko": "Exports IDA decompilation and call relationships into agent-readable files; no explicit root license file was found."
+  },
+  "MobSF/Mobile-Security-Framework-MobSF": {
+    "en": "Automated mobile application security assessment workbench with static and dynamic analysis; not a source-reconstruction engine.",
+    "zh-CN": "Automated mobile application security assessment workbench with static and dynamic analysis; not a source-reconstruction engine.",
+    "zh-TW": "Automated mobile application security assessment workbench with static and dynamic analysis; not a source-reconstruction engine.",
+    "ja": "Automated mobile application security assessment workbench with static and dynamic analysis; not a source-reconstruction engine.",
+    "ko": "Automated mobile application security assessment workbench with static and dynamic analysis; not a source-reconstruction engine."
+  },
+  "Jakeschincariol/replica-skill": {
+    "en": "A clean-room product-reconstruction skill suite for researching public interfaces, planning original implementations and checking functional and visual parity.",
+    "zh-CN": "A clean-room product-reconstruction skill suite for researching public interfaces, planning original implementations and checking functional and visual parity.",
+    "zh-TW": "A clean-room product-reconstruction skill suite for researching public interfaces, planning original implementations and checking functional and visual parity.",
+    "ja": "A clean-room product-reconstruction skill suite for researching public interfaces, planning original implementations and checking functional and visual parity.",
+    "ko": "A clean-room product-reconstruction skill suite for researching public interfaces, planning original implementations and checking functional and visual parity."
+  },
+  "WhiteNightShadow/hello_js_reverse_skill": {
+    "en": "A JavaScript-analysis skill that routes signature, obfuscation, cookie and WASM investigations through controlled experiments and browser evidence.",
+    "zh-CN": "A JavaScript-analysis skill that routes signature, obfuscation, cookie and WASM investigations through controlled experiments and browser evidence.",
+    "zh-TW": "A JavaScript-analysis skill that routes signature, obfuscation, cookie and WASM investigations through controlled experiments and browser evidence.",
+    "ja": "A JavaScript-analysis skill that routes signature, obfuscation, cookie and WASM investigations through controlled experiments and browser evidence.",
+    "ko": "A JavaScript-analysis skill that routes signature, obfuscation, cookie and WASM investigations through controlled experiments and browser evidence."
+  },
+  "Fausto-404/js-reverse-automation--skill": {
+    "en": "An evidence-driven JavaScript workflow that combines Chrome DevTools MCP with runtime probes and JSRPC, Flask and Burp artifact generation.",
+    "zh-CN": "An evidence-driven JavaScript workflow that combines Chrome DevTools MCP with runtime probes and JSRPC, Flask and Burp artifact generation.",
+    "zh-TW": "An evidence-driven JavaScript workflow that combines Chrome DevTools MCP with runtime probes and JSRPC, Flask and Burp artifact generation.",
+    "ja": "An evidence-driven JavaScript workflow that combines Chrome DevTools MCP with runtime probes and JSRPC, Flask and Burp artifact generation.",
+    "ko": "An evidence-driven JavaScript workflow that combines Chrome DevTools MCP with runtime probes and JSRPC, Flask and Burp artifact generation."
+  },
+  "ChromeDevTools/chrome-devtools-mcp": {
+    "en": "Official Chrome DevTools integration for agent-driven browser inspection, network debugging, performance traces and automation.",
+    "zh-CN": "Official Chrome DevTools integration for agent-driven browser inspection, network debugging, performance traces and automation.",
+    "zh-TW": "Official Chrome DevTools integration for agent-driven browser inspection, network debugging, performance traces and automation.",
+    "ja": "Official Chrome DevTools integration for agent-driven browser inspection, network debugging, performance traces and automation.",
+    "ko": "Official Chrome DevTools integration for agent-driven browser inspection, network debugging, performance traces and automation."
+  },
+  "microsoft/playwright-mcp": {
+    "en": "Official Playwright MCP server for structured accessibility-based browser interaction and exploratory testing.",
+    "zh-CN": "Official Playwright MCP server for structured accessibility-based browser interaction and exploratory testing.",
+    "zh-TW": "Official Playwright MCP server for structured accessibility-based browser interaction and exploratory testing.",
+    "ja": "Official Playwright MCP server for structured accessibility-based browser interaction and exploratory testing.",
+    "ko": "Official Playwright MCP server for structured accessibility-based browser interaction and exploratory testing."
+  },
+  "microsoft/playwright-cli": {
+    "en": "Playwright command-line browser actions and reusable agent skills for screenshots, selectors, recordings and testing.",
+    "zh-CN": "Playwright command-line browser actions and reusable agent skills for screenshots, selectors, recordings and testing.",
+    "zh-TW": "Playwright command-line browser actions and reusable agent skills for screenshots, selectors, recordings and testing.",
+    "ja": "Playwright command-line browser actions and reusable agent skills for screenshots, selectors, recordings and testing.",
+    "ko": "Playwright command-line browser actions and reusable agent skills for screenshots, selectors, recordings and testing."
+  },
+  "j4k0xb/webcrack": {
+    "en": "JavaScript deobfuscation and bundle-unpacking tool for supported obfuscator.io, webpack and Browserify patterns.",
+    "zh-CN": "JavaScript deobfuscation and bundle-unpacking tool for supported obfuscator.io, webpack and Browserify patterns.",
+    "zh-TW": "JavaScript deobfuscation and bundle-unpacking tool for supported obfuscator.io, webpack and Browserify patterns.",
+    "ja": "JavaScript deobfuscation and bundle-unpacking tool for supported obfuscator.io, webpack and Browserify patterns.",
+    "ko": "JavaScript deobfuscation and bundle-unpacking tool for supported obfuscator.io, webpack and Browserify patterns."
+  },
+  "pionxzh/wakaru": {
+    "en": "JavaScript decompiler and bundle unpacker that recovers readable modules and modern syntax from minified or transpiled production builds.",
+    "zh-CN": "JavaScript decompiler and bundle unpacker that recovers readable modules and modern syntax from minified or transpiled production builds.",
+    "zh-TW": "JavaScript decompiler and bundle unpacker that recovers readable modules and modern syntax from minified or transpiled production builds.",
+    "ja": "JavaScript decompiler and bundle unpacker that recovers readable modules and modern syntax from minified or transpiled production builds.",
+    "ko": "JavaScript decompiler and bundle unpacker that recovers readable modules and modern syntax from minified or transpiled production builds."
+  },
+  "WhiteNightShadow/camoufox-reverse-mcp": {
+    "en": "Camoufox-based MCP server for JavaScript runtime inspection, script search, network capture, hooks and offline signer verification.",
+    "zh-CN": "Camoufox-based MCP server for JavaScript runtime inspection, script search, network capture, hooks and offline signer verification.",
+    "zh-TW": "Camoufox-based MCP server for JavaScript runtime inspection, script search, network capture, hooks and offline signer verification.",
+    "ja": "Camoufox-based MCP server for JavaScript runtime inspection, script search, network capture, hooks and offline signer verification.",
+    "ko": "Camoufox-based MCP server for JavaScript runtime inspection, script search, network capture, hooks and offline signer verification."
+  },
+  "WebAssembly/wabt": {
+    "en": "WebAssembly toolkit for binary/text conversion, validation, disassembly, interpretation and C translation.",
+    "zh-CN": "WebAssembly toolkit for binary/text conversion, validation, disassembly, interpretation and C translation.",
+    "zh-TW": "WebAssembly toolkit for binary/text conversion, validation, disassembly, interpretation and C translation.",
+    "ja": "WebAssembly toolkit for binary/text conversion, validation, disassembly, interpretation and C translation.",
+    "ko": "WebAssembly toolkit for binary/text conversion, validation, disassembly, interpretation and C translation."
+  },
+  "webrecorder/browsertrix-crawler": {
+    "en": "High-fidelity browser-based crawler that captures web content through CDP inside a standalone container.",
+    "zh-CN": "High-fidelity browser-based crawler that captures web content through CDP inside a standalone container.",
+    "zh-TW": "High-fidelity browser-based crawler that captures web content through CDP inside a standalone container.",
+    "ja": "High-fidelity browser-based crawler that captures web content through CDP inside a standalone container.",
+    "ko": "High-fidelity browser-based crawler that captures web content through CDP inside a standalone container."
+  },
+  "RyanDFIR/hindsight": {
+    "en": "Browser-forensics parser that correlates Chromium and Firefox profile artifacts into timelines and exportable reports.",
+    "zh-CN": "Browser-forensics parser that correlates Chromium and Firefox profile artifacts into timelines and exportable reports.",
+    "zh-TW": "Browser-forensics parser that correlates Chromium and Firefox profile artifacts into timelines and exportable reports.",
+    "ja": "Browser-forensics parser that correlates Chromium and Firefox profile artifacts into timelines and exportable reports.",
+    "ko": "Browser-forensics parser that correlates Chromium and Firefox profile artifacts into timelines and exportable reports."
+  },
+  "doyensec/electronegativity": {
+    "en": "Archived Electron static-analysis scanner for security misconfigurations and anti-patterns.",
+    "zh-CN": "Archived Electron static-analysis scanner for security misconfigurations and anti-patterns.",
+    "zh-TW": "Archived Electron static-analysis scanner for security misconfigurations and anti-patterns.",
+    "ja": "Archived Electron static-analysis scanner for security misconfigurations and anti-patterns.",
+    "ko": "Archived Electron static-analysis scanner for security misconfigurations and anti-patterns."
+  },
+  "doyensec/ElectroNG": {
+    "en": "Open-source successor to Electronegativity for auditing Electron security configurations and implementation patterns.",
+    "zh-CN": "Open-source successor to Electronegativity for auditing Electron security configurations and implementation patterns.",
+    "zh-TW": "Open-source successor to Electronegativity for auditing Electron security configurations and implementation patterns.",
+    "ja": "Open-source successor to Electronegativity for auditing Electron security configurations and implementation patterns.",
+    "ko": "Open-source successor to Electronegativity for auditing Electron security configurations and implementation patterns."
   }
 }

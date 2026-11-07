@@ -8,4 +8,15 @@
 6. Update `data.json` and all five READMEs (en, zh-CN, zh-TW, ja, ko) in the same PR; summaries stay in English.
 7. Images: only redistributable images, with source and license credited.
 
+## Skill technology map
+
+- Keep `skill-map.json` as the source of truth for the ten skill entry points, technique mappings, official documentation, license caveats and check dates.
+- Related projects are editorial technology matches. Do not present them as upstream dependencies, endorsements or proof of REA usage without evidence.
+- Every mapped repository must also exist in `data.json` / `descriptions.json`. Add a `project_evidence` record with its checked README, metadata URL, license status and limitations.
+- Keep unclear licenses explicit. A license for one subdirectory is not a license for the whole repository. Mark archived or maintenance-limited projects visibly.
+- `Uses rea` concerns the analysis runtime/workflow. Merely comparing against REA in a benchmark does not make an independent alternative an REA-based project.
+- Run `python render.py` and `python validate.py`; commit both generated `SKILL_MAP` guides and all five READMEs with the data change. Regeneration should produce no further changes.
+
+Validation checks local structure and references, not live link availability or project execution. Check new external links against their official repositories separately, and distinguish documentation review from runtime verification.
+
 By contributing you dedicate your contribution under CC0-1.0.

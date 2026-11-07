@@ -8,6 +8,7 @@
 
 ## 目录
 
+- [Skill 技术索引](#skill-技术索引)
 - [已使用 REA 的项目（证据标记子集）](#已使用-rea-的项目证据标记子集)
 - [游戏](#游戏)
   - [NES / FC](#nes--fc)
@@ -32,6 +33,25 @@
 - [逆向工具](#逆向工具)
 - [REA 官方 Showcase](#rea-官方-showcase)
 
+## Skill 技术索引
+
+按技术整理十个 skill 入口及相关项目。技术相关不代表上游依赖，也不代表使用了 REA。
+
+[证据、许可与局限](SKILL_MAP.zh-CN.md) · [JSON](skill-map.json)
+
+| Skill / 来源 | 技术方向 | 相关项目 |
+| --- | --- | --- |
+| [REA](https://github.com/morluto/rea) | CLI / MCP, decompilation, cross-references, evidence | [7](SKILL_MAP.zh-CN.md#rea) |
+| [reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | target routing, tool discovery, evidence workflows | [6](SKILL_MAP.zh-CN.md#reverse-skill) |
+| [android-reverse-engineering-skill](https://github.com/SimoneAvogadro/android-reverse-engineering-skill) | APK / DEX, Kotlin metadata, HTTP API analysis | [7](SKILL_MAP.zh-CN.md#android-reverse-engineering-skill) |
+| [replica-skill](https://github.com/Jakeschincariol/replica-skill) | black-box observation, clean-room specs, behavior tests | [5](SKILL_MAP.zh-CN.md#replica-skill) |
+| [leanrea](https://github.com/aicodeking/leanrea) | CLI orchestration, target triage, evidence | [6](SKILL_MAP.zh-CN.md#leanrea) |
+| [ctf-skills](https://github.com/ljagiello/ctf-skills) | CTF reversing, symbolic execution, emulation | [6](SKILL_MAP.zh-CN.md#ctf-skills) |
+| [reverse-skills](https://github.com/P4nda0s/reverse-skills) | decompiler exports, type reconstruction, instrumentation | [6](SKILL_MAP.zh-CN.md#reverse-skills) |
+| [hello_js_reverse_skill](https://github.com/WhiteNightShadow/hello_js_reverse_skill) | JavaScript AST, deobfuscation, runtime analysis | [5](SKILL_MAP.zh-CN.md#hello-js-reverse-skill) |
+| [Open-ReverseLab](https://github.com/LING71671/open-reverselab) | MCP workbench, native / Android, case reports | [7](SKILL_MAP.zh-CN.md#open-reverselab) |
+| [js-reverse-automation--skill](https://github.com/Fausto-404/js-reverse-automation--skill) | CDP, AST, browser runtime, WASM | [7](SKILL_MAP.zh-CN.md#js-reverse-automation-skill) |
+
 ## 已使用 REA 的项目（证据标记子集）
 
 _可选过滤：以下有公开证据表明使用了 REA。地图里大部分项目是普通逆向工作，并不要求用 REA。_
@@ -39,7 +59,6 @@ _可选过滤：以下有公开证据表明使用了 REA。地图里大部分项
 <table>
 <tr><th width="170">图片</th><th>项目</th><th>简介</th><th>使用 rea</th><th>图片来源</th></tr>
 <tr><td><a href="https://github.com/morluto/rea/discussions/2254"><img src="images/rea-discussion-2254.png" width="160" alt="REA discussion #2254"></a></td><td><a href="https://github.com/morluto/rea/discussions/2254"><b>REA discussion #2254</b></a></td><td>分析去符号的 bzip2，并对照真实构建验证</td><td>✅ 是</td><td><sub>本仓库截图</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/aicodeking/leanrea"><b>leanrea</b></a><br><sub>aicodeking</sub></td><td>轻量 skill，替代 REA 的 MCP 层，让 agent 直接调用 CLI 工具</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/cranebeaker/coop-anything"><b>coop-anything</b></a><br><sub>cranebeaker</sub></td><td>用 REA 调查入口，为单机游戏添加合作模式的 MCP 服务器与技能</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/Caho1/open-claude-ui"><b>open-claude-ui</b></a><br><sub>Caho1</sub></td><td>用 REA 深度拆解并高保真还原 Claude 桌面端 UI 组件与交互物理</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/MiaAI-Lab/sparkDash"><b>sparkDash</b></a><br><sub>MiaAI-Lab</sub></td><td>集成 REA 长时分析任务、按需加载结果的多设备仪表盘</td><td>✅ 是</td><td><sub>—</sub></td></tr>
@@ -562,12 +581,18 @@ _可选过滤：以下有公开证据表明使用了 REA。地图里大部分项
 <tr><td><a href="https://github.com/NullLabTests/OpenBSD_netcat_REA"><img src="https://raw.githubusercontent.com/NullLabTests/OpenBSD_netcat_REA/main/assets/rea-pipeline.png" width="160" alt="NullLabTests/OpenBSD_netcat_REA"></a></td><td><a href="https://github.com/NullLabTests/OpenBSD_netcat_REA"><b>OpenBSD_netcat_REA</b></a><br><sub>NullLabTests</sub></td><td>用 REA + Ghidra 静态分析 netcat-openbsd</td><td>✅ 是</td><td><sub>项目 README</sub></td></tr>
 <tr><td><a href="https://github.com/az9713/REA-demo"><img src="https://opengraph.githubassets.com/1/az9713/REA-demo" width="160" alt="az9713/REA-demo"></a></td><td><a href="https://github.com/az9713/REA-demo"><b>REA-demo</b></a><br><sub>az9713</sub></td><td>让 REA 分析它自己，附可证伪的预测</td><td>✅ 是</td><td><sub>仓库卡片</sub></td></tr>
 <tr><td><a href="https://github.com/UnknownHacker1/rea-groundtruth"><img src="https://opengraph.githubassets.com/1/UnknownHacker1/rea-groundtruth" width="160" alt="UnknownHacker1/rea-groundtruth"></a></td><td><a href="https://github.com/UnknownHacker1/rea-groundtruth"><b>rea-groundtruth</b></a><br><sub>UnknownHacker1</sub></td><td>拿真实源码检验 REA 的分析报告</td><td>✅ 是</td><td><sub>仓库卡片</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/ljagiello/ctf-skills"><b>ctf-skills</b></a><br><sub>ljagiello</sub></td><td>CTF agent skills for reversing and related challenge categories, with challenge routing and reproducible writeups.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/MobSF/Mobile-Security-Framework-MobSF"><b>Mobile-Security-Framework-MobSF</b></a><br><sub>MobSF</sub></td><td>Automated mobile application security assessment workbench with static and dynamic analysis; not a source-reconstruction engine.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/RyanDFIR/hindsight"><b>hindsight</b></a><br><sub>RyanDFIR</sub></td><td>Browser-forensics parser that correlates Chromium and Firefox profile artifacts into timelines and exportable reports.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/doyensec/electronegativity"><b>electronegativity</b></a><br><sub>doyensec</sub></td><td>Archived Electron static-analysis scanner for security misconfigurations and anti-patterns.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/doyensec/ElectroNG"><b>ElectroNG</b></a><br><sub>doyensec</sub></td><td>Open-source successor to Electronegativity for auditing Electron security configurations and implementation patterns.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
 </table>
 
 ## 逆向工具
 
 <table>
 <tr><th width="170">图片</th><th>项目</th><th>简介</th><th>使用 rea</th><th>图片来源</th></tr>
+<tr><td>—</td><td><a href="https://github.com/morluto/rea"><b>rea</b></a><br><sub>morluto</sub></td><td>Evidence-oriented CLI and MCP toolkit for native, Android, JavaScript/Electron and firmware analysis; third-party engines are separate.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/NationalSecurityAgency/ghidra"><img src="images/ghidra-gui.png" width="160" alt="NationalSecurityAgency/ghidra"></a></td><td><a href="https://github.com/NationalSecurityAgency/ghidra"><b>ghidra</b></a><br><sub>NationalSecurityAgency</sub></td><td>NSA 开源的免费反编译/反汇编套件</td><td>否</td><td><sub>本仓库截图</sub></td></tr>
 <tr><td><a href="https://github.com/WerWolv/ImHex"><img src="images/imhex-gui.png" width="160" alt="WerWolv/ImHex"></a></td><td><a href="https://github.com/WerWolv/ImHex"><b>ImHex</b></a><br><sub>WerWolv</sub></td><td>带模式语言、能帮你解析结构的十六进制编辑器</td><td>否</td><td><sub>本仓库截图</sub></td></tr>
 <tr><td><a href="https://github.com/skylot/jadx"><img src="https://user-images.githubusercontent.com/118523/142730720-839f017e-38db-423e-b53f-39f5f0a0316f.png" width="160" alt="skylot/jadx"></a></td><td><a href="https://github.com/skylot/jadx"><b>jadx</b></a><br><sub>skylot</sub></td><td>把安卓 APK 还原成可读的 Java</td><td>否</td><td><sub>项目 README</sub></td></tr>
@@ -577,8 +602,8 @@ _可选过滤：以下有公开证据表明使用了 REA。地图里大部分项
 <tr><td><a href="https://github.com/radareorg/radare2"><img src="https://raw.githubusercontent.com/radareorg/radare2/master/doc/images/shot.png" width="160" alt="radareorg/radare2"></a></td><td><a href="https://github.com/radareorg/radare2"><b>radare2</b></a><br><sub>radareorg</sub></td><td>可脚本化的命令行逆向框架</td><td>否</td><td><sub>项目 README</sub></td></tr>
 <tr><td><a href="https://github.com/frida/frida"><img src="images/frida-terminal.png" width="160" alt="frida/frida"></a></td><td><a href="https://github.com/frida/frida"><b>frida</b></a><br><sub>frida</sub></td><td>注入任意平台上运行中的程序，实时改写行为</td><td>否</td><td><sub>本仓库截图</sub></td></tr>
 <tr><td><a href="https://github.com/rizinorg/cutter"><img src="https://raw.githubusercontent.com/rizinorg/cutter/dev/docs/source/images/screenshot.png" width="160" alt="rizinorg/cutter"></a></td><td><a href="https://github.com/rizinorg/cutter"><b>cutter</b></a><br><sub>rizinorg</sub></td><td>基于 Rizin 的友好逆向图形界面</td><td>否</td><td><sub>项目 README</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/storytold/craft-anything"><b>craft-anything</b></a><br><sub>storytold</sub></td><td>用最通俗的话说：一个开源的 Rust 工具，能观察任何闭源网站、应用或游戏怎么运行，然后让 AI 从零做一个功能一样的免费版本。</td><td>否</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/mrexodia/ida-pro-mcp"><img src="https://img.youtube.com/vi/iFxNuk3kxhk/0.jpg" width="160" alt="mrexodia/ida-pro-mcp"></a></td><td><a href="https://github.com/mrexodia/ida-pro-mcp"><b>ida-pro-mcp</b></a><br><sub>mrexodia</sub></td><td>让 AI 智能体通过 MCP 操作 IDA Pro</td><td>否</td><td><sub>项目 README</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/storytold/craft-anything"><b>craft-anything</b></a><br><sub>storytold</sub></td><td>面向网站、应用与游戏的 Rust 逆向分析和 AI 重建工作台，提供 CLI/MCP；处于早期 Alpha，部分动态分析与代理集成尚未充分验证。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/mrexodia/ida-pro-mcp"><img src="https://img.youtube.com/vi/iFxNuk3kxhk/0.jpg" width="160" alt="mrexodia/ida-pro-mcp"></a></td><td><a href="https://github.com/mrexodia/ida-pro-mcp"><b>ida-pro-mcp</b></a><br><sub>mrexodia</sub></td><td>IDA Pro MCP 桥接；上游现推荐使用 Hex-Rays 官方 HexRaysSA/ida-mcp。</td><td>否</td><td><sub>项目 README</sub></td></tr>
 <tr><td><a href="https://github.com/LaurieWired/GhidraMCP"><img src="https://github.com/user-attachments/assets/4986d702-be3f-4697-acce-aea55cd79ad3" width="160" alt="LaurieWired/GhidraMCP"></a></td><td><a href="https://github.com/LaurieWired/GhidraMCP"><b>GhidraMCP</b></a><br><sub>LaurieWired</sub></td><td>一个桥接工具，让 AI 助手（比如 Claude）能直接控制免费的逆向工具 Ghidra。AI 可以帮你反编译程序、给函数改名、分析二进制文件。</td><td>否</td><td><sub>项目 README</sub></td></tr>
 <tr><td><a href="https://github.com/dnSpyEx/dnSpy"><img src="https://raw.githubusercontent.com/dnSpyEx/dnSpy/master/images/debug-animated.gif" width="160" alt="dnSpyEx/dnSpy"></a></td><td><a href="https://github.com/dnSpyEx/dnSpy"><b>dnSpy</b></a><br><sub>dnSpyEx</sub></td><td>无需源码即可调试和修改 .NET 程序集</td><td>否</td><td><sub>项目 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/wtsxdev/reverse-engineering"><b>reverse-engineering</b></a><br><sub>wtsxDev</sub></td><td>经典的逆向工程资源、工具与学习资料精选列表</td><td>否</td><td><sub>—</sub></td></tr>
@@ -589,7 +614,7 @@ _可选过滤：以下有公开证据表明使用了 REA。地图里大部分项
 <tr><td>—</td><td><a href="https://github.com/alphaSeclab/awesome-reverse-engineering"><b>awesome-reverse-engineering</b></a><br><sub>alphaSeclab</sub></td><td>覆盖主流平台与领域的大型逆向工程工具与资源精选列表。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/mandiant/flare-floss"><img src="images/floss-terminal.png" width="160" alt="mandiant/flare-floss"></a></td><td><a href="https://github.com/mandiant/flare-floss"><b>flare-floss</b></a><br><sub>mandiant</sub></td><td>把恶意软件里隐藏、混淆的字符串挖出来</td><td>否</td><td><sub>本仓库截图</sub></td></tr>
 <tr><td><a href="https://github.com/rizinorg/rizin"><img src="https://rizin.re/images/rizin_preview.png" width="160" alt="rizinorg/rizin"></a></td><td><a href="https://github.com/rizinorg/rizin"><b>rizin</b></a><br><sub>rizinorg</sub></td><td>源自 radare2 的 UNIX 风格逆向框架</td><td>否</td><td><sub>项目 README</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/aicodeking/leanrea"><b>leanrea</b></a><br><sub>aicodeking</sub></td><td>轻量 skill，替代 REA 的 MCP 层，让 agent 直接调用 CLI 工具</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/aicodeking/leanrea"><b>leanrea</b></a><br><sub>aicodeking</sub></td><td>轻量 skill，替代 REA 的 MCP 层，让 agent 直接调用 CLI 工具</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/JusticeRage/Gepetto"><b>Gepetto</b></a><br><sub>JusticeRage</sub></td><td>IDA Pro 插件，用语言模型在逆向过程中解释、重命名和注释函数。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/google/bindiff"><img src="https://zynamics.com/images/bindiff_scr1_s.gif" width="160" alt="google/bindiff"></a></td><td><a href="https://github.com/google/bindiff"><b>bindiff</b></a><br><sub>google</sub></td><td>找出两个版本二进制之间改了什么</td><td>否</td><td><sub>项目 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/zinja-coder/jadx-ai-mcp"><b>jadx-ai-mcp</b></a><br><sub>zinja-coder</sub></td><td>JADX 的 MCP 插件，让 AI Agent 反编译并浏览 Android APK / DEX。</td><td>否</td><td><sub>—</sub></td></tr>
@@ -645,6 +670,29 @@ _可选过滤：以下有公开证据表明使用了 REA。地图里大部分项
 <tr><td>—</td><td><a href="https://github.com/CurLeaf/dsh-command-rea"><b>dsh-command-rea</b></a><br><sub>CurLeaf</sub></td><td>DSH /rea 斜杠命令，将逆向分析请求路由到 REA 技能与 MCP 工具。</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/LostArtefacts/decomp-tools"><b>decomp-tools</b></a><br><sub>LostArtefacts</sub></td><td>帮助对 Windows 版《古墓丽影2》到《古墓丽影5》做逐字节匹配反编译的工具，使用 Wine 下的原版 MSVC 5/6 编译器。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/zarvox32/vb-native-decompiler"><b>vb-native-decompiler</b></a><br><sub>zarvox32</sub></td><td>一个工具，能把闭源的 Visual Basic 5/6 原生代码程序反编译回可读的 VB 源码，并且逐个过程对照原版机器码做验证。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/zhaoxuya520/reverse-skill"><b>reverse-skill</b></a><br><sub>zhaoxuya520</sub></td><td>Agent skill router and playbooks for Android, native binaries, JavaScript, CTF and firmware, with evidence and reporting workflows.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/SimoneAvogadro/android-reverse-engineering-skill"><b>android-reverse-engineering-skill</b></a><br><sub>SimoneAvogadro</sub></td><td>Android static-analysis skill for APK/XAPK/JAR/AAR inspection, Kotlin metadata recovery and HTTP API documentation.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/P4nda0s/reverse-skills"><b>reverse-skills</b></a><br><sub>P4nda0s</sub></td><td>Skills for interpreting IDA exports, recovering symbols and structures, and Frida/Unicorn-assisted analysis; MIT is claimed only in the README.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/LING71671/open-reverselab"><b>open-reverselab</b></a><br><sub>LING71671</sub></td><td>Agent-oriented reverse-engineering workbench combining MCP tools, a knowledge base and evidence workspaces; review the license and disclaimer.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/androguard/androguard"><b>androguard</b></a><br><sub>androguard</sub></td><td>Python framework for APK/DEX structure and cross-reference analysis; development-branch capabilities may differ from PyPI releases.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/sensepost/objection"><b>objection</b></a><br><sub>sensepost</sub></td><td>Frida-based runtime exploration and security assessment toolkit for authorized Android and iOS applications.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/unicorn-engine/unicorn"><b>unicorn</b></a><br><sub>unicorn-engine</sub></td><td>Multi-architecture CPU emulation framework for isolated code execution, instrumentation and reverse-engineering experiments.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/pwndbg/pwndbg"><b>pwndbg</b></a><br><sub>pwndbg</sub></td><td>GDB and LLDB extension for low-level debugging and reverse engineering; LLDB support is still early-stage.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Gallopsled/pwntools"><b>pwntools</b></a><br><sub>Gallopsled</sub></td><td>Python framework for CTF experiments and binary-analysis automation; component licenses vary.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/zinja-coder/jadx-mcp-server"><b>jadx-mcp-server</b></a><br><sub>zinja-coder</sub></td><td>MCP server that exposes Android decompilation context through the companion JADX-AI-MCP plugin.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/dnakov/frida-mcp"><b>frida-mcp</b></a><br><sub>dnakov</sub></td><td>Community MCP bridge for Frida devices, processes and JavaScript sessions; check maintenance and version compatibility.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/P4nda0s/IDA-NO-MCP"><b>IDA-NO-MCP</b></a><br><sub>P4nda0s</sub></td><td>Exports IDA decompilation and call relationships into agent-readable files; no explicit root license file was found.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Jakeschincariol/replica-skill"><b>replica-skill</b></a><br><sub>Jakeschincariol</sub></td><td>A clean-room product-reconstruction skill suite for researching public interfaces, planning original implementations and checking functional and visual parity.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/WhiteNightShadow/hello_js_reverse_skill"><b>hello_js_reverse_skill</b></a><br><sub>WhiteNightShadow</sub></td><td>A JavaScript-analysis skill that routes signature, obfuscation, cookie and WASM investigations through controlled experiments and browser evidence.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Fausto-404/js-reverse-automation--skill"><b>js-reverse-automation--skill</b></a><br><sub>Fausto-404</sub></td><td>An evidence-driven JavaScript workflow that combines Chrome DevTools MCP with runtime probes and JSRPC, Flask and Burp artifact generation.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/ChromeDevTools/chrome-devtools-mcp"><b>chrome-devtools-mcp</b></a><br><sub>ChromeDevTools</sub></td><td>Official Chrome DevTools integration for agent-driven browser inspection, network debugging, performance traces and automation.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/microsoft/playwright-mcp"><b>playwright-mcp</b></a><br><sub>microsoft</sub></td><td>Official Playwright MCP server for structured accessibility-based browser interaction and exploratory testing.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/microsoft/playwright-cli"><b>playwright-cli</b></a><br><sub>microsoft</sub></td><td>Playwright command-line browser actions and reusable agent skills for screenshots, selectors, recordings and testing.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/j4k0xb/webcrack"><b>webcrack</b></a><br><sub>j4k0xb</sub></td><td>JavaScript deobfuscation and bundle-unpacking tool for supported obfuscator.io, webpack and Browserify patterns.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/pionxzh/wakaru"><b>wakaru</b></a><br><sub>pionxzh</sub></td><td>JavaScript decompiler and bundle unpacker that recovers readable modules and modern syntax from minified or transpiled production builds.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/WhiteNightShadow/camoufox-reverse-mcp"><b>camoufox-reverse-mcp</b></a><br><sub>WhiteNightShadow</sub></td><td>Camoufox-based MCP server for JavaScript runtime inspection, script search, network capture, hooks and offline signer verification.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/WebAssembly/wabt"><b>wabt</b></a><br><sub>WebAssembly</sub></td><td>WebAssembly toolkit for binary/text conversion, validation, disassembly, interpretation and C translation.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/webrecorder/browsertrix-crawler"><b>browsertrix-crawler</b></a><br><sub>webrecorder</sub></td><td>High-fidelity browser-based crawler that captures web content through CDP inside a standalone container.</td><td>❔ 待验证</td><td><sub>—</sub></td></tr>
 </table>
 
 ## REA 官方 Showcase
