@@ -1,4 +1,7 @@
 import json
+from readme_content import CONTENT
+from render_skill_map import load_map, overview, render_details
+SKILLS=load_map()
 E=json.load(open('data.json'))
 IM=json.load(open('images.json'))
 try:
@@ -12,29 +15,145 @@ def star_count(e):
     if len(path)>=2:
       return STARS.get(f"{path[0]}/{path[1]}", 0)
   return 0
-L={
-'en':dict(f='README.md',t="REA Atlas: map of reverse-engineering projects (REA tags optional)",tag="Map of open reverse-engineering projects: game decomps/recomps, re-implementations, asset tools, protocols, firmware, and RE tooling. Each entry is optionally tagged **Uses rea: Yes / No / Unverified** for [morluto/rea](https://github.com/morluto/rea) — the tag is just a signal, not a requirement. Search here to see if someone already reverse-engineered the target you care about.",
- disc="Unofficial; not affiliated with morluto/rea. No cracks, piracy, ROMs or copyrighted assets are listed or hosted.",
- img="Image: REA showcase illustration from [morluto/rea](https://github.com/morluto/rea/blob/main/docs/assets/rea-showcases.png) (MIT), hot-linked, not re-hosted.",
- sec=dict(gc="GameCube",wii="Wii",ds="Nintendo DS",_3ds="Nintendo 3DS",ps1="PlayStation",ps2="PlayStation 2",saturn="Sega Saturn",xbox="Xbox / Xbox 360",official="Official REA showcases",games="Games",pc="PC / DOS / PC-98",n64="Nintendo 64",md="Mega Drive / Genesis",snes="Super Famicom / SNES",nes="NES / Famicom",gba="Game Boy Advance",gb="Game Boy",app="Apps / Electron / Desktop",protocol="Protocols / Hardware",firmware="Firmware / Drivers",security="Security / Evaluations",tooling="Reverse-engineering tools"),
- sub=dict(decomp="Decompilation / Recomp",remake="Remake / Port",tools="Asset extraction & tools"),u="Uses rea",thx="See also / thanks: many REA community entries were cross-checked against [AIshihzong/awesome-reverse-engineer-anything](https://github.com/AIshihzong/awesome-reverse-engineer-anything).",nes_empty="_No verified entry yet — contributions welcome._",c="Contributing: see [CONTRIBUTING.md](CONTRIBUTING.md). License: [CC0-1.0](LICENSE)."),
-'zh-CN':dict(f='README.zh-CN.md',t="REA Atlas：逆向工程项目地图（REA 标记可选）",tag="开源逆向工程项目地图：游戏反编译/重编译、重实现、资源工具、协议、固件及逆向工具。每条可选标注是否使用 [morluto/rea](https://github.com/morluto/rea)：**Uses rea: Yes / No / Unverified** —— 标记只是参考信号，不是收录条件。用来查「这个目标有没有人已经逆向过」。",
- disc="非官方，与 morluto/rea 无关联。不收录、不托管破解、盗版、ROM 或版权素材。",img="图片：REA showcase 插图，来自 [morluto/rea](https://github.com/morluto/rea/blob/main/docs/assets/rea-showcases.png)（MIT），直接引用，未转存。",
- sec=dict(gc="GameCube",wii="Wii",ds="NDS",_3ds="3DS",ps1="PS1",ps2="PS2",saturn="世嘉土星",xbox="Xbox / Xbox 360",official="REA 官方 Showcase",games="游戏",pc="PC / DOS / PC-98",n64="任天堂 64",md="MD / Genesis",snes="SFC / SNES",nes="NES / FC",gba="GBA",gb="Game Boy",app="应用 / Electron / 桌面",protocol="协议 / 硬件",firmware="固件 / 驱动",security="安全 / 评测",tooling="逆向工具"),
- sub=dict(decomp="反编译 / 重编译",remake="重制 / 移植",tools="资源提取与工具"),u="Uses rea",thx="另见 / 致谢：许多 REA 社区条目参考并核对了 [AIshihzong/awesome-reverse-engineer-anything](https://github.com/AIshihzong/awesome-reverse-engineer-anything)。",nes_empty="_暂无已验证条目，欢迎补充。_",c="贡献指南见 [CONTRIBUTING.md](CONTRIBUTING.md)。许可：[CC0-1.0](LICENSE)。"),
-'zh-TW':dict(f='README.zh-TW.md',t="REA Atlas：逆向工程專案地圖（含 rea 標記）",tag="開源逆向工程專案地圖：遊戲反編譯、靜態重編譯、重新實作、資源擷取工具、通用逆向工具，以及應用程式/協定/韌體逆向。每條標註是否使用 [morluto/rea](https://github.com/morluto/rea)（Reverse Engineer Anything）：**Uses rea: Yes / No / Unverified**，只有在具備公開證據（README、官方 showcase 或儲存庫文件）才標 Yes。",
- disc="非官方，與 morluto/rea 無關聯。不收錄、不託管破解、盜版、ROM 或版權素材。",img="圖片：REA showcase 插圖，來自 [morluto/rea](https://github.com/morluto/rea/blob/main/docs/assets/rea-showcases.png)（MIT），直接連結引用，未另行存放。",
- sec=dict(gc="GameCube",wii="Wii",ds="NDS",_3ds="3DS",ps1="PS1",ps2="PS2",saturn="SEGA Saturn",xbox="Xbox / Xbox 360",official="REA 官方 Showcase",games="遊戲",pc="PC / DOS / PC-98",n64="Nintendo 64",md="MD / Genesis",snes="SFC / SNES",nes="NES / FC",gba="GBA",gb="Game Boy",app="應用程式 / Electron / 桌面",protocol="協定 / 硬體",firmware="韌體 / 驅動",security="資安 / 評測",tooling="逆向工具"),
- sub=dict(decomp="反編譯 / 重編譯",remake="重製 / 移植",tools="資源擷取與工具"),u="Uses rea",thx="另見 / 致謝：許多 REA 社群條目參考並比對了 [AIshihzong/awesome-reverse-engineer-anything](https://github.com/AIshihzong/awesome-reverse-engineer-anything)。",nes_empty="_尚無已驗證條目，歡迎補充。_",c="貢獻指南見 [CONTRIBUTING.md](CONTRIBUTING.md)。授權：[CC0-1.0](LICENSE)。"),
-'ja':dict(f='README.ja.md',t="REA Atlas：リバースエンジニアリング・プロジェクトマップ（rea タグ付き）",tag="オープンなリバースエンジニアリング・プロジェクトのマップです。ゲームの逆コンパイル、静的再コンパイル、再実装、アセット抽出ツール、汎用 RE ツール、アプリ／プロトコル／ファームウェア解析を収録し、各項目に [morluto/rea](https://github.com/morluto/rea)（Reverse Engineer Anything）の使用有無 **Uses rea: Yes / No / Unverified** を付けています。Yes は公開された根拠がある場合のみです。",
- disc="非公式であり、morluto/rea とは無関係です。クラック、海賊版、ROM、著作権素材は掲載・配布しません。",img="画像：[morluto/rea](https://github.com/morluto/rea/blob/main/docs/assets/rea-showcases.png) の REA ショーケース図（MIT）を直接参照しています（再ホストなし）。",
- sec=dict(gc="ゲームキューブ",wii="Wii",ds="ニンテンドーDS",_3ds="ニンテンドー3DS",ps1="PlayStation",ps2="PlayStation 2",saturn="セガサターン",xbox="Xbox / Xbox 360",official="REA 公式ショーケース",games="ゲーム",pc="PC / DOS / PC-98",n64="NINTENDO64",md="メガドライブ / Genesis",snes="スーパーファミコン / SNES",nes="ファミコン / NES",gba="ゲームボーイアドバンス",gb="ゲームボーイ",app="アプリ / Electron / デスクトップ",protocol="プロトコル / ハードウェア",firmware="ファームウェア / ドライバ",security="セキュリティ / 評価",tooling="リバースエンジニアリングツール"),
- sub=dict(decomp="逆コンパイル / 再コンパイル",remake="リメイク / 移植",tools="アセット抽出・ツール"),u="Uses rea",thx="関連リスト／謝辞：REA コミュニティの多くの項目は [AIshihzong/awesome-reverse-engineer-anything](https://github.com/AIshihzong/awesome-reverse-engineer-anything) を参照・照合しました。",nes_empty="_検証済みの項目はまだありません。追加歓迎です。_",c="貢献方法は [CONTRIBUTING.md](CONTRIBUTING.md)、ライセンスは [CC0-1.0](LICENSE)。"),
-'ko':dict(f='README.ko.md',t="REA Atlas: 리버스 엔지니어링 프로젝트 지도 (rea 태그 포함)",tag="오픈 리버스 엔지니어링 프로젝트 지도입니다. 게임 디컴파일, 정적 리컴파일, 재구현, 에셋 추출 도구, 범용 RE 도구, 앱/프로토콜/펌웨어 분석을 수록하며, 각 항목에 [morluto/rea](https://github.com/morluto/rea)(Reverse Engineer Anything) 사용 여부 **Uses rea: Yes / No / Unverified**를 표시합니다. Yes는 공개 근거가 있을 때만 표시합니다.",
- disc="비공식이며 morluto/rea와 관련이 없습니다. 크랙, 불법 복제, ROM, 저작권 자료는 싣거나 배포하지 않습니다.",img="이미지: [morluto/rea](https://github.com/morluto/rea/blob/main/docs/assets/rea-showcases.png)의 REA 쇼케이스 그림(MIT)을 직접 참조합니다(재호스팅 없음).",
- sec=dict(gc="게임큐브",wii="Wii",ds="닌텐도 DS",_3ds="닌텐도 3DS",ps1="PlayStation",ps2="PlayStation 2",saturn="세가 새턴",xbox="Xbox / Xbox 360",official="REA 공식 쇼케이스",games="게임",pc="PC / DOS / PC-98",n64="닌텐도 64",md="메가 드라이브 / Genesis",snes="슈퍼 패미컴 / SNES",nes="패미컴 / NES",gba="게임보이 어드밴스",gb="게임보이",app="앱 / Electron / 데스크톱",protocol="프로토콜 / 하드웨어",firmware="펌웨어 / 드라이버",security="보안 / 평가",tooling="리버싱 도구"),
- sub=dict(decomp="디컴파일 / 리컴파일",remake="리메이크 / 포팅",tools="에셋 추출 및 도구"),u="Uses rea",thx="참고 / 감사: 많은 REA 커뮤니티 항목은 [AIshihzong/awesome-reverse-engineer-anything](https://github.com/AIshihzong/awesome-reverse-engineer-anything)을 참고해 확인했습니다.",nes_empty="_검증된 항목이 아직 없습니다. 기여를 환영합니다._",c="기여 방법: [CONTRIBUTING.md](CONTRIBUTING.md). 라이선스: [CC0-1.0](LICENSE)."),
-}
+L={'en': {'f': 'README.md',
+        'sec': {'gc': 'GameCube',
+                'wii': 'Wii',
+                'ds': 'Nintendo DS',
+                '_3ds': 'Nintendo 3DS',
+                'ps1': 'PlayStation',
+                'ps2': 'PlayStation 2',
+                'saturn': 'Sega Saturn',
+                'xbox': 'Xbox / Xbox 360',
+                'official': 'Official REA showcases',
+                'games': 'Games',
+                'pc': 'PC / DOS / PC-98',
+                'n64': 'Nintendo 64',
+                'md': 'Mega Drive / Genesis',
+                'snes': 'Super Famicom / SNES',
+                'nes': 'NES / Famicom',
+                'gba': 'Game Boy Advance',
+                'gb': 'Game Boy',
+                'app': 'Apps / Electron / Desktop',
+                'protocol': 'Protocols / Hardware',
+                'firmware': 'Firmware / Drivers',
+                'security': 'Security / Evaluations',
+                'tooling': 'Reverse-engineering tools'},
+        'sub': {'decomp': 'Decompilation / Recomp',
+                'remake': 'Remake / Port',
+                'tools': 'Asset extraction & tools'},
+        'thx': 'See also / thanks: many REA community entries were cross-checked against '
+               '[AIshihzong/awesome-reverse-engineer-anything](https://github.com/AIshihzong/awesome-reverse-engineer-anything).',
+        'c': 'Contributing: see [CONTRIBUTING.md](CONTRIBUTING.md). License: [CC0-1.0](LICENSE).'},
+ 'zh-CN': {'f': 'README.zh-CN.md',
+           'sec': {'gc': 'GameCube',
+                   'wii': 'Wii',
+                   'ds': 'NDS',
+                   '_3ds': '3DS',
+                   'ps1': 'PS1',
+                   'ps2': 'PS2',
+                   'saturn': '世嘉土星',
+                   'xbox': 'Xbox / Xbox 360',
+                   'official': 'REA 官方 Showcase',
+                   'games': '游戏',
+                   'pc': 'PC / DOS / PC-98',
+                   'n64': '任天堂 64',
+                   'md': 'MD / Genesis',
+                   'snes': 'SFC / SNES',
+                   'nes': 'NES / FC',
+                   'gba': 'GBA',
+                   'gb': 'Game Boy',
+                   'app': '应用 / Electron / 桌面',
+                   'protocol': '协议 / 硬件',
+                   'firmware': '固件 / 驱动',
+                   'security': '安全 / 评测',
+                   'tooling': '逆向工具'},
+           'sub': {'decomp': '反编译 / 重编译', 'remake': '重制 / 移植', 'tools': '资源提取与工具'},
+           'thx': '另见 / 致谢：许多 REA 社区条目参考并核对了 '
+                  '[AIshihzong/awesome-reverse-engineer-anything](https://github.com/AIshihzong/awesome-reverse-engineer-anything)。',
+           'c': '贡献指南见 [CONTRIBUTING.md](CONTRIBUTING.md)。许可：[CC0-1.0](LICENSE)。'},
+ 'zh-TW': {'f': 'README.zh-TW.md',
+           'sec': {'gc': 'GameCube',
+                   'wii': 'Wii',
+                   'ds': 'NDS',
+                   '_3ds': '3DS',
+                   'ps1': 'PS1',
+                   'ps2': 'PS2',
+                   'saturn': 'SEGA Saturn',
+                   'xbox': 'Xbox / Xbox 360',
+                   'official': 'REA 官方 Showcase',
+                   'games': '遊戲',
+                   'pc': 'PC / DOS / PC-98',
+                   'n64': 'Nintendo 64',
+                   'md': 'MD / Genesis',
+                   'snes': 'SFC / SNES',
+                   'nes': 'NES / FC',
+                   'gba': 'GBA',
+                   'gb': 'Game Boy',
+                   'app': '應用程式 / Electron / 桌面',
+                   'protocol': '協定 / 硬體',
+                   'firmware': '韌體 / 驅動',
+                   'security': '資安 / 評測',
+                   'tooling': '逆向工具'},
+           'sub': {'decomp': '反編譯 / 重編譯', 'remake': '重製 / 移植', 'tools': '資源擷取與工具'},
+           'thx': '另見 / 致謝：許多 REA 社群條目參考並比對了 '
+                  '[AIshihzong/awesome-reverse-engineer-anything](https://github.com/AIshihzong/awesome-reverse-engineer-anything)。',
+           'c': '貢獻指南見 [CONTRIBUTING.md](CONTRIBUTING.md)。授權：[CC0-1.0](LICENSE)。'},
+ 'ja': {'f': 'README.ja.md',
+        'sec': {'gc': 'ゲームキューブ',
+                'wii': 'Wii',
+                'ds': 'ニンテンドーDS',
+                '_3ds': 'ニンテンドー3DS',
+                'ps1': 'PlayStation',
+                'ps2': 'PlayStation 2',
+                'saturn': 'セガサターン',
+                'xbox': 'Xbox / Xbox 360',
+                'official': 'REA 公式ショーケース',
+                'games': 'ゲーム',
+                'pc': 'PC / DOS / PC-98',
+                'n64': 'NINTENDO64',
+                'md': 'メガドライブ / Genesis',
+                'snes': 'スーパーファミコン / SNES',
+                'nes': 'ファミコン / NES',
+                'gba': 'ゲームボーイアドバンス',
+                'gb': 'ゲームボーイ',
+                'app': 'アプリ / Electron / デスクトップ',
+                'protocol': 'プロトコル / ハードウェア',
+                'firmware': 'ファームウェア / ドライバ',
+                'security': 'セキュリティ / 評価',
+                'tooling': 'リバースエンジニアリングツール'},
+        'sub': {'decomp': '逆コンパイル / 再コンパイル', 'remake': 'リメイク / 移植', 'tools': 'アセット抽出・ツール'},
+        'thx': '関連リスト／謝辞：REA コミュニティの多くの項目は '
+               '[AIshihzong/awesome-reverse-engineer-anything](https://github.com/AIshihzong/awesome-reverse-engineer-anything) '
+               'を参照・照合しました。',
+        'c': '貢献方法は [CONTRIBUTING.md](CONTRIBUTING.md)、ライセンスは [CC0-1.0](LICENSE)。'},
+ 'ko': {'f': 'README.ko.md',
+        'sec': {'gc': '게임큐브',
+                'wii': 'Wii',
+                'ds': '닌텐도 DS',
+                '_3ds': '닌텐도 3DS',
+                'ps1': 'PlayStation',
+                'ps2': 'PlayStation 2',
+                'saturn': '세가 새턴',
+                'xbox': 'Xbox / Xbox 360',
+                'official': 'REA 공식 쇼케이스',
+                'games': '게임',
+                'pc': 'PC / DOS / PC-98',
+                'n64': '닌텐도 64',
+                'md': '메가 드라이브 / Genesis',
+                'snes': '슈퍼 패미컴 / SNES',
+                'nes': '패미컴 / NES',
+                'gba': '게임보이 어드밴스',
+                'gb': '게임보이',
+                'app': '앱 / Electron / 데스크톱',
+                'protocol': '프로토콜 / 하드웨어',
+                'firmware': '펌웨어 / 드라이버',
+                'security': '보안 / 평가',
+                'tooling': '리버싱 도구'},
+        'sub': {'decomp': '디컴파일 / 리컴파일', 'remake': '리메이크 / 포팅', 'tools': '에셋 추출 및 도구'},
+        'thx': '참고 / 감사: 많은 REA 커뮤니티 항목은 '
+               '[AIshihzong/awesome-reverse-engineer-anything](https://github.com/AIshihzong/awesome-reverse-engineer-anything)을 '
+               '참고해 확인했습니다.',
+        'c': '기여 방법: [CONTRIBUTING.md](CONTRIBUTING.md). 라이선스: [CC0-1.0](LICENSE).'}}
 bar=" · ".join(f"[{n}]({L[k]['f']})" for k,n in [('en','English'),('zh-CN','简体中文'),('zh-TW','繁體中文'),('ja','日本語'),('ko','한국어')])
 plats=['nes','snes','md','saturn','gb','gba','n64','gc','wii','ds','3ds','ps1','ps2','xbox','pc']
 import re,html
@@ -72,47 +191,59 @@ def table(d,x,es,k):
     r.append(f'<tr><td>{pic}</td><td><a href="{e[3]}"><b>{html.escape(nm)}</b></a>{own}</td><td>{html.escape(DS[e[2]][k])}</td><td>{x["Y"][e[4]]}</td><td><sub>{src}</sub></td></tr>')
   r.append('</table>');return r
 for k,d in L.items():
-  x=X[k];seen={};body=[];toc=[]
-  def H(level,t):
-    toc.append((level,t,slug(t,seen)));body.extend(['#'*level+' '+t,''])
+  x=X[k]; text=CONTENT[k]; seen={}; body=[]; toc=[]
+  def H(level,title,anchor=None):
+    automatic=slug(title,seen)
+    if anchor:
+      body.extend([f'<a id="{anchor}"></a>', ''])
+    toc.append((level,title,anchor or automatic))
+    body.extend(['#'*level+' '+title,''])
 
-  # Top: projects with public evidence of using REA
-  yes_es = sorted([e for e in E if e[4]=='Yes'], key=star_count, reverse=True)
-  if yes_es:
-    yes_title = {
-      'en': 'Projects that used REA (evidence-tagged subset)',
-      'zh-CN': '已使用 REA 的项目（证据标记子集）',
-      'zh-TW': '已使用 REA 的專案（證據標記子集）',
-      'ja': 'REA を使用したプロジェクト（証拠付きサブセット）',
-      'ko': 'REA를 사용한 프로젝트 (증거 표시 서브셋)'
-    }.get(k, 'Projects that used REA (with evidence)')
-    H(2, yes_title)
-    note = {
-      'en': '_Optional filter: these have public evidence of using REA. Most projects in the map are ordinary reverse-engineering work and do not require REA._',
-      'zh-CN': '_可选过滤：以下有公开证据表明使用了 REA。地图里大部分项目是普通逆向工作，并不要求用 REA。_',
-      'zh-TW': '_可選過濾：以下有公開證據表明使用了 REA。地圖裡大部分專案是普通逆向工作，並不要求用 REA。_',
-      'ja': '_任意のフィルタ：以下は REA を使用した公開証拠があるプロジェクトです。マップの大半は通常の逆解析プロジェクトで、REA は必須ではありません。_',
-      'ko': '_선택 필터: 다음은 REA를 사용했다는 공개 증거가 있는 프로젝트입니다. 지도의 대부분은 일반 역공학 프로젝트이며 REA는 필수가 아닙니다._'
-    }.get(k, '')
-    if note:
-      body += [note, '']
-    body += table(d, x, yes_es, k) + ['']
+  H(2,text['start'],'atlas-start')
+  body += [f"- **{label}:** {description}" for label,description in text['routes']]
+  body += ['',text['search'],'']
 
-  H(2,d['sec']['games'])
+  skill_title,skill_lines=overview(k,SKILLS)
+  H(2,skill_title,'atlas-skills')
+  body += skill_lines
+
+  H(2,text['policy'],'atlas-policy')
+  context=dict(sources=len(SKILLS['project_evidence']),date=SKILLS['checked_on'])
+  for paragraph in text['policy_lines']:
+    body += [paragraph.format(**context),'']
+
+  H(2,d['sec']['games'],'atlas-games')
   for p in plats:
-    es=sorted([e for e in E if e[0]==p], key=star_count, reverse=True)
+    es=sorted([e for e in E if e[0]==p],key=star_count,reverse=True)
     if not es:continue
     H(3,d['sec'].get(p,d['sec'].get('_'+p)))
-    for s in ['decomp','remake','tools']:
-      ss=sorted([e for e in es if e[1]==s], key=star_count, reverse=True)
-      if ss:
-        t=d['sub'][s];slug(t,seen);body+=[f'#### {t}','']+table(d,x,ss,k)+['']
-  for s in ['app','protocol','firmware','security','tooling','official']:
-    es=sorted([e for e in E if e[0]==s], key=star_count, reverse=True)
-    if es:H(2,d['sec'][s]);body+=table(d,x,es,k)+['']
-  head=[bar,"",f"# {d['t']}","",d['tag'],"","> "+re.sub(r'(?<=[.。])[^.。]*[.。]$','',d['disc']).strip(),""]
-  tl=[f"## {x['toc']}",""]+[("  "*(l-2))+f"- [{t}](#{s})" for l,t,s in toc]+[""]
-  slug(x['toc'],seen)
-  o=head+tl+body+["---","",d['thx'],"",d['c'],""]
-  open(d['f'],'w').write("\n".join(o))
+    for section in ['decomp','remake','tools']:
+      subset=sorted([e for e in es if e[1]==section],key=star_count,reverse=True)
+      if subset:
+        title=d['sub'][section];slug(title,seen)
+        body += [f'#### {title}','']+table(d,x,subset,k)+['']
+
+  for section in ['app','protocol','firmware','security','tooling','official']:
+    es=sorted([e for e in E if e[0]==section],key=star_count,reverse=True)
+    if es:
+      H(2,d['sec'][section],'atlas-'+section)
+      body += table(d,x,es,k)+['']
+
+  yes_es=sorted([e for e in E if e[4]=='Yes'],key=star_count,reverse=True)
+  if yes_es:
+    H(2,text['rea_title'],'atlas-rea')
+    body += [text['rea_note'],'','<details>',f"<summary>{text['rea_summary'].format(count=len(yes_es))}</summary>",'']
+    body += table(d,x,yes_es,k)+['','</details>','']
+
+  H(2,text['resources'],'atlas-data')
+  for paragraph in text['resources_lines']:
+    body += [paragraph,'']
+
+  repository_count=sum(bool(re.fullmatch(r'https://github.com/[^/]+/[^/]+/?',e[3])) for e in E)
+  stats=text['stats'].format(entries=len(E),repos=repository_count,skills=len(SKILLS['skills']))
+  head=[bar,'',f"# {text['title']}",'',text['intro'],'',stats,'','> '+text['notice'],'']
+  tl=[f"## {x['toc']}",'']+[("  "*(level-2))+f"- [{title}](#{anchor})" for level,title,anchor in toc]+['']
+  output=head+tl+body+['---','',d['thx'],'',d['c'],'']
+  open(d['f'],'w',encoding='utf-8').write('\n'.join(output))
+render_details(SKILLS,E,DS)
 print('ok',len(E))

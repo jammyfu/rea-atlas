@@ -1,15 +1,19 @@
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
-# REA Atlas：リバースエンジニアリング・プロジェクトマップ（rea タグ付き）
+# Reverse Engineering Atlas · リバースエンジニアリング・プロジェクトマップ
 
-オープンなリバースエンジニアリング・プロジェクトのマップです。ゲームの逆コンパイル、静的再コンパイル、再実装、アセット抽出ツール、汎用 RE ツール、アプリ／プロトコル／ファームウェア解析を収録し、各項目に [morluto/rea](https://github.com/morluto/rea)（Reverse Engineer Anything）の使用有無 **Uses rea: Yes / No / Unverified** を付けています。Yes は公開された根拠がある場合のみです。
+逆解析プロジェクト、ツール、エージェントのワークフローを対象・プラットフォーム・技術別に整理したカタログです。ゲームの逆コンパイルと再コンパイル、アプリの再実装、Android・JavaScript 解析、プロトコル、ファームウェアの既存成果を探せます。
 
-> 非公式であり、morluto/rea とは無関係です。
+**341 件の項目 · 335 個の GitHub リポジトリ · 10 種類の skill ワークフロー · 5 言語の README**
+
+> 特定ツールに依存しない独立したカタログで、REA などの公式ディレクトリではありません。掲載は推奨や、完成度・安全性・利用許諾の保証ではありません。
 
 ## 目次
 
-- [REA を使用したプロジェクト（証拠付きサブセット）](#rea-を使用したプロジェクト証拠付きサブセット)
-- [ゲーム](#ゲーム)
+- [使い始めるには](#atlas-start)
+- [Skill 技術インデックス](#atlas-skills)
+- [範囲・根拠・ライセンス](#atlas-policy)
+- [ゲーム](#atlas-games)
   - [ファミコン / NES](#ファミコン--nes)
   - [スーパーファミコン / SNES](#スーパーファミコン--snes)
   - [メガドライブ / Genesis](#メガドライブ--genesis)
@@ -25,78 +29,62 @@
   - [PlayStation 2](#playstation-2)
   - [Xbox / Xbox 360](#xbox--xbox-360)
   - [PC / DOS / PC-98](#pc--dos--pc-98)
-- [アプリ / Electron / デスクトップ](#アプリ--electron--デスクトップ)
-- [プロトコル / ハードウェア](#プロトコル--ハードウェア)
-- [ファームウェア / ドライバ](#ファームウェア--ドライバ)
-- [セキュリティ / 評価](#セキュリティ--評価)
-- [リバースエンジニアリングツール](#リバースエンジニアリングツール)
-- [REA 公式ショーケース](#rea-公式ショーケース)
+- [アプリ / Electron / デスクトップ](#atlas-app)
+- [プロトコル / ハードウェア](#atlas-protocol)
+- [ファームウェア / ドライバ](#atlas-firmware)
+- [セキュリティ / 評価](#atlas-security)
+- [リバースエンジニアリングツール](#atlas-tooling)
+- [REA 公式ショーケース](#atlas-official)
+- [任意の表示：REA を使用したプロジェクト](#atlas-rea)
+- [データと貢献](#atlas-data)
 
-## REA を使用したプロジェクト（証拠付きサブセット）
+<a id="atlas-start"></a>
 
-_任意のフィルタ：以下は REA を使用した公開証拠があるプロジェクトです。マップの大半は通常の逆解析プロジェクトで、REA は必須ではありません。_
+## 使い始めるには
 
-<table>
-<tr><th width="170">画像</th><th>プロジェクト</th><th>概要</th><th>rea 使用</th><th>画像の出典</th></tr>
-<tr><td><a href="https://github.com/morluto/rea/discussions/2254"><img src="images/rea-discussion-2254.png" width="160" alt="REA discussion #2254"></a></td><td><a href="https://github.com/morluto/rea/discussions/2254"><b>REA discussion #2254</b></a></td><td>シンボルなし bzip2 を解析し、元のビルドと照合</td><td>✅ はい</td><td><sub>当リポジトリの撮影</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/aicodeking/leanrea"><b>leanrea</b></a><br><sub>aicodeking</sub></td><td>REA の MCP 層を置き換える軽量スキル。エージェントが CLI ツールを直接駆動</td><td>✅ はい</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/cranebeaker/coop-anything"><b>coop-anything</b></a><br><sub>cranebeaker</sub></td><td>REA でエントリポイントを調査し、シングルプレイゲームに協力モードを追加する MCP サーバー</td><td>✅ はい</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/Caho1/open-claude-ui"><b>open-claude-ui</b></a><br><sub>Caho1</sub></td><td>REA で Claude Desktop の UI とインタラクション物理を抽出した高忠実度リビルド</td><td>✅ はい</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/MiaAI-Lab/sparkDash"><b>sparkDash</b></a><br><sub>MiaAI-Lab</sub></td><td>長時間の REA 分析ジョブを統合し、結果をオンデマンドで読み込むマルチデバイスダッシュボード</td><td>✅ はい</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/michaelshimeles/terminal-rs"><img src="https://raw.githubusercontent.com/michaelshimeles/terminal-rs/master/docs/img/overview.png" width="160" alt="michaelshimeles/terminal-rs"></a></td><td><a href="https://github.com/michaelshimeles/terminal-rs"><b>terminal-rs</b></a><br><sub>michaelshimeles</sub></td><td>Rust 製の Bloomberg 風トレーディング端末</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
-<tr><td><a href="https://github.com/ShadowSwaps/REA-Reconstruction-Companion"><img src="https://opengraph.githubassets.com/1/ShadowSwaps/REA-Reconstruction-Companion" width="160" alt="ShadowSwaps/REA-Reconstruction-Companion"></a></td><td><a href="https://github.com/ShadowSwaps/REA-Reconstruction-Companion"><b>REA-Reconstruction-Companion</b></a><br><sub>ShadowSwaps</sub></td><td>再構築を常に証拠と結びつけるエージェントスキル</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/Xiangyu-CAS/rea-capcut"><b>rea-capcut</b></a><br><sub>Xiangyu-CAS</sub></td><td>REA で CapCut を調べて作り直したオープンソースのオフライン動画編集</td><td>✅ はい</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/michaelshimeles/rec-rs"><img src="https://raw.githubusercontent.com/michaelshimeles/rec-rs/main/docs/screenshots/main.png" width="160" alt="michaelshimeles/rec-rs"></a></td><td><a href="https://github.com/michaelshimeles/rec-rs"><b>rec-rs</b></a><br><sub>michaelshimeles</sub></td><td>OBS を参考にした Rust 製の高速 macOS 録画ツール</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/giveen/decomp.anything"><b>decomp.anything</b></a><br><sub>giveen</sub></td><td>更新停止したマッチング型デコンパイラ decomp.wtf の継続フォーク。Windows/Linux バイナリ対応と REA 連携を追加し、ゲーム以外のプログラムもエージェントが解析できるようにした。</td><td>✅ はい</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/N0zoM1z0/dx-ball"><img src="https://raw.githubusercontent.com/N0zoM1z0/dx-ball/main/resources/dxball-title.png" width="160" alt="N0zoM1z0/dx-ball"></a></td><td><a href="https://github.com/N0zoM1z0/dx-ball"><b>dx-ball</b></a><br><sub>N0zoM1z0</sub></td><td>DX-Ball 1.07 を C/C++ で再構築、元の x86 と照合テスト</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
-<tr><td><a href="https://github.com/michaelshimeles/sketch"><img src="https://raw.githubusercontent.com/michaelshimeles/sketch/main/docs/screenshots/app_demo.png" width="160" alt="michaelshimeles/sketch"></a></td><td><a href="https://github.com/michaelshimeles/sketch"><b>sketch</b></a><br><sub>michaelshimeles</sub></td><td>Paper を研究して作った Rust 製の無限デザインキャンバス</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
-<tr><td><a href="https://github.com/czcdr/dsh-plugin-rea"><img src="https://raw.githubusercontent.com/czcdr/dsh-plugin-rea/main/assets/screenshot-1.png" width="160" alt="czcdr/dsh-plugin-rea"></a></td><td><a href="https://github.com/czcdr/dsh-plugin-rea"><b>dsh-plugin-rea</b></a><br><sub>czcdr</sub></td><td>DeepSeek Harness で REA を、Ghidra も自動導入</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
-<tr><td><a href="https://github.com/Moxnatiy/OpenBattlefield2"><img src="https://raw.githubusercontent.com/Moxnatiy/OpenBattlefield2/master/docs/screenshots/menu-main.png" width="160" alt="Moxnatiy/OpenBattlefield2"></a></td><td><a href="https://github.com/Moxnatiy/OpenBattlefield2"><b>OpenBattlefield2</b></a><br><sub>Moxnatiy</sub></td><td>バトルフィールド 2 のエンジンを C++20 でクリーンルーム再実装（手持ちの製品版を使用）</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
-<tr><td><a href="https://github.com/0xshlomil/ida-free-mcp"><img src="https://opengraph.githubassets.com/1/0xshlomil/ida-free-mcp" width="160" alt="0xshlomil/ida-free-mcp"></a></td><td><a href="https://github.com/0xshlomil/ida-free-mcp"><b>ida-free-mcp</b></a><br><sub>0xshlomil</sub></td><td>MCP 経由で AI エージェントから IDA Free を使う</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
-<tr><td><a href="https://github.com/lxistired/ledger-reborn"><img src="https://raw.githubusercontent.com/lxistired/ledger-reborn/main/docs/screenshots/accounting.png" width="160" alt="lxistired/ledger-reborn"></a></td><td><a href="https://github.com/lxistired/ledger-reborn"><b>ledger-reborn</b></a><br><sub>lxistired</sub></td><td>QuickBooks for Mac を参考にしたローカル優先の会計アプリ</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/glauberlima/open-scrantic"><b>open-scrantic</b></a><br><sub>glauberlima</sub></td><td>REA で逆解析した 1992 年 Johnny Castaway スクリーンセーバーの Rust 再実装</td><td>✅ はい</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/N0zoM1z0/th04"><img src="https://raw.githubusercontent.com/N0zoM1z0/th04/main/resources/title-screen.png" width="160" alt="N0zoM1z0/th04"></a></td><td><a href="https://github.com/N0zoM1z0/th04"><b>th04</b></a><br><sub>N0zoM1z0</sub></td><td>東方幻想郷（PC-98）を読めるソースに、当時のコンパイラで検証</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/gryszzz/reverse-engineer-everything"><b>reverse-engineer-everything</b></a><br><sub>gryszzz</sub></td><td>REA エンジン上に構築されたローカルワークベンチと調査スタジオ。ファイルをアップロードせずに証拠に基づくソフトウェア分析を行う。</td><td>✅ はい</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/tanepiper/game-frame"><b>game-frame</b></a><br><sub>tanepiper</sub></td><td>配布ファイルからエージェントがゲームを解析するフレームワーク</td><td>✅ はい</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/rodneypantonial/sims3-modernization"><b>sims3-modernization</b></a><br><sub>rodneypantonial</sub></td><td>最新 PC でシムズ3 のカクつきとクラッシュを減らす</td><td>✅ はい</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/alexmi256/rea-agent-docker"><img src="https://opengraph.githubassets.com/1/alexmi256/rea-agent-docker" width="160" alt="alexmi256/rea-agent-docker"></a></td><td><a href="https://github.com/alexmi256/rea-agent-docker"><b>rea-agent-docker</b></a><br><sub>alexmi256</sub></td><td>Ghidra・Hopper・IDA 版がある REA の Docker イメージ</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/nicolvus/a6000-fw-decomp"><b>a6000-fw-decomp</b></a><br><sub>nicolvus</sub></td><td>REA と Ghidra で Sony A6000 のファームウェアを解析</td><td>✅ はい</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/EndLess728/MiTV-Remote"><b>MiTV-Remote</b></a><br><sub>EndLess728</sub></td><td>Mac・Android・iPhone から Wi-Fi で Xiaomi テレビを操作</td><td>✅ はい</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/ucodia/desktop-games-nostalgia"><img src="https://raw.githubusercontent.com/ucodia/desktop-games-nostalgia/main/docs/demo.gif" width="160" alt="ucodia/desktop-games-nostalgia"></a></td><td><a href="https://github.com/ucodia/desktop-games-nostalgia"><b>desktop-games-nostalgia</b></a><br><sub>ucodia</sub></td><td>デスクトップをまた壊そう：Gemtree の 2000 年作を macOS とブラウザへ</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
-<tr><td><a href="https://github.com/cudanexus/vd-streamer-linux"><img src="https://opengraph.githubassets.com/1/cudanexus/vd-streamer-linux" width="160" alt="cudanexus/vd-streamer-linux"></a></td><td><a href="https://github.com/cudanexus/vd-streamer-linux"><b>vd-streamer-linux</b></a><br><sub>cudanexus</sub></td><td>Linux デスクトップを Quest・Pico へストリーミング</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
-<tr><td><a href="https://github.com/Nowng/rea-mcp"><img src="https://opengraph.githubassets.com/1/Nowng/rea-mcp" width="160" alt="Nowng/rea-mcp"></a></td><td><a href="https://github.com/Nowng/rea-mcp"><b>rea-mcp</b></a><br><sub>Nowng</sub></td><td>LM Studio のローカルモデルで REA を使う</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
-<tr><td><a href="https://github.com/pablodiazjorge/rea-lab"><img src="https://opengraph.githubassets.com/1/pablodiazjorge/rea-lab" width="160" alt="pablodiazjorge/rea-lab"></a></td><td><a href="https://github.com/pablodiazjorge/rea-lab"><b>rea-lab</b></a><br><sub>pablodiazjorge</sub></td><td>Windows + Ghidra の演習と事前登録した REA 評価</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
-<tr><td><a href="https://github.com/NullLabTests/OpenBSD_netcat_REA"><img src="https://raw.githubusercontent.com/NullLabTests/OpenBSD_netcat_REA/main/assets/rea-pipeline.png" width="160" alt="NullLabTests/OpenBSD_netcat_REA"></a></td><td><a href="https://github.com/NullLabTests/OpenBSD_netcat_REA"><b>OpenBSD_netcat_REA</b></a><br><sub>NullLabTests</sub></td><td>REA と Ghidra で netcat-openbsd を静的解析</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
-<tr><td><a href="https://github.com/sickpyramid/ReaFuse"><img src="https://opengraph.githubassets.com/1/sickpyramid/ReaFuse" width="160" alt="sickpyramid/ReaFuse"></a></td><td><a href="https://github.com/sickpyramid/ReaFuse"><b>ReaFuse</b></a><br><sub>sickpyramid</sub></td><td>REA を使って 2 つの JS/TS プロジェクトを融合</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
-<tr><td><a href="https://github.com/grisuno/VSL-DSP"><img src="https://opengraph.githubassets.com/1/grisuno/VSL-DSP" width="160" alt="grisuno/VSL-DSP"></a></td><td><a href="https://github.com/grisuno/VSL-DSP"><b>VSL-DSP</b></a><br><sub>grisuno</sub></td><td>PreSonus AudioBox VSL 用の Linux カーネルモジュール</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
-<tr><td><a href="https://github.com/iammukeshm/hexgrab"><img src="https://opengraph.githubassets.com/1/iammukeshm/hexgrab" width="160" alt="iammukeshm/hexgrab"></a></td><td><a href="https://github.com/iammukeshm/hexgrab"><b>hexgrab</b></a><br><sub>iammukeshm</sub></td><td>PowerToys のバイナリを調べて作った小さな Windows カラーピッカー</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
-<tr><td><a href="https://github.com/zhaofeng130/dsh-rea"><img src="https://opengraph.githubassets.com/1/zhaofeng130/dsh-rea" width="160" alt="zhaofeng130/dsh-rea"></a></td><td><a href="https://github.com/zhaofeng130/dsh-rea"><b>dsh-rea</b></a><br><sub>zhaofeng130</sub></td><td>DeepSeek Harness に REA のスキルとツールを追加</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
-<tr><td><a href="https://github.com/pablodiazjorge/rea-casebook"><img src="https://raw.githubusercontent.com/pablodiazjorge/rea-casebook/main/media/session-dark.png" width="160" alt="pablodiazjorge/rea-casebook"></a></td><td><a href="https://github.com/pablodiazjorge/rea-casebook"><b>rea-casebook</b></a><br><sub>pablodiazjorge</sub></td><td>Claude Code の結論すべてに実際の REA 証拠を引用させる</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/B-Howell/soundconnect-desktop"><b>soundconnect-desktop</b></a><br><sub>B-Howell</sub></td><td>Windows デスクトップから Sony の Bluetooth ヘッドホンを操作</td><td>✅ はい</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/tuunanet/rea-ski-or-die-reconstruction"><img src="https://raw.githubusercontent.com/tuunanet/rea-ski-or-die-reconstruction/main/docs/snowball-war.gif" width="160" alt="tuunanet/rea-ski-or-die-reconstruction"></a></td><td><a href="https://github.com/tuunanet/rea-ski-or-die-reconstruction"><b>rea-ski-or-die-reconstruction</b></a><br><sub>tuunanet</sub></td><td>Ski or Die の雪合戦を Rust + SDL2 で再現（素材は各自用意）</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
-<tr><td><a href="https://github.com/OpenRsG/GunZRs"><img src="https://raw.githubusercontent.com/OpenRsG/GunZRs/main/docs/media/menu.jpg" width="160" alt="OpenRsG/GunZRs"></a></td><td><a href="https://github.com/OpenRsG/GunZRs"><b>GunZRs</b></a><br><sub>OpenRsG</sub></td><td>GunZ: The Duel を Rust + Bevy で復活</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
-<tr><td><a href="https://github.com/sheilacraig/dsh-rea-mcp"><img src="https://opengraph.githubassets.com/1/sheilacraig/dsh-rea-mcp" width="160" alt="sheilacraig/dsh-rea-mcp"></a></td><td><a href="https://github.com/sheilacraig/dsh-rea-mcp"><b>dsh-rea-mcp</b></a><br><sub>sheilacraig</sub></td><td>設定だけで DeepSeek Harness に REA を組み込む</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
-<tr><td><a href="https://github.com/az9713/wispr-flow-rea-teardown"><img src="https://img.youtube.com/vi/FnB9tHKBJXQ/maxresdefault.jpg" width="160" alt="az9713/wispr-flow-rea-teardown"></a></td><td><a href="https://github.com/az9713/wispr-flow-rea-teardown"><b>wispr-flow-rea-teardown</b></a><br><sub>az9713</sub></td><td>Wispr Flow の音声パイプラインを分解、64 行の再実装付き</td><td>✅ はい</td><td><sub><a href="https://img.youtube.com/vi/FnB9tHKBJXQ/maxresdefault.jpg">動画サムネイル</a></sub></td></tr>
-<tr><td><a href="https://github.com/KarlssonChristoffer/DiskLens"><img src="https://opengraph.githubassets.com/1/KarlssonChristoffer/DiskLens" width="160" alt="KarlssonChristoffer/DiskLens"></a></td><td><a href="https://github.com/KarlssonChristoffer/DiskLens"><b>DiskLens</b></a><br><sub>KarlssonChristoffer</sub></td><td>WinDirStat 風に Windows 11 のディスク使用量を可視化</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
-<tr><td><a href="https://github.com/ya123-4/rea-dsh-plugin"><img src="https://opengraph.githubassets.com/1/ya123-4/rea-dsh-plugin" width="160" alt="ya123-4/rea-dsh-plugin"></a></td><td><a href="https://github.com/ya123-4/rea-dsh-plugin"><b>rea-dsh-plugin</b></a><br><sub>ya123-4</sub></td><td>DeepSeek Harness に REA の MCP ツールを登録</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
-<tr><td><a href="https://github.com/az9713/REA-demo"><img src="https://opengraph.githubassets.com/1/az9713/REA-demo" width="160" alt="az9713/REA-demo"></a></td><td><a href="https://github.com/az9713/REA-demo"><b>REA-demo</b></a><br><sub>az9713</sub></td><td>REA が自分自身を解析、反証可能な予測付き</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
-<tr><td><a href="https://github.com/cognixws/picode-rea"><img src="https://opengraph.githubassets.com/1/cognixws/picode-rea" width="160" alt="cognixws/picode-rea"></a></td><td><a href="https://github.com/cognixws/picode-rea"><b>picode-rea</b></a><br><sub>cognixws</sub></td><td>PiCode から REA の静的解析ツールを使う</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
-<tr><td><a href="https://github.com/jinshi666888/rea-playbook"><img src="https://raw.githubusercontent.com/jinshi666888/rea-playbook/main/docs/assets/demo.gif" width="160" alt="jinshi666888/rea-playbook"></a></td><td><a href="https://github.com/jinshi666888/rea-playbook"><b>rea-playbook</b></a><br><sub>jinshi666888</sub></td><td>小さな Electron ターゲット付きの REA ハンズオン</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
-<tr><td><a href="https://github.com/UnknownHacker1/rea-groundtruth"><img src="https://opengraph.githubassets.com/1/UnknownHacker1/rea-groundtruth" width="160" alt="UnknownHacker1/rea-groundtruth"></a></td><td><a href="https://github.com/UnknownHacker1/rea-groundtruth"><b>rea-groundtruth</b></a><br><sub>UnknownHacker1</sub></td><td>REA のレポートを実際のソースと突き合わせる</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/Stijnus/dsh-rev-eng"><b>dsh-rev-eng</b></a><br><sub>Stijnus</sub></td><td>REA スキルとオプションの MCP をパッケージした DSH プラグイン。リバースエンジニアリングと Mac アプリ構築用。</td><td>✅ はい</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/alemigav/re2-64-decomp"><img src="https://opengraph.githubassets.com/1/alemigav/re2-64-decomp" width="160" alt="alemigav/re2-64-decomp"></a></td><td><a href="https://github.com/alemigav/re2-64-decomp"><b>re2-64-decomp</b></a><br><sub>alemigav</sub></td><td>AIツール（REA + Ghidra）でニンテンドー64版『バイオハザード2』を解析。数千のデコンパイル関数と検証スイートあり。ゲームROMは含まれません。</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
-<tr><td><a href="https://rea.tools/showcase/dx-ball/"><img src="images/showcase-dx-ball.png" width="160" alt="DX-Ball: sound-pan function"></a></td><td><a href="https://rea.tools/showcase/dx-ball/"><b>DX-Ball: sound-pan function</b></a></td><td>REA が DX-Ball の音響関数をバイト単位で一致する C に戻す過程</td><td>✅ はい</td><td><sub>当リポジトリの撮影</sub></td></tr>
-<tr><td><a href="https://rea.tools/showcase/notion/"><img src="images/showcase-notion.png" width="160" alt="Notion: Electron clipboard bridge"></a></td><td><a href="https://rea.tools/showcase/notion/"><b>Notion: Electron clipboard bridge</b></a></td><td>Notion のコピー操作をページから IPC、メインプロセスまで追跡</td><td>✅ はい</td><td><sub>当リポジトリの撮影</sub></td></tr>
-<tr><td><a href="https://rea.tools/showcase/th04/"><img src="images/showcase-th04.png" width="160" alt="TH04: PC-98 bullet-ring maths"></a></td><td><a href="https://rea.tools/showcase/th04/"><b>TH04: PC-98 bullet-ring maths</b></a></td><td>16 ビット DOS コードから東方幻想郷の弾幕角度計算を復元</td><td>✅ はい</td><td><sub>当リポジトリの撮影</sub></td></tr>
-<tr><td><a href="https://rea.tools/showcase/aegis/"><img src="images/showcase-aegis.png" width="160" alt="Aegis: TOTP code generation"></a></td><td><a href="https://rea.tools/showcase/aegis/"><b>Aegis: TOTP code generation</b></a></td><td>Aegis（Android）が二段階認証コードを生成する仕組みを解明</td><td>✅ はい</td><td><sub>当リポジトリの撮影</sub></td></tr>
-<tr><td><a href="https://rea.tools/showcase/ctf/"><img src="images/showcase-ctf.png" width="160" alt="CTF: flag checker"></a></td><td><a href="https://rea.tools/showcase/ctf/"><b>CTF: flag checker</b></a></td><td>DownUnderCTF 2023 のリバーシング問題を順に解く</td><td>✅ はい</td><td><sub>当リポジトリの撮影</sub></td></tr>
-<tr><td><a href="https://github.com/a-barzanti/ai-rebuilds"><img src="https://opengraph.githubassets.com/1/a-barzanti/ai-rebuilds" width="160" alt="a-barzanti/ai-rebuilds"></a></td><td><a href="https://github.com/a-barzanti/ai-rebuilds"><b>ai-rebuilds</b></a><br><sub>a-barzanti</sub></td><td>見捨てられたゲームをブラウザで復活、元ファイルは含まない</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
-<tr><td><a href="https://github.com/AdamLinCodes/AdamTerm"><img src="https://raw.githubusercontent.com/AdamLinCodes/AdamTerm/main/docs/adamterm.png" width="160" alt="AdamLinCodes/AdamTerm"></a></td><td><a href="https://github.com/AdamLinCodes/AdamTerm"><b>AdamTerm</b></a><br><sub>AdamLinCodes</sub></td><td>Ghostty を調べて作ったミニマルな macOS ターミナル</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/chilliesdev/fmseasonhub-re"><b>fmseasonhub-re</b></a><br><sub>chilliesdev</sub></td><td>REA で FM Season Hub アプリを解析したノート</td><td>✅ はい</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/carlhako/keen-clone"><b>keen-clone</b></a><br><sub>carlhako</sub></td><td>REA + Ghidra で関数単位に復元した Commander Keen 1 のネイティブ Linux/SDL2 再実装</td><td>✅ はい</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/NathanKanaeru/samp-client-re"><b>samp-client-re</b></a><br><sub>NathanKanaeru</sub></td><td>REA/Ghidra でアーキテクチャを復元した SA-MP 0.3.DL-R1 のクリーンルームクライアント再実装</td><td>✅ はい</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/CurLeaf/dsh-command-rea"><b>dsh-command-rea</b></a><br><sub>CurLeaf</sub></td><td>DSH の /rea スラッシュコマンド。リクエストを REA スキルと MCP ツールにルーティング。</td><td>✅ はい</td><td><sub>—</sub></td></tr>
-</table>
+- **既存の実装を探す:** [ゲームのプラットフォーム別一覧](#atlas-games)、[デスクトップアプリ / Electron](#atlas-app)、[プロトコル / ハードウェア](#atlas-protocol)、[ファームウェア / ドライバ](#atlas-firmware)を参照。
+- **解析手法を選ぶ:** [10 種類の skill マップ](#atlas-skills)から Android、JavaScript、ネイティブバイナリ、CTF、クリーンルーム再実装の手法を探す。
+- **ツールを選ぶ:** [逆解析ツール](#atlas-tooling)と[セキュリティ / 評価](#atlas-security)を参照。ツール、skill、再構築されたアプリは役割が異なります。
+- **根拠と制限を確認する:** [詳細技術マップ](SKILL_MAP.md)で一次資料、ライセンス、保守状況、機能の制限を確認。
+
+Ctrl+F / Cmd+F で対象名、所有者/リポジトリ、プラットフォームや APK、DEX、Electron、WASM、PS2、firmware などの形式を検索してください。依存関係や最新状況は上流の README で確認します。未掲載でも、関連プロジェクトが存在しないとは限りません。
+
+<a id="atlas-skills"></a>
+
+## Skill 技術インデックス
+
+10 個の skill と関連プロジェクトを技術別に整理しています。技術的な関連は、依存関係や REA の使用を意味しません。
+
+[根拠・ライセンス・制限](SKILL_MAP.md) · [JSON](skill-map.json)
+
+| Skill / 出典 | 技術分野 | 関連プロジェクト |
+| --- | --- | --- |
+| [REA](https://github.com/morluto/rea) | CLI / MCP, decompilation, cross-references, evidence | [7](SKILL_MAP.md#rea) |
+| [reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | target routing, tool discovery, evidence workflows | [6](SKILL_MAP.md#reverse-skill) |
+| [android-reverse-engineering-skill](https://github.com/SimoneAvogadro/android-reverse-engineering-skill) | APK / DEX, Kotlin metadata, HTTP API analysis | [7](SKILL_MAP.md#android-reverse-engineering-skill) |
+| [replica-skill](https://github.com/Jakeschincariol/replica-skill) | black-box observation, clean-room specs, behavior tests | [5](SKILL_MAP.md#replica-skill) |
+| [leanrea](https://github.com/aicodeking/leanrea) | CLI orchestration, target triage, evidence | [6](SKILL_MAP.md#leanrea) |
+| [ctf-skills](https://github.com/ljagiello/ctf-skills) | CTF reversing, symbolic execution, emulation | [6](SKILL_MAP.md#ctf-skills) |
+| [reverse-skills](https://github.com/P4nda0s/reverse-skills) | decompiler exports, type reconstruction, instrumentation | [6](SKILL_MAP.md#reverse-skills) |
+| [hello_js_reverse_skill](https://github.com/WhiteNightShadow/hello_js_reverse_skill) | JavaScript AST, deobfuscation, runtime analysis | [5](SKILL_MAP.md#hello-js-reverse-skill) |
+| [Open-ReverseLab](https://github.com/LING71671/open-reverselab) | MCP workbench, native / Android, case reports | [7](SKILL_MAP.md#open-reverselab) |
+| [js-reverse-automation--skill](https://github.com/Fausto-404/js-reverse-automation--skill) | CDP, AST, browser runtime, WASM | [7](SKILL_MAP.md#js-reverse-automation-skill) |
+
+<a id="atlas-policy"></a>
+
+## 範囲・根拠・ライセンス
+
+**対象：** 静的/動的解析、逆コンパイル、再コンパイル、クリーンルーム再実装、ソフトウェア保存に関する公開プロジェクトと資料。Skill は手順をまとめるもので、解析エンジンとは限りません。展開ツールは元のソースを復元せず、素材の再利用権も与えません。
+
+**確認範囲：** 技術マップでは 2026-11-07 に 45 プロジェクトの文書を確認しました。古い全項目の再監査ではありません。この確認でプロジェクトのインストール・実行や、性能・安全性の独立した再現は行っていません。
+
+**REA は任意の関係タグ：** Yes は公開された利用根拠がある場合、No は非 REA の手法や独立した代替、Unverified は関係が未確認の場合です。品質やライセンスの評価ではありません。ベンチマークの比較対象にするだけでは REA の実行時利用に当たりません。[REA サブセット](#atlas-rea)は任意の表示です。
+
+**権限と許諾：** 所有するか明示的に許可された対象とデータのみ解析してください。クラック、DRM 回避、海賊版、無許諾のゲーム素材配布は対象外です。公開されていてもオープンソースとは限りません。不明確な許諾、サブディレクトリ限定の許諾、商用依存関係は上流で確認してください。正規に入手した素材が必要な場合があります。
+
+**権利の区別：** このカタログの独自の貢献は [CC0-1.0](LICENSE) です。上流コード、画像、商標などの権利は別です。アーカイブ済みや初期アルファのプロジェクトは歴史的・実験的資料であり、標準的な推奨ではありません。
+
+<a id="atlas-games"></a>
 
 ## ゲーム
 
@@ -486,6 +474,8 @@ _任意のフィルタ：以下は REA を使用した公開証拠があるプ�
 <tr><td><a href="https://github.com/N0zoM1z0/touhou-reconstruction-factory"><img src="https://opengraph.githubassets.com/1/N0zoM1z0/touhou-reconstruction-factory" width="160" alt="N0zoM1z0/touhou-reconstruction-factory"></a></td><td><a href="https://github.com/N0zoM1z0/touhou-reconstruction-factory"><b>touhou-reconstruction-factory</b></a><br><sub>N0zoM1z0</sub></td><td>東方シリーズ再構築を支えるエージェントパイプライン</td><td>❔ 未確認</td><td><sub>リポジトリカード</sub></td></tr>
 </table>
 
+<a id="atlas-app"></a>
+
 ## アプリ / Electron / デスクトップ
 
 <table>
@@ -526,6 +516,8 @@ _任意のフィルタ：以下は REA を使用した公開証拠があるプ�
 <tr><td>—</td><td><a href="https://github.com/chilliesdev/fmseasonhub-re"><b>fmseasonhub-re</b></a><br><sub>chilliesdev</sub></td><td>REA で FM Season Hub アプリを解析したノート</td><td>✅ はい</td><td><sub>—</sub></td></tr>
 </table>
 
+<a id="atlas-protocol"></a>
+
 ## プロトコル / ハードウェア
 
 <table>
@@ -538,6 +530,8 @@ _任意のフィルタ：以下は REA を使用した公開証拠があるプ�
 <tr><td>—</td><td><a href="https://github.com/EndLess728/MiTV-Remote"><b>MiTV-Remote</b></a><br><sub>EndLess728</sub></td><td>Mac・Android・iPhone から Wi-Fi で Xiaomi テレビを操作</td><td>✅ はい</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/B-Howell/soundconnect-desktop"><b>soundconnect-desktop</b></a><br><sub>B-Howell</sub></td><td>Windows デスクトップから Sony の Bluetooth ヘッドホンを操作</td><td>✅ はい</td><td><sub>—</sub></td></tr>
 </table>
+
+<a id="atlas-firmware"></a>
 
 ## ファームウェア / ドライバ
 
@@ -553,6 +547,8 @@ _任意のフィルタ：以下は REA を使用した公開証拠があるプ�
 <tr><td><a href="https://github.com/grisuno/VSL-DSP"><img src="https://opengraph.githubassets.com/1/grisuno/VSL-DSP" width="160" alt="grisuno/VSL-DSP"></a></td><td><a href="https://github.com/grisuno/VSL-DSP"><b>VSL-DSP</b></a><br><sub>grisuno</sub></td><td>PreSonus AudioBox VSL 用の Linux カーネルモジュール</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
 </table>
 
+<a id="atlas-security"></a>
+
 ## セキュリティ / 評価
 
 <table>
@@ -562,12 +558,20 @@ _任意のフィルタ：以下は REA を使用した公開証拠があるプ�
 <tr><td><a href="https://github.com/NullLabTests/OpenBSD_netcat_REA"><img src="https://raw.githubusercontent.com/NullLabTests/OpenBSD_netcat_REA/main/assets/rea-pipeline.png" width="160" alt="NullLabTests/OpenBSD_netcat_REA"></a></td><td><a href="https://github.com/NullLabTests/OpenBSD_netcat_REA"><b>OpenBSD_netcat_REA</b></a><br><sub>NullLabTests</sub></td><td>REA と Ghidra で netcat-openbsd を静的解析</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
 <tr><td><a href="https://github.com/az9713/REA-demo"><img src="https://opengraph.githubassets.com/1/az9713/REA-demo" width="160" alt="az9713/REA-demo"></a></td><td><a href="https://github.com/az9713/REA-demo"><b>REA-demo</b></a><br><sub>az9713</sub></td><td>REA が自分自身を解析、反証可能な予測付き</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
 <tr><td><a href="https://github.com/UnknownHacker1/rea-groundtruth"><img src="https://opengraph.githubassets.com/1/UnknownHacker1/rea-groundtruth" width="160" alt="UnknownHacker1/rea-groundtruth"></a></td><td><a href="https://github.com/UnknownHacker1/rea-groundtruth"><b>rea-groundtruth</b></a><br><sub>UnknownHacker1</sub></td><td>REA のレポートを実際のソースと突き合わせる</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/ljagiello/ctf-skills"><b>ctf-skills</b></a><br><sub>ljagiello</sub></td><td>CTF agent skills for reversing and related challenge categories, with challenge routing and reproducible writeups.</td><td>❔ 未確認</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/MobSF/Mobile-Security-Framework-MobSF"><b>Mobile-Security-Framework-MobSF</b></a><br><sub>MobSF</sub></td><td>Automated mobile application security assessment workbench with static and dynamic analysis; not a source-reconstruction engine.</td><td>❔ 未確認</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/RyanDFIR/hindsight"><b>hindsight</b></a><br><sub>RyanDFIR</sub></td><td>Browser-forensics parser that correlates Chromium and Firefox profile artifacts into timelines and exportable reports.</td><td>❔ 未確認</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/doyensec/electronegativity"><b>electronegativity</b></a><br><sub>doyensec</sub></td><td>Archived Electron static-analysis scanner for security misconfigurations and anti-patterns.</td><td>❔ 未確認</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/doyensec/ElectroNG"><b>ElectroNG</b></a><br><sub>doyensec</sub></td><td>Open-source successor to Electronegativity for auditing Electron security configurations and implementation patterns.</td><td>❔ 未確認</td><td><sub>—</sub></td></tr>
 </table>
+
+<a id="atlas-tooling"></a>
 
 ## リバースエンジニアリングツール
 
 <table>
 <tr><th width="170">画像</th><th>プロジェクト</th><th>概要</th><th>rea 使用</th><th>画像の出典</th></tr>
+<tr><td>—</td><td><a href="https://github.com/morluto/rea"><b>rea</b></a><br><sub>morluto</sub></td><td>Evidence-oriented CLI and MCP toolkit for native, Android, JavaScript/Electron and firmware analysis; third-party engines are separate.</td><td>❔ 未確認</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/NationalSecurityAgency/ghidra"><img src="images/ghidra-gui.png" width="160" alt="NationalSecurityAgency/ghidra"></a></td><td><a href="https://github.com/NationalSecurityAgency/ghidra"><b>ghidra</b></a><br><sub>NationalSecurityAgency</sub></td><td>NSA が公開する無料の逆コンパイラ・逆アセンブラ</td><td>いいえ</td><td><sub>当リポジトリの撮影</sub></td></tr>
 <tr><td><a href="https://github.com/WerWolv/ImHex"><img src="images/imhex-gui.png" width="160" alt="WerWolv/ImHex"></a></td><td><a href="https://github.com/WerWolv/ImHex"><b>ImHex</b></a><br><sub>WerWolv</sub></td><td>構造を自動で読み解くパターン言語付きの HEX エディタ</td><td>いいえ</td><td><sub>当リポジトリの撮影</sub></td></tr>
 <tr><td><a href="https://github.com/skylot/jadx"><img src="https://user-images.githubusercontent.com/118523/142730720-839f017e-38db-423e-b53f-39f5f0a0316f.png" width="160" alt="skylot/jadx"></a></td><td><a href="https://github.com/skylot/jadx"><b>jadx</b></a><br><sub>skylot</sub></td><td>Android APK を読める Java に戻す</td><td>いいえ</td><td><sub>プロジェクト README</sub></td></tr>
@@ -577,8 +581,8 @@ _任意のフィルタ：以下は REA を使用した公開証拠があるプ�
 <tr><td><a href="https://github.com/radareorg/radare2"><img src="https://raw.githubusercontent.com/radareorg/radare2/master/doc/images/shot.png" width="160" alt="radareorg/radare2"></a></td><td><a href="https://github.com/radareorg/radare2"><b>radare2</b></a><br><sub>radareorg</sub></td><td>スクリプト可能なコマンドラインのリバースエンジニアリング基盤</td><td>いいえ</td><td><sub>プロジェクト README</sub></td></tr>
 <tr><td><a href="https://github.com/frida/frida"><img src="images/frida-terminal.png" width="160" alt="frida/frida"></a></td><td><a href="https://github.com/frida/frida"><b>frida</b></a><br><sub>frida</sub></td><td>実行中のアプリにフックし、その場で挙動を書き換える</td><td>いいえ</td><td><sub>当リポジトリの撮影</sub></td></tr>
 <tr><td><a href="https://github.com/rizinorg/cutter"><img src="https://raw.githubusercontent.com/rizinorg/cutter/dev/docs/source/images/screenshot.png" width="160" alt="rizinorg/cutter"></a></td><td><a href="https://github.com/rizinorg/cutter"><b>cutter</b></a><br><sub>rizinorg</sub></td><td>Rizin ベースの使いやすいリバースエンジニアリング GUI</td><td>いいえ</td><td><sub>プロジェクト README</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/storytold/craft-anything"><b>craft-anything</b></a><br><sub>storytold</sub></td><td>どんなクローズドソースのウェブサイト、アプリ、ゲームでも観察して動きを調べ、AIに同じように動く無料版を作らせるオープンソースのRustツール。</td><td>いいえ</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/mrexodia/ida-pro-mcp"><img src="https://img.youtube.com/vi/iFxNuk3kxhk/0.jpg" width="160" alt="mrexodia/ida-pro-mcp"></a></td><td><a href="https://github.com/mrexodia/ida-pro-mcp"><b>ida-pro-mcp</b></a><br><sub>mrexodia</sub></td><td>MCP 経由で AI エージェントに IDA Pro を操作させる</td><td>いいえ</td><td><sub>プロジェクト README</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/storytold/craft-anything"><b>craft-anything</b></a><br><sub>storytold</sub></td><td>Web・アプリ・ゲーム向けの Rust 製逆解析・AI 再構築基盤。CLI/MCP 対応の初期アルファ版で、一部の動的解析・エージェント連携は未検証。</td><td>いいえ</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/mrexodia/ida-pro-mcp"><img src="https://img.youtube.com/vi/iFxNuk3kxhk/0.jpg" width="160" alt="mrexodia/ida-pro-mcp"></a></td><td><a href="https://github.com/mrexodia/ida-pro-mcp"><b>ida-pro-mcp</b></a><br><sub>mrexodia</sub></td><td>IDA Pro 用 MCP ブリッジ。現在は公式 HexRaysSA/ida-mcp を推奨。</td><td>いいえ</td><td><sub>プロジェクト README</sub></td></tr>
 <tr><td><a href="https://github.com/LaurieWired/GhidraMCP"><img src="https://github.com/user-attachments/assets/4986d702-be3f-4697-acce-aea55cd79ad3" width="160" alt="LaurieWired/GhidraMCP"></a></td><td><a href="https://github.com/LaurieWired/GhidraMCP"><b>GhidraMCP</b></a><br><sub>LaurieWired</sub></td><td>AI アシスタント（Claude など）が無料のリバースエンジニアリングツール Ghidra を直接操作できるようにする橋。AI がデコンパイルや関数リネームを代行できる。</td><td>いいえ</td><td><sub>プロジェクト README</sub></td></tr>
 <tr><td><a href="https://github.com/dnSpyEx/dnSpy"><img src="https://raw.githubusercontent.com/dnSpyEx/dnSpy/master/images/debug-animated.gif" width="160" alt="dnSpyEx/dnSpy"></a></td><td><a href="https://github.com/dnSpyEx/dnSpy"><b>dnSpy</b></a><br><sub>dnSpyEx</sub></td><td>ソースなしで .NET アセンブリをデバッグ・編集</td><td>いいえ</td><td><sub>プロジェクト README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/wtsxdev/reverse-engineering"><b>reverse-engineering</b></a><br><sub>wtsxDev</sub></td><td>クラシックなリバースエンジニアリングのリソース・ツール・学習資料リスト</td><td>いいえ</td><td><sub>—</sub></td></tr>
@@ -589,7 +593,7 @@ _任意のフィルタ：以下は REA を使用した公開証拠があるプ�
 <tr><td>—</td><td><a href="https://github.com/alphaSeclab/awesome-reverse-engineering"><b>awesome-reverse-engineering</b></a><br><sub>alphaSeclab</sub></td><td>主要プラットフォームと領域をカバーする大規模なリバースエンジニアリングツール/リソース集。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/mandiant/flare-floss"><img src="images/floss-terminal.png" width="160" alt="mandiant/flare-floss"></a></td><td><a href="https://github.com/mandiant/flare-floss"><b>flare-floss</b></a><br><sub>mandiant</sub></td><td>マルウェアに隠された難読化文字列を取り出す</td><td>いいえ</td><td><sub>当リポジトリの撮影</sub></td></tr>
 <tr><td><a href="https://github.com/rizinorg/rizin"><img src="https://rizin.re/images/rizin_preview.png" width="160" alt="rizinorg/rizin"></a></td><td><a href="https://github.com/rizinorg/rizin"><b>rizin</b></a><br><sub>rizinorg</sub></td><td>radare2 から派生した UNIX 流のリバースエンジニアリング基盤</td><td>いいえ</td><td><sub>プロジェクト README</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/aicodeking/leanrea"><b>leanrea</b></a><br><sub>aicodeking</sub></td><td>REA の MCP 層を置き換える軽量スキル。エージェントが CLI ツールを直接駆動</td><td>✅ はい</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/aicodeking/leanrea"><b>leanrea</b></a><br><sub>aicodeking</sub></td><td>REA の MCP 層を置き換える軽量スキル。エージェントが CLI ツールを直接駆動</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/JusticeRage/Gepetto"><b>Gepetto</b></a><br><sub>JusticeRage</sub></td><td>IDA Pro プラグイン。言語モデルで関数の説明・リネーム・コメントを支援。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/google/bindiff"><img src="https://zynamics.com/images/bindiff_scr1_s.gif" width="160" alt="google/bindiff"></a></td><td><a href="https://github.com/google/bindiff"><b>bindiff</b></a><br><sub>google</sub></td><td>2 つのバイナリ間の違いを見つける</td><td>いいえ</td><td><sub>プロジェクト README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/zinja-coder/jadx-ai-mcp"><b>jadx-ai-mcp</b></a><br><sub>zinja-coder</sub></td><td>JADX 用 MCP プラグイン。AI エージェントが Android APK/DEX をデコンパイル・ナビゲート可能。</td><td>いいえ</td><td><sub>—</sub></td></tr>
@@ -645,7 +649,32 @@ _任意のフィルタ：以下は REA を使用した公開証拠があるプ�
 <tr><td>—</td><td><a href="https://github.com/CurLeaf/dsh-command-rea"><b>dsh-command-rea</b></a><br><sub>CurLeaf</sub></td><td>DSH の /rea スラッシュコマンド。リクエストを REA スキルと MCP ツールにルーティング。</td><td>✅ はい</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/LostArtefacts/decomp-tools"><b>decomp-tools</b></a><br><sub>LostArtefacts</sub></td><td>Windows 版トゥームレイダー2～5の一致するデコンパイルを支援するツール。Wine 上でオリジナルの MSVC 5/6 コンパイラを使用。</td><td>いいえ</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/zarvox32/vb-native-decompiler"><b>vb-native-decompiler</b></a><br><sub>zarvox32</sub></td><td>クローズドソースの Visual Basic 5/6 ネイティブコードプログラムを読みやすい VB ソースに逆コンパイルし、すべてのプロシージャを元の機械語と照合して検証するツール。</td><td>いいえ</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/zhaoxuya520/reverse-skill"><b>reverse-skill</b></a><br><sub>zhaoxuya520</sub></td><td>Agent skill router and playbooks for Android, native binaries, JavaScript, CTF and firmware, with evidence and reporting workflows.</td><td>❔ 未確認</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/SimoneAvogadro/android-reverse-engineering-skill"><b>android-reverse-engineering-skill</b></a><br><sub>SimoneAvogadro</sub></td><td>Android static-analysis skill for APK/XAPK/JAR/AAR inspection, Kotlin metadata recovery and HTTP API documentation.</td><td>❔ 未確認</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/P4nda0s/reverse-skills"><b>reverse-skills</b></a><br><sub>P4nda0s</sub></td><td>Skills for interpreting IDA exports, recovering symbols and structures, and Frida/Unicorn-assisted analysis; MIT is claimed only in the README.</td><td>❔ 未確認</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/LING71671/open-reverselab"><b>open-reverselab</b></a><br><sub>LING71671</sub></td><td>Agent-oriented reverse-engineering workbench combining MCP tools, a knowledge base and evidence workspaces; review the license and disclaimer.</td><td>❔ 未確認</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/androguard/androguard"><b>androguard</b></a><br><sub>androguard</sub></td><td>Python framework for APK/DEX structure and cross-reference analysis; development-branch capabilities may differ from PyPI releases.</td><td>❔ 未確認</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/sensepost/objection"><b>objection</b></a><br><sub>sensepost</sub></td><td>Frida-based runtime exploration and security assessment toolkit for authorized Android and iOS applications.</td><td>❔ 未確認</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/unicorn-engine/unicorn"><b>unicorn</b></a><br><sub>unicorn-engine</sub></td><td>Multi-architecture CPU emulation framework for isolated code execution, instrumentation and reverse-engineering experiments.</td><td>❔ 未確認</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/pwndbg/pwndbg"><b>pwndbg</b></a><br><sub>pwndbg</sub></td><td>GDB and LLDB extension for low-level debugging and reverse engineering; LLDB support is still early-stage.</td><td>❔ 未確認</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Gallopsled/pwntools"><b>pwntools</b></a><br><sub>Gallopsled</sub></td><td>Python framework for CTF experiments and binary-analysis automation; component licenses vary.</td><td>❔ 未確認</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/zinja-coder/jadx-mcp-server"><b>jadx-mcp-server</b></a><br><sub>zinja-coder</sub></td><td>MCP server that exposes Android decompilation context through the companion JADX-AI-MCP plugin.</td><td>❔ 未確認</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/dnakov/frida-mcp"><b>frida-mcp</b></a><br><sub>dnakov</sub></td><td>Community MCP bridge for Frida devices, processes and JavaScript sessions; check maintenance and version compatibility.</td><td>❔ 未確認</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/P4nda0s/IDA-NO-MCP"><b>IDA-NO-MCP</b></a><br><sub>P4nda0s</sub></td><td>Exports IDA decompilation and call relationships into agent-readable files; no explicit root license file was found.</td><td>❔ 未確認</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Jakeschincariol/replica-skill"><b>replica-skill</b></a><br><sub>Jakeschincariol</sub></td><td>A clean-room product-reconstruction skill suite for researching public interfaces, planning original implementations and checking functional and visual parity.</td><td>❔ 未確認</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/WhiteNightShadow/hello_js_reverse_skill"><b>hello_js_reverse_skill</b></a><br><sub>WhiteNightShadow</sub></td><td>A JavaScript-analysis skill that routes signature, obfuscation, cookie and WASM investigations through controlled experiments and browser evidence.</td><td>❔ 未確認</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Fausto-404/js-reverse-automation--skill"><b>js-reverse-automation--skill</b></a><br><sub>Fausto-404</sub></td><td>An evidence-driven JavaScript workflow that combines Chrome DevTools MCP with runtime probes and JSRPC, Flask and Burp artifact generation.</td><td>❔ 未確認</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/ChromeDevTools/chrome-devtools-mcp"><b>chrome-devtools-mcp</b></a><br><sub>ChromeDevTools</sub></td><td>Official Chrome DevTools integration for agent-driven browser inspection, network debugging, performance traces and automation.</td><td>❔ 未確認</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/microsoft/playwright-mcp"><b>playwright-mcp</b></a><br><sub>microsoft</sub></td><td>Official Playwright MCP server for structured accessibility-based browser interaction and exploratory testing.</td><td>❔ 未確認</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/microsoft/playwright-cli"><b>playwright-cli</b></a><br><sub>microsoft</sub></td><td>Playwright command-line browser actions and reusable agent skills for screenshots, selectors, recordings and testing.</td><td>❔ 未確認</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/j4k0xb/webcrack"><b>webcrack</b></a><br><sub>j4k0xb</sub></td><td>JavaScript deobfuscation and bundle-unpacking tool for supported obfuscator.io, webpack and Browserify patterns.</td><td>❔ 未確認</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/pionxzh/wakaru"><b>wakaru</b></a><br><sub>pionxzh</sub></td><td>JavaScript decompiler and bundle unpacker that recovers readable modules and modern syntax from minified or transpiled production builds.</td><td>❔ 未確認</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/WhiteNightShadow/camoufox-reverse-mcp"><b>camoufox-reverse-mcp</b></a><br><sub>WhiteNightShadow</sub></td><td>Camoufox-based MCP server for JavaScript runtime inspection, script search, network capture, hooks and offline signer verification.</td><td>❔ 未確認</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/WebAssembly/wabt"><b>wabt</b></a><br><sub>WebAssembly</sub></td><td>WebAssembly toolkit for binary/text conversion, validation, disassembly, interpretation and C translation.</td><td>❔ 未確認</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/webrecorder/browsertrix-crawler"><b>browsertrix-crawler</b></a><br><sub>webrecorder</sub></td><td>High-fidelity browser-based crawler that captures web content through CDP inside a standalone container.</td><td>❔ 未確認</td><td><sub>—</sub></td></tr>
 </table>
+
+<a id="atlas-official"></a>
 
 ## REA 公式ショーケース
 
@@ -657,6 +686,86 @@ _任意のフィルタ：以下は REA を使用した公開証拠があるプ�
 <tr><td><a href="https://rea.tools/showcase/aegis/"><img src="images/showcase-aegis.png" width="160" alt="Aegis: TOTP code generation"></a></td><td><a href="https://rea.tools/showcase/aegis/"><b>Aegis: TOTP code generation</b></a></td><td>Aegis（Android）が二段階認証コードを生成する仕組みを解明</td><td>✅ はい</td><td><sub>当リポジトリの撮影</sub></td></tr>
 <tr><td><a href="https://rea.tools/showcase/ctf/"><img src="images/showcase-ctf.png" width="160" alt="CTF: flag checker"></a></td><td><a href="https://rea.tools/showcase/ctf/"><b>CTF: flag checker</b></a></td><td>DownUnderCTF 2023 のリバーシング問題を順に解く</td><td>✅ はい</td><td><sub>当リポジトリの撮影</sub></td></tr>
 </table>
+
+<a id="atlas-rea"></a>
+
+## 任意の表示：REA を使用したプロジェクト
+
+この根拠付きサブセットは上のプラットフォーム・分野別一覧の項目を再掲します。REA に依存しない独立したツールやプロジェクトも収録しています。
+
+<details>
+<summary>REA タグ付き 57 項目を展開</summary>
+
+<table>
+<tr><th width="170">画像</th><th>プロジェクト</th><th>概要</th><th>rea 使用</th><th>画像の出典</th></tr>
+<tr><td><a href="https://github.com/morluto/rea/discussions/2254"><img src="images/rea-discussion-2254.png" width="160" alt="REA discussion #2254"></a></td><td><a href="https://github.com/morluto/rea/discussions/2254"><b>REA discussion #2254</b></a></td><td>シンボルなし bzip2 を解析し、元のビルドと照合</td><td>✅ はい</td><td><sub>当リポジトリの撮影</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/cranebeaker/coop-anything"><b>coop-anything</b></a><br><sub>cranebeaker</sub></td><td>REA でエントリポイントを調査し、シングルプレイゲームに協力モードを追加する MCP サーバー</td><td>✅ はい</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Caho1/open-claude-ui"><b>open-claude-ui</b></a><br><sub>Caho1</sub></td><td>REA で Claude Desktop の UI とインタラクション物理を抽出した高忠実度リビルド</td><td>✅ はい</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/MiaAI-Lab/sparkDash"><b>sparkDash</b></a><br><sub>MiaAI-Lab</sub></td><td>長時間の REA 分析ジョブを統合し、結果をオンデマンドで読み込むマルチデバイスダッシュボード</td><td>✅ はい</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/michaelshimeles/terminal-rs"><img src="https://raw.githubusercontent.com/michaelshimeles/terminal-rs/master/docs/img/overview.png" width="160" alt="michaelshimeles/terminal-rs"></a></td><td><a href="https://github.com/michaelshimeles/terminal-rs"><b>terminal-rs</b></a><br><sub>michaelshimeles</sub></td><td>Rust 製の Bloomberg 風トレーディング端末</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
+<tr><td><a href="https://github.com/ShadowSwaps/REA-Reconstruction-Companion"><img src="https://opengraph.githubassets.com/1/ShadowSwaps/REA-Reconstruction-Companion" width="160" alt="ShadowSwaps/REA-Reconstruction-Companion"></a></td><td><a href="https://github.com/ShadowSwaps/REA-Reconstruction-Companion"><b>REA-Reconstruction-Companion</b></a><br><sub>ShadowSwaps</sub></td><td>再構築を常に証拠と結びつけるエージェントスキル</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Xiangyu-CAS/rea-capcut"><b>rea-capcut</b></a><br><sub>Xiangyu-CAS</sub></td><td>REA で CapCut を調べて作り直したオープンソースのオフライン動画編集</td><td>✅ はい</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/michaelshimeles/rec-rs"><img src="https://raw.githubusercontent.com/michaelshimeles/rec-rs/main/docs/screenshots/main.png" width="160" alt="michaelshimeles/rec-rs"></a></td><td><a href="https://github.com/michaelshimeles/rec-rs"><b>rec-rs</b></a><br><sub>michaelshimeles</sub></td><td>OBS を参考にした Rust 製の高速 macOS 録画ツール</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/giveen/decomp.anything"><b>decomp.anything</b></a><br><sub>giveen</sub></td><td>更新停止したマッチング型デコンパイラ decomp.wtf の継続フォーク。Windows/Linux バイナリ対応と REA 連携を追加し、ゲーム以外のプログラムもエージェントが解析できるようにした。</td><td>✅ はい</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/N0zoM1z0/dx-ball"><img src="https://raw.githubusercontent.com/N0zoM1z0/dx-ball/main/resources/dxball-title.png" width="160" alt="N0zoM1z0/dx-ball"></a></td><td><a href="https://github.com/N0zoM1z0/dx-ball"><b>dx-ball</b></a><br><sub>N0zoM1z0</sub></td><td>DX-Ball 1.07 を C/C++ で再構築、元の x86 と照合テスト</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
+<tr><td><a href="https://github.com/michaelshimeles/sketch"><img src="https://raw.githubusercontent.com/michaelshimeles/sketch/main/docs/screenshots/app_demo.png" width="160" alt="michaelshimeles/sketch"></a></td><td><a href="https://github.com/michaelshimeles/sketch"><b>sketch</b></a><br><sub>michaelshimeles</sub></td><td>Paper を研究して作った Rust 製の無限デザインキャンバス</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
+<tr><td><a href="https://github.com/czcdr/dsh-plugin-rea"><img src="https://raw.githubusercontent.com/czcdr/dsh-plugin-rea/main/assets/screenshot-1.png" width="160" alt="czcdr/dsh-plugin-rea"></a></td><td><a href="https://github.com/czcdr/dsh-plugin-rea"><b>dsh-plugin-rea</b></a><br><sub>czcdr</sub></td><td>DeepSeek Harness で REA を、Ghidra も自動導入</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
+<tr><td><a href="https://github.com/Moxnatiy/OpenBattlefield2"><img src="https://raw.githubusercontent.com/Moxnatiy/OpenBattlefield2/master/docs/screenshots/menu-main.png" width="160" alt="Moxnatiy/OpenBattlefield2"></a></td><td><a href="https://github.com/Moxnatiy/OpenBattlefield2"><b>OpenBattlefield2</b></a><br><sub>Moxnatiy</sub></td><td>バトルフィールド 2 のエンジンを C++20 でクリーンルーム再実装（手持ちの製品版を使用）</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
+<tr><td><a href="https://github.com/0xshlomil/ida-free-mcp"><img src="https://opengraph.githubassets.com/1/0xshlomil/ida-free-mcp" width="160" alt="0xshlomil/ida-free-mcp"></a></td><td><a href="https://github.com/0xshlomil/ida-free-mcp"><b>ida-free-mcp</b></a><br><sub>0xshlomil</sub></td><td>MCP 経由で AI エージェントから IDA Free を使う</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
+<tr><td><a href="https://github.com/lxistired/ledger-reborn"><img src="https://raw.githubusercontent.com/lxistired/ledger-reborn/main/docs/screenshots/accounting.png" width="160" alt="lxistired/ledger-reborn"></a></td><td><a href="https://github.com/lxistired/ledger-reborn"><b>ledger-reborn</b></a><br><sub>lxistired</sub></td><td>QuickBooks for Mac を参考にしたローカル優先の会計アプリ</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/glauberlima/open-scrantic"><b>open-scrantic</b></a><br><sub>glauberlima</sub></td><td>REA で逆解析した 1992 年 Johnny Castaway スクリーンセーバーの Rust 再実装</td><td>✅ はい</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/N0zoM1z0/th04"><img src="https://raw.githubusercontent.com/N0zoM1z0/th04/main/resources/title-screen.png" width="160" alt="N0zoM1z0/th04"></a></td><td><a href="https://github.com/N0zoM1z0/th04"><b>th04</b></a><br><sub>N0zoM1z0</sub></td><td>東方幻想郷（PC-98）を読めるソースに、当時のコンパイラで検証</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/gryszzz/reverse-engineer-everything"><b>reverse-engineer-everything</b></a><br><sub>gryszzz</sub></td><td>REA エンジン上に構築されたローカルワークベンチと調査スタジオ。ファイルをアップロードせずに証拠に基づくソフトウェア分析を行う。</td><td>✅ はい</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/tanepiper/game-frame"><b>game-frame</b></a><br><sub>tanepiper</sub></td><td>配布ファイルからエージェントがゲームを解析するフレームワーク</td><td>✅ はい</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/rodneypantonial/sims3-modernization"><b>sims3-modernization</b></a><br><sub>rodneypantonial</sub></td><td>最新 PC でシムズ3 のカクつきとクラッシュを減らす</td><td>✅ はい</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/alexmi256/rea-agent-docker"><img src="https://opengraph.githubassets.com/1/alexmi256/rea-agent-docker" width="160" alt="alexmi256/rea-agent-docker"></a></td><td><a href="https://github.com/alexmi256/rea-agent-docker"><b>rea-agent-docker</b></a><br><sub>alexmi256</sub></td><td>Ghidra・Hopper・IDA 版がある REA の Docker イメージ</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/nicolvus/a6000-fw-decomp"><b>a6000-fw-decomp</b></a><br><sub>nicolvus</sub></td><td>REA と Ghidra で Sony A6000 のファームウェアを解析</td><td>✅ はい</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/EndLess728/MiTV-Remote"><b>MiTV-Remote</b></a><br><sub>EndLess728</sub></td><td>Mac・Android・iPhone から Wi-Fi で Xiaomi テレビを操作</td><td>✅ はい</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/ucodia/desktop-games-nostalgia"><img src="https://raw.githubusercontent.com/ucodia/desktop-games-nostalgia/main/docs/demo.gif" width="160" alt="ucodia/desktop-games-nostalgia"></a></td><td><a href="https://github.com/ucodia/desktop-games-nostalgia"><b>desktop-games-nostalgia</b></a><br><sub>ucodia</sub></td><td>デスクトップをまた壊そう：Gemtree の 2000 年作を macOS とブラウザへ</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
+<tr><td><a href="https://github.com/cudanexus/vd-streamer-linux"><img src="https://opengraph.githubassets.com/1/cudanexus/vd-streamer-linux" width="160" alt="cudanexus/vd-streamer-linux"></a></td><td><a href="https://github.com/cudanexus/vd-streamer-linux"><b>vd-streamer-linux</b></a><br><sub>cudanexus</sub></td><td>Linux デスクトップを Quest・Pico へストリーミング</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
+<tr><td><a href="https://github.com/Nowng/rea-mcp"><img src="https://opengraph.githubassets.com/1/Nowng/rea-mcp" width="160" alt="Nowng/rea-mcp"></a></td><td><a href="https://github.com/Nowng/rea-mcp"><b>rea-mcp</b></a><br><sub>Nowng</sub></td><td>LM Studio のローカルモデルで REA を使う</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
+<tr><td><a href="https://github.com/pablodiazjorge/rea-lab"><img src="https://opengraph.githubassets.com/1/pablodiazjorge/rea-lab" width="160" alt="pablodiazjorge/rea-lab"></a></td><td><a href="https://github.com/pablodiazjorge/rea-lab"><b>rea-lab</b></a><br><sub>pablodiazjorge</sub></td><td>Windows + Ghidra の演習と事前登録した REA 評価</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
+<tr><td><a href="https://github.com/NullLabTests/OpenBSD_netcat_REA"><img src="https://raw.githubusercontent.com/NullLabTests/OpenBSD_netcat_REA/main/assets/rea-pipeline.png" width="160" alt="NullLabTests/OpenBSD_netcat_REA"></a></td><td><a href="https://github.com/NullLabTests/OpenBSD_netcat_REA"><b>OpenBSD_netcat_REA</b></a><br><sub>NullLabTests</sub></td><td>REA と Ghidra で netcat-openbsd を静的解析</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
+<tr><td><a href="https://github.com/sickpyramid/ReaFuse"><img src="https://opengraph.githubassets.com/1/sickpyramid/ReaFuse" width="160" alt="sickpyramid/ReaFuse"></a></td><td><a href="https://github.com/sickpyramid/ReaFuse"><b>ReaFuse</b></a><br><sub>sickpyramid</sub></td><td>REA を使って 2 つの JS/TS プロジェクトを融合</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
+<tr><td><a href="https://github.com/grisuno/VSL-DSP"><img src="https://opengraph.githubassets.com/1/grisuno/VSL-DSP" width="160" alt="grisuno/VSL-DSP"></a></td><td><a href="https://github.com/grisuno/VSL-DSP"><b>VSL-DSP</b></a><br><sub>grisuno</sub></td><td>PreSonus AudioBox VSL 用の Linux カーネルモジュール</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
+<tr><td><a href="https://github.com/iammukeshm/hexgrab"><img src="https://opengraph.githubassets.com/1/iammukeshm/hexgrab" width="160" alt="iammukeshm/hexgrab"></a></td><td><a href="https://github.com/iammukeshm/hexgrab"><b>hexgrab</b></a><br><sub>iammukeshm</sub></td><td>PowerToys のバイナリを調べて作った小さな Windows カラーピッカー</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
+<tr><td><a href="https://github.com/zhaofeng130/dsh-rea"><img src="https://opengraph.githubassets.com/1/zhaofeng130/dsh-rea" width="160" alt="zhaofeng130/dsh-rea"></a></td><td><a href="https://github.com/zhaofeng130/dsh-rea"><b>dsh-rea</b></a><br><sub>zhaofeng130</sub></td><td>DeepSeek Harness に REA のスキルとツールを追加</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
+<tr><td><a href="https://github.com/pablodiazjorge/rea-casebook"><img src="https://raw.githubusercontent.com/pablodiazjorge/rea-casebook/main/media/session-dark.png" width="160" alt="pablodiazjorge/rea-casebook"></a></td><td><a href="https://github.com/pablodiazjorge/rea-casebook"><b>rea-casebook</b></a><br><sub>pablodiazjorge</sub></td><td>Claude Code の結論すべてに実際の REA 証拠を引用させる</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/B-Howell/soundconnect-desktop"><b>soundconnect-desktop</b></a><br><sub>B-Howell</sub></td><td>Windows デスクトップから Sony の Bluetooth ヘッドホンを操作</td><td>✅ はい</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/tuunanet/rea-ski-or-die-reconstruction"><img src="https://raw.githubusercontent.com/tuunanet/rea-ski-or-die-reconstruction/main/docs/snowball-war.gif" width="160" alt="tuunanet/rea-ski-or-die-reconstruction"></a></td><td><a href="https://github.com/tuunanet/rea-ski-or-die-reconstruction"><b>rea-ski-or-die-reconstruction</b></a><br><sub>tuunanet</sub></td><td>Ski or Die の雪合戦を Rust + SDL2 で再現（素材は各自用意）</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
+<tr><td><a href="https://github.com/OpenRsG/GunZRs"><img src="https://raw.githubusercontent.com/OpenRsG/GunZRs/main/docs/media/menu.jpg" width="160" alt="OpenRsG/GunZRs"></a></td><td><a href="https://github.com/OpenRsG/GunZRs"><b>GunZRs</b></a><br><sub>OpenRsG</sub></td><td>GunZ: The Duel を Rust + Bevy で復活</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
+<tr><td><a href="https://github.com/sheilacraig/dsh-rea-mcp"><img src="https://opengraph.githubassets.com/1/sheilacraig/dsh-rea-mcp" width="160" alt="sheilacraig/dsh-rea-mcp"></a></td><td><a href="https://github.com/sheilacraig/dsh-rea-mcp"><b>dsh-rea-mcp</b></a><br><sub>sheilacraig</sub></td><td>設定だけで DeepSeek Harness に REA を組み込む</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
+<tr><td><a href="https://github.com/az9713/wispr-flow-rea-teardown"><img src="https://img.youtube.com/vi/FnB9tHKBJXQ/maxresdefault.jpg" width="160" alt="az9713/wispr-flow-rea-teardown"></a></td><td><a href="https://github.com/az9713/wispr-flow-rea-teardown"><b>wispr-flow-rea-teardown</b></a><br><sub>az9713</sub></td><td>Wispr Flow の音声パイプラインを分解、64 行の再実装付き</td><td>✅ はい</td><td><sub><a href="https://img.youtube.com/vi/FnB9tHKBJXQ/maxresdefault.jpg">動画サムネイル</a></sub></td></tr>
+<tr><td><a href="https://github.com/KarlssonChristoffer/DiskLens"><img src="https://opengraph.githubassets.com/1/KarlssonChristoffer/DiskLens" width="160" alt="KarlssonChristoffer/DiskLens"></a></td><td><a href="https://github.com/KarlssonChristoffer/DiskLens"><b>DiskLens</b></a><br><sub>KarlssonChristoffer</sub></td><td>WinDirStat 風に Windows 11 のディスク使用量を可視化</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
+<tr><td><a href="https://github.com/ya123-4/rea-dsh-plugin"><img src="https://opengraph.githubassets.com/1/ya123-4/rea-dsh-plugin" width="160" alt="ya123-4/rea-dsh-plugin"></a></td><td><a href="https://github.com/ya123-4/rea-dsh-plugin"><b>rea-dsh-plugin</b></a><br><sub>ya123-4</sub></td><td>DeepSeek Harness に REA の MCP ツールを登録</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
+<tr><td><a href="https://github.com/az9713/REA-demo"><img src="https://opengraph.githubassets.com/1/az9713/REA-demo" width="160" alt="az9713/REA-demo"></a></td><td><a href="https://github.com/az9713/REA-demo"><b>REA-demo</b></a><br><sub>az9713</sub></td><td>REA が自分自身を解析、反証可能な予測付き</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
+<tr><td><a href="https://github.com/cognixws/picode-rea"><img src="https://opengraph.githubassets.com/1/cognixws/picode-rea" width="160" alt="cognixws/picode-rea"></a></td><td><a href="https://github.com/cognixws/picode-rea"><b>picode-rea</b></a><br><sub>cognixws</sub></td><td>PiCode から REA の静的解析ツールを使う</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
+<tr><td><a href="https://github.com/jinshi666888/rea-playbook"><img src="https://raw.githubusercontent.com/jinshi666888/rea-playbook/main/docs/assets/demo.gif" width="160" alt="jinshi666888/rea-playbook"></a></td><td><a href="https://github.com/jinshi666888/rea-playbook"><b>rea-playbook</b></a><br><sub>jinshi666888</sub></td><td>小さな Electron ターゲット付きの REA ハンズオン</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
+<tr><td><a href="https://github.com/UnknownHacker1/rea-groundtruth"><img src="https://opengraph.githubassets.com/1/UnknownHacker1/rea-groundtruth" width="160" alt="UnknownHacker1/rea-groundtruth"></a></td><td><a href="https://github.com/UnknownHacker1/rea-groundtruth"><b>rea-groundtruth</b></a><br><sub>UnknownHacker1</sub></td><td>REA のレポートを実際のソースと突き合わせる</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Stijnus/dsh-rev-eng"><b>dsh-rev-eng</b></a><br><sub>Stijnus</sub></td><td>REA スキルとオプションの MCP をパッケージした DSH プラグイン。リバースエンジニアリングと Mac アプリ構築用。</td><td>✅ はい</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/alemigav/re2-64-decomp"><img src="https://opengraph.githubassets.com/1/alemigav/re2-64-decomp" width="160" alt="alemigav/re2-64-decomp"></a></td><td><a href="https://github.com/alemigav/re2-64-decomp"><b>re2-64-decomp</b></a><br><sub>alemigav</sub></td><td>AIツール（REA + Ghidra）でニンテンドー64版『バイオハザード2』を解析。数千のデコンパイル関数と検証スイートあり。ゲームROMは含まれません。</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
+<tr><td><a href="https://rea.tools/showcase/dx-ball/"><img src="images/showcase-dx-ball.png" width="160" alt="DX-Ball: sound-pan function"></a></td><td><a href="https://rea.tools/showcase/dx-ball/"><b>DX-Ball: sound-pan function</b></a></td><td>REA が DX-Ball の音響関数をバイト単位で一致する C に戻す過程</td><td>✅ はい</td><td><sub>当リポジトリの撮影</sub></td></tr>
+<tr><td><a href="https://rea.tools/showcase/notion/"><img src="images/showcase-notion.png" width="160" alt="Notion: Electron clipboard bridge"></a></td><td><a href="https://rea.tools/showcase/notion/"><b>Notion: Electron clipboard bridge</b></a></td><td>Notion のコピー操作をページから IPC、メインプロセスまで追跡</td><td>✅ はい</td><td><sub>当リポジトリの撮影</sub></td></tr>
+<tr><td><a href="https://rea.tools/showcase/th04/"><img src="images/showcase-th04.png" width="160" alt="TH04: PC-98 bullet-ring maths"></a></td><td><a href="https://rea.tools/showcase/th04/"><b>TH04: PC-98 bullet-ring maths</b></a></td><td>16 ビット DOS コードから東方幻想郷の弾幕角度計算を復元</td><td>✅ はい</td><td><sub>当リポジトリの撮影</sub></td></tr>
+<tr><td><a href="https://rea.tools/showcase/aegis/"><img src="images/showcase-aegis.png" width="160" alt="Aegis: TOTP code generation"></a></td><td><a href="https://rea.tools/showcase/aegis/"><b>Aegis: TOTP code generation</b></a></td><td>Aegis（Android）が二段階認証コードを生成する仕組みを解明</td><td>✅ はい</td><td><sub>当リポジトリの撮影</sub></td></tr>
+<tr><td><a href="https://rea.tools/showcase/ctf/"><img src="images/showcase-ctf.png" width="160" alt="CTF: flag checker"></a></td><td><a href="https://rea.tools/showcase/ctf/"><b>CTF: flag checker</b></a></td><td>DownUnderCTF 2023 のリバーシング問題を順に解く</td><td>✅ はい</td><td><sub>当リポジトリの撮影</sub></td></tr>
+<tr><td><a href="https://github.com/a-barzanti/ai-rebuilds"><img src="https://opengraph.githubassets.com/1/a-barzanti/ai-rebuilds" width="160" alt="a-barzanti/ai-rebuilds"></a></td><td><a href="https://github.com/a-barzanti/ai-rebuilds"><b>ai-rebuilds</b></a><br><sub>a-barzanti</sub></td><td>見捨てられたゲームをブラウザで復活、元ファイルは含まない</td><td>✅ はい</td><td><sub>リポジトリカード</sub></td></tr>
+<tr><td><a href="https://github.com/AdamLinCodes/AdamTerm"><img src="https://raw.githubusercontent.com/AdamLinCodes/AdamTerm/main/docs/adamterm.png" width="160" alt="AdamLinCodes/AdamTerm"></a></td><td><a href="https://github.com/AdamLinCodes/AdamTerm"><b>AdamTerm</b></a><br><sub>AdamLinCodes</sub></td><td>Ghostty を調べて作ったミニマルな macOS ターミナル</td><td>✅ はい</td><td><sub>プロジェクト README</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/chilliesdev/fmseasonhub-re"><b>fmseasonhub-re</b></a><br><sub>chilliesdev</sub></td><td>REA で FM Season Hub アプリを解析したノート</td><td>✅ はい</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/carlhako/keen-clone"><b>keen-clone</b></a><br><sub>carlhako</sub></td><td>REA + Ghidra で関数単位に復元した Commander Keen 1 のネイティブ Linux/SDL2 再実装</td><td>✅ はい</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/NathanKanaeru/samp-client-re"><b>samp-client-re</b></a><br><sub>NathanKanaeru</sub></td><td>REA/Ghidra でアーキテクチャを復元した SA-MP 0.3.DL-R1 のクリーンルームクライアント再実装</td><td>✅ はい</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/CurLeaf/dsh-command-rea"><b>dsh-command-rea</b></a><br><sub>CurLeaf</sub></td><td>DSH の /rea スラッシュコマンド。リクエストを REA スキルと MCP ツールにルーティング。</td><td>✅ はい</td><td><sub>—</sub></td></tr>
+</table>
+
+</details>
+
+<a id="atlas-data"></a>
+
+## データと貢献
+
+[data.json](data.json) は項目、[descriptions.json](descriptions.json) は表示用説明、[skill-map.json](skill-map.json) は技術分類と根拠、[llms.txt](llms.txt) はエージェント向けの簡潔な索引です。
+
+追加・修正は [CONTRIBUTING.md](CONTRIBUTING.md) を参照し、元データを編集して `python render.py` と `python validate.py` を実行してください。生成された README は直接編集しません。一部の並び順は [stars.json](stars.json) の過去の記録に基づき、最新の人気や品質の順位ではありません。
 
 ---
 

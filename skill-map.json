@@ -1,0 +1,908 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-11-07",
+  "verification_scope": "Official repository metadata and documentation only; not installed, executed or security-audited.",
+  "relationship_semantics": "Related projects share techniques; inclusion does not assert upstream dependency, endorsement or REA usage.",
+  "skills": [
+    {
+      "id": "rea",
+      "name": "REA",
+      "repo": "morluto/rea",
+      "source": "https://github.com/morluto/rea/blob/main/README.md",
+      "summary": {
+        "en": "Evidence-oriented CLI and MCP toolkit for native, Android, JavaScript/Electron and firmware analysis; third-party engines are separate.",
+        "zh-CN": "把 Agent 接到原生二进制、Android、JS/Electron、.NET、网站、固件和运行时观察工具，返回反编译、引用、结构与证据局限。CLI 与 MCP 共用工作流。"
+      },
+      "techniques": [
+        "CLI / MCP",
+        "decompilation",
+        "cross-references",
+        "evidence"
+      ],
+      "related": [
+        "NationalSecurityAgency/ghidra",
+        "skylot/jadx",
+        "electron/asar",
+        "frida/frida",
+        "LaurieWired/GhidraMCP",
+        "cyberkaida/reverse-engineering-assistant",
+        "storytold/craft-anything"
+      ],
+      "license": {
+        "label": "MIT",
+        "source": "https://github.com/morluto/rea/blob/main/README.md"
+      },
+      "limitations": {
+        "en": "Third-party engines and licenses are separate. Decompilation does not recover arbitrary original source. Its CDP workflow is passive observation, not general browser control. Local analysis results can still enter the chosen agent/model provider data flow.",
+        "zh-CN": "不是从任意程序恢复完整原始源码。深度原生分析需要 Hopper/Ghidra/IDA/Kuna，Android 需要 JADX/JDK，能力与平台及发行版本有关。分析在本地，但结果仍会进入所用 Agent/模型供应商的数据流程。 MIT 仅覆盖 REA 自有代码；第三方独立许可证，IDA/Hopper/JEB 等商业引擎另需合法许可证。"
+      }
+    },
+    {
+      "id": "reverse-skill",
+      "name": "reverse-skill",
+      "repo": "zhaoxuya520/reverse-skill",
+      "source": "https://github.com/zhaoxuya520/reverse-skill/blob/main/README.md",
+      "summary": {
+        "en": "Agent skill router and playbooks for Android, native binaries, JavaScript, CTF and firmware, with evidence and reporting workflows.",
+        "zh-CN": "按 APK、原生二进制、JS、CTF、固件等输入选择技能与工具，包含环境探测、授权范围门禁、案例目录、证据链和报告流程。"
+      },
+      "techniques": [
+        "target routing",
+        "tool discovery",
+        "evidence workflows"
+      ],
+      "related": [
+        "NationalSecurityAgency/ghidra",
+        "radareorg/radare2",
+        "skylot/jadx",
+        "iBotPeaches/Apktool",
+        "frida/frida",
+        "angr/angr"
+      ],
+      "license": {
+        "label": "MIT (root); GPLv3 submodule and separately licensed dependencies",
+        "source": "https://github.com/zhaoxuya520/reverse-skill/blob/main/README.md"
+      },
+      "limitations": {
+        "en": "A router, not an analysis engine. External tools still require installation and authorization. The root is MIT, CTF-Sandbox-Orchestrator is GPLv3 and other dependencies have their own terms.",
+        "zh-CN": "路由包不是逆向引擎。外部工具、MCP 与脚本仍需安装配置，自动安装和联网操作应先核查来源、范围和版本。README 不同小节的模块/规则计数存在不一致，不建议写死数量。 主项目 MIT；CTF-Sandbox-Orchestrator/ 为 GPLv3；被调用的 Pentest Swarm AI 为 AGPL-3.0；其余工具各自许可。"
+      }
+    },
+    {
+      "id": "android-reverse-engineering-skill",
+      "name": "android-reverse-engineering-skill",
+      "repo": "SimoneAvogadro/android-reverse-engineering-skill",
+      "source": "https://github.com/SimoneAvogadro/android-reverse-engineering-skill/blob/master/README.md",
+      "summary": {
+        "en": "Android static-analysis skill for APK/XAPK/JAR/AAR inspection, Kotlin metadata recovery and HTTP API documentation.",
+        "zh-CN": "先识别 APK/XAPK 框架，再用 JADX 和可选 Java 反编译器分析 APK/XAPK/JAR/AAR；梳理 Manifest、网络调用与调用链，尝试利用 Kotlin 元数据恢复混淆类名。"
+      },
+      "techniques": [
+        "APK / DEX",
+        "Kotlin metadata",
+        "HTTP API analysis"
+      ],
+      "related": [
+        "skylot/jadx",
+        "iBotPeaches/Apktool",
+        "androguard/androguard",
+        "zinja-coder/jadx-ai-mcp",
+        "zinja-coder/jadx-mcp-server",
+        "sensepost/objection",
+        "MobSF/Mobile-Security-Framework-MobSF"
+      ],
+      "license": {
+        "label": "Apache-2.0",
+        "source": "https://github.com/SimoneAvogadro/android-reverse-engineering-skill/blob/master/README.md"
+      },
+      "limitations": {
+        "en": "Requires JDK/JADX and optional decompilers. Kotlin recovery depends on retained metadata; success rates are not guarantees. Windows PowerShell support is experimental. Native code and runtime validation need other tools.",
+        "zh-CN": "需 JDK 17+、JADX；可选 Vineflower/Fernflower/dex2jar。Windows PowerShell 支持仍标注 experimental。Kotlin 名称恢复依赖目标实际保留的元数据，不能把 README 的高恢复率宣传写成保证；加固、JNI/SO 与运行时验证要另用工具。 Apache-2.0；第三方反编译器及运行时工具不随插件捆绑，按各自许可证。"
+      }
+    },
+    {
+      "id": "replica-skill",
+      "name": "replica-skill",
+      "repo": "Jakeschincariol/replica-skill",
+      "source": "https://github.com/Jakeschincariol/replica-skill/blob/main/README.md",
+      "summary": {
+        "en": "A clean-room product-reconstruction skill suite for researching public interfaces, planning original implementations and checking functional and visual parity.",
+        "zh-CN": "公开页面、截图、商店介绍及获准使用的自有账号研究；生成页面/流程/数据模型；架构、设计、测试、差异评分、用户评价分析、重新品牌化及部署检查。六个 Python 工具自身不联网。"
+      },
+      "techniques": [
+        "black-box observation",
+        "clean-room specs",
+        "behavior tests"
+      ],
+      "related": [
+        "microsoft/playwright-mcp",
+        "microsoft/playwright-cli",
+        "ChromeDevTools/chrome-devtools-mcp",
+        "webrecorder/browsertrix-crawler",
+        "storytold/craft-anything"
+      ],
+      "license": {
+        "label": "MIT",
+        "source": "https://github.com/Jakeschincariol/replica-skill/blob/main/README.md"
+      },
+      "limitations": {
+        "en": "Functional and workflow reconstruction does not include target source, branding, assets, private APIs or data. Interfaces do not prove backend architecture. Scoring is not proof of equivalence and implementations need independent testing.",
+        "zh-CN": "“clone any app”指功能和流程，不含原代码、品牌、素材、内容库、私有 API 或商业网络；界面不能证明后台架构。自动评分不是等价性证明，复杂产品仍需工程实现与人工验证。 MIT；不授予目标产品的代码、品牌、素材或数据权利。"
+      }
+    },
+    {
+      "id": "leanrea",
+      "name": "leanrea",
+      "repo": "aicodeking/leanrea",
+      "source": "https://github.com/aicodeking/leanrea/blob/main/README.md",
+      "summary": {
+        "en": "A compact reverse-engineering skill that routes agents directly to existing command-line tools instead of adding an MCP server.",
+        "zh-CN": "用小型 SKILL.md 指导 Agent 直接运行本机 CLI，按文件类型路由 Electron、原生、Go/Rust、Android、WASM、抓包和固件分析，并区分观察、推断和未知。"
+      },
+      "techniques": [
+        "CLI orchestration",
+        "target triage",
+        "evidence"
+      ],
+      "related": [
+        "NationalSecurityAgency/ghidra",
+        "radareorg/radare2",
+        "skylot/jadx",
+        "electron/asar",
+        "WebAssembly/wabt",
+        "microsoft/playwright-cli"
+      ],
+      "license": {
+        "label": "MIT",
+        "source": "https://github.com/aicodeking/leanrea/blob/main/README.md"
+      },
+      "limitations": {
+        "en": "CLI-only alternative rather than an REA analysis client; the benchmark uses REA as a comparator. Author performance numbers cover one model, one macOS machine, four tasks with three runs and REA 6.5.0, not general performance guarantees.",
+        "zh-CN": "不提供独立分析引擎或 MCP 服务；依赖 Agent 的 shell 能力与现有工具。性能数字是作者在 REA 6.5.0、单模型、单台 macOS、4 任务×3 次下的基准，不可推广成普遍速度或准确率结论。 MIT。"
+      }
+    },
+    {
+      "id": "ctf-skills",
+      "name": "ctf-skills",
+      "repo": "ljagiello/ctf-skills",
+      "source": "https://github.com/ljagiello/ctf-skills/blob/main/README.md",
+      "summary": {
+        "en": "CTF agent skills for reversing and related challenge categories, with challenge routing and reproducible writeups.",
+        "zh-CN": "按 reverse、pwn、crypto、web、forensics 等题型组织技能，并提供 solve-challenge 调度与 writeup 流程。逆向部分覆盖原生、VM、WASM、Android/JNI、模拟执行和工具集成。"
+      },
+      "techniques": [
+        "CTF reversing",
+        "symbolic execution",
+        "emulation"
+      ],
+      "related": [
+        "angr/angr",
+        "unicorn-engine/unicorn",
+        "Gallopsled/pwntools",
+        "pwndbg/pwndbg",
+        "radareorg/radare2",
+        "WebAssembly/wabt"
+      ],
+      "license": {
+        "label": "MIT",
+        "source": "https://github.com/ljagiello/ctf-skills/blob/main/README.md"
+      },
+      "limitations": {
+        "en": "Skills do not install all tools by themselves. Optional bulk setup has many dependencies; related-challenge search uses Tavily. Do not upload private samples or challenge content without authorization.",
+        "zh-CN": "技能不等同于已安装工具；有按需和批量安装脚本，批量环境依赖较多。类似题搜索依赖 Tavily API；应避免未经许可上传私有样本或题目内容。 MIT；安装工具与引用资料仍各自许可。"
+      }
+    },
+    {
+      "id": "reverse-skills",
+      "name": "reverse-skills",
+      "repo": "P4nda0s/reverse-skills",
+      "source": "https://github.com/P4nda0s/reverse-skills/blob/main/README.md",
+      "summary": {
+        "en": "Skills for interpreting IDA exports, recovering symbols and structures, and Frida/Unicorn-assisted analysis; MIT is claimed only in the README.",
+        "zh-CN": "围绕 IDA 导出的反编译结果分析函数符号和重建数据结构，另提供 Frida、Unicorn、DEX、IL2CPP、IDAPython 与 iOS 分析技能。README 明确为 IDA-NO-MCP 配套设计。"
+      },
+      "techniques": [
+        "decompiler exports",
+        "type reconstruction",
+        "instrumentation"
+      ],
+      "related": [
+        "P4nda0s/IDA-NO-MCP",
+        "HexRaysSA/ida-mcp",
+        "mrexodia/ida-pro-mcp",
+        "frida/frida",
+        "dnakov/frida-mcp",
+        "unicorn-engine/unicorn"
+      ],
+      "license": {
+        "label": "MIT claimed in README; no independent LICENSE found",
+        "source": "https://github.com/P4nda0s/reverse-skills/blob/main/README.md"
+      },
+      "limitations": {
+        "en": "Designed around IDA-NO-MCP exports, not a standalone decompiler. Device/process operations need authorization. README says MIT but there is no independent root LICENSE file, so licensing remains incompletely documented.",
+        "zh-CN": "不是独立反编译器；IDA、Frida、Unicorn 等依赖及设备权限另行满足。DEX/iOS dump、进程插桩会触及实际目标，需授权和隔离测试设备。 README 声明 MIT，但根目录只有 .gitignore、README.md、README_EN.md、skills，没有独立 LICENSE，GitHub API license=null。应标记“MIT（README 声明；无独立许可证文件）”，不能当作已完成许可证审计。"
+      }
+    },
+    {
+      "id": "hello-js-reverse-skill",
+      "name": "hello_js_reverse_skill",
+      "repo": "WhiteNightShadow/hello_js_reverse_skill",
+      "source": "https://github.com/WhiteNightShadow/hello_js_reverse_skill/blob/main/README.md",
+      "summary": {
+        "en": "A JavaScript-analysis skill that routes signature, obfuscation, cookie and WASM investigations through controlled experiments and browser evidence.",
+        "zh-CN": "签名来源隔离、状态/新鲜度对照、混淆和JSVMP调查策略、WASM加载、Set-Cookie与JS写入归因、Node/Python实现模板、版本回归。以 camoufox-reverse-mcp 提供实际浏览器能力。"
+      },
+      "techniques": [
+        "JavaScript AST",
+        "deobfuscation",
+        "runtime analysis"
+      ],
+      "related": [
+        "WhiteNightShadow/camoufox-reverse-mcp",
+        "j4k0xb/webcrack",
+        "pionxzh/wakaru",
+        "WebAssembly/wabt",
+        "RyanDFIR/hindsight"
+      ],
+      "license": {
+        "label": "Project-wide license unclear; CC0 limited to scripts/real_cases",
+        "source": "https://github.com/WhiteNightShadow/hello_js_reverse_skill/blob/main/README.md"
+      },
+      "limitations": {
+        "en": "Methods and templates do not recover arbitrary algorithms or VMs. Hooks can alter behavior. No project-wide root license was found; CC0 applies only to original scripts/real_cases material, not the whole repository.",
+        "zh-CN": "方法和模板不保证还原任意算法或VM；Hook可能改变目标行为。GitHub license=null，树中仅 scripts/real_cases/LICENSE，未发现覆盖主项目的根许可证，不能默认自由复制或商业复用。 主项目许可未明确；scripts/real_cases/LICENSE 为 CC0-1.0，仅覆盖该目录原创材料，不含上游源码/依赖/生成bundle。"
+      }
+    },
+    {
+      "id": "open-reverselab",
+      "name": "Open-ReverseLab",
+      "repo": "LING71671/open-reverselab",
+      "source": "https://github.com/LING71671/open-reverselab/blob/main/README.md",
+      "summary": {
+        "en": "Agent-oriented reverse-engineering workbench combining MCP tools, a knowledge base and evidence workspaces; review the license and disclaimer.",
+        "zh-CN": "将 Ghidra、Frida、x64dbg、Rizin 等工具包装为 MCP，按 Android、PE、CTF 和通用分析组织可执行知识库与 samples/exports/reports 工作区。"
+      },
+      "techniques": [
+        "MCP workbench",
+        "native / Android",
+        "case reports"
+      ],
+      "related": [
+        "NationalSecurityAgency/ghidra",
+        "frida/frida",
+        "rizinorg/rizin",
+        "rizinorg/cutter",
+        "skylot/jadx",
+        "iBotPeaches/Apktool",
+        "storytold/craft-anything"
+      ],
+      "license": {
+        "label": "GPL-3.0-only (README); additional disclaimer needs review",
+        "source": "https://github.com/LING71671/open-reverselab/blob/main/README.md"
+      },
+      "limitations": {
+        "en": "Heavier deployment and platform-specific GUI tools. Review host-environment caching and isolate untrusted samples; do not disable antivirus protections. README says GPL-3.0-only and also presents a mandatory disclaimer whose relationship to the license needs review.",
+        "zh-CN": "部署比单个 skill 更重；Windows GUI/PE 工具不等同跨平台可用。README 提到主机级环境缓存，应检查收集范围。不要照抄其防病毒排除建议；应在隔离环境评估安全工具及样本。知识库篇数在仓库描述与 README 不完全一致，不建议写死。 README 明确 GPL-3.0-only，另有声明对所有使用者及衍生品有约束力的 DISCLAIMER；其与开源许可的关系需另行审阅，不宜只标无条件 GPL。"
+      }
+    },
+    {
+      "id": "js-reverse-automation-skill",
+      "name": "js-reverse-automation--skill",
+      "repo": "Fausto-404/js-reverse-automation--skill",
+      "source": "https://github.com/Fausto-404/js-reverse-automation--skill/blob/main/README.md",
+      "summary": {
+        "en": "An evidence-driven JavaScript workflow that combines Chrome DevTools MCP with runtime probes and JSRPC, Flask and Burp artifact generation.",
+        "zh-CN": "运行时加密/签名入口候选发现、Webpack模块观测、差分验证、动作级请求与业务响应证据、生成JSRPC注入/Flask代理/Burp autoDecoder配置。"
+      },
+      "techniques": [
+        "CDP",
+        "AST",
+        "browser runtime",
+        "WASM"
+      ],
+      "related": [
+        "ChromeDevTools/chrome-devtools-mcp",
+        "j4k0xb/webcrack",
+        "pionxzh/wakaru",
+        "WebAssembly/wabt",
+        "electron/asar",
+        "doyensec/electronegativity",
+        "doyensec/ElectroNG"
+      ],
+      "license": {
+        "label": "Apache-2.0",
+        "source": "https://github.com/Fausto-404/js-reverse-automation--skill/blob/main/README.md"
+      },
+      "limitations": {
+        "en": "Documented limits exclude general VMP static recovery, unexported WASM internals, Service Worker closures, cross-origin iframes and CSP WebSocket bypass. Use isolated authorized test accounts; broad README claims are not universal support.",
+        "zh-CN": "能力边界明确不支持通用VMP静态还原、未导出的WASM内部函数、Service Worker内部闭包、跨域iframe、CSP WebSocket绕过等；README宽泛JSVMP宣传不能当完整支持。需要受控测试账号和隔离环境。 Apache-2.0；JSRPC、autoDecoder、Burp及浏览器组件分别适用其许可。"
+      }
+    }
+  ],
+  "project_evidence": {
+    "morluto/rea": {
+      "source": "https://github.com/morluto/rea/blob/main/README.md",
+      "metadata": "https://api.github.com/repos/morluto/rea",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-11-07T16:54:01Z",
+      "license": "MIT",
+      "note": "MIT. Third-party engines and licenses are separate. Decompilation does not recover arbitrary original source. Its CDP workflow is passive observation, not general browser control. Local analysis results can still enter the chosen agent/model provider data flow.",
+      "note_zh": "不是从任意程序恢复完整原始源码。深度原生分析需要 Hopper/Ghidra/IDA/Kuna，Android 需要 JADX/JDK，能力与平台及发行版本有关。分析在本地，但结果仍会进入所用 Agent/模型供应商的数据流程。 MIT 仅覆盖 REA 自有代码；第三方独立许可证，IDA/Hopper/JEB 等商业引擎另需合法许可证。",
+      "purpose_zh": "把 Agent 接到原生二进制、Android、JS/Electron、.NET、网站、固件和运行时观察工具，返回反编译、引用、结构与证据局限。CLI 与 MCP 共用工作流。",
+      "additional_sources": [
+        "https://github.com/morluto/rea/blob/main/docs/reverse-engineering-tools.md",
+        "https://github.com/morluto/rea/blob/main/THIRD_PARTY_NOTICES.md",
+        "https://github.com/morluto/rea/blob/main/docs/javascript-application-workflows.md",
+        "https://github.com/morluto/rea/blob/main/docs/browser-observation.md"
+      ],
+      "rea_role": "source-toolkit-not-a-user-project"
+    },
+    "zhaoxuya520/reverse-skill": {
+      "source": "https://github.com/zhaoxuya520/reverse-skill/blob/main/README.md",
+      "metadata": "https://api.github.com/repos/zhaoxuya520/reverse-skill",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-09-22T06:43:21Z",
+      "license": "MIT (root); GPLv3 submodule and separately licensed dependencies",
+      "note": "MIT (root); GPLv3 submodule and separately licensed dependencies. A router, not an analysis engine. External tools still require installation and authorization. The root is MIT, CTF-Sandbox-Orchestrator is GPLv3 and other dependencies have their own terms.",
+      "note_zh": "路由包不是逆向引擎。外部工具、MCP 与脚本仍需安装配置，自动安装和联网操作应先核查来源、范围和版本。README 不同小节的模块/规则计数存在不一致，不建议写死数量。 主项目 MIT；CTF-Sandbox-Orchestrator/ 为 GPLv3；被调用的 Pentest Swarm AI 为 AGPL-3.0；其余工具各自许可。",
+      "purpose_zh": "按 APK、原生二进制、JS、CTF、固件等输入选择技能与工具，包含环境探测、授权范围门禁、案例目录、证据链和报告流程。",
+      "additional_sources": [
+        "https://github.com/zhaoxuya520/reverse-skill/blob/main/SECURITY.md",
+        "https://github.com/zhaoxuya520/reverse-skill/blob/main/docs/UV-AND-DOWNLOAD-SECURITY.md",
+        "https://github.com/zhaoxuya520/reverse-skill/blob/main/docs/SECURITY-REVIEW-2026-09-03.md"
+      ]
+    },
+    "SimoneAvogadro/android-reverse-engineering-skill": {
+      "source": "https://github.com/SimoneAvogadro/android-reverse-engineering-skill/blob/master/README.md",
+      "metadata": "https://api.github.com/repos/SimoneAvogadro/android-reverse-engineering-skill",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-10-12T08:15:55Z",
+      "license": "Apache-2.0",
+      "note": "Apache-2.0. Requires JDK/JADX and optional decompilers. Kotlin recovery depends on retained metadata; success rates are not guarantees. Windows PowerShell support is experimental. Native code and runtime validation need other tools.",
+      "note_zh": "需 JDK 17+、JADX；可选 Vineflower/Fernflower/dex2jar。Windows PowerShell 支持仍标注 experimental。Kotlin 名称恢复依赖目标实际保留的元数据，不能把 README 的高恢复率宣传写成保证；加固、JNI/SO 与运行时验证要另用工具。 Apache-2.0；第三方反编译器及运行时工具不随插件捆绑，按各自许可证。",
+      "purpose_zh": "先识别 APK/XAPK 框架，再用 JADX 和可选 Java 反编译器分析 APK/XAPK/JAR/AAR；梳理 Manifest、网络调用与调用链，尝试利用 Kotlin 元数据恢复混淆类名。",
+      "additional_sources": [
+        "https://github.com/SimoneAvogadro/android-reverse-engineering-skill/blob/master/THIRD_PARTY_NOTICES.md",
+        "https://github.com/SimoneAvogadro/android-reverse-engineering-skill/blob/master/PRIVACY.md"
+      ]
+    },
+    "aicodeking/leanrea": {
+      "source": "https://github.com/aicodeking/leanrea/blob/main/README.md",
+      "metadata": "https://api.github.com/repos/aicodeking/leanrea",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-10-19T11:34:21Z",
+      "license": "MIT",
+      "note": "MIT. CLI-only alternative rather than an REA analysis client; the benchmark uses REA as a comparator. Author performance numbers cover one model, one macOS machine, four tasks with three runs and REA 6.5.0, not general performance guarantees.",
+      "note_zh": "不提供独立分析引擎或 MCP 服务；依赖 Agent 的 shell 能力与现有工具。性能数字是作者在 REA 6.5.0、单模型、单台 macOS、4 任务×3 次下的基准，不可推广成普遍速度或准确率结论。 MIT。",
+      "purpose_zh": "用小型 SKILL.md 指导 Agent 直接运行本机 CLI，按文件类型路由 Electron、原生、Go/Rust、Android、WASM、抓包和固件分析，并区分观察、推断和未知。",
+      "additional_sources": [
+        "https://github.com/aicodeking/leanrea/blob/main/bench/BENCHMARK.md"
+      ]
+    },
+    "ljagiello/ctf-skills": {
+      "source": "https://github.com/ljagiello/ctf-skills/blob/main/README.md",
+      "metadata": "https://api.github.com/repos/ljagiello/ctf-skills",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-11-06T18:44:31Z",
+      "license": "MIT",
+      "note": "MIT. Skills do not install all tools by themselves. Optional bulk setup has many dependencies; related-challenge search uses Tavily. Do not upload private samples or challenge content without authorization.",
+      "note_zh": "技能不等同于已安装工具；有按需和批量安装脚本，批量环境依赖较多。类似题搜索依赖 Tavily API；应避免未经许可上传私有样本或题目内容。 MIT；安装工具与引用资料仍各自许可。",
+      "purpose_zh": "按 reverse、pwn、crypto、web、forensics 等题型组织技能，并提供 solve-challenge 调度与 writeup 流程。逆向部分覆盖原生、VM、WASM、Android/JNI、模拟执行和工具集成。",
+      "additional_sources": [
+        "https://github.com/ljagiello/ctf-skills/blob/main/ctf-reverse/SKILL.md"
+      ]
+    },
+    "P4nda0s/reverse-skills": {
+      "source": "https://github.com/P4nda0s/reverse-skills/blob/main/README.md",
+      "metadata": "https://api.github.com/repos/P4nda0s/reverse-skills",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-05-06T12:46:29Z",
+      "license": "MIT claimed in README; no independent LICENSE found",
+      "note": "MIT claimed in README; no independent LICENSE found. Designed around IDA-NO-MCP exports, not a standalone decompiler. Device/process operations need authorization. README says MIT but there is no independent root LICENSE file, so licensing remains incompletely documented.",
+      "note_zh": "不是独立反编译器；IDA、Frida、Unicorn 等依赖及设备权限另行满足。DEX/iOS dump、进程插桩会触及实际目标，需授权和隔离测试设备。 README 声明 MIT，但根目录只有 .gitignore、README.md、README_EN.md、skills，没有独立 LICENSE，GitHub API license=null。应标记“MIT（README 声明；无独立许可证文件）”，不能当作已完成许可证审计。",
+      "purpose_zh": "围绕 IDA 导出的反编译结果分析函数符号和重建数据结构，另提供 Frida、Unicorn、DEX、IL2CPP、IDAPython 与 iOS 分析技能。README 明确为 IDA-NO-MCP 配套设计。",
+      "additional_sources": [
+        "https://api.github.com/repos/P4nda0s/reverse-skills/contents"
+      ]
+    },
+    "LING71671/open-reverselab": {
+      "source": "https://github.com/LING71671/open-reverselab/blob/main/README.md",
+      "metadata": "https://api.github.com/repos/LING71671/open-reverselab",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-10-21T01:59:05Z",
+      "license": "GPL-3.0-only (README); additional disclaimer needs review",
+      "note": "GPL-3.0-only (README); additional disclaimer needs review. Heavier deployment and platform-specific GUI tools. Review host-environment caching and isolate untrusted samples; do not disable antivirus protections. README says GPL-3.0-only and also presents a mandatory disclaimer whose relationship to the license needs review.",
+      "note_zh": "部署比单个 skill 更重；Windows GUI/PE 工具不等同跨平台可用。README 提到主机级环境缓存，应检查收集范围。不要照抄其防病毒排除建议；应在隔离环境评估安全工具及样本。知识库篇数在仓库描述与 README 不完全一致，不建议写死。 README 明确 GPL-3.0-only，另有声明对所有使用者及衍生品有约束力的 DISCLAIMER；其与开源许可的关系需另行审阅，不宜只标无条件 GPL。",
+      "purpose_zh": "将 Ghidra、Frida、x64dbg、Rizin 等工具包装为 MCP，按 Android、PE、CTF 和通用分析组织可执行知识库与 samples/exports/reports 工作区。",
+      "additional_sources": [
+        "https://github.com/LING71671/open-reverselab/blob/main/DISCLAIMER.md",
+        "https://github.com/LING71671/open-reverselab/blob/main/LICENSE"
+      ]
+    },
+    "NationalSecurityAgency/ghidra": {
+      "source": "https://github.com/NationalSecurityAgency/ghidra/blob/master/README.md",
+      "metadata": "https://api.github.com/repos/NationalSecurityAgency/ghidra",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-11-06T16:27:03Z",
+      "license": "Apache-2.0",
+      "note": "Apache-2.0. Match extension and JDK versions. Decompiled code is not original source.",
+      "note_zh": "插件与 JDK 版本需匹配；注意官方安全公告；反编译结果不是原始源码。",
+      "purpose_zh": "反汇编、反编译、图形与脚本分析，支持 GUI 和自动化。",
+      "additional_sources": []
+    },
+    "radareorg/radare2": {
+      "source": "https://github.com/radareorg/radare2/blob/master/README.md",
+      "metadata": "https://api.github.com/repos/radareorg/radare2",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-11-07T16:09:46Z",
+      "license": "Mixed or component-specific licenses; see upstream notices",
+      "note": "Mixed or component-specific licenses; see upstream notices. Mainly LGPLv3, with GPL and other component licenses; inspect the build before redistribution.",
+      "note_zh": "主要 LGPLv3，部分组件 GPL/其他许可，分发时按构建核验。",
+      "purpose_zh": "命令行原生二进制分析框架，适合可脚本化探测与批量处理。",
+      "additional_sources": [
+        "https://github.com/radareorg/radare2/blob/master/COPYING.md"
+      ]
+    },
+    "rizinorg/rizin": {
+      "source": "https://github.com/rizinorg/rizin/blob/dev/README.md",
+      "metadata": "https://api.github.com/repos/rizinorg/rizin",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-11-07T16:40:27Z",
+      "license": "LGPL-3.0",
+      "note": "LGPL-3.0. Commands and APIs are not assumed compatible with current radare2.",
+      "note_zh": "从 radare2 分支发展，命令/API 不应默认与 radare2 完全兼容。",
+      "purpose_zh": "二进制分析、反汇编、调试、十六进制与格式处理，支持 rzpipe 脚本。",
+      "additional_sources": []
+    },
+    "rizinorg/cutter": {
+      "source": "https://github.com/rizinorg/cutter/blob/dev/README.md",
+      "metadata": "https://api.github.com/repos/rizinorg/cutter",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-11-03T14:51:27Z",
+      "license": "GPL-3.0",
+      "note": "GPL-3.0. Rizin-based GUI; plugin compatibility matters and it is not the current radare2 GUI.",
+      "note_zh": "依赖 Rizin 和插件兼容性；不是 radare2 当前官方 GUI。",
+      "purpose_zh": "Rizin 的图形化逆向平台，支持插件及 Ghidra 反编译集成。",
+      "additional_sources": []
+    },
+    "skylot/jadx": {
+      "source": "https://github.com/skylot/jadx/blob/master/README.md",
+      "metadata": "https://api.github.com/repos/skylot/jadx",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-11-02T20:52:37Z",
+      "license": "Apache-2.0",
+      "note": "Apache-2.0. Upstream explicitly does not guarantee complete decompilation; verify difficult code against bytecode.",
+      "note_zh": "官方明确不能保证 100% 反编译成功；复杂/混淆代码需字节码核对。",
+      "purpose_zh": "DEX/APK 到 Java 的 GUI/CLI 反编译，含交叉引用、资源和 smali 调试。",
+      "additional_sources": []
+    },
+    "iBotPeaches/Apktool": {
+      "source": "https://github.com/iBotPeaches/Apktool/blob/main/README.md",
+      "metadata": "https://api.github.com/repos/iBotPeaches/Apktool",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-11-02T09:04:06Z",
+      "license": "Apache-2.0",
+      "note": "Apache-2.0. Decodes resources and smali, not original Java/Kotlin source. Rebuilding and resigning change signatures and may change behavior.",
+      "note_zh": "资源/字节码工作流，不等同恢复原始 Java/Kotlin 源码；修改重签影响签名与行为。",
+      "purpose_zh": "解码 Android 资源与 smali，支持修改后的 APK 重建。",
+      "additional_sources": []
+    },
+    "androguard/androguard": {
+      "source": "https://github.com/androguard/androguard/blob/master/README.md",
+      "metadata": "https://api.github.com/repos/androguard/androguard",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-10-25T09:40:31Z",
+      "license": "Apache-2.0",
+      "note": "Apache-2.0. The v5 development branch differs from PyPI v4.1.4; pip installation may not expose all README features.",
+      "note_zh": "当前主分支 v5 与 PyPI v4.1.4 不一致；不能默认 pip 安装得到 README 全部新能力。",
+      "purpose_zh": "Android APK/DEX、引用和程序结构分析，仓库 v5 还含 Agent/MCP 接口和可选 ARM64 分析。",
+      "additional_sources": []
+    },
+    "frida/frida": {
+      "source": "https://github.com/frida/frida/blob/main/README.md",
+      "metadata": "https://api.github.com/repos/frida/frida",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-11-07T16:29:38Z",
+      "license": "Mixed or component-specific licenses; see upstream notices",
+      "note": "Mixed or component-specific licenses; see upstream notices. Instrumentation has code-execution and process-control privileges. Root COPYING is wxWindows Library Licence 3.1; check individual components.",
+      "note_zh": "根 COPYING 为 wxWindows Library Licence 3.1，并非简单 MIT；不同组件单独核验。插桩具有代码执行与进程控制权限。",
+      "purpose_zh": "跨平台动态插桩工具，适合在授权应用运行时观察和验证行为。",
+      "additional_sources": [
+        "https://github.com/frida/frida/blob/main/COPYING"
+      ]
+    },
+    "sensepost/objection": {
+      "source": "https://github.com/sensepost/objection/blob/master/README.md",
+      "metadata": "https://api.github.com/repos/sensepost/objection",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-10-27T11:34:43Z",
+      "license": "GPL-3.0",
+      "note": "GPL-3.0. Check device and application-loading support. Runtime operations can change target state.",
+      "note_zh": "设备/应用加载方式与平台支持需核验；运行时操作可能改变目标状态。",
+      "purpose_zh": "基于 Frida 的 Android/iOS 运行时探索和移动安全评估。",
+      "additional_sources": []
+    },
+    "unicorn-engine/unicorn": {
+      "source": "https://github.com/unicorn-engine/unicorn/blob/master/README.md",
+      "metadata": "https://api.github.com/repos/unicorn-engine/unicorn",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-10-18T15:17:01Z",
+      "license": "GPL-2.0",
+      "note": "GPL-2.0. Not a full operating-system emulator; callers must model memory and external calls.",
+      "note_zh": "不是完整操作系统模拟；调用者需提供内存和外部调用环境。GPLv2。",
+      "purpose_zh": "多架构 CPU 模拟框架，适合函数/代码片段模拟与细粒度插桩。",
+      "additional_sources": []
+    },
+    "angr/angr": {
+      "source": "https://github.com/angr/angr/blob/master/README.md",
+      "metadata": "https://api.github.com/repos/angr/angr",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-11-07T13:53:45Z",
+      "license": "BSD-2-Clause",
+      "note": "BSD-2-Clause. Complex programs require environment modeling; full path coverage or automatic solving is not guaranteed.",
+      "note_zh": "复杂程序需建模环境，不能保证全路径覆盖或自动求解。",
+      "purpose_zh": "程序分析平台，适合自动探索原生二进制执行路径和约束分析。",
+      "additional_sources": []
+    },
+    "pwndbg/pwndbg": {
+      "source": "https://github.com/pwndbg/pwndbg/blob/dev/README.md",
+      "metadata": "https://api.github.com/repos/pwndbg/pwndbg",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-11-07T02:47:20Z",
+      "license": "MIT",
+      "note": "MIT. LLDB support is early-stage; match the debugger and Python versions.",
+      "note_zh": "LLDB 支持仍标注 early-stage；需按文档匹配 Python/调试器版本。",
+      "purpose_zh": "增强 GDB/LLDB 的调试和低级程序分析体验。",
+      "additional_sources": []
+    },
+    "Gallopsled/pwntools": {
+      "source": "https://github.com/Gallopsled/pwntools/blob/dev/README.md",
+      "metadata": "https://api.github.com/repos/Gallopsled/pwntools",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-11-02T17:32:54Z",
+      "license": "Mixed or component-specific licenses; see upstream notices",
+      "note": "Mixed or component-specific licenses; see upstream notices. Mainly MIT with some GPL and BSD-2-Clause components, notably constants and data.",
+      "note_zh": "主要 MIT，少量 GPL/BSD-2-Clause，特别检查 pwnlib/constants 与 pwnlib/data。",
+      "purpose_zh": "Python CTF 框架和二进制实验原型工具集。",
+      "additional_sources": [
+        "https://github.com/Gallopsled/pwntools/blob/dev/LICENSE-pwntools.txt"
+      ]
+    },
+    "LaurieWired/GhidraMCP": {
+      "source": "https://github.com/LaurieWired/GhidraMCP/blob/main/README.md",
+      "metadata": "https://api.github.com/repos/LaurieWired/GhidraMCP",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-10-10T20:08:37Z",
+      "license": "Apache-2.0",
+      "note": "Apache-2.0. Match Ghidra/extension versions; mutation and scripting can alter analysis state. Do not expose the service unprotected.",
+      "note_zh": "匹配 Ghidra/扩展版本；重命名和脚本调用会改变分析数据库，服务不要无保护公开。",
+      "purpose_zh": "Ghidra 插件和 MCP 服务，暴露反编译、符号/数据重命名、导入导出信息，含 PyGhidra headless 模式。",
+      "additional_sources": []
+    },
+    "cyberkaida/reverse-engineering-assistant": {
+      "source": "https://github.com/cyberkaida/reverse-engineering-assistant/blob/main/README.md",
+      "metadata": "https://api.github.com/repos/cyberkaida/reverse-engineering-assistant",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-11-03T04:39:52Z",
+      "license": "Apache-2.0",
+      "note": "Apache-2.0. PyGhidra scripts can execute code. Use access controls and consider disabling scripting on exposed services.",
+      "note_zh": "PyGhidra 脚本接口有执行权限，官方建议公开监听时启用 API key 或禁用脚本工具；匹配 Ghidra 与 Java 版本。",
+      "purpose_zh": "Ghidra MCP 扩展，支持交互和 headless、类型/名称编辑、脚本及项目分析。",
+      "additional_sources": []
+    },
+    "mrexodia/ida-pro-mcp": {
+      "source": "https://github.com/mrexodia/ida-pro-mcp/blob/main/README.md",
+      "metadata": "https://api.github.com/repos/mrexodia/ida-pro-mcp",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-09-26T15:42:10Z",
+      "license": "MIT",
+      "note": "MIT. README now recommends official HexRaysSA/ida-mcp. IDA Free is unsupported; IDA Pro/idalib licensing is separate.",
+      "note_zh": "当前 README 首段推荐改用 Hex-Rays 官方 ida-mcp；IDA Free 不支持，IDA Pro/idalib 许可另需满足。",
+      "purpose_zh": "把 IDA Pro 反编译与分析操作提供给 Agent。",
+      "additional_sources": []
+    },
+    "HexRaysSA/ida-mcp": {
+      "source": "https://github.com/HexRaysSA/ida-mcp/blob/main/README.md",
+      "metadata": "https://api.github.com/repos/HexRaysSA/ida-mcp",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-10-28T16:59:40Z",
+      "license": "MIT",
+      "note": "MIT. Requires IDA 9.4+, idalib and Python 3.11+. MIT covers the bridge, not an IDA commercial license.",
+      "note_zh": "需 IDA 9.4+、idalib、Python 3.11+；MIT 只覆盖桥接代码，不授予 IDA 商业许可。",
+      "purpose_zh": "Hex-Rays 官方 IDA MCP，基于 IDA Nexus 支持 GUI 和 headless、多客户端会话。",
+      "additional_sources": []
+    },
+    "zinja-coder/jadx-ai-mcp": {
+      "source": "https://github.com/zinja-coder/jadx-ai-mcp/blob/jadx-ai/README.md",
+      "metadata": "https://api.github.com/repos/zinja-coder/jadx-ai-mcp",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-10-19T00:39:37Z",
+      "license": "Apache-2.0",
+      "note": "Apache-2.0. JADX GUI plugin; requires its companion MCP server and is not a separate decompiler.",
+      "note_zh": "与同作者 jadx-mcp-server 配套，区分插件和服务器，避免把两个仓库算成两个独立分析引擎。",
+      "purpose_zh": "JADX GUI 插件，将当前反编译上下文接入 Agent。",
+      "additional_sources": []
+    },
+    "zinja-coder/jadx-mcp-server": {
+      "source": "https://github.com/zinja-coder/jadx-mcp-server/blob/main/README.md",
+      "metadata": "https://api.github.com/repos/zinja-coder/jadx-mcp-server",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-10-19T00:23:17Z",
+      "license": "Apache-2.0",
+      "note": "Apache-2.0. Requires the companion JADX plugin and compatible Java/Python; a bridge rather than a decompiler.",
+      "note_zh": "需要配套 JADX 插件和合适的 Java/Python 环境；这是桥接层，不替代 JADX。",
+      "purpose_zh": "Python MCP 服务器，通过 JADX-AI-MCP 插件访问 Android 反编译上下文。",
+      "additional_sources": []
+    },
+    "dnakov/frida-mcp": {
+      "source": "https://github.com/dnakov/frida-mcp/blob/main/README.md",
+      "metadata": "https://api.github.com/repos/dnakov/frida-mcp",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2025-05-12T12:25:32Z",
+      "license": "MIT",
+      "note": "MIT. Community bridge, not Frida official. Last recorded push is 2025-05-12; README has a placeholder, so recheck maintenance and compatibility.",
+      "note_zh": "社区桥接，不是 Frida 官方项目；最近 push 为 2025-05-12，README 存在 yourusername 占位，使用前应检查维护与 Frida 版本兼容。",
+      "purpose_zh": "通过 MCP 提供 Frida 设备/进程管理、JavaScript 会话、脚本加载与运行时观察。",
+      "additional_sources": []
+    },
+    "P4nda0s/IDA-NO-MCP": {
+      "source": "https://github.com/P4nda0s/IDA-NO-MCP/blob/main/README.md",
+      "metadata": "https://api.github.com/repos/P4nda0s/IDA-NO-MCP",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-07-26T14:32:43Z",
+      "license": "No project-wide license established",
+      "note": "No project-wide license established. No root LICENSE found and GitHub reports no license. Rust CLI needs licensed IDA Pro 9.x/idalib; do not assume redistribution permission.",
+      "note_zh": "根目录无 LICENSE，GitHub license=null；不得默认是明确开源许可。Rust 版依赖合法 IDA Pro 9.x/idalib，版本和平台需匹配。建议放相关但许可未核实区。",
+      "purpose_zh": "将 IDA 反编译与调用关系导出为适合代码 Agent 读取的文件；有 Python 插件和 Rust CLI。",
+      "additional_sources": [
+        "https://api.github.com/repos/P4nda0s/IDA-NO-MCP/contents"
+      ]
+    },
+    "MobSF/Mobile-Security-Framework-MobSF": {
+      "source": "https://github.com/MobSF/Mobile-Security-Framework-MobSF/blob/master/README.md",
+      "metadata": "https://api.github.com/repos/MobSF/Mobile-Security-Framework-MobSF",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-11-07T05:00:18Z",
+      "license": "GPL-3.0",
+      "note": "GPL-3.0. Security-assessment workbench; dynamic environments require separate setup and are platform-dependent.",
+      "note_zh": "更偏安全评估工作台；动态环境和平台支持需另配，不是通用源码重建工具。",
+      "purpose_zh": "自动化移动应用静态/动态安全评估框架，覆盖 Android/iOS/Windows。",
+      "additional_sources": []
+    },
+    "Jakeschincariol/replica-skill": {
+      "source": "https://github.com/Jakeschincariol/replica-skill/blob/main/README.md",
+      "metadata": "https://api.github.com/repos/Jakeschincariol/replica-skill",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-10-03T12:07:53Z",
+      "license": "MIT",
+      "note": "MIT. Functional and workflow reconstruction does not include target source, branding, assets, private APIs or data. Interfaces do not prove backend architecture. Scoring is not proof of equivalence and implementations need independent testing.",
+      "note_zh": "“clone any app”指功能和流程，不含原代码、品牌、素材、内容库、私有 API 或商业网络；界面不能证明后台架构。自动评分不是等价性证明，复杂产品仍需工程实现与人工验证。 MIT；不授予目标产品的代码、品牌、素材或数据权利。",
+      "purpose_zh": "公开页面、截图、商店介绍及获准使用的自有账号研究；生成页面/流程/数据模型；架构、设计、测试、差异评分、用户评价分析、重新品牌化及部署检查。六个 Python 工具自身不联网。",
+      "additional_sources": [
+        "https://github.com/Jakeschincariol/replica-skill/blob/main/replica-recon/SKILL.md"
+      ]
+    },
+    "WhiteNightShadow/hello_js_reverse_skill": {
+      "source": "https://github.com/WhiteNightShadow/hello_js_reverse_skill/blob/main/README.md",
+      "metadata": "https://api.github.com/repos/WhiteNightShadow/hello_js_reverse_skill",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-11-05T09:22:20Z",
+      "license": "Project-wide license unclear; CC0 limited to scripts/real_cases",
+      "note": "Project-wide license unclear; CC0 limited to scripts/real_cases. Methods and templates do not recover arbitrary algorithms or VMs. Hooks can alter behavior. No project-wide root license was found; CC0 applies only to original scripts/real_cases material, not the whole repository.",
+      "note_zh": "方法和模板不保证还原任意算法或VM；Hook可能改变目标行为。GitHub license=null，树中仅 scripts/real_cases/LICENSE，未发现覆盖主项目的根许可证，不能默认自由复制或商业复用。 主项目许可未明确；scripts/real_cases/LICENSE 为 CC0-1.0，仅覆盖该目录原创材料，不含上游源码/依赖/生成bundle。",
+      "purpose_zh": "签名来源隔离、状态/新鲜度对照、混淆和JSVMP调查策略、WASM加载、Set-Cookie与JS写入归因、Node/Python实现模板、版本回归。以 camoufox-reverse-mcp 提供实际浏览器能力。",
+      "additional_sources": [
+        "https://github.com/WhiteNightShadow/hello_js_reverse_skill/blob/main/references/browser-evidence-contract.md",
+        "https://api.github.com/repos/WhiteNightShadow/hello_js_reverse_skill/git/trees/main?recursive=1",
+        "https://github.com/WhiteNightShadow/hello_js_reverse_skill/blob/main/scripts/real_cases/LICENSE"
+      ]
+    },
+    "Fausto-404/js-reverse-automation--skill": {
+      "source": "https://github.com/Fausto-404/js-reverse-automation--skill/blob/main/README.md",
+      "metadata": "https://api.github.com/repos/Fausto-404/js-reverse-automation--skill",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-10-10T08:17:45Z",
+      "license": "Apache-2.0",
+      "note": "Apache-2.0. Documented limits exclude general VMP static recovery, unexported WASM internals, Service Worker closures, cross-origin iframes and CSP WebSocket bypass. Use isolated authorized test accounts; broad README claims are not universal support.",
+      "note_zh": "能力边界明确不支持通用VMP静态还原、未导出的WASM内部函数、Service Worker内部闭包、跨域iframe、CSP WebSocket绕过等；README宽泛JSVMP宣传不能当完整支持。需要受控测试账号和隔离环境。 Apache-2.0；JSRPC、autoDecoder、Burp及浏览器组件分别适用其许可。",
+      "purpose_zh": "运行时加密/签名入口候选发现、Webpack模块观测、差分验证、动作级请求与业务响应证据、生成JSRPC注入/Flask代理/Burp autoDecoder配置。",
+      "additional_sources": [
+        "https://github.com/Fausto-404/js-reverse-automation--skill/blob/main/js-reverse-automation/references/capability-boundaries.md"
+      ]
+    },
+    "ChromeDevTools/chrome-devtools-mcp": {
+      "source": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/README.md",
+      "metadata": "https://api.github.com/repos/ChromeDevTools/chrome-devtools-mcp",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-11-06T14:30:59Z",
+      "license": "Apache-2.0",
+      "note": "Apache-2.0. Can read and modify browser data. Use an isolated profile. Usage statistics are enabled by default, and performance features may send trace URLs to CrUX.",
+      "note_zh": "客户端能读取并修改浏览器数据，应使用隔离profile；正式支持Chrome/Chrome for Testing。默认使用统计开启，性能功能可能发送trace URL到CrUX。 Apache-2.0",
+      "purpose_zh": "网络、控制台、source-mapped堆栈、截图和性能trace；Puppeteer驱动交互。",
+      "additional_sources": []
+    },
+    "microsoft/playwright-mcp": {
+      "source": "https://github.com/microsoft/playwright-mcp/blob/main/README.md",
+      "metadata": "https://api.github.com/repos/microsoft/playwright-mcp",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-11-06T22:49:45Z",
+      "license": "Apache-2.0",
+      "note": "Apache-2.0. General browser execution layer, not a deobfuscator. Origin allow/block options are explicitly not a security boundary.",
+      "note_zh": "通用浏览器执行层，不是反混淆器；受浏览器会话/页面权限约束。origin allow/block配置明确不构成安全边界。 Apache-2.0",
+      "purpose_zh": "以无障碍树驱动页面探索、交互、快照和测试；可使用隔离会话或持久profile。",
+      "additional_sources": []
+    },
+    "microsoft/playwright-cli": {
+      "source": "https://github.com/microsoft/playwright-cli/blob/main/README.md",
+      "metadata": "https://api.github.com/repos/microsoft/playwright-cli",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-11-05T23:09:34Z",
+      "license": "Apache-2.0",
+      "note": "Apache-2.0. CLI versus MCP is a workflow tradeoff, not a security or correctness guarantee; manage browser sessions and evidence retention.",
+      "note_zh": "与MCP是交互方式取舍，不代表任务更安全或天然更准确；默认内存profile，需按任务管理会话/证据留存。 Apache-2.0",
+      "purpose_zh": "浏览器会话、点击、快照、截图、选择器检查和代码生成；适合已有shell能力的coding agent。",
+      "additional_sources": []
+    },
+    "j4k0xb/webcrack": {
+      "source": "https://github.com/j4k0xb/webcrack/blob/master/README.md",
+      "metadata": "https://api.github.com/repos/j4k0xb/webcrack",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-07-26T22:22:19Z",
+      "license": "MIT",
+      "note": "MIT. Supports specific patterns, not arbitrary JavaScript VMs, and cannot recover discarded information. Isolate untrusted input and match Node/isolated-vm versions.",
+      "note_zh": "不是任意JSVMP解密器，也无法恢复编译中丢失的信息；依赖isolated-vm与兼容Node版本，处理不可信输入应隔离。 MIT",
+      "purpose_zh": "识别并还原支持的obfuscator.io模式、去压缩、转写以及Webpack/Browserify拆包。",
+      "additional_sources": []
+    },
+    "pionxzh/wakaru": {
+      "source": "https://github.com/pionxzh/wakaru/blob/main/README.md",
+      "metadata": "https://api.github.com/repos/pionxzh/wakaru",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-11-06T15:06:28Z",
+      "license": "Apache-2.0",
+      "note": "Apache-2.0. Not a heavy-obfuscation or VM breaker. Original names require retained metadata/source maps. Package-version inventory remains in development.",
+      "note_zh": "不是混淆破解器；重型控制流/VM需专项方法，未保留的原始变量名不能凭空恢复。包版本inventory仍在开发，不是已发布能力。 Apache-2.0",
+      "purpose_zh": "AST重写、转译helper恢复和支持的bundle拆分；可结合source map恢复原文件/名称。",
+      "additional_sources": [
+        "https://github.com/pionxzh/wakaru/blob/main/skills/wakaru/SKILL.md"
+      ]
+    },
+    "electron/asar": {
+      "source": "https://github.com/electron/asar/blob/main/README.md",
+      "metadata": "https://api.github.com/repos/electron/asar",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-11-01T09:30:34Z",
+      "license": "MIT",
+      "note": "MIT. Archive utility, not a decompiler. Extraction does not grant code reuse rights.",
+      "note_zh": "解包器而非反编译器；ASAR并不等同加密，提取不自动授予源代码复用权。 MIT",
+      "purpose_zh": "列出、单文件提取、整包解出ASAR；作为Electron静态分析入口。",
+      "additional_sources": []
+    },
+    "WhiteNightShadow/camoufox-reverse-mcp": {
+      "source": "https://github.com/WhiteNightShadow/camoufox-reverse-mcp/blob/main/README.md",
+      "metadata": "https://api.github.com/repos/WhiteNightShadow/camoufox-reverse-mcp",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-11-06T06:02:11Z",
+      "license": "MIT",
+      "note": "MIT. Browser tools can access cookies/storage. Anti-fingerprinting is not undetectability. Optional engine tracing disables the Firefox content sandbox temporarily; do not treat it as a safe default.",
+      "note_zh": "反指纹不等于不可检测；客户端可访问Cookie/存储；引擎追踪enable_trace=True会临时关闭Firefox content sandbox，不能作为默认低风险模式。 MIT",
+      "purpose_zh": "支撑hello_js_reverse_skill的浏览器层；主世界/Frame Hook、脚本搜索、网络证据、离线验签，可选定制Gecko属性追踪。",
+      "additional_sources": []
+    },
+    "WebAssembly/wabt": {
+      "source": "https://github.com/WebAssembly/wabt/blob/main/README.md",
+      "metadata": "https://api.github.com/repos/WebAssembly/wabt",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-11-05T16:05:00Z",
+      "license": "Apache-2.0",
+      "note": "Apache-2.0. WAT/C output is not original C/C++/Rust source recovery. Proposal support varies; distinguish static inspection from executing an interpreter.",
+      "note_zh": "WAT/C输出不等于原始C/C++/Rust源码恢复；扩展proposal支持不同，解释执行与纯静态读取应分开。 Apache-2.0",
+      "purpose_zh": "wasm2wat、wasm-objdump、wasm-validate、wasm2c等，适合检查JS调用的WASM模块。",
+      "additional_sources": []
+    },
+    "webrecorder/browsertrix-crawler": {
+      "source": "https://github.com/webrecorder/browsertrix-crawler/blob/main/README.md",
+      "metadata": "https://api.github.com/repos/webrecorder/browsertrix-crawler",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-11-07T00:09:12Z",
+      "license": "AGPL-3.0",
+      "note": "AGPL-3.0. Archiving is not full backend replication or forensic certification. Manage collection scope, personal data, site terms and evidence integrity.",
+      "note_zh": "网页归档不等于完整后端复制或司法证据认证；抓取范围、个人数据、站点条款与证据完整性需要额外管理。 AGPL-3.0-or-later（README），GitHub元数据显示AGPL-3.0。",
+      "purpose_zh": "用真实浏览器捕获动态站点，以Docker运行，适合公开页面证据留存/可复查归档。",
+      "additional_sources": []
+    },
+    "RyanDFIR/hindsight": {
+      "source": "https://github.com/RyanDFIR/hindsight/blob/main/README.md",
+      "metadata": "https://api.github.com/repos/RyanDFIR/hindsight",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-11-04T14:42:35Z",
+      "license": "Apache-2.0",
+      "note": "Apache-2.0. Offline browser-profile forensics, not live JavaScript tracing. Authorized profiles only; exports can contain credentials and private data. Format support depends on browser versions.",
+      "note_zh": "属于本地profile取证，不是live JS追踪；必须仅处理获授权的profile，报告可能含凭据和私人数据，解析支持取决于浏览器版本。 Apache-2.0",
+      "purpose_zh": "离线浏览器历史、缓存、书签、Cookie、LocalStorage等时间线；支持部分Firefox profile数据库。",
+      "additional_sources": []
+    },
+    "doyensec/electronegativity": {
+      "source": "https://github.com/doyensec/electronegativity/blob/master/README.md",
+      "metadata": "https://api.github.com/repos/doyensec/electronegativity",
+      "checked_on": "2026-11-07",
+      "archived": true,
+      "last_push_observed": "2026-10-24T19:56:32Z",
+      "license": "Apache-2.0",
+      "note": "Apache-2.0. Archived; upstream points to ElectroNG. Historical reference, not a current default recommendation. Findings require manual review.",
+      "note_zh": "官方已归档并指向ElectroNG；只作为历史/补充条目，不推荐为当前主工具。结果需人工确认。 Apache-2.0",
+      "purpose_zh": "AST/DOM扫描Electron安全设置，支持JS/HTML/ASAR和CSV/SARIF结果。",
+      "additional_sources": []
+    },
+    "doyensec/ElectroNG": {
+      "source": "https://github.com/doyensec/ElectroNG/blob/main/README.md",
+      "metadata": "https://api.github.com/repos/doyensec/ElectroNG",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "last_push_observed": "2026-10-24T17:49:29Z",
+      "license": "Apache-2.0",
+      "note": "Apache-2.0. README warns only minor fixes since 2024 and reduced coverage for modern Electron; non-archived status does not imply active comprehensive support.",
+      "note_zh": "README警告2024年后仅小修，针对现代Electron可能不完整/效果下降；不能因为未归档就标为活跃成熟推荐。 Apache-2.0",
+      "purpose_zh": "Electron桌面扫描应用，核心逻辑位于ElectroNG-core。",
+      "additional_sources": []
+    },
+    "storytold/craft-anything": {
+      "source": "https://github.com/storytold/craft-anything/blob/main/README.md",
+      "metadata": "https://api.github.com/repos/storytold/craft-anything",
+      "checked_on": "2026-11-07",
+      "archived": false,
+      "license": "MIT OR Apache-2.0",
+      "note": "MIT OR Apache-2.0 (README and Cargo.toml). Early alpha: some Frida sessions are simulated, Codex integration has not been validated with a real account build, and app/game behavior checks are limited. README and generated tool counts differ, so no exact tool count is asserted. Brand assets have separate trademark restrictions.",
+      "note_zh": "README 与 Cargo.toml 标明 MIT OR Apache-2.0。项目处于早期 Alpha：部分 Frida 会话为模拟实现，Codex 集成未做真实账号构建验证，应用/游戏行为验证有限。README 与生成文档工具数量不一致，因此不固定工具数。品牌素材另有商标限制。",
+      "purpose_zh": "面向网站、桌面应用与游戏的 Rust 逆向分析和 AI 重建工作台，含原生二进制分析、反汇编/伪 C、调用图、文件格式解析、证据管理与 CLI/MCP，可接 Ghidra 和编码代理。",
+      "additional_sources": [
+        "https://github.com/storytold/craft-anything/blob/main/Cargo.toml",
+        "https://github.com/storytold/craft-anything/blob/main/docs/tools.md",
+        "https://github.com/storytold/craft-anything/blob/main/docs/tool-status.md",
+        "https://github.com/storytold/craft-anything/blob/main/docs/STATUS.md"
+      ]
+    }
+  }
+}

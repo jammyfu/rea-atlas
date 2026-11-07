@@ -1,12 +1,20 @@
-# REA Atlas — a map of reverse-engineering projects (with rea tags)
+# Reverse Engineering Atlas
 
-> Map of open reverse-engineering projects: game decompilations and static recompilations across NES, SNES, Mega Drive, Saturn, GB, GBA, N64, GameCube, Wii, DS, 3DS, PS1, PS2, Xbox and PC; re-implementations; asset tools; general RE tooling (Ghidra, radare2, Rizin, x64dbg, Frida, angr, ImHex, IDA MCP); app, protocol and firmware work. Each entry is labelled "Uses rea: Yes / No / Unverified" for morluto/rea (https://github.com/morluto/rea). No ROMs, cracks or copyrighted assets.
+> Independent, tool-agnostic catalog of reverse-engineering projects, tools and agent workflows: game decompilation/recompilation, application reimplementation, Android and JavaScript analysis, protocols, firmware, security evaluation and supporting tools. REA is one optional relationship tag, not the scope or a requirement for inclusion. Public visibility is not a license or an endorsement.
 
-## Docs
+## Start here
 - [README (English)](README.md)
 - [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
-- [Machine-readable entries](data.json), [images](images.json): [section, subsection, name, url, uses_rea, note]
-- [Contributing](CONTRIBUTING.md)
+- [Skill technology map](SKILL_MAP.md) · [中文技术地图](SKILL_MAP.zh-CN.md): ten workflow entry points, related projects, official documentation, licensing caveats and capability limits.
 
-## Sections
-- Official REA showcases; Games by platform (NES, SNES, Mega Drive, Saturn, GB, GBA, N64, GameCube, Wii, DS, 3DS, PS1, PS2, Xbox, PC) split into Decompilation/Recomp, Remake/Port, Asset tools; Apps/Electron; Protocols; Firmware; Security; Tooling.
+## Data
+- [Catalog entries](data.json): rows of `[section, subsection, name, url, uses_rea, note]`.
+- [Display summaries](descriptions.json): project-name keys with five language values.
+- [Skill mappings and evidence](skill-map.json): editorial technique relationships, review dates, source links, license and maintenance caveats. A technical relationship does not imply an upstream dependency.
+- [Image references](images.json) and [star-count snapshot](stars.json): separate display metadata, not live quality rankings.
+- [Contributing](CONTRIBUTING.md): edit source data, then run `python render.py` and `python validate.py`.
+
+## Scope and verification
+- Analyze only owned or explicitly authorized targets and data. Cracks, DRM-bypass projects, pirated binaries and unlicensed game assets are out of scope.
+- Skill-map checks are documentation reviews, not installation, execution, security audits or benchmark reproduction. Existing older entries have not all been re-audited.
+- This catalog's original contributions are CC0-1.0; upstream code, images, brands and other third-party material retain their own rights.

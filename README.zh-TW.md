@@ -1,15 +1,19 @@
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
-# REA Atlas：逆向工程專案地圖（含 rea 標記）
+# Reverse Engineering Atlas · 逆向工程專案地圖
 
-開源逆向工程專案地圖：遊戲反編譯、靜態重編譯、重新實作、資源擷取工具、通用逆向工具，以及應用程式/協定/韌體逆向。每條標註是否使用 [morluto/rea](https://github.com/morluto/rea)（Reverse Engineer Anything）：**Uses rea: Yes / No / Unverified**，只有在具備公開證據（README、官方 showcase 或儲存庫文件）才標 Yes。
+依目標、平台與技術整理逆向專案、工具及 Agent 工作流程。開始實作前先查看既有成果：遊戲反編譯與重編譯、應用程式重新實作、Android 與 JavaScript 分析、協定、韌體及配套工具。
 
-> 非官方，與 morluto/rea 無關聯。
+**341 筆目錄記錄 · 335 個 GitHub 儲存庫 · 10 類 skill 工作流程 · 5 種 README 語言**
+
+> 獨立整理，不綁定單一工具，也不是 REA 或其他上游專案的官方目錄。收錄不代表背書，不保證專案已完成、安全或符合你的授權用途。
 
 ## 目錄
 
-- [已使用 REA 的專案（證據標記子集）](#已使用-rea-的專案證據標記子集)
-- [遊戲](#遊戲)
+- [從這裡開始](#atlas-start)
+- [Skill 技術索引](#atlas-skills)
+- [收錄範圍、證據與授權](#atlas-policy)
+- [遊戲](#atlas-games)
   - [NES / FC](#nes--fc)
   - [SFC / SNES](#sfc--snes)
   - [MD / Genesis](#md--genesis)
@@ -25,78 +29,62 @@
   - [PS2](#ps2)
   - [Xbox / Xbox 360](#xbox--xbox-360)
   - [PC / DOS / PC-98](#pc--dos--pc-98)
-- [應用程式 / Electron / 桌面](#應用程式--electron--桌面)
-- [協定 / 硬體](#協定--硬體)
-- [韌體 / 驅動](#韌體--驅動)
-- [資安 / 評測](#資安--評測)
-- [逆向工具](#逆向工具)
-- [REA 官方 Showcase](#rea-官方-showcase)
+- [應用程式 / Electron / 桌面](#atlas-app)
+- [協定 / 硬體](#atlas-protocol)
+- [韌體 / 驅動](#atlas-firmware)
+- [資安 / 評測](#atlas-security)
+- [逆向工具](#atlas-tooling)
+- [REA 官方 Showcase](#atlas-official)
+- [選用視圖：使用 REA 的專案](#atlas-rea)
+- [資料與貢獻](#atlas-data)
 
-## 已使用 REA 的專案（證據標記子集）
+<a id="atlas-start"></a>
 
-_可選過濾：以下有公開證據表明使用了 REA。地圖裡大部分專案是普通逆向工作，並不要求用 REA。_
+## 從這裡開始
 
-<table>
-<tr><th width="170">圖片</th><th>專案</th><th>簡介</th><th>使用 rea</th><th>圖片來源</th></tr>
-<tr><td><a href="https://github.com/morluto/rea/discussions/2254"><img src="images/rea-discussion-2254.png" width="160" alt="REA discussion #2254"></a></td><td><a href="https://github.com/morluto/rea/discussions/2254"><b>REA discussion #2254</b></a></td><td>分析去除符號的 bzip2，並與實際建置結果比對驗證</td><td>✅ 是</td><td><sub>本儲存庫截圖</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/aicodeking/leanrea"><b>leanrea</b></a><br><sub>aicodeking</sub></td><td>輕量 skill，替代 REA 的 MCP 層，讓 agent 直接呼叫 CLI 工具</td><td>✅ 是</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/cranebeaker/coop-anything"><b>coop-anything</b></a><br><sub>cranebeaker</sub></td><td>用 REA 調查入口，為單機遊戲添加合作模式的 MCP 伺服器與技能</td><td>✅ 是</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/Caho1/open-claude-ui"><b>open-claude-ui</b></a><br><sub>Caho1</sub></td><td>用 REA 深度拆解並高保真還原 Claude 桌面端 UI 元件與互動物理</td><td>✅ 是</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/MiaAI-Lab/sparkDash"><b>sparkDash</b></a><br><sub>MiaAI-Lab</sub></td><td>整合 REA 長時分析任務、按需載入結果的多裝置儀表板</td><td>✅ 是</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/michaelshimeles/terminal-rs"><img src="https://raw.githubusercontent.com/michaelshimeles/terminal-rs/master/docs/img/overview.png" width="160" alt="michaelshimeles/terminal-rs"></a></td><td><a href="https://github.com/michaelshimeles/terminal-rs"><b>terminal-rs</b></a><br><sub>michaelshimeles</sub></td><td>以 Rust 寫成的彭博風格交易終端機</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
-<tr><td><a href="https://github.com/ShadowSwaps/REA-Reconstruction-Companion"><img src="https://opengraph.githubassets.com/1/ShadowSwaps/REA-Reconstruction-Companion" width="160" alt="ShadowSwaps/REA-Reconstruction-Companion"></a></td><td><a href="https://github.com/ShadowSwaps/REA-Reconstruction-Companion"><b>REA-Reconstruction-Companion</b></a><br><sub>ShadowSwaps</sub></td><td>讓重建過程隨時有證據可查的 AI 代理技能</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/Xiangyu-CAS/rea-capcut"><b>rea-capcut</b></a><br><sub>Xiangyu-CAS</sub></td><td>用 REA 研究剪映後重做的開源離線剪輯軟體</td><td>✅ 是</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/michaelshimeles/rec-rs"><img src="https://raw.githubusercontent.com/michaelshimeles/rec-rs/main/docs/screenshots/main.png" width="160" alt="michaelshimeles/rec-rs"></a></td><td><a href="https://github.com/michaelshimeles/rec-rs"><b>rec-rs</b></a><br><sub>michaelshimeles</sub></td><td>以 Rust 寫成的 macOS 快速螢幕錄影工具，參考 OBS 設計</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/giveen/decomp.anything"><b>decomp.anything</b></a><br><sub>giveen</sub></td><td>停更的匹配式反編譯器 decomp.wtf 的活躍分支；增加了 Windows/Linux 二進位支援，並接入 REA，讓 AI 也能逆向非遊戲程式。</td><td>✅ 是</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/N0zoM1z0/dx-ball"><img src="https://raw.githubusercontent.com/N0zoM1z0/dx-ball/main/resources/dxball-title.png" width="160" alt="N0zoM1z0/dx-ball"></a></td><td><a href="https://github.com/N0zoM1z0/dx-ball"><b>dx-ball</b></a><br><sub>N0zoM1z0</sub></td><td>用 C/C++ 重建 DX-Ball 1.07，並對照原版 x86 測試</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
-<tr><td><a href="https://github.com/michaelshimeles/sketch"><img src="https://raw.githubusercontent.com/michaelshimeles/sketch/main/docs/screenshots/app_demo.png" width="160" alt="michaelshimeles/sketch"></a></td><td><a href="https://github.com/michaelshimeles/sketch"><b>sketch</b></a><br><sub>michaelshimeles</sub></td><td>以 Rust 寫成的無限設計畫布，研究 Paper 後重建</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
-<tr><td><a href="https://github.com/czcdr/dsh-plugin-rea"><img src="https://raw.githubusercontent.com/czcdr/dsh-plugin-rea/main/assets/screenshot-1.png" width="160" alt="czcdr/dsh-plugin-rea"></a></td><td><a href="https://github.com/czcdr/dsh-plugin-rea"><b>dsh-plugin-rea</b></a><br><sub>czcdr</sub></td><td>在 DeepSeek Harness 裡使用 REA，自動裝好 Ghidra</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
-<tr><td><a href="https://github.com/Moxnatiy/OpenBattlefield2"><img src="https://raw.githubusercontent.com/Moxnatiy/OpenBattlefield2/master/docs/screenshots/menu-main.png" width="160" alt="Moxnatiy/OpenBattlefield2"></a></td><td><a href="https://github.com/Moxnatiy/OpenBattlefield2"><b>OpenBattlefield2</b></a><br><sub>Moxnatiy</sub></td><td>戰地風雲 2 引擎的 C++20 淨室重寫（讀取你自己的遊戲檔案）</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
-<tr><td><a href="https://github.com/0xshlomil/ida-free-mcp"><img src="https://opengraph.githubassets.com/1/0xshlomil/ida-free-mcp" width="160" alt="0xshlomil/ida-free-mcp"></a></td><td><a href="https://github.com/0xshlomil/ida-free-mcp"><b>ida-free-mcp</b></a><br><sub>0xshlomil</sub></td><td>透過 MCP 讓 AI 代理使用免費版 IDA</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
-<tr><td><a href="https://github.com/lxistired/ledger-reborn"><img src="https://raw.githubusercontent.com/lxistired/ledger-reborn/main/docs/screenshots/accounting.png" width="160" alt="lxistired/ledger-reborn"></a></td><td><a href="https://github.com/lxistired/ledger-reborn"><b>ledger-reborn</b></a><br><sub>lxistired</sub></td><td>本機優先的記帳 App，參考 QuickBooks Mac 版</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/glauberlima/open-scrantic"><b>open-scrantic</b></a><br><sub>glauberlima</sub></td><td>用 REA 逆向並重寫的 1992 年 Johnny Castaway 螢幕保護程式（Rust）</td><td>✅ 是</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/N0zoM1z0/th04"><img src="https://raw.githubusercontent.com/N0zoM1z0/th04/main/resources/title-screen.png" width="160" alt="N0zoM1z0/th04"></a></td><td><a href="https://github.com/N0zoM1z0/th04"><b>th04</b></a><br><sub>N0zoM1z0</sub></td><td>東方幻想鄉（PC-98）的可讀原始碼，並以原版編譯器驗證</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/gryszzz/reverse-engineer-everything"><b>reverse-engineer-everything</b></a><br><sub>gryszzz</sub></td><td>基於 REA 引擎的本地工作台和調查工作室，用於有證據支持的軟體分析，檔案不上雲。</td><td>✅ 是</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/tanepiper/game-frame"><b>game-frame</b></a><br><sub>tanepiper</sub></td><td>讓 AI agent 從發行檔案逆向遊戲的框架</td><td>✅ 是</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/rodneypantonial/sims3-modernization"><b>sims3-modernization</b></a><br><sub>rodneypantonial</sub></td><td>讓模擬市民 3 在新電腦上少卡頓、少當機</td><td>✅ 是</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/alexmi256/rea-agent-docker"><img src="https://opengraph.githubassets.com/1/alexmi256/rea-agent-docker" width="160" alt="alexmi256/rea-agent-docker"></a></td><td><a href="https://github.com/alexmi256/rea-agent-docker"><b>rea-agent-docker</b></a><br><sub>alexmi256</sub></td><td>REA 的 Docker 映像檔，含 Ghidra/Hopper/IDA 版本</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/nicolvus/a6000-fw-decomp"><b>a6000-fw-decomp</b></a><br><sub>nicolvus</sub></td><td>用 REA 和 Ghidra 拆 Sony A6000 相機韌體</td><td>✅ 是</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/EndLess728/MiTV-Remote"><b>MiTV-Remote</b></a><br><sub>EndLess728</sub></td><td>在 Mac、Android、iPhone 上用 Wi-Fi 遙控小米電視</td><td>✅ 是</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/ucodia/desktop-games-nostalgia"><img src="https://raw.githubusercontent.com/ucodia/desktop-games-nostalgia/main/docs/demo.gif" width="160" alt="ucodia/desktop-games-nostalgia"></a></td><td><a href="https://github.com/ucodia/desktop-games-nostalgia"><b>desktop-games-nostalgia</b></a><br><sub>ucodia</sub></td><td>再砸一次桌面：Gemtree 2000 年的小玩具登上 macOS 和網頁</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
-<tr><td><a href="https://github.com/cudanexus/vd-streamer-linux"><img src="https://opengraph.githubassets.com/1/cudanexus/vd-streamer-linux" width="160" alt="cudanexus/vd-streamer-linux"></a></td><td><a href="https://github.com/cudanexus/vd-streamer-linux"><b>vd-streamer-linux</b></a><br><sub>cudanexus</sub></td><td>把 Linux 桌面串流到 Quest、Pico 頭戴裝置</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
-<tr><td><a href="https://github.com/Nowng/rea-mcp"><img src="https://opengraph.githubassets.com/1/Nowng/rea-mcp" width="160" alt="Nowng/rea-mcp"></a></td><td><a href="https://github.com/Nowng/rea-mcp"><b>rea-mcp</b></a><br><sub>Nowng</sub></td><td>在 LM Studio 裡搭配本機模型使用 REA</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
-<tr><td><a href="https://github.com/pablodiazjorge/rea-lab"><img src="https://opengraph.githubassets.com/1/pablodiazjorge/rea-lab" width="160" alt="pablodiazjorge/rea-lab"></a></td><td><a href="https://github.com/pablodiazjorge/rea-lab"><b>rea-lab</b></a><br><sub>pablodiazjorge</sub></td><td>Windows + Ghidra 練習題與預先登記的 REA 評測</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
-<tr><td><a href="https://github.com/NullLabTests/OpenBSD_netcat_REA"><img src="https://raw.githubusercontent.com/NullLabTests/OpenBSD_netcat_REA/main/assets/rea-pipeline.png" width="160" alt="NullLabTests/OpenBSD_netcat_REA"></a></td><td><a href="https://github.com/NullLabTests/OpenBSD_netcat_REA"><b>OpenBSD_netcat_REA</b></a><br><sub>NullLabTests</sub></td><td>以 REA + Ghidra 靜態分析 netcat-openbsd</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
-<tr><td><a href="https://github.com/sickpyramid/ReaFuse"><img src="https://opengraph.githubassets.com/1/sickpyramid/ReaFuse" width="160" alt="sickpyramid/ReaFuse"></a></td><td><a href="https://github.com/sickpyramid/ReaFuse"><b>ReaFuse</b></a><br><sub>sickpyramid</sub></td><td>藉助 REA 把兩個 JS/TS 專案合併成一個</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
-<tr><td><a href="https://github.com/grisuno/VSL-DSP"><img src="https://opengraph.githubassets.com/1/grisuno/VSL-DSP" width="160" alt="grisuno/VSL-DSP"></a></td><td><a href="https://github.com/grisuno/VSL-DSP"><b>VSL-DSP</b></a><br><sub>grisuno</sub></td><td>PreSonus AudioBox VSL 音效卡的 Linux 核心模組</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
-<tr><td><a href="https://github.com/iammukeshm/hexgrab"><img src="https://opengraph.githubassets.com/1/iammukeshm/hexgrab" width="160" alt="iammukeshm/hexgrab"></a></td><td><a href="https://github.com/iammukeshm/hexgrab"><b>hexgrab</b></a><br><sub>iammukeshm</sub></td><td>迷你 Windows 取色工具，從 PowerToys 二進位檔研究而來</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
-<tr><td><a href="https://github.com/zhaofeng130/dsh-rea"><img src="https://opengraph.githubassets.com/1/zhaofeng130/dsh-rea" width="160" alt="zhaofeng130/dsh-rea"></a></td><td><a href="https://github.com/zhaofeng130/dsh-rea"><b>dsh-rea</b></a><br><sub>zhaofeng130</sub></td><td>給 DeepSeek Harness 加上 REA 技能和工具</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
-<tr><td><a href="https://github.com/pablodiazjorge/rea-casebook"><img src="https://raw.githubusercontent.com/pablodiazjorge/rea-casebook/main/media/session-dark.png" width="160" alt="pablodiazjorge/rea-casebook"></a></td><td><a href="https://github.com/pablodiazjorge/rea-casebook"><b>rea-casebook</b></a><br><sub>pablodiazjorge</sub></td><td>讓 Claude Code 的每項結論都引用真實的 REA 證據</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/B-Howell/soundconnect-desktop"><b>soundconnect-desktop</b></a><br><sub>B-Howell</sub></td><td>在 Windows 桌面上控制 Sony 藍牙耳機</td><td>✅ 是</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/tuunanet/rea-ski-or-die-reconstruction"><img src="https://raw.githubusercontent.com/tuunanet/rea-ski-or-die-reconstruction/main/docs/snowball-war.gif" width="160" alt="tuunanet/rea-ski-or-die-reconstruction"></a></td><td><a href="https://github.com/tuunanet/rea-ski-or-die-reconstruction"><b>rea-ski-or-die-reconstruction</b></a><br><sub>tuunanet</sub></td><td>Ski or Die 的雪球大戰，以 Rust + SDL2 重製（素材需自備）</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
-<tr><td><a href="https://github.com/OpenRsG/GunZRs"><img src="https://raw.githubusercontent.com/OpenRsG/GunZRs/main/docs/media/menu.jpg" width="160" alt="OpenRsG/GunZRs"></a></td><td><a href="https://github.com/OpenRsG/GunZRs"><b>GunZRs</b></a><br><sub>OpenRsG</sub></td><td>GunZ: The Duel 以 Rust + Bevy 重生</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
-<tr><td><a href="https://github.com/sheilacraig/dsh-rea-mcp"><img src="https://opengraph.githubassets.com/1/sheilacraig/dsh-rea-mcp" width="160" alt="sheilacraig/dsh-rea-mcp"></a></td><td><a href="https://github.com/sheilacraig/dsh-rea-mcp"><b>dsh-rea-mcp</b></a><br><sub>sheilacraig</sub></td><td>只靠設定就把 REA 接進 DeepSeek Harness</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
-<tr><td><a href="https://github.com/az9713/wispr-flow-rea-teardown"><img src="https://img.youtube.com/vi/FnB9tHKBJXQ/maxresdefault.jpg" width="160" alt="az9713/wispr-flow-rea-teardown"></a></td><td><a href="https://github.com/az9713/wispr-flow-rea-teardown"><b>wispr-flow-rea-teardown</b></a><br><sub>az9713</sub></td><td>拆解 Wispr Flow 的語音管線，附 64 行重寫版</td><td>✅ 是</td><td><sub><a href="https://img.youtube.com/vi/FnB9tHKBJXQ/maxresdefault.jpg">影片封面</a></sub></td></tr>
-<tr><td><a href="https://github.com/KarlssonChristoffer/DiskLens"><img src="https://opengraph.githubassets.com/1/KarlssonChristoffer/DiskLens" width="160" alt="KarlssonChristoffer/DiskLens"></a></td><td><a href="https://github.com/KarlssonChristoffer/DiskLens"><b>DiskLens</b></a><br><sub>KarlssonChristoffer</sub></td><td>像 WinDirStat 一樣看清 Windows 11 磁碟被什麼佔滿</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
-<tr><td><a href="https://github.com/ya123-4/rea-dsh-plugin"><img src="https://opengraph.githubassets.com/1/ya123-4/rea-dsh-plugin" width="160" alt="ya123-4/rea-dsh-plugin"></a></td><td><a href="https://github.com/ya123-4/rea-dsh-plugin"><b>rea-dsh-plugin</b></a><br><sub>ya123-4</sub></td><td>在 DeepSeek Harness 中註冊 REA 的 MCP 工具</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
-<tr><td><a href="https://github.com/az9713/REA-demo"><img src="https://opengraph.githubassets.com/1/az9713/REA-demo" width="160" alt="az9713/REA-demo"></a></td><td><a href="https://github.com/az9713/REA-demo"><b>REA-demo</b></a><br><sub>az9713</sub></td><td>讓 REA 分析它自己，附可證偽的預測</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
-<tr><td><a href="https://github.com/cognixws/picode-rea"><img src="https://opengraph.githubassets.com/1/cognixws/picode-rea" width="160" alt="cognixws/picode-rea"></a></td><td><a href="https://github.com/cognixws/picode-rea"><b>picode-rea</b></a><br><sub>cognixws</sub></td><td>在 PiCode 裡使用 REA 的靜態分析工具</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
-<tr><td><a href="https://github.com/jinshi666888/rea-playbook"><img src="https://raw.githubusercontent.com/jinshi666888/rea-playbook/main/docs/assets/demo.gif" width="160" alt="jinshi666888/rea-playbook"></a></td><td><a href="https://github.com/jinshi666888/rea-playbook"><b>rea-playbook</b></a><br><sub>jinshi666888</sub></td><td>附迷你 Electron 靶機的 REA 實作練習</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
-<tr><td><a href="https://github.com/UnknownHacker1/rea-groundtruth"><img src="https://opengraph.githubassets.com/1/UnknownHacker1/rea-groundtruth" width="160" alt="UnknownHacker1/rea-groundtruth"></a></td><td><a href="https://github.com/UnknownHacker1/rea-groundtruth"><b>rea-groundtruth</b></a><br><sub>UnknownHacker1</sub></td><td>以真實原始碼檢驗 REA 的分析報告</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/Stijnus/dsh-rev-eng"><b>dsh-rev-eng</b></a><br><sub>Stijnus</sub></td><td>將 REA 技能與可選 MCP 打包為 DSH 插件，用於逆向工程與 Mac 應用建構。</td><td>✅ 是</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/alemigav/re2-64-decomp"><img src="https://opengraph.githubassets.com/1/alemigav/re2-64-decomp" width="160" alt="alemigav/re2-64-decomp"></a></td><td><a href="https://github.com/alemigav/re2-64-decomp"><b>re2-64-decomp</b></a><br><sub>alemigav</sub></td><td>用 AI 工具（REA + Ghidra）拆解任天堂64版《惡靈古堡2》。有數千個反編譯函式和驗證套件，不含遊戲ROM。</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
-<tr><td><a href="https://rea.tools/showcase/dx-ball/"><img src="images/showcase-dx-ball.png" width="160" alt="DX-Ball: sound-pan function"></a></td><td><a href="https://rea.tools/showcase/dx-ball/"><b>DX-Ball: sound-pan function</b></a></td><td>看 REA 把 DX-Ball 的一個音效函式還原成逐位元組一致的 C</td><td>✅ 是</td><td><sub>本儲存庫截圖</sub></td></tr>
-<tr><td><a href="https://rea.tools/showcase/notion/"><img src="images/showcase-notion.png" width="160" alt="Notion: Electron clipboard bridge"></a></td><td><a href="https://rea.tools/showcase/notion/"><b>Notion: Electron clipboard bridge</b></a></td><td>跟著一次 Notion 複製操作，從頁面一路追進 IPC 和主行程</td><td>✅ 是</td><td><sub>本儲存庫截圖</sub></td></tr>
-<tr><td><a href="https://rea.tools/showcase/th04/"><img src="images/showcase-th04.png" width="160" alt="TH04: PC-98 bullet-ring maths"></a></td><td><a href="https://rea.tools/showcase/th04/"><b>TH04: PC-98 bullet-ring maths</b></a></td><td>從 16 位元 DOS 程式碼裡找回東方幻想鄉的彈幕角度演算法</td><td>✅ 是</td><td><sub>本儲存庫截圖</sub></td></tr>
-<tr><td><a href="https://rea.tools/showcase/aegis/"><img src="images/showcase-aegis.png" width="160" alt="Aegis: TOTP code generation"></a></td><td><a href="https://rea.tools/showcase/aegis/"><b>Aegis: TOTP code generation</b></a></td><td>看清 Aegis Android App 究竟如何產生兩步驟驗證碼</td><td>✅ 是</td><td><sub>本儲存庫截圖</sub></td></tr>
-<tr><td><a href="https://rea.tools/showcase/ctf/"><img src="images/showcase-ctf.png" width="160" alt="CTF: flag checker"></a></td><td><a href="https://rea.tools/showcase/ctf/"><b>CTF: flag checker</b></a></td><td>一步步解開 DownUnderCTF 2023 的逆向題</td><td>✅ 是</td><td><sub>本儲存庫截圖</sub></td></tr>
-<tr><td><a href="https://github.com/a-barzanti/ai-rebuilds"><img src="https://opengraph.githubassets.com/1/a-barzanti/ai-rebuilds" width="160" alt="a-barzanti/ai-rebuilds"></a></td><td><a href="https://github.com/a-barzanti/ai-rebuilds"><b>ai-rebuilds</b></a><br><sub>a-barzanti</sub></td><td>被遺棄的老遊戲重回瀏覽器，不含任何原版檔案</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
-<tr><td><a href="https://github.com/AdamLinCodes/AdamTerm"><img src="https://raw.githubusercontent.com/AdamLinCodes/AdamTerm/main/docs/adamterm.png" width="160" alt="AdamLinCodes/AdamTerm"></a></td><td><a href="https://github.com/AdamLinCodes/AdamTerm"><b>AdamTerm</b></a><br><sub>AdamLinCodes</sub></td><td>研究 Ghostty 後做出的極簡 macOS 終端機</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/chilliesdev/fmseasonhub-re"><b>fmseasonhub-re</b></a><br><sub>chilliesdev</sub></td><td>用 REA 拆解 FM Season Hub 應用程式的分析筆記</td><td>✅ 是</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/carlhako/keen-clone"><b>keen-clone</b></a><br><sub>carlhako</sub></td><td>用 REA + Ghidra 函式級還原的 Commander Keen 1 原生 Linux/SDL2 重實現</td><td>✅ 是</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/NathanKanaeru/samp-client-re"><b>samp-client-re</b></a><br><sub>NathanKanaeru</sub></td><td>用 REA/Ghidra 恢復架構的 SA-MP 0.3.DL-R1 clean-room 客戶端重實現</td><td>✅ 是</td><td><sub>—</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/CurLeaf/dsh-command-rea"><b>dsh-command-rea</b></a><br><sub>CurLeaf</sub></td><td>DSH /rea 斜線命令，將逆向分析請求路由到 REA 技能與 MCP 工具。</td><td>✅ 是</td><td><sub>—</sub></td></tr>
-</table>
+- **尋找既有成果:** 依 [遊戲平台](#atlas-games)、[桌面應用程式 / Electron](#atlas-app)、[協定 / 硬體](#atlas-protocol) 或 [韌體 / 驅動程式](#atlas-firmware) 瀏覽。
+- **選擇分析方法:** 透過 [十類 skill 技術地圖](#atlas-skills) 尋找 Android、JavaScript、原生二進位、CTF 與淨室重新實作流程。
+- **選擇工具:** 查看 [逆向工具](#atlas-tooling) 和 [資安 / 評測](#atlas-security)。工具、skill 與重建後的應用程式有不同用途。
+- **確認依據與限制:** 閱讀 [詳細技術地圖](SKILL_MAP.zh-CN.md)，確認官方來源、授權提醒、維護狀態與能力邊界。
+
+使用 Ctrl+F / Cmd+F 搜尋目標名稱、作者/儲存庫、平台或格式，例如 APK、DEX、Electron、WASM、PS2、firmware。找到記錄後，請到上游 README 核對相依套件與目前進度。未收錄不代表沒有相關專案。
+
+<a id="atlas-skills"></a>
+
+## Skill 技術索引
+
+依技術整理十個 skill 入口及相關專案。技術相關不代表上游相依，也不代表使用了 REA。
+
+[證據、授權與限制](SKILL_MAP.zh-CN.md) · [JSON](skill-map.json)
+
+| Skill / 來源 | 技術方向 | 相關專案 |
+| --- | --- | --- |
+| [REA](https://github.com/morluto/rea) | CLI / MCP, decompilation, cross-references, evidence | [7](SKILL_MAP.zh-CN.md#rea) |
+| [reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | target routing, tool discovery, evidence workflows | [6](SKILL_MAP.zh-CN.md#reverse-skill) |
+| [android-reverse-engineering-skill](https://github.com/SimoneAvogadro/android-reverse-engineering-skill) | APK / DEX, Kotlin metadata, HTTP API analysis | [7](SKILL_MAP.zh-CN.md#android-reverse-engineering-skill) |
+| [replica-skill](https://github.com/Jakeschincariol/replica-skill) | black-box observation, clean-room specs, behavior tests | [5](SKILL_MAP.zh-CN.md#replica-skill) |
+| [leanrea](https://github.com/aicodeking/leanrea) | CLI orchestration, target triage, evidence | [6](SKILL_MAP.zh-CN.md#leanrea) |
+| [ctf-skills](https://github.com/ljagiello/ctf-skills) | CTF reversing, symbolic execution, emulation | [6](SKILL_MAP.zh-CN.md#ctf-skills) |
+| [reverse-skills](https://github.com/P4nda0s/reverse-skills) | decompiler exports, type reconstruction, instrumentation | [6](SKILL_MAP.zh-CN.md#reverse-skills) |
+| [hello_js_reverse_skill](https://github.com/WhiteNightShadow/hello_js_reverse_skill) | JavaScript AST, deobfuscation, runtime analysis | [5](SKILL_MAP.zh-CN.md#hello-js-reverse-skill) |
+| [Open-ReverseLab](https://github.com/LING71671/open-reverselab) | MCP workbench, native / Android, case reports | [7](SKILL_MAP.zh-CN.md#open-reverselab) |
+| [js-reverse-automation--skill](https://github.com/Fausto-404/js-reverse-automation--skill) | CDP, AST, browser runtime, WASM | [7](SKILL_MAP.zh-CN.md#js-reverse-automation-skill) |
+
+<a id="atlas-policy"></a>
+
+## 收錄範圍、證據與授權
+
+**收錄內容：** 公開專案與資料，涵蓋靜態/動態分析、反編譯、重編譯、淨室重新實作及軟體保存。Skill 組織方法，不一定是分析引擎；解包工具不等於原始碼還原，也不授予素材重用權。
+
+**查核範圍：** 技術地圖記錄了 2026-11-07 對 45 個專案的文件查核，並非重新稽核所有舊記錄。本次未安裝或執行這些專案，也未獨立重現效能及安全宣稱。
+
+**REA 僅是選用關係標記：** Yes 需要公開使用證據；No 記錄非 REA 流程或獨立替代方案；Unverified 表示尚未確認此關係。標記不評定品質或授權。僅在基準測試比較 REA 不等於執行時使用 REA。[REA 子集](#atlas-rea) 是選用視圖，不是目錄範圍。
+
+**授權與許可：** 僅分析自有或明確獲授權的目標及資料。不收錄破解、DRM 繞過、盜版程式或未獲許可散布的遊戲素材。公開可見不代表開源授權；不明確、僅限子目錄或商業相依項目的授權須向上游確認。部分專案需要自行提供合法取得的原版資源。
+
+**目錄與專案權利分開：** 本目錄原創貢獻採 [CC0-1.0](LICENSE)。上游程式碼、截圖、商標與第三方內容仍有各自權利限制。封存或早期 Alpha 專案是歷史/實驗參考，不是預設推薦。
+
+<a id="atlas-games"></a>
 
 ## 遊戲
 
@@ -486,6 +474,8 @@ _可選過濾：以下有公開證據表明使用了 REA。地圖裡大部分專
 <tr><td><a href="https://github.com/N0zoM1z0/touhou-reconstruction-factory"><img src="https://opengraph.githubassets.com/1/N0zoM1z0/touhou-reconstruction-factory" width="160" alt="N0zoM1z0/touhou-reconstruction-factory"></a></td><td><a href="https://github.com/N0zoM1z0/touhou-reconstruction-factory"><b>touhou-reconstruction-factory</b></a><br><sub>N0zoM1z0</sub></td><td>東方系列重建背後的 AI 代理流水線</td><td>❔ 待驗證</td><td><sub>儲存庫卡片</sub></td></tr>
 </table>
 
+<a id="atlas-app"></a>
+
 ## 應用程式 / Electron / 桌面
 
 <table>
@@ -526,6 +516,8 @@ _可選過濾：以下有公開證據表明使用了 REA。地圖裡大部分專
 <tr><td>—</td><td><a href="https://github.com/chilliesdev/fmseasonhub-re"><b>fmseasonhub-re</b></a><br><sub>chilliesdev</sub></td><td>用 REA 拆解 FM Season Hub 應用程式的分析筆記</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 </table>
 
+<a id="atlas-protocol"></a>
+
 ## 協定 / 硬體
 
 <table>
@@ -538,6 +530,8 @@ _可選過濾：以下有公開證據表明使用了 REA。地圖裡大部分專
 <tr><td>—</td><td><a href="https://github.com/EndLess728/MiTV-Remote"><b>MiTV-Remote</b></a><br><sub>EndLess728</sub></td><td>在 Mac、Android、iPhone 上用 Wi-Fi 遙控小米電視</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/B-Howell/soundconnect-desktop"><b>soundconnect-desktop</b></a><br><sub>B-Howell</sub></td><td>在 Windows 桌面上控制 Sony 藍牙耳機</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 </table>
+
+<a id="atlas-firmware"></a>
 
 ## 韌體 / 驅動
 
@@ -553,6 +547,8 @@ _可選過濾：以下有公開證據表明使用了 REA。地圖裡大部分專
 <tr><td><a href="https://github.com/grisuno/VSL-DSP"><img src="https://opengraph.githubassets.com/1/grisuno/VSL-DSP" width="160" alt="grisuno/VSL-DSP"></a></td><td><a href="https://github.com/grisuno/VSL-DSP"><b>VSL-DSP</b></a><br><sub>grisuno</sub></td><td>PreSonus AudioBox VSL 音效卡的 Linux 核心模組</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
 </table>
 
+<a id="atlas-security"></a>
+
 ## 資安 / 評測
 
 <table>
@@ -562,12 +558,20 @@ _可選過濾：以下有公開證據表明使用了 REA。地圖裡大部分專
 <tr><td><a href="https://github.com/NullLabTests/OpenBSD_netcat_REA"><img src="https://raw.githubusercontent.com/NullLabTests/OpenBSD_netcat_REA/main/assets/rea-pipeline.png" width="160" alt="NullLabTests/OpenBSD_netcat_REA"></a></td><td><a href="https://github.com/NullLabTests/OpenBSD_netcat_REA"><b>OpenBSD_netcat_REA</b></a><br><sub>NullLabTests</sub></td><td>以 REA + Ghidra 靜態分析 netcat-openbsd</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
 <tr><td><a href="https://github.com/az9713/REA-demo"><img src="https://opengraph.githubassets.com/1/az9713/REA-demo" width="160" alt="az9713/REA-demo"></a></td><td><a href="https://github.com/az9713/REA-demo"><b>REA-demo</b></a><br><sub>az9713</sub></td><td>讓 REA 分析它自己，附可證偽的預測</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
 <tr><td><a href="https://github.com/UnknownHacker1/rea-groundtruth"><img src="https://opengraph.githubassets.com/1/UnknownHacker1/rea-groundtruth" width="160" alt="UnknownHacker1/rea-groundtruth"></a></td><td><a href="https://github.com/UnknownHacker1/rea-groundtruth"><b>rea-groundtruth</b></a><br><sub>UnknownHacker1</sub></td><td>以真實原始碼檢驗 REA 的分析報告</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/ljagiello/ctf-skills"><b>ctf-skills</b></a><br><sub>ljagiello</sub></td><td>CTF agent skills for reversing and related challenge categories, with challenge routing and reproducible writeups.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/MobSF/Mobile-Security-Framework-MobSF"><b>Mobile-Security-Framework-MobSF</b></a><br><sub>MobSF</sub></td><td>Automated mobile application security assessment workbench with static and dynamic analysis; not a source-reconstruction engine.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/RyanDFIR/hindsight"><b>hindsight</b></a><br><sub>RyanDFIR</sub></td><td>Browser-forensics parser that correlates Chromium and Firefox profile artifacts into timelines and exportable reports.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/doyensec/electronegativity"><b>electronegativity</b></a><br><sub>doyensec</sub></td><td>Archived Electron static-analysis scanner for security misconfigurations and anti-patterns.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/doyensec/ElectroNG"><b>ElectroNG</b></a><br><sub>doyensec</sub></td><td>Open-source successor to Electronegativity for auditing Electron security configurations and implementation patterns.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
 </table>
+
+<a id="atlas-tooling"></a>
 
 ## 逆向工具
 
 <table>
 <tr><th width="170">圖片</th><th>專案</th><th>簡介</th><th>使用 rea</th><th>圖片來源</th></tr>
+<tr><td>—</td><td><a href="https://github.com/morluto/rea"><b>rea</b></a><br><sub>morluto</sub></td><td>Evidence-oriented CLI and MCP toolkit for native, Android, JavaScript/Electron and firmware analysis; third-party engines are separate.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/NationalSecurityAgency/ghidra"><img src="images/ghidra-gui.png" width="160" alt="NationalSecurityAgency/ghidra"></a></td><td><a href="https://github.com/NationalSecurityAgency/ghidra"><b>ghidra</b></a><br><sub>NationalSecurityAgency</sub></td><td>NSA 開源的免費反編譯/反組譯套件</td><td>否</td><td><sub>本儲存庫截圖</sub></td></tr>
 <tr><td><a href="https://github.com/WerWolv/ImHex"><img src="images/imhex-gui.png" width="160" alt="WerWolv/ImHex"></a></td><td><a href="https://github.com/WerWolv/ImHex"><b>ImHex</b></a><br><sub>WerWolv</sub></td><td>內建模式語言、能幫你解析結構的十六進位編輯器</td><td>否</td><td><sub>本儲存庫截圖</sub></td></tr>
 <tr><td><a href="https://github.com/skylot/jadx"><img src="https://user-images.githubusercontent.com/118523/142730720-839f017e-38db-423e-b53f-39f5f0a0316f.png" width="160" alt="skylot/jadx"></a></td><td><a href="https://github.com/skylot/jadx"><b>jadx</b></a><br><sub>skylot</sub></td><td>把 Android APK 還原成可讀的 Java</td><td>否</td><td><sub>專案 README</sub></td></tr>
@@ -577,8 +581,8 @@ _可選過濾：以下有公開證據表明使用了 REA。地圖裡大部分專
 <tr><td><a href="https://github.com/radareorg/radare2"><img src="https://raw.githubusercontent.com/radareorg/radare2/master/doc/images/shot.png" width="160" alt="radareorg/radare2"></a></td><td><a href="https://github.com/radareorg/radare2"><b>radare2</b></a><br><sub>radareorg</sub></td><td>可用腳本操控的命令列逆向工程框架</td><td>否</td><td><sub>專案 README</sub></td></tr>
 <tr><td><a href="https://github.com/frida/frida"><img src="images/frida-terminal.png" width="160" alt="frida/frida"></a></td><td><a href="https://github.com/frida/frida"><b>frida</b></a><br><sub>frida</sub></td><td>注入任何平台上執行中的程式，即時改寫其行為</td><td>否</td><td><sub>本儲存庫截圖</sub></td></tr>
 <tr><td><a href="https://github.com/rizinorg/cutter"><img src="https://raw.githubusercontent.com/rizinorg/cutter/dev/docs/source/images/screenshot.png" width="160" alt="rizinorg/cutter"></a></td><td><a href="https://github.com/rizinorg/cutter"><b>cutter</b></a><br><sub>rizinorg</sub></td><td>基於 Rizin、容易上手的逆向工程圖形介面</td><td>否</td><td><sub>專案 README</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/storytold/craft-anything"><b>craft-anything</b></a><br><sub>storytold</sub></td><td>用最通俗的話說：一個開源的 Rust 工具，能觀察任何閉源網站、應用或遊戲怎麼運行，然後讓 AI 從零做一個功能一樣的免費版本。</td><td>否</td><td><sub>—</sub></td></tr>
-<tr><td><a href="https://github.com/mrexodia/ida-pro-mcp"><img src="https://img.youtube.com/vi/iFxNuk3kxhk/0.jpg" width="160" alt="mrexodia/ida-pro-mcp"></a></td><td><a href="https://github.com/mrexodia/ida-pro-mcp"><b>ida-pro-mcp</b></a><br><sub>mrexodia</sub></td><td>讓 AI 代理透過 MCP 操作 IDA Pro</td><td>否</td><td><sub>專案 README</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/storytold/craft-anything"><b>craft-anything</b></a><br><sub>storytold</sub></td><td>面向網站、應用與遊戲的 Rust 逆向分析和 AI 重建工作台，提供 CLI/MCP；處於早期 Alpha，部分動態分析與代理整合尚未充分驗證。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/mrexodia/ida-pro-mcp"><img src="https://img.youtube.com/vi/iFxNuk3kxhk/0.jpg" width="160" alt="mrexodia/ida-pro-mcp"></a></td><td><a href="https://github.com/mrexodia/ida-pro-mcp"><b>ida-pro-mcp</b></a><br><sub>mrexodia</sub></td><td>IDA Pro MCP 橋接；上游現建議使用 Hex-Rays 官方 HexRaysSA/ida-mcp。</td><td>否</td><td><sub>專案 README</sub></td></tr>
 <tr><td><a href="https://github.com/LaurieWired/GhidraMCP"><img src="https://github.com/user-attachments/assets/4986d702-be3f-4697-acce-aea55cd79ad3" width="160" alt="LaurieWired/GhidraMCP"></a></td><td><a href="https://github.com/LaurieWired/GhidraMCP"><b>GhidraMCP</b></a><br><sub>LaurieWired</sub></td><td>一個橋接工具，讓 AI 助手（比如 Claude）能直接控制免費的逆向工具 Ghidra。AI 可以幫你反編譯程式、給函式改名、分析二進位檔案。</td><td>否</td><td><sub>專案 README</sub></td></tr>
 <tr><td><a href="https://github.com/dnSpyEx/dnSpy"><img src="https://raw.githubusercontent.com/dnSpyEx/dnSpy/master/images/debug-animated.gif" width="160" alt="dnSpyEx/dnSpy"></a></td><td><a href="https://github.com/dnSpyEx/dnSpy"><b>dnSpy</b></a><br><sub>dnSpyEx</sub></td><td>不需原始碼即可除錯和修改 .NET 組件</td><td>否</td><td><sub>專案 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/wtsxdev/reverse-engineering"><b>reverse-engineering</b></a><br><sub>wtsxDev</sub></td><td>經典的逆向工程資源、工具與學習資料精選列表</td><td>否</td><td><sub>—</sub></td></tr>
@@ -589,7 +593,7 @@ _可選過濾：以下有公開證據表明使用了 REA。地圖裡大部分專
 <tr><td>—</td><td><a href="https://github.com/alphaSeclab/awesome-reverse-engineering"><b>awesome-reverse-engineering</b></a><br><sub>alphaSeclab</sub></td><td>涵蓋主流平台與領域的大型逆向工程工具與資源精選列表。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/mandiant/flare-floss"><img src="images/floss-terminal.png" width="160" alt="mandiant/flare-floss"></a></td><td><a href="https://github.com/mandiant/flare-floss"><b>flare-floss</b></a><br><sub>mandiant</sub></td><td>把惡意軟體裡隱藏、混淆過的字串挖出來</td><td>否</td><td><sub>本儲存庫截圖</sub></td></tr>
 <tr><td><a href="https://github.com/rizinorg/rizin"><img src="https://rizin.re/images/rizin_preview.png" width="160" alt="rizinorg/rizin"></a></td><td><a href="https://github.com/rizinorg/rizin"><b>rizin</b></a><br><sub>rizinorg</sub></td><td>源自 radare2 的 UNIX 風格逆向工程框架</td><td>否</td><td><sub>專案 README</sub></td></tr>
-<tr><td>—</td><td><a href="https://github.com/aicodeking/leanrea"><b>leanrea</b></a><br><sub>aicodeking</sub></td><td>輕量 skill，替代 REA 的 MCP 層，讓 agent 直接呼叫 CLI 工具</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/aicodeking/leanrea"><b>leanrea</b></a><br><sub>aicodeking</sub></td><td>輕量 skill，替代 REA 的 MCP 層，讓 agent 直接呼叫 CLI 工具</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/JusticeRage/Gepetto"><b>Gepetto</b></a><br><sub>JusticeRage</sub></td><td>IDA Pro 外掛，用語言模型在逆向過程中解釋、重新命名與註解函式。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td><a href="https://github.com/google/bindiff"><img src="https://zynamics.com/images/bindiff_scr1_s.gif" width="160" alt="google/bindiff"></a></td><td><a href="https://github.com/google/bindiff"><b>bindiff</b></a><br><sub>google</sub></td><td>找出兩個版本的二進位檔之間改了什麼</td><td>否</td><td><sub>專案 README</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/zinja-coder/jadx-ai-mcp"><b>jadx-ai-mcp</b></a><br><sub>zinja-coder</sub></td><td>JADX 的 MCP 外掛，讓 AI Agent 反編譯並瀏覽 Android APK / DEX。</td><td>否</td><td><sub>—</sub></td></tr>
@@ -645,7 +649,32 @@ _可選過濾：以下有公開證據表明使用了 REA。地圖裡大部分專
 <tr><td>—</td><td><a href="https://github.com/CurLeaf/dsh-command-rea"><b>dsh-command-rea</b></a><br><sub>CurLeaf</sub></td><td>DSH /rea 斜線命令，將逆向分析請求路由到 REA 技能與 MCP 工具。</td><td>✅ 是</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/LostArtefacts/decomp-tools"><b>decomp-tools</b></a><br><sub>LostArtefacts</sub></td><td>幫助對 Windows 版《古墓奇兵2》到《古墓奇兵5》做逐位元組匹配反編譯的工具，使用 Wine 下的原版 MSVC 5/6 編譯器。</td><td>否</td><td><sub>—</sub></td></tr>
 <tr><td>—</td><td><a href="https://github.com/zarvox32/vb-native-decompiler"><b>vb-native-decompiler</b></a><br><sub>zarvox32</sub></td><td>一個工具，能把閉源的 Visual Basic 5/6 原生程式碼程式反編譯回可讀的 VB 原始碼，並且逐個過程對照原版機器碼做驗證。</td><td>否</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/zhaoxuya520/reverse-skill"><b>reverse-skill</b></a><br><sub>zhaoxuya520</sub></td><td>Agent skill router and playbooks for Android, native binaries, JavaScript, CTF and firmware, with evidence and reporting workflows.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/SimoneAvogadro/android-reverse-engineering-skill"><b>android-reverse-engineering-skill</b></a><br><sub>SimoneAvogadro</sub></td><td>Android static-analysis skill for APK/XAPK/JAR/AAR inspection, Kotlin metadata recovery and HTTP API documentation.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/P4nda0s/reverse-skills"><b>reverse-skills</b></a><br><sub>P4nda0s</sub></td><td>Skills for interpreting IDA exports, recovering symbols and structures, and Frida/Unicorn-assisted analysis; MIT is claimed only in the README.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/LING71671/open-reverselab"><b>open-reverselab</b></a><br><sub>LING71671</sub></td><td>Agent-oriented reverse-engineering workbench combining MCP tools, a knowledge base and evidence workspaces; review the license and disclaimer.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/androguard/androguard"><b>androguard</b></a><br><sub>androguard</sub></td><td>Python framework for APK/DEX structure and cross-reference analysis; development-branch capabilities may differ from PyPI releases.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/sensepost/objection"><b>objection</b></a><br><sub>sensepost</sub></td><td>Frida-based runtime exploration and security assessment toolkit for authorized Android and iOS applications.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/unicorn-engine/unicorn"><b>unicorn</b></a><br><sub>unicorn-engine</sub></td><td>Multi-architecture CPU emulation framework for isolated code execution, instrumentation and reverse-engineering experiments.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/pwndbg/pwndbg"><b>pwndbg</b></a><br><sub>pwndbg</sub></td><td>GDB and LLDB extension for low-level debugging and reverse engineering; LLDB support is still early-stage.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Gallopsled/pwntools"><b>pwntools</b></a><br><sub>Gallopsled</sub></td><td>Python framework for CTF experiments and binary-analysis automation; component licenses vary.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/zinja-coder/jadx-mcp-server"><b>jadx-mcp-server</b></a><br><sub>zinja-coder</sub></td><td>MCP server that exposes Android decompilation context through the companion JADX-AI-MCP plugin.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/dnakov/frida-mcp"><b>frida-mcp</b></a><br><sub>dnakov</sub></td><td>Community MCP bridge for Frida devices, processes and JavaScript sessions; check maintenance and version compatibility.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/P4nda0s/IDA-NO-MCP"><b>IDA-NO-MCP</b></a><br><sub>P4nda0s</sub></td><td>Exports IDA decompilation and call relationships into agent-readable files; no explicit root license file was found.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Jakeschincariol/replica-skill"><b>replica-skill</b></a><br><sub>Jakeschincariol</sub></td><td>A clean-room product-reconstruction skill suite for researching public interfaces, planning original implementations and checking functional and visual parity.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/WhiteNightShadow/hello_js_reverse_skill"><b>hello_js_reverse_skill</b></a><br><sub>WhiteNightShadow</sub></td><td>A JavaScript-analysis skill that routes signature, obfuscation, cookie and WASM investigations through controlled experiments and browser evidence.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Fausto-404/js-reverse-automation--skill"><b>js-reverse-automation--skill</b></a><br><sub>Fausto-404</sub></td><td>An evidence-driven JavaScript workflow that combines Chrome DevTools MCP with runtime probes and JSRPC, Flask and Burp artifact generation.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/ChromeDevTools/chrome-devtools-mcp"><b>chrome-devtools-mcp</b></a><br><sub>ChromeDevTools</sub></td><td>Official Chrome DevTools integration for agent-driven browser inspection, network debugging, performance traces and automation.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/microsoft/playwright-mcp"><b>playwright-mcp</b></a><br><sub>microsoft</sub></td><td>Official Playwright MCP server for structured accessibility-based browser interaction and exploratory testing.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/microsoft/playwright-cli"><b>playwright-cli</b></a><br><sub>microsoft</sub></td><td>Playwright command-line browser actions and reusable agent skills for screenshots, selectors, recordings and testing.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/j4k0xb/webcrack"><b>webcrack</b></a><br><sub>j4k0xb</sub></td><td>JavaScript deobfuscation and bundle-unpacking tool for supported obfuscator.io, webpack and Browserify patterns.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/pionxzh/wakaru"><b>wakaru</b></a><br><sub>pionxzh</sub></td><td>JavaScript decompiler and bundle unpacker that recovers readable modules and modern syntax from minified or transpiled production builds.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/WhiteNightShadow/camoufox-reverse-mcp"><b>camoufox-reverse-mcp</b></a><br><sub>WhiteNightShadow</sub></td><td>Camoufox-based MCP server for JavaScript runtime inspection, script search, network capture, hooks and offline signer verification.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/WebAssembly/wabt"><b>wabt</b></a><br><sub>WebAssembly</sub></td><td>WebAssembly toolkit for binary/text conversion, validation, disassembly, interpretation and C translation.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/webrecorder/browsertrix-crawler"><b>browsertrix-crawler</b></a><br><sub>webrecorder</sub></td><td>High-fidelity browser-based crawler that captures web content through CDP inside a standalone container.</td><td>❔ 待驗證</td><td><sub>—</sub></td></tr>
 </table>
+
+<a id="atlas-official"></a>
 
 ## REA 官方 Showcase
 
@@ -657,6 +686,86 @@ _可選過濾：以下有公開證據表明使用了 REA。地圖裡大部分專
 <tr><td><a href="https://rea.tools/showcase/aegis/"><img src="images/showcase-aegis.png" width="160" alt="Aegis: TOTP code generation"></a></td><td><a href="https://rea.tools/showcase/aegis/"><b>Aegis: TOTP code generation</b></a></td><td>看清 Aegis Android App 究竟如何產生兩步驟驗證碼</td><td>✅ 是</td><td><sub>本儲存庫截圖</sub></td></tr>
 <tr><td><a href="https://rea.tools/showcase/ctf/"><img src="images/showcase-ctf.png" width="160" alt="CTF: flag checker"></a></td><td><a href="https://rea.tools/showcase/ctf/"><b>CTF: flag checker</b></a></td><td>一步步解開 DownUnderCTF 2023 的逆向題</td><td>✅ 是</td><td><sub>本儲存庫截圖</sub></td></tr>
 </table>
+
+<a id="atlas-rea"></a>
+
+## 選用視圖：使用 REA 的專案
+
+此證據標記子集重用上方平台與主題目錄的記錄。本地圖也收錄不依賴 REA 的獨立工具及專案。
+
+<details>
+<summary>展開 57 筆 REA 標記記錄</summary>
+
+<table>
+<tr><th width="170">圖片</th><th>專案</th><th>簡介</th><th>使用 rea</th><th>圖片來源</th></tr>
+<tr><td><a href="https://github.com/morluto/rea/discussions/2254"><img src="images/rea-discussion-2254.png" width="160" alt="REA discussion #2254"></a></td><td><a href="https://github.com/morluto/rea/discussions/2254"><b>REA discussion #2254</b></a></td><td>分析去除符號的 bzip2，並與實際建置結果比對驗證</td><td>✅ 是</td><td><sub>本儲存庫截圖</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/cranebeaker/coop-anything"><b>coop-anything</b></a><br><sub>cranebeaker</sub></td><td>用 REA 調查入口，為單機遊戲添加合作模式的 MCP 伺服器與技能</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Caho1/open-claude-ui"><b>open-claude-ui</b></a><br><sub>Caho1</sub></td><td>用 REA 深度拆解並高保真還原 Claude 桌面端 UI 元件與互動物理</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/MiaAI-Lab/sparkDash"><b>sparkDash</b></a><br><sub>MiaAI-Lab</sub></td><td>整合 REA 長時分析任務、按需載入結果的多裝置儀表板</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/michaelshimeles/terminal-rs"><img src="https://raw.githubusercontent.com/michaelshimeles/terminal-rs/master/docs/img/overview.png" width="160" alt="michaelshimeles/terminal-rs"></a></td><td><a href="https://github.com/michaelshimeles/terminal-rs"><b>terminal-rs</b></a><br><sub>michaelshimeles</sub></td><td>以 Rust 寫成的彭博風格交易終端機</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
+<tr><td><a href="https://github.com/ShadowSwaps/REA-Reconstruction-Companion"><img src="https://opengraph.githubassets.com/1/ShadowSwaps/REA-Reconstruction-Companion" width="160" alt="ShadowSwaps/REA-Reconstruction-Companion"></a></td><td><a href="https://github.com/ShadowSwaps/REA-Reconstruction-Companion"><b>REA-Reconstruction-Companion</b></a><br><sub>ShadowSwaps</sub></td><td>讓重建過程隨時有證據可查的 AI 代理技能</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Xiangyu-CAS/rea-capcut"><b>rea-capcut</b></a><br><sub>Xiangyu-CAS</sub></td><td>用 REA 研究剪映後重做的開源離線剪輯軟體</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/michaelshimeles/rec-rs"><img src="https://raw.githubusercontent.com/michaelshimeles/rec-rs/main/docs/screenshots/main.png" width="160" alt="michaelshimeles/rec-rs"></a></td><td><a href="https://github.com/michaelshimeles/rec-rs"><b>rec-rs</b></a><br><sub>michaelshimeles</sub></td><td>以 Rust 寫成的 macOS 快速螢幕錄影工具，參考 OBS 設計</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/giveen/decomp.anything"><b>decomp.anything</b></a><br><sub>giveen</sub></td><td>停更的匹配式反編譯器 decomp.wtf 的活躍分支；增加了 Windows/Linux 二進位支援，並接入 REA，讓 AI 也能逆向非遊戲程式。</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/N0zoM1z0/dx-ball"><img src="https://raw.githubusercontent.com/N0zoM1z0/dx-ball/main/resources/dxball-title.png" width="160" alt="N0zoM1z0/dx-ball"></a></td><td><a href="https://github.com/N0zoM1z0/dx-ball"><b>dx-ball</b></a><br><sub>N0zoM1z0</sub></td><td>用 C/C++ 重建 DX-Ball 1.07，並對照原版 x86 測試</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
+<tr><td><a href="https://github.com/michaelshimeles/sketch"><img src="https://raw.githubusercontent.com/michaelshimeles/sketch/main/docs/screenshots/app_demo.png" width="160" alt="michaelshimeles/sketch"></a></td><td><a href="https://github.com/michaelshimeles/sketch"><b>sketch</b></a><br><sub>michaelshimeles</sub></td><td>以 Rust 寫成的無限設計畫布，研究 Paper 後重建</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
+<tr><td><a href="https://github.com/czcdr/dsh-plugin-rea"><img src="https://raw.githubusercontent.com/czcdr/dsh-plugin-rea/main/assets/screenshot-1.png" width="160" alt="czcdr/dsh-plugin-rea"></a></td><td><a href="https://github.com/czcdr/dsh-plugin-rea"><b>dsh-plugin-rea</b></a><br><sub>czcdr</sub></td><td>在 DeepSeek Harness 裡使用 REA，自動裝好 Ghidra</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
+<tr><td><a href="https://github.com/Moxnatiy/OpenBattlefield2"><img src="https://raw.githubusercontent.com/Moxnatiy/OpenBattlefield2/master/docs/screenshots/menu-main.png" width="160" alt="Moxnatiy/OpenBattlefield2"></a></td><td><a href="https://github.com/Moxnatiy/OpenBattlefield2"><b>OpenBattlefield2</b></a><br><sub>Moxnatiy</sub></td><td>戰地風雲 2 引擎的 C++20 淨室重寫（讀取你自己的遊戲檔案）</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
+<tr><td><a href="https://github.com/0xshlomil/ida-free-mcp"><img src="https://opengraph.githubassets.com/1/0xshlomil/ida-free-mcp" width="160" alt="0xshlomil/ida-free-mcp"></a></td><td><a href="https://github.com/0xshlomil/ida-free-mcp"><b>ida-free-mcp</b></a><br><sub>0xshlomil</sub></td><td>透過 MCP 讓 AI 代理使用免費版 IDA</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
+<tr><td><a href="https://github.com/lxistired/ledger-reborn"><img src="https://raw.githubusercontent.com/lxistired/ledger-reborn/main/docs/screenshots/accounting.png" width="160" alt="lxistired/ledger-reborn"></a></td><td><a href="https://github.com/lxistired/ledger-reborn"><b>ledger-reborn</b></a><br><sub>lxistired</sub></td><td>本機優先的記帳 App，參考 QuickBooks Mac 版</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/glauberlima/open-scrantic"><b>open-scrantic</b></a><br><sub>glauberlima</sub></td><td>用 REA 逆向並重寫的 1992 年 Johnny Castaway 螢幕保護程式（Rust）</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/N0zoM1z0/th04"><img src="https://raw.githubusercontent.com/N0zoM1z0/th04/main/resources/title-screen.png" width="160" alt="N0zoM1z0/th04"></a></td><td><a href="https://github.com/N0zoM1z0/th04"><b>th04</b></a><br><sub>N0zoM1z0</sub></td><td>東方幻想鄉（PC-98）的可讀原始碼，並以原版編譯器驗證</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/gryszzz/reverse-engineer-everything"><b>reverse-engineer-everything</b></a><br><sub>gryszzz</sub></td><td>基於 REA 引擎的本地工作台和調查工作室，用於有證據支持的軟體分析，檔案不上雲。</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/tanepiper/game-frame"><b>game-frame</b></a><br><sub>tanepiper</sub></td><td>讓 AI agent 從發行檔案逆向遊戲的框架</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/rodneypantonial/sims3-modernization"><b>sims3-modernization</b></a><br><sub>rodneypantonial</sub></td><td>讓模擬市民 3 在新電腦上少卡頓、少當機</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/alexmi256/rea-agent-docker"><img src="https://opengraph.githubassets.com/1/alexmi256/rea-agent-docker" width="160" alt="alexmi256/rea-agent-docker"></a></td><td><a href="https://github.com/alexmi256/rea-agent-docker"><b>rea-agent-docker</b></a><br><sub>alexmi256</sub></td><td>REA 的 Docker 映像檔，含 Ghidra/Hopper/IDA 版本</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/nicolvus/a6000-fw-decomp"><b>a6000-fw-decomp</b></a><br><sub>nicolvus</sub></td><td>用 REA 和 Ghidra 拆 Sony A6000 相機韌體</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/EndLess728/MiTV-Remote"><b>MiTV-Remote</b></a><br><sub>EndLess728</sub></td><td>在 Mac、Android、iPhone 上用 Wi-Fi 遙控小米電視</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/ucodia/desktop-games-nostalgia"><img src="https://raw.githubusercontent.com/ucodia/desktop-games-nostalgia/main/docs/demo.gif" width="160" alt="ucodia/desktop-games-nostalgia"></a></td><td><a href="https://github.com/ucodia/desktop-games-nostalgia"><b>desktop-games-nostalgia</b></a><br><sub>ucodia</sub></td><td>再砸一次桌面：Gemtree 2000 年的小玩具登上 macOS 和網頁</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
+<tr><td><a href="https://github.com/cudanexus/vd-streamer-linux"><img src="https://opengraph.githubassets.com/1/cudanexus/vd-streamer-linux" width="160" alt="cudanexus/vd-streamer-linux"></a></td><td><a href="https://github.com/cudanexus/vd-streamer-linux"><b>vd-streamer-linux</b></a><br><sub>cudanexus</sub></td><td>把 Linux 桌面串流到 Quest、Pico 頭戴裝置</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
+<tr><td><a href="https://github.com/Nowng/rea-mcp"><img src="https://opengraph.githubassets.com/1/Nowng/rea-mcp" width="160" alt="Nowng/rea-mcp"></a></td><td><a href="https://github.com/Nowng/rea-mcp"><b>rea-mcp</b></a><br><sub>Nowng</sub></td><td>在 LM Studio 裡搭配本機模型使用 REA</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
+<tr><td><a href="https://github.com/pablodiazjorge/rea-lab"><img src="https://opengraph.githubassets.com/1/pablodiazjorge/rea-lab" width="160" alt="pablodiazjorge/rea-lab"></a></td><td><a href="https://github.com/pablodiazjorge/rea-lab"><b>rea-lab</b></a><br><sub>pablodiazjorge</sub></td><td>Windows + Ghidra 練習題與預先登記的 REA 評測</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
+<tr><td><a href="https://github.com/NullLabTests/OpenBSD_netcat_REA"><img src="https://raw.githubusercontent.com/NullLabTests/OpenBSD_netcat_REA/main/assets/rea-pipeline.png" width="160" alt="NullLabTests/OpenBSD_netcat_REA"></a></td><td><a href="https://github.com/NullLabTests/OpenBSD_netcat_REA"><b>OpenBSD_netcat_REA</b></a><br><sub>NullLabTests</sub></td><td>以 REA + Ghidra 靜態分析 netcat-openbsd</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
+<tr><td><a href="https://github.com/sickpyramid/ReaFuse"><img src="https://opengraph.githubassets.com/1/sickpyramid/ReaFuse" width="160" alt="sickpyramid/ReaFuse"></a></td><td><a href="https://github.com/sickpyramid/ReaFuse"><b>ReaFuse</b></a><br><sub>sickpyramid</sub></td><td>藉助 REA 把兩個 JS/TS 專案合併成一個</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
+<tr><td><a href="https://github.com/grisuno/VSL-DSP"><img src="https://opengraph.githubassets.com/1/grisuno/VSL-DSP" width="160" alt="grisuno/VSL-DSP"></a></td><td><a href="https://github.com/grisuno/VSL-DSP"><b>VSL-DSP</b></a><br><sub>grisuno</sub></td><td>PreSonus AudioBox VSL 音效卡的 Linux 核心模組</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
+<tr><td><a href="https://github.com/iammukeshm/hexgrab"><img src="https://opengraph.githubassets.com/1/iammukeshm/hexgrab" width="160" alt="iammukeshm/hexgrab"></a></td><td><a href="https://github.com/iammukeshm/hexgrab"><b>hexgrab</b></a><br><sub>iammukeshm</sub></td><td>迷你 Windows 取色工具，從 PowerToys 二進位檔研究而來</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
+<tr><td><a href="https://github.com/zhaofeng130/dsh-rea"><img src="https://opengraph.githubassets.com/1/zhaofeng130/dsh-rea" width="160" alt="zhaofeng130/dsh-rea"></a></td><td><a href="https://github.com/zhaofeng130/dsh-rea"><b>dsh-rea</b></a><br><sub>zhaofeng130</sub></td><td>給 DeepSeek Harness 加上 REA 技能和工具</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
+<tr><td><a href="https://github.com/pablodiazjorge/rea-casebook"><img src="https://raw.githubusercontent.com/pablodiazjorge/rea-casebook/main/media/session-dark.png" width="160" alt="pablodiazjorge/rea-casebook"></a></td><td><a href="https://github.com/pablodiazjorge/rea-casebook"><b>rea-casebook</b></a><br><sub>pablodiazjorge</sub></td><td>讓 Claude Code 的每項結論都引用真實的 REA 證據</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/B-Howell/soundconnect-desktop"><b>soundconnect-desktop</b></a><br><sub>B-Howell</sub></td><td>在 Windows 桌面上控制 Sony 藍牙耳機</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/tuunanet/rea-ski-or-die-reconstruction"><img src="https://raw.githubusercontent.com/tuunanet/rea-ski-or-die-reconstruction/main/docs/snowball-war.gif" width="160" alt="tuunanet/rea-ski-or-die-reconstruction"></a></td><td><a href="https://github.com/tuunanet/rea-ski-or-die-reconstruction"><b>rea-ski-or-die-reconstruction</b></a><br><sub>tuunanet</sub></td><td>Ski or Die 的雪球大戰，以 Rust + SDL2 重製（素材需自備）</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
+<tr><td><a href="https://github.com/OpenRsG/GunZRs"><img src="https://raw.githubusercontent.com/OpenRsG/GunZRs/main/docs/media/menu.jpg" width="160" alt="OpenRsG/GunZRs"></a></td><td><a href="https://github.com/OpenRsG/GunZRs"><b>GunZRs</b></a><br><sub>OpenRsG</sub></td><td>GunZ: The Duel 以 Rust + Bevy 重生</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
+<tr><td><a href="https://github.com/sheilacraig/dsh-rea-mcp"><img src="https://opengraph.githubassets.com/1/sheilacraig/dsh-rea-mcp" width="160" alt="sheilacraig/dsh-rea-mcp"></a></td><td><a href="https://github.com/sheilacraig/dsh-rea-mcp"><b>dsh-rea-mcp</b></a><br><sub>sheilacraig</sub></td><td>只靠設定就把 REA 接進 DeepSeek Harness</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
+<tr><td><a href="https://github.com/az9713/wispr-flow-rea-teardown"><img src="https://img.youtube.com/vi/FnB9tHKBJXQ/maxresdefault.jpg" width="160" alt="az9713/wispr-flow-rea-teardown"></a></td><td><a href="https://github.com/az9713/wispr-flow-rea-teardown"><b>wispr-flow-rea-teardown</b></a><br><sub>az9713</sub></td><td>拆解 Wispr Flow 的語音管線，附 64 行重寫版</td><td>✅ 是</td><td><sub><a href="https://img.youtube.com/vi/FnB9tHKBJXQ/maxresdefault.jpg">影片封面</a></sub></td></tr>
+<tr><td><a href="https://github.com/KarlssonChristoffer/DiskLens"><img src="https://opengraph.githubassets.com/1/KarlssonChristoffer/DiskLens" width="160" alt="KarlssonChristoffer/DiskLens"></a></td><td><a href="https://github.com/KarlssonChristoffer/DiskLens"><b>DiskLens</b></a><br><sub>KarlssonChristoffer</sub></td><td>像 WinDirStat 一樣看清 Windows 11 磁碟被什麼佔滿</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
+<tr><td><a href="https://github.com/ya123-4/rea-dsh-plugin"><img src="https://opengraph.githubassets.com/1/ya123-4/rea-dsh-plugin" width="160" alt="ya123-4/rea-dsh-plugin"></a></td><td><a href="https://github.com/ya123-4/rea-dsh-plugin"><b>rea-dsh-plugin</b></a><br><sub>ya123-4</sub></td><td>在 DeepSeek Harness 中註冊 REA 的 MCP 工具</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
+<tr><td><a href="https://github.com/az9713/REA-demo"><img src="https://opengraph.githubassets.com/1/az9713/REA-demo" width="160" alt="az9713/REA-demo"></a></td><td><a href="https://github.com/az9713/REA-demo"><b>REA-demo</b></a><br><sub>az9713</sub></td><td>讓 REA 分析它自己，附可證偽的預測</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
+<tr><td><a href="https://github.com/cognixws/picode-rea"><img src="https://opengraph.githubassets.com/1/cognixws/picode-rea" width="160" alt="cognixws/picode-rea"></a></td><td><a href="https://github.com/cognixws/picode-rea"><b>picode-rea</b></a><br><sub>cognixws</sub></td><td>在 PiCode 裡使用 REA 的靜態分析工具</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
+<tr><td><a href="https://github.com/jinshi666888/rea-playbook"><img src="https://raw.githubusercontent.com/jinshi666888/rea-playbook/main/docs/assets/demo.gif" width="160" alt="jinshi666888/rea-playbook"></a></td><td><a href="https://github.com/jinshi666888/rea-playbook"><b>rea-playbook</b></a><br><sub>jinshi666888</sub></td><td>附迷你 Electron 靶機的 REA 實作練習</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
+<tr><td><a href="https://github.com/UnknownHacker1/rea-groundtruth"><img src="https://opengraph.githubassets.com/1/UnknownHacker1/rea-groundtruth" width="160" alt="UnknownHacker1/rea-groundtruth"></a></td><td><a href="https://github.com/UnknownHacker1/rea-groundtruth"><b>rea-groundtruth</b></a><br><sub>UnknownHacker1</sub></td><td>以真實原始碼檢驗 REA 的分析報告</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/Stijnus/dsh-rev-eng"><b>dsh-rev-eng</b></a><br><sub>Stijnus</sub></td><td>將 REA 技能與可選 MCP 打包為 DSH 插件，用於逆向工程與 Mac 應用建構。</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td><a href="https://github.com/alemigav/re2-64-decomp"><img src="https://opengraph.githubassets.com/1/alemigav/re2-64-decomp" width="160" alt="alemigav/re2-64-decomp"></a></td><td><a href="https://github.com/alemigav/re2-64-decomp"><b>re2-64-decomp</b></a><br><sub>alemigav</sub></td><td>用 AI 工具（REA + Ghidra）拆解任天堂64版《惡靈古堡2》。有數千個反編譯函式和驗證套件，不含遊戲ROM。</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
+<tr><td><a href="https://rea.tools/showcase/dx-ball/"><img src="images/showcase-dx-ball.png" width="160" alt="DX-Ball: sound-pan function"></a></td><td><a href="https://rea.tools/showcase/dx-ball/"><b>DX-Ball: sound-pan function</b></a></td><td>看 REA 把 DX-Ball 的一個音效函式還原成逐位元組一致的 C</td><td>✅ 是</td><td><sub>本儲存庫截圖</sub></td></tr>
+<tr><td><a href="https://rea.tools/showcase/notion/"><img src="images/showcase-notion.png" width="160" alt="Notion: Electron clipboard bridge"></a></td><td><a href="https://rea.tools/showcase/notion/"><b>Notion: Electron clipboard bridge</b></a></td><td>跟著一次 Notion 複製操作，從頁面一路追進 IPC 和主行程</td><td>✅ 是</td><td><sub>本儲存庫截圖</sub></td></tr>
+<tr><td><a href="https://rea.tools/showcase/th04/"><img src="images/showcase-th04.png" width="160" alt="TH04: PC-98 bullet-ring maths"></a></td><td><a href="https://rea.tools/showcase/th04/"><b>TH04: PC-98 bullet-ring maths</b></a></td><td>從 16 位元 DOS 程式碼裡找回東方幻想鄉的彈幕角度演算法</td><td>✅ 是</td><td><sub>本儲存庫截圖</sub></td></tr>
+<tr><td><a href="https://rea.tools/showcase/aegis/"><img src="images/showcase-aegis.png" width="160" alt="Aegis: TOTP code generation"></a></td><td><a href="https://rea.tools/showcase/aegis/"><b>Aegis: TOTP code generation</b></a></td><td>看清 Aegis Android App 究竟如何產生兩步驟驗證碼</td><td>✅ 是</td><td><sub>本儲存庫截圖</sub></td></tr>
+<tr><td><a href="https://rea.tools/showcase/ctf/"><img src="images/showcase-ctf.png" width="160" alt="CTF: flag checker"></a></td><td><a href="https://rea.tools/showcase/ctf/"><b>CTF: flag checker</b></a></td><td>一步步解開 DownUnderCTF 2023 的逆向題</td><td>✅ 是</td><td><sub>本儲存庫截圖</sub></td></tr>
+<tr><td><a href="https://github.com/a-barzanti/ai-rebuilds"><img src="https://opengraph.githubassets.com/1/a-barzanti/ai-rebuilds" width="160" alt="a-barzanti/ai-rebuilds"></a></td><td><a href="https://github.com/a-barzanti/ai-rebuilds"><b>ai-rebuilds</b></a><br><sub>a-barzanti</sub></td><td>被遺棄的老遊戲重回瀏覽器，不含任何原版檔案</td><td>✅ 是</td><td><sub>儲存庫卡片</sub></td></tr>
+<tr><td><a href="https://github.com/AdamLinCodes/AdamTerm"><img src="https://raw.githubusercontent.com/AdamLinCodes/AdamTerm/main/docs/adamterm.png" width="160" alt="AdamLinCodes/AdamTerm"></a></td><td><a href="https://github.com/AdamLinCodes/AdamTerm"><b>AdamTerm</b></a><br><sub>AdamLinCodes</sub></td><td>研究 Ghostty 後做出的極簡 macOS 終端機</td><td>✅ 是</td><td><sub>專案 README</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/chilliesdev/fmseasonhub-re"><b>fmseasonhub-re</b></a><br><sub>chilliesdev</sub></td><td>用 REA 拆解 FM Season Hub 應用程式的分析筆記</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/carlhako/keen-clone"><b>keen-clone</b></a><br><sub>carlhako</sub></td><td>用 REA + Ghidra 函式級還原的 Commander Keen 1 原生 Linux/SDL2 重實現</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/NathanKanaeru/samp-client-re"><b>samp-client-re</b></a><br><sub>NathanKanaeru</sub></td><td>用 REA/Ghidra 恢復架構的 SA-MP 0.3.DL-R1 clean-room 客戶端重實現</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+<tr><td>—</td><td><a href="https://github.com/CurLeaf/dsh-command-rea"><b>dsh-command-rea</b></a><br><sub>CurLeaf</sub></td><td>DSH /rea 斜線命令，將逆向分析請求路由到 REA 技能與 MCP 工具。</td><td>✅ 是</td><td><sub>—</sub></td></tr>
+</table>
+
+</details>
+
+<a id="atlas-data"></a>
+
+## 資料與貢獻
+
+[data.json](data.json) 儲存目錄記錄，[descriptions.json](descriptions.json) 儲存顯示簡介；[skill-map.json](skill-map.json) 儲存技術映射與來源證據；[llms.txt](llms.txt) 提供 Agent 簡明索引。
+
+新增或更正前請閱讀 [CONTRIBUTING.md](CONTRIBUTING.md)，修改來源資料後執行 `python render.py` 與 `python validate.py`，不要直接修改生成的 README。部分排序使用 [stars.json](stars.json) 歷史快照，不代表即時熱門程度或品質排名。
 
 ---
 
