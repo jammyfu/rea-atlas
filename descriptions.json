@@ -2105,5 +2105,33 @@
     "zh-TW": "把 Wii 遊戲《NiGHTS: Journey of Dreams》靜態重編譯成原生 PC 程式",
     "ja": "Wii ゲーム『NiGHTS: Journey of Dreams』を静的再コンパイルでネイティブ PC プログラムに",
     "ko": "Wii 게임 《NiGHTS: Journey of Dreams》를 정적 재컴파일로 네이티브 PC 프로그램으로"
+  },
+  "NotRexed/Hookshot": {
+    "en": "Turns the Switch 2 version of The Legend of Zelda: Ocarina of Time into a native Windows program you can run without an emulator, using your own game dump.",
+    "zh-CN": "把任天堂 Switch 2 上的《塞尔达传说：时之笛》重制版变成可以在 Windows 上原生运行的程序，不需要模拟器，用你自己的游戏转储。",
+    "zh-TW": "把任天堂 Switch 2 上的《薩爾達傳說：時之笛》重製版變成可以在 Windows 上原生執行的程式，不需要模擬器，用你自己的遊戲轉儲。",
+    "ja": "Nintendo Switch 2 版『ゼルダの伝説 時のオカリナ』を、エミュレータなしで Windows 上でネイティブに動くプログラムに変換します。自分のゲームダンプを使います。",
+    "ko": "닌텐도 스위치 2 버전 『젤다의 전설: 시간의 오카리나』를 에뮬레이터 없이 Windows에서 네이티브로 실행되는 프로그램으로 바꿉니다. 본인 게임 덤프를 사용합니다."
+  },
+  "peiikai/LASRecomp": {
+    "en": "Turns the 2019 Nintendo Switch version of The Legend of Zelda: Link's Awakening into a native Windows, macOS or Linux program you run with your own game dump.",
+    "zh-CN": "把 2019 年任天堂 Switch 版《塞尔达传说：织梦岛》变成可以在 Windows、macOS 或 Linux 上原生运行的程序，用你自己的游戏转储。",
+    "zh-TW": "把 2019 年任天堂 Switch 版《薩爾達傳說：織夢島》變成可以在 Windows、macOS 或 Linux 上原生執行的程式，用你自己的遊戲轉儲。",
+    "ja": "2019年のNintendo Switch版『ゼルダの伝説 夢をみる島』を、Windows・macOS・Linuxでネイティブに動くプログラムに変換します。自分のゲームダンプを使います。",
+    "ko": "2019년 닌텐도 스위치 버전 『젤다의 전설: 꿈꾸는 섬』을 Windows, macOS, Linux에서 네이티브로 실행되는 프로그램으로 바꿉니다. 본인 게임 덤프를 사용합니다."
+  },
+  "drakolordx7/switch2-recomp": {
+    "en": "Turns the Nintendo Switch 2 game Pokémon Pokopia into a native Windows program you run with your own game dump, without an emulator.",
+    "zh-CN": "把任天堂 Switch 2 上的《宝可梦 波克皮亚》变成可以在 Windows 上原生运行的程序，不需要模拟器，用你自己的游戏转储。",
+    "zh-TW": "把任天堂 Switch 2 上的《寶可夢 波克皮亞》變成可以在 Windows 上原生執行的程式，不需要模擬器，用你自己的遊戲轉儲。",
+    "ja": "Nintendo Switch 2 の『ポケモン ポコピア』を、エミュレータなしで Windows 上でネイティブに動くプログラムに変換します。自分のゲームダンプを使います。",
+    "ko": "닌텐도 스위치 2 게임 『포켓몬 포코피아』를 에뮬레이터 없이 Windows에서 네이티브로 실행되는 프로그램으로 바꿉니다. 본인 게임 덤프를 사용합니다."
+  },
+  "jaenster/ghidra-reconstruct": {
+    "en": "Takes the messy decompiled code that Ghidra spits out and turns it into clean, organized C++ source that you can actually compile and build.",
+    "zh-CN": "把 Ghidra 反编译出来的乱糟糟代码整理成干净、有命名空间的 C++ 源码，让你可以真正编译构建。",
+    "zh-TW": "把 Ghidra 反編譯出來的亂糟糟程式碼整理成乾淨、有命名空間的 C++ 原始碼，讓你可以真正編譯建置。",
+    "ja": "Ghidra が吐き出すごちゃごちゃした逆コンパイル結果を、きれいに整理されたコンパイル可能な C++ ソースに変換します。",
+    "ko": "Ghidra가 출력한 지저분한 디컴파일 코드를 깔끔하고 네임스페이스가 정리된 컴파일 가능한 C++ 소스로 바꿉니다."
   }
 }

@@ -831,5 +831,21 @@
   "LostArtefacts/tr01": [
     "readme",
     "https://opengraph.githubassets.com/c3468ed1535c650ff7a109a6497529f084b0a6421f089b4a5fa835a2069a851a/LostArtefacts/tr01"
+  ],
+  "NotRexed/Hookshot": [
+    "card",
+    "https://opengraph.githubassets.com/1/NotRexed/Hookshot"
+  ],
+  "peiikai/LASRecomp": [
+    "card",
+    "https://opengraph.githubassets.com/1/peiikai/LASRecomp"
+  ],
+  "drakolordx7/switch2-recomp": [
+    "card",
+    "https://opengraph.githubassets.com/1/drakolordx7/switch2-recomp"
+  ],
+  "jaenster/ghidra-reconstruct": [
+    "card",
+    "https://opengraph.githubassets.com/1/jaenster/ghidra-reconstruct"
   ]
 }

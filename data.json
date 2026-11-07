@@ -2406,5 +2406,37 @@
     "https://github.com/Trick230/DualizeRecomp",
     "No",
     "Native static recompilation of NiGHTS: Journey of Dreams (Wii). Bring your own dump."
+  ],
+  [
+    "pc",
+    "remake",
+    "NotRexed/Hookshot",
+    "https://github.com/NotRexed/Hookshot",
+    "No",
+    "Static recompilation of the Nintendo Switch 2 Ocarina of Time remake to native Windows with Vulkan. Bring your own dump."
+  ],
+  [
+    "pc",
+    "remake",
+    "peiikai/LASRecomp",
+    "https://github.com/peiikai/LASRecomp",
+    "No",
+    "Static recompilation of The Legend of Zelda: Link's Awakening (Switch 2019) to native Windows/macOS/Linux. Bring your own dump."
+  ],
+  [
+    "pc",
+    "remake",
+    "drakolordx7/switch2-recomp",
+    "https://github.com/drakolordx7/switch2-recomp",
+    "No",
+    "Static recompilation of Pokémon Pokopia (Switch 2) to native Windows with Vulkan. Bring your own dump."
+  ],
+  [
+    "tooling",
+    "tools",
+    "jaenster/ghidra-reconstruct",
+    "https://github.com/jaenster/ghidra-reconstruct",
+    "No",
+    "Turns Ghidra decompiler output into clean, namespaced, recompilable C++ source with transform passes."
   ]
 ]
