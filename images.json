@@ -847,5 +847,40 @@
   "jaenster/ghidra-reconstruct": [
     "card",
     "https://opengraph.githubassets.com/1/jaenster/ghidra-reconstruct"
+  ],
+  "Lucas-blip-png/dkb-pc-recomp": [
+    "card",
+    "images/dkb-pc-recomp.png",
+    "GitHub opengraph card for Lucas-blip-png/dkb-pc-recomp"
+  ],
+  "TheBozos/VP2S_Recomp": [
+    "card",
+    "images/vp2s-recomp.png",
+    "GitHub opengraph card for TheBozos/VP2S_Recomp"
+  ],
+  "MrJackSpade/SuperMetroidDecomp": [
+    "card",
+    "images/supermetroid-decomp.png",
+    "GitHub opengraph card for MrJackSpade/SuperMetroidDecomp"
+  ],
+  "dev-camo/shadow-decomp": [
+    "card",
+    "images/shadow-decomp.png",
+    "GitHub opengraph card for dev-camo/shadow-decomp"
+  ],
+  "raulcorreia7/bof3-decomp": [
+    "card",
+    "images/bof3-decomp.png",
+    "GitHub opengraph card for raulcorreia7/bof3-decomp"
+  ],
+  "LuckyLuke00/sadx-decomp": [
+    "card",
+    "images/sadx-decomp.png",
+    "GitHub opengraph card for LuckyLuke00/sadx-decomp"
+  ],
+  "cdlewis/snowboardkidsplus-decomp": [
+    "card",
+    "images/snowboard-decomp.png",
+    "GitHub opengraph card for cdlewis/snowboardkidsplus-decomp"
   ]
 }

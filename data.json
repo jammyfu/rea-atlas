@@ -2438,5 +2438,61 @@
     "https://github.com/jaenster/ghidra-reconstruct",
     "No",
     "Turns Ghidra decompiler output into clean, namespaced, recompilable C++ source with transform passes."
+  ],
+  [
+    "pc",
+    "remake",
+    "Lucas-blip-png/dkb-pc-recomp",
+    "https://github.com/Lucas-blip-png/dkb-pc-recomp",
+    "No",
+    "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. Tutorial renders; bring your own dump."
+  ],
+  [
+    "ps2",
+    "remake",
+    "TheBozos/VP2S_Recomp",
+    "https://github.com/TheBozos/VP2S_Recomp",
+    "No",
+    "Native PC port of Valkyrie Profile 2: Silmeria (PS2) via static recompilation with PS2Recomp. Bring your own disc."
+  ],
+  [
+    "snes",
+    "remake",
+    "MrJackSpade/SuperMetroidDecomp",
+    "https://github.com/MrJackSpade/SuperMetroidDecomp",
+    "No",
+    "C# source port / reimplementation of Super Metroid (SNES) with extracted assets. Bring your own ROM."
+  ],
+  [
+    "gc",
+    "decomp",
+    "dev-camo/shadow-decomp",
+    "https://github.com/dev-camo/shadow-decomp",
+    "No",
+    "Work-in-progress matching decompilation of Shadow the Hedgehog (GameCube). Bring your own copy."
+  ],
+  [
+    "ps1",
+    "decomp",
+    "raulcorreia7/bof3-decomp",
+    "https://github.com/raulcorreia7/bof3-decomp",
+    "No",
+    "Matching decompilation of Breath of Fire III (US, PlayStation)."
+  ],
+  [
+    "pc",
+    "decomp",
+    "LuckyLuke00/sadx-decomp",
+    "https://github.com/LuckyLuke00/sadx-decomp",
+    "No",
+    "Matching decompilation of the 2014 Steam release of Sonic Adventure DX."
+  ],
+  [
+    "ps1",
+    "decomp",
+    "cdlewis/snowboardkidsplus-decomp",
+    "https://github.com/cdlewis/snowboardkidsplus-decomp",
+    "No",
+    "Matching decompilation of Snowboard Kids Plus (PSX)."
   ]
 ]

@@ -2133,5 +2133,54 @@
     "zh-TW": "把 Ghidra 反編譯出來的亂糟糟程式碼整理成乾淨、有命名空間的 C++ 原始碼，讓你可以真正編譯建置。",
     "ja": "Ghidra が吐き出すごちゃごちゃした逆コンパイル結果を、きれいに整理されたコンパイル可能な C++ ソースに変換します。",
     "ko": "Ghidra가 출력한 지저분한 디컴파일 코드를 깔끔하고 네임스페이스가 정리된 컴파일 가능한 C++ 소스로 바꿉니다."
+  },
+  "Lucas-blip-png/dkb-pc-recomp": {
+    "en": "Turns the closed-source Nintendo Switch 2 game Donkey Kong Bananza into a native Windows program by static recompilation. You need your own dump; currently reaches the tutorial.",
+    "zh-CN": "把闭源的任天堂 Switch 2 游戏《大金刚 香蕉狂欢》通过静态重编译做成能在 Windows 上原生运行的程序。需要自己的转储，目前能进教程。",
+    "zh-TW": "把閉源的任天堂 Switch 2 遊戲《大金剛 香蕉狂歡》透過靜態重編譯做成能在 Windows 上原生執行的程式。需要自己的轉儲，目前能進教學。",
+    "ja": "クローズドソースのニンテンドースイッチ2ゲーム『ドンキーコング バナンザ』を静的再コンパイルでネイティブWindowsプログラムにする。自分のダンプが必要、現在はチュートリアルまで。",
+    "ko": "폐쇄 소스인 닌텐도 스위치 2 게임 동키콩 바난자를 정적 재컴파일로 네이티브 Windows 프로그램으로 만듭니다. 자신의 덤프가 필요하며 현재는 튜토리얼까지 도달합니다."
+  },
+  "TheBozos/VP2S_Recomp": {
+    "en": "Native PC port of the closed-source PlayStation 2 game Valkyrie Profile 2: Silmeria by static recompilation. Bring your own disc; no game files included.",
+    "zh-CN": "把闭源的 PlayStation 2 游戏《女神侧写 2：希尔梅莉娅》通过静态重编译做成原生 PC 移植。需要自己的光盘，仓库不含游戏文件。",
+    "zh-TW": "把閉源的 PlayStation 2 遊戲《女神側寫 2：希爾梅莉婭》透過靜態重編譯做成原生 PC 移植。需要自己的光碟，倉庫不含遊戲檔案。",
+    "ja": "クローズドソースのプレイステーション2ゲーム『ヴァルキリープロファイル2 シルメリア』を静的再コンパイルでネイティブPC移植。自分のディスクが必要、ゲームファイルは含まず。",
+    "ko": "폐쇄 소스인 플레이스테이션 2 게임 발키리 프로파일 2: 실메리아를 정적 재컴파일로 네이티브 PC 포트로 만듭니다. 자신의 디스크가 필요하며 게임 파일은 포함되지 않습니다."
+  },
+  "MrJackSpade/SuperMetroidDecomp": {
+    "en": "C# reimplementation / source port of the closed-source SNES game Super Metroid, extracting assets from your own ROM for modern Windows and Android.",
+    "zh-CN": "把闭源的 SNES 游戏《超级银河战士》用 C# 重实现成源码移植，从你自己的 ROM 提取资源，支持现代 Windows 和 Android。",
+    "zh-TW": "把閉源的 SNES 遊戲《超級銀河戰士》用 C# 重實現成原始碼移植，從你自己的 ROM 提取資源，支援現代 Windows 和 Android。",
+    "ja": "クローズドソースのSNESゲーム『スーパーメトロイド』をC#で再実装したソースポート。自分のROMからアセットを抽出し、モダンなWindowsとAndroidで動作。",
+    "ko": "폐쇄 소스인 SNES 게임 슈퍼 메트로이드를 C#으로 재구현한 소스 포트입니다. 자신의 ROM에서 자산을 추출하여 최신 Windows와 Android에서 실행됩니다."
+  },
+  "dev-camo/shadow-decomp": {
+    "en": "Work-in-progress matching decompilation of the closed-source GameCube game Shadow the Hedgehog. Requires your own copy of the game.",
+    "zh-CN": "对闭源的 GameCube 游戏《刺猬夏特》进行的匹配反编译进行中项目。需要自己的游戏副本。",
+    "zh-TW": "對閉源的 GameCube 遊戲《刺蝟夏特》進行的匹配反編譯進行中專案。需要自己的遊戲副本。",
+    "ja": "クローズドソースのゲームキューブゲーム『シャドウ・ザ・ヘッジホッグ』のマッチング逆コンパイル進行中プロジェクト。自分のゲームコピーが必要。",
+    "ko": "폐쇄 소스인 게임큐브 게임 섀도우 더 헤지혹의 매칭 디컴파일 진행 중 프로젝트입니다. 자신의 게임 복사본이 필요합니다."
+  },
+  "raulcorreia7/bof3-decomp": {
+    "en": "Matching decompilation of the closed-source PlayStation game Breath of Fire III (US version).",
+    "zh-CN": "对闭源的 PlayStation 游戏《龙战士 III》（美版）进行的匹配反编译。",
+    "zh-TW": "對閉源的 PlayStation 遊戲《龍戰士 III》（美版）進行的匹配反編譯。",
+    "ja": "クローズドソースのプレイステーションゲーム『ブレス オブ ファイアIII』（北米版）のマッチング逆コンパイル。",
+    "ko": "폐쇄 소스인 플레이스테이션 게임 브레스 오브 파이어 III (북미판)의 매칭 디컴파일입니다."
+  },
+  "LuckyLuke00/sadx-decomp": {
+    "en": "Matching decompilation of the closed-source 2014 Steam release of Sonic Adventure DX, aiming for byte-identical machine code.",
+    "zh-CN": "对闭源的 2014 年 Steam 版《索尼克大冒险 DX》进行的匹配反编译，目标是机器码逐字节一致。",
+    "zh-TW": "對閉源的 2014 年 Steam 版《音速小子大冒險 DX》進行的匹配反編譯，目標是機器碼逐位元組一致。",
+    "ja": "クローズドソースの2014年Steam版『ソニックアドベンチャーDX』のマッチング逆コンパイル、マシンコードがバイト単位で一致することを目指す。",
+    "ko": "폐쇄 소스인 2014년 스팀 릴리스 소닉 어드벤처 DX의 매칭 디컴파일로, 바이트 단위로 동일한 기계어를 목표로 합니다."
+  },
+  "cdlewis/snowboardkidsplus-decomp": {
+    "en": "Matching decompilation of the closed-source PlayStation game Snowboard Kids Plus.",
+    "zh-CN": "对闭源的 PlayStation 游戏《滑雪板小子 Plus》进行的匹配反编译。",
+    "zh-TW": "對閉源的 PlayStation 遊戲《滑雪板小子 Plus》進行的匹配反編譯。",
+    "ja": "クローズドソースのプレイステーションゲーム『スノーボードキッズプラス』のマッチング逆コンパイル。",
+    "ko": "폐쇄 소스인 플레이스테이션 게임 스노보드 키즈 플러스의 매칭 디컴파일입니다."
   }
 }
